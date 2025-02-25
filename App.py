@@ -2,7 +2,7 @@ from flask import Flask, render_template, jsonify
 import json
 import subprocess
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='docs')  # Updated to use 'docs' instead of 'templates'
 
 @app.route('/')
 def index():
@@ -19,9 +19,7 @@ def personal_stats():
 @app.route('/get_locks')
 def get_locks():
     try:
-        # Run locks.py to update progress and generate picks.json
         subprocess.run(['python', 'locks.py'], check=True)
-        # Load and return the picks.json data
         with open('picks.json', 'r') as file:
             data = json.load(file)
         return jsonify(data)
@@ -37,7 +35,6 @@ def progress():
     except Exception:
         return jsonify({"progress": 0, "message": "Not started"}), 200
 
-# New route to serve selections.json from the "selections" folder
 @app.route('/get_selections')
 def get_selections():
     try:
@@ -47,7 +44,6 @@ def get_selections():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-# New route to return the current content of picks.json
 @app.route('/get_picks')
 def get_picks():
     try:
@@ -56,6 +52,6 @@ def get_picks():
         return jsonify(data)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-    
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=3000, threaded=True)
