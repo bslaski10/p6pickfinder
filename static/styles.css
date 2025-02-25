@@ -1,0 +1,132 @@
+body {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.parlay-box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+
+.progress-container {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.progress {
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  height: 30px;
+  width: 100%;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: #4caf50;
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.section {
+  width: 45%;
+}
+
+#toggleOddsBtn {
+  margin: 10px;
+}
+
+
+/* Build Your Own Parlay Page Layout */
+.parlay-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.available-picks, .created-parlay {
+  width: 48%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Style for individual selection boxes */
+.selection-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+/* Add and remove buttons */
+.add-button, .remove-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.remove-button {
+  background-color: #f44336;
+}
+
+/* Dropdown Menu styling (if not already present) */
+.dropdown {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

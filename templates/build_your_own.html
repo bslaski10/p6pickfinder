@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Build Your Own Parlay</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <!-- Dropdown Menu (optional – same as in index.html) -->
+  <div class="dropdown">
+    <button class="dropbtn">☰ Menu</button>
+    <div class="dropdown-content">
+      <a href="/">Main</a>
+      <a href="/build-your-own">Build Your Own</a>
+      <a href="/personal-stats">Personal Stats</a>
+    </div>
+  </div>
+
+  <h1>Build Your Own Parlay</h1>
+  <div class="parlay-container">
+    <!-- Left side: Available Picks -->
+    <div class="available-picks">
+      <h2>Available Picks</h2>
+      <div id="available-picks-list">
+        <!-- Each pick will be rendered here as a horizontal box with a plus button -->
+      </div>
+    </div>
+    <!-- Right side: Created Parlay -->
+    <div class="created-parlay">
+      <h2>Created Parlay</h2>
+      <div id="created-parlay-list">
+        <!-- Up to three selections will appear here with an X button -->
+      </div>
+    </div>
+  </div>
+  
+  <script src="{{ url_for('static', filename='js/build_your_own.js') }}"></script>
+</body>
+</html>
