@@ -33,6 +33,7 @@ urls = {
     "ar": ("Assists + Rebounds", "https://pick6.draftkings.com/?sport=NBA&stat=AST%2BREB"),
     "turnovers": ("Turnovers", "https://pick6.draftkings.com/?sport=NBA&stat=TO"),
     "blocks": ("Blocks", "https://pick6.draftkings.com/?sport=NBA&stat=BLK"),
+    "sb": ("Steals + Blocks", "https://pick6.draftkings.com/?stat=STL%2BBLK")
 }
 
 # Function to clear all stats JSON files (set to empty list)
