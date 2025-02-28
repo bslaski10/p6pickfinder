@@ -1,6 +1,8 @@
 from flask import Flask, render_template, jsonify, send_from_directory
 import json
 import subprocess
+import os
+
 
 app = Flask(__name__, template_folder='docs')  # Updated to use 'docs' instead of 'templates'
 
@@ -63,4 +65,5 @@ def serve_selections(filename):
     return send_from_directory('selections', filename)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=3000, threaded=True)
+    port = int(os.environ.get('PORT', 3000))  # Use Render's assigned port
+    app.run(debug=True, host='0.0.0.0', port=port, threaded=True)
