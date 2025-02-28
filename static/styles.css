@@ -17,7 +17,7 @@ body {
   border: 1px solid #ddd;
   padding: 10px;
   margin: 10px 0;
-  background: #ffe96e;
+  background: #ffb703;
   border-radius: 5px;
 }
 
@@ -100,8 +100,8 @@ body {
 /* Dropdown Menu styling for non-index pages */
 .dropdown {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 25px;
+  left: 20px;
 }
 
 .dropbtn {
@@ -175,24 +175,33 @@ body {
 .square {
   padding: 20px;
   color: white;
-  border-radius: 10px;
+  border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Warm Color Palette for Squares */
+/* Basketball & Gambling-Inspired Color Palette */
 #square1 {
-  background-color: #ff6f61; /* coral */
+  background-color: #e63946; /* Fiery Red – Represents intensity & action */
 }
 #square2 {
-  background-color: #ffcc5c; /* warm yellow */
-  color: #333;
+  background-color: #ffb703; /* Golden Yellow – Like the color of a basketball & money */
+  color: #222; /* Dark text for readability */
 }
 #square3 {
-  background-color: #ff9a8d; /* soft red/pink */
+  background-color: #1d3557; /* Deep Court Blue – Inspired by NBA team colors */
 }
 #square4 {
-  background-color: #f6d365; /* warm gold */
-  color: #333;
+  background-color: #06d6a0; /* Casino Green – Inspired by gambling tables */
+  color: #222;
+}
+#square5 {
+  background-color: #d028d6; /* Purple */
+  color: #ffffff;
+}
+#square6 {
+  background-color: #f77f00; /* Bright Orange – Energy & the color of a basketball */
+  color: #222;
 }
 
 /* Hover & Active Effects for Squares */
@@ -215,4 +224,49 @@ footer {
 
 .disclaimer {
   margin: 0;
+}
+
+
+/* ===================== */
+/* Main Page (index.html) Specific Overrides */
+/* ===================== */
+/* Main Page (index.html) Specific Overrides */
+/* Index Page Overrides */
+/* Reduce gap between header and dropdown for index page */
+/* Remove default margins/padding from header and h1 */
+body.index-page header {
+  margin: 0;
+  padding: 0;
+}
+body.index-page header h1 {
+  margin: 0;
+  padding: 0;
+  /* Optionally add a small bottom margin if you want a tiny gap */
+  margin-bottom: -10px;
+}
+
+/* Adjust dropdown positioning for index page */
+body.index-page .dropdown {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 0;
+  width: 80%;
+  max-width: 720px;
+  text-align: center;
+  transform: translateX(-2%);  /* Shift 10px to the left */
+}
+
+body.index-page .dropbtn {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+}
+
+/* Optionally, adjust the dropdown content if needed */
+body.index-page .dropdown-content {
+  position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }

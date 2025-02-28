@@ -5,8 +5,12 @@
   <title>Pick6 Lock Machine</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
-<body>
-  <!-- Dropdown Menu -->
+<body class="index-page">
+  <header>
+    <h1>Pick6 Lock Machine</h1>
+  </header>
+
+  <!-- Centered Dropdown Menu for Index Page -->
   <div class="dropdown">
     <button class="dropbtn">☰ Menu</button>
     <div class="dropdown-content">
@@ -17,27 +21,31 @@
     </div>
   </div>
 
-  <header>
-    <h1>Pick6 Lock Machine</h1>
-  </header>
-
   <!-- Four Connected Colored Squares -->
   <div class="squares-container">
     <div class="square" id="square1">
-      <h2>Section 1</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h2>What Is This?</h2>
+      <p>This is a service for the app Pick 6 that shows which picks have the highest odds of winning for available player props. Helping users make more informed betting decisions.</p>
     </div>
     <div class="square" id="square2">
-      <h2>Section 2</h2>
-      <p>Nullam sit amet massa nec justo fermentum vestibulum.</p>
+      <h2>How Does It Work?</h2>
+      <p>This works by analyzing available player props and calculating implied odds based on sportsbook lines. The system then identifies the picks with the best probability of winning using statistical models and real-time data.</p>
     </div>
     <div class="square" id="square3">
-      <h2>Section 3</h2>
-      <p>Sed at leo nec erat semper convallis in a lacus.</p>
+      <h2>Features Included</h2>
+      <p>This service provides premade parlays that show 2-leg and 3-leg parlays with the best odds, a "build your own" parlay creator for custom selections, and a page displaying personal results.</p>
     </div>
     <div class="square" id="square4">
-      <h2>Section 4</h2>
-      <p>Praesent vitae nisi ut lorem tincidunt malesuada.</p>
+      <h2>Implied/Vig Odds & Edge</h2>
+      <p>We calculate implied probabilities and betting edge to show users whether a bet is truly valuable. Vig odds take into account the built-in margin from the sportsbook, but the potential for bonus payouts on Pick6 outweighs this, so I recommend using implied odds.</p>
+    </div>
+    <div class="square" id="square5">
+      <h2>Scan Feature</h2>
+      <p>The scan feature displays the last update time of the data. If the scan button is pressed, some features might temporarily disable—refresh your page to fix this.</p>
+    </div>
+    <div class="square" id="square6">
+      <h2>Try It Out For Free</h2>
+      <p>You can try it out for free by using this <a href="https://pick6.draftkings.com/r/psx/NYSportsFan804/US-PSX" target="_blank">link for Pick6</a>. After depositing, you can withdraw your deposit and play with promotion funds, providing a zero-risk, stress-free way to bet on sports.</p>
     </div>
   </div>
 
