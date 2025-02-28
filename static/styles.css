@@ -166,7 +166,7 @@ body {
 /* Four Connected Colored Squares */
 /* Main Page (index.html) Specific Styles */
 
-/* Four Connected Colored Squares */
+/* Six Connected Colored Squares */
 .squares-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Default to 2 squares side by side */
@@ -175,13 +175,19 @@ body {
   margin: 30px auto;
 }
 
-/* Media query to adjust layout for smaller screens */
-@media (max-width: 600px) {
+/* Media query for small screens in portrait mode (vertical) */
+@media (max-width: 600px) and (orientation: portrait) {
   .squares-container {
-    grid-template-columns: 1fr; /* Display 1 square per row on smaller screens */
+    grid-template-columns: 1fr; /* Display 1 square per row on portrait orientation */
   }
 }
 
+/* Media query for small screens in landscape mode (horizontal) */
+@media (max-width: 600px) and (orientation: landscape) {
+  .squares-container {
+    grid-template-columns: repeat(2, 1fr); /* Display 2 squares per row on landscape orientation */
+  }
+}
 
 .square {
   padding: 20px;
