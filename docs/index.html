@@ -11,39 +11,42 @@
     <button class="dropbtn">☰ Menu</button>
     <div class="dropdown-content">
       <a href="/">Main</a>
+      <a href="/premade">Premade Parlays</a>
       <a href="/build-your-own">Build Your Own</a>
       <a href="/personal-stats">Personal Stats</a>
     </div>
   </div>
 
-  <h1>Pick6 Lock Machine</h1>
+  <header>
+    <h1>Pick6 Lock Machine</h1>
+  </header>
 
-  <button id="scanBtn" class="btn btn-primary" onclick="scanLocks()">Scan</button>
-  <button id="toggleOddsBtn" class="btn btn-secondary" onclick="toggleOdds()">Show Vig Odds</button>
-  <p id="last-update">Most Recent Stat Update: Loading...</p>
-
-  <div class="progress-container">
-    <div class="progress">
-        <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+  <!-- Four Connected Colored Squares -->
+  <div class="squares-container">
+    <div class="square" id="square1">
+      <h2>Section 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
-    <p id="progress-message"></p>
+    <div class="square" id="square2">
+      <h2>Section 2</h2>
+      <p>Nullam sit amet massa nec justo fermentum vestibulum.</p>
+    </div>
+    <div class="square" id="square3">
+      <h2>Section 3</h2>
+      <p>Sed at leo nec erat semper convallis in a lacus.</p>
+    </div>
+    <div class="square" id="square4">
+      <h2>Section 4</h2>
+      <p>Praesent vitae nisi ut lorem tincidunt malesuada.</p>
+    </div>
   </div>
 
-  <div class="columns">
-    <div class="section">
-      <h3>2-Leggers</h3>
-      <div id="two-leggers"></div>
-    </div>
-    <div class="section">
-      <h3>3-Leggers</h3>
-      <div id="three-leggers"></div>
-    </div>
-  </div>
+  <footer>
+    <p class="disclaimer">This is not financial advice.</p>
+  </footer>
 
-  <script src="{{ url_for('static', filename='js/progress.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/scan.js') }}"></script>
+  <!-- JavaScript Files -->
+  <script src="{{ url_for('static', filename='js/fun.js') }}"></script>
   <script src="{{ url_for('static', filename='js/dropdown.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/load_picks.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/time.js') }}"></script> <!-- Loads time.json -->
 </body>
 </html>

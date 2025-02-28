@@ -8,6 +8,10 @@ app = Flask(__name__, template_folder='docs')  # Updated to use 'docs' instead o
 def index():
     return render_template('index.html')
 
+@app.route('/premade')
+def premade():
+    return render_template('premade.html')
+
 @app.route('/build-your-own')
 def build_your_own():
     return render_template('build_your_own.html')
@@ -57,7 +61,6 @@ def get_picks():
 @app.route('/selections/<path:filename>')
 def serve_selections(filename):
     return send_from_directory('selections', filename)
-
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=3000, threaded=True)

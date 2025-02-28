@@ -1,14 +1,23 @@
+/* ===================== */
+/* Global Styles         */
+/* ===================== */
 body {
+  margin: 0;
   text-align: center;
   padding: 20px;
-  font-family: Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
 }
 
+/* ===================== */
+/* Existing Parlay & Other Pages Styles */
+/* ===================== */
 .parlay-box {
   border: 1px solid #ddd;
   padding: 10px;
   margin: 10px 0;
-  background: #f9f9f9;
+  background: #ffe44d;
   border-radius: 5px;
 }
 
@@ -46,7 +55,6 @@ body {
 #toggleOddsBtn {
   margin: 10px;
 }
-
 
 /* Build Your Own Parlay Page Layout */
 .parlay-container {
@@ -89,7 +97,7 @@ body {
   background-color: #f44336;
 }
 
-/* Dropdown Menu styling (if not already present) */
+/* Dropdown Menu styling for non-index pages */
 .dropdown {
   position: absolute;
   top: 10px;
@@ -97,10 +105,10 @@ body {
 }
 
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #fc9403;
   color: white;
-  padding: 10px;
-  font-size: 16px;
+  padding: 18px;
+  font-size: 18px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -131,10 +139,80 @@ body {
   display: block;
 }
 
-.personal-stats-container { display: flex; gap: 20px; }
+/* Other Existing Styles */
+.personal-stats-container { 
+  display: flex; 
+  gap: 20px; 
+}
     
-.parlays-section, .graph-section { flex: 1; }
+.parlays-section, .graph-section { 
+  flex: 1; 
+}
     
-.filter-buttons button { margin-right: 5px; padding: 5px 10px; }
+.filter-buttons button { 
+  margin-right: 5px; 
+  padding: 5px 10px; 
+}
     
-.parlay-item { border: 1px solid #ccc; margin-bottom: 10px; padding: 10px; }
+.parlay-item { 
+  border: 1px solid #ccc; 
+  margin-bottom: 10px; 
+  padding: 10px; 
+}
+
+
+/* Main Page (index.html) Specific Styles */
+
+/* Four Connected Colored Squares */
+.squares-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.square {
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Warm Color Palette for Squares */
+#square1 {
+  background-color: #ff6f61; /* coral */
+}
+#square2 {
+  background-color: #ffcc5c; /* warm yellow */
+  color: #333;
+}
+#square3 {
+  background-color: #ff9a8d; /* soft red/pink */
+}
+#square4 {
+  background-color: #f6d365; /* warm gold */
+  color: #333;
+}
+
+/* Hover & Active Effects for Squares */
+.square:hover {
+  transform: scale(1.05);
+}
+
+.square.active {
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Main Page Footer */
+footer {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.disclaimer {
+  margin: 0;
+}

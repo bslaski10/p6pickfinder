@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pick6 Lock Machine</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <!-- Dropdown Menu -->
+  <div class="dropdown">
+    <button class="dropbtn">☰ Menu</button>
+    <div class="dropdown-content">
+      <a href="/">Main</a>
+      <a href="/premade">Premade Parlays</a>
+      <a href="/build-your-own">Build Your Own</a>
+      <a href="/personal-stats">Personal Stats</a>
+    </div>
+  </div>
+
+  <h1>Pick6 Lock Machine</h1>
+
+  <button id="scanBtn" class="btn btn-primary" onclick="scanLocks()">Scan</button>
+  <button id="toggleOddsBtn" class="btn btn-secondary" onclick="toggleOdds()">Show Vig Odds</button>
+  <p id="last-update">Most Recent Stat Update: Loading...</p>
+
+  <div class="progress-container">
+    <div class="progress">
+        <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <p id="progress-message"></p>
+  </div>
+
+  <div class="columns">
+    <div class="section">
+      <h3>2-Leggers</h3>
+      <div id="two-leggers"></div>
+    </div>
+    <div class="section">
+      <h3>3-Leggers</h3>
+      <div id="three-leggers"></div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/progress.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/scan.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/dropdown.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/load_picks.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/time.js') }}"></script> <!-- Loads time.json -->
+</body>
+</html>

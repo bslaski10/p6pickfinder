@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
         filteredParlays.forEach(parlay => {
             const parlayDiv = document.createElement("div");
             parlayDiv.classList.add("parlay-item");
-            parlayDiv.style.backgroundColor = parlay.result === "win" ? "#d4edda" : "#f8d7da"; // Green for win, red for loss
+            parlayDiv.style.backgroundColor = parlay.result === "win" ? "#80ff63" : "#ff7663"; // Green for win, red for loss
 
             let legsHtml = "<ul>";
             parlay.legs.forEach(leg => legsHtml += `<li>${leg}</li>`);

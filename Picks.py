@@ -18,10 +18,14 @@ def convert_to_decimal(american_odds):
     else:
         return 1 + (american_odds / 100)
 
+# Function to normalize minus signs in odds strings
+def normalize_minus_sign(odds_str):
+    return odds_str.replace('−', '-').replace('âˆ’', '-').replace('\u00e2\u02c6\u2019', '-')
+
 # Helper function: Calculate parlay odds (in American format) for a list of selection strings
 def calculate_parlay_odds(odds_list):
-    # Convert each selection's American odds to decimal odds.
-    decimal_odds = [convert_to_decimal(int(selection.split()[-1])) for selection in odds_list]
+    # Convert each selection's American odds (assumed to be the 3rd element when splitting by ", ") to decimal odds.
+    decimal_odds = [convert_to_decimal(int(normalize_minus_sign(selection.split(", ")[2]))) for selection in odds_list]
     total_decimal = 1
     for odd in decimal_odds:
         total_decimal *= odd
@@ -39,7 +43,7 @@ def calculate_implied_odds(american_odds):
     if american_odds > 0:
         probability = 100 / (american_odds + 100)
     else:
-        probability = abs(american_odds) / (abs(odds) + 100)
+        probability = abs(american_odds) / (abs(american_odds) + 100)
     return f"{probability * 100:.2f}%"
 
 # New helper function: Get numeric implied odds as a float (percentage value)
@@ -51,8 +55,8 @@ def get_implied_odds_value(american_odds):
     return probability * 100
 
 # Sort the selections by their numeric odds (lowest odds first)
-# (We ignore the '-' sign when comparing)
-sorted_selections = sorted(selections, key=lambda x: int(x.split()[-1].replace('-', '')))
+# (Assumes selection string format: "Name, type, odds, matchup, game time")
+sorted_selections = sorted(selections, key=lambda x: int(normalize_minus_sign(x.split(", ")[2])))
 
 # -----------------------------
 # Generate Parlays

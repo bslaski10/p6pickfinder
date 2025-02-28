@@ -45,8 +45,8 @@ function updateParlaysDisplay() {
 
         let parlayHTML = `<div class="parlay-box">
             ${parlay.parlay.map(pick => `<p>${pick}</p>`).join('')}
-            <p><strong>${oddsLabel}:</strong> ${oddsValue}</p>
-            <p><strong>${edgeLabel}:</strong> ${edgeValue}</p>
+            <p>${oddsLabel}:<strong>${oddsValue}</strong></p>
+            <p>${edgeLabel}:<strong>${edgeValue}</strong></p>
         </div>`;
 
         if (parlay.parlay.length === 2) {
