@@ -164,13 +164,24 @@ body {
 /* Main Page (index.html) Specific Styles */
 
 /* Four Connected Colored Squares */
+/* Main Page (index.html) Specific Styles */
+
+/* Four Connected Colored Squares */
 .squares-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); /* Default to 2 squares side by side */
   grid-gap: 10px;
   max-width: 800px;
   margin: 30px auto;
 }
+
+/* Media query to adjust layout for smaller screens */
+@media (max-width: 600px) {
+  .squares-container {
+    grid-template-columns: 1fr; /* Display 1 square per row on smaller screens */
+  }
+}
+
 
 .square {
   padding: 20px;
