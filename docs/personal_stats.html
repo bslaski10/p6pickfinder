@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Stats - Pick6 Lock Machine</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="dropdown">
+    <button class="dropbtn">☰ Menu</button>
+    <div class="dropdown-content">
+      <a href="/">Main</a>
+      <a href="/build-your-own">Build Your Own</a>
+      <a href="/personal-stats">Personal Stats</a>
+    </div>
+  </div>
+  
+  <h1>Personal Stats</h1>
+  <div class="parlay-container">
+    <div class="available-picks">
+      <h2>My Parlays</h2>
+      <div class="filter-buttons">
+        <button id="filter-all">All legs</button>
+        <button id="filter-2">2 legs</button>
+        <button id="filter-3">3 legs</button>
+      </div>
+      <div id="parlays-list"></div>
+    </div>
+    
+    <div class="created-parlay">
+      <h2>Profit/Loss Graph</h2>
+      <canvas id="profitChart"></canvas>
+
+<div id="stats" style="margin-top: 20px;">
+    <p id="total-profit">Total Profit: $0.00</p>
+    <p id="total-bets">Total Bets: 0</p>
+    <p id="amount-bet">Amount Bet: $0.00</p>
+    <p id="amount-won">Amount Won: $0.00</p>
+</div>
+
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/personal_stats.js') }}"></script>
+</body>
+</html>

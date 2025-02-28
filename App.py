@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, send_from_directory
 import json
 import subprocess
 
@@ -52,6 +52,12 @@ def get_picks():
         return jsonify(data)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+# NEW: Serve files from the selections folder (including time.json)
+@app.route('/selections/<path:filename>')
+def serve_selections(filename):
+    return send_from_directory('selections', filename)
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=3000, threaded=True)
