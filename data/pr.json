@@ -4,7 +4,7 @@
             "id": "2",
             "seoIdentifier": "Basketball",
             "name": "Basketball",
-            "sortOrder": 59
+            "sortOrder": 56
         }
     ],
     "leagues": [
@@ -20,11 +20,15 @@
                 "SGP",
                 "SgpDynamicOdds",
                 "YourBetEligible",
+                "Flashbet",
+                "LivePrePack",
                 "MatchTracker",
-                "ProgressiveParlayEligible",
                 "Scoreboard",
                 "Stats",
+                "ProgressiveParlayEligible",
                 "Featured",
+                "HasLiveEvents",
+                "LiveFeaturedSubcategory",
                 "FavoriteableFromPage"
             ],
             "isTeamSwap": true,
@@ -47,95 +51,12 @@
     ],
     "events": [
         {
-            "id": "31875382",
-            "seoIdentifier": "GS Warriors @ ORL Magic",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "GS Warriors @ ORL Magic",
-            "startEventDate": "2025-02-28T00:10:00.0000000Z",
-            "participants": [
-                {
-                    "id": "32945",
-                    "name": "ORL Magic",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "331",
-                        "rosettaTeamId": "32945",
-                        "shortName": "ORL",
-                        "teamColor": "#0077c0"
-                    },
-                    "sortOrder": 2
-                },
-                {
-                    "id": "32917",
-                    "name": "GS Warriors",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "330",
-                        "rosettaTeamId": "32917",
-                        "shortName": "GS",
-                        "teamColor": "#1d428a"
-                    },
-                    "sortOrder": 1
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "eventScorecard": {
-                "scorecardComponentId": 1
-            },
-            "media": [
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "52630627",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "52630627",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "52630627",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                }
-            ],
-            "tags": [
-                "FeaturedSubcategory",
-                "MatchTracker",
-                "PrePack",
-                "ProgressiveParlayEligible",
-                "ProgressiveParlayTeamEligible",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "29",
-                "numberOfParts": "4",
-                "secondsInOnePart": "720"
-            },
-            "sortOrder": 218737082,
-            "subscriptionKey": "league-events-42648"
-        },
-        {
             "id": "31875383",
             "seoIdentifier": "DEN Nuggets @ MIL Bucks",
             "sportId": "2",
             "leagueId": "42648",
             "name": "DEN Nuggets @ MIL Bucks",
-            "startEventDate": "2025-02-28T01:00:00.0000000Z",
+            "startEventDate": "2025-02-28T01:08:00.0000000Z",
             "participants": [
                 {
                     "id": "32933",
@@ -209,7 +130,7 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "720"
             },
-            "sortOrder": 218742083,
+            "sortOrder": 218742883,
             "subscriptionKey": "league-events-42648"
         },
         {
@@ -464,281 +385,6 @@
     ],
     "markets": [
         {
-            "id": "235650970",
-            "eventId": "31875382",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Franz Wagner Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 9,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875382|12670|2:126310",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235651005",
-            "eventId": "31875382",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Paolo Banchero Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 11,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875382|12670|2:153762",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235651020",
-            "eventId": "31875382",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Stephen Curry Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 15,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875382|12670|2:55150",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235650968",
-            "eventId": "31875382",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Jimmy Butler Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 19,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875382|12670|2:55181",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235650947",
-            "eventId": "31875382",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Brandin Podziemski Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 33,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875382|12670|2:128709",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235650962",
-            "eventId": "31875382",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Wendell Carter Jr. Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 37,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875382|12670|2:55782",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235650957",
-            "eventId": "31875382",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Moses Moody Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 39,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875382|12670|2:126297",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235651076",
-            "eventId": "31875382",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Cole Anthony Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 41,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875382|12670|2:101131",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235650981",
-            "eventId": "31875382",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Draymond Green Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 45,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875382|12670|2:55152",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235651061",
-            "eventId": "31875382",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Buddy Hield Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 46,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875382|12670|2:55242",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235650991",
-            "eventId": "31875382",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Kentavious Caldwell-Pope Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 53,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875382|12670|2:55871",
-            "dynamicMetadata": {}
-        },
-        {
             "id": "235652971",
             "eventId": "31875383",
             "sportId": "2",
@@ -801,7 +447,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 13,
+            "sortOrder": 12,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -826,7 +472,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 21,
+            "sortOrder": 14,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -851,7 +497,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 22,
+            "sortOrder": 17,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -876,7 +522,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 27,
+            "sortOrder": 19,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -886,31 +532,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "31875383|12670|2:55173",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235652959",
-            "eventId": "31875383",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Christian Braun Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 31,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875383|12670|2:132740",
             "dynamicMetadata": {}
         },
         {
@@ -926,7 +547,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 32,
+            "sortOrder": 24,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -936,6 +557,31 @@
                 "PlayerProps"
             ],
             "correlatedId": "31875383|12670|2:55213",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "235652959",
+            "eventId": "31875383",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Christian Braun Points + Rebounds O/U",
+            "subcategoryId": 9976,
+            "marketType": {
+                "id": "12670",
+                "betOfferTypeId": 0,
+                "name": "Points + Rebounds O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 25,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "31875383|12670|2:132740",
             "dynamicMetadata": {}
         },
         {
@@ -951,7 +597,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 35,
+            "sortOrder": 28,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -976,7 +622,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 38,
+            "sortOrder": 31,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1001,7 +647,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 47,
+            "sortOrder": 38,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1026,7 +672,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 50,
+            "sortOrder": 40,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1051,7 +697,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 51,
+            "sortOrder": 42,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1076,7 +722,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 55,
+            "sortOrder": 44,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1114,30 +760,6 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "235702743",
-            "eventId": "31875384",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "LaMelo Ball Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 14,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875384|12670|2:117247",
-            "dynamicMetadata": {}
-        },
-        {
             "id": "235702757",
             "eventId": "31875384",
             "sportId": "2",
@@ -1150,9 +772,8 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 16,
+            "sortOrder": 9,
             "tags": [
-                "SGP",
                 "YourBetEligible",
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -1160,31 +781,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "31875384|12670|2:55121",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235702775",
-            "eventId": "31875384",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "P.J. Washington Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 18,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875384|12670|2:55797",
             "dynamicMetadata": {}
         },
         {
@@ -1200,8 +796,9 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 20,
+            "sortOrder": 15,
             "tags": [
+                "SGP",
                 "YourBetEligible",
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -1224,7 +821,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 29,
+            "sortOrder": 23,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1249,7 +846,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 34,
+            "sortOrder": 26,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1259,6 +856,31 @@
                 "PlayerProps"
             ],
             "correlatedId": "31875384|12670|2:129727",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "235702706",
+            "eventId": "31875384",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Naji Marshall Points + Rebounds O/U",
+            "subcategoryId": 9976,
+            "marketType": {
+                "id": "12670",
+                "betOfferTypeId": 0,
+                "name": "Points + Rebounds O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 27,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "31875384|12670|2:118679",
             "dynamicMetadata": {}
         },
         {
@@ -1274,7 +896,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 40,
+            "sortOrder": 30,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -1283,6 +905,31 @@
                 "PlayerProps"
             ],
             "correlatedId": "31875384|12670|2:55204",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "235702666",
+            "eventId": "31875384",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Spencer Dinwiddie Points + Rebounds O/U",
+            "subcategoryId": 9976,
+            "marketType": {
+                "id": "12670",
+                "betOfferTypeId": 0,
+                "name": "Points + Rebounds O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 36,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "31875384|12670|2:55114",
             "dynamicMetadata": {}
         },
         {
@@ -1298,7 +945,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 54,
+            "sortOrder": 41,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -1397,7 +1044,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 17,
+            "sortOrder": 13,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1422,7 +1069,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 23,
+            "sortOrder": 16,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1432,31 +1079,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "31875385|12670|2:55237",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235680894",
-            "eventId": "31875385",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Bradley Beal Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 26,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875385|12670|2:55251",
             "dynamicMetadata": {}
         },
         {
@@ -1472,7 +1094,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 28,
+            "sortOrder": 21,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1497,7 +1119,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 36,
+            "sortOrder": 29,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1510,11 +1132,11 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "235680908",
+            "id": "235681011",
             "eventId": "31875385",
             "sportId": "2",
             "leagueId": "42648",
-            "name": "Jordan Hawkins Points + Rebounds O/U",
+            "name": "Royce O'Neale Points + Rebounds O/U",
             "subcategoryId": 9976,
             "marketType": {
                 "id": "12670",
@@ -1522,7 +1144,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 43,
+            "sortOrder": 32,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1531,7 +1153,7 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "31875385|12670|2:130349",
+            "correlatedId": "31875385|12670|2:58653",
             "dynamicMetadata": {}
         },
         {
@@ -1547,7 +1169,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 44,
+            "sortOrder": 33,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1560,11 +1182,36 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "235706473",
+            "id": "235680908",
+            "eventId": "31875385",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Jordan Hawkins Points + Rebounds O/U",
+            "subcategoryId": 9976,
+            "marketType": {
+                "id": "12670",
+                "betOfferTypeId": 0,
+                "name": "Points + Rebounds O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 34,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "31875385|12670|2:130349",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "235706499",
             "eventId": "31875386",
             "sportId": "2",
             "leagueId": "42648",
-            "name": "Anthony Edwards Points + Rebounds O/U",
+            "name": "Luka Doncic Points + Rebounds O/U",
             "subcategoryId": 9976,
             "marketType": {
                 "id": "12670",
@@ -1581,15 +1228,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "31875386|12670|2:117160",
+            "correlatedId": "31875386|12670|2:55134",
             "dynamicMetadata": {}
         },
         {
-            "id": "235706499",
+            "id": "235706473",
             "eventId": "31875386",
             "sportId": "2",
             "leagueId": "42648",
-            "name": "Luka Doncic Points + Rebounds O/U",
+            "name": "Anthony Edwards Points + Rebounds O/U",
             "subcategoryId": 9976,
             "marketType": {
                 "id": "12670",
@@ -1606,7 +1253,7 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "31875386|12670|2:55134",
+            "correlatedId": "31875386|12670|2:117160",
             "dynamicMetadata": {}
         },
         {
@@ -1647,7 +1294,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 12,
+            "sortOrder": 11,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1657,31 +1304,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "31875386|12670|2:101189",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "235706543",
-            "eventId": "31875386",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Jaden McDaniels Points + Rebounds O/U",
-            "subcategoryId": 9976,
-            "marketType": {
-                "id": "12670",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 24,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "31875386|12670|2:118673",
             "dynamicMetadata": {}
         },
         {
@@ -1697,7 +1319,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 25,
+            "sortOrder": 18,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1707,6 +1329,31 @@
                 "PlayerProps"
             ],
             "correlatedId": "31875386|12670|2:126329",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "235706543",
+            "eventId": "31875386",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Jaden McDaniels Points + Rebounds O/U",
+            "subcategoryId": 9976,
+            "marketType": {
+                "id": "12670",
+                "betOfferTypeId": 0,
+                "name": "Points + Rebounds O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 20,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "31875386|12670|2:118673",
             "dynamicMetadata": {}
         },
         {
@@ -1722,7 +1369,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 30,
+            "sortOrder": 22,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1747,7 +1394,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 42,
+            "sortOrder": 35,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1772,7 +1419,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 48,
+            "sortOrder": 37,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1797,7 +1444,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 49,
+            "sortOrder": 39,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1822,7 +1469,7 @@
                 "name": "Points + Rebounds O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 52,
+            "sortOrder": 43,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1841,11 +1488,11 @@
             "marketId": "235653004",
             "label": "Over",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.86956522,
             "points": 8.5,
             "outcomeType": "Over",
             "participants": [
@@ -1873,11 +1520,11 @@
             "marketId": "235653004",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.86956522,
             "points": 8.5,
             "outcomeType": "Under",
             "participants": [
@@ -1901,141 +1548,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA235650991#169418368_13L42648Q1-1251113712Q20",
-            "marketId": "235650991",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−130",
-                "decimal": "1.76",
-                "fractional": "10/13"
-            },
-            "trueOdds": 1.76923077,
-            "points": 9.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33123",
-                    "name": "Kentavious Caldwell-Pope",
-                    "type": "Player",
-                    "seoIdentifier": "Kentavious Caldwell-Pope",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 10.6
-                    }
-                }
-            ],
-            "sortOrder": 9500,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235702719#169563116_13L42648Q1-1251113712Q20",
-            "marketId": "235702719",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
-            },
-            "trueOdds": 1.8,
-            "points": 9.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "527227",
-                    "name": "Josh Green",
-                    "type": "Player",
-                    "seoIdentifier": "Josh Green",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 10.2
-                    }
-                }
-            ],
-            "sortOrder": 9500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235650991#169418369_15L42648Q1-677315056Q20",
-            "marketId": "235650991",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
-            },
-            "trueOdds": 2,
-            "points": 9.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33123",
-                    "name": "Kentavious Caldwell-Pope",
-                    "type": "Player",
-                    "seoIdentifier": "Kentavious Caldwell-Pope",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 10.6
-                    }
-                }
-            ],
-            "sortOrder": 9502,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235702719#169563117_15L42648Q1-677315056Q20",
-            "marketId": "235702719",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
-            },
-            "trueOdds": 1.95238096,
-            "points": 9.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "527227",
-                    "name": "Josh Green",
-                    "type": "Player",
-                    "seoIdentifier": "Josh Green",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 10.2
-                    }
-                }
-            ],
-            "sortOrder": 9502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA235652955#169341666_13L42648Q1-217749359Q20",
             "marketId": "235652955",
             "label": "Over",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.86956522,
             "points": 10.5,
             "outcomeType": "Over",
             "participants": [
@@ -2063,11 +1584,11 @@
             "marketId": "235652957",
             "label": "Over",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.8,
             "points": 10.5,
             "outcomeType": "Over",
             "participants": [
@@ -2091,15 +1612,46 @@
             "metadata": {}
         },
         {
+            "id": "0QA235702719#170035558_13L42648Q1-217749359Q20",
+            "marketId": "235702719",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 10.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "527227",
+                    "name": "Josh Green",
+                    "type": "Player",
+                    "seoIdentifier": "Josh Green",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 10.2
+                    }
+                }
+            ],
+            "sortOrder": 10500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA235706480#169623097_13L42648Q1-217749359Q20",
             "marketId": "235706480",
             "label": "Over",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.76923077,
             "points": 10.5,
             "outcomeType": "Over",
             "participants": [
@@ -2127,11 +1679,11 @@
             "marketId": "235706525",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.90909091,
             "points": 10.5,
             "outcomeType": "Over",
             "participants": [
@@ -2159,11 +1711,11 @@
             "marketId": "235652955",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.86956522,
             "points": 10.5,
             "outcomeType": "Under",
             "participants": [
@@ -2191,11 +1743,11 @@
             "marketId": "235652957",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.95238096,
             "points": 10.5,
             "outcomeType": "Under",
             "participants": [
@@ -2219,15 +1771,46 @@
             "metadata": {}
         },
         {
+            "id": "0QA235702719#170035559_15L42648Q1408683740Q20",
+            "marketId": "235702719",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 10.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "527227",
+                    "name": "Josh Green",
+                    "type": "Player",
+                    "seoIdentifier": "Josh Green",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 10.2
+                    }
+                }
+            ],
+            "sortOrder": 10502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA235706480#169623098_15L42648Q1408683740Q20",
             "marketId": "235706480",
             "label": "Under",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 2,
             "points": 10.5,
             "outcomeType": "Under",
             "participants": [
@@ -2255,11 +1838,11 @@
             "marketId": "235706525",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.83333334,
             "points": 10.5,
             "outcomeType": "Under",
             "participants": [
@@ -2287,11 +1870,11 @@
             "marketId": "235652983",
             "label": "Over",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.86956522,
             "points": 11.5,
             "outcomeType": "Over",
             "participants": [
@@ -2319,11 +1902,11 @@
             "marketId": "235706567",
             "label": "Over",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.83333334,
             "points": 11.5,
             "outcomeType": "Over",
             "participants": [
@@ -2351,11 +1934,11 @@
             "marketId": "235652983",
             "label": "Under",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.86956522,
             "points": 11.5,
             "outcomeType": "Under",
             "participants": [
@@ -2383,11 +1966,11 @@
             "marketId": "235706567",
             "label": "Under",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.90909091,
             "points": 11.5,
             "outcomeType": "Under",
             "participants": [
@@ -2411,8 +1994,8 @@
             "metadata": {}
         },
         {
-            "id": "0QA235651061#169426260_13L42648Q1-1836603691Q20",
-            "marketId": "235651061",
+            "id": "0QA235702666#169565741_13L42648Q1825135837Q20",
+            "marketId": "235702666",
             "label": "Over",
             "displayOdds": {
                 "american": "−105",
@@ -2420,81 +2003,17 @@
                 "fractional": "20/21"
             },
             "trueOdds": 1.95238096,
-            "points": 12.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33341",
-                    "name": "Buddy Hield",
-                    "type": "Player",
-                    "seoIdentifier": "Buddy Hield",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 14.9
-                    }
-                }
-            ],
-            "sortOrder": 12500,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235651061#169426261_15L42648Q1-1213898054Q20",
-            "marketId": "235651061",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
-            },
-            "trueOdds": 1.8,
-            "points": 12.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33341",
-                    "name": "Buddy Hield",
-                    "type": "Player",
-                    "seoIdentifier": "Buddy Hield",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 14.9
-                    }
-                }
-            ],
-            "sortOrder": 12502,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235650981#169212860_13L42648Q1825135837Q20",
-            "marketId": "235650981",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
             "points": 13.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "33052",
-                    "name": "Draymond Green",
+                    "id": "32905",
+                    "name": "Spencer Dinwiddie",
                     "type": "Player",
-                    "seoIdentifier": "Draymond Green",
+                    "seoIdentifier": "Spencer Dinwiddie",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 14.5
+                        "value": 12.5
                     }
                 }
             ],
@@ -2507,9 +2026,41 @@
             "metadata": {}
         },
         {
-            "id": "0QA235650981#169212862_15L42648Q1-381684222Q20",
-            "marketId": "235650981",
-            "label": "Under",
+            "id": "0QA235680908#169510978_13L42648Q1825135837Q20",
+            "marketId": "235680908",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
+            },
+            "trueOdds": 1.8,
+            "points": 13.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "713767",
+                    "name": "Jordan Hawkins",
+                    "type": "Player",
+                    "seoIdentifier": "Jordan Hawkins",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 13
+                    }
+                }
+            ],
+            "sortOrder": 13500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235706558#169650853_13L42648Q1825135837Q20",
+            "marketId": "235706558",
+            "label": "Over",
             "displayOdds": {
                 "american": "−120",
                 "decimal": "1.83",
@@ -2517,16 +2068,48 @@
             },
             "trueOdds": 1.83333334,
             "points": 13.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "33225",
+                    "name": "Nickeil Alexander-Walker",
+                    "type": "Player",
+                    "seoIdentifier": "Nickeil Alexander-Walker",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 12.4
+                    }
+                }
+            ],
+            "sortOrder": 13500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235702666#169565742_15L42648Q1-381684222Q20",
+            "marketId": "235702666",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
+            },
+            "trueOdds": 1.8,
+            "points": 13.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "33052",
-                    "name": "Draymond Green",
+                    "id": "32905",
+                    "name": "Spencer Dinwiddie",
                     "type": "Player",
-                    "seoIdentifier": "Draymond Green",
+                    "seoIdentifier": "Spencer Dinwiddie",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 14.5
+                        "value": 12.5
                     }
                 }
             ],
@@ -2539,80 +2122,17 @@
             "metadata": {}
         },
         {
-            "id": "0QA235651076#169436990_13L42648Q1-163847056Q20",
-            "marketId": "235651076",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
-            "points": 14.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "527225",
-                    "name": "Cole Anthony",
-                    "type": "Player",
-                    "seoIdentifier": "Cole Anthony",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 12.3
-                    }
-                }
-            ],
-            "sortOrder": 14500,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235702696#169569898_13L42648Q1-163847056Q20",
-            "marketId": "235702696",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
-            },
-            "trueOdds": 1.8,
-            "points": 14.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "713779",
-                    "name": "Nick Smith Jr.",
-                    "type": "Player",
-                    "seoIdentifier": "Nick Smith Jr.",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 10.4
-                    }
-                }
-            ],
-            "sortOrder": 14500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235680908#169440161_13L42648Q1-163847056Q20",
+            "id": "0QA235680908#169510979_15L42648Q1-381684222Q20",
             "marketId": "235680908",
-            "label": "Over",
+            "label": "Under",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 2,
-            "points": 14.5,
-            "outcomeType": "Over",
+            "trueOdds": 1.95238096,
+            "points": 13.5,
+            "outcomeType": "Under",
             "participants": [
                 {
                     "id": "713767",
@@ -2625,7 +2145,39 @@
                     }
                 }
             ],
-            "sortOrder": 14500,
+            "sortOrder": 13502,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235706558#169650854_15L42648Q1-381684222Q20",
+            "marketId": "235706558",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 13.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "33225",
+                    "name": "Nickeil Alexander-Walker",
+                    "type": "Player",
+                    "seoIdentifier": "Nickeil Alexander-Walker",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 12.4
+                    }
+                }
+            ],
+            "sortOrder": 13502,
             "tags": [
                 "MainPointLine",
                 "SGP"
@@ -2638,11 +2190,11 @@
             "marketId": "235681010",
             "label": "Over",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 2,
+            "trueOdds": 1.95238096,
             "points": 14.5,
             "outcomeType": "Over",
             "participants": [
@@ -2666,58 +2218,26 @@
             "metadata": {}
         },
         {
-            "id": "0QA235706558#169932027_13L42648Q1-163847056Q20",
-            "marketId": "235706558",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
-            },
-            "trueOdds": 1.95238096,
-            "points": 14.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33225",
-                    "name": "Nickeil Alexander-Walker",
-                    "type": "Player",
-                    "seoIdentifier": "Nickeil Alexander-Walker",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 12.4
-                    }
-                }
-            ],
-            "sortOrder": 14500,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235651076#169436991_15L42648Q11583982538Q20",
-            "marketId": "235651076",
+            "id": "0QA235681010#169594663_15L42648Q11583982538Q20",
+            "marketId": "235681010",
             "label": "Under",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.8,
             "points": 14.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "527225",
-                    "name": "Cole Anthony",
+                    "id": "591175",
+                    "name": "Jose Alvarado",
                     "type": "Player",
-                    "seoIdentifier": "Cole Anthony",
+                    "seoIdentifier": "Jose Alvarado",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 12.3
+                        "value": 12.4
                     }
                 }
             ],
@@ -2730,16 +2250,176 @@
             "metadata": {}
         },
         {
-            "id": "0QA235702696#169569899_15L42648Q11583982538Q20",
+            "id": "0QA235653008#169268651_13L42648Q11041376878Q20",
+            "marketId": "235653008",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 15.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "33068",
+                    "name": "Russell Westbrook",
+                    "type": "Player",
+                    "seoIdentifier": "Russell Westbrook",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 17.8
+                    }
+                }
+            ],
+            "sortOrder": 15500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235681011#169440361_13L42648Q11041376878Q20",
+            "marketId": "235681011",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 15.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "32840",
+                    "name": "Royce O'Neale",
+                    "type": "Player",
+                    "seoIdentifier": "Royce O'Neale",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 14.7
+                    }
+                }
+            ],
+            "sortOrder": 15500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235653008#169268652_15L42648Q1-402944218Q20",
+            "marketId": "235653008",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 15.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "33068",
+                    "name": "Russell Westbrook",
+                    "type": "Player",
+                    "seoIdentifier": "Russell Westbrook",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 17.8
+                    }
+                }
+            ],
+            "sortOrder": 15502,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235681011#169440362_15L42648Q1-402944218Q20",
+            "marketId": "235681011",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 15.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "32840",
+                    "name": "Royce O'Neale",
+                    "type": "Player",
+                    "seoIdentifier": "Royce O'Neale",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 14.7
+                    }
+                }
+            ],
+            "sortOrder": 15502,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235702696#170117809_13L42648Q12125799956Q20",
+            "marketId": "235702696",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 16.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "713779",
+                    "name": "Nick Smith Jr.",
+                    "type": "Player",
+                    "seoIdentifier": "Nick Smith Jr.",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 10.4
+                    }
+                }
+            ],
+            "sortOrder": 16500,
+            "tags": [
+                "MainPointLine",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235702696#170117812_15L42648Q1-61144153Q20",
             "marketId": "235702696",
             "label": "Under",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.95238096,
-            "points": 14.5,
+            "trueOdds": 1.90909091,
+            "points": 16.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -2753,298 +2433,9 @@
                     }
                 }
             ],
-            "sortOrder": 14502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235680908#169440162_15L42648Q11583982538Q20",
-            "marketId": "235680908",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−130",
-                "decimal": "1.76",
-                "fractional": "10/13"
-            },
-            "trueOdds": 1.76923077,
-            "points": 14.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "713767",
-                    "name": "Jordan Hawkins",
-                    "type": "Player",
-                    "seoIdentifier": "Jordan Hawkins",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 13
-                    }
-                }
-            ],
-            "sortOrder": 14502,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235681010#169594663_15L42648Q11583982538Q20",
-            "marketId": "235681010",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−130",
-                "decimal": "1.76",
-                "fractional": "10/13"
-            },
-            "trueOdds": 1.76923077,
-            "points": 14.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "591175",
-                    "name": "Jose Alvarado",
-                    "type": "Player",
-                    "seoIdentifier": "Jose Alvarado",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 12.4
-                    }
-                }
-            ],
-            "sortOrder": 14502,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235706558#169932028_15L42648Q11583982538Q20",
-            "marketId": "235706558",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
-            },
-            "trueOdds": 1.8,
-            "points": 14.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33225",
-                    "name": "Nickeil Alexander-Walker",
-                    "type": "Player",
-                    "seoIdentifier": "Nickeil Alexander-Walker",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 12.4
-                    }
-                }
-            ],
-            "sortOrder": 14502,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235650957#169212812_13L42648Q11041376878Q20",
-            "marketId": "235650957",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
-            },
-            "trueOdds": 1.95238096,
-            "points": 15.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "591015",
-                    "name": "Moses Moody",
-                    "type": "Player",
-                    "seoIdentifier": "Moses Moody",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 11.9
-                    }
-                }
-            ],
-            "sortOrder": 15500,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235653008#169268651_13L42648Q11041376878Q20",
-            "marketId": "235653008",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 15.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33068",
-                    "name": "Russell Westbrook",
-                    "type": "Player",
-                    "seoIdentifier": "Russell Westbrook",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 17.8
-                    }
-                }
-            ],
-            "sortOrder": 15500,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235650957#169212813_15L42648Q1-402944218Q20",
-            "marketId": "235650957",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
-            },
-            "trueOdds": 1.8,
-            "points": 15.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "591015",
-                    "name": "Moses Moody",
-                    "type": "Player",
-                    "seoIdentifier": "Moses Moody",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 11.9
-                    }
-                }
-            ],
-            "sortOrder": 15502,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235653008#169268652_15L42648Q1-402944218Q20",
-            "marketId": "235653008",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 15.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33068",
-                    "name": "Russell Westbrook",
-                    "type": "Player",
-                    "seoIdentifier": "Russell Westbrook",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 17.8
-                    }
-                }
-            ],
-            "sortOrder": 15502,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235650962#169424896_13L42648Q12125799956Q20",
-            "marketId": "235650962",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
-            },
-            "trueOdds": 1.8,
-            "points": 16.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "32972",
-                    "name": "Wendell Carter Jr.",
-                    "type": "Player",
-                    "seoIdentifier": "Wendell Carter Jr.",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 16.2
-                    }
-                }
-            ],
-            "sortOrder": 16500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235650962#169424897_15L42648Q1-61144153Q20",
-            "marketId": "235650962",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
-            },
-            "trueOdds": 1.95238096,
-            "points": 16.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "32972",
-                    "name": "Wendell Carter Jr.",
-                    "type": "Player",
-                    "seoIdentifier": "Wendell Carter Jr.",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 16.2
-                    }
-                }
-            ],
             "sortOrder": 16502,
             "tags": [
                 "MainPointLine",
-                "SGP",
                 "3rdFavorite"
             ],
             "main": true,
@@ -3055,11 +2446,11 @@
             "marketId": "235652996",
             "label": "Over",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.83333334,
             "points": 17.5,
             "outcomeType": "Over",
             "participants": [
@@ -3087,11 +2478,11 @@
             "marketId": "235680935",
             "label": "Over",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 1.86956522,
             "points": 17.5,
             "outcomeType": "Over",
             "participants": [
@@ -3119,11 +2510,11 @@
             "marketId": "235652996",
             "label": "Under",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 1.90909091,
             "points": 17.5,
             "outcomeType": "Under",
             "participants": [
@@ -3151,11 +2542,11 @@
             "marketId": "235680935",
             "label": "Under",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.86956522,
             "points": 17.5,
             "outcomeType": "Under",
             "participants": [
@@ -3179,73 +2570,8 @@
             "metadata": {}
         },
         {
-            "id": "0QA235650947#169212790_13L42648Q1-207779639Q20",
-            "marketId": "235650947",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 18.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "713772",
-                    "name": "Brandin Podziemski",
-                    "type": "Player",
-                    "seoIdentifier": "Brandin Podziemski",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 15
-                    }
-                }
-            ],
-            "sortOrder": 18500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235653011#169269039_13L42648Q1-207779639Q20",
-            "marketId": "235653011",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 18.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33270",
-                    "name": "Aaron Gordon",
-                    "type": "Player",
-                    "seoIdentifier": "Aaron Gordon",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 17.9
-                    }
-                }
-            ],
-            "sortOrder": 18500,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235702679#169567206_13L42648Q1-207779639Q20",
-            "marketId": "235702679",
+            "id": "0QA235702706#170276890_13L42648Q1-207779639Q20",
+            "marketId": "235702706",
             "label": "Over",
             "displayOdds": {
                 "american": "−110",
@@ -3257,13 +2583,13 @@
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "649581",
-                    "name": "Max Christie",
+                    "id": "535788",
+                    "name": "Naji Marshall",
                     "type": "Player",
-                    "seoIdentifier": "Max Christie",
+                    "seoIdentifier": "Naji Marshall",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 12.5
+                        "value": 15.2
                     }
                 }
             ],
@@ -3276,73 +2602,8 @@
             "metadata": {}
         },
         {
-            "id": "0QA235650947#169212792_15L42648Q11410479401Q20",
-            "marketId": "235650947",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 18.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "713772",
-                    "name": "Brandin Podziemski",
-                    "type": "Player",
-                    "seoIdentifier": "Brandin Podziemski",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 15
-                    }
-                }
-            ],
-            "sortOrder": 18502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235653011#169269040_15L42648Q11410479401Q20",
-            "marketId": "235653011",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 18.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33270",
-                    "name": "Aaron Gordon",
-                    "type": "Player",
-                    "seoIdentifier": "Aaron Gordon",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 17.9
-                    }
-                }
-            ],
-            "sortOrder": 18502,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235702679#169567207_15L42648Q11410479401Q20",
-            "marketId": "235702679",
+            "id": "0QA235702706#170276891_15L42648Q11410479401Q20",
+            "marketId": "235702706",
             "label": "Under",
             "displayOdds": {
                 "american": "−120",
@@ -3354,13 +2615,13 @@
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "649581",
-                    "name": "Max Christie",
+                    "id": "535788",
+                    "name": "Naji Marshall",
                     "type": "Player",
-                    "seoIdentifier": "Max Christie",
+                    "seoIdentifier": "Naji Marshall",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 12.5
+                        "value": 15.2
                     }
                 }
             ],
@@ -3405,6 +2666,71 @@
             "metadata": {}
         },
         {
+            "id": "0QA235653011#170163989_13L42648Q1-1351124606Q20",
+            "marketId": "235653011",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
+            },
+            "trueOdds": 1.95238096,
+            "points": 19.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "33270",
+                    "name": "Aaron Gordon",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Gordon",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 17.9
+                    }
+                }
+            ],
+            "sortOrder": 19500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235702679#169568243_13L42648Q1-1351124606Q20",
+            "marketId": "235702679",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
+            },
+            "trueOdds": 2,
+            "points": 19.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "649581",
+                    "name": "Max Christie",
+                    "type": "Player",
+                    "seoIdentifier": "Max Christie",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 12.5
+                    }
+                }
+            ],
+            "sortOrder": 19500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA235702714#169565771_13L42648Q1-1351124606Q20",
             "marketId": "235702714",
             "label": "Over",
@@ -3438,38 +2764,6 @@
             "metadata": {}
         },
         {
-            "id": "0QA235706533#169623087_13L42648Q1-1351124606Q20",
-            "marketId": "235706533",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 19.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "32883",
-                    "name": "Rui Hachimura",
-                    "type": "Player",
-                    "seoIdentifier": "Rui Hachimura",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 18.7
-                    }
-                }
-            ],
-            "sortOrder": 19500,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA235652959#169268650_15L42648Q1-353895201Q20",
             "marketId": "235652959",
             "label": "Under",
@@ -3497,6 +2791,71 @@
             "tags": [
                 "MainPointLine",
                 "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235653011#170163990_15L42648Q1-353895201Q20",
+            "marketId": "235653011",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
+            },
+            "trueOdds": 1.8,
+            "points": 19.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "33270",
+                    "name": "Aaron Gordon",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Gordon",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 17.9
+                    }
+                }
+            ],
+            "sortOrder": 19502,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235702679#169568244_15L42648Q1-353895201Q20",
+            "marketId": "235702679",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
+            },
+            "trueOdds": 1.76923077,
+            "points": 19.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "649581",
+                    "name": "Max Christie",
+                    "type": "Player",
+                    "seoIdentifier": "Max Christie",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 12.5
+                    }
+                }
+            ],
+            "sortOrder": 19502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -3535,47 +2894,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA235706533#169623088_15L42648Q1-353895201Q20",
-            "marketId": "235706533",
-            "label": "Under",
+            "id": "0QA235680909#169963702_13L42648Q1291125199Q20",
+            "marketId": "235680909",
+            "label": "Over",
             "displayOdds": {
                 "american": "−115",
                 "decimal": "1.86",
                 "fractional": "20/23"
             },
             "trueOdds": 1.86956522,
-            "points": 19.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "32883",
-                    "name": "Rui Hachimura",
-                    "type": "Player",
-                    "seoIdentifier": "Rui Hachimura",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 18.7
-                    }
-                }
-            ],
-            "sortOrder": 19502,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235680909#169963702_13L42648Q1291125199Q20",
-            "marketId": "235680909",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
             "points": 20.5,
             "outcomeType": "Over",
             "participants": [
@@ -3593,6 +2920,39 @@
             "sortOrder": 20500,
             "tags": [
                 "MainPointLine",
+                "SGP",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235706533#169625113_13L42648Q1291125199Q20",
+            "marketId": "235706533",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
+            },
+            "trueOdds": 2,
+            "points": 20.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "32883",
+                    "name": "Rui Hachimura",
+                    "type": "Player",
+                    "seoIdentifier": "Rui Hachimura",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 18.7
+                    }
+                }
+            ],
+            "sortOrder": 20500,
+            "tags": [
+                "MainPointLine",
                 "SGP"
             ],
             "main": true,
@@ -3603,11 +2963,11 @@
             "marketId": "235680909",
             "label": "Under",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.86956522,
             "points": 20.5,
             "outcomeType": "Under",
             "participants": [
@@ -3625,36 +2985,69 @@
             "sortOrder": 20502,
             "tags": [
                 "MainPointLine",
+                "SGP",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235706533#169625114_15L42648Q1-59455988Q20",
+            "marketId": "235706533",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
+            },
+            "trueOdds": 1.76923077,
+            "points": 20.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "32883",
+                    "name": "Rui Hachimura",
+                    "type": "Player",
+                    "seoIdentifier": "Rui Hachimura",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 18.7
+                    }
+                }
+            ],
+            "sortOrder": 20502,
+            "tags": [
+                "MainPointLine",
                 "SGP"
             ],
             "main": true,
             "metadata": {}
         },
         {
-            "id": "0QA235652958#169220303_13L42648Q1295512847Q20",
-            "marketId": "235652958",
+            "id": "0QA235706543#169650908_13L42648Q1354494853Q20",
+            "marketId": "235706543",
             "label": "Over",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.95238096,
-            "points": 22.5,
+            "trueOdds": 1.8,
+            "points": 21.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "33127",
-                    "name": "Kyle Kuzma",
+                    "id": "527235",
+                    "name": "Jaden McDaniels",
                     "type": "Player",
-                    "seoIdentifier": "Kyle Kuzma",
+                    "seoIdentifier": "Jaden McDaniels",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 21.3
+                        "value": 17.7
                     }
                 }
             ],
-            "sortOrder": 22500,
+            "sortOrder": 21500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -3664,8 +3057,41 @@
             "metadata": {}
         },
         {
-            "id": "0QA235680894#169440123_13L42648Q1295512847Q20",
-            "marketId": "235680894",
+            "id": "0QA235706543#169650910_15L42648Q1167554174Q20",
+            "marketId": "235706543",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
+            },
+            "trueOdds": 1.95238096,
+            "points": 21.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "527235",
+                    "name": "Jaden McDaniels",
+                    "type": "Player",
+                    "seoIdentifier": "Jaden McDaniels",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 17.7
+                    }
+                }
+            ],
+            "sortOrder": 21502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235652958#169220303_13L42648Q1295512847Q20",
+            "marketId": "235652958",
             "label": "Over",
             "displayOdds": {
                 "american": "−110",
@@ -3677,13 +3103,13 @@
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "32871",
-                    "name": "Bradley Beal",
+                    "id": "33127",
+                    "name": "Kyle Kuzma",
                     "type": "Player",
-                    "seoIdentifier": "Bradley Beal",
+                    "seoIdentifier": "Kyle Kuzma",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 21.7
+                        "value": 21.3
                     }
                 }
             ],
@@ -3701,11 +3127,11 @@
             "marketId": "235706523",
             "label": "Over",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.86956522,
             "points": 22.5,
             "outcomeType": "Over",
             "participants": [
@@ -3730,47 +3156,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA235706543#169915924_13L42648Q1295512847Q20",
-            "marketId": "235706543",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−130",
-                "decimal": "1.76",
-                "fractional": "10/13"
-            },
-            "trueOdds": 1.76923077,
-            "points": 22.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "527235",
-                    "name": "Jaden McDaniels",
-                    "type": "Player",
-                    "seoIdentifier": "Jaden McDaniels",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 17.7
-                    }
-                }
-            ],
-            "sortOrder": 22500,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA235652958#169220304_15L42648Q1852816742Q20",
             "marketId": "235652958",
             "label": "Under",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.83333334,
             "points": 22.5,
             "outcomeType": "Under",
             "participants": [
@@ -3795,48 +3189,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA235680894#169440124_15L42648Q1852816742Q20",
-            "marketId": "235680894",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
-            },
-            "trueOdds": 1.83333334,
-            "points": 22.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "32871",
-                    "name": "Bradley Beal",
-                    "type": "Player",
-                    "seoIdentifier": "Bradley Beal",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 21.7
-                    }
-                }
-            ],
-            "sortOrder": 22502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA235706523#169625143_15L42648Q1852816742Q20",
             "marketId": "235706523",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.86956522,
             "points": 22.5,
             "outcomeType": "Under",
             "participants": [
@@ -3861,47 +3222,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA235706543#169915925_15L42648Q1852816742Q20",
-            "marketId": "235706543",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
-            },
-            "trueOdds": 2,
-            "points": 22.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "527235",
-                    "name": "Jaden McDaniels",
-                    "type": "Player",
-                    "seoIdentifier": "Jaden McDaniels",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 17.7
-                    }
-                }
-            ],
-            "sortOrder": 22502,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA235653002#169268046_13L42648Q1-348401391Q20",
             "marketId": "235653002",
             "label": "Over",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.86956522,
             "points": 23.5,
             "outcomeType": "Over",
             "participants": [
@@ -3930,11 +3259,11 @@
             "marketId": "235680957",
             "label": "Over",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.86956522,
             "points": 23.5,
             "outcomeType": "Over",
             "participants": [
@@ -3963,11 +3292,11 @@
             "marketId": "235653002",
             "label": "Under",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 1.86956522,
             "points": 23.5,
             "outcomeType": "Under",
             "participants": [
@@ -3996,11 +3325,11 @@
             "marketId": "235680957",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.86956522,
             "points": 23.5,
             "outcomeType": "Under",
             "participants": [
@@ -4025,26 +3354,26 @@
             "metadata": {}
         },
         {
-            "id": "0QA235652993#169267281_13L42648Q12101114071Q20",
-            "marketId": "235652993",
+            "id": "0QA235702768#169888386_13L42648Q12101114071Q20",
+            "marketId": "235702768",
             "label": "Over",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.95238096,
             "points": 24.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "33019",
-                    "name": "Jamal Murray",
+                    "id": "649564",
+                    "name": "Mark Williams",
                     "type": "Player",
-                    "seoIdentifier": "Jamal Murray",
+                    "seoIdentifier": "Mark Williams",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 24.9
+                        "value": 24.5
                     }
                 }
             ],
@@ -4058,26 +3387,26 @@
             "metadata": {}
         },
         {
-            "id": "0QA235652993#169267282_15L42648Q11251409926Q20",
-            "marketId": "235652993",
+            "id": "0QA235702768#169888387_15L42648Q11251409926Q20",
+            "marketId": "235702768",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.8,
             "points": 24.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "33019",
-                    "name": "Jamal Murray",
+                    "id": "649564",
+                    "name": "Mark Williams",
                     "type": "Player",
-                    "seoIdentifier": "Jamal Murray",
+                    "seoIdentifier": "Mark Williams",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 24.9
+                        "value": 24.5
                     }
                 }
             ],
@@ -4091,156 +3420,26 @@
             "metadata": {}
         },
         {
-            "id": "0QA235650968#169599112_13L42648Q1-495312191Q20",
-            "marketId": "235650968",
+            "id": "0QA235652993#169220366_13L42648Q1236455410Q20",
+            "marketId": "235652993",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.86956522,
-            "points": 25.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33155",
-                    "name": "Jimmy Butler",
-                    "type": "Player",
-                    "seoIdentifier": "Jimmy Butler",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 22.7
-                    }
-                }
-            ],
-            "sortOrder": 25500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235702768#170097329_13L42648Q1-495312191Q20",
-            "marketId": "235702768",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
-            "points": 25.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "649564",
-                    "name": "Mark Williams",
-                    "type": "Player",
-                    "seoIdentifier": "Mark Williams",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 24.5
-                    }
-                }
-            ],
-            "sortOrder": 25500,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235650968#169599113_15L42648Q11482098832Q20",
-            "marketId": "235650968",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 25.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33155",
-                    "name": "Jimmy Butler",
-                    "type": "Player",
-                    "seoIdentifier": "Jimmy Butler",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 22.7
-                    }
-                }
-            ],
-            "sortOrder": 25502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235702768#170097330_15L42648Q11482098832Q20",
-            "marketId": "235702768",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
-            },
-            "trueOdds": 1.83333334,
-            "points": 25.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "649564",
-                    "name": "Mark Williams",
-                    "type": "Player",
-                    "seoIdentifier": "Mark Williams",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 24.5
-                    }
-                }
-            ],
-            "sortOrder": 25502,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235702775#169568319_13L42648Q1236455410Q20",
-            "marketId": "235702775",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.95238096,
             "points": 26.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "32950",
-                    "name": "P.J. Washington",
+                    "id": "33019",
+                    "name": "Jamal Murray",
                     "type": "Player",
-                    "seoIdentifier": "PJ Washington",
+                    "seoIdentifier": "Jamal Murray",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 22.3
+                        "value": 24.9
                     }
                 }
             ],
@@ -4254,26 +3453,26 @@
             "metadata": {}
         },
         {
-            "id": "0QA235702775#169568320_15L42648Q1-1089293629Q20",
-            "marketId": "235702775",
+            "id": "0QA235652993#169220368_15L42648Q1-1089293629Q20",
+            "marketId": "235652993",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.8,
             "points": 26.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "32950",
-                    "name": "P.J. Washington",
+                    "id": "33019",
+                    "name": "Jamal Murray",
                     "type": "Player",
-                    "seoIdentifier": "PJ Washington",
+                    "seoIdentifier": "Jamal Murray",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 22.3
+                        "value": 24.9
                     }
                 }
             ],
@@ -4353,48 +3552,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA235651020#169425487_13L42648Q1-610423916Q20",
-            "marketId": "235651020",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 28.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33049",
-                    "name": "Stephen Curry",
-                    "type": "Player",
-                    "seoIdentifier": "Stephen Curry",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 27.3
-                    }
-                }
-            ],
-            "sortOrder": 28500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA235653016#169520948_13L42648Q1-610423916Q20",
             "marketId": "235653016",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.90909091,
             "points": 28.5,
             "outcomeType": "Over",
             "participants": [
@@ -4414,71 +3580,6 @@
                 "MainPointLine",
                 "SGP",
                 "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235702757#169565744_13L42648Q1-610423916Q20",
-            "marketId": "235702757",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
-            "points": 28.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "32946",
-                    "name": "Miles Bridges",
-                    "type": "Player",
-                    "seoIdentifier": "Miles Bridges",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 27.6
-                    }
-                }
-            ],
-            "sortOrder": 28500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235702743#169566808_13L42648Q1-610423916Q20",
-            "marketId": "235702743",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 28.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "527219",
-                    "name": "LaMelo Ball",
-                    "type": "Player",
-                    "seoIdentifier": "LaMelo Ball",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 31.4
-                    }
-                }
-            ],
-            "sortOrder": 28500,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -4517,48 +3618,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA235651020#169425488_15L42648Q1753176687Q20",
-            "marketId": "235651020",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 28.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33049",
-                    "name": "Stephen Curry",
-                    "type": "Player",
-                    "seoIdentifier": "Stephen Curry",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 27.3
-                    }
-                }
-            ],
-            "sortOrder": 28502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA235653016#169520949_15L42648Q1753176687Q20",
             "marketId": "235653016",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.83333334,
             "points": 28.5,
             "outcomeType": "Under",
             "participants": [
@@ -4578,71 +3646,6 @@
                 "MainPointLine",
                 "SGP",
                 "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235702757#169565746_15L42648Q1753176687Q20",
-            "marketId": "235702757",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
-            },
-            "trueOdds": 1.83333334,
-            "points": 28.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "32946",
-                    "name": "Miles Bridges",
-                    "type": "Player",
-                    "seoIdentifier": "Miles Bridges",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 27.6
-                    }
-                }
-            ],
-            "sortOrder": 28502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235702743#169566809_15L42648Q1753176687Q20",
-            "marketId": "235702743",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 28.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "527219",
-                    "name": "LaMelo Ball",
-                    "type": "Player",
-                    "seoIdentifier": "LaMelo Ball",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 31.4
-                    }
-                }
-            ],
-            "sortOrder": 28502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -4681,26 +3684,26 @@
             "metadata": {}
         },
         {
-            "id": "0QA235651005#169212908_13L42648Q1-2083418793Q20",
-            "marketId": "235651005",
+            "id": "0QA235680988#169515975_13L42648Q1-2083418793Q20",
+            "marketId": "235680988",
             "label": "Over",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.86956522,
             "points": 30.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "649544",
-                    "name": "Paolo Banchero",
+                    "id": "33223",
+                    "name": "Zion Williamson",
                     "type": "Player",
-                    "seoIdentifier": "Paolo Banchero",
+                    "seoIdentifier": "Zion Williamson",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 30.1
+                        "value": 31.6
                     }
                 }
             ],
@@ -4708,32 +3711,32 @@
             "tags": [
                 "MainPointLine",
                 "SGP",
-                "2ndFavorite"
+                "1stFavorite"
             ],
             "main": true,
             "metadata": {}
         },
         {
-            "id": "0QA235651005#169212909_15L42648Q1-195950230Q20",
-            "marketId": "235651005",
+            "id": "0QA235680988#169515976_15L42648Q1-195950230Q20",
+            "marketId": "235680988",
             "label": "Under",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.86956522,
             "points": 30.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "649544",
-                    "name": "Paolo Banchero",
+                    "id": "33223",
+                    "name": "Zion Williamson",
                     "type": "Player",
-                    "seoIdentifier": "Paolo Banchero",
+                    "seoIdentifier": "Zion Williamson",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 30.1
+                        "value": 31.6
                     }
                 }
             ],
@@ -4741,14 +3744,14 @@
             "tags": [
                 "MainPointLine",
                 "SGP",
-                "2ndFavorite"
+                "1stFavorite"
             ],
             "main": true,
             "metadata": {}
         },
         {
-            "id": "0QA235650970#169212840_13L42648Q1-788208648Q20",
-            "marketId": "235650970",
+            "id": "0QA235702757#170329657_13L42648Q1-788208648Q20",
+            "marketId": "235702757",
             "label": "Over",
             "displayOdds": {
                 "american": "−110",
@@ -4760,20 +3763,19 @@
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "591008",
-                    "name": "Franz Wagner",
+                    "id": "32946",
+                    "name": "Miles Bridges",
                     "type": "Player",
-                    "seoIdentifier": "Franz Wagner",
+                    "seoIdentifier": "Miles Bridges",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 30.6
+                        "value": 27.6
                     }
                 }
             ],
             "sortOrder": 31500,
             "tags": [
                 "MainPointLine",
-                "SGP",
                 "1stFavorite"
             ],
             "main": true,
@@ -4784,11 +3786,11 @@
             "marketId": "235681001",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.8,
             "points": 31.5,
             "outcomeType": "Over",
             "participants": [
@@ -4813,41 +3815,8 @@
             "metadata": {}
         },
         {
-            "id": "0QA235680988#169516688_13L42648Q1-788208648Q20",
-            "marketId": "235680988",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
-            "points": 31.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33223",
-                    "name": "Zion Williamson",
-                    "type": "Player",
-                    "seoIdentifier": "Zion Williamson",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 31.6
-                    }
-                }
-            ],
-            "sortOrder": 31500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235650970#169212841_15L42648Q11617328352Q20",
-            "marketId": "235650970",
+            "id": "0QA235702757#170329658_15L42648Q11617328352Q20",
+            "marketId": "235702757",
             "label": "Under",
             "displayOdds": {
                 "american": "−120",
@@ -4859,20 +3828,19 @@
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "591008",
-                    "name": "Franz Wagner",
+                    "id": "32946",
+                    "name": "Miles Bridges",
                     "type": "Player",
-                    "seoIdentifier": "Franz Wagner",
+                    "seoIdentifier": "Miles Bridges",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 30.6
+                        "value": 27.6
                     }
                 }
             ],
             "sortOrder": 31502,
             "tags": [
                 "MainPointLine",
-                "SGP",
                 "1stFavorite"
             ],
             "main": true,
@@ -4883,11 +3851,11 @@
             "marketId": "235681001",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.95238096,
             "points": 31.5,
             "outcomeType": "Under",
             "participants": [
@@ -4912,48 +3880,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA235680988#169516689_15L42648Q11617328352Q20",
-            "marketId": "235680988",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
-            },
-            "trueOdds": 1.83333334,
-            "points": 31.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33223",
-                    "name": "Zion Williamson",
-                    "type": "Player",
-                    "seoIdentifier": "Zion Williamson",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 31.6
-                    }
-                }
-            ],
-            "sortOrder": 31502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA235706486#169624134_13L42648Q1-1872652522Q20",
             "marketId": "235706486",
             "label": "Over",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 1.90909091,
             "points": 32.5,
             "outcomeType": "Over",
             "participants": [
@@ -4982,11 +3917,11 @@
             "marketId": "235706486",
             "label": "Under",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.83333334,
             "points": 32.5,
             "outcomeType": "Under",
             "participants": [
@@ -5015,11 +3950,11 @@
             "marketId": "235680945",
             "label": "Over",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 1.90909091,
             "points": 33.5,
             "outcomeType": "Over",
             "participants": [
@@ -5048,11 +3983,11 @@
             "marketId": "235680945",
             "label": "Under",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.83333334,
             "points": 33.5,
             "outcomeType": "Under",
             "participants": [
@@ -5081,11 +4016,11 @@
             "marketId": "235702711",
             "label": "Over",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 1.90909091,
             "points": 34.5,
             "outcomeType": "Over",
             "participants": [
@@ -5103,7 +4038,8 @@
             "sortOrder": 34500,
             "tags": [
                 "MainPointLine",
-                "SGP"
+                "SGP",
+                "1stFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -5113,11 +4049,11 @@
             "marketId": "235702711",
             "label": "Under",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.83333334,
             "points": 34.5,
             "outcomeType": "Under",
             "participants": [
@@ -5135,38 +4071,6 @@
             "sortOrder": 34502,
             "tags": [
                 "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235706499#169624138_13L42648Q1-1291977500Q20",
-            "marketId": "235706499",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 35.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33005",
-                    "name": "Luka Doncic",
-                    "type": "Player",
-                    "seoIdentifier": "Luka Doncic",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 34.9
-                    }
-                }
-            ],
-            "sortOrder": 35500,
-            "tags": [
-                "MainPointLine",
                 "SGP",
                 "1stFavorite"
             ],
@@ -5178,11 +4082,11 @@
             "marketId": "235706473",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.95238096,
             "points": 35.5,
             "outcomeType": "Over",
             "participants": [
@@ -5198,39 +4102,6 @@
                 }
             ],
             "sortOrder": 35500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA235706499#169624139_15L42648Q1-520561625Q20",
-            "marketId": "235706499",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 35.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33005",
-                    "name": "Luka Doncic",
-                    "type": "Player",
-                    "seoIdentifier": "Luka Doncic",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 34.9
-                    }
-                }
-            ],
-            "sortOrder": 35502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -5244,11 +4115,11 @@
             "marketId": "235706473",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.8,
             "points": 35.5,
             "outcomeType": "Under",
             "participants": [
@@ -5273,8 +4144,8 @@
             "metadata": {}
         },
         {
-            "id": "0QA235653007#169268044_13L42648Q1803425999Q20",
-            "marketId": "235653007",
+            "id": "0QA235706499#169905790_13L42648Q11459158535Q20",
+            "marketId": "235706499",
             "label": "Over",
             "displayOdds": {
                 "american": "−110",
@@ -5282,7 +4153,73 @@
                 "fractional": "10/11"
             },
             "trueOdds": 1.90909091,
-            "points": 39.5,
+            "points": 36.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "33005",
+                    "name": "Luka Doncic",
+                    "type": "Player",
+                    "seoIdentifier": "Luka Doncic",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 34.9
+                    }
+                }
+            ],
+            "sortOrder": 36500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235706499#169905791_15L42648Q168839318Q20",
+            "marketId": "235706499",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 36.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "33005",
+                    "name": "Luka Doncic",
+                    "type": "Player",
+                    "seoIdentifier": "Luka Doncic",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 34.9
+                    }
+                }
+            ],
+            "sortOrder": 36502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA235653007#169220395_13L42648Q1-772305318Q20",
+            "marketId": "235653007",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 38.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -5296,7 +4233,7 @@
                     }
                 }
             ],
-            "sortOrder": 39500,
+            "sortOrder": 38500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -5306,16 +4243,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA235653007#169268045_15L42648Q11104042030Q20",
+            "id": "0QA235653007#169220397_15L42648Q1-1670899306Q20",
             "marketId": "235653007",
             "label": "Under",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.83333334,
-            "points": 39.5,
+            "trueOdds": 1.86956522,
+            "points": 38.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -5329,7 +4266,7 @@
                     }
                 }
             ],
-            "sortOrder": 39502,
+            "sortOrder": 38502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -5339,16 +4276,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA235652971#169892236_13L42648Q1537863243Q20",
+            "id": "0QA235652971#169650191_13L42648Q11924162083Q20",
             "marketId": "235652971",
             "label": "Over",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.90909091,
-            "points": 41.5,
+            "trueOdds": 1.83333334,
+            "points": 40.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -5362,7 +4299,7 @@
                     }
                 }
             ],
-            "sortOrder": 41500,
+            "sortOrder": 40500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -5372,16 +4309,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA235652971#169892237_15L42648Q11480561983Q20",
+            "id": "0QA235652971#169650192_15L42648Q1-1838766189Q20",
             "marketId": "235652971",
             "label": "Under",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.83333334,
-            "points": 41.5,
+            "trueOdds": 1.90909091,
+            "points": 40.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -5395,7 +4332,7 @@
                     }
                 }
             ],
-            "sortOrder": 41502,
+            "sortOrder": 40502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -5411,7 +4348,8 @@
             "name": "Game Lines",
             "sortOrder": 0,
             "tags": [
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -5428,6 +4366,60 @@
             "id": 518,
             "name": "Awards",
             "sortOrder": 4
+        },
+        {
+            "id": 1686,
+            "name": "Live Player Points",
+            "sortOrder": 5,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 1690,
+            "name": "Live Player Combos",
+            "sortOrder": 6,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 1688,
+            "name": "Live Player Rebounds",
+            "sortOrder": 7,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 1687,
+            "name": "Live Player Assists",
+            "sortOrder": 8,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 1689,
+            "name": "Live Player Threes",
+            "sortOrder": 9,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 1691,
+            "name": "Live Player Defense",
+            "sortOrder": 10,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
         },
         {
             "id": 1215,
@@ -5515,12 +4507,22 @@
             ]
         },
         {
+            "id": 697,
+            "name": "Flash Props",
+            "sortOrder": 28,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
             "id": 520,
             "name": "Halves",
             "sortOrder": 29,
             "tags": [
                 "MicroMarket",
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -5528,8 +4530,14 @@
             "name": "Quarters",
             "sortOrder": 30,
             "tags": [
-                "SGP"
+                "SGP",
+                "Live"
             ]
+        },
+        {
+            "id": 1682,
+            "name": "Game Threes",
+            "sortOrder": 31
         },
         {
             "id": 521,
@@ -5561,14 +4569,6 @@
         }
     ],
     "subcategories": [
-        {
-            "id": 13417,
-            "categoryId": 1017,
-            "name": "To Make The Playoffs",
-            "componentId": 29,
-            "sortOrder": 9730,
-            "tags": []
-        },
         {
             "id": 16435,
             "categoryId": 518,
@@ -5647,6 +4647,14 @@
             "name": "Play-In Performance",
             "componentId": 204,
             "sortOrder": 16248,
+            "tags": []
+        },
+        {
+            "id": 13417,
+            "categoryId": 1017,
+            "name": "To Make The Playoffs",
+            "componentId": 29,
+            "sortOrder": 9730,
             "tags": []
         },
         {
@@ -5871,7 +4879,8 @@
             "componentId": 255,
             "sortOrder": 5862,
             "tags": [
-                "Featured"
+                "Featured",
+                "Live"
             ]
         },
         {
@@ -5907,7 +4916,8 @@
             "tags": [
                 "ProgressiveParlayTeamEligible",
                 "Featured",
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -5918,8 +4928,25 @@
             "sortOrder": 4605,
             "tags": [
                 "Featured",
-                "SGP"
+                "SGP",
+                "Live"
             ]
+        },
+        {
+            "id": 10002,
+            "categoryId": 487,
+            "name": "Spread / Total",
+            "componentId": 204,
+            "sortOrder": 8652,
+            "tags": []
+        },
+        {
+            "id": 10004,
+            "categoryId": 487,
+            "name": "Moneyline / Total",
+            "componentId": 204,
+            "sortOrder": 9970,
+            "tags": []
         },
         {
             "id": 10067,
@@ -5930,6 +4957,667 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 10749,
+            "categoryId": 697,
+            "name": "Next Field Goal - Type",
+            "componentId": 29,
+            "sortOrder": 5986,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 10750,
+            "categoryId": 697,
+            "name": "Next Field Goal - Exact",
+            "componentId": 29,
+            "sortOrder": 5984,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 11471,
+            "categoryId": 522,
+            "name": "Moneyline (3-Way)",
+            "componentId": 30,
+            "sortOrder": 10031,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 12253,
+            "categoryId": 697,
+            "name": "Next Field Goal - Team",
+            "componentId": 29,
+            "sortOrder": 5985,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12254,
+            "categoryId": 697,
+            "name": "Next Field Goal - Player",
+            "componentId": 29,
+            "sortOrder": 6148,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12271,
+            "categoryId": 487,
+            "name": "3-Way Moneyline",
+            "componentId": 11,
+            "sortOrder": 12177,
+            "tags": []
+        },
+        {
+            "id": 12275,
+            "categoryId": 522,
+            "name": "Alt Total (Q3)",
+            "componentId": 12,
+            "sortOrder": 13189,
+            "tags": []
+        },
+        {
+            "id": 12276,
+            "categoryId": 522,
+            "name": "Alt Spread (Q3)",
+            "componentId": 12,
+            "sortOrder": 13190,
+            "tags": []
+        },
+        {
+            "id": 13201,
+            "categoryId": 487,
+            "name": "Alternate Total",
+            "componentId": 240,
+            "sortOrder": 4603,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 13202,
+            "categoryId": 487,
+            "name": "Alternate Spread",
+            "componentId": 240,
+            "sortOrder": 4601,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 13219,
+            "categoryId": 521,
+            "name": "Exact Margin",
+            "componentId": 202,
+            "sortOrder": 5155,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 13220,
+            "categoryId": 522,
+            "name": "End of 3Q Exact",
+            "componentId": 202,
+            "sortOrder": 15528,
+            "tags": []
+        },
+        {
+            "id": 13222,
+            "categoryId": 522,
+            "name": "End of 3Q Margin",
+            "componentId": 203,
+            "sortOrder": 15557,
+            "tags": []
+        },
+        {
+            "id": 13226,
+            "categoryId": 522,
+            "name": "3Q Margin",
+            "componentId": 202,
+            "sortOrder": 8624,
+            "tags": []
+        },
+        {
+            "id": 13227,
+            "categoryId": 522,
+            "name": "3Q Exact",
+            "componentId": 202,
+            "sortOrder": 8560,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 13228,
+            "categoryId": 520,
+            "name": "2H Exact",
+            "componentId": 202,
+            "sortOrder": 4615,
+            "tags": []
+        },
+        {
+            "id": 13798,
+            "categoryId": 697,
+            "name": "Xth Point - Exact",
+            "componentId": 29,
+            "sortOrder": 8256,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 13800,
+            "categoryId": 697,
+            "name": "Xth Point - Method",
+            "componentId": 29,
+            "sortOrder": 9953,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 13803,
+            "categoryId": 522,
+            "name": "4Q Exact [incl OT]",
+            "componentId": 202,
+            "sortOrder": 16516,
+            "tags": []
+        },
+        {
+            "id": 13804,
+            "categoryId": 522,
+            "name": "4Q Margin [incl OT]",
+            "componentId": 202,
+            "sortOrder": 16517,
+            "tags": []
+        },
+        {
+            "id": 15089,
+            "categoryId": 697,
+            "name": "Next Field Goal - Attempt",
+            "componentId": 29,
+            "sortOrder": 6147,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 15448,
+            "categoryId": 521,
+            "name": "Winning Margin -Xth Half",
+            "componentId": 29,
+            "sortOrder": 15534,
+            "tags": []
+        },
+        {
+            "id": 15580,
+            "categoryId": 523,
+            "name": "Alternate Team Totals - Xth Half",
+            "componentId": 29,
+            "sortOrder": 15537,
+            "tags": []
+        },
+        {
+            "id": 16295,
+            "categoryId": 1682,
+            "name": "Threes in Last 3 Min",
+            "componentId": 29,
+            "sortOrder": 16254,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 16297,
+            "categoryId": 1682,
+            "name": "Team Threes in Last 3 Min",
+            "componentId": 29,
+            "sortOrder": 16253,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 16413,
+            "categoryId": 1686,
+            "name": "Points O/U",
+            "componentId": 8,
+            "sortOrder": 16718,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16414,
+            "categoryId": 1687,
+            "name": "Assists O/U",
+            "componentId": 8,
+            "sortOrder": 16719,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16415,
+            "categoryId": 1688,
+            "name": "Rebounds O/U",
+            "componentId": 8,
+            "sortOrder": 16720,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16416,
+            "categoryId": 1689,
+            "name": "Threes O/U",
+            "componentId": 8,
+            "sortOrder": 16721,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16417,
+            "categoryId": 1690,
+            "name": "Pts + Reb + Ast O/U",
+            "componentId": 8,
+            "sortOrder": 16724,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16418,
+            "categoryId": 1691,
+            "name": "Blocks O/U",
+            "componentId": 8,
+            "sortOrder": 16723,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16419,
+            "categoryId": 1691,
+            "name": "Steals O/U",
+            "componentId": 8,
+            "sortOrder": 16387,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16425,
+            "categoryId": 1690,
+            "name": "Pts + Reb O/U",
+            "componentId": 8,
+            "sortOrder": 16725,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16426,
+            "categoryId": 1690,
+            "name": "Pts + Ast O/U",
+            "componentId": 8,
+            "sortOrder": 16726,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16427,
+            "categoryId": 1690,
+            "name": "Reb + Ast O/U",
+            "componentId": 8,
+            "sortOrder": 16389,
+            "tags": []
+        },
+        {
+            "id": 16428,
+            "categoryId": 1691,
+            "name": "Steals + Blocks O/U",
+            "componentId": 8,
+            "sortOrder": 16722,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16636,
+            "categoryId": 697,
+            "name": "1st FG - 2nd Half",
+            "componentId": 204,
+            "sortOrder": 16594,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 16637,
+            "categoryId": 697,
+            "name": "1st Three - 2nd Half",
+            "componentId": 204,
+            "sortOrder": 16596,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 16638,
+            "categoryId": 697,
+            "name": "1st FG Team - 2nd Half",
+            "componentId": 204,
+            "sortOrder": 16595,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 16639,
+            "categoryId": 697,
+            "name": "1st Three Team - 2nd Half",
+            "componentId": 204,
+            "sortOrder": 16641,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 16684,
+            "categoryId": 697,
+            "name": "Quarter 1st FG - Player",
+            "componentId": 29,
+            "sortOrder": 6149,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 16699,
+            "categoryId": 697,
+            "name": "1st Dunk Scorer - 2nd Half",
+            "componentId": 204,
+            "sortOrder": 16656,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 16761,
+            "categoryId": 1686,
+            "name": "Points",
+            "componentId": 331,
+            "sortOrder": 16377,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16762,
+            "categoryId": 1687,
+            "name": "Assists",
+            "componentId": 331,
+            "sortOrder": 16378,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16763,
+            "categoryId": 1688,
+            "name": "Rebounds",
+            "componentId": 331,
+            "sortOrder": 16379,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16764,
+            "categoryId": 1689,
+            "name": "Threes",
+            "componentId": 331,
+            "sortOrder": 16380,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16765,
+            "categoryId": 1691,
+            "name": "Steals",
+            "componentId": 331,
+            "sortOrder": 16385,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16767,
+            "categoryId": 1690,
+            "name": "Pts + Ast",
+            "componentId": 331,
+            "sortOrder": 16384,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16768,
+            "categoryId": 1690,
+            "name": "Pts + Reb",
+            "componentId": 331,
+            "sortOrder": 16382,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16769,
+            "categoryId": 1690,
+            "name": "Pts + Reb + Ast",
+            "componentId": 331,
+            "sortOrder": 16374,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 4599,
+            "categoryId": 520,
+            "name": "2nd Half",
+            "componentId": 210,
+            "sortOrder": 4593,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 4602,
+            "categoryId": 522,
+            "name": "3rd Quarter",
+            "componentId": 210,
+            "sortOrder": 4597,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 4603,
+            "categoryId": 522,
+            "name": "4th Quarter",
+            "componentId": 210,
+            "sortOrder": 4598,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 4609,
+            "categoryId": 523,
+            "name": "Team Totals",
+            "componentId": 29,
+            "sortOrder": 4604,
+            "tags": [
+                "Featured",
+                "Live",
+                "MicroMarket",
+                "SGP"
+            ]
+        },
+        {
+            "id": 4611,
+            "categoryId": 521,
+            "name": "Total Odd/Even",
+            "componentId": 12,
+            "sortOrder": 15536,
+            "tags": [
+                "MicroMarket",
+                "SGP"
+            ]
+        },
+        {
+            "id": 4612,
+            "categoryId": 520,
+            "name": "Odd/Even",
+            "componentId": 29,
+            "sortOrder": 12235,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 4616,
+            "categoryId": 521,
+            "name": "Winning Margin - 7 Way",
+            "componentId": 12,
+            "sortOrder": 5718,
+            "tags": [
+                "MicroMarket"
+            ]
+        },
+        {
+            "id": 5723,
+            "categoryId": 521,
+            "name": "Winning Margin",
+            "componentId": 202,
+            "sortOrder": 4929,
+            "tags": [
+                "Featured",
+                "Live",
+                "SGP"
+            ]
+        },
+        {
+            "id": 5724,
+            "categoryId": 521,
+            "name": "Winning Margin - 12 Way",
+            "componentId": 202,
+            "sortOrder": 5795,
+            "tags": [
+                "MicroMarket"
+            ]
+        },
+        {
+            "id": 5725,
+            "categoryId": 523,
+            "name": "Team Total Odd/Even",
+            "componentId": 202,
+            "sortOrder": 14142,
+            "tags": [
+                "MicroMarket",
+                "SGP"
+            ]
+        },
+        {
+            "id": 5868,
+            "categoryId": 521,
+            "name": "Winning Margin - 3 Way",
+            "componentId": 202,
+            "sortOrder": 5717,
+            "tags": [
+                "MicroMarket"
+            ]
+        },
+        {
+            "id": 6231,
+            "categoryId": 522,
+            "name": "Team Totals - Quarters",
+            "componentId": 29,
+            "sortOrder": 10036,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 8569,
+            "categoryId": 520,
+            "name": "Team Odd/Even",
+            "componentId": 203,
+            "sortOrder": 13159,
+            "tags": []
         },
         {
             "id": 10093,
@@ -5954,16 +5642,6 @@
             "componentId": 29,
             "sortOrder": 10034,
             "tags": []
-        },
-        {
-            "id": 11471,
-            "categoryId": 522,
-            "name": "Moneyline (3-Way)",
-            "componentId": 30,
-            "sortOrder": 10031,
-            "tags": [
-                "SGP"
-            ]
         },
         {
             "id": 12188,
@@ -6223,26 +5901,6 @@
             ]
         },
         {
-            "id": 13201,
-            "categoryId": 487,
-            "name": "Alternate Total",
-            "componentId": 240,
-            "sortOrder": 4603,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 13202,
-            "categoryId": 487,
-            "name": "Alternate Spread",
-            "componentId": 240,
-            "sortOrder": 4601,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
             "id": 13508,
             "categoryId": 1293,
             "name": "Steals O/U",
@@ -6434,6 +6092,46 @@
             ]
         },
         {
+            "id": 16292,
+            "categoryId": 1682,
+            "name": "Total Threes",
+            "componentId": 29,
+            "sortOrder": 16250,
+            "tags": [
+                "Featured"
+            ]
+        },
+        {
+            "id": 16293,
+            "categoryId": 1682,
+            "name": "Team Total Threes",
+            "componentId": 29,
+            "sortOrder": 16249,
+            "tags": [
+                "Featured"
+            ]
+        },
+        {
+            "id": 16294,
+            "categoryId": 1682,
+            "name": "Threes in First 3 Min",
+            "componentId": 29,
+            "sortOrder": 16252,
+            "tags": [
+                "Featured"
+            ]
+        },
+        {
+            "id": 16296,
+            "categoryId": 1682,
+            "name": "Team Threes in First 3 Min",
+            "componentId": 29,
+            "sortOrder": 16251,
+            "tags": [
+                "Featured"
+            ]
+        },
+        {
             "id": 16305,
             "categoryId": 1157,
             "name": "1st Point",
@@ -6480,6 +6178,16 @@
             "name": "Threes",
             "componentId": 310,
             "sortOrder": 16272,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16316,
+            "categoryId": 1206,
+            "name": "Blocks",
+            "componentId": 310,
+            "sortOrder": 16273,
             "tags": [
                 "SGP"
             ]
@@ -6549,6 +6257,14 @@
             "tags": []
         },
         {
+            "id": 16386,
+            "categoryId": 1683,
+            "name": "Both Player Blocks",
+            "componentId": 29,
+            "sortOrder": 7,
+            "tags": []
+        },
+        {
             "id": 16387,
             "categoryId": 1684,
             "name": "Either Player Points",
@@ -6586,6 +6302,14 @@
             "name": "Either Player Steals",
             "componentId": 29,
             "sortOrder": 16348,
+            "tags": []
+        },
+        {
+            "id": 16392,
+            "categoryId": 1684,
+            "name": "Either Player Blocks",
+            "componentId": 29,
+            "sortOrder": 16349,
             "tags": []
         },
         {
@@ -6751,6 +6475,16 @@
             "name": "Points - 1st Quarter",
             "componentId": 331,
             "sortOrder": 12474,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16552,
+            "categoryId": 1217,
+            "name": "Assists - 1st Quarter",
+            "componentId": 331,
+            "sortOrder": 12973,
             "tags": [
                 "SGP"
             ]
@@ -6957,17 +6691,6 @@
             ]
         },
         {
-            "id": 4599,
-            "categoryId": 520,
-            "name": "2nd Half",
-            "componentId": 210,
-            "sortOrder": 4593,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
             "id": 4600,
             "categoryId": 522,
             "name": "1st Quarter",
@@ -6988,59 +6711,6 @@
             ]
         },
         {
-            "id": 4602,
-            "categoryId": 522,
-            "name": "3rd Quarter",
-            "componentId": 210,
-            "sortOrder": 4597,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 4603,
-            "categoryId": 522,
-            "name": "4th Quarter",
-            "componentId": 210,
-            "sortOrder": 4598,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 4609,
-            "categoryId": 523,
-            "name": "Team Totals",
-            "componentId": 29,
-            "sortOrder": 4604,
-            "tags": [
-                "Featured",
-                "MicroMarket",
-                "SGP"
-            ]
-        },
-        {
-            "id": 4611,
-            "categoryId": 521,
-            "name": "Total Odd/Even",
-            "componentId": 12,
-            "sortOrder": 15536,
-            "tags": [
-                "MicroMarket",
-                "SGP"
-            ]
-        },
-        {
-            "id": 4612,
-            "categoryId": 520,
-            "name": "Odd/Even",
-            "componentId": 29,
-            "sortOrder": 12235,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
             "id": 4615,
             "categoryId": 521,
             "name": "To go to OT",
@@ -7051,16 +6721,6 @@
             ]
         },
         {
-            "id": 4616,
-            "categoryId": 521,
-            "name": "Winning Margin - 7 Way",
-            "componentId": 12,
-            "sortOrder": 5718,
-            "tags": [
-                "MicroMarket"
-            ]
-        },
-        {
             "id": 5001,
             "categoryId": 583,
             "name": "Pts + Reb + Ast O/U",
@@ -7068,48 +6728,6 @@
             "sortOrder": 5396,
             "tags": [
                 "SGP"
-            ]
-        },
-        {
-            "id": 5723,
-            "categoryId": 521,
-            "name": "Winning Margin",
-            "componentId": 202,
-            "sortOrder": 4929,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 5724,
-            "categoryId": 521,
-            "name": "Winning Margin - 12 Way",
-            "componentId": 202,
-            "sortOrder": 5795,
-            "tags": [
-                "MicroMarket"
-            ]
-        },
-        {
-            "id": 5725,
-            "categoryId": 523,
-            "name": "Team Total Odd/Even",
-            "componentId": 202,
-            "sortOrder": 14142,
-            "tags": [
-                "MicroMarket",
-                "SGP"
-            ]
-        },
-        {
-            "id": 5868,
-            "categoryId": 521,
-            "name": "Winning Margin - 3 Way",
-            "componentId": 202,
-            "sortOrder": 5717,
-            "tags": [
-                "MicroMarket"
             ]
         },
         {
@@ -7130,16 +6748,6 @@
             "sortOrder": 4594,
             "tags": [
                 "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 6231,
-            "categoryId": 522,
-            "name": "Team Totals - Quarters",
-            "componentId": 29,
-            "sortOrder": 10036,
-            "tags": [
                 "SGP"
             ]
         },
@@ -7192,34 +6800,6 @@
             ]
         },
         {
-            "id": 16316,
-            "categoryId": 1206,
-            "name": "Blocks",
-            "componentId": 310,
-            "sortOrder": 16273,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 16552,
-            "categoryId": 1217,
-            "name": "Assists - 1st Quarter",
-            "componentId": 331,
-            "sortOrder": 12973,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 11775,
-            "categoryId": 1017,
-            "name": "To Participate In Play-in",
-            "componentId": 29,
-            "sortOrder": 9744,
-            "tags": []
-        },
-        {
             "id": 9732,
             "categoryId": 1014,
             "name": "#1 Seed",
@@ -7268,14 +6848,6 @@
             "tags": []
         },
         {
-            "id": 12737,
-            "categoryId": 1017,
-            "name": "Best Record after AS Break",
-            "componentId": 12,
-            "sortOrder": 13474,
-            "tags": []
-        },
-        {
             "id": 16697,
             "categoryId": 519,
             "name": "Consecutive Titles",
@@ -7284,11 +6856,11 @@
             "tags": []
         },
         {
-            "id": 13473,
-            "categoryId": 1014,
-            "name": "#2 Seed",
-            "componentId": 29,
-            "sortOrder": 13433,
+            "id": 16802,
+            "categoryId": 1175,
+            "name": "Where to Reach Milestone",
+            "componentId": 204,
+            "sortOrder": 16759,
             "tags": []
         },
         {
@@ -7297,22 +6869,6 @@
             "name": "When to Reach Milestone",
             "componentId": 204,
             "sortOrder": 16758,
-            "tags": []
-        },
-        {
-            "id": 16102,
-            "categoryId": 1280,
-            "name": "Next to Score 60+",
-            "componentId": 29,
-            "sortOrder": 16310,
-            "tags": []
-        },
-        {
-            "id": 16802,
-            "categoryId": 1175,
-            "name": "Where to Reach Milestone",
-            "componentId": 204,
-            "sortOrder": 16759,
             "tags": []
         },
         {
