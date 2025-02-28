@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
         displayStats();  // Update stats after filter change
     }
 
-    // Render parlays list
+    // Render parlays list (top to bottom)
     function renderParlays() {
         const container = document.getElementById("parlays-list");
         container.innerHTML = "";
@@ -98,13 +98,16 @@ document.addEventListener("DOMContentLoaded", function() {
             filteredParlays = parlaysData.filter(p => p.legs.length === 3);
         }
 
+        // Reverse the array only for the chart (bottom to top for graph)
+        const reversedParlays = [...filteredParlays].reverse();  // Create a copy to avoid modifying the original data
+
         // Calculate cumulative profits
         let labels = [0];  // Start the graph at 0
         let cumulativeProfit = 0;
         let cumulativeProfits = [0];  // Start the graph at (0, 0)
 
-        filteredParlays.forEach((parlay, index) => {
-            labels.push(index + 1); // Bet number (1, 2, 3, ...)
+        reversedParlays.forEach((parlay, index) => {
+            labels.push(index + 1); // Sequential Bet number: 0, 1, 2, 3, ...
             cumulativeProfit += parlay.profit; // Add profit to cumulative total
             cumulativeProfits.push(cumulativeProfit); // Store cumulative profit at each bet
         });
