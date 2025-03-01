@@ -372,3 +372,26 @@ body.index-page .dropdown-content {
 .filter-buttons button:active {
   background-color: #0d253f; /* Darker blue when clicked */
 }
+
+#search-bar {
+  width: 80%;
+  max-width: 300px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #fc9403;
+  border-radius: 25px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 15px;
+}
+
+#search-bar:focus {
+  border-color: #ff6f61;
+  box-shadow: 0 0 10px rgba(252, 148, 3, 0.5);
+}
+
+.parlay-odds p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
