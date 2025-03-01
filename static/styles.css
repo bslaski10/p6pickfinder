@@ -301,21 +301,10 @@ body.index-page .dropdown-content {
 }
 
 /* Style for the primary Scan button */
-.btn-primary {
+.btn-primary,
+.btn-secondary {
   background-color: #f9f349;  /* Golden Yellow */
   color: #222;  /* Dark text for readability */
-  font-weight: bold;
-}
-
-.btn-primary:hover {
-  background-color: #fc9403;  /* Slightly darker yellow on hover */
-  transform: scale(1.05);
-}
-
-/* Style for the secondary Show Odds button */
-.btn-secondary {
-  background-color: #07b889;  /* Deep Court Blue */
-  color: white;
   font-weight: bold;
 }
 
@@ -333,12 +322,9 @@ body.index-page .dropdown-content {
   transition: background-color 0.3s, transform 0.3s;
 }
 
-#scanBtn:hover {
-  background-color: #e6e339;  /* Fiery Red for Scan Button */
-  transform: scale(1.05);
-}
 
-#toggleOddsBtn:hover {
+#toggleOddsBtn:hover,
+#scanBtn:hover {
   background-color: #06d6a0;  /* Casino Green for Show Odds Button */
   transform: scale(1.05);
 }
@@ -373,7 +359,8 @@ body.index-page .dropdown-content {
   background-color: #0d253f; /* Darker blue when clicked */
 }
 
-#search-bar {
+#search-bar,
+#boost-bar {
   width: 80%;
   max-width: 300px;
   padding: 10px 15px;
@@ -385,7 +372,8 @@ body.index-page .dropdown-content {
   margin-bottom: 15px;
 }
 
-#search-bar:focus {
+#search-bar:focus,
+#boost-bar:focus {
   border-color: #ff6f61;
   box-shadow: 0 0 10px rgba(252, 148, 3, 0.5);
 }
@@ -394,4 +382,34 @@ body.index-page .dropdown-content {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
+}
+
+/* Info Button Styling */
+.info-btn {
+  background-color: rgb(26, 225, 247);
+  color: black;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.info-btn:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+/* Info Box Styling */
+.info-box {
+  display: none;
+  background-color: lightblue;
+  color: black;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
 }

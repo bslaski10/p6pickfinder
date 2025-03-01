@@ -17,27 +17,43 @@
     </div>
   </div>
 
-  <h1>Build Your Own Parlay</h1>
-  <div class="parlay-container">
-    <!-- Left side: Available Picks -->
-  <div class="available-picks">
-    <h2>Available Picks</h2>
-  <!-- New search bar -->
-  <input type="text" id="search-bar" placeholder="Search player props...">
-  <div id="available-picks-list">
-    <!-- Each pick will be rendered here as a horizontal box with a plus button -->
-    </div>
+  <h1>
+    Build Your Own Parlay 
+    <button id="info-btn" class="info-btn" title="More Info">&#9432;</button>
+  </h1>
+  <div id="info-box" class="info-box">
+    <p>
+      <strong>Implied odds</strong> and <strong>edge</strong> are key in identifying valuable bets.<br>
+      <strong>Implied odds</strong> represent the probability of a parlay winning based on the given odds.<br>
+      <strong>Edge</strong> factors in both probability and payout potential to determine the expected profitability.<br>
+      <strong>Example:</strong> A bet with a 5% edge means that, on average, you can expect a $5 profit for every $100 wagered.
+    </p>
+    
   </div>
 
+  <div class="parlay-container">
+    <!-- Left side: Available Picks -->
+    <div class="available-picks">
+      <h2>Available Picks</h2>
+      <input type="text" id="search-bar" placeholder="Search selections...">
+      <div id="available-picks-list">
+        <!-- Each pick will be rendered here as a horizontal box with a plus button -->
+      </div>
+    </div>
     <!-- Right side: Created Parlay -->
     <div class="created-parlay">
       <h2>Created Parlay</h2>
+      <input type="text" id="boost-bar" placeholder="Enter boost %">
       <div id="created-parlay-list">
         <!-- Up to three selections will appear here with an X button -->
       </div>
+      <div id="boost-edge-info"></div>
     </div>
   </div>
   
+  <!-- Your main functionality for build your own -->
   <script src="{{ url_for('static', filename='js/build_your_own.js') }}"></script>
+  <!-- External info.js file for toggling the info box -->
+  <script src="{{ url_for('static', filename='js/info.js') }}"></script>
 </body>
 </html>

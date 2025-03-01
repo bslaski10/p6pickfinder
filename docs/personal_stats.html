@@ -17,7 +17,19 @@
     </div>
   </div>
   
-  <h1>Personal Stats</h1>
+  <h1>
+    Personal Stats
+    <button id="info-btn" class="info-btn" title="More Info">&#9432;</button>
+  </h1>
+
+  <div id="info-box" class="info-box">
+    <p>
+      <strong>Personal Stats</strong> gives you insights into my betting history and performance.<br>
+      <strong>Profit/Loss Graph</strong> visualizes how my betting strategy has performed over time.<br>
+      <strong>Breakdown Stats</strong> shows key metrics such as total profit, amount bet, and amount won.<br>
+    </p>
+  </div>
+
   <div class="parlay-container">
     <div class="available-picks">
       <h2>My Parlays</h2>
@@ -33,18 +45,17 @@
       <h2>Profit/Loss Graph</h2>
       <canvas id="profitChart"></canvas>
 
-<div id="stats" style="margin-top: 20px;">
-    <p id="total-profit"><strong>Total Profit: $0.00</strong></p>
-    <p id="total-bets">Total Bets: 0</p>
-    <p id="amount-bet">Amount Bet: $0.00</p>
-    <p id="amount-won">Amount Won: $0.00</p>
-    <div id="breakdown-stats"></div>
-</div>
-
-
+      <div id="stats" style="margin-top: 20px;">
+        <p id="total-profit"><strong>Total Profit: $0.00</strong></p>
+        <p id="total-bets">Total Bets: 0</p>
+        <p id="amount-bet">Amount Bet: $0.00</p>
+        <p id="amount-won">Amount Won: $0.00</p>
+        <div id="breakdown-stats"></div>
+      </div>
     </div>
   </div>
 
   <script src="{{ url_for('static', filename='js/personal_stats.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/info.js') }}"></script>
 </body>
 </html>
