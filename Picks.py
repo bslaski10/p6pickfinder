@@ -171,7 +171,7 @@ def select_3_leg_parlays(sorted_parlays, max_individual, max_pair, desired_numbe
 top_10_2_leg = select_parlays(sorted_2_leg, max_individual=3, desired_number=15)
 
 # For 3-leg parlays, allow each selection up to 3 times and any pair together up to 2 times.
-top_5_3_leg = select_3_leg_parlays(sorted_3_leg, max_individual=3, max_pair=2, desired_number=10)
+top_5_3_leg = select_3_leg_parlays(sorted_3_leg, max_individual=3, max_pair=2, desired_number=12)
 
 # Combine the chosen parlays
 final_parlays = top_10_2_leg + top_5_3_leg
