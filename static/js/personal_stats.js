@@ -26,44 +26,74 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Render parlays list (top to bottom)
-    function renderParlays() {
-        const container = document.getElementById("parlays-list");
-        container.innerHTML = "";
-        let filteredParlays = parlaysData;
+    // Render parlays list (top to bottom)
+function renderParlays() {
+    const container = document.getElementById("parlays-list");
+    container.innerHTML = "";
+    let filteredParlays = parlaysData;
 
-        if (currentFilter === '2legs') {
-            filteredParlays = parlaysData.filter(p => p.legs.length === 2);
-        } else if (currentFilter === '3legs') {
-            filteredParlays = parlaysData.filter(p => p.legs.length === 3);
+    if (currentFilter === '2legs') {
+        filteredParlays = parlaysData.filter(p => p.legs.length === 2);
+    } else if (currentFilter === '3legs') {
+        filteredParlays = parlaysData.filter(p => p.legs.length === 3);
+    }
+
+    filteredParlays.forEach(parlay => {
+        const parlayDiv = document.createElement("div");
+        
+        // Check if any result is 'pending'
+        const hasPending = parlay.result.includes("pend");
+
+        // Overall parlay is considered a win only if every leg won, unless there's a pending leg
+        const isParlayWin = !hasPending && parlay.result.every(r => r === "win");
+        const isParlayLoss = !hasPending && parlay.result.some(r => r === "loss");
+
+        // Set background color based on the results
+        let backgroundColor;
+        if (hasPending) {
+            backgroundColor = "#ffff66"; // Yellow for pending
+        } else if (isParlayWin) {
+            backgroundColor = "#80ff63"; // Green for win
+        } else if (isParlayLoss) {
+            backgroundColor = "#ff7663"; // Red for loss
+        } else {
+            backgroundColor = "#ffffff"; // Default color for incomplete or mixed results
         }
 
-        filteredParlays.forEach(parlay => {
-            const parlayDiv = document.createElement("div");
-            // Overall parlay is considered a win only if every leg won
-            const isParlayWin = parlay.result.every(r => r === "win");
-            parlayDiv.classList.add("parlay-item");
-            parlayDiv.style.backgroundColor = isParlayWin ? "#80ff63" : "#ff7663"; // Green for win, red for loss
-        
-            // Build the list of legs with custom colored bullets
-            let legsHtml = "<ul style='padding-left: 0;'>";
-            for (let i = 0; i < parlay.legs.length; i++) {
-                let leg = parlay.legs[i];
-                let legResult = parlay.result[i];
-                // Set bulletColor to black if the parlay is a win; otherwise, use green for a winning leg and black for a loss.
-                let bulletColor = isParlayWin ? "black" : (legResult === "win" ? "green" : "black");
-                legsHtml += `<li style="list-style: none; margin-left: 0;">
-                                <span style="color: ${bulletColor}; font-weight: bold; margin-right: 5px;">&#9679;</span>${leg}
-                             </li>`;
+        parlayDiv.classList.add("parlay-item");
+        parlayDiv.style.backgroundColor = backgroundColor;
+    
+        // Build the list of legs with custom colored bullets
+        let legsHtml = "<ul style='padding-left: 0;'>";
+        for (let i = 0; i < parlay.legs.length; i++) {
+            let leg = parlay.legs[i];
+            let legResult = parlay.result[i];
+
+            // Set bullet color based on individual leg result
+            let bulletColor;
+            if (legResult === "win") {
+                bulletColor = "green"; // Green for winning leg
+            } else if (legResult === "loss") {
+                bulletColor = "red"; // Red for losing leg
+            } else {
+                bulletColor = "black"; // Default color
             }
-            legsHtml += "</ul>";
+
+            legsHtml += `<li style="list-style: none; margin-left: 0;">
+                            <span style="color: ${bulletColor}; font-weight: bold; margin-right: 5px;">&#9679;</span>${leg}
+                         </li>`;
+        }
+        legsHtml += "</ul>";
+    
+        parlayDiv.innerHTML = 
+            `${legsHtml}
+            <p>Base Pay: $${parlay.base_pay} &nbsp; Bonus: $${parlay.bonus_pay} &nbsp; Total Pay: $${parlay.total_pay}</p>
+            <p>Bet Amount: $${parlay.bet_amount} &nbsp; Profit: <strong>$${parlay.profit}</strong></p>`;
         
-            parlayDiv.innerHTML = 
-                `${legsHtml}
-                <p>Base Pay: $${parlay.base_pay} &nbsp; Bonus: $${parlay.bonus_pay} &nbsp; Total Pay: $${parlay.total_pay}</p>
-                <p>Bet Amount: $${parlay.bet_amount} &nbsp; Profit: <strong>$${parlay.profit}</strong></p>`;
-            container.appendChild(parlayDiv);
-        });        
-    }
+        container.appendChild(parlayDiv);
+    });
+}
+
 
     // Initialize Chart
     let chartInstance;
