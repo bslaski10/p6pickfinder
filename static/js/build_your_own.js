@@ -113,22 +113,22 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
       // Display the combined implied odds and edge (if applicable)
-      const oddsData = calculateParlayImpliedOdds();
-      if (oddsData) {
-          const oddsDiv = document.createElement("div");
-          oddsDiv.className = "parlay-odds";
-          let innerHTML = `<p><strong>Implied Odds:</strong> ${(oddsData.impliedProbability * 100).toFixed(2)}%</p>`;
-          
-          // Show the edge only for 2 or 3 selections
-          if (createdParlay.length === 2) {
-              let edge = oddsData.impliedProbability - (1 / 3);
-              innerHTML += `<p><strong>Edge:</strong> ${(edge * 100).toFixed(2)}%</p>`;
-          } else if (createdParlay.length === 3) {
-              let edge = oddsData.impliedProbability - (1 / 5);
-              innerHTML += `<p><strong>Edge:</strong> ${(edge * 100).toFixed(2)}%</p>`;
-          }
-          oddsDiv.innerHTML = innerHTML;
-          createdParlayList.appendChild(oddsDiv);
-      }
+const oddsData = calculateParlayImpliedOdds();
+if (oddsData) {
+    const oddsDiv = document.createElement("div");
+    oddsDiv.className = "parlay-odds";
+    let innerHTML = `<p><strong>Implied Odds:</strong> ${(oddsData.impliedProbability * 100).toFixed(2)}%</p>`;
+    
+    // Show the edge only for 2 or 3 selections using the new formula
+    if (createdParlay.length === 2) {
+        let edge = (oddsData.impliedProbability * 3) - 1;
+        innerHTML += `<p><strong>Edge:</strong> ${(edge * 100).toFixed(2)}%</p>`;
+    } else if (createdParlay.length === 3) {
+        let edge = (oddsData.impliedProbability * 5) - 1;
+        innerHTML += `<p><strong>Edge:</strong> ${(edge * 100).toFixed(2)}%</p>`;
+    }
+    oddsDiv.innerHTML = innerHTML;
+    createdParlayList.appendChild(oddsDiv);
+}
   }
 });
