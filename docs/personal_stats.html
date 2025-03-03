@@ -5,71 +5,6 @@
   <title>Personal Stats - Pick6 Lock Machine</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <style>
-    /* Modal styles */
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 100;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      background-color: rgba(0,0,0,0.4);
-    }
-    .modal-content {
-      background-color: #fefefe;
-      margin: 10% auto;
-      padding: 20px;
-      border: 1px solid #888;
-      width: 80%;
-      max-width: 500px;
-      position: relative;
-    }
-    .modal-content label {
-      display: block;
-      margin: 10px 0 5px;
-    }
-    .modal-content input[type="text"],
-    .modal-content input[type="number"] {
-      width: 100%;
-      padding: 5px;
-      margin-bottom: 10px;
-    }
-    .modal-content .close {
-      position: absolute;
-      top: 10px;
-      right: 15px;
-      font-size: 28px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    /* Add/Edit/Delete button styles */
-    .edit-btn, .delete-btn {
-      padding: 5px 10px;
-      cursor: pointer;
-    }
-    .edit-btn {
-      background-color: #4CAF50;
-      color: white;
-    }
-    .delete-btn {
-      background-color: #f44336;
-      color: white;
-    }
-    /* Positioning for parlay item action buttons */
-    .parlay-item {
-      position: relative;
-      padding-bottom: 30px; /* space for buttons */
-    }
-    /* Add button style */
-    #add-parlay-btn {
-      font-size: 24px;
-      cursor: pointer;
-      margin-left: 10px;
-    }
-  </style>
 </head>
 <body>
   <div class="dropdown">
@@ -87,7 +22,15 @@
     <button id="info-btn" class="info-btn" title="More Info">&#9432;</button>
   </h1>
 
-  <!-- Parlay container header with add button -->
+  <div id="info-box" class="info-box" style="display: none;">
+    <p>
+      <strong>Personal Stats</strong> gives you insights into my betting history and performance.<br>
+      <strong>Profit/Loss Graph</strong> visualizes how my betting strategy has performed over time.<br>
+      <strong>Added Parlays</strong> may appear at the botton of the list of parlays but will go to the top once refreshed.<br>
+      <strong>Winning Bet</strong> = Green, <strong>Losing Bet</strong> = Red, <strong>Pending Bet</strong> = Yellow
+    </p>
+  </div>
+
   <div class="parlay-container">
     <div class="available-picks">
       <h2>
@@ -105,7 +48,6 @@
     <div class="created-parlay">
       <h2>Profit/Loss Graph</h2>
       <canvas id="profitChart"></canvas>
-
       <div id="stats" style="margin-top: 20px;">
         <p id="total-profit"><strong>Total Profit: $0.00</strong></p>
         <p id="total-bets">Total Bets: 0</p>
@@ -122,61 +64,57 @@
       <span class="close">&times;</span>
       <form id="parlay-form">
         <label>Selection 1:</label>
-<input type="text" name="selection1" required>
-<div>
-  Result:
-  <label style="display:inline; margin-right:10px;">
-    <input type="radio" name="result1" value="win" required> Win
-  </label>
-  <label style="display:inline; margin-right:10px;">
-    <input type="radio" name="result1" value="loss"> Loss
-  </label>
-  <label style="display:inline; margin-right:10px;">
-    <input type="radio" name="result1" value="pending"> Pending
-  </label>
-</div>
-
-<label>Selection 2:</label>
-<input type="text" name="selection2" required>
-<div>
-  Result:
-  <label style="display:inline; margin-right:10px;">
-    <input type="radio" name="result2" value="win" required> Win
-  </label>
-  <label style="display:inline; margin-right:10px;">
-    <input type="radio" name="result2" value="loss"> Loss
-  </label>
-  <label style="display:inline; margin-right:10px;">
-    <input type="radio" name="result2" value="pending"> Pending
-  </label>
-</div>
-
-<label>Selection 3:</label>
-<input type="text" name="selection3" required>
-<div>
-  Result:
-  <label style="display:inline; margin-right:10px;">
-    <input type="radio" name="result3" value="win" required> Win
-  </label>
-  <label style="display:inline; margin-right:10px;">
-    <input type="radio" name="result3" value="loss"> Loss
-  </label>
-  <label style="display:inline; margin-right:10px;">
-    <input type="radio" name="result3" value="pending"> Pending
-  </label>
-</div>
-
+        <input type="text" name="selection1">
+        <div>
+          Result:
+          <label style="display:inline; margin-right:10px;">
+            <input type="radio" name="result1" value="win"> Win
+          </label>
+          <label style="display:inline; margin-right:10px;">
+            <input type="radio" name="result1" value="loss"> Loss
+          </label>
+          <label style="display:inline; margin-right:10px;">
+            <input type="radio" name="result1" value="pending"> Pending
+          </label>
+        </div>
+        <label>Selection 2:</label>
+        <input type="text" name="selection2">
+        <div>
+          Result:
+          <label style="display:inline; margin-right:10px;">
+            <input type="radio" name="result2" value="win"> Win
+          </label>
+          <label style="display:inline; margin-right:10px;">
+            <input type="radio" name="result2" value="loss"> Loss
+          </label>
+          <label style="display:inline; margin-right:10px;">
+            <input type="radio" name="result2" value="pending"> Pending
+          </label>
+        </div>
+        <label>Selection 3:</label>
+        <input type="text" name="selection3">
+        <div>
+          Result:
+          <label style="display:inline; margin-right:10px;">
+            <input type="radio" name="result3" value="win"> Win
+          </label>
+          <label style="display:inline; margin-right:10px;">
+            <input type="radio" name="result3" value="loss"> Loss
+          </label>
+          <label style="display:inline; margin-right:10px;">
+            <input type="radio" name="result3" value="pending"> Pending
+          </label>
+        </div>
         <label>Bet Amount:</label>
-        <input type="number" name="bet_amount" step="0.01" required>
+        <input type="number" name="bet_amount" step="0.01">
         <label>Base Pay:</label>
-        <input type="number" name="base_pay" step="0.01" required>
+        <input type="number" name="base_pay" step="0.01">
         <label>Bonus Pay:</label>
-        <input type="number" name="bonus_pay" step="0.01" required>
+        <input type="number" name="bonus_pay" step="0.01">
         <button type="submit" id="modal-submit-btn">Save</button>
       </form>
     </div>
   </div>
-
   <script src="{{ url_for('static', filename='js/personal_stats.js') }}"></script>
   <script src="{{ url_for('static', filename='js/info.js') }}"></script>
 </body>

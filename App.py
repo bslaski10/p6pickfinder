@@ -63,13 +63,13 @@ def get_picks():
 def serve_selections(filename):
     return send_from_directory('selections', filename)
 
-# --- New endpoints for adding, editing, and deleting parlays ---
+# --- New endpoints for add, edit, and delete parlays ---
 
 @app.route('/add_parlay', methods=['POST'])
 def add_parlay():
     try:
         data = request.get_json()
-        # Gather up to 3 selections and results (ignore empty fields)
+        # Collect up to 3 selections and results (skip empty selections)
         selections = []
         results = []
         for i in range(1, 4):
@@ -93,10 +93,11 @@ def add_parlay():
             "total_pay": total_pay,
             "profit": profit
         }
-        with open('profit.json', 'r') as f:
+        # Read the current data, insert the new parlay at the beginning, and write back
+        with open('selections/profit.json', 'r') as f:
             json_data = json.load(f)
-        json_data['parlays'].append(new_parlay)
-        with open('profit.json', 'w') as f:
+        json_data['parlays'].insert(0, new_parlay)  # Insert at the top of the list
+        with open('selections/profit.json', 'w') as f:
             json.dump(json_data, f, indent=4)
         return jsonify({"status": "success", "parlay": new_parlay}), 200
     except Exception as e:
@@ -130,10 +131,10 @@ def edit_parlay():
             "total_pay": total_pay,
             "profit": profit
         }
-        with open('profit.json', 'r') as f:
+        with open('selections/profit.json', 'r') as f:
             json_data = json.load(f)
         json_data['parlays'][index] = updated_parlay
-        with open('profit.json', 'w') as f:
+        with open('selections/profit.json', 'w') as f:
             json.dump(json_data, f, indent=4)
         return jsonify({"status": "success", "parlay": updated_parlay}), 200
     except Exception as e:
@@ -144,10 +145,10 @@ def delete_parlay():
     try:
         data = request.get_json()
         index = int(data.get('index'))
-        with open('profit.json', 'r') as f:
+        with open('selections/profit.json', 'r') as f:
             json_data = json.load(f)
         deleted_parlay = json_data['parlays'].pop(index)
-        with open('profit.json', 'w') as f:
+        with open('selections/profit.json', 'w') as f:
             json.dump(json_data, f, indent=4)
         return jsonify({"status": "success", "deleted": deleted_parlay}), 200
     except Exception as e:
