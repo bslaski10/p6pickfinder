@@ -63,21 +63,25 @@ def get_picks():
 def serve_selections(filename):
     return send_from_directory('selections', filename)
 
+# --- Fetch Updated profit.json ---
+@app.route('/get_profit')
+def get_profit():
+    try:
+        with open('selections/profit.json', 'r') as f:
+            json_data = json.load(f)
+        return jsonify(json_data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 # --- New endpoints for add, edit, and delete parlays ---
 
 @app.route('/add_parlay', methods=['POST'])
 def add_parlay():
     try:
         data = request.get_json()
-        # Collect up to 3 selections and results (skip empty selections)
-        selections = []
-        results = []
-        for i in range(1, 4):
-            sel = data.get(f'selection{i}', '').strip()
-            res = data.get(f'result{i}', '')
-            if sel:
-                selections.append(sel)
-                results.append(res)
+        selections = [data.get(f'selection{i}', '').strip() for i in range(1, 4) if data.get(f'selection{i}', '').strip()]
+        results = [data.get(f'result{i}', '') for i in range(1, 4) if data.get(f'selection{i}', '').strip()]
+        
         bet_amount = float(data.get('bet_amount', 0))
         base_pay = float(data.get('base_pay', 0))
         bonus_pay = float(data.get('bonus_pay', 0))
@@ -93,12 +97,13 @@ def add_parlay():
             "total_pay": total_pay,
             "profit": profit
         }
-        # Read the current data, insert the new parlay at the beginning, and write back
+
         with open('selections/profit.json', 'r') as f:
             json_data = json.load(f)
-        json_data['parlays'].insert(0, new_parlay)  # Insert at the top of the list
+        json_data['parlays'].insert(0, new_parlay)
         with open('selections/profit.json', 'w') as f:
             json.dump(json_data, f, indent=4)
+
         return jsonify({"status": "success", "parlay": new_parlay}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -108,14 +113,10 @@ def edit_parlay():
     try:
         data = request.get_json()
         index = int(data.get('index'))
-        selections = []
-        results = []
-        for i in range(1, 4):
-            sel = data.get(f'selection{i}', '').strip()
-            res = data.get(f'result{i}', '')
-            if sel:
-                selections.append(sel)
-                results.append(res)
+
+        selections = [data.get(f'selection{i}', '').strip() for i in range(1, 4) if data.get(f'selection{i}', '').strip()]
+        results = [data.get(f'result{i}', '') for i in range(1, 4) if data.get(f'selection{i}', '').strip()]
+        
         bet_amount = float(data.get('bet_amount', 0))
         base_pay = float(data.get('base_pay', 0))
         bonus_pay = float(data.get('bonus_pay', 0))
@@ -131,11 +132,13 @@ def edit_parlay():
             "total_pay": total_pay,
             "profit": profit
         }
+
         with open('selections/profit.json', 'r') as f:
             json_data = json.load(f)
         json_data['parlays'][index] = updated_parlay
         with open('selections/profit.json', 'w') as f:
             json.dump(json_data, f, indent=4)
+
         return jsonify({"status": "success", "parlay": updated_parlay}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -145,14 +148,23 @@ def delete_parlay():
     try:
         data = request.get_json()
         index = int(data.get('index'))
+
         with open('selections/profit.json', 'r') as f:
             json_data = json.load(f)
         deleted_parlay = json_data['parlays'].pop(index)
         with open('selections/profit.json', 'w') as f:
             json.dump(json_data, f, indent=4)
+
         return jsonify({"status": "success", "deleted": deleted_parlay}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+# --- Force Flask to Always Serve Fresh Data ---
+@app.after_request
+def add_header(response):
+    response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, max-age=0'
+    response.headers['Pragma'] = 'no-cache'
+    return response
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 3000))  # Use Render's assigned port

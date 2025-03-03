@@ -326,4 +326,15 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .catch(error => console.error("Error deleting parlay:", error));
     }
+
+    function fetchUpdatedProfit() {
+        fetch('/get_profit?' + new Date().getTime())  // Cache buster
+            .then(response => response.json())
+            .then(data => console.log('Updated Profit Data:', data))
+            .catch(error => console.error('Error fetching profit data:', error));
+    }
+    
+    // Call this function when loading or updating parlays
+    fetchUpdatedProfit();
+    
 });
