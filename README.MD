@@ -1,3 +1,6 @@
+# The link for my site is https://p6pickfinder.onrender.com/
+
+
 ScrapeDK.py- This scrapes DK for all of the data in the url. Saves items in the data folder.
 
 Fetch.py- This takes the scraped DK data and converts it into player lines. Sves items in the lines folder.
