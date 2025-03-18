@@ -12,8 +12,6 @@ from concurrent.futures import ThreadPoolExecutor
 chrome_options = Options()
 chrome_options.add_argument("--headless")  # Run without UI
 chrome_options.add_argument("--disable-extensions")
-chrome_options.add_argument("--disable-images")
-chrome_options.add_argument("--disable-css")
 chrome_options.add_argument("--log-level=3")  # Suppress unnecessary logs
 
 # Function to initialize WebDriver
@@ -64,9 +62,9 @@ def scrape_and_save(stat_name, stat_label, url):
         return
 
     try:
-        # Increase wait timeout to 30 seconds
+        # Wait until a button with an aria-label starting with "Open " is present
         WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.CLASS_NAME, 'dkcss-wxx6u1'))
+            EC.presence_of_element_located((By.XPATH, '//button[starts-with(@aria-label, "Open ")]'))
         )
         time.sleep(5)  # Additional buffer
 
@@ -76,13 +74,12 @@ def scrape_and_save(stat_name, stat_label, url):
             driver.quit()
             return
 
-        # Find all NBA player stat cards
-        player_stat_cards = driver.find_elements(By.CLASS_NAME, 'dkcss-wxx6u1')
+        # Find all buttons with aria-label starting with "Open "
+        player_buttons = driver.find_elements(By.XPATH, '//button[starts-with(@aria-label, "Open ")]')
         player_names = []
 
-        for card in player_stat_cards:
+        for button in player_buttons:
             try:
-                button = card.find_element(By.XPATH, './/button[@aria-label]')
                 player_name = button.get_attribute('aria-label')
                 # Extract the player name from the aria-label text
                 name = player_name.split("Open ")[1].split("'")[0]
