@@ -68,7 +68,7 @@ for pair in combinations(sorted_selections, 2):
     legs = list(pair)
     parlay_odds = calculate_parlay_odds(legs)
     implied_value = get_implied_odds_value(parlay_odds)
-    vig_odds = implied_value / 1.0698
+    vig_odds = implied_value / 1.12
     edge = ((implied_value * 3)-100)  # For 2-leg parlays, subtract 33.33
     vig_edge = ((vig_odds * 3)-100)  # vig_edge for 2-leg parlays
     all_2_leg.append({
@@ -86,7 +86,7 @@ for triplet in combinations(sorted_selections, 3):
     legs = list(triplet)
     parlay_odds = calculate_parlay_odds(legs)
     implied_value = get_implied_odds_value(parlay_odds)
-    vig_odds = implied_value / 1.0698
+    vig_odds = implied_value / 1.19
     edge = ((implied_value * 5)-100)  # For 3-leg parlays, subtract 20
     vig_edge = ((vig_odds * 5)-100)  # vig_edge for 3-leg parlays
     all_3_leg.append({

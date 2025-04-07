@@ -1,12 +1,16 @@
 import os
 import json
 import time
+import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from concurrent.futures import ThreadPoolExecutor
+
+# Regular expression to strictly match the pattern "Pick <Player Name> for Less than"
+player_regex = re.compile(r"^Pick\s+(.*?)\s+for\s+Less than", re.IGNORECASE)
 
 # Set up Chrome WebDriver options
 chrome_options = Options()
@@ -62,9 +66,9 @@ def scrape_and_save(stat_name, stat_label, url):
         return
 
     try:
-        # Wait until a button with an aria-label starting with "Open " is present
+        # Wait until at least one button with "for Less than" is present in the aria-label
         WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.XPATH, '//button[starts-with(@aria-label, "Open ")]'))
+            EC.presence_of_element_located((By.XPATH, '//button[contains(@aria-label, "for Less than")]'))
         )
         time.sleep(5)  # Additional buffer
 
@@ -74,24 +78,29 @@ def scrape_and_save(stat_name, stat_label, url):
             driver.quit()
             return
 
-        # Find all buttons with aria-label starting with "Open "
-        player_buttons = driver.find_elements(By.XPATH, '//button[starts-with(@aria-label, "Open ")]')
-        player_names = []
+        # Find all buttons whose aria-label contains "for Less than"
+        player_buttons = driver.find_elements(By.XPATH, '//button[contains(@aria-label, "for Less than")]')
+        valid_players = []
 
         for button in player_buttons:
             try:
-                player_name = button.get_attribute('aria-label')
-                # Extract the player name from the aria-label text
-                name = player_name.split("Open ")[1].split("'")[0]
-                player_names.append(name)
+                aria_label = button.get_attribute('aria-label')
+                if not aria_label:
+                    continue
+                # Use regex to extract the player name only if it exactly follows the pattern.
+                match = player_regex.search(aria_label)
+                if match:
+                    name = match.group(1).strip()
+                    if name != "Contest Fill" and name not in valid_players:
+                        valid_players.append(name)
             except Exception as e:
                 print(f"Error extracting player name in {stat_label}: {e}")
 
-        # Save player names to a JSON file
+        # Save valid player names to a JSON file
         filename = f"options/{stat_name}_options.json"
         with open(filename, "w", encoding="utf-8") as json_file:
-            json.dump(player_names, json_file, ensure_ascii=False, indent=4)
-        print(f"✅ {stat_label} data saved! ({len(player_names)} players)")
+            json.dump(valid_players, json_file, ensure_ascii=False, indent=4)
+        print(f"✅ {stat_label} data saved! ({len(valid_players)} valid players)")
 
     except Exception as e:
         print(f"⚠️ Error scraping {stat_label}: {e}")
@@ -102,13 +111,11 @@ def scrape_and_save(stat_name, stat_label, url):
 # Run the scraping process for all URLs concurrently
 def run_scraping():
     clear_stats_files()
-    # Reduce concurrency to 4 workers to lessen load and potential timeouts
-    with ThreadPoolExecutor(max_workers=4) as executor:
+    with ThreadPoolExecutor(max_workers=3) as executor:
         futures = [
             executor.submit(scrape_and_save, stat_name, stat_label, url)
             for stat_name, (stat_label, url) in urls.items()
         ]
-        # Wait for all tasks to complete
         for future in futures:
             try:
                 future.result()
@@ -117,3 +124,4 @@ def run_scraping():
 
 # Start the scraping process
 run_scraping()
+
