@@ -7,28 +7,29 @@ import pytz
 def normalize_minus_sign(odds):
     return odds.replace('−', '-').replace('âˆ’', '-').replace('\u00e2\u02c6\u2019', '-')
 
-# Function to convert UTC game time to Eastern Time (ET)
 def convert_to_est(utc_time_str):
     if not utc_time_str:
         return ""
-    
-    # Convert string to datetime object
-    utc_time = datetime.fromisoformat(utc_time_str.replace("Z", "+00:00"))
-    
-    # Define time zones
-    utc_zone = pytz.utc
-    est_zone = pytz.timezone("US/Eastern")
 
-    # Convert to EST
-    est_time = utc_time.astimezone(est_zone)
+    try:
+        # Clean the string to avoid ValueError
+        cleaned_time = utc_time_str.replace("Z", "+00:00").replace(".0000000", ".000000")
+        utc_time = datetime.fromisoformat(cleaned_time)
 
-    # Format time in "h:mm am/pm" format
-    return est_time.strftime("%I:%M %p").lstrip("0")  # Remove leading zero from hour
+        # Define time zones
+        utc_zone = pytz.utc
+        est_zone = pytz.timezone("US/Eastern")
 
-# Function to format the matchup to remove city names and only show team names
-def format_matchup(matchup):
-    if not matchup:
+        # Convert to EST
+        est_time = utc_time.astimezone(est_zone)
+
+        # Format time in "h:mm am/pm"
+        return est_time.strftime("%I:%M %p").lstrip("0")
+
+    except Exception as e:
+        print(f"[Time Conversion Error] Could not parse: {utc_time_str} — {e}")
         return ""
+
     
     # Split matchup into two teams
     teams = matchup.split(" @ ")
