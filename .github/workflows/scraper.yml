@@ -2,8 +2,8 @@ name: Daily Scraper
 
 on:
   schedule:
-    - cron: '0 16,22 * * *'  # 12PM and 6PM Eastern
-  workflow_dispatch:
+    - cron: '0 16,22 * * *'  # 12 PM and 6 PM Eastern Time (in UTC)
+  workflow_dispatch:          # Manual run option
 
 jobs:
   run-scraper:
@@ -19,16 +19,16 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        working-directory: p6pickfinder
+        working-directory: 'DK - Copy'
         run: |
           pip install -r requirements.txt
 
       - name: Run scraper script
-        working-directory: p6pickfinder
-        run: python locks.py
+        working-directory: 'DK - Copy'
+        run: python Locks.py
 
       - name: Commit & push updated data
-        working-directory: p6pickfinder
+        working-directory: 'DK - Copy'
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
