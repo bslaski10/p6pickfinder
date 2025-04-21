@@ -8,17 +8,16 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from concurrent.futures import ThreadPoolExecutor
+from bs4 import BeautifulSoup
 
-# Regular expression to strictly match the pattern "Pick <Player Name> for Less than"
+# Regex to match "Pick <Name> for Less than"
 player_regex = re.compile(r"^Pick\s+(.*?)\s+for\s+Less than", re.IGNORECASE)
 
-# Set up Chrome WebDriver options
 chrome_options = Options()
-chrome_options.add_argument("--headless")  # Run without UI
+chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-extensions")
-chrome_options.add_argument("--log-level=3")  # Suppress unnecessary logs
+chrome_options.add_argument("--log-level=3")
 
-# Function to initialize WebDriver
 def get_driver():
     return webdriver.Chrome(options=chrome_options)
 
@@ -31,16 +30,13 @@ urls = {
     "saves": ("Saves", "https://pick6.draftkings.com/?sport=NHL&stat=SV")
 }
 
-# Function to clear all stats JSON files (set to empty list)
-def clear_stats_files():
-    os.makedirs('nhl/options', exist_ok=True)
-    for stat_name in urls.keys():
-        filename = f"nhl/options/{stat_name}_options.json"
-        with open(filename, "w", encoding="utf-8") as json_file:
-            json.dump([], json_file)
-        print(f"Initialized {filename} with empty list.")
+def normalize_to_initial_format(full_name):
+    parts = full_name.strip().split()
+    if len(parts) >= 2:
+        return f"{parts[0][0]}. {' '.join(parts[1:])}"
+    return full_name
 
-# Function to check if a stat type is available on the page
+# ✅ New: Check if a stat label exists on the page
 def is_stat_type_available(driver, stat_label):
     try:
         driver.find_element(By.XPATH, f'//div[text()="{stat_label}"]')
@@ -48,72 +44,101 @@ def is_stat_type_available(driver, stat_label):
     except Exception:
         return False
 
-# Function to scrape player names and save to a JSON file
+def clear_stats_files():
+    os.makedirs("options", exist_ok=True)
+    os.makedirs("data_p6", exist_ok=True)
+    with open("locked.json", "w", encoding="utf-8") as f:
+        json.dump([], f)
+    for stat_name in urls:
+        with open(f"options/{stat_name}_options.json", "w", encoding="utf-8") as f:
+            json.dump([], f)
+
 def scrape_and_save(stat_name, stat_label, url):
     driver = get_driver()
     try:
         driver.get(url)
     except Exception as e:
-        print(f"Error loading {stat_label} URL: {e}")
+        print(f"Failed to load {stat_label}: {e}")
         driver.quit()
         return
 
     try:
-        # Wait until at least one button with "for Less than" is present in the aria-label
-        WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.XPATH, '//button[contains(@aria-label, "for Less than")]'))
-        )
-        time.sleep(5)  # Additional buffer
-
-        # Verify the stat type is available on the page
+        # Skip stat type if not visible
         if not is_stat_type_available(driver, stat_label):
-            print(f"⚠️ Stat type {stat_label} not available, skipping scraping.")
+            print(f"⚠️ {stat_label} not found on page. Skipping.")
             driver.quit()
             return
 
-        # Find all buttons whose aria-label contains "for Less than"
-        player_buttons = driver.find_elements(By.XPATH, '//button[contains(@aria-label, "for Less than")]')
-        valid_players = []
+        WebDriverWait(driver, 30).until(
+            EC.presence_of_element_located((By.XPATH, '//button[contains(@aria-label, "for Less than")]'))
+        )
+        time.sleep(5)
 
-        for button in player_buttons:
-            try:
-                aria_label = button.get_attribute('aria-label')
-                if not aria_label:
-                    continue
-                # Use regex to extract the player name only if it exactly follows the pattern.
-                match = player_regex.search(aria_label)
-                if match:
-                    name = match.group(1).strip()
-                    if name != "Contest Fill" and name not in valid_players:
-                        valid_players.append(name)
-            except Exception as e:
-                print(f"Error extracting player name in {stat_label}: {e}")
+        html = driver.page_source
+        with open(f"data_p6/{stat_name}_p6.json", "w", encoding="utf-8") as f:
+            json.dump({"html": html}, f)
 
-        # Save valid player names to a JSON file
-        filename = f"nhl/options/{stat_name}_options.json"
-        with open(filename, "w", encoding="utf-8") as json_file:
-            json.dump(valid_players, json_file, ensure_ascii=False, indent=4)
-        print(f"✅ {stat_label} data saved! ({len(valid_players)} valid players)")
+        soup = BeautifulSoup(html, "html.parser")
+
+        # Step 1: Get locked players
+        locked_players_set = set()
+        for card in soup.select('[data-testid="playerStatCard"]'):
+            name_tag = card.select_one('[data-testid="player-name"]')
+            if not name_tag:
+                continue
+            name = name_tag.get_text(strip=True)
+            if card.find("use", {"href": "#lock-icon"}):
+                locked_players_set.add(name)
+
+        # Step 2: Get "Less than" players
+        valid_players_set = set()
+        buttons = driver.find_elements(By.XPATH, '//button[contains(@aria-label, "for Less than")]')
+        for button in buttons:
+            aria_label = button.get_attribute("aria-label")
+            if not aria_label:
+                continue
+            match = player_regex.search(aria_label)
+            if match:
+                name = match.group(1).strip()
+                if name != "Contest Fill":
+                    valid_players_set.add(name)
+
+        # Step 3: Exclude locked players
+        unlocked_valid_players = sorted([
+            name for name in valid_players_set
+            if normalize_to_initial_format(name) not in locked_players_set
+        ])
+
+        with open(f"options/{stat_name}_options.json", "w", encoding="utf-8") as f:
+            json.dump(unlocked_valid_players, f, indent=4)
+
+        # Update locked.json globally
+        locked_file = "locked.json"
+        if os.path.exists(locked_file):
+            with open(locked_file, "r", encoding="utf-8") as f:
+                existing_locked = set(json.load(f))
+        else:
+            existing_locked = set()
+
+        all_locked = sorted(existing_locked.union(locked_players_set))
+        with open(locked_file, "w", encoding="utf-8") as f:
+            json.dump(all_locked, f, indent=4)
+
+        print(f"✅ {stat_label}: {len(unlocked_valid_players)} options, {len(locked_players_set)} locked")
 
     except Exception as e:
         print(f"⚠️ Error scraping {stat_label}: {e}")
-
     finally:
         driver.quit()
 
-# Run the scraping process for all URLs concurrently
 def run_scraping():
     clear_stats_files()
-    with ThreadPoolExecutor(max_workers=4) as executor:
-        futures = [
-            executor.submit(scrape_and_save, stat_name, stat_label, url)
-            for stat_name, (stat_label, url) in urls.items()
-        ]
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = [executor.submit(scrape_and_save, stat, label, url) for stat, (label, url) in urls.items()]
         for future in futures:
             try:
                 future.result()
             except Exception as e:
-                print(f"Error in thread: {e}")
+                print(f"Thread error: {e}")
 
-# Start the scraping process
 run_scraping()
