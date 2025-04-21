@@ -1,3 +1,5 @@
+// scan.js
+
 // Global variable to track odds mode (false = implied, true = vig)
 let showingVigOdds = false;
 
@@ -13,8 +15,11 @@ async function scanLocks() {
     progressInterval = setInterval(pollProgress, 2000);
   
     try {
-      const response = await fetch('/get_locks');
+      // Pass the sport parameter to /get_locks as well.
+      const sport = window.currentSport || "nba";
+      const response = await fetch(`/get_locks?sport=${sport}`);
       const data = await response.json();
+      
       // Once the process is done, force the progress to 100%.
       document.getElementById('progress-bar').style.width = '100%';
       document.getElementById('progress-bar').setAttribute('aria-valuenow', 100);
@@ -30,14 +35,13 @@ async function scanLocks() {
     }
 }
 
-// Function to update the parlays display based on the current odds mode.
+// updateParlaysDisplay remains unchanged...
 function updateParlaysDisplay() {
     let twoLeggersHTML = "";
     let threeLeggersHTML = "";
 
     window.parlaysData.forEach(parlay => {
         // Use the same labels regardless of odds mode for now.
-        // (Adjust as needed if you want different labels for vig vs. implied.)
         let oddsLabel = showingVigOdds ? "Implied Odds" : "Implied Odds";
         let edgeLabel = showingVigOdds ? "Edge" : "Edge";
         let oddsValue = showingVigOdds ? parlay.vig_odds : parlay.implied_odds;

@@ -26,7 +26,7 @@
     <p>
       <strong>Scan</strong> feature and progress bar currently do not work for users due to how the data is scraped. Refresh page if pressed.<br>
       <strong>Most Recent Stat Update</strong> can be used to see when the betting data was last refreshed.<br>
-      <strong>Vig Odds</strong> represent adjusted odds that factor in the sportsbook's margin, however pick6's potential for boosted payouts outweigh this so I recomend using implied odds.<br>
+      <strong>Vig Odds</strong> represent adjusted odds that factor in the sportsbook's margin, however pick6's potential for boosted payouts outweigh this so I recommend using implied odds.<br>
       <strong>Implied Odds & Edge</strong> help evaluate a parlay’s potential profitability. More information on this can be found on the Build Your Own page.
     </p>    
   </div>
@@ -40,6 +40,13 @@
         <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
     <p id="progress-message"></p>
+  </div>
+
+  <!-- New sport selection buttons -->
+  <div class="sport-selection">
+    <button id="nbaBtn" class="sport-btn" data-sport="nba">NBA</button>
+    <button id="mlbBtn" class="sport-btn" data-sport="mlb">MLB</button>
+    <button id="nhlBtn" class="sport-btn" data-sport="nhl">NHL</button>
   </div>
 
   <div class="columns">
@@ -59,5 +66,6 @@
   <script src="{{ url_for('static', filename='js/load_picks.js') }}"></script>
   <script src="{{ url_for('static', filename='js/time.js') }}"></script> <!-- Loads time.json -->
   <script src="{{ url_for('static', filename='js/info.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/sport_select.js') }}"></script>
 </body>
 </html>

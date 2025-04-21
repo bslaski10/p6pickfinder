@@ -23,9 +23,36 @@ def personal_stats():
 
 @app.route('/get_locks')
 def get_locks():
+    # Get the sport query parameter, defaulting to 'nba'
+    sport = request.args.get('sport', 'nba').lower()
     try:
-        subprocess.run(['python', 'locks.py'], check=True)
-        with open('picks.json', 'r') as file:
+        # Determine the correct command based on sport
+        if sport == 'nba':
+            cmd = ['python', 'locks.py']
+            picks_path = 'picks.json'
+        else:
+            cmd = ['python', f'{sport}/locks.py']
+            picks_path = f'{sport}/picks.json'
+            
+        subprocess.run(cmd, check=True)
+        with open(picks_path, 'r') as file:
+            data = json.load(file)
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/get_picks')
+def get_picks():
+    # Get the sport query parameter, defaulting to 'nba'
+    sport = request.args.get('sport', 'nba').lower()
+    try:
+        # Choose the correct picks file based on the sport
+        if sport == 'nba':
+            file_path = 'picks.json'
+        else:
+            file_path = f'{sport}/picks.json'
+            
+        with open(file_path, 'r') as file:
             data = json.load(file)
         return jsonify(data)
     except Exception as e:
@@ -42,18 +69,17 @@ def progress():
 
 @app.route('/get_selections')
 def get_selections():
+    # Get the sport query parameter, defaulting to 'nba'
+    sport = request.args.get('sport', 'nba').lower()
     try:
-        with open('selections/selections.json', 'r') as f:
+        # Choose the correct selections file based on the sport
+        if sport == 'nba':
+            file_path = 'selections/selections.json'
+        else:
+            file_path = f'{sport}/selections/selections.json'
+        
+        with open(file_path, 'r') as f:
             data = json.load(f)
-        return jsonify(data)
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-@app.route('/get_picks')
-def get_picks():
-    try:
-        with open('picks.json', 'r') as file:
-            data = json.load(file)
         return jsonify(data)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -63,7 +89,6 @@ def get_picks():
 def serve_selections(filename):
     return send_from_directory('selections', filename)
 
-# --- Fetch Updated profit.json ---
 @app.route('/get_profit')
 def get_profit():
     try:
@@ -73,8 +98,7 @@ def get_profit():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-# --- New endpoints for add, edit, and delete parlays ---
-
+# Endpoints for add, edit, and delete parlays remain unchanged...
 @app.route('/add_parlay', methods=['POST'])
 def add_parlay():
     try:

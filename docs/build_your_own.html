@@ -21,6 +21,7 @@
     Build Your Own Parlay 
     <button id="info-btn" class="info-btn" title="More Info">&#9432;</button>
   </h1>
+
   <div id="info-box" class="info-box">
     <p>
       <strong>Implied odds</strong> and <strong>edge</strong> are key in identifying valuable bets.<br>
@@ -28,8 +29,15 @@
       <strong>Edge</strong> factors in both probability and payout potential to determine the expected profitability.<br>
       <strong>Example:</strong> A bet with a 5% edge means that, on average, you can expect a $5 profit for every $100 wagered.
     </p>
-    
   </div>
+
+  <!-- New sport selection buttons -->
+  <div class="sport-buttons">
+    <button class="sport-btn" data-sport="nba">NBA</button>
+    <button class="sport-btn" data-sport="mlb">MLB</button>
+    <button class="sport-btn" data-sport="nhl">NHL</button>
+  </div>
+  
 
   <div class="parlay-container">
     <!-- Left side: Available Picks -->
@@ -55,5 +63,7 @@
   <script src="{{ url_for('static', filename='js/build_your_own.js') }}"></script>
   <!-- External info.js file for toggling the info box -->
   <script src="{{ url_for('static', filename='js/info.js') }}"></script>
+  <!-- Include the shared sport selection script -->
+  <script src="{{ url_for('static', filename='js/sport_select.js') }}"></script>
 </body>
 </html>

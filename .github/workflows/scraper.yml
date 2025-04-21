@@ -1,0 +1,34 @@
+name: Daily Scraper
+
+on:
+  schedule:
+    - cron: '0 16,22 * * *'  # Runs at 12PM and 6PM Eastern Time (UTC 16 & 22)
+  workflow_dispatch:         # Allows manual run from GitHub UI
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run scraper script
+        run: python locks.py
+
+      - name: Commit & push updated data
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "🔁 Auto-update by GitHub Action" || echo "No changes to commit"
+          git push

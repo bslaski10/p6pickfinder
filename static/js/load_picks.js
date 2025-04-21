@@ -1,7 +1,11 @@
+// load_picks.js
+
 // Function to load initial parlays from picks.json when the page loads
 async function loadInitialParlays() {
     try {
-        const response = await fetch('/get_picks'); // Fetch the picks.json data from the server
+        // Use the global currentSport (defaults to "nba")
+        const sport = window.currentSport || "nba";
+        const response = await fetch(`/get_picks?sport=${sport}`); // Append sport as query parameter
         const data = await response.json();
 
         // Store parlays globally so they persist until the scan updates them
@@ -14,7 +18,7 @@ async function loadInitialParlays() {
     }
 }
 
-// Function to update the parlays display based on the current odds mode
+// Function to update the parlays display based on the current odds mode remains unchanged...
 function updateParlaysDisplay() {
     let twoLeggersHTML = "";
     let threeLeggersHTML = "";
