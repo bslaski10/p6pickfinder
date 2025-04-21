@@ -2,8 +2,8 @@ name: Daily Scraper
 
 on:
   schedule:
-    - cron: '0 16,22 * * *'  # Runs at 12PM and 6PM Eastern Time (UTC 16 & 22)
-  workflow_dispatch:         # Allows manual run from GitHub UI
+    - cron: '0 16,22 * * *'  # 12PM and 6PM Eastern
+  workflow_dispatch:
 
 jobs:
   run-scraper:
@@ -20,15 +20,15 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r p6pickfinder/requirements.txt
 
       - name: Run scraper script
         working-directory: p6pickfinder
         run: python locks.py
 
       - name: Commit & push updated data
-        working-directory: p6pickfinder
         run: |
+          cd p6pickfinder
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
