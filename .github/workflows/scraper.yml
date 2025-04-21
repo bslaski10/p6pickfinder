@@ -23,7 +23,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run scraper script
-        run: python locks.py
+  working-directory: p6pickfinder
+  run: python locks.py
+
 
       - name: Commit & push updated data
         run: |
