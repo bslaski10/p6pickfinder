@@ -12,10 +12,20 @@ def convert_to_est(utc_time_str):
     if not utc_time_str:
         return ""
     
-    utc_time = datetime.fromisoformat(utc_time_str.replace("Z", "+00:00"))
-    est_zone = pytz.timezone("US/Eastern")
-    est_time = utc_time.astimezone(est_zone)
-    return est_time.strftime("%I:%M %p").lstrip("0")
+    try:
+        cleaned_time = utc_time_str.replace("Z", "+00:00")
+        if ".0000000" in cleaned_time:
+            cleaned_time = cleaned_time.replace(".0000000", ".000000")
+        
+        utc_time = datetime.fromisoformat(cleaned_time)
+        est_zone = pytz.timezone("US/Eastern")
+        est_time = utc_time.astimezone(est_zone)
+        return est_time.strftime("%I:%M %p").lstrip("0")
+    
+    except Exception as e:
+        print(f"[Time Parse Error] '{utc_time_str}' → {e}")
+        return ""
+
 
 # Function to process a given MLB stat category
 def process_category(category_name):
