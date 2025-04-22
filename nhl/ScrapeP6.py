@@ -50,7 +50,7 @@ def clear_stats_files():
     with open("locked.json", "w", encoding="utf-8") as f:
         json.dump([], f)
     for stat_name in urls:
-        with open(f"options/{stat_name}_options.json", "w", encoding="utf-8") as f:
+        with open(f"nhl/options/{stat_name}_options.json", "w", encoding="utf-8") as f:
             json.dump([], f)
 
 def scrape_and_save(stat_name, stat_label, url):
@@ -109,7 +109,7 @@ def scrape_and_save(stat_name, stat_label, url):
             if normalize_to_initial_format(name) not in locked_players_set
         ])
 
-        with open(f"options/{stat_name}_options.json", "w", encoding="utf-8") as f:
+        with open(f"nhl/options/{stat_name}_options.json", "w", encoding="utf-8") as f:
             json.dump(unlocked_valid_players, f, indent=4)
 
         # Update locked.json globally
