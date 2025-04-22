@@ -16,27 +16,30 @@ on:
 
 
 jobs:
-  run-mlb-locks:
+  run-scraper:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.10
+          python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
 
-      - name: Run MLB Locks
+      - name: Run scraper script
         run: python mlb/Locks.py
 
-      - name: Commit & Push
+      - name: Commit & push updated data
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "🔁 MLB Auto-update"
+          git commit -m "🔁 Auto-update by GitHub Action" || echo "No changes to commit"
           git push
+
