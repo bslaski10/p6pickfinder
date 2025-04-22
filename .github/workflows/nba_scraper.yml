@@ -2,7 +2,11 @@ name: Daily Scraper
 
 on:
   schedule:
-    - cron: '0 23 * * *'  # 12PM and 6PM Eastern Time
+    - cron: '30 22 * * 1-5'  # Mon–Fri at 6:30 PM ET
+    - cron: '30 16 * * 6'    # Saturday 12:30 PM ET
+    - cron: '30 21 * * 6'    # Saturday 5:30 PM ET
+    - cron: '30 16 * * 0'    # Sunday 12:30 PM ET
+    - cron: '30 21 * * 0'    # Sunday 5:30 PM ET
   workflow_dispatch:
 
 jobs:

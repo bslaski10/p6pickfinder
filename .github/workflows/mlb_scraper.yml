@@ -1,0 +1,42 @@
+name: MLB Daily Scraper
+
+on:
+  schedule:
+    - cron: '0 22 * * 1'   # Monday 6:00 PM ET
+    - cron: '30 21 * * 2'  # Tuesday 5:30 PM ET
+    - cron: '30 16 * * 3'  # Wednesday 12:30 PM ET
+    - cron: '0 22 * * 3'   # Wednesday 6:00 PM ET
+    - cron: '30 16 * * 4'  # Thursday 12:30 PM ET
+    - cron: '0 22 * * 4'   # Thursday 6:00 PM ET
+    - cron: '0 22 * * 5'   # Friday 6:00 PM ET
+    - cron: '30 16 * * 6'  # Saturday 12:30 PM ET
+    - cron: '0 22 * * 6'   # Saturday 6:00 PM ET
+    - cron: '30 16 * * 0'  # Sunday 12:30 PM ET
+  workflow_dispatch:
+
+
+jobs:
+  run-mlb-locks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run MLB Locks
+        run: python mlb/Locks.py
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "🔁 MLB Auto-update"
+          git push
