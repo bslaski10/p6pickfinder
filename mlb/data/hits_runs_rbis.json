@@ -16,16 +16,20 @@
             "tags": [
                 "FeaturedSubcategory",
                 "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "MatchTracker",
-                "PrePack",
-                "ProgressiveParlayEligible",
-                "ProgressiveParlayTeamEligible",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
                 "Stats",
                 "YourBetEligible",
+                "PrePack",
+                "ProgressiveParlayEligible",
+                "ProgressiveParlayTeamEligible",
                 "Featured",
+                "HasLiveEvents",
+                "LiveFeaturedSubcategory",
                 "FavoriteableFromPage"
             ],
             "isTeamSwap": true,
@@ -47,93 +51,6 @@
         }
     ],
     "events": [
-        {
-            "id": "32184756",
-            "seoIdentifier": "NY Yankees @ CLE Guardians",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "NY Yankees @ CLE Guardians",
-            "startEventDate": "2025-04-22T22:10:00.0000000Z",
-            "participants": [
-                {
-                    "id": "29913",
-                    "name": "CLE Guardians",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "201",
-                        "rosettaTeamId": "29913",
-                        "shortName": "CLE",
-                        "startingPitcherPlayerId": "161824",
-                        "teamColor": "#00385d",
-                        "startingPitcherPlayerName": "Tanner Bibee"
-                    },
-                    "sortOrder": 2
-                },
-                {
-                    "id": "29825",
-                    "name": "NY Yankees",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "200",
-                        "rosettaTeamId": "29825",
-                        "shortName": "NYY",
-                        "startingPitcherPlayerId": "181457",
-                        "teamColor": "#003087",
-                        "startingPitcherPlayerName": "Will Warren"
-                    },
-                    "sortOrder": 1
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "eventScorecard": {
-                "scorecardComponentId": 1
-            },
-            "media": [
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "55309115",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "55309115",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "55309115",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                }
-            ],
-            "tags": [
-                "FeaturedSubcategory",
-                "Flashbet",
-                "MatchTracker",
-                "PrePack",
-                "ProgressiveParlayEligible",
-                "ProgressiveParlayTeamEligible",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "233",
-                "numberOfParts": "9"
-            },
-            "sortOrder": 226501056,
-            "subscriptionKey": "league-events-84240"
-        },
         {
             "id": "32184757",
             "seoIdentifier": "SD Padres @ DET Tigers",
@@ -1355,441 +1272,6 @@
     ],
     "markets": [
         {
-            "id": "245748111",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Aaron Judge Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 38,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:109363",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748145",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Steven Kwan Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 44,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:151671",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748214",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Jose Ramirez Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 49,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:118603",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748275",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Ben Rice Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 103,
-            "tags": [
-                "ProgressiveParlayEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:181002",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748100",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Cody Bellinger Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 105,
-            "tags": [
-                "ProgressiveParlayEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:109567",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748204",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Paul Goldschmidt Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 118,
-            "tags": [
-                "ProgressiveParlayEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:109187",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748169",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Jasson Dominguez Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 163,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:175309",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748158",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Jazz Chisholm Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 164,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:108850",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748122",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Kyle Manzardo Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 168,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:179782",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748086",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Carlos Santana Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 177,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:108137",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748245",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Angel Martinez Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 190,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:160739",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748128",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Anthony Volpe Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 191,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:106033",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748127",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Nolan Jones Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 223,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:106322",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245898976",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Oswaldo Cabrera Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 239,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:151657",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748140",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Brayan Rocchio Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 244,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:106324",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748151",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Bo Naylor Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 250,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:106325",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245899045",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "J.C. Escarra Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 259,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:197270",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245748150",
-            "eventId": "32184756",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Daniel Schneemann Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 262,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184756|10765|2:180221",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
             "id": "245754786",
             "eventId": "32184757",
             "sportId": "7",
@@ -1826,7 +1308,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 52,
+            "sortOrder": 49,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -1851,7 +1333,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 94,
+            "sortOrder": 91,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -1876,7 +1358,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 112,
+            "sortOrder": 107,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -1901,7 +1383,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 127,
+            "sortOrder": 121,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -1926,7 +1408,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 144,
+            "sortOrder": 138,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -1950,7 +1432,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 156,
+            "sortOrder": 150,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -1974,7 +1456,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 186,
+            "sortOrder": 176,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -1998,7 +1480,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 188,
+            "sortOrder": 178,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2022,7 +1504,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 200,
+            "sortOrder": 189,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2046,7 +1528,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 222,
+            "sortOrder": 212,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2070,7 +1552,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 238,
+            "sortOrder": 227,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2094,7 +1576,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 249,
+            "sortOrder": 236,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2118,7 +1600,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 251,
+            "sortOrder": 237,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2142,7 +1624,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 256,
+            "sortOrder": 242,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2166,7 +1648,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 258,
+            "sortOrder": 244,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2190,7 +1672,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 263,
+            "sortOrder": 247,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2214,7 +1696,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 266,
+            "sortOrder": 250,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2238,7 +1720,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 10,
+            "sortOrder": 11,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2286,7 +1768,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 63,
+            "sortOrder": 60,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2311,7 +1793,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 66,
+            "sortOrder": 63,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2336,7 +1818,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 74,
+            "sortOrder": 71,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2361,7 +1843,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 76,
+            "sortOrder": 73,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2386,7 +1868,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 100,
+            "sortOrder": 97,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2411,7 +1893,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 108,
+            "sortOrder": 103,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2436,7 +1918,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 115,
+            "sortOrder": 110,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2461,7 +1943,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 135,
+            "sortOrder": 129,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2486,7 +1968,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 140,
+            "sortOrder": 134,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2510,7 +1992,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 162,
+            "sortOrder": 156,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2534,7 +2016,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 171,
+            "sortOrder": 163,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2558,7 +2040,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 197,
+            "sortOrder": 186,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2582,7 +2064,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 235,
+            "sortOrder": 224,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2606,7 +2088,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 247,
+            "sortOrder": 234,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2630,7 +2112,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 252,
+            "sortOrder": 238,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2654,7 +2136,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 260,
+            "sortOrder": 245,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2702,7 +2184,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 45,
+            "sortOrder": 43,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2726,7 +2208,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 61,
+            "sortOrder": 58,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2751,7 +2233,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 69,
+            "sortOrder": 66,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2776,7 +2258,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 78,
+            "sortOrder": 75,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2801,7 +2283,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 79,
+            "sortOrder": 76,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2826,7 +2308,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 82,
+            "sortOrder": 79,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2851,7 +2333,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 116,
+            "sortOrder": 111,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2876,7 +2358,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 123,
+            "sortOrder": 117,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2901,7 +2383,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 124,
+            "sortOrder": 118,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -2926,7 +2408,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 141,
+            "sortOrder": 135,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2950,7 +2432,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 150,
+            "sortOrder": 145,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2974,7 +2456,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 160,
+            "sortOrder": 154,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -2998,7 +2480,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 165,
+            "sortOrder": 157,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -3022,7 +2504,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 178,
+            "sortOrder": 169,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -3046,7 +2528,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 207,
+            "sortOrder": 196,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -3070,7 +2552,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 245,
+            "sortOrder": 232,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -3094,7 +2576,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 248,
+            "sortOrder": 235,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -3143,7 +2625,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 9,
+            "sortOrder": 10,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -3193,7 +2675,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 31,
+            "sortOrder": 30,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -3218,7 +2700,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 40,
+            "sortOrder": 39,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -3268,7 +2750,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 70,
+            "sortOrder": 67,
             "tags": [
                 "ProgressiveParlayEligible",
                 "YourBetEligible",
@@ -3294,7 +2776,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 90,
+            "sortOrder": 87,
             "tags": [
                 "ProgressiveParlayEligible",
                 "YourBetEligible",
@@ -3320,7 +2802,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 114,
+            "sortOrder": 109,
             "tags": [
                 "ProgressiveParlayEligible",
                 "YourBetEligible",
@@ -3346,7 +2828,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 120,
+            "sortOrder": 114,
             "tags": [
                 "ProgressiveParlayEligible",
                 "YourBetEligible",
@@ -3372,7 +2854,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 128,
+            "sortOrder": 122,
             "tags": [
                 "ProgressiveParlayEligible",
                 "YourBetEligible",
@@ -3398,7 +2880,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 142,
+            "sortOrder": 136,
             "tags": [
                 "ProgressiveParlayEligible",
                 "YourBetEligible",
@@ -3424,7 +2906,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 159,
+            "sortOrder": 153,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -3449,7 +2931,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 179,
+            "sortOrder": 170,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -3474,7 +2956,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 185,
+            "sortOrder": 175,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -3499,7 +2981,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 201,
+            "sortOrder": 190,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -3524,7 +3006,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 203,
+            "sortOrder": 192,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -3549,7 +3031,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 221,
+            "sortOrder": 210,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -3622,7 +3104,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 47,
+            "sortOrder": 45,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -3647,7 +3129,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 53,
+            "sortOrder": 50,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -3672,7 +3154,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 64,
+            "sortOrder": 61,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -3697,7 +3179,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 121,
+            "sortOrder": 115,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -3722,7 +3204,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 126,
+            "sortOrder": 120,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -3746,7 +3228,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 130,
+            "sortOrder": 124,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -3771,7 +3253,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 132,
+            "sortOrder": 126,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -3796,7 +3278,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 133,
+            "sortOrder": 127,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -3820,7 +3302,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 136,
+            "sortOrder": 130,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -3845,7 +3327,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 173,
+            "sortOrder": 165,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -3869,7 +3351,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 174,
+            "sortOrder": 166,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -3893,7 +3375,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 180,
+            "sortOrder": 171,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -3917,7 +3399,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 213,
+            "sortOrder": 201,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -3941,7 +3423,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 214,
+            "sortOrder": 202,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -3965,7 +3447,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 241,
+            "sortOrder": 229,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -3989,7 +3471,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 257,
+            "sortOrder": 243,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4013,7 +3495,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 11,
+            "sortOrder": 12,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4037,7 +3519,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 20,
+            "sortOrder": 18,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4061,7 +3543,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 51,
+            "sortOrder": 48,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -4086,7 +3568,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 62,
+            "sortOrder": 59,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -4111,7 +3593,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 72,
+            "sortOrder": 69,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -4136,7 +3618,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 85,
+            "sortOrder": 82,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -4161,7 +3643,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 86,
+            "sortOrder": 83,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -4186,7 +3668,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 88,
+            "sortOrder": 85,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -4211,7 +3693,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 92,
+            "sortOrder": 89,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -4236,7 +3718,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 117,
+            "sortOrder": 112,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -4261,7 +3743,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 134,
+            "sortOrder": 128,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4285,7 +3767,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 149,
+            "sortOrder": 144,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4309,7 +3791,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 172,
+            "sortOrder": 164,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4333,7 +3815,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 198,
+            "sortOrder": 187,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4357,7 +3839,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 204,
+            "sortOrder": 193,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4381,7 +3863,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 218,
+            "sortOrder": 207,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4405,7 +3887,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 224,
+            "sortOrder": 214,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4429,7 +3911,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 233,
+            "sortOrder": 222,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4477,7 +3959,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 21,
+            "sortOrder": 19,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4501,7 +3983,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 26,
+            "sortOrder": 24,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4525,7 +4007,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 27,
+            "sortOrder": 25,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4549,7 +4031,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 57,
+            "sortOrder": 54,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -4574,7 +4056,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 98,
+            "sortOrder": 95,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -4599,7 +4081,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 129,
+            "sortOrder": 123,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -4624,7 +4106,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 146,
+            "sortOrder": 140,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4648,7 +4130,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 194,
+            "sortOrder": 183,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4672,7 +4154,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 196,
+            "sortOrder": 185,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4696,7 +4178,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 199,
+            "sortOrder": 188,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4720,7 +4202,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 211,
+            "sortOrder": 199,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4744,7 +4226,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 226,
+            "sortOrder": 216,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4768,7 +4250,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 227,
+            "sortOrder": 217,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4792,7 +4274,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 242,
+            "sortOrder": 230,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4816,7 +4298,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 254,
+            "sortOrder": 240,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4840,7 +4322,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 255,
+            "sortOrder": 241,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4864,7 +4346,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 264,
+            "sortOrder": 248,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4912,7 +4394,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 24,
+            "sortOrder": 22,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -4936,7 +4418,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 56,
+            "sortOrder": 53,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -4961,7 +4443,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 71,
+            "sortOrder": 68,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -4986,7 +4468,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 75,
+            "sortOrder": 72,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -5011,7 +4493,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 84,
+            "sortOrder": 81,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -5036,7 +4518,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 119,
+            "sortOrder": 113,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -5061,7 +4543,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 122,
+            "sortOrder": 116,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5085,7 +4567,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 139,
+            "sortOrder": 133,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5109,7 +4591,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 161,
+            "sortOrder": 155,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5133,7 +4615,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 176,
+            "sortOrder": 168,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5157,7 +4639,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 183,
+            "sortOrder": 174,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5181,7 +4663,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 212,
+            "sortOrder": 200,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5205,7 +4687,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 229,
+            "sortOrder": 219,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5229,7 +4711,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 232,
+            "sortOrder": 221,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5253,7 +4735,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 236,
+            "sortOrder": 225,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5277,7 +4759,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 267,
+            "sortOrder": 251,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -5302,7 +4784,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 268,
+            "sortOrder": 252,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5326,7 +4808,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 22,
+            "sortOrder": 20,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5350,7 +4832,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 28,
+            "sortOrder": 27,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5374,7 +4856,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 29,
+            "sortOrder": 28,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5398,7 +4880,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 54,
+            "sortOrder": 51,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -5423,7 +4905,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 55,
+            "sortOrder": 52,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -5448,7 +4930,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 58,
+            "sortOrder": 55,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -5473,7 +4955,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 67,
+            "sortOrder": 64,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -5498,7 +4980,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 68,
+            "sortOrder": 65,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -5523,7 +5005,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 87,
+            "sortOrder": 84,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -5548,7 +5030,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 93,
+            "sortOrder": 90,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -5573,7 +5055,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 95,
+            "sortOrder": 92,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -5598,7 +5080,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 152,
+            "sortOrder": 147,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5622,7 +5104,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 157,
+            "sortOrder": 151,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5646,7 +5128,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 169,
+            "sortOrder": 161,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5670,7 +5152,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 170,
+            "sortOrder": 162,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5694,7 +5176,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 187,
+            "sortOrder": 177,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5718,7 +5200,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 215,
+            "sortOrder": 203,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5742,7 +5224,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 265,
+            "sortOrder": 249,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -5766,7 +5248,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 23,
+            "sortOrder": 21,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -5816,7 +5298,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 60,
+            "sortOrder": 57,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -5841,7 +5323,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 102,
+            "sortOrder": 99,
             "tags": [
                 "ProgressiveParlayEligible",
                 "YourBetEligible",
@@ -5867,7 +5349,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 111,
+            "sortOrder": 106,
             "tags": [
                 "ProgressiveParlayEligible",
                 "YourBetEligible",
@@ -5893,7 +5375,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 137,
+            "sortOrder": 131,
             "tags": [
                 "ProgressiveParlayEligible",
                 "YourBetEligible",
@@ -5919,7 +5401,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 143,
+            "sortOrder": 137,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -5944,7 +5426,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 145,
+            "sortOrder": 139,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -5969,7 +5451,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 147,
+            "sortOrder": 141,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -5994,7 +5476,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 175,
+            "sortOrder": 167,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -6019,7 +5501,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 189,
+            "sortOrder": 180,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -6044,7 +5526,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 192,
+            "sortOrder": 181,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -6069,7 +5551,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 193,
+            "sortOrder": 182,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -6094,7 +5576,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 206,
+            "sortOrder": 195,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -6119,7 +5601,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 208,
+            "sortOrder": 197,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -6144,7 +5626,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 216,
+            "sortOrder": 204,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -6169,7 +5651,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 228,
+            "sortOrder": 218,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -6194,7 +5676,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 261,
+            "sortOrder": 246,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -6243,7 +5725,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 30,
+            "sortOrder": 29,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6291,7 +5773,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 80,
+            "sortOrder": 77,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -6316,7 +5798,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 131,
+            "sortOrder": 125,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -6341,7 +5823,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 148,
+            "sortOrder": 142,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6365,7 +5847,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 153,
+            "sortOrder": 148,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6389,7 +5871,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 158,
+            "sortOrder": 152,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6413,7 +5895,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 181,
+            "sortOrder": 172,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6437,7 +5919,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 182,
+            "sortOrder": 173,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6461,7 +5943,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 195,
+            "sortOrder": 184,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6469,30 +5951,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "32184789|10765|2:160746",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245757388",
-            "eventId": "32184789",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Ke'Bryan Hayes Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 210,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184789|10765|2:107962",
             "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
             "dynamicMetadata": {}
         },
@@ -6509,7 +5967,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 217,
+            "sortOrder": 205,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6533,7 +5991,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 220,
+            "sortOrder": 209,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6541,6 +5999,30 @@
                 "PlayerProps"
             ],
             "correlatedId": "32184789|10765|2:108553",
+            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "245757388",
+            "eventId": "32184789",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Ke'Bryan Hayes Hits + Runs + RBIs O/U",
+            "subcategoryId": 17406,
+            "marketType": {
+                "id": "10765",
+                "betOfferTypeId": 0,
+                "name": "Hits + Runs + RBIs O/U"
+            },
+            "subscriptionKey": "league-events-84240",
+            "sortOrder": 213,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32184789|10765|2:107962",
             "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
             "dynamicMetadata": {}
         },
@@ -6557,7 +6039,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 234,
+            "sortOrder": 223,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6581,7 +6063,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 237,
+            "sortOrder": 226,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6605,7 +6087,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 240,
+            "sortOrder": 228,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6629,7 +6111,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 243,
+            "sortOrder": 231,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6677,7 +6159,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 25,
+            "sortOrder": 23,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6701,7 +6183,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 50,
+            "sortOrder": 47,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6725,7 +6207,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 59,
+            "sortOrder": 56,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -6750,7 +6232,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 83,
+            "sortOrder": 80,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -6775,7 +6257,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 89,
+            "sortOrder": 86,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -6800,7 +6282,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 96,
+            "sortOrder": 93,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -6825,7 +6307,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 104,
+            "sortOrder": 100,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -6850,7 +6332,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 106,
+            "sortOrder": 101,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -6875,7 +6357,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 107,
+            "sortOrder": 102,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -6900,7 +6382,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 109,
+            "sortOrder": 104,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -6925,7 +6407,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 110,
+            "sortOrder": 105,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -6950,7 +6432,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 138,
+            "sortOrder": 132,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6974,7 +6456,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 151,
+            "sortOrder": 146,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -6998,7 +6480,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 167,
+            "sortOrder": 159,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7022,7 +6504,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 202,
+            "sortOrder": 191,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7046,7 +6528,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 219,
+            "sortOrder": 208,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7070,7 +6552,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 230,
+            "sortOrder": 220,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7094,7 +6576,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 12,
+            "sortOrder": 9,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7102,6 +6584,30 @@
                 "PlayerProps"
             ],
             "correlatedId": "32184791|10765|2:108408",
+            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "245761213",
+            "eventId": "32184791",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Matt Chapman Hits + Runs + RBIs O/U",
+            "subcategoryId": 17406,
+            "marketType": {
+                "id": "10765",
+                "betOfferTypeId": 0,
+                "name": "Hits + Runs + RBIs O/U"
+            },
+            "subscriptionKey": "league-events-84240",
+            "sortOrder": 26,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32184791|10765|2:109505",
             "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
             "dynamicMetadata": {}
         },
@@ -7118,7 +6624,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 18,
+            "sortOrder": 31,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7126,30 +6632,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "32184791|10765|2:106521",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245779939",
-            "eventId": "32184791",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Jackson Chourio Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 19,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184791|10765|2:161006",
             "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
             "dynamicMetadata": {}
         },
@@ -7178,11 +6660,11 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "245761213",
+            "id": "245779939",
             "eventId": "32184791",
             "sportId": "7",
             "leagueId": "84240",
-            "name": "Matt Chapman Hits + Runs + RBIs O/U",
+            "name": "Jackson Chourio Hits + Runs + RBIs O/U",
             "subcategoryId": 17406,
             "marketType": {
                 "id": "10765",
@@ -7190,14 +6672,14 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 43,
+            "sortOrder": 40,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32184791|10765|2:109505",
+            "correlatedId": "32184791|10765|2:161006",
             "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
             "dynamicMetadata": {}
         },
@@ -7214,7 +6696,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 65,
+            "sortOrder": 62,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -7239,7 +6721,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 73,
+            "sortOrder": 70,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -7264,7 +6746,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 91,
+            "sortOrder": 88,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -7289,7 +6771,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 99,
+            "sortOrder": 96,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -7314,7 +6796,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 113,
+            "sortOrder": 108,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -7323,30 +6805,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "32184791|10765|2:160889",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245761241",
-            "eventId": "32184791",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Tyler Fitzgerald Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 154,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184791|10765|2:176035",
             "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
             "dynamicMetadata": {}
         },
@@ -7363,7 +6821,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 155,
+            "sortOrder": 149,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7371,6 +6829,30 @@
                 "PlayerProps"
             ],
             "correlatedId": "32184791|10765|2:108831",
+            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "245761241",
+            "eventId": "32184791",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Tyler Fitzgerald Hits + Runs + RBIs O/U",
+            "subcategoryId": 17406,
+            "marketType": {
+                "id": "10765",
+                "betOfferTypeId": 0,
+                "name": "Hits + Runs + RBIs O/U"
+            },
+            "subscriptionKey": "league-events-84240",
+            "sortOrder": 179,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32184791|10765|2:176035",
             "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
             "dynamicMetadata": {}
         },
@@ -7387,7 +6869,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 205,
+            "sortOrder": 194,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7411,7 +6893,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 209,
+            "sortOrder": 198,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7423,11 +6905,11 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "245780017",
+            "id": "245923871",
             "eventId": "32184791",
             "sportId": "7",
             "leagueId": "84240",
-            "name": "Rhys Hoskins Hits + Runs + RBIs O/U",
+            "name": "Patrick Bailey Hits + Runs + RBIs O/U",
             "subcategoryId": 17406,
             "marketType": {
                 "id": "10765",
@@ -7435,14 +6917,14 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 225,
+            "sortOrder": 206,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32184791|10765|2:108836",
+            "correlatedId": "32184791|10765|2:105765",
             "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
             "dynamicMetadata": {}
         },
@@ -7459,7 +6941,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 231,
+            "sortOrder": 211,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7467,6 +6949,30 @@
                 "PlayerProps"
             ],
             "correlatedId": "32184791|10765|2:153864",
+            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "245780017",
+            "eventId": "32184791",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Rhys Hoskins Hits + Runs + RBIs O/U",
+            "subcategoryId": 17406,
+            "marketType": {
+                "id": "10765",
+                "betOfferTypeId": 0,
+                "name": "Hits + Runs + RBIs O/U"
+            },
+            "subscriptionKey": "league-events-84240",
+            "sortOrder": 215,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32184791|10765|2:108836",
             "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
             "dynamicMetadata": {}
         },
@@ -7483,7 +6989,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 246,
+            "sortOrder": 233,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7491,30 +6997,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "32184791|10765|2:197248",
-            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "245761178",
-            "eventId": "32184791",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Sam Huff Hits + Runs + RBIs O/U",
-            "subcategoryId": 17406,
-            "marketType": {
-                "id": "10765",
-                "betOfferTypeId": 0,
-                "name": "Hits + Runs + RBIs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 253,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32184791|10765|2:106157",
             "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
             "dynamicMetadata": {}
         },
@@ -7652,7 +7134,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 39,
+            "sortOrder": 38,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7700,7 +7182,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 46,
+            "sortOrder": 44,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7724,7 +7206,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 48,
+            "sortOrder": 46,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -7749,7 +7231,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 77,
+            "sortOrder": 74,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -7774,7 +7256,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 81,
+            "sortOrder": 78,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -7799,7 +7281,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 97,
+            "sortOrder": 94,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -7824,7 +7306,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 101,
+            "sortOrder": 98,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -7849,7 +7331,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 125,
+            "sortOrder": 119,
             "tags": [
                 "ProgressiveParlayEligible",
                 "Cashout",
@@ -7858,6 +7340,30 @@
                 "PlayerProps"
             ],
             "correlatedId": "32184792|10765|2:106246",
+            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "245922939",
+            "eventId": "32184792",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Joc Pederson Hits + Runs + RBIs O/U",
+            "subcategoryId": 17406,
+            "marketType": {
+                "id": "10765",
+                "betOfferTypeId": 0,
+                "name": "Hits + Runs + RBIs O/U"
+            },
+            "subscriptionKey": "league-events-84240",
+            "sortOrder": 143,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32184792|10765|2:109540",
             "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
             "dynamicMetadata": {}
         },
@@ -7874,7 +7380,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 166,
+            "sortOrder": 158,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7898,7 +7404,7 @@
                 "name": "Hits + Runs + RBIs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 184,
+            "sortOrder": 160,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -7908,137 +7414,33 @@
             "correlatedId": "32184792|10765|2:109400",
             "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
             "dynamicMetadata": {}
+        },
+        {
+            "id": "245922942",
+            "eventId": "32184792",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Kyle Higashioka Hits + Runs + RBIs O/U",
+            "subcategoryId": 17406,
+            "marketType": {
+                "id": "10765",
+                "betOfferTypeId": 0,
+                "name": "Hits + Runs + RBIs O/U"
+            },
+            "subscriptionKey": "league-events-84240",
+            "sortOrder": 239,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32184792|10765|2:109404",
+            "blurbId": "575dc676-6103-4dfe-8757-c2389631ca68",
+            "dynamicMetadata": {}
         }
     ],
     "selections": [
-        {
-            "id": "0QA245899045#220358481_13L84240Q1-1028686215Q20",
-            "marketId": "245899045",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−165",
-                "decimal": "1.60",
-                "fractional": "20/33"
-            },
-            "trueOdds": 1.60606061,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "476728",
-                    "name": "J.C. Escarra",
-                    "type": "Player",
-                    "seoIdentifier": "J.C. Escarra",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 5
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748140#219711335_13L84240Q1-1028686215Q20",
-            "marketId": "245748140",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−190",
-                "decimal": "1.52",
-                "fractional": "10/19"
-            },
-            "trueOdds": 1.52631579,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "110769",
-                    "name": "Brayan Rocchio",
-                    "type": "Player",
-                    "seoIdentifier": "Brayan Rocchio",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 27
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748150#219711362_13L84240Q1-1028686215Q20",
-            "marketId": "245748150",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−150",
-                "decimal": "1.66",
-                "fractional": "4/6"
-            },
-            "trueOdds": 1.66666667,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "477427",
-                    "name": "Daniel Schneemann",
-                    "type": "Player",
-                    "seoIdentifier": "Daniel Schneemann",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 15
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748151#219711024_13L84240Q1-1028686215Q20",
-            "marketId": "245748151",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−180",
-                "decimal": "1.55",
-                "fractional": "5/9"
-            },
-            "trueOdds": 1.55555556,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "110770",
-                    "name": "Bo Naylor",
-                    "type": "Player",
-                    "seoIdentifier": "Bo Naylor",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 22
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
         {
             "id": "0QA245754637#219733598_13L84240Q1-1028686215Q20",
             "marketId": "245754637",
@@ -8737,8 +8139,8 @@
             "metadata": {}
         },
         {
-            "id": "0QA245761178#219888628_13L84240Q1-1028686215Q20",
-            "marketId": "245761178",
+            "id": "0QA245922942#220480335_13L84240Q1-1028686215Q20",
+            "marketId": "245922942",
             "label": "Over",
             "displayOdds": {
                 "american": "−180",
@@ -8750,146 +8152,18 @@
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "459928",
-                    "name": "Sam Huff",
+                    "id": "32547",
+                    "name": "Kyle Higashioka",
                     "type": "Player",
-                    "seoIdentifier": "Sam Huff",
+                    "seoIdentifier": "Kyle Higashioka",
                     "statistic": {
                         "prefix": "Total",
-                        "value": 7
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245899045#220358483_13L84240Q1152839864Q20",
-            "marketId": "245899045",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+120",
-                "decimal": "2.20",
-                "fractional": "6/5"
-            },
-            "trueOdds": 2.2,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "476728",
-                    "name": "J.C. Escarra",
-                    "type": "Player",
-                    "seoIdentifier": "J.C. Escarra",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 5
+                        "value": 17
                     },
                     "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748140#219711337_13L84240Q1152839864Q20",
-            "marketId": "245748140",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+140",
-                "decimal": "2.40",
-                "fractional": "7/5"
-            },
-            "trueOdds": 2.4,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "110769",
-                    "name": "Brayan Rocchio",
-                    "type": "Player",
-                    "seoIdentifier": "Brayan Rocchio",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 27
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748150#219711363_13L84240Q1152839864Q20",
-            "marketId": "245748150",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+110",
-                "decimal": "2.10",
-                "fractional": "11/10"
-            },
-            "trueOdds": 2.1,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "477427",
-                    "name": "Daniel Schneemann",
-                    "type": "Player",
-                    "seoIdentifier": "Daniel Schneemann",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 15
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748151#219711025_13L84240Q1152839864Q20",
-            "marketId": "245748151",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+130",
-                "decimal": "2.30",
-                "fractional": "13/10"
-            },
-            "trueOdds": 2.3,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "110770",
-                    "name": "Bo Naylor",
-                    "type": "Player",
-                    "seoIdentifier": "Bo Naylor",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 22
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 502,
+            "sortOrder": 500,
             "tags": [
                 "MainPointLine"
             ],
@@ -9594,8 +8868,8 @@
             "metadata": {}
         },
         {
-            "id": "0QA245761178#219888629_13L84240Q1152839864Q20",
-            "marketId": "245761178",
+            "id": "0QA245922942#220480338_13L84240Q1152839864Q20",
+            "marketId": "245922942",
             "label": "Under",
             "displayOdds": {
                 "american": "+130",
@@ -9607,475 +8881,18 @@
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "459928",
-                    "name": "Sam Huff",
+                    "id": "32547",
+                    "name": "Kyle Higashioka",
                     "type": "Player",
-                    "seoIdentifier": "Sam Huff",
+                    "seoIdentifier": "Kyle Higashioka",
                     "statistic": {
                         "prefix": "Total",
-                        "value": 7
+                        "value": 17
                     },
-                    "venueRole": "HomePlayer"
+                    "venueRole": "AwayPlayer"
                 }
             ],
             "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748086#219711093_13L84240Q12062063964Q20",
-            "marketId": "245748086",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+110",
-                "decimal": "2.10",
-                "fractional": "11/10"
-            },
-            "trueOdds": 2.1,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "31690",
-                    "name": "Carlos Santana",
-                    "type": "Player",
-                    "seoIdentifier": "Carlos Santana",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 36
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine",
-                "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748100#219711158_13L84240Q12062063964Q20",
-            "marketId": "245748100",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "32714",
-                    "name": "Cody Bellinger",
-                    "type": "Player",
-                    "seoIdentifier": "Cody Bellinger",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 35
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "ProgressiveParlayEligible",
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748111#219711196_13L84240Q12062063964Q20",
-            "marketId": "245748111",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
-            },
-            "trueOdds": 1.74074075,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "32504",
-                    "name": "Aaron Judge",
-                    "type": "Player",
-                    "seoIdentifier": "Aaron Judge",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 79
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748122#219711264_13L84240Q12062063964Q20",
-            "marketId": "245748122",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
-            },
-            "trueOdds": 2.05,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "582176",
-                    "name": "Kyle Manzardo",
-                    "type": "Player",
-                    "seoIdentifier": "Kyle Manzardo",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 43
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748127#219711278_13L84240Q12062063964Q20",
-            "marketId": "245748127",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+125",
-                "decimal": "2.25",
-                "fractional": "5/4"
-            },
-            "trueOdds": 2.25,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "110767",
-                    "name": "Nolan Jones",
-                    "type": "Player",
-                    "seoIdentifier": "Nolan Jones",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 13
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748128#219711300_13L84240Q12062063964Q20",
-            "marketId": "245748128",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+115",
-                "decimal": "2.15",
-                "fractional": "23/20"
-            },
-            "trueOdds": 2.15,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "459842",
-                    "name": "Anthony Volpe",
-                    "type": "Player",
-                    "seoIdentifier": "Anthony Volpe",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 45
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748145#219711349_13L84240Q12062063964Q20",
-            "marketId": "245748145",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
-            },
-            "trueOdds": 1.74074075,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "477426",
-                    "name": "Steven Kwan",
-                    "type": "Player",
-                    "seoIdentifier": "Steven Kwan",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 59
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748158#219711184_13L84240Q12062063964Q20",
-            "marketId": "245748158",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
-            },
-            "trueOdds": 2.05,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "112676",
-                    "name": "Jazz Chisholm",
-                    "type": "Player",
-                    "seoIdentifier": "Jazz Chisholm Jr.",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 42
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine",
-                "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748169#219711384_13L84240Q12062063964Q20",
-            "marketId": "245748169",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
-            },
-            "trueOdds": 2.05,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "470244",
-                    "name": "Jasson Dominguez",
-                    "type": "Player",
-                    "seoIdentifier": "Jasson Dominguez",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 38
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748204#219711050_13L84240Q12062063964Q20",
-            "marketId": "245748204",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "32330",
-                    "name": "Paul Goldschmidt",
-                    "type": "Player",
-                    "seoIdentifier": "Paul Goldschmidt",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 51
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "ProgressiveParlayEligible",
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748214#219711053_13L84240Q12062063964Q20",
-            "marketId": "245748214",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−130",
-                "decimal": "1.76",
-                "fractional": "10/13"
-            },
-            "trueOdds": 1.76923077,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "31721",
-                    "name": "Jose Ramirez",
-                    "type": "Player",
-                    "seoIdentifier": "Jose Ramirez",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 44
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748245#219711097_13L84240Q12062063964Q20",
-            "marketId": "245748245",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+115",
-                "decimal": "2.15",
-                "fractional": "23/20"
-            },
-            "trueOdds": 2.15,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "565246",
-                    "name": "Angel Martinez",
-                    "type": "Player",
-                    "seoIdentifier": "Angel Martinez",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 18
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748275#219711210_13L84240Q12062063964Q20",
-            "marketId": "245748275",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "700964",
-                    "name": "Ben Rice",
-                    "type": "Player",
-                    "seoIdentifier": "Ben Rice",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 42
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "ProgressiveParlayEligible",
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245898976#220358299_13L84240Q12062063964Q20",
-            "marketId": "245898976",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+135",
-                "decimal": "2.35",
-                "fractional": "27/20"
-            },
-            "trueOdds": 2.35,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "476311",
-                    "name": "Oswaldo Cabrera",
-                    "type": "Player",
-                    "seoIdentifier": "Oswaldo Cabrera",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 30
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1500,
             "tags": [
                 "MainPointLine"
             ],
@@ -15583,11 +14400,11 @@
             "marketId": "245757388",
             "label": "Over",
             "displayOdds": {
-                "american": "+120",
-                "decimal": "2.20",
-                "fractional": "6/5"
+                "american": "+125",
+                "decimal": "2.25",
+                "fractional": "5/4"
             },
-            "trueOdds": 2.2,
+            "trueOdds": 2.25,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -16391,7 +15208,7 @@
             "tags": [
                 "ProgressiveParlayEligible",
                 "MainPointLine",
-                "1stFavorite"
+                "3rdFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -16456,41 +15273,7 @@
             ],
             "sortOrder": 1500,
             "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245761199#219887823_13L84240Q12062063964Q20",
-            "marketId": "245761199",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−160",
-                "decimal": "1.62",
-                "fractional": "5/8"
-            },
-            "trueOdds": 1.625,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "112445",
-                    "name": "Heliot Ramos",
-                    "type": "Player",
-                    "seoIdentifier": "Heliot Ramos",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 47
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine",
-                "2ndFavorite"
+                "MainPointLine"
             ],
             "main": true,
             "metadata": {}
@@ -16500,11 +15283,11 @@
             "marketId": "245761213",
             "label": "Over",
             "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
+                "american": "−145",
+                "decimal": "1.68",
+                "fractional": "20/29"
             },
-            "trueOdds": 1.74074075,
+            "trueOdds": 1.68965518,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -16532,11 +15315,11 @@
             "marketId": "245761241",
             "label": "Over",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
             },
-            "trueOdds": 2,
+            "trueOdds": 2.1,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -16564,11 +15347,11 @@
             "marketId": "245761259",
             "label": "Over",
             "displayOdds": {
-                "american": "+130",
-                "decimal": "2.30",
-                "fractional": "13/10"
+                "american": "+125",
+                "decimal": "2.25",
+                "fractional": "5/4"
             },
-            "trueOdds": 2.3,
+            "trueOdds": 2.25,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -16624,15 +15407,48 @@
             "metadata": {}
         },
         {
+            "id": "0QA245923871#220482784_13L84240Q12062063964Q20",
+            "marketId": "245923871",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+120",
+                "decimal": "2.20",
+                "fractional": "6/5"
+            },
+            "trueOdds": 2.2,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "494663",
+                    "name": "Patrick Bailey",
+                    "type": "Player",
+                    "seoIdentifier": "Patrick Bailey",
+                    "statistic": {
+                        "prefix": "Total",
+                        "value": 25
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA245779922#219886667_13L84240Q12062063964Q20",
             "marketId": "245779922",
             "label": "Over",
             "displayOdds": {
-                "american": "−150",
-                "decimal": "1.66",
-                "fractional": "4/6"
+                "american": "−140",
+                "decimal": "1.71",
+                "fractional": "5/7"
             },
-            "trueOdds": 1.66666667,
+            "trueOdds": 1.71428572,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -16661,11 +15477,11 @@
             "marketId": "245779939",
             "label": "Over",
             "displayOdds": {
-                "american": "−150",
-                "decimal": "1.66",
-                "fractional": "4/6"
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
             },
-            "trueOdds": 1.66666667,
+            "trueOdds": 1.74074075,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -16794,11 +15610,11 @@
             "marketId": "245921207",
             "label": "Over",
             "displayOdds": {
-                "american": "+110",
-                "decimal": "2.10",
-                "fractional": "11/10"
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
             },
-            "trueOdds": 2.1,
+            "trueOdds": 2.05,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -17215,75 +16031,9 @@
             "metadata": {}
         },
         {
-            "id": "0QA245748086#219711096_13L84240Q1140796509Q20",
-            "marketId": "245748086",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−150",
-                "decimal": "1.66",
-                "fractional": "4/6"
-            },
-            "trueOdds": 1.66666667,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "31690",
-                    "name": "Carlos Santana",
-                    "type": "Player",
-                    "seoIdentifier": "Carlos Santana",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 36
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine",
-                "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748100#219711160_13L84240Q1140796509Q20",
-            "marketId": "245748100",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
-            },
-            "trueOdds": 1.8,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "32714",
-                    "name": "Cody Bellinger",
-                    "type": "Player",
-                    "seoIdentifier": "Cody Bellinger",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 35
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "ProgressiveParlayEligible",
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748111#219711197_13L84240Q1140796509Q20",
-            "marketId": "245748111",
-            "label": "Under",
+            "id": "0QA245922939#220480347_13L84240Q12062063964Q20",
+            "marketId": "245922939",
+            "label": "Over",
             "displayOdds": {
                 "american": "+100",
                 "decimal": "2.00",
@@ -17291,380 +16041,21 @@
             },
             "trueOdds": 2,
             "points": 1.5,
-            "outcomeType": "Under",
+            "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "32504",
-                    "name": "Aaron Judge",
+                    "id": "32685",
+                    "name": "Joc Pederson",
                     "type": "Player",
-                    "seoIdentifier": "Aaron Judge",
+                    "seoIdentifier": "Joc Pederson",
                     "statistic": {
                         "prefix": "Total",
-                        "value": 79
+                        "value": 5
                     },
                     "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748122#219711265_13L84240Q1140796509Q20",
-            "marketId": "245748122",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−140",
-                "decimal": "1.71",
-                "fractional": "5/7"
-            },
-            "trueOdds": 1.71428572,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "582176",
-                    "name": "Kyle Manzardo",
-                    "type": "Player",
-                    "seoIdentifier": "Kyle Manzardo",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 43
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748127#219711279_13L84240Q1140796509Q20",
-            "marketId": "245748127",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−170",
-                "decimal": "1.58",
-                "fractional": "10/17"
-            },
-            "trueOdds": 1.5882353,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "110767",
-                    "name": "Nolan Jones",
-                    "type": "Player",
-                    "seoIdentifier": "Nolan Jones",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 13
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748128#219711301_13L84240Q1140796509Q20",
-            "marketId": "245748128",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−155",
-                "decimal": "1.64",
-                "fractional": "20/31"
-            },
-            "trueOdds": 1.6451613,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "459842",
-                    "name": "Anthony Volpe",
-                    "type": "Player",
-                    "seoIdentifier": "Anthony Volpe",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 45
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748145#219711351_13L84240Q1140796509Q20",
-            "marketId": "245748145",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
-            },
-            "trueOdds": 2,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "477426",
-                    "name": "Steven Kwan",
-                    "type": "Player",
-                    "seoIdentifier": "Steven Kwan",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 59
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748158#219711185_13L84240Q1140796509Q20",
-            "marketId": "245748158",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−140",
-                "decimal": "1.71",
-                "fractional": "5/7"
-            },
-            "trueOdds": 1.71428572,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "112676",
-                    "name": "Jazz Chisholm",
-                    "type": "Player",
-                    "seoIdentifier": "Jazz Chisholm Jr.",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 42
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine",
-                "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748169#219711385_13L84240Q1140796509Q20",
-            "marketId": "245748169",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−140",
-                "decimal": "1.71",
-                "fractional": "5/7"
-            },
-            "trueOdds": 1.71428572,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "470244",
-                    "name": "Jasson Dominguez",
-                    "type": "Player",
-                    "seoIdentifier": "Jasson Dominguez",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 38
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748204#219711051_13L84240Q1140796509Q20",
-            "marketId": "245748204",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
-            },
-            "trueOdds": 1.8,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "32330",
-                    "name": "Paul Goldschmidt",
-                    "type": "Player",
-                    "seoIdentifier": "Paul Goldschmidt",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 51
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "ProgressiveParlayEligible",
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748214#219711055_13L84240Q1140796509Q20",
-            "marketId": "245748214",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
-            },
-            "trueOdds": 1.95238096,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "31721",
-                    "name": "Jose Ramirez",
-                    "type": "Player",
-                    "seoIdentifier": "Jose Ramirez",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 44
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748245#219711099_13L84240Q1140796509Q20",
-            "marketId": "245748245",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−160",
-                "decimal": "1.62",
-                "fractional": "5/8"
-            },
-            "trueOdds": 1.625,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "565246",
-                    "name": "Angel Martinez",
-                    "type": "Player",
-                    "seoIdentifier": "Angel Martinez",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 18
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245748275#219711212_13L84240Q1140796509Q20",
-            "marketId": "245748275",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
-            },
-            "trueOdds": 1.8,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "700964",
-                    "name": "Ben Rice",
-                    "type": "Player",
-                    "seoIdentifier": "Ben Rice",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 42
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "ProgressiveParlayEligible",
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245898976#220358300_13L84240Q1140796509Q20",
-            "marketId": "245898976",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−185",
-                "decimal": "1.54",
-                "fractional": "20/37"
-            },
-            "trueOdds": 1.54054055,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "476311",
-                    "name": "Oswaldo Cabrera",
-                    "type": "Player",
-                    "seoIdentifier": "Oswaldo Cabrera",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 30
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1502,
+            "sortOrder": 1500,
             "tags": [
                 "MainPointLine"
             ],
@@ -23172,11 +21563,11 @@
             "marketId": "245757388",
             "label": "Under",
             "displayOdds": {
-                "american": "−165",
-                "decimal": "1.60",
-                "fractional": "20/33"
+                "american": "−170",
+                "decimal": "1.58",
+                "fractional": "10/17"
             },
-            "trueOdds": 1.60606061,
+            "trueOdds": 1.5882353,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -23980,7 +22371,7 @@
             "tags": [
                 "ProgressiveParlayEligible",
                 "MainPointLine",
-                "1stFavorite"
+                "3rdFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -24045,41 +22436,7 @@
             ],
             "sortOrder": 1502,
             "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA245761199#219887825_13L84240Q1140796509Q20",
-            "marketId": "245761199",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+120",
-                "decimal": "2.20",
-                "fractional": "6/5"
-            },
-            "trueOdds": 2.2,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "112445",
-                    "name": "Heliot Ramos",
-                    "type": "Player",
-                    "seoIdentifier": "Heliot Ramos",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 47
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine",
-                "2ndFavorite"
+                "MainPointLine"
             ],
             "main": true,
             "metadata": {}
@@ -24089,11 +22446,11 @@
             "marketId": "245761213",
             "label": "Under",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
             },
-            "trueOdds": 2,
+            "trueOdds": 2.05,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -24121,11 +22478,11 @@
             "marketId": "245761241",
             "label": "Under",
             "displayOdds": {
-                "american": "−140",
-                "decimal": "1.71",
-                "fractional": "5/7"
+                "american": "−150",
+                "decimal": "1.66",
+                "fractional": "4/6"
             },
-            "trueOdds": 1.71428572,
+            "trueOdds": 1.66666667,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -24153,11 +22510,11 @@
             "marketId": "245761259",
             "label": "Under",
             "displayOdds": {
-                "american": "−175",
-                "decimal": "1.57",
-                "fractional": "4/7"
+                "american": "−170",
+                "decimal": "1.58",
+                "fractional": "10/17"
             },
-            "trueOdds": 1.57142858,
+            "trueOdds": 1.5882353,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -24213,15 +22570,48 @@
             "metadata": {}
         },
         {
+            "id": "0QA245923871#220482785_13L84240Q1140796509Q20",
+            "marketId": "245923871",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−165",
+                "decimal": "1.60",
+                "fractional": "20/33"
+            },
+            "trueOdds": 1.60606061,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "494663",
+                    "name": "Patrick Bailey",
+                    "type": "Player",
+                    "seoIdentifier": "Patrick Bailey",
+                    "statistic": {
+                        "prefix": "Total",
+                        "value": 25
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA245779922#219886669_13L84240Q1140796509Q20",
             "marketId": "245779922",
             "label": "Under",
             "displayOdds": {
-                "american": "+110",
-                "decimal": "2.10",
-                "fractional": "11/10"
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
             },
-            "trueOdds": 2.1,
+            "trueOdds": 2.05,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -24250,11 +22640,11 @@
             "marketId": "245779939",
             "label": "Under",
             "displayOdds": {
-                "american": "+110",
-                "decimal": "2.10",
-                "fractional": "11/10"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 2.1,
+            "trueOdds": 2,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -24383,11 +22773,11 @@
             "marketId": "245921207",
             "label": "Under",
             "displayOdds": {
-                "american": "−150",
-                "decimal": "1.66",
-                "fractional": "4/6"
+                "american": "−145",
+                "decimal": "1.68",
+                "fractional": "20/29"
             },
-            "trueOdds": 1.66666667,
+            "trueOdds": 1.68965518,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -24804,6 +23194,38 @@
             "metadata": {}
         },
         {
+            "id": "0QA245922939#220480348_13L84240Q1140796509Q20",
+            "marketId": "245922939",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
+            },
+            "trueOdds": 1.74074075,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "32685",
+                    "name": "Joc Pederson",
+                    "type": "Player",
+                    "seoIdentifier": "Joc Pederson",
+                    "statistic": {
+                        "prefix": "Total",
+                        "value": 5
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA245754786#219733616_13L84240Q1-579075571Q20",
             "marketId": "245754786",
             "label": "Over",
@@ -24989,6 +23411,39 @@
                     "statistic": {
                         "prefix": "Total",
                         "value": 68
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA245761199#219771051_13L84240Q1-579075571Q20",
+            "marketId": "245761199",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+125",
+                "decimal": "2.25",
+                "fractional": "5/4"
+            },
+            "trueOdds": 2.25,
+            "points": 2.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "112445",
+                    "name": "Heliot Ramos",
+                    "type": "Player",
+                    "seoIdentifier": "Heliot Ramos",
+                    "statistic": {
+                        "prefix": "Total",
+                        "value": 47
                     },
                     "venueRole": "HomePlayer"
                 }
@@ -25300,6 +23755,39 @@
             "metadata": {}
         },
         {
+            "id": "0QA245761199#219771052_13L84240Q1-1417561627Q20",
+            "marketId": "245761199",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−170",
+                "decimal": "1.58",
+                "fractional": "10/17"
+            },
+            "trueOdds": 1.5882353,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "112445",
+                    "name": "Heliot Ramos",
+                    "type": "Player",
+                    "seoIdentifier": "Heliot Ramos",
+                    "statistic": {
+                        "prefix": "Total",
+                        "value": 47
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA245744423#220164406_13L84240Q1-1417561627Q20",
             "marketId": "245744423",
             "label": "Under",
@@ -25406,7 +23894,8 @@
             "name": "Game Lines",
             "sortOrder": 0,
             "tags": [
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -25444,7 +23933,11 @@
         {
             "id": 988,
             "name": "Plate Appearance",
-            "sortOrder": 5
+            "sortOrder": 5,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
         },
         {
             "id": 1650,
@@ -25468,6 +23961,15 @@
             "sortOrder": 8,
             "tags": [
                 "SGP"
+            ]
+        },
+        {
+            "id": 760,
+            "name": "Half Inning Props",
+            "sortOrder": 9,
+            "tags": [
+                "MicroMarket",
+                "Live"
             ]
         },
         {
@@ -25508,9 +24010,40 @@
             "sortOrder": 14
         },
         {
-            "id": 735,
-            "name": "Daily Specials",
-            "sortOrder": 15
+            "id": 985,
+            "name": "Live Batter Props",
+            "sortOrder": 16,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 1256,
+            "name": "Live Pitcher Props",
+            "sortOrder": 17,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 758,
+            "name": "Live Game Props",
+            "sortOrder": 18,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 723,
+            "name": "Live Inning Props",
+            "sortOrder": 19,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
         },
         {
             "id": 1196,
@@ -25624,6 +24157,630 @@
             "tags": []
         },
         {
+            "id": 11079,
+            "categoryId": 988,
+            "name": "Plate Appearance (On Base)",
+            "componentId": 29,
+            "sortOrder": 11044,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 11196,
+            "categoryId": 988,
+            "name": "Plate Appearance (Exact)",
+            "componentId": 29,
+            "sortOrder": 9562,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 11204,
+            "categoryId": 988,
+            "name": "Pitch Count",
+            "componentId": 29,
+            "sortOrder": 17518,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12150,
+            "categoryId": 985,
+            "name": "Batter Walks",
+            "componentId": 8,
+            "sortOrder": 9475,
+            "tags": []
+        },
+        {
+            "id": 12152,
+            "categoryId": 985,
+            "name": "Hits + Runs + RBIs",
+            "componentId": 8,
+            "sortOrder": 9234,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 12960,
+            "categoryId": 1256,
+            "name": "Strikeouts O/U",
+            "componentId": 8,
+            "sortOrder": 15436,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12961,
+            "categoryId": 1256,
+            "name": "Outs Recorded",
+            "componentId": 8,
+            "sortOrder": 17435,
+            "tags": []
+        },
+        {
+            "id": 12962,
+            "categoryId": 1256,
+            "name": "Hits Allowed O/U",
+            "componentId": 8,
+            "sortOrder": 17441,
+            "tags": []
+        },
+        {
+            "id": 12963,
+            "categoryId": 1256,
+            "name": "Walks Allowed O/U",
+            "componentId": 8,
+            "sortOrder": 17446,
+            "tags": []
+        },
+        {
+            "id": 12964,
+            "categoryId": 1256,
+            "name": "To Record a Win",
+            "componentId": 29,
+            "sortOrder": 17438,
+            "tags": []
+        },
+        {
+            "id": 12968,
+            "categoryId": 758,
+            "name": "Correct Score",
+            "componentId": 202,
+            "sortOrder": 6804,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12970,
+            "categoryId": 758,
+            "name": "To Bat in Bottom of 9th",
+            "componentId": 29,
+            "sortOrder": 6759,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12974,
+            "categoryId": 758,
+            "name": "To Score Last & Win",
+            "componentId": 29,
+            "sortOrder": 6758,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12975,
+            "categoryId": 760,
+            "name": "Strikeouts",
+            "componentId": 29,
+            "sortOrder": 12942,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12976,
+            "categoryId": 760,
+            "name": "Pitches Thrown",
+            "componentId": 29,
+            "sortOrder": 12939,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12977,
+            "categoryId": 760,
+            "name": "Home Run - Listed Inning",
+            "componentId": 29,
+            "sortOrder": 12937,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12978,
+            "categoryId": 760,
+            "name": "Runs - Listed Inning",
+            "componentId": 29,
+            "sortOrder": 6764,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12979,
+            "categoryId": 760,
+            "name": "Batters to the Plate",
+            "componentId": 29,
+            "sortOrder": 12938,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12980,
+            "categoryId": 758,
+            "name": "Team Total Runs",
+            "componentId": 29,
+            "sortOrder": 6715,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12981,
+            "categoryId": 758,
+            "name": "Winning Margin",
+            "componentId": 202,
+            "sortOrder": 6805,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12982,
+            "categoryId": 760,
+            "name": "Hits - Listed Innings",
+            "componentId": 29,
+            "sortOrder": 12936,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12996,
+            "categoryId": 758,
+            "name": "Team Total Odd/Even",
+            "componentId": 202,
+            "sortOrder": 12956,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12997,
+            "categoryId": 758,
+            "name": "1st 5 Innings/Moneyline",
+            "componentId": 204,
+            "sortOrder": 12957,
+            "tags": []
+        },
+        {
+            "id": 13168,
+            "categoryId": 493,
+            "name": "Alternate Run Line",
+            "componentId": 240,
+            "sortOrder": 6421,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 13169,
+            "categoryId": 493,
+            "name": "Alternate Total Runs",
+            "componentId": 240,
+            "sortOrder": 6423,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 15924,
+            "categoryId": 758,
+            "name": "Run Line Xth Inning",
+            "componentId": 29,
+            "sortOrder": 15881,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17443,
+            "categoryId": 723,
+            "name": "Runs - Listed Inning",
+            "componentId": 29,
+            "sortOrder": 17400,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17444,
+            "categoryId": 723,
+            "name": "1st 3 Innings",
+            "componentId": 29,
+            "sortOrder": 17401,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17445,
+            "categoryId": 723,
+            "name": "1st 5 Innings",
+            "componentId": 29,
+            "sortOrder": 17402,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17446,
+            "categoryId": 723,
+            "name": "1st 7 Innings",
+            "componentId": 29,
+            "sortOrder": 17403,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17478,
+            "categoryId": 1256,
+            "name": "Hits Allowed",
+            "componentId": 331,
+            "sortOrder": 12921,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17479,
+            "categoryId": 985,
+            "name": "RBIs",
+            "componentId": 331,
+            "sortOrder": 9233,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17480,
+            "categoryId": 985,
+            "name": "Total Bases",
+            "componentId": 331,
+            "sortOrder": 9232,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17481,
+            "categoryId": 1256,
+            "name": "Strikeouts",
+            "componentId": 331,
+            "sortOrder": 12920,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17482,
+            "categoryId": 985,
+            "name": "Home Runs",
+            "componentId": 331,
+            "sortOrder": 9230,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17483,
+            "categoryId": 985,
+            "name": "Hits",
+            "componentId": 331,
+            "sortOrder": 9231,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17484,
+            "categoryId": 1256,
+            "name": "Walks Allowed",
+            "componentId": 331,
+            "sortOrder": 12922,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17493,
+            "categoryId": 723,
+            "name": "Inning (3-Way)",
+            "componentId": 30,
+            "sortOrder": 17450,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17494,
+            "categoryId": 723,
+            "name": "Total Runs - Listed Inning",
+            "componentId": 29,
+            "sortOrder": 17451,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17495,
+            "categoryId": 988,
+            "name": "Plate Appearance (3-Way)",
+            "componentId": 29,
+            "sortOrder": 17685,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 17496,
+            "categoryId": 723,
+            "name": "Run Line Xth Inning",
+            "componentId": 29,
+            "sortOrder": 17453,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17497,
+            "categoryId": 723,
+            "name": "Correct Score Xth Inning",
+            "componentId": 30,
+            "sortOrder": 17454,
+            "tags": []
+        },
+        {
+            "id": 17498,
+            "categoryId": 758,
+            "name": "Inning of Last Run",
+            "componentId": 29,
+            "sortOrder": 17455,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17499,
+            "categoryId": 758,
+            "name": "Team to Win Most Innings",
+            "componentId": 29,
+            "sortOrder": 17456,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17500,
+            "categoryId": 758,
+            "name": "Team With Highest Scoring Inning",
+            "componentId": 29,
+            "sortOrder": 17457,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 4519,
+            "categoryId": 493,
+            "name": "Game",
+            "componentId": 210,
+            "sortOrder": 4514,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live",
+                "ProgressiveParlayTeamEligible"
+            ]
+        },
+        {
+            "id": 6426,
+            "categoryId": 723,
+            "name": "3-Way Moneyline",
+            "componentId": 30,
+            "sortOrder": 6474,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 6694,
+            "categoryId": 493,
+            "name": "Total Runs (3-Way)",
+            "componentId": 11,
+            "sortOrder": 10985,
+            "tags": []
+        },
+        {
+            "id": 6724,
+            "categoryId": 758,
+            "name": "Next Run",
+            "componentId": 29,
+            "sortOrder": 6717,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 9499,
+            "categoryId": 985,
+            "name": "Home Runs O/U",
+            "componentId": 8,
+            "sortOrder": 9470,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 9502,
+            "categoryId": 985,
+            "name": "Hits O/U",
+            "componentId": 8,
+            "sortOrder": 9502,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 9503,
+            "categoryId": 985,
+            "name": "Singles",
+            "componentId": 8,
+            "sortOrder": 17442,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 9504,
+            "categoryId": 985,
+            "name": "Doubles",
+            "componentId": 8,
+            "sortOrder": 17443,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 9505,
+            "categoryId": 985,
+            "name": "RBIs O/U",
+            "componentId": 8,
+            "sortOrder": 12112,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 9506,
+            "categoryId": 985,
+            "name": "Total Bases O/U",
+            "componentId": 8,
+            "sortOrder": 9503,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 9507,
+            "categoryId": 985,
+            "name": "Runs Scored",
+            "componentId": 8,
+            "sortOrder": 9500,
+            "tags": []
+        },
+        {
+            "id": 9508,
+            "categoryId": 985,
+            "name": "Stolen Bases",
+            "componentId": 8,
+            "sortOrder": 17430,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 9537,
+            "categoryId": 985,
+            "name": "Triples",
+            "componentId": 8,
+            "sortOrder": 17444,
+            "tags": []
+        },
+        {
             "id": 11024,
             "categoryId": 1024,
             "name": "1st Inning Runs",
@@ -25727,16 +24884,6 @@
             "tags": []
         },
         {
-            "id": 11196,
-            "categoryId": 988,
-            "name": "Plate Appearance (Exact)",
-            "componentId": 29,
-            "sortOrder": 9562,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
             "id": 11214,
             "categoryId": 1024,
             "name": "Hits",
@@ -25790,26 +24937,6 @@
             "name": "1st Inning Odd/Even",
             "componentId": 29,
             "sortOrder": 13700,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 13168,
-            "categoryId": 493,
-            "name": "Alternate Run Line",
-            "componentId": 240,
-            "sortOrder": 6421,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 13169,
-            "categoryId": 493,
-            "name": "Alternate Total Runs",
-            "componentId": 240,
-            "sortOrder": 6423,
             "tags": [
                 "SGP"
             ]
@@ -25903,8 +25030,8 @@
             "componentId": 8,
             "sortOrder": 9852,
             "tags": [
-                "SGP",
-                "ProgressiveParlayEligible"
+                "ProgressiveParlayEligible",
+                "SGP"
             ]
         },
         {
@@ -26399,6 +25526,16 @@
             "tags": []
         },
         {
+            "id": 17439,
+            "categoryId": 743,
+            "name": "Triples O/U",
+            "componentId": 8,
+            "sortOrder": 67,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 17458,
             "categoryId": 1782,
             "name": "Either Player Hits",
@@ -26477,18 +25614,6 @@
             ]
         },
         {
-            "id": 4519,
-            "categoryId": 493,
-            "name": "Game",
-            "componentId": 210,
-            "sortOrder": 4514,
-            "tags": [
-                "ProgressiveParlayTeamEligible",
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
             "id": 6420,
             "categoryId": 724,
             "name": "Extra Innings",
@@ -26553,14 +25678,6 @@
             ]
         },
         {
-            "id": 6694,
-            "categoryId": 493,
-            "name": "Total Runs (3-Way)",
-            "componentId": 11,
-            "sortOrder": 10985,
-            "tags": []
-        },
-        {
             "id": 6719,
             "categoryId": 743,
             "name": "Hits O/U",
@@ -26615,69 +25732,11 @@
             ]
         },
         {
-            "id": 17439,
-            "categoryId": 743,
-            "name": "Triples O/U",
-            "componentId": 8,
-            "sortOrder": 67,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 12562,
-            "categoryId": 684,
-            "name": "Cy Young Award",
-            "componentId": 29,
-            "sortOrder": 6087,
-            "tags": []
-        },
-        {
-            "id": 7329,
-            "categoryId": 735,
-            "name": "Daily Specials",
-            "componentId": 29,
-            "sortOrder": 6614,
-            "tags": []
-        },
-        {
-            "id": 11065,
-            "categoryId": 735,
-            "name": "Highest Scoring Game",
-            "componentId": 204,
-            "sortOrder": 6671,
-            "tags": []
-        },
-        {
-            "id": 6624,
-            "categoryId": 735,
-            "name": "Highest Scoring Team",
-            "componentId": 29,
-            "sortOrder": 7321,
-            "tags": []
-        },
-        {
             "id": 15213,
             "categoryId": 1568,
             "name": "Division Wins",
             "componentId": 29,
             "sortOrder": 15173,
-            "tags": []
-        },
-        {
-            "id": 15217,
-            "categoryId": 1568,
-            "name": "Start of Season Specials",
-            "componentId": 29,
-            "sortOrder": 15177,
-            "tags": []
-        },
-        {
-            "id": 15214,
-            "categoryId": 1568,
-            "name": "Most Wins",
-            "componentId": 29,
-            "sortOrder": 15174,
             "tags": []
         },
         {
@@ -26697,6 +25756,14 @@
             "tags": []
         },
         {
+            "id": 12562,
+            "categoryId": 684,
+            "name": "Cy Young Award",
+            "componentId": 29,
+            "sortOrder": 6087,
+            "tags": []
+        },
+        {
             "id": 17279,
             "categoryId": 1774,
             "name": "Champion",
@@ -26710,22 +25777,6 @@
             "name": "Specials",
             "componentId": 29,
             "sortOrder": 17238,
-            "tags": []
-        },
-        {
-            "id": 17198,
-            "categoryId": 1766,
-            "name": "Worst Record",
-            "componentId": 29,
-            "sortOrder": 17156,
-            "tags": []
-        },
-        {
-            "id": 17197,
-            "categoryId": 1766,
-            "name": "Best Record",
-            "componentId": 29,
-            "sortOrder": 17155,
             "tags": []
         },
         {
