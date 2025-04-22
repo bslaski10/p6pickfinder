@@ -11,11 +11,20 @@ def normalize_minus_sign(odds):
 def convert_to_est(utc_time_str):
     if not utc_time_str:
         return ""
-    
-    utc_time = datetime.fromisoformat(utc_time_str.replace("Z", "+00:00"))
-    est_zone = pytz.timezone("US/Eastern")
-    est_time = utc_time.astimezone(est_zone)
-    return est_time.strftime("%I:%M %p").lstrip("0")
+
+    try:
+        # Clean the string to avoid ValueError
+        cleaned_time = utc_time_str.replace("Z", "+00:00").replace(".0000000", ".000000")
+        utc_time = datetime.fromisoformat(cleaned_time)
+
+        # Convert to Eastern Time
+        est_zone = pytz.timezone("US/Eastern")
+        est_time = utc_time.astimezone(est_zone)
+
+        return est_time.strftime("%I:%M %p").lstrip("0")  # Format as h:mm AM/PM
+    except Exception as e:
+        print(f"[Time Conversion Error] Could not parse: {utc_time_str} — {e}")
+        return ""
 
 # Function to process a given NHL stat category
 def process_category(category_name):
