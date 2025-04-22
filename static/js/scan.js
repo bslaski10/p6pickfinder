@@ -31,7 +31,7 @@ async function scanLocks() {
     } catch (error) {
       console.error("Error during scan:", error);
       clearInterval(progressInterval);
-      document.getElementById('progress-message').innerText = 'Error during scan';
+      document.getElementById('progress-message').innerText = 'Sorry this feature only works on the host computer';
     }
 }
 
