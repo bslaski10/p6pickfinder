@@ -94,6 +94,16 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  function calculateImpliedProbability(odds) {
+    let rawProb;
+    if (odds < 0) {
+      rawProb = Math.abs(odds) / (Math.abs(odds) + 100);
+    } else {
+      rawProb = 100 / (odds + 100);
+    }
+    return rawProb / 1.0698; // Apply 6.98% vig adjustment at leg level
+  }
+
   function calculateParlayImpliedOdds() {
     if (createdParlay.length === 0) return null;
     let combinedProbability = createdParlay
@@ -127,20 +137,26 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function updateBoostEdgeInfo() {
-    boostEdgeInfo.innerHTML = "";
-    const oddsData = calculateParlayImpliedOdds();
-    if (oddsData) {
-      const impliedPercentage = oddsData.impliedProbability * 100;
-      let innerHTML = `<p><strong>Implied Odds:</strong> ${impliedPercentage.toFixed(2)}%</p>`;
-      const boost = parseFloat(boostBar.value) || 0;
-      if (createdParlay.length === 2) {
-        let edge = (impliedPercentage * (3 + (3 * boost / 100))) - 100;
-        innerHTML += `<p><strong>Edge:</strong> ${edge.toFixed(2)}%</p>`;
-      } else if (createdParlay.length === 3) {
-        let edge = (impliedPercentage * (5 + (5 * boost / 100))) - 100;
-        innerHTML += `<p><strong>Edge:</strong> ${edge.toFixed(2)}%</p>`;
-      }
-      boostEdgeInfo.innerHTML = innerHTML;
+  boostEdgeInfo.innerHTML = "";
+  const oddsData = calculateParlayImpliedOdds();
+  if (oddsData) {
+    const impliedPercentage = oddsData.impliedProbability * 100;
+    let innerHTML = `<p><strong>Implied Odds:</strong> ${impliedPercentage.toFixed(2)}%</p>`;
+    const boost = parseFloat(boostBar.value) || 0;
+
+    let payout;
+    if (createdParlay.length === 2) {
+      payout = 3.3 + (3.3 * boost / 100); // base + boost
+    } else if (createdParlay.length === 3) {
+      payout = 5.5 + (5.5 * boost / 100);
     }
+
+    if (payout) {
+      let edge = (payout * oddsData.impliedProbability - 1) * 100;
+      innerHTML += `<p><strong>Edge:</strong> ${edge.toFixed(2)}%</p>`;
+    }
+
+    boostEdgeInfo.innerHTML = innerHTML;
   }
+}
 });
