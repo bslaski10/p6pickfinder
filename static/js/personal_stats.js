@@ -225,18 +225,47 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             return legMatch && sportMatch;
         });
-
+    
         const totalProfit = filteredParlays.reduce((sum, parlay) => sum + parlay.profit, 0);
         const totalBets = filteredParlays.length;
         const amountBet = filteredParlays.reduce((sum, parlay) => sum + parlay.bet_amount, 0);
         const amountWon = filteredParlays.reduce((sum, parlay) => sum + parlay.total_pay, 0);
+    
+        // --- New: Calculate Leg Win% ---
+        let totalLegs = 0;
+        let totalLegWins = 0;
+        filteredParlays.forEach(parlay => {
+            parlay.result.forEach(result => {
+                if (result === "win" || result === "loss" || result === "pending") {
+                    totalLegs += 1;
+                    if (result === "win") {
+                        totalLegWins += 1;
+                    }
+                }
+            });
+        });
+    
+        let legWinPercentage = (totalLegs > 0) ? (totalLegWins / totalLegs) * 100 : 0;
+    
+        // Update DOM
         document.getElementById("total-profit").innerHTML = `<strong>Total Profit: $${totalProfit.toFixed(2)}</strong>`;
         document.getElementById("total-bets").innerText = `Total Bets: ${totalBets}`;
         document.getElementById("amount-bet").innerText = `Amount Bet: $${amountBet.toFixed(2)}`;
         document.getElementById("amount-won").innerText = `Amount Won: $${amountWon.toFixed(2)}`;
-        
+    
+        // --- New: Insert Leg Win% stat after amount-won ---
+        let legWinStat = document.getElementById("leg-win-stat");
+        if (!legWinStat) {
+            legWinStat = document.createElement("p");
+            legWinStat.id = "leg-win-stat";
+            document.getElementById("stats").insertBefore(legWinStat, document.getElementById("breakdown-stats"));
+        }
+        legWinStat.innerHTML = `<strong>Leg Win % = ${legWinPercentage.toFixed(2)}%</strong>`;
+    
+        // --- Breakdown ---
         let breakdownDiv = document.getElementById("breakdown-stats");
         breakdownDiv.innerHTML = "";
+    
         if (currentFilter === 'all') {
             const twoLegs = filteredParlays.filter(p => p.legs.length === 2);
             const threeLegs = filteredParlays.filter(p => p.legs.length === 3);
@@ -252,6 +281,7 @@ document.addEventListener("DOMContentLoaded", function() {
             breakdownDiv.innerHTML += `<h3>3 leggers</h3>` + getBreakdownHTML(filteredParlays, 3);
         }
     }
+    
 
     function getBreakdownHTML(parlays, legsCount) {
         let outcomes = {};
