@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     let parlaysData = [];
-    let currentFilter = 'all';
+    let currentFilter = 'all'; // 2 legs/3 legs/all legs
+    let currentSport = 'all';  // all/nba/mlb/nhl
 
     // Fetch JSON data
     function fetchParlays() {
@@ -10,62 +11,102 @@ document.addEventListener("DOMContentLoaded", function() {
                 parlaysData = data.parlays;
                 renderParlays();
                 renderChart();
-                displayStats();  // Display stats below the graph
+                displayStats();
             })
             .catch(error => console.error("Error fetching profit.json:", error));
     }
     fetchParlays();
 
-    // Event Listeners for filter buttons
+    // Event Listeners for leg filters
     document.getElementById("filter-all").addEventListener("click", () => updateView('all'));
     document.getElementById("filter-2").addEventListener("click", () => updateView('2legs'));
     document.getElementById("filter-3").addEventListener("click", () => updateView('3legs'));
+
+    // Event Listeners for sport filters
+    document.getElementById("filter-sport-all").addEventListener("click", () => updateSport('all'));
+    document.getElementById("filter-nba").addEventListener("click", () => updateSport('nba'));
+    document.getElementById("filter-mlb").addEventListener("click", () => updateSport('mlb'));
+    document.getElementById("filter-nhl").addEventListener("click", () => updateSport('nhl'));
 
     function updateView(filter) {
         currentFilter = filter;
         renderParlays();
         updateChart();
-        displayStats();  // Update stats after filter change
+        displayStats();
     }
 
-    // Add button event listener to show modal for adding a new parlay
-    document.getElementById("add-parlay-btn").addEventListener("click", function(){
+    function updateSport(sport) {
+        currentSport = sport;
+        renderParlays();
+        updateChart();
+        displayStats();
+    }
+
+    // Add Parlay Button
+    document.getElementById("add-parlay-btn").addEventListener("click", function() {
         showModal("add");
     });
 
-    // Render parlays list (top to bottom)
+    // Render parlays
     function renderParlays() {
         const container = document.getElementById("parlays-list");
         container.innerHTML = "";
-        let filteredParlays = parlaysData;
-        if (currentFilter === '2legs') {
-            filteredParlays = parlaysData.filter(p => p.legs.length === 2);
-        } else if (currentFilter === '3legs') {
-            filteredParlays = parlaysData.filter(p => p.legs.length === 3);
-        }
-        // Use forEach with index for later reference in edit/delete
+    
+        let filteredParlays = parlaysData.filter(parlay => {
+            let legMatch = true;
+            let sportMatch = true;
+    
+            if (currentFilter === '2legs') {
+                legMatch = parlay.legs.length === 2;
+            } else if (currentFilter === '3legs') {
+                legMatch = parlay.legs.length === 3;
+            }
+    
+            if (currentSport !== 'all') {
+                sportMatch = parlay.sport === currentSport;
+            }
+    
+            return legMatch && sportMatch;
+        });
+    
         filteredParlays.forEach((parlay, index) => {
             const parlayDiv = document.createElement("div");
             parlayDiv.classList.add("parlay-item");
-
-            // Check if any result is 'pending'
+            parlayDiv.style.position = "relative";  // <-- make sure relative positioning is set
+    
             const hasPending = parlay.result.includes("pend");
             const isParlayWin = !hasPending && parlay.result.every(r => r === "win");
             const isParlayLoss = !hasPending && parlay.result.some(r => r === "loss");
-
+    
             let backgroundColor;
             if (hasPending) {
-                backgroundColor = "#ffff66"; // Yellow for pending
+                backgroundColor = "#ffff66"; 
             } else if (isParlayWin) {
-                backgroundColor = "#80ff63"; // Green for win
+                backgroundColor = "#80ff63"; 
             } else if (isParlayLoss) {
-                backgroundColor = "#ff7663"; // Red for loss
+                backgroundColor = "#ff7663"; 
             } else {
                 backgroundColor = "#ffffff";
             }
             parlayDiv.style.backgroundColor = backgroundColor;
-
-            // Build list of legs with colored bullets
+            parlayDiv.style.paddingTop = "30px"; // <-- Extra space at top for the sport icon
+    
+            // Create the tiny sport icon (top-left)
+            let sportIcon = "";
+            if (parlay.sport === "nba") {
+                sportIcon = "🏀";
+            } else if (parlay.sport === "mlb") {
+                sportIcon = "⚾";
+            } else if (parlay.sport === "nhl") {
+                sportIcon = "🏒";
+            }
+    
+            let sportLabel = "";
+            if (sportIcon) {
+                sportLabel = `<div title="${parlay.sport.toUpperCase()}" style="position: absolute; top: 5px; left: 5px; font-size: 20px;">${sportIcon}</div>`;
+            }
+    
+            // Build legs HTML
             let legsHtml = "<ul style='padding-left: 0;'>";
             parlay.legs.forEach((leg, i) => {
                 let legResult = parlay.result[i];
@@ -75,45 +116,46 @@ document.addEventListener("DOMContentLoaded", function() {
                              </li>`;
             });
             legsHtml += "</ul>";
-
+    
+            // Inner HTML
             parlayDiv.innerHTML = 
-                `${legsHtml}
-                <p>Base Pay: $${parlay.base_pay} &nbsp; Bonus: $${parlay.bonus_pay} &nbsp; Total Pay: $${parlay.total_pay}</p>
-                <p>Bet Amount: $${parlay.bet_amount} &nbsp; Profit: <strong>$${parlay.profit}</strong></p>`;
-
-            // Create Edit button (bottom right)
+                `${sportLabel}
+                 ${legsHtml}
+                 <p>Base Pay: $${parlay.base_pay} &nbsp; Bonus: $${parlay.bonus_pay} &nbsp; Total Pay: $${parlay.total_pay}</p>
+                 <p>Bet Amount: $${parlay.bet_amount} &nbsp; Profit: <strong>$${parlay.profit}</strong></p>`;
+    
+            // Create Edit button
             const editBtn = document.createElement("button");
             editBtn.innerText = "Edit";
             editBtn.classList.add("edit-btn");
             editBtn.style.position = "absolute";
             editBtn.style.bottom = "5px";
             editBtn.style.right = "5px";
-            editBtn.addEventListener("click", function(){
-                // Use the global index in parlaysData (find the actual index if needed)
-                // For simplicity, assume filtered index equals original index
+            editBtn.addEventListener("click", function() {
                 showModal("edit", parlay, index);
             });
             parlayDiv.appendChild(editBtn);
-
-            // Create Delete button (bottom left)
+    
+            // Create Delete button
             const deleteBtn = document.createElement("button");
             deleteBtn.innerText = "X";
             deleteBtn.classList.add("delete-btn");
             deleteBtn.style.position = "absolute";
             deleteBtn.style.bottom = "5px";
             deleteBtn.style.left = "5px";
-            deleteBtn.addEventListener("click", function(){
-                if(confirm("Are you sure you want to delete this parlay?")){
+            deleteBtn.addEventListener("click", function() {
+                if (confirm("Are you sure you want to delete this parlay?")) {
                     deleteParlay(index);
                 }
             });
             parlayDiv.appendChild(deleteBtn);
-
+    
             container.appendChild(parlayDiv);
         });
     }
+    
 
-    // Chart functions (same as before)
+    // Chart
     let chartInstance;
     function renderChart() {
         const ctx = document.getElementById('profitChart').getContext('2d');
@@ -141,12 +183,20 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function updateChart() {
-        let filteredParlays = parlaysData;
-        if (currentFilter === '2legs') {
-            filteredParlays = parlaysData.filter(p => p.legs.length === 2);
-        } else if (currentFilter === '3legs') {
-            filteredParlays = parlaysData.filter(p => p.legs.length === 3);
-        }
+        let filteredParlays = parlaysData.filter(parlay => {
+            let legMatch = true;
+            let sportMatch = true;
+            if (currentFilter === '2legs') {
+                legMatch = parlay.legs.length === 2;
+            } else if (currentFilter === '3legs') {
+                legMatch = parlay.legs.length === 3;
+            }
+            if (currentSport !== 'all') {
+                sportMatch = parlay.sport === currentSport;
+            }
+            return legMatch && sportMatch;
+        });
+
         const reversedParlays = [...filteredParlays].reverse();
         let labels = [0];
         let cumulativeProfit = 0;
@@ -162,12 +212,20 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function displayStats() {
-        let filteredParlays = parlaysData;
-        if (currentFilter === '2legs') {
-            filteredParlays = parlaysData.filter(p => p.legs.length === 2);
-        } else if (currentFilter === '3legs') {
-            filteredParlays = parlaysData.filter(p => p.legs.length === 3);
-        }
+        let filteredParlays = parlaysData.filter(parlay => {
+            let legMatch = true;
+            let sportMatch = true;
+            if (currentFilter === '2legs') {
+                legMatch = parlay.legs.length === 2;
+            } else if (currentFilter === '3legs') {
+                legMatch = parlay.legs.length === 3;
+            }
+            if (currentSport !== 'all') {
+                sportMatch = parlay.sport === currentSport;
+            }
+            return legMatch && sportMatch;
+        });
+
         const totalProfit = filteredParlays.reduce((sum, parlay) => sum + parlay.profit, 0);
         const totalBets = filteredParlays.length;
         const amountBet = filteredParlays.reduce((sum, parlay) => sum + parlay.bet_amount, 0);
@@ -176,7 +234,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("total-bets").innerText = `Total Bets: ${totalBets}`;
         document.getElementById("amount-bet").innerText = `Amount Bet: $${amountBet.toFixed(2)}`;
         document.getElementById("amount-won").innerText = `Amount Won: $${amountWon.toFixed(2)}`;
-
+        
         let breakdownDiv = document.getElementById("breakdown-stats");
         breakdownDiv.innerHTML = "";
         if (currentFilter === 'all') {
@@ -217,18 +275,18 @@ document.addEventListener("DOMContentLoaded", function() {
         return html;
     }
 
-    // --- Modal functionality for adding/editing parlays ---
+    // --- Modal functionality (add/edit parlays) ---
+
     function showModal(mode, parlayData, index) {
         const modal = document.getElementById("parlay-modal");
         const form = document.getElementById("parlay-form");
         modal.dataset.mode = mode;
+
         if (mode === "edit" && parlayData) {
             modal.dataset.editIndex = index;
-            // Pre-populate fields; if a parlay has less than 3 legs, leave blank
             form.elements["selection1"].value = parlayData.legs[0] || "";
             form.elements["selection2"].value = parlayData.legs[1] || "";
             form.elements["selection3"].value = parlayData.legs[2] || "";
-            // Set the radio buttons for each result group
             document.getElementsByName("result1").forEach(radio => {
                 radio.checked = (radio.value === parlayData.result[0]);
             });
@@ -241,6 +299,7 @@ document.addEventListener("DOMContentLoaded", function() {
             form.elements["bet_amount"].value = parlayData.bet_amount;
             form.elements["base_pay"].value = parlayData.base_pay;
             form.elements["bonus_pay"].value = parlayData.bonus_pay;
+            form.elements["sport"].value = parlayData.sport || "nba";
         } else {
             form.reset();
             delete modal.dataset.editIndex;
@@ -248,12 +307,10 @@ document.addEventListener("DOMContentLoaded", function() {
         modal.style.display = "block";
     }
 
-    // Close modal when clicking the close button
-    document.querySelector("#parlay-modal .close").addEventListener("click", function(){
+    document.querySelector("#parlay-modal .close").addEventListener("click", function() {
         document.getElementById("parlay-modal").style.display = "none";
     });
 
-    // Submit modal form
     document.getElementById("parlay-form").addEventListener("submit", function(e) {
         e.preventDefault();
         const modal = document.getElementById("parlay-modal");
@@ -263,6 +320,7 @@ document.addEventListener("DOMContentLoaded", function() {
         formData.forEach((value, key) => {
             data[key] = value;
         });
+
         if (mode === "add") {
             fetch('/add_parlay', {
                 method: 'POST',
@@ -271,13 +329,11 @@ document.addEventListener("DOMContentLoaded", function() {
             })
             .then(response => response.json())
             .then(result => {
-                if(result.status === "success"){
+                if (result.status === "success") {
                     parlaysData.push(result.parlay);
                     renderParlays();
                     updateChart();
                     displayStats();
-                } else {
-                    console.error("Error adding parlay:", result.error);
                 }
                 modal.style.display = "none";
             })
@@ -294,13 +350,11 @@ document.addEventListener("DOMContentLoaded", function() {
             })
             .then(response => response.json())
             .then(result => {
-                if(result.status === "success"){
+                if (result.status === "success") {
                     parlaysData[parseInt(data.index)] = result.parlay;
                     renderParlays();
                     updateChart();
                     displayStats();
-                } else {
-                    console.error("Error editing parlay:", result.error);
                 }
                 modal.style.display = "none";
             })
@@ -326,15 +380,4 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .catch(error => console.error("Error deleting parlay:", error));
     }
-
-    function fetchUpdatedProfit() {
-        fetch('/get_profit?' + new Date().getTime())  // Cache buster
-            .then(response => response.json())
-            .then(data => console.log('Updated Profit Data:', data))
-            .catch(error => console.error('Error fetching profit data:', error));
-    }
-    
-    // Call this function when loading or updating parlays
-    fetchUpdatedProfit();
-    
 });

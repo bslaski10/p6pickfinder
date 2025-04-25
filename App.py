@@ -3,7 +3,7 @@ import json
 import subprocess
 import os
 
-app = Flask(__name__, template_folder='docs')  # Using 'docs' instead of 'templates'
+app = Flask(__name__, template_folder='docs')
 
 @app.route('/')
 def index():
@@ -23,17 +23,15 @@ def personal_stats():
 
 @app.route('/get_locks')
 def get_locks():
-    # Get the sport query parameter, defaulting to 'nba'
     sport = request.args.get('sport', 'nba').lower()
     try:
-        # Determine the correct command based on sport
         if sport == 'nba':
             cmd = ['python', 'locks.py']
             picks_path = 'picks.json'
         else:
             cmd = ['python', f'{sport}/locks.py']
             picks_path = f'{sport}/picks.json'
-            
+
         subprocess.run(cmd, check=True)
         with open(picks_path, 'r') as file:
             data = json.load(file)
@@ -43,15 +41,13 @@ def get_locks():
 
 @app.route('/get_picks')
 def get_picks():
-    # Get the sport query parameter, defaulting to 'nba'
     sport = request.args.get('sport', 'nba').lower()
     try:
-        # Choose the correct picks file based on the sport
         if sport == 'nba':
             file_path = 'picks.json'
         else:
             file_path = f'{sport}/picks.json'
-            
+
         with open(file_path, 'r') as file:
             data = json.load(file)
         return jsonify(data)
@@ -69,22 +65,19 @@ def progress():
 
 @app.route('/get_selections')
 def get_selections():
-    # Get the sport query parameter, defaulting to 'nba'
     sport = request.args.get('sport', 'nba').lower()
     try:
-        # Choose the correct selections file based on the sport
         if sport == 'nba':
             file_path = 'selections/selections.json'
         else:
             file_path = f'{sport}/selections/selections.json'
-        
+
         with open(file_path, 'r') as f:
             data = json.load(f)
         return jsonify(data)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-# Serve files from the selections folder (including time.json)
 @app.route('/selections/<path:filename>')
 def serve_selections(filename):
     return send_from_directory('selections', filename)
@@ -98,7 +91,7 @@ def get_profit():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-# Endpoints for add, edit, and delete parlays remain unchanged...
+# --- Updated Add Parlay Route ---
 @app.route('/add_parlay', methods=['POST'])
 def add_parlay():
     try:
@@ -111,10 +104,12 @@ def add_parlay():
         bonus_pay = float(data.get('bonus_pay', 0))
         total_pay = base_pay + bonus_pay
         profit = total_pay - bet_amount
+        sport = data.get('sport', 'nba')  # <-- NEW: Capture sport, default to nba
 
         new_parlay = {
             "legs": selections,
             "result": results,
+            "sport": sport,  # <-- NEW
             "bet_amount": bet_amount,
             "base_pay": base_pay,
             "bonus_pay": bonus_pay,
@@ -132,6 +127,7 @@ def add_parlay():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+# --- Updated Edit Parlay Route ---
 @app.route('/edit_parlay', methods=['POST'])
 def edit_parlay():
     try:
@@ -146,10 +142,12 @@ def edit_parlay():
         bonus_pay = float(data.get('bonus_pay', 0))
         total_pay = base_pay + bonus_pay
         profit = total_pay - bet_amount
+        sport = data.get('sport', 'nba')  # <-- NEW: Capture sport, default to nba
 
         updated_parlay = {
             "legs": selections,
             "result": results,
+            "sport": sport,  # <-- NEW
             "bet_amount": bet_amount,
             "base_pay": base_pay,
             "bonus_pay": bonus_pay,
@@ -183,7 +181,6 @@ def delete_parlay():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-# --- Force Flask to Always Serve Fresh Data ---
 @app.after_request
 def add_header(response):
     response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, max-age=0'
@@ -191,5 +188,5 @@ def add_header(response):
     return response
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 3000))  # Use Render's assigned port
+    port = int(os.environ.get('PORT', 3000))
     app.run(debug=True, host='0.0.0.0', port=port, threaded=True)

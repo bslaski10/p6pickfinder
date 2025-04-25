@@ -27,7 +27,8 @@
       <strong>Personal Stats</strong> gives you insights into my betting history and performance.<br>
       <strong>Profit/Loss Graph</strong> visualizes how my betting strategy has performed over time.<br>
       <strong>Winning Bet</strong> = Green, <strong>Losing Bet</strong> = Red, <strong>Pending Bet</strong> = Yellow<br>
-      <strong>Added Parlays</strong> may appear at the botton of the list of parlays but will go to the top once refreshed.
+      <strong>Added Parlays</strong> may appear at the bottom of the list but move to the top after a refresh.<br>
+      <strong>Filter Buttons</strong> let you view only NBA, MLB, or NHL parlays easily.
     </p>
   </div>
 
@@ -37,10 +38,19 @@
         My Parlays
         <button id="add-parlay-btn" title="Add Parlay">+</button>
       </h2>
+      
       <div class="filter-buttons">
+        <!-- Leg filters -->
         <button id="filter-all">All legs</button>
         <button id="filter-2">2 legs</button>
         <button id="filter-3">3 legs</button>
+        <br><br>
+      </div>
+      <div class="filter-buttons">
+        <button id="filter-sport-all">All Sports</button>
+        <button id="filter-nba">NBA</button>
+        <button id="filter-mlb">MLB</button>
+        <button id="filter-nhl">NHL</button>
       </div>
       <div id="parlays-list"></div>
     </div>
@@ -77,6 +87,7 @@
             <input type="radio" name="result1" value="pending"> Pending
           </label>
         </div>
+
         <label>Selection 2:</label>
         <input type="text" name="selection2">
         <div>
@@ -91,6 +102,7 @@
             <input type="radio" name="result2" value="pending"> Pending
           </label>
         </div>
+
         <label>Selection 3:</label>
         <input type="text" name="selection3">
         <div>
@@ -105,16 +117,34 @@
             <input type="radio" name="result3" value="pending"> Pending
           </label>
         </div>
+
         <label>Bet Amount:</label>
         <input type="number" name="bet_amount" step="0.01">
+
         <label>Base Pay:</label>
         <input type="number" name="base_pay" step="0.01">
+
         <label>Bonus Pay:</label>
         <input type="number" name="bonus_pay" step="0.01">
+
+        <label>Sport:</label>
+        <div>
+          <label style="display:inline; margin-right:10px;">
+            <input type="radio" name="sport" value="nba" checked> NBA
+          </label>
+          <label style="display:inline; margin-right:10px;">
+            <input type="radio" name="sport" value="mlb"> MLB
+          </label>
+          <label style="display:inline; margin-right:10px;">
+            <input type="radio" name="sport" value="nhl"> NHL
+          </label>
+        </div>
+
         <button type="submit" id="modal-submit-btn">Save</button>
       </form>
     </div>
   </div>
+
   <script src="{{ url_for('static', filename='js/personal_stats.js') }}"></script>
   <script src="{{ url_for('static', filename='js/info.js') }}"></script>
 </body>
