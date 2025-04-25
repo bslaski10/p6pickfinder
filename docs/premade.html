@@ -24,15 +24,15 @@
 
   <div id="info-box" class="info-box">
     <p>
-      <strong>Scan</strong> feature and progress bar currently do not work for users due to how the data is scraped. Refresh page if pressed.<br>
-      <strong>Most Recent Stat Update</strong> can be used to see when the betting data was last refreshed.<br>
-      <strong>Vig Odds</strong> represent adjusted odds that factor in the sportsbook's margin, however pick6's potential for boosted payouts outweigh this so I recommend using implied odds.<br>
+      <strong>Scan</strong> feature and progress bar are currently disabled due to not wanting to exceed my free student GitHub plan.<br>
+      <strong>Most Recent Stat Update</strong> shows when the betting data was last refreshed which is on a daily schedule.<br>
+      <strong>The Standard edge</strong> doesn't account for pick6's potential for boosted payouts, so I recommend using implied odds.<br>
       <strong>Implied Odds & Edge</strong> help evaluate a parlay’s potential profitability. More information on this can be found on the Build Your Own page.
     </p>    
   </div>
 
   <button id="scanBtn" class="btn btn-primary" onclick="scanLocks()">Scan</button>
-  <button id="toggleOddsBtn" class="btn btn-secondary" onclick="toggleOdds()">Show Vig Odds</button>
+  <button id="toggleOddsBtn" class="btn btn-secondary" onclick="toggleOdds()">Show Standard Edge</button>
   <p id="last-update">Most Recent Stat Update: Loading...</p>
 
   <div class="progress-container">

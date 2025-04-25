@@ -31,7 +31,7 @@ async function scanLocks() {
     } catch (error) {
       console.error("Error during scan:", error);
       clearInterval(progressInterval);
-      document.getElementById('progress-message').innerText = 'Sorry this feature only works on the host computer';
+      document.getElementById('progress-message').innerText = 'Sorry this feature is currently disabled, check schedule for scan information';
     }
 }
 
@@ -67,6 +67,6 @@ function updateParlaysDisplay() {
 // Function to toggle between Implied and Vig Odds.
 function toggleOdds() {
     showingVigOdds = !showingVigOdds;
-    document.getElementById('toggleOddsBtn').innerText = showingVigOdds ? "Show Implied Odds" : "Show Vig Odds";
+    document.getElementById('toggleOddsBtn').innerText = showingVigOdds ? "Show Implied Edge" : "Show Standard Edge";
     updateParlaysDisplay();
 }

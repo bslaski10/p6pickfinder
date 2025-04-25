@@ -24,8 +24,8 @@ function updateParlaysDisplay() {
     let threeLeggersHTML = "";
 
     window.parlaysData.forEach(parlay => {
-        let oddsLabel = showingVigOdds ? "Vig Odds" : "Implied Odds";
-        let edgeLabel = "Edge";
+        let oddsLabel = showingVigOdds ? "Implied Odds" : "Implied Odds";
+        let edgeLabel = showingVigOdds ? "Standard Edge" : "Edge";
         let oddsValue = showingVigOdds ? parlay.vig_odds : parlay.implied_odds;
         let edgeValue = showingVigOdds ? parlay.vig_edge : parlay.edge;
 
