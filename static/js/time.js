@@ -1,9 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let currentSport = 'nba';  // Default sport
-    let executionTimes = {};
-
-    // Load the time.json file
-    fetch('selections/time.json')
+    fetch('selections/time.json')  // Ensure this path is correct
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
@@ -11,56 +7,16 @@ document.addEventListener("DOMContentLoaded", function () {
             return response.json();
         })
         .then(data => {
-            executionTimes = data;
-            updateTime(currentSport); // Show default sport time on page load
+            if (data.execution_time) {
+                const formattedTime = formatTime(data.execution_time);
+                const timeElement = document.getElementById("last-update");
+                timeElement.innerHTML = `Most Recent Stat Update: <strong>${formattedTime}</strong>`;
+            } else {
+                console.error("Error: 'execution_time' field not found in time.json");
+            }
         })
         .catch(error => console.error("Error fetching time.json:", error));
-
-    // Helper function to format time as mm-dd-time(am/pm): 02-28 7:14 pm
-    function formatTime(executionTime) {
-        const date = new Date(executionTime);
-
-        const month = String(date.getMonth() + 1).padStart(2, '0');
-        const day = String(date.getDate()).padStart(2, '0');
-        let hours = date.getHours();
-        const minutes = String(date.getMinutes()).padStart(2, '0');
-
-        const ampm = hours >= 12 ? 'pm' : 'am';
-        hours = hours % 12;
-        hours = hours ? hours : 12;
-
-        return `${month}-${day} ${hours}:${minutes} ${ampm}`;
-    }
-
-    // Update the last update time display
-    function updateTime(sport) {
-        const timeElement = document.getElementById("last-update");
-
-        if (executionTimes[sport]) {
-            const formattedTime = formatTime(executionTimes[sport]);
-            timeElement.innerHTML = `Most Recent Stat Update (${sport.toUpperCase()}): <strong>${formattedTime}</strong>`;
-        } else {
-            timeElement.innerHTML = `Most Recent Stat Update (${sport.toUpperCase()}): <strong>Unknown</strong>`;
-        }
-    }
-
-    // Add event listeners to sport selection buttons
-    document.getElementById("nbaBtn").addEventListener("click", function() {
-        currentSport = 'nba';
-        updateTime(currentSport);
-    });
-
-    document.getElementById("mlbBtn").addEventListener("click", function() {
-        currentSport = 'mlb';
-        updateTime(currentSport);
-    });
-
-    document.getElementById("nhlBtn").addEventListener("click", function() {
-        currentSport = 'nhl';
-        updateTime(currentSport);
-    });
 });
-
 
 // Helper function to format time as mm-dd-time(am/pm): 02-28 7:14 pm
 function formatTime(executionTime) {

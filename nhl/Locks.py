@@ -33,7 +33,7 @@ import Picks
 update_progress(99, "Getting Locks complete")
 
 # Log execution time
-log_execution_time()
+log_execution_time('nhl')
 
 # Final update
 update_progress(100, "Done!")
