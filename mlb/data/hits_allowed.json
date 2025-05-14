@@ -17,13 +17,13 @@
                 "FeaturedSubcategory",
                 "Flashbet",
                 "LiveBoxScore",
+                "LivePrePack",
                 "MatchTracker",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
                 "Stats",
                 "YourBetEligible",
-                "LivePrePack",
                 "PrePack",
                 "ProgressiveParlayEligible",
                 "ProgressiveParlayTeamEligible",
@@ -51,97 +51,6 @@
         }
     ],
     "events": [
-        {
-            "id": "32292072",
-            "seoIdentifier": "NY Yankees @ SEA Mariners",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "NY Yankees @ SEA Mariners",
-            "startEventDate": "2025-05-14T20:10:00.0000000Z",
-            "participants": [
-                {
-                    "id": "29815",
-                    "name": "SEA Mariners",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "257",
-                        "rosettaTeamId": "29815",
-                        "rosettaTeamName": "Mariners",
-                        "shortName": "SEA",
-                        "startingPitcherPlayerId": "109364",
-                        "teamColor": "#0c2c56",
-                        "startingPitcherPlayerName": "Luis Castillo"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Mariners"
-                },
-                {
-                    "id": "29825",
-                    "name": "NY Yankees",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "256",
-                        "rosettaTeamId": "29825",
-                        "rosettaTeamName": "Yankees",
-                        "shortName": "NYY",
-                        "startingPitcherPlayerId": "181457",
-                        "teamColor": "#003087",
-                        "startingPitcherPlayerName": "Will Warren"
-                    },
-                    "sortOrder": 1,
-                    "seoIdentifier": "Yankees"
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "eventScorecard": {
-                "scorecardComponentId": 1
-            },
-            "media": [
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "55308573",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "55308573",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "55308573",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                }
-            ],
-            "tags": [
-                "FeaturedSubcategory",
-                "Flashbet",
-                "MatchTracker",
-                "PrePack",
-                "ProgressiveParlayEligible",
-                "ProgressiveParlayTeamEligible",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "233",
-                "numberOfParts": "9"
-            },
-            "sortOrder": 229657072,
-            "subscriptionKey": "league-events-84240"
-        },
         {
             "id": "32293681",
             "seoIdentifier": "STL Cardinals @ PHI Phillies",
@@ -215,6 +124,7 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
                 "MatchTracker",
                 "PrePack",
                 "ProgressiveParlayEligible",
@@ -1145,58 +1055,6 @@
     ],
     "markets": [
         {
-            "id": "249981633",
-            "eventId": "32292072",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Will Warren Hits Allowed O/U",
-            "subcategoryId": 9886,
-            "marketType": {
-                "id": "9112",
-                "betOfferTypeId": 0,
-                "name": "Hits Allowed O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 4,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32292072|9112|2:181457",
-            "blurbId": "d0be4635-9278-4991-ac09-1314f7a62f56",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "249981585",
-            "eventId": "32292072",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Luis Castillo Hits Allowed O/U",
-            "subcategoryId": 9886,
-            "marketType": {
-                "id": "9112",
-                "betOfferTypeId": 0,
-                "name": "Hits Allowed O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 17,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32292072|9112|2:109364",
-            "blurbId": "d0be4635-9278-4991-ac09-1314f7a62f56",
-            "dynamicMetadata": {}
-        },
-        {
             "id": "250150275",
             "eventId": "32293681",
             "sportId": "7",
@@ -1209,7 +1067,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 11,
+            "sortOrder": 10,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1235,7 +1093,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 13,
+            "sortOrder": 12,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1287,7 +1145,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 15,
+            "sortOrder": 14,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1313,7 +1171,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 10,
+            "sortOrder": 8,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1339,7 +1197,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 19,
+            "sortOrder": 17,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1391,7 +1249,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 8,
+            "sortOrder": 7,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1417,7 +1275,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 12,
+            "sortOrder": 9,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1443,7 +1301,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 20,
+            "sortOrder": 18,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1469,7 +1327,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 16,
+            "sortOrder": 15,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1495,7 +1353,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 21,
+            "sortOrder": 19,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1547,7 +1405,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 9,
+            "sortOrder": 11,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1573,7 +1431,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 18,
+            "sortOrder": 16,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1599,7 +1457,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 23,
+            "sortOrder": 21,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1625,7 +1483,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 5,
+            "sortOrder": 4,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1651,7 +1509,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 22,
+            "sortOrder": 20,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1677,7 +1535,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 7,
+            "sortOrder": 6,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1703,7 +1561,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 24,
+            "sortOrder": 22,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1729,7 +1587,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 6,
+            "sortOrder": 5,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1755,7 +1613,7 @@
                 "name": "Hits Allowed O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 14,
+            "sortOrder": 13,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1775,11 +1633,11 @@
             "marketId": "249962476",
             "label": "Over",
             "displayOdds": {
-                "american": "−170",
-                "decimal": "1.58",
-                "fractional": "10/17"
+                "american": "−175",
+                "decimal": "1.57",
+                "fractional": "4/7"
             },
-            "trueOdds": 1.5882353,
+            "trueOdds": 1.57142858,
             "points": 3.5,
             "outcomeType": "Over",
             "participants": [
@@ -1805,11 +1663,11 @@
             "marketId": "249962476",
             "label": "Under",
             "displayOdds": {
-                "american": "+120",
-                "decimal": "2.20",
-                "fractional": "6/5"
+                "american": "+125",
+                "decimal": "2.25",
+                "fractional": "5/4"
             },
-            "trueOdds": 2.2,
+            "trueOdds": 2.25,
             "points": 3.5,
             "outcomeType": "Under",
             "participants": [
@@ -1831,45 +1689,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA249981633#238595170_13L84240Q12119938499Q20",
-            "marketId": "249981633",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
-            "points": 4.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "643835",
-                    "name": "Will Warren",
-                    "type": "Player",
-                    "seoIdentifier": "Will Warren",
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 4500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA250150275#239230930_13L84240Q12119938499Q20",
             "marketId": "250150275",
             "label": "Over",
             "displayOdds": {
-                "american": "−165",
-                "decimal": "1.60",
-                "fractional": "20/33"
+                "american": "−170",
+                "decimal": "1.58",
+                "fractional": "10/17"
             },
-            "trueOdds": 1.60606061,
+            "trueOdds": 1.5882353,
             "points": 4.5,
             "outcomeType": "Over",
             "participants": [
@@ -2015,11 +1843,11 @@
             "marketId": "249968186",
             "label": "Over",
             "displayOdds": {
-                "american": "−160",
-                "decimal": "1.62",
-                "fractional": "5/8"
+                "american": "−170",
+                "decimal": "1.58",
+                "fractional": "10/17"
             },
-            "trueOdds": 1.625,
+            "trueOdds": 1.5882353,
             "points": 4.5,
             "outcomeType": "Over",
             "participants": [
@@ -2075,11 +1903,11 @@
             "marketId": "249996289",
             "label": "Over",
             "displayOdds": {
-                "american": "−140",
-                "decimal": "1.71",
-                "fractional": "5/7"
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
             },
-            "trueOdds": 1.71428572,
+            "trueOdds": 1.74074075,
             "points": 4.5,
             "outcomeType": "Over",
             "participants": [
@@ -2161,45 +1989,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA249981633#238595171_13L84240Q1-1555929797Q20",
-            "marketId": "249981633",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−130",
-                "decimal": "1.76",
-                "fractional": "10/13"
-            },
-            "trueOdds": 1.76923077,
-            "points": 4.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "643835",
-                    "name": "Will Warren",
-                    "type": "Player",
-                    "seoIdentifier": "Will Warren",
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 4502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA250150275#239230931_13L84240Q1-1555929797Q20",
             "marketId": "250150275",
             "label": "Under",
             "displayOdds": {
-                "american": "+115",
-                "decimal": "2.15",
-                "fractional": "23/20"
+                "american": "+120",
+                "decimal": "2.20",
+                "fractional": "6/5"
             },
-            "trueOdds": 2.15,
+            "trueOdds": 2.2,
             "points": 4.5,
             "outcomeType": "Under",
             "participants": [
@@ -2345,11 +2143,11 @@
             "marketId": "249968186",
             "label": "Under",
             "displayOdds": {
-                "american": "+115",
-                "decimal": "2.15",
-                "fractional": "23/20"
+                "american": "+120",
+                "decimal": "2.20",
+                "fractional": "6/5"
             },
-            "trueOdds": 2.15,
+            "trueOdds": 2.2,
             "points": 4.5,
             "outcomeType": "Under",
             "participants": [
@@ -2405,11 +2203,11 @@
             "marketId": "249996289",
             "label": "Under",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 2,
+            "trueOdds": 1.95238096,
             "points": 4.5,
             "outcomeType": "Under",
             "participants": [
@@ -2482,36 +2280,6 @@
                 }
             ],
             "sortOrder": 4502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA249981585#238685059_13L84240Q1-960981287Q20",
-            "marketId": "249981585",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
-            },
-            "trueOdds": 2.05,
-            "points": 5.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "32505",
-                    "name": "Luis Castillo",
-                    "type": "Player",
-                    "seoIdentifier": "Luis Castillo",
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 5500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -2765,11 +2533,11 @@
             "marketId": "249967221",
             "label": "Over",
             "displayOdds": {
-                "american": "−130",
-                "decimal": "1.76",
-                "fractional": "10/13"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.76923077,
+            "trueOdds": 1.8,
             "points": 5.5,
             "outcomeType": "Over",
             "participants": [
@@ -2812,36 +2580,6 @@
                 }
             ],
             "sortOrder": 5500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA249981585#238685060_13L84240Q1541727448Q20",
-            "marketId": "249981585",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−150",
-                "decimal": "1.66",
-                "fractional": "4/6"
-            },
-            "trueOdds": 1.66666667,
-            "points": 5.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "32505",
-                    "name": "Luis Castillo",
-                    "type": "Player",
-                    "seoIdentifier": "Luis Castillo",
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 5502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -3095,11 +2833,11 @@
             "marketId": "249967221",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.86956522,
             "points": 5.5,
             "outcomeType": "Under",
             "participants": [
@@ -3125,11 +2863,11 @@
             "marketId": "249997702",
             "label": "Under",
             "displayOdds": {
-                "american": "−165",
-                "decimal": "1.60",
-                "fractional": "20/33"
+                "american": "−160",
+                "decimal": "1.62",
+                "fractional": "5/8"
             },
-            "trueOdds": 1.60606061,
+            "trueOdds": 1.625,
             "points": 5.5,
             "outcomeType": "Under",
             "participants": [
@@ -3155,11 +2893,11 @@
             "marketId": "249997201",
             "label": "Over",
             "displayOdds": {
-                "american": "+120",
-                "decimal": "2.20",
-                "fractional": "6/5"
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
             },
-            "trueOdds": 2.2,
+            "trueOdds": 2.1,
             "points": 6.5,
             "outcomeType": "Over",
             "participants": [
@@ -3185,11 +2923,11 @@
             "marketId": "249997201",
             "label": "Under",
             "displayOdds": {
-                "american": "−170",
-                "decimal": "1.58",
-                "fractional": "10/17"
+                "american": "−155",
+                "decimal": "1.64",
+                "fractional": "20/31"
             },
-            "trueOdds": 1.5882353,
+            "trueOdds": 1.6451613,
             "points": 6.5,
             "outcomeType": "Under",
             "participants": [
@@ -3341,15 +3079,6 @@
             "id": 985,
             "name": "Live Batter Props",
             "sortOrder": 19,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 1256,
-            "name": "Live Pitcher Props",
-            "sortOrder": 20,
             "tags": [
                 "SGP",
                 "Live"
@@ -3533,198 +3262,6 @@
             ]
         },
         {
-            "id": 17493,
-            "categoryId": 723,
-            "name": "Inning (3-Way)",
-            "componentId": 30,
-            "sortOrder": 17450,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 17494,
-            "categoryId": 723,
-            "name": "Total Runs - Listed Inning",
-            "componentId": 29,
-            "sortOrder": 17451,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 17495,
-            "categoryId": 988,
-            "name": "Plate Appearance (3-Way)",
-            "componentId": 29,
-            "sortOrder": 17452,
-            "tags": [
-                "MicroMarket",
-                "Live"
-            ]
-        },
-        {
-            "id": 4519,
-            "categoryId": 493,
-            "name": "Game",
-            "componentId": 210,
-            "sortOrder": 4514,
-            "tags": [
-                "Featured",
-                "SGP",
-                "Live",
-                "ProgressiveParlayTeamEligible"
-            ]
-        },
-        {
-            "id": 9499,
-            "categoryId": 985,
-            "name": "Home Runs O/U",
-            "componentId": 8,
-            "sortOrder": 9470,
-            "tags": [
-                "Featured",
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 9502,
-            "categoryId": 985,
-            "name": "Hits O/U",
-            "componentId": 8,
-            "sortOrder": 9502,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 9503,
-            "categoryId": 985,
-            "name": "Singles",
-            "componentId": 8,
-            "sortOrder": 17442,
-            "tags": [
-                "Featured",
-                "Live"
-            ]
-        },
-        {
-            "id": 9504,
-            "categoryId": 985,
-            "name": "Doubles",
-            "componentId": 8,
-            "sortOrder": 17443,
-            "tags": [
-                "Featured",
-                "Live"
-            ]
-        },
-        {
-            "id": 9505,
-            "categoryId": 985,
-            "name": "RBIs O/U",
-            "componentId": 8,
-            "sortOrder": 12112,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 9506,
-            "categoryId": 985,
-            "name": "Total Bases O/U",
-            "componentId": 8,
-            "sortOrder": 9503,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 9507,
-            "categoryId": 985,
-            "name": "Runs Scored",
-            "componentId": 8,
-            "sortOrder": 9500,
-            "tags": []
-        },
-        {
-            "id": 9508,
-            "categoryId": 985,
-            "name": "Stolen Bases",
-            "componentId": 8,
-            "sortOrder": 17430,
-            "tags": [
-                "Featured",
-                "Live"
-            ]
-        },
-        {
-            "id": 9537,
-            "categoryId": 985,
-            "name": "Triples",
-            "componentId": 8,
-            "sortOrder": 17444,
-            "tags": []
-        },
-        {
-            "id": 12878,
-            "categoryId": 729,
-            "name": "Extra Innings",
-            "componentId": 12,
-            "sortOrder": 13695,
-            "tags": []
-        },
-        {
-            "id": 12960,
-            "categoryId": 1256,
-            "name": "Strikeouts O/U",
-            "componentId": 8,
-            "sortOrder": 15436,
-            "tags": [
-                "Featured",
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 12961,
-            "categoryId": 1256,
-            "name": "Outs Recorded",
-            "componentId": 8,
-            "sortOrder": 17435,
-            "tags": []
-        },
-        {
-            "id": 12962,
-            "categoryId": 1256,
-            "name": "Hits Allowed O/U",
-            "componentId": 8,
-            "sortOrder": 17441,
-            "tags": []
-        },
-        {
-            "id": 12963,
-            "categoryId": 1256,
-            "name": "Walks Allowed O/U",
-            "componentId": 8,
-            "sortOrder": 17446,
-            "tags": []
-        },
-        {
-            "id": 12964,
-            "categoryId": 1256,
-            "name": "To Record a Win",
-            "componentId": 29,
-            "sortOrder": 17438,
-            "tags": []
-        },
-        {
             "id": 12968,
             "categoryId": 758,
             "name": "Correct Score",
@@ -3833,7 +3370,6 @@
             "sortOrder": 6715,
             "tags": [
                 "Featured",
-                "SGP",
                 "Live"
             ]
         },
@@ -3861,14 +3397,6 @@
             ]
         },
         {
-            "id": 12995,
-            "categoryId": 758,
-            "name": "Race to X Runs",
-            "componentId": 29,
-            "sortOrder": 12955,
-            "tags": []
-        },
-        {
             "id": 12996,
             "categoryId": 758,
             "name": "Team Total Odd/Even",
@@ -3878,14 +3406,6 @@
                 "SGP",
                 "Live"
             ]
-        },
-        {
-            "id": 12997,
-            "categoryId": 758,
-            "name": "1st 5 Innings/Moneyline",
-            "componentId": 204,
-            "sortOrder": 12957,
-            "tags": []
         },
         {
             "id": 13168,
@@ -3910,72 +3430,6 @@
             ]
         },
         {
-            "id": 15924,
-            "categoryId": 758,
-            "name": "Run Line Xth Inning",
-            "componentId": 29,
-            "sortOrder": 15881,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 17443,
-            "categoryId": 723,
-            "name": "Runs - Listed Inning",
-            "componentId": 29,
-            "sortOrder": 17400,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 17444,
-            "categoryId": 723,
-            "name": "1st 3 Innings",
-            "componentId": 29,
-            "sortOrder": 17401,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 17445,
-            "categoryId": 723,
-            "name": "1st 5 Innings",
-            "componentId": 29,
-            "sortOrder": 17402,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 17446,
-            "categoryId": 723,
-            "name": "1st 7 Innings",
-            "componentId": 29,
-            "sortOrder": 17403,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 17478,
-            "categoryId": 1256,
-            "name": "Hits Allowed",
-            "componentId": 331,
-            "sortOrder": 12921,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
             "id": 17479,
             "categoryId": 985,
             "name": "RBIs",
@@ -3993,18 +3447,6 @@
             "name": "Total Bases",
             "componentId": 331,
             "sortOrder": 9232,
-            "tags": [
-                "Featured",
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 17481,
-            "categoryId": 1256,
-            "name": "Strikeouts",
-            "componentId": 331,
-            "sortOrder": 12920,
             "tags": [
                 "Featured",
                 "SGP",
@@ -4036,13 +3478,32 @@
             ]
         },
         {
-            "id": 17484,
-            "categoryId": 1256,
-            "name": "Walks Allowed",
-            "componentId": 331,
-            "sortOrder": 12922,
+            "id": 17493,
+            "categoryId": 723,
+            "name": "Inning (3-Way)",
+            "componentId": 30,
+            "sortOrder": 17450,
             "tags": [
                 "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17494,
+            "categoryId": 723,
+            "name": "Total Runs - Listed Inning",
+            "componentId": 29,
+            "sortOrder": 17451,
+            "tags": []
+        },
+        {
+            "id": 17495,
+            "categoryId": 988,
+            "name": "Plate Appearance (3-Way)",
+            "componentId": 29,
+            "sortOrder": 17452,
+            "tags": [
+                "MicroMarket",
                 "Live"
             ]
         },
@@ -4111,12 +3572,157 @@
             ]
         },
         {
+            "id": 4519,
+            "categoryId": 493,
+            "name": "Game",
+            "componentId": 210,
+            "sortOrder": 4514,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live",
+                "ProgressiveParlayTeamEligible"
+            ]
+        },
+        {
             "id": 6694,
             "categoryId": 493,
             "name": "Total Runs (3-Way)",
             "componentId": 11,
             "sortOrder": 10985,
             "tags": []
+        },
+        {
+            "id": 9499,
+            "categoryId": 985,
+            "name": "Home Runs O/U",
+            "componentId": 8,
+            "sortOrder": 9470,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 9502,
+            "categoryId": 985,
+            "name": "Hits O/U",
+            "componentId": 8,
+            "sortOrder": 9502,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 9503,
+            "categoryId": 985,
+            "name": "Singles",
+            "componentId": 8,
+            "sortOrder": 17442,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 9504,
+            "categoryId": 985,
+            "name": "Doubles",
+            "componentId": 8,
+            "sortOrder": 17443,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 9505,
+            "categoryId": 985,
+            "name": "RBIs O/U",
+            "componentId": 8,
+            "sortOrder": 12112,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 9506,
+            "categoryId": 985,
+            "name": "Total Bases O/U",
+            "componentId": 8,
+            "sortOrder": 9503,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 9507,
+            "categoryId": 985,
+            "name": "Runs Scored",
+            "componentId": 8,
+            "sortOrder": 9500,
+            "tags": []
+        },
+        {
+            "id": 9508,
+            "categoryId": 985,
+            "name": "Stolen Bases",
+            "componentId": 8,
+            "sortOrder": 17430,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 9537,
+            "categoryId": 985,
+            "name": "Triples",
+            "componentId": 8,
+            "sortOrder": 17444,
+            "tags": []
+        },
+        {
+            "id": 12878,
+            "categoryId": 729,
+            "name": "Extra Innings",
+            "componentId": 12,
+            "sortOrder": 13695,
+            "tags": []
+        },
+        {
+            "id": 12995,
+            "categoryId": 758,
+            "name": "Race to X Runs",
+            "componentId": 29,
+            "sortOrder": 12955,
+            "tags": []
+        },
+        {
+            "id": 15924,
+            "categoryId": 758,
+            "name": "Run Line Xth Inning",
+            "componentId": 29,
+            "sortOrder": 15881,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17446,
+            "categoryId": 723,
+            "name": "1st 7 Innings",
+            "componentId": 29,
+            "sortOrder": 17403,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
         },
         {
             "id": 6724,
@@ -4969,14 +4575,6 @@
             "tags": []
         },
         {
-            "id": 17844,
-            "categoryId": 743,
-            "name": "Runs",
-            "componentId": 331,
-            "sortOrder": 5,
-            "tags": []
-        },
-        {
             "id": 17845,
             "categoryId": 743,
             "name": "Singles",
@@ -5149,6 +4747,14 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 17844,
+            "categoryId": 743,
+            "name": "Runs",
+            "componentId": 331,
+            "sortOrder": 5,
+            "tags": []
         },
         {
             "id": 17290,
