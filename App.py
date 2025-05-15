@@ -187,6 +187,26 @@ def add_header(response):
     response.headers['Pragma'] = 'no-cache'
     return response
 
+# Route for NBA time.json (root-level)
+@app.route('/time.json')
+def serve_nba_time():
+    try:
+        return send_from_directory('.', 'time.json')
+    except Exception as e:
+        return jsonify({"error": f"NBA time.json error: {str(e)}"}), 500
+
+# Route for all other sports' time.json files (in their folders)
+@app.route('/<sport>/time.json')
+def serve_sport_time(sport):
+    try:
+        # Only allow known sports
+        if sport not in ['mlb', 'nhl', 'wnba']:
+            return jsonify({"error": "Invalid sport"}), 400
+
+        return send_from_directory(sport, 'time.json')
+    except Exception as e:
+        return jsonify({"error": f"{sport} time.json error: {str(e)}"}), 500
+
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 3000))
     app.run(debug=True, host='0.0.0.0', port=port, threaded=True)

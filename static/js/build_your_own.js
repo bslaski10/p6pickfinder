@@ -87,14 +87,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function calculateImpliedProbability(odds) {
-    if (odds < 0) {
-      return Math.abs(odds) / (Math.abs(odds) + 100);
-    } else {
-      return 100 / (odds + 100);
-    }
-  }
-
-  function calculateImpliedProbability(odds) {
     let rawProb;
     if (odds < 0) {
       rawProb = Math.abs(odds) / (Math.abs(odds) + 100);
@@ -137,26 +129,35 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function updateBoostEdgeInfo() {
-  boostEdgeInfo.innerHTML = "";
-  const oddsData = calculateParlayImpliedOdds();
-  if (oddsData) {
-    const impliedPercentage = oddsData.impliedProbability * 100;
-    let innerHTML = `<p><strong>Implied Odds:</strong> ${impliedPercentage.toFixed(2)}%</p>`;
-    const boost = parseFloat(boostBar.value) || 0;
+    boostEdgeInfo.innerHTML = "";
+    const oddsData = calculateParlayImpliedOdds();
+    if (oddsData) {
+      const impliedPercentage = oddsData.impliedProbability * 100;
+      let innerHTML = `<p><strong>Implied Odds:</strong> ${impliedPercentage.toFixed(2)}%</p>`;
+      const boost = parseFloat(boostBar.value) || 0;
 
-    let payout;
-    if (createdParlay.length === 2) {
-      payout = 3.3 + (3.3 * boost / 100); // base + boost
-    } else if (createdParlay.length === 3) {
-      payout = 5.5 + (5.5 * boost / 100);
+      let basePayout;
+
+      // Determine base payout by sport and parlay length
+      if (createdParlay.length === 2) {
+        if (currentSport === "nba") basePayout = 3.3;
+        else if (currentSport === "mlb") basePayout = 2.97;
+        else if (currentSport === "nhl") basePayout = 3.3;
+        else if (currentSport === "wnba") basePayout = 2.75;
+      } else if (createdParlay.length === 3) {
+        if (currentSport === "nba") basePayout = 5.5;
+        else if (currentSport === "mlb") basePayout = 5.5;
+        else if (currentSport === "nhl") basePayout = 4.4;
+        else if (currentSport === "wnba") basePayout = 4.4;
+      }
+
+      if (basePayout) {
+        const payout = basePayout + (basePayout * boost / 100);
+        const edge = (payout * oddsData.impliedProbability - 1) * 100;
+        innerHTML += `<p><strong>Edge:</strong> ${edge.toFixed(2)}%</p>`;
+      }
+
+      boostEdgeInfo.innerHTML = innerHTML;
     }
-
-    if (payout) {
-      let edge = (payout * oddsData.impliedProbability - 1) * 100;
-      innerHTML += `<p><strong>Edge:</strong> ${edge.toFixed(2)}%</p>`;
-    }
-
-    boostEdgeInfo.innerHTML = innerHTML;
   }
-}
 });

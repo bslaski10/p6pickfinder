@@ -10,7 +10,7 @@ def update_progress(value, message):
 def log_execution_time():
     execution_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     time_data = {"execution_time": execution_time}
-    with open("selections/time.json", "w") as f:
+    with open("time.json", "w") as f:
         json.dump(time_data, f)
 
 # Stage 1: Fetching DK Data (ScrapeDK and Fetch)
