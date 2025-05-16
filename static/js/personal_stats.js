@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("filter-nba").addEventListener("click", () => updateSport('nba'));
     document.getElementById("filter-mlb").addEventListener("click", () => updateSport('mlb'));
     document.getElementById("filter-nhl").addEventListener("click", () => updateSport('nhl'));
+    document.getElementById("filter-wnba").addEventListener("click", () => updateSport('wnba'));
 
     function updateView(filter) {
         currentFilter = filter;
@@ -99,6 +100,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 sportIcon = "⚾";
             } else if (parlay.sport === "nhl") {
                 sportIcon = "🏒";
+            } else if (parlay.sport === "wnba") {
+                sportIcon = "👟";
             }
     
             let sportLabel = "";
