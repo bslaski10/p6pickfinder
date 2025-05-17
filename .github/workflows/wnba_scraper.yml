@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-nhl-locks:
+  run-wnba-locks:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -20,13 +20,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run NHL Locks
-        run: python nhl/Locks.py
+      - name: Run WNBA Locks
+        run: python wnba/Locks.py
 
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "🔁 NHL Auto-update"
+          git commit -m "🔁 WNBA Auto-update"
           git push

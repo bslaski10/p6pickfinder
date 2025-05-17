@@ -6,11 +6,11 @@ from selenium.webdriver.chrome.options import Options
 
 # Define URLs for WNBA stat types
 urls = {
-    "points": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusva/v1/leagues/94682/categories/1215/subcategories/15944",
-    "threes": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusva/v1/leagues/94682/categories/1218/subcategories/15947",
-    "rebounds": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusva/v1/leagues/94682/categories/1216/subcategories/15945",
+    "points": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusva/v1/leagues/94682/categories/1215/subcategories/12488",
+    "threes": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusva/v1/leagues/94682/categories/1218/subcategories/12497",
+    "rebounds": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusva/v1/leagues/94682/categories/1216/subcategories/12492",
     "pra": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusva/v1/leagues/94682/categories/583/subcategories/5001",
-    "assists": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusva/v1/leagues/94682/categories/1217/subcategories/15946"
+    "assists": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusva/v1/leagues/94682/categories/1217/subcategories/12495"
 }
 
 # Setup Chrome WebDriver options
