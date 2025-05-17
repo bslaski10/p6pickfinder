@@ -4,7 +4,7 @@
             "id": "2",
             "seoIdentifier": "Basketball",
             "name": "Basketball",
-            "sortOrder": 62
+            "sortOrder": 59
         }
     ],
     "leagues": [
@@ -341,6 +341,7 @@
             "subscriptionKey": "league-events-42648",
             "sortOrder": 12,
             "tags": [
+                "ProgressiveParlayEligible",
                 "SGP",
                 "YourBetEligible",
                 "Cashout",
@@ -390,9 +391,8 @@
                 "name": "Points O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 16,
+            "sortOrder": 15,
             "tags": [
-                "ProgressiveParlayEligible",
                 "SGP",
                 "YourBetEligible",
                 "Cashout",
@@ -520,6 +520,7 @@
             "subscriptionKey": "league-events-42648",
             "sortOrder": 23,
             "tags": [
+                "ProgressiveParlayEligible",
                 "SGP",
                 "YourBetEligible",
                 "Cashout",
@@ -543,7 +544,7 @@
                 "name": "Points O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 26,
+            "sortOrder": 28,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -776,7 +777,7 @@
                 "name": "Points O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 15,
+            "sortOrder": 16,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -866,11 +867,11 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "250185855",
+            "id": "250185861",
             "eventId": "32295165",
             "sportId": "2",
             "leagueId": "42648",
-            "name": "T.J. McConnell Points O/U",
+            "name": "Miles McBride Points O/U",
             "subcategoryId": 12488,
             "marketType": {
                 "id": "12660",
@@ -887,7 +888,57 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
+            "correlatedId": "32295165|12660|2:127006",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "250185855",
+            "eventId": "32295165",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "T.J. McConnell Points O/U",
+            "subcategoryId": 12488,
+            "marketType": {
+                "id": "12660",
+                "betOfferTypeId": 0,
+                "name": "Points O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 26,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
             "correlatedId": "32295165|12660|2:58613",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "250185758",
+            "eventId": "32295165",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Mitchell Robinson Points O/U",
+            "subcategoryId": 12488,
+            "marketType": {
+                "id": "12660",
+                "betOfferTypeId": 0,
+                "name": "Points O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 27,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32295165|12660|2:101125",
             "dynamicMetadata": {}
         }
     ],
@@ -915,6 +966,72 @@
                         "value": 7.9
                     },
                     "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 5500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA250185758#239381752_13L42648Q1-624800362Q20",
+            "marketId": "250185758",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 5.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "33242",
+                    "name": "Mitchell Robinson",
+                    "type": "Player",
+                    "seoIdentifier": "Mitchell Robinson",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 4.7
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 5500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA250185855#241674699_13L42648Q1-624800362Q20",
+            "marketId": "250185855",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
+            },
+            "trueOdds": 1.74074075,
+            "points": 5.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "33090",
+                    "name": "T.J. McConnell",
+                    "type": "Player",
+                    "seoIdentifier": "T.J. McConnell",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 9.1
+                    },
+                    "venueRole": "AwayPlayer"
                 }
             ],
             "sortOrder": 5500,
@@ -959,17 +1076,50 @@
             "metadata": {}
         },
         {
-            "id": "0QA250185855#241235468_13L42648Q1-1554373190Q20",
+            "id": "0QA250185758#239381754_13L42648Q134400246Q20",
+            "marketId": "250185758",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 5.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "33242",
+                    "name": "Mitchell Robinson",
+                    "type": "Player",
+                    "seoIdentifier": "Mitchell Robinson",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 4.7
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 5502,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA250185855#241674700_13L42648Q134400246Q20",
             "marketId": "250185855",
-            "label": "Over",
+            "label": "Under",
             "displayOdds": {
                 "american": "+105",
                 "decimal": "2.05",
                 "fractional": "21/20"
             },
             "trueOdds": 2.05,
-            "points": 6.5,
-            "outcomeType": "Over",
+            "points": 5.5,
+            "outcomeType": "Under",
             "participants": [
                 {
                     "id": "33090",
@@ -983,6 +1133,39 @@
                     "venueRole": "AwayPlayer"
                 }
             ],
+            "sortOrder": 5502,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA250185861#239387107_13L42648Q1-1554373190Q20",
+            "marketId": "250185861",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 6.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "591041",
+                    "name": "Miles McBride",
+                    "type": "Player",
+                    "seoIdentifier": "Miles McBride",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 9
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
             "sortOrder": 6500,
             "tags": [
                 "MainPointLine",
@@ -992,28 +1175,28 @@
             "metadata": {}
         },
         {
-            "id": "0QA250185855#241235469_13L42648Q12036065197Q20",
-            "marketId": "250185855",
+            "id": "0QA250185861#239387110_13L42648Q12036065197Q20",
+            "marketId": "250185861",
             "label": "Under",
             "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.74074075,
+            "trueOdds": 1.86956522,
             "points": 6.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "33090",
-                    "name": "T.J. McConnell",
+                    "id": "591041",
+                    "name": "Miles McBride",
                     "type": "Player",
-                    "seoIdentifier": "T.J. McConnell",
+                    "seoIdentifier": "Miles McBride",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 9.1
+                        "value": 9
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 6502,
@@ -1029,11 +1212,11 @@
             "marketId": "250185863",
             "label": "Over",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.86956522,
             "points": 7.5,
             "outcomeType": "Over",
             "participants": [
@@ -1062,11 +1245,11 @@
             "marketId": "250185863",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.86956522,
             "points": 7.5,
             "outcomeType": "Under",
             "participants": [
@@ -1095,11 +1278,11 @@
             "marketId": "250413567",
             "label": "Over",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 2,
+            "trueOdds": 1.90909091,
             "points": 8.5,
             "outcomeType": "Over",
             "participants": [
@@ -1117,6 +1300,7 @@
             ],
             "sortOrder": 8500,
             "tags": [
+                "ProgressiveParlayEligible",
                 "MainPointLine",
                 "SGP"
             ],
@@ -1128,11 +1312,11 @@
             "marketId": "250413567",
             "label": "Under",
             "displayOdds": {
-                "american": "−130",
-                "decimal": "1.76",
-                "fractional": "10/13"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.76923077,
+            "trueOdds": 1.83333334,
             "points": 8.5,
             "outcomeType": "Under",
             "participants": [
@@ -1150,6 +1334,7 @@
             ],
             "sortOrder": 8502,
             "tags": [
+                "ProgressiveParlayEligible",
                 "MainPointLine",
                 "SGP"
             ],
@@ -1194,11 +1379,11 @@
             "marketId": "250185851",
             "label": "Over",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.76923077,
             "points": 9.5,
             "outcomeType": "Over",
             "participants": [
@@ -1261,11 +1446,11 @@
             "marketId": "250185851",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 2,
             "points": 9.5,
             "outcomeType": "Under",
             "participants": [
@@ -1493,40 +1678,6 @@
             "metadata": {}
         },
         {
-            "id": "0QA250413509#241258898_13L42648Q1-1856570546Q20",
-            "marketId": "250413509",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
-            },
-            "trueOdds": 1.8,
-            "points": 11.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33270",
-                    "name": "Aaron Gordon",
-                    "type": "Player",
-                    "seoIdentifier": "Aaron Gordon",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 15.1
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 11500,
-            "tags": [
-                "ProgressiveParlayEligible",
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA250185856#239388149_13L42648Q1-1856570546Q20",
             "marketId": "250185856",
             "label": "Over",
@@ -1552,40 +1703,6 @@
                 }
             ],
             "sortOrder": 11500,
-            "tags": [
-                "ProgressiveParlayEligible",
-                "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA250413509#241258899_13L42648Q1-84747951Q20",
-            "marketId": "250413509",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
-            },
-            "trueOdds": 1.95238096,
-            "points": 11.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33270",
-                    "name": "Aaron Gordon",
-                    "type": "Player",
-                    "seoIdentifier": "Aaron Gordon",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 15.1
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 11502,
             "tags": [
                 "ProgressiveParlayEligible",
                 "MainPointLine",
@@ -1629,15 +1746,48 @@
             "metadata": {}
         },
         {
+            "id": "0QA250413509#241175640_13L42648Q1-1662826468Q20",
+            "marketId": "250413509",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
+            },
+            "trueOdds": 2,
+            "points": 12.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "33270",
+                    "name": "Aaron Gordon",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Gordon",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 15.1
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 12500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA250185853#239390429_13L42648Q1-1662826468Q20",
             "marketId": "250185853",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.83333334,
             "points": 12.5,
             "outcomeType": "Over",
             "participants": [
@@ -1696,15 +1846,48 @@
             "metadata": {}
         },
         {
+            "id": "0QA250413509#241175641_13L42648Q1-1693375913Q20",
+            "marketId": "250413509",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
+            },
+            "trueOdds": 1.76923077,
+            "points": 12.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "33270",
+                    "name": "Aaron Gordon",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Gordon",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 15.1
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 12502,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA250185853#239390430_13L42648Q1-1693375913Q20",
             "marketId": "250185853",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.90909091,
             "points": 12.5,
             "outcomeType": "Under",
             "participants": [
@@ -1767,11 +1950,11 @@
             "marketId": "250413490",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.83333334,
             "points": 13.5,
             "outcomeType": "Over",
             "participants": [
@@ -1802,11 +1985,11 @@
             "marketId": "250413490",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.90909091,
             "points": 13.5,
             "outcomeType": "Under",
             "participants": [
@@ -1859,6 +2042,7 @@
             ],
             "sortOrder": 14500,
             "tags": [
+                "ProgressiveParlayEligible",
                 "MainPointLine",
                 "SGP",
                 "3rdFavorite"
@@ -1893,6 +2077,7 @@
             ],
             "sortOrder": 14502,
             "tags": [
+                "ProgressiveParlayEligible",
                 "MainPointLine",
                 "SGP",
                 "3rdFavorite"
@@ -2010,11 +2195,11 @@
             "marketId": "250185761",
             "label": "Over",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.95238096,
             "points": 16.5,
             "outcomeType": "Over",
             "participants": [
@@ -2079,11 +2264,11 @@
             "marketId": "250185761",
             "label": "Under",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.8,
             "points": 16.5,
             "outcomeType": "Under",
             "participants": [
@@ -2113,11 +2298,11 @@
             "marketId": "250185874",
             "label": "Over",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.83333334,
             "points": 17.5,
             "outcomeType": "Over",
             "participants": [
@@ -2148,11 +2333,11 @@
             "marketId": "250185874",
             "label": "Under",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 1.90909091,
             "points": 17.5,
             "outcomeType": "Under",
             "participants": [
@@ -2183,11 +2368,11 @@
             "marketId": "250185918",
             "label": "Over",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.90909091,
             "points": 18.5,
             "outcomeType": "Over",
             "participants": [
@@ -2218,11 +2403,11 @@
             "marketId": "250185918",
             "label": "Under",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 1.83333334,
             "points": 18.5,
             "outcomeType": "Under",
             "participants": [
@@ -2249,16 +2434,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA250413495#240352389_13L42648Q1490767635Q20",
+            "id": "0QA250413495#240380755_13L42648Q1-692842954Q20",
             "marketId": "250413495",
             "label": "Over",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.95238096,
-            "points": 20.5,
+            "trueOdds": 1.83333334,
+            "points": 19.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -2273,7 +2458,7 @@
                     "venueRole": "HomePlayer"
                 }
             ],
-            "sortOrder": 20500,
+            "sortOrder": 19500,
             "tags": [
                 "ProgressiveParlayEligible",
                 "MainPointLine",
@@ -2284,16 +2469,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA250413495#240352392_13L42648Q1175200708Q20",
+            "id": "0QA250413495#240380756_13L42648Q1-238425594Q20",
             "marketId": "250413495",
             "label": "Under",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.8,
-            "points": 20.5,
+            "trueOdds": 1.90909091,
+            "points": 19.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -2308,7 +2493,7 @@
                     "venueRole": "HomePlayer"
                 }
             ],
-            "sortOrder": 20502,
+            "sortOrder": 19502,
             "tags": [
                 "ProgressiveParlayEligible",
                 "MainPointLine",
@@ -2323,11 +2508,11 @@
             "marketId": "250413502",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.90909091,
             "points": 21.5,
             "outcomeType": "Over",
             "participants": [
@@ -2358,11 +2543,11 @@
             "marketId": "250413502",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.83333334,
             "points": 21.5,
             "outcomeType": "Under",
             "participants": [
@@ -2393,11 +2578,11 @@
             "marketId": "250185864",
             "label": "Over",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.86956522,
             "points": 22.5,
             "outcomeType": "Over",
             "participants": [
@@ -2428,11 +2613,11 @@
             "marketId": "250185864",
             "label": "Under",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 1.86956522,
             "points": 22.5,
             "outcomeType": "Under",
             "participants": [
@@ -2463,11 +2648,11 @@
             "marketId": "250185866",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.90909091,
             "points": 28.5,
             "outcomeType": "Over",
             "participants": [
@@ -2498,11 +2683,11 @@
             "marketId": "250185866",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.83333334,
             "points": 28.5,
             "outcomeType": "Under",
             "participants": [
@@ -2533,11 +2718,11 @@
             "marketId": "250413510",
             "label": "Over",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.95238096,
             "points": 29.5,
             "outcomeType": "Over",
             "participants": [
@@ -2568,11 +2753,11 @@
             "marketId": "250413510",
             "label": "Under",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.8,
             "points": 29.5,
             "outcomeType": "Under",
             "participants": [
@@ -2599,16 +2784,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA250413513#240406829_13L42648Q1-2000084800Q20",
+            "id": "0QA250413513#240381420_13L42648Q1943787069Q20",
             "marketId": "250413513",
             "label": "Over",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.83333334,
-            "points": 30.5,
+            "trueOdds": 1.90909091,
+            "points": 31.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -2623,7 +2808,7 @@
                     "venueRole": "HomePlayer"
                 }
             ],
-            "sortOrder": 30500,
+            "sortOrder": 31500,
             "tags": [
                 "ProgressiveParlayEligible",
                 "MainPointLine",
@@ -2634,16 +2819,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA250413513#240406830_13L42648Q12015457366Q20",
+            "id": "0QA250413513#240381421_13L42648Q1-1255341622Q20",
             "marketId": "250413513",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.90909091,
-            "points": 30.5,
+            "trueOdds": 1.83333334,
+            "points": 31.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -2658,7 +2843,7 @@
                     "venueRole": "HomePlayer"
                 }
             ],
-            "sortOrder": 30502,
+            "sortOrder": 31502,
             "tags": [
                 "ProgressiveParlayEligible",
                 "MainPointLine",
@@ -2790,6 +2975,11 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 1682,
+            "name": "Game Threes",
+            "sortOrder": 36
         },
         {
             "id": 521,
@@ -4190,6 +4380,46 @@
             "sortOrder": 8561,
             "tags": [
                 "SGP"
+            ]
+        },
+        {
+            "id": 16292,
+            "categoryId": 1682,
+            "name": "Total Threes",
+            "componentId": 29,
+            "sortOrder": 16250,
+            "tags": [
+                "Featured"
+            ]
+        },
+        {
+            "id": 16293,
+            "categoryId": 1682,
+            "name": "Team Total Threes",
+            "componentId": 29,
+            "sortOrder": 16249,
+            "tags": [
+                "Featured"
+            ]
+        },
+        {
+            "id": 16294,
+            "categoryId": 1682,
+            "name": "Threes in First 3 Min",
+            "componentId": 29,
+            "sortOrder": 16252,
+            "tags": [
+                "Featured"
+            ]
+        },
+        {
+            "id": 16296,
+            "categoryId": 1682,
+            "name": "Team Threes in First 3 Min",
+            "componentId": 29,
+            "sortOrder": 16251,
+            "tags": [
+                "Featured"
             ]
         },
         {
