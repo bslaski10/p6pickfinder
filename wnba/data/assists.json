@@ -4,7 +4,7 @@
             "id": "2",
             "seoIdentifier": "Basketball",
             "name": "Basketball",
-            "sortOrder": 56
+            "sortOrder": 59
         }
     ],
     "leagues": [
@@ -44,89 +44,6 @@
         }
     ],
     "events": [
-        {
-            "id": "32308039",
-            "seoIdentifier": "MIN Lynx @ LA Sparks",
-            "sportId": "2",
-            "leagueId": "94682",
-            "name": "MIN Lynx @ LA Sparks",
-            "startEventDate": "2025-05-18T22:00:00.0000000Z",
-            "participants": [
-                {
-                    "id": "36137",
-                    "name": "LA Sparks",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "1095",
-                        "rosettaTeamId": "36137",
-                        "rosettaTeamName": "Sparks",
-                        "shortName": "LA"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Sparks"
-                },
-                {
-                    "id": "36133",
-                    "name": "MIN Lynx",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "1094",
-                        "rosettaTeamId": "36133",
-                        "rosettaTeamName": "Lynx",
-                        "shortName": "MIN"
-                    },
-                    "sortOrder": 1,
-                    "seoIdentifier": "Lynx"
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "eventScorecard": {
-                "scorecardComponentId": 1
-            },
-            "media": [
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "56327895",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "56327895",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "56327895",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                }
-            ],
-            "tags": [
-                "FeaturedSubcategory",
-                "MatchTracker",
-                "PrePack",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "676",
-                "numberOfParts": "4",
-                "secondsInOnePart": "600"
-            },
-            "sortOrder": 230244039,
-            "subscriptionKey": "league-events-94682"
-        },
         {
             "id": "32308040",
             "seoIdentifier": "SEA Storm @ DAL Wings",
@@ -213,11 +130,11 @@
     ],
     "markets": [
         {
-            "id": "250778581",
-            "eventId": "32308039",
+            "id": "250899404",
+            "eventId": "32308040",
             "sportId": "2",
             "leagueId": "94682",
-            "name": "Kelsey Plum Assists O/U",
+            "name": "Paige Bueckers Assists O/U",
             "subcategoryId": 12495,
             "marketType": {
                 "id": "3561",
@@ -235,44 +152,20 @@
                 "PlayerProps"
             ],
             "dynamicMetadata": {}
-        },
-        {
-            "id": "250899404",
-            "eventId": "32308040",
-            "sportId": "2",
-            "leagueId": "94682",
-            "name": "Paige Bueckers Assists O/U",
-            "subcategoryId": 12495,
-            "marketType": {
-                "id": "3561",
-                "betOfferTypeId": 0,
-                "name": "Assists O/U"
-            },
-            "subscriptionKey": "league-events-94682",
-            "sortOrder": 2,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "dynamicMetadata": {}
         }
     ],
     "selections": [
         {
-            "id": "0QA250899404#242510926_13L94682Q1178528Q20",
+            "id": "0QA250899404#243290314_13L94682Q1178528Q20",
             "marketId": "250899404",
             "label": "Over",
             "displayOdds": {
-                "american": "+140",
-                "decimal": "2.40",
-                "fractional": "7/5"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 2.4,
-            "points": 4.5,
+            "trueOdds": 1.86956522,
+            "points": 3.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -283,7 +176,7 @@
                     "venueRole": "HomePlayer"
                 }
             ],
-            "sortOrder": 4500,
+            "sortOrder": 3500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -293,16 +186,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA250899404#242510927_15L94682Q1178528Q20",
+            "id": "0QA250899404#243290315_15L94682Q1178528Q20",
             "marketId": "250899404",
             "label": "Under",
             "displayOdds": {
-                "american": "−180",
-                "decimal": "1.55",
-                "fractional": "5/9"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.55555556,
-            "points": 4.5,
+            "trueOdds": 1.86956522,
+            "points": 3.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -313,67 +206,7 @@
                     "venueRole": "HomePlayer"
                 }
             ],
-            "sortOrder": 4502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA250778581#242013837_13L94682Q1154860Q20",
-            "marketId": "250778581",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
-            },
-            "trueOdds": 1.83333334,
-            "points": 5.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "50838",
-                    "name": "Kelsey Plum",
-                    "type": "Player",
-                    "seoIdentifier": "Kelsey Plum",
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 5500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA250778581#242013838_15L94682Q1154860Q20",
-            "marketId": "250778581",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
-            "points": 5.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "50838",
-                    "name": "Kelsey Plum",
-                    "type": "Player",
-                    "seoIdentifier": "Kelsey Plum",
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 5502,
+            "sortOrder": 3502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -432,7 +265,10 @@
         {
             "id": 583,
             "name": "Player Combos",
-            "sortOrder": 8
+            "sortOrder": 8,
+            "tags": [
+                "SGP"
+            ]
         },
         {
             "id": 520,
@@ -477,6 +313,16 @@
             "sortOrder": 38
         },
         {
+            "id": 1659,
+            "name": "Player Averages",
+            "sortOrder": 39
+        },
+        {
+            "id": 1784,
+            "name": "Player Stats",
+            "sortOrder": 147
+        },
+        {
             "id": 1806,
             "name": "Team First Win",
             "sortOrder": 151
@@ -505,6 +351,14 @@
             "name": "Valkyries First Win",
             "componentId": 29,
             "sortOrder": 17736,
+            "tags": []
+        },
+        {
+            "id": 17513,
+            "categoryId": 1784,
+            "name": "Stat Leaders",
+            "componentId": 29,
+            "sortOrder": 17470,
             "tags": []
         },
         {
@@ -652,14 +506,12 @@
             ]
         },
         {
-            "id": 12497,
-            "categoryId": 1218,
-            "name": "Threes O/U",
-            "componentId": 8,
-            "sortOrder": 12477,
-            "tags": [
-                "SGP"
-            ]
+            "id": 12949,
+            "categoryId": 1157,
+            "name": "1st Team FG - Player",
+            "componentId": 204,
+            "sortOrder": 14700,
+            "tags": []
         },
         {
             "id": 13201,
@@ -688,6 +540,16 @@
             "componentId": 29,
             "sortOrder": 5779,
             "tags": []
+        },
+        {
+            "id": 13762,
+            "categoryId": 583,
+            "name": "Double-Double",
+            "componentId": 204,
+            "sortOrder": 4986,
+            "tags": [
+                "Featured"
+            ]
         },
         {
             "id": 14648,
@@ -765,6 +627,17 @@
             "name": "Threes",
             "componentId": 331,
             "sortOrder": 12459,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16483,
+            "categoryId": 583,
+            "name": "Pts + Reb + Ast",
+            "componentId": 331,
+            "sortOrder": 4927,
             "tags": [
                 "Featured",
                 "SGP"
@@ -910,6 +783,14 @@
             "tags": []
         },
         {
+            "id": 5001,
+            "categoryId": 583,
+            "name": "Pts + Reb + Ast O/U",
+            "componentId": 8,
+            "sortOrder": 5396,
+            "tags": []
+        },
+        {
             "id": 5723,
             "categoryId": 521,
             "name": "Winning Margin",
@@ -968,14 +849,6 @@
             ]
         },
         {
-            "id": 5001,
-            "categoryId": 583,
-            "name": "Pts + Reb + Ast O/U",
-            "componentId": 8,
-            "sortOrder": 5396,
-            "tags": []
-        },
-        {
             "id": 17836,
             "categoryId": 519,
             "name": "Commissioner's Cup",
@@ -984,11 +857,35 @@
             "tags": []
         },
         {
+            "id": 16047,
+            "categoryId": 1659,
+            "name": "PPG",
+            "componentId": 29,
+            "sortOrder": 16005,
+            "tags": []
+        },
+        {
+            "id": 16048,
+            "categoryId": 1659,
+            "name": "RPG",
+            "componentId": 29,
+            "sortOrder": 16007,
+            "tags": []
+        },
+        {
             "id": 10700,
             "categoryId": 519,
             "name": "Champion",
             "componentId": 29,
             "sortOrder": 4591,
+            "tags": []
+        },
+        {
+            "id": 16049,
+            "categoryId": 1659,
+            "name": "APG",
+            "componentId": 29,
+            "sortOrder": 16013,
             "tags": []
         }
     ],
