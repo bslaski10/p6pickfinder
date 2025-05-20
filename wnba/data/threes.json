@@ -1,7 +1,10 @@
 {
     "sports": [
         {
-            "id": "2"
+            "id": "2",
+            "seoIdentifier": "Basketball",
+            "name": "Basketball",
+            "sortOrder": 60
         }
     ],
     "leagues": [
@@ -40,9 +43,347 @@
             ]
         }
     ],
-    "events": [],
-    "markets": [],
-    "selections": [],
+    "events": [
+        {
+            "id": "32308042",
+            "seoIdentifier": "ATL Dream @ IND Fever",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "ATL Dream @ IND Fever",
+            "startEventDate": "2025-05-20T23:00:00.0000000Z",
+            "participants": [
+                {
+                    "id": "36125",
+                    "name": "IND Fever",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "793",
+                        "rosettaTeamId": "36125",
+                        "rosettaTeamName": "Fever",
+                        "shortName": "IND"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Fever"
+                },
+                {
+                    "id": "36121",
+                    "name": "ATL Dream",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "792",
+                        "rosettaTeamId": "36121",
+                        "rosettaTeamName": "Dream",
+                        "shortName": "ATL"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Dream"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "NOT_STARTED",
+            "eventScorecard": {
+                "scorecardComponentId": 1
+            },
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "56327901",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "56327901",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "56327901",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "MatchTracker",
+                "PrePack",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "676",
+                "numberOfParts": "4",
+                "secondsInOnePart": "600"
+            },
+            "sortOrder": 230538001,
+            "subscriptionKey": "league-events-94682"
+        }
+    ],
+    "markets": [
+        {
+            "id": "251098458",
+            "eventId": "32308042",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "Caitlin Clark Three Pointers Made O/U",
+            "subcategoryId": 12497,
+            "marketType": {
+                "id": "5390",
+                "betOfferTypeId": 0,
+                "name": "Three Pointers Made O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 1,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "251098447",
+            "eventId": "32308042",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "Rhyne Howard Three Pointers Made O/U",
+            "subcategoryId": 12497,
+            "marketType": {
+                "id": "5390",
+                "betOfferTypeId": 0,
+                "name": "Three Pointers Made O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 2,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "251098453",
+            "eventId": "32308042",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "Kelsey Mitchell Three Pointers Made O/U",
+            "subcategoryId": 12497,
+            "marketType": {
+                "id": "5390",
+                "betOfferTypeId": 0,
+                "name": "Three Pointers Made O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 3,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        }
+    ],
+    "selections": [
+        {
+            "id": "0QA251098453#243394815_13L94682Q1125051Q20",
+            "marketId": "251098453",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
+            },
+            "trueOdds": 2.05,
+            "points": 2.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "50823",
+                    "name": "Kelsey Mitchell",
+                    "type": "Player",
+                    "seoIdentifier": "Kelsey Mitchell",
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA251098453#243394816_15L94682Q1125051Q20",
+            "marketId": "251098453",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−140",
+                "decimal": "1.71",
+                "fractional": "5/7"
+            },
+            "trueOdds": 1.71428572,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "50823",
+                    "name": "Kelsey Mitchell",
+                    "type": "Player",
+                    "seoIdentifier": "Kelsey Mitchell",
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA251098447#243394789_13L94682Q1162434Q20",
+            "marketId": "251098447",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
+            },
+            "trueOdds": 2.1,
+            "points": 3.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "639191",
+                    "name": "Rhyne Howard",
+                    "type": "Player",
+                    "seoIdentifier": "Rhyne Howard",
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 3500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA251098458#243394842_13L94682Q1179975Q20",
+            "marketId": "251098458",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 3.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "786494",
+                    "name": "Caitlin Clark",
+                    "type": "Player",
+                    "seoIdentifier": "Caitlin Clark",
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 3500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA251098447#243394790_15L94682Q1162434Q20",
+            "marketId": "251098447",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−150",
+                "decimal": "1.66",
+                "fractional": "4/6"
+            },
+            "trueOdds": 1.66666667,
+            "points": 3.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "639191",
+                    "name": "Rhyne Howard",
+                    "type": "Player",
+                    "seoIdentifier": "Rhyne Howard",
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 3502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA251098458#243394843_15L94682Q1179975Q20",
+            "marketId": "251098458",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 3.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "786494",
+                    "name": "Caitlin Clark",
+                    "type": "Player",
+                    "seoIdentifier": "Caitlin Clark",
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 3502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        }
+    ],
     "categories": [
         {
             "id": 487,
@@ -145,11 +486,6 @@
             "sortOrder": 39
         },
         {
-            "id": 1784,
-            "name": "Player Stats",
-            "sortOrder": 147
-        },
-        {
             "id": 1806,
             "name": "Team First Win",
             "sortOrder": 151
@@ -178,14 +514,6 @@
             "name": "Valkyries First Win",
             "componentId": 29,
             "sortOrder": 17736,
-            "tags": []
-        },
-        {
-            "id": 17513,
-            "categoryId": 1784,
-            "name": "Stat Leaders",
-            "componentId": 29,
-            "sortOrder": 17470,
             "tags": []
         },
         {
@@ -323,16 +651,6 @@
             ]
         },
         {
-            "id": 12495,
-            "categoryId": 1217,
-            "name": "Assists O/U",
-            "componentId": 8,
-            "sortOrder": 12458,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
             "id": 12949,
             "categoryId": 1157,
             "name": "1st Team FG - Player",
@@ -427,44 +745,11 @@
             ]
         },
         {
-            "id": 16478,
-            "categoryId": 1217,
-            "name": "Assists",
-            "componentId": 331,
-            "sortOrder": 12457,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
             "id": 16479,
             "categoryId": 1216,
             "name": "Rebounds",
             "componentId": 331,
             "sortOrder": 12454,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 16480,
-            "categoryId": 1218,
-            "name": "Threes",
-            "componentId": 331,
-            "sortOrder": 12459,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 16483,
-            "categoryId": 583,
-            "name": "Pts + Reb + Ast",
-            "componentId": 331,
-            "sortOrder": 4927,
             "tags": [
                 "Featured",
                 "SGP"
@@ -672,6 +957,69 @@
             "componentId": 29,
             "sortOrder": 10036,
             "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 12495,
+            "categoryId": 1217,
+            "name": "Assists O/U",
+            "componentId": 8,
+            "sortOrder": 12458,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 12497,
+            "categoryId": 1218,
+            "name": "Threes O/U",
+            "componentId": 8,
+            "sortOrder": 12477,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 13759,
+            "categoryId": 583,
+            "name": "Triple-Double",
+            "componentId": 204,
+            "sortOrder": 4987,
+            "tags": [
+                "Featured"
+            ]
+        },
+        {
+            "id": 16478,
+            "categoryId": 1217,
+            "name": "Assists",
+            "componentId": 331,
+            "sortOrder": 12457,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16480,
+            "categoryId": 1218,
+            "name": "Threes",
+            "componentId": 331,
+            "sortOrder": 12459,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16483,
+            "categoryId": 583,
+            "name": "Pts + Reb + Ast",
+            "componentId": 331,
+            "sortOrder": 4927,
+            "tags": [
+                "Featured",
                 "SGP"
             ]
         },
