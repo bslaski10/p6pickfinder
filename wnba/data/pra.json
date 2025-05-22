@@ -1,10 +1,7 @@
 {
     "sports": [
         {
-            "id": "2",
-            "seoIdentifier": "Basketball",
-            "name": "Basketball",
-            "sortOrder": 59
+            "id": "2"
         }
     ],
     "leagues": [
@@ -43,257 +40,9 @@
             ]
         }
     ],
-    "events": [
-        {
-            "id": "32321760",
-            "seoIdentifier": "DAL Wings @ MIN Lynx",
-            "sportId": "2",
-            "leagueId": "94682",
-            "name": "DAL Wings @ MIN Lynx",
-            "startEventDate": "2025-05-22T00:00:00.0000000Z",
-            "participants": [
-                {
-                    "id": "36133",
-                    "name": "MIN Lynx",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "1295",
-                        "rosettaTeamId": "36133",
-                        "rosettaTeamName": "Lynx",
-                        "shortName": "MIN"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Lynx"
-                },
-                {
-                    "id": "36122",
-                    "name": "DAL Wings",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "1294",
-                        "rosettaTeamId": "36122",
-                        "rosettaTeamName": "Wings",
-                        "shortName": "DAL"
-                    },
-                    "sortOrder": 1,
-                    "seoIdentifier": "Wings"
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "eventScorecard": {
-                "scorecardComponentId": 1
-            },
-            "media": [
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "56327903",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "56327903",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "56327903",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                }
-            ],
-            "tags": [
-                "FeaturedSubcategory",
-                "MatchTracker",
-                "PrePack",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "676",
-                "numberOfParts": "4",
-                "secondsInOnePart": "600"
-            },
-            "sortOrder": 230688060,
-            "subscriptionKey": "league-events-94682"
-        }
-    ],
-    "markets": [
-        {
-            "id": "251327081",
-            "eventId": "32321760",
-            "sportId": "2",
-            "leagueId": "94682",
-            "name": "Courtney Williams Points + Rebounds + Assists O/U",
-            "subcategoryId": 5001,
-            "marketType": {
-                "id": "4025",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds + Assists O/U"
-            },
-            "subscriptionKey": "league-events-94682",
-            "sortOrder": 1,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251327212",
-            "eventId": "32321760",
-            "sportId": "2",
-            "leagueId": "94682",
-            "name": "Paige Bueckers Points + Rebounds + Assists O/U",
-            "subcategoryId": 5001,
-            "marketType": {
-                "id": "4025",
-                "betOfferTypeId": 0,
-                "name": "Points + Rebounds + Assists O/U"
-            },
-            "subscriptionKey": "league-events-94682",
-            "sortOrder": 2,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "dynamicMetadata": {}
-        }
-    ],
-    "selections": [
-        {
-            "id": "0QA251327081#244259786_13L94682Q1162529Q20",
-            "marketId": "251327081",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
-            },
-            "trueOdds": 1.74074075,
-            "points": 25.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "50799",
-                    "name": "Courtney Williams",
-                    "type": "Player",
-                    "seoIdentifier": "Courtney Williams",
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 25500,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251327212#244421332_13L94682Q1178528Q20",
-            "marketId": "251327212",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
-            },
-            "trueOdds": 2,
-            "points": 25.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "890739",
-                    "name": "Paige Bueckers",
-                    "type": "Player",
-                    "seoIdentifier": "Paige Bueckers",
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 25500,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251327081#244259787_15L94682Q1162529Q20",
-            "marketId": "251327081",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
-            },
-            "trueOdds": 2.05,
-            "points": 25.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "50799",
-                    "name": "Courtney Williams",
-                    "type": "Player",
-                    "seoIdentifier": "Courtney Williams",
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 25502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251327212#244421333_15L94682Q1178528Q20",
-            "marketId": "251327212",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−130",
-                "decimal": "1.76",
-                "fractional": "10/13"
-            },
-            "trueOdds": 1.76923077,
-            "points": 25.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "890739",
-                    "name": "Paige Bueckers",
-                    "type": "Player",
-                    "seoIdentifier": "Paige Bueckers",
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 25502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        }
-    ],
+    "events": [],
+    "markets": [],
+    "selections": [],
     "categories": [
         {
             "id": 487,
@@ -394,11 +143,6 @@
             "id": 1659,
             "name": "Player Averages",
             "sortOrder": 39
-        },
-        {
-            "id": 1806,
-            "name": "Team First Win",
-            "sortOrder": 151
         }
     ],
     "subcategories": [
@@ -416,14 +160,6 @@
             "name": "Regular Season Wins",
             "componentId": 29,
             "sortOrder": 9742,
-            "tags": []
-        },
-        {
-            "id": 17779,
-            "categoryId": 1806,
-            "name": "Valkyries First Win",
-            "componentId": 29,
-            "sortOrder": 17736,
             "tags": []
         },
         {
@@ -571,6 +307,16 @@
             ]
         },
         {
+            "id": 12497,
+            "categoryId": 1218,
+            "name": "Threes O/U",
+            "componentId": 8,
+            "sortOrder": 12477,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 13201,
             "categoryId": 487,
             "name": "Alternate Total",
@@ -597,6 +343,16 @@
             "componentId": 29,
             "sortOrder": 5779,
             "tags": []
+        },
+        {
+            "id": 13759,
+            "categoryId": 583,
+            "name": "Triple-Double",
+            "componentId": 204,
+            "sortOrder": 4987,
+            "tags": [
+                "Featured"
+            ]
         },
         {
             "id": 13762,
@@ -688,6 +444,22 @@
                 "Featured",
                 "SGP"
             ]
+        },
+        {
+            "id": 16481,
+            "categoryId": 583,
+            "name": "Pts + Ast",
+            "componentId": 331,
+            "sortOrder": 5007,
+            "tags": []
+        },
+        {
+            "id": 16482,
+            "categoryId": 583,
+            "name": "Pts + Reb",
+            "componentId": 331,
+            "sortOrder": 4995,
+            "tags": []
         },
         {
             "id": 16483,
@@ -840,14 +612,6 @@
             "tags": []
         },
         {
-            "id": 5001,
-            "categoryId": 583,
-            "name": "Pts + Reb + Ast O/U",
-            "componentId": 8,
-            "sortOrder": 5396,
-            "tags": []
-        },
-        {
             "id": 5723,
             "categoryId": 521,
             "name": "Winning Margin",
@@ -903,26 +667,6 @@
             "sortOrder": 10036,
             "tags": [
                 "SGP"
-            ]
-        },
-        {
-            "id": 12497,
-            "categoryId": 1218,
-            "name": "Threes O/U",
-            "componentId": 8,
-            "sortOrder": 12477,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 13759,
-            "categoryId": 583,
-            "name": "Triple-Double",
-            "componentId": 204,
-            "sortOrder": 4987,
-            "tags": [
-                "Featured"
             ]
         },
         {
