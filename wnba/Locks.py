@@ -1,6 +1,7 @@
 import json
 import time
 from datetime import datetime
+import pytz
 
 def update_progress(value, message):
     progress = {"progress": value, "message": message}
@@ -8,16 +9,16 @@ def update_progress(value, message):
         json.dump(progress, f)
 
 def log_execution_time():
-    execution_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    time_data = {"execution_time": execution_time}
+    # Convert current time to Eastern Time
+    eastern = pytz.timezone("US/Eastern")
+    now_eastern = datetime.now(eastern).strftime("%Y-%m-%d %H:%M:%S")
+    time_data = {"execution_time": now_eastern}
     with open("wnba/time.json", "w") as f:
         json.dump(time_data, f)
 
 # Stage 1: Fetching DK Data (ScrapeDK and Fetch)
 update_progress(0, "Fetching DK Data")
-# Run ScrapeDK
 import ScrapeDK
-# Run Fetch
 import Fetch
 update_progress(30, "Fetching DK Data complete")
 
@@ -32,7 +33,7 @@ import Selection
 import Picks
 update_progress(99, "Getting Locks complete")
 
-# Log execution time
+# Log execution time in Eastern Time
 log_execution_time()
 
 # Final update
