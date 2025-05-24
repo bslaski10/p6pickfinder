@@ -4,7 +4,7 @@
             "id": "8",
             "seoIdentifier": "Hockey",
             "name": "Hockey",
-            "sortOrder": 58
+            "sortOrder": 61
         }
     ],
     "leagues": [
@@ -44,91 +44,6 @@
         }
     ],
     "events": [
-        {
-            "id": "32320528",
-            "seoIdentifier": "EDM Oilers @ DAL Stars",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "EDM Oilers @ DAL Stars",
-            "startEventDate": "2025-05-24T00:10:00.0000000Z",
-            "participants": [
-                {
-                    "id": "35724",
-                    "name": "DAL Stars",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "405",
-                        "rosettaTeamId": "35724",
-                        "rosettaTeamName": "Stars",
-                        "shortName": "DAL",
-                        "teamColor": "#006847"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Stars"
-                },
-                {
-                    "id": "35730",
-                    "name": "EDM Oilers",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "404",
-                        "rosettaTeamId": "35730",
-                        "rosettaTeamName": "Oilers",
-                        "shortName": "EDM",
-                        "teamColor": "#041e42"
-                    },
-                    "sortOrder": 1,
-                    "seoIdentifier": "Oilers"
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "eventScorecard": {
-                "scorecardComponentId": 1
-            },
-            "media": [
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "59907340",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "59907340",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "59907340",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                }
-            ],
-            "tags": [
-                "FeaturedSubcategory",
-                "MatchTracker",
-                "PrePack",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "459",
-                "numberOfParts": "3",
-                "secondsInOnePart": "1200"
-            },
-            "sortOrder": 230977028,
-            "subscriptionKey": "league-events-42133"
-        },
         {
             "id": "32329261",
             "seoIdentifier": "CAR Hurricanes @ FLA Panthers",
@@ -213,59 +128,94 @@
             },
             "sortOrder": 231121061,
             "subscriptionKey": "league-events-42133"
+        },
+        {
+            "id": "32336435",
+            "seoIdentifier": "DAL Stars @ EDM Oilers",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "DAL Stars @ EDM Oilers",
+            "startEventDate": "2025-05-25T19:10:00.0000000Z",
+            "participants": [
+                {
+                    "id": "35730",
+                    "name": "EDM Oilers",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "401",
+                        "rosettaTeamId": "35730",
+                        "rosettaTeamName": "Oilers",
+                        "shortName": "EDM",
+                        "teamColor": "#041e42"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Oilers"
+                },
+                {
+                    "id": "35724",
+                    "name": "DAL Stars",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "400",
+                        "rosettaTeamId": "35724",
+                        "rosettaTeamName": "Stars",
+                        "shortName": "DAL",
+                        "teamColor": "#006847"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Stars"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "NOT_STARTED",
+            "eventScorecard": {
+                "scorecardComponentId": 1
+            },
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "59907354",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "59907354",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "59907354",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "MatchTracker",
+                "PrePack",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "459",
+                "numberOfParts": "3",
+                "secondsInOnePart": "1200"
+            },
+            "sortOrder": 231235035,
+            "subscriptionKey": "league-events-42133"
         }
     ],
     "markets": [
-        {
-            "id": "251620225",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Jake Oettinger Saves",
-            "subcategoryId": 16550,
-            "marketType": {
-                "id": "13010",
-                "betOfferTypeId": 0,
-                "name": "Goaltender Saves"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 1,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|13010|2:105616",
-            "blurbId": "adf46aa9-994f-4db1-883d-6b8a690a26c9",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620259",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Stuart Skinner Saves",
-            "subcategoryId": 16550,
-            "marketType": {
-                "id": "13010",
-                "betOfferTypeId": 0,
-                "name": "Goaltender Saves"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 4,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|13010|2:104988",
-            "blurbId": "adf46aa9-994f-4db1-883d-6b8a690a26c9",
-            "dynamicMetadata": {}
-        },
         {
             "id": "251931619",
             "eventId": "32329261",
@@ -292,11 +242,11 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "251861637",
+            "id": "252109511",
             "eventId": "32329261",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Frederik Andersen Saves",
+            "name": "Pyotr Kochetkov Saves",
             "subcategoryId": 16550,
             "marketType": {
                 "id": "13010",
@@ -312,22 +262,72 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32329261|13010|2:58702",
+            "correlatedId": "32329261|13010|2:152496",
+            "blurbId": "adf46aa9-994f-4db1-883d-6b8a690a26c9",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054854",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Jake Oettinger Saves",
+            "subcategoryId": 16550,
+            "marketType": {
+                "id": "13010",
+                "betOfferTypeId": 0,
+                "name": "Goaltender Saves"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 1,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|13010|2:105616",
+            "blurbId": "adf46aa9-994f-4db1-883d-6b8a690a26c9",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054872",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Stuart Skinner Saves",
+            "subcategoryId": 16550,
+            "marketType": {
+                "id": "13010",
+                "betOfferTypeId": 0,
+                "name": "Goaltender Saves"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 4,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|13010|2:104988",
             "blurbId": "adf46aa9-994f-4db1-883d-6b8a690a26c9",
             "dynamicMetadata": {}
         }
     ],
     "selections": [
         {
-            "id": "0QA251620259#245284459_13L42133Q1782159279Q20",
-            "marketId": "251620259",
+            "id": "0QA252054872#247041672_13L42133Q1782159279Q20",
+            "marketId": "252054872",
             "label": "Over",
             "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
             },
-            "trueOdds": 1.74074075,
+            "trueOdds": 1.76923077,
             "points": 22.5,
             "outcomeType": "Over",
             "participants": [
@@ -336,7 +336,7 @@
                     "name": "Stuart Skinner",
                     "type": "Player",
                     "seoIdentifier": "Stuart Skinner",
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 22500,
@@ -348,15 +348,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620259#245284460_15L42133Q1-280721736Q20",
-            "marketId": "251620259",
+            "id": "0QA252054872#247041673_15L42133Q1-280721736Q20",
+            "marketId": "252054872",
             "label": "Under",
             "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 2.05,
+            "trueOdds": 2,
             "points": 22.5,
             "outcomeType": "Under",
             "participants": [
@@ -365,7 +365,7 @@
                     "name": "Stuart Skinner",
                     "type": "Player",
                     "seoIdentifier": "Stuart Skinner",
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 22502,
@@ -377,23 +377,23 @@
             "metadata": {}
         },
         {
-            "id": "0QA251861637#246199944_13L42133Q11203345555Q20",
-            "marketId": "251861637",
+            "id": "0QA252109511#247252187_13L42133Q11203345555Q20",
+            "marketId": "252109511",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.8,
             "points": 23.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "35167",
-                    "name": "Frederik Andersen",
+                    "id": "560767",
+                    "name": "Pyotr Kochetkov",
                     "type": "Player",
-                    "seoIdentifier": "Frederik Andersen",
+                    "seoIdentifier": "Pyotr Kochetkov",
                     "venueRole": "AwayPlayer"
                 }
             ],
@@ -406,23 +406,23 @@
             "metadata": {}
         },
         {
-            "id": "0QA251861637#246199945_15L42133Q1841240662Q20",
-            "marketId": "251861637",
+            "id": "0QA252109511#247252188_15L42133Q1841240662Q20",
+            "marketId": "252109511",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.95238096,
             "points": 23.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "35167",
-                    "name": "Frederik Andersen",
+                    "id": "560767",
+                    "name": "Pyotr Kochetkov",
                     "type": "Player",
-                    "seoIdentifier": "Frederik Andersen",
+                    "seoIdentifier": "Pyotr Kochetkov",
                     "venueRole": "AwayPlayer"
                 }
             ],
@@ -439,11 +439,11 @@
             "marketId": "251931619",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−148",
+                "decimal": "1.67",
+                "fractional": "25/37"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.67567568,
             "points": 24.5,
             "outcomeType": "Over",
             "participants": [
@@ -468,11 +468,11 @@
             "marketId": "251931619",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "+115",
+                "decimal": "2.15",
+                "fractional": "23/20"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 2.15,
             "points": 24.5,
             "outcomeType": "Under",
             "participants": [
@@ -493,15 +493,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620225#245284376_13L42133Q1-2000222505Q20",
-            "marketId": "251620225",
+            "id": "0QA252054854#247041616_13L42133Q1-2000222505Q20",
+            "marketId": "252054854",
             "label": "Over",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.76923077,
             "points": 27.5,
             "outcomeType": "Over",
             "participants": [
@@ -510,7 +510,7 @@
                     "name": "Jake Oettinger",
                     "type": "Player",
                     "seoIdentifier": "Jake Oettinger",
-                    "venueRole": "HomePlayer"
+                    "venueRole": "AwayPlayer"
                 }
             ],
             "sortOrder": 27500,
@@ -522,15 +522,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620225#245284377_15L42133Q1-1830637469Q20",
-            "marketId": "251620225",
+            "id": "0QA252054854#247041617_15L42133Q1-1830637469Q20",
+            "marketId": "252054854",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 2,
             "points": 27.5,
             "outcomeType": "Under",
             "participants": [
@@ -539,7 +539,7 @@
                     "name": "Jake Oettinger",
                     "type": "Player",
                     "seoIdentifier": "Jake Oettinger",
-                    "venueRole": "HomePlayer"
+                    "venueRole": "AwayPlayer"
                 }
             ],
             "sortOrder": 27502,
@@ -613,6 +613,11 @@
             ]
         },
         {
+            "id": 1724,
+            "name": "Time on Ice",
+            "sortOrder": 14
+        },
+        {
             "id": 1679,
             "name": "Blocks",
             "sortOrder": 16,
@@ -680,14 +685,6 @@
             "name": "Champion",
             "componentId": 29,
             "sortOrder": 4748,
-            "tags": []
-        },
-        {
-            "id": 17942,
-            "categoryId": 552,
-            "name": "Exact Result",
-            "componentId": 29,
-            "sortOrder": 17899,
             "tags": []
         },
         {
@@ -1046,6 +1043,14 @@
             "tags": []
         },
         {
+            "id": 16874,
+            "categoryId": 1724,
+            "name": "Player Time on Ice",
+            "componentId": 29,
+            "sortOrder": 16831,
+            "tags": []
+        },
+        {
             "id": 17003,
             "categoryId": 1190,
             "name": "Either Player Goalscorer",
@@ -1303,6 +1308,14 @@
             "tags": []
         },
         {
+            "id": 17810,
+            "categoryId": 1808,
+            "name": "Any Game 10+ Goals",
+            "componentId": 29,
+            "sortOrder": 17767,
+            "tags": []
+        },
+        {
             "id": 17809,
             "categoryId": 1808,
             "name": "Overtime Props",
@@ -1348,14 +1361,6 @@
             "name": "Series Points O/U",
             "componentId": 29,
             "sortOrder": 10,
-            "tags": []
-        },
-        {
-            "id": 17919,
-            "categoryId": 1807,
-            "name": "X+ Goals in Every Game of Series",
-            "componentId": 29,
-            "sortOrder": 4,
             "tags": []
         },
         {
@@ -1420,6 +1425,14 @@
             "name": "Conn Smythe Trophy",
             "componentId": 29,
             "sortOrder": 0,
+            "tags": []
+        },
+        {
+            "id": 17919,
+            "categoryId": 1807,
+            "name": "X+ Goals in Every Game of Series",
+            "componentId": 29,
+            "sortOrder": 4,
             "tags": []
         },
         {
