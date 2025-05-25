@@ -4,7 +4,7 @@
             "id": "8",
             "seoIdentifier": "Hockey",
             "name": "Hockey",
-            "sortOrder": 58
+            "sortOrder": 61
         }
     ],
     "leagues": [
@@ -44,91 +44,6 @@
         }
     ],
     "events": [
-        {
-            "id": "32320528",
-            "seoIdentifier": "EDM Oilers @ DAL Stars",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "EDM Oilers @ DAL Stars",
-            "startEventDate": "2025-05-24T00:10:00.0000000Z",
-            "participants": [
-                {
-                    "id": "35724",
-                    "name": "DAL Stars",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "405",
-                        "rosettaTeamId": "35724",
-                        "rosettaTeamName": "Stars",
-                        "shortName": "DAL",
-                        "teamColor": "#006847"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Stars"
-                },
-                {
-                    "id": "35730",
-                    "name": "EDM Oilers",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "404",
-                        "rosettaTeamId": "35730",
-                        "rosettaTeamName": "Oilers",
-                        "shortName": "EDM",
-                        "teamColor": "#041e42"
-                    },
-                    "sortOrder": 1,
-                    "seoIdentifier": "Oilers"
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "eventScorecard": {
-                "scorecardComponentId": 1
-            },
-            "media": [
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "59907340",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "59907340",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "59907340",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                }
-            ],
-            "tags": [
-                "FeaturedSubcategory",
-                "MatchTracker",
-                "PrePack",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "459",
-                "numberOfParts": "3",
-                "secondsInOnePart": "1200"
-            },
-            "sortOrder": 230977028,
-            "subscriptionKey": "league-events-42133"
-        },
         {
             "id": "32329261",
             "seoIdentifier": "CAR Hurricanes @ FLA Panthers",
@@ -213,441 +128,94 @@
             },
             "sortOrder": 231121061,
             "subscriptionKey": "league-events-42133"
+        },
+        {
+            "id": "32336435",
+            "seoIdentifier": "DAL Stars @ EDM Oilers",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "DAL Stars @ EDM Oilers",
+            "startEventDate": "2025-05-25T19:10:00.0000000Z",
+            "participants": [
+                {
+                    "id": "35730",
+                    "name": "EDM Oilers",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "401",
+                        "rosettaTeamId": "35730",
+                        "rosettaTeamName": "Oilers",
+                        "shortName": "EDM",
+                        "teamColor": "#041e42"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Oilers"
+                },
+                {
+                    "id": "35724",
+                    "name": "DAL Stars",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "400",
+                        "rosettaTeamId": "35724",
+                        "rosettaTeamName": "Stars",
+                        "shortName": "DAL",
+                        "teamColor": "#006847"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Stars"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "NOT_STARTED",
+            "eventScorecard": {
+                "scorecardComponentId": 1
+            },
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "59907354",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "59907354",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "59907354",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "MatchTracker",
+                "PrePack",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "459",
+                "numberOfParts": "3",
+                "secondsInOnePart": "1200"
+            },
+            "sortOrder": 231235035,
+            "subscriptionKey": "league-events-42133"
         }
     ],
     "markets": [
-        {
-            "id": "251620517",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Connor McDavid Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 1,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:55567",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620537",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Leon Draisaitl Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 2,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:55568",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620269",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Mikko Rantanen Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 3,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:55543",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620454",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Evan Bouchard Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 7,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:102592",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620306",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Zach Hyman Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 10,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:58700",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620321",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Evander Kane Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 11,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:55652",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620363",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Ryan Nugent-Hopkins Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 13,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:55570",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620366",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Darnell Nurse Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 14,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:59162",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620385",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Wyatt Johnston Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 15,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:125988",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620522",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Roope Hintz Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 16,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:55558",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620483",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Tyler Seguin Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 18,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:55553",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620446",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Jason Robertson Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 19,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:105620",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620251",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Miro Heiskanen Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 20,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:55559",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620467",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Thomas Harley Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 22,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:105599",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620300",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Jake Walman Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 24,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:105176",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620226",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Mason Marchment Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 27,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:105288",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620468",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Mikael Granlund Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 29,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:55605",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251620220",
-            "eventId": "32320528",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Matt Duchene Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 33,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32320528|12422|2:55600",
-            "dynamicMetadata": {}
-        },
         {
             "id": "251859402",
             "eventId": "32329261",
@@ -661,7 +229,7 @@
                 "name": "Player Shots on Goal O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 4,
+            "sortOrder": 3,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -685,7 +253,7 @@
                 "name": "Player Shots on Goal O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 5,
+            "sortOrder": 6,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -709,7 +277,7 @@
                 "name": "Player Shots on Goal O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 6,
+            "sortOrder": 7,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -733,7 +301,7 @@
                 "name": "Player Shots on Goal O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 8,
+            "sortOrder": 10,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -757,7 +325,7 @@
                 "name": "Player Shots on Goal O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 9,
+            "sortOrder": 11,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -805,7 +373,7 @@
                 "name": "Player Shots on Goal O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 17,
+            "sortOrder": 16,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -814,30 +382,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "32329261|12422|2:55573",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251859415",
-            "eventId": "32329261",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Aaron Ekblad Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 21,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32329261|12422|2:55577",
             "dynamicMetadata": {}
         },
         {
@@ -853,7 +397,7 @@
                 "name": "Player Shots on Goal O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 23,
+            "sortOrder": 19,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -862,6 +406,54 @@
                 "PlayerProps"
             ],
             "correlatedId": "32329261|12422|2:58988",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "251859415",
+            "eventId": "32329261",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Aaron Ekblad Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 23,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32329261|12422|2:55577",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "251859378",
+            "eventId": "32329261",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Anton Lundell Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 24,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32329261|12422|2:120319",
             "dynamicMetadata": {}
         },
         {
@@ -889,30 +481,6 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "251859378",
-            "eventId": "32329261",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Anton Lundell Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 26,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32329261|12422|2:120319",
-            "dynamicMetadata": {}
-        },
-        {
             "id": "251959519",
             "eventId": "32329261",
             "sportId": "8",
@@ -925,7 +493,7 @@
                 "name": "Player Shots on Goal O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 28,
+            "sortOrder": 26,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -949,7 +517,7 @@
                 "name": "Player Shots on Goal O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 30,
+            "sortOrder": 27,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -958,6 +526,54 @@
                 "PlayerProps"
             ],
             "correlatedId": "32329261|12422|2:55655",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "251859355",
+            "eventId": "32329261",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Jackson Blake Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 29,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32329261|12422|2:179689",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "251859454",
+            "eventId": "32329261",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Seth Jones Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 30,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32329261|12422|2:55550",
             "dynamicMetadata": {}
         },
         {
@@ -985,54 +601,6 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "251859355",
-            "eventId": "32329261",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Jackson Blake Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 32,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32329261|12422|2:179689",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "251859454",
-            "eventId": "32329261",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Seth Jones Shots on Goal",
-            "subcategoryId": 12040,
-            "marketType": {
-                "id": "12422",
-                "betOfferTypeId": 0,
-                "name": "Player Shots on Goal O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 34,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32329261|12422|2:55550",
-            "dynamicMetadata": {}
-        },
-        {
             "id": "251859443",
             "eventId": "32329261",
             "sportId": "8",
@@ -1045,7 +613,7 @@
                 "name": "Player Shots on Goal O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 35,
+            "sortOrder": 32,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -1069,7 +637,7 @@
                 "name": "Player Shots on Goal O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 36,
+            "sortOrder": 33,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -1093,7 +661,7 @@
                 "name": "Player Shots on Goal O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 37,
+            "sortOrder": 34,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -1103,363 +671,369 @@
             ],
             "correlatedId": "32329261|12422|2:58705",
             "dynamicMetadata": {}
+        },
+        {
+            "id": "252054951",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Connor McDavid Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 1,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:55567",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054921",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Leon Draisaitl Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 2,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:55568",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054933",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Mikko Rantanen Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 4,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:55543",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054893",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Evan Bouchard Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 5,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:102592",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054885",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Zach Hyman Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 8,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:58700",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054861",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Evander Kane Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 9,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:55652",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054900",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Ryan Nugent-Hopkins Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 13,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:55570",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054966",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Darnell Nurse Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 14,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:59162",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054871",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Wyatt Johnston Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 15,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:125988",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054911",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Jake Walman Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 17,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:105176",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054851",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Jason Robertson Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 18,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:105620",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054961",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Miro Heiskanen Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 20,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:55559",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054944",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Thomas Harley Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 21,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:105599",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054935",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Tyler Seguin Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 22,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:55553",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252054922",
+            "eventId": "32336435",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Mikael Granlund Shots on Goal",
+            "subcategoryId": 12040,
+            "marketType": {
+                "id": "12422",
+                "betOfferTypeId": 0,
+                "name": "Player Shots on Goal O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 28,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32336435|12422|2:55605",
+            "dynamicMetadata": {}
         }
     ],
     "selections": [
-        {
-            "id": "0QA251620220#245284358_13L42133Q1-568193998Q20",
-            "marketId": "251620220",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
-            },
-            "trueOdds": 1.95238096,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35268",
-                    "name": "Matt Duchene",
-                    "type": "Player",
-                    "seoIdentifier": "Matt Duchene",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1.8
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620226#245284381_13L42133Q1-568193998Q20",
-            "marketId": "251620226",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
-            },
-            "trueOdds": 1.74074075,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "62110",
-                    "name": "Mason Marchment",
-                    "type": "Player",
-                    "seoIdentifier": "Mason Marchment",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.1
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620251#245284425_13L42133Q1-568193998Q20",
-            "marketId": "251620251",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−162",
-                "decimal": "1.61",
-                "fractional": "50/81"
-            },
-            "trueOdds": 1.61728396,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35756",
-                    "name": "Miro Heiskanen",
-                    "type": "Player",
-                    "seoIdentifier": "Miro Heiskanen",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.1
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620300#245284560_13L42133Q1-568193998Q20",
-            "marketId": "251620300",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−142",
-                "decimal": "1.70",
-                "fractional": "50/71"
-            },
-            "trueOdds": 1.70422536,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35009",
-                    "name": "Jake Walman",
-                    "type": "Player",
-                    "seoIdentifier": "Jake Walman",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.4
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620366#245284732_13L42133Q1-568193998Q20",
-            "marketId": "251620366",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−188",
-                "decimal": "1.53",
-                "fractional": "25/47"
-            },
-            "trueOdds": 1.5319149,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "34664",
-                    "name": "Darnell Nurse",
-                    "type": "Player",
-                    "seoIdentifier": "Darnell Nurse",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.5
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620385#245284796_13L42133Q1-568193998Q20",
-            "marketId": "251620385",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−188",
-                "decimal": "1.53",
-                "fractional": "25/47"
-            },
-            "trueOdds": 1.5319149,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "604777",
-                    "name": "Wyatt Johnston",
-                    "type": "Player",
-                    "seoIdentifier": "Wyatt Johnston",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.4
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine",
-                "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620446#245284959_13L42133Q1-568193998Q20",
-            "marketId": "251620446",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−162",
-                "decimal": "1.61",
-                "fractional": "50/81"
-            },
-            "trueOdds": 1.61728396,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35817",
-                    "name": "Jason Robertson",
-                    "type": "Player",
-                    "seoIdentifier": "Jason Robertson",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.5
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620467#245285029_13L42133Q1-568193998Q20",
-            "marketId": "251620467",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−154",
-                "decimal": "1.64",
-                "fractional": "50/77"
-            },
-            "trueOdds": 1.64935065,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35750",
-                    "name": "Thomas Harley",
-                    "type": "Player",
-                    "seoIdentifier": "Thomas Harley",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.1
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620468#245285009_13L42133Q1-568193998Q20",
-            "marketId": "251620468",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35289",
-                    "name": "Mikael Granlund",
-                    "type": "Player",
-                    "seoIdentifier": "Mikael Granlund",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620483#245285062_13L42133Q1-568193998Q20",
-            "marketId": "251620483",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−168",
-                "decimal": "1.59",
-                "fractional": "25/42"
-            },
-            "trueOdds": 1.5952381,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35819",
-                    "name": "Tyler Seguin",
-                    "type": "Player",
-                    "seoIdentifier": "Tyler Seguin",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620522#245285166_13L42133Q1-568193998Q20",
-            "marketId": "251620522",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−182",
-                "decimal": "1.54",
-                "fractional": "50/91"
-            },
-            "trueOdds": 1.54945055,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35759",
-                    "name": "Roope Hintz",
-                    "type": "Player",
-                    "seoIdentifier": "Roope Hintz",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.1
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
         {
             "id": "0QA251859355#246192839_13L42133Q1-568193998Q20",
             "marketId": "251859355",
@@ -1497,11 +1071,11 @@
             "marketId": "251859368",
             "label": "Over",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.86956522,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -1529,11 +1103,11 @@
             "marketId": "251859378",
             "label": "Over",
             "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
+                "american": "−142",
+                "decimal": "1.70",
+                "fractional": "50/71"
             },
-            "trueOdds": 1.74074075,
+            "trueOdds": 1.70422536,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -1593,11 +1167,11 @@
             "marketId": "251859411",
             "label": "Over",
             "displayOdds": {
-                "american": "−175",
-                "decimal": "1.57",
-                "fractional": "4/7"
+                "american": "−168",
+                "decimal": "1.59",
+                "fractional": "25/42"
             },
-            "trueOdds": 1.57142858,
+            "trueOdds": 1.5952381,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -1625,11 +1199,11 @@
             "marketId": "251859415",
             "label": "Over",
             "displayOdds": {
-                "american": "−154",
-                "decimal": "1.64",
-                "fractional": "50/77"
+                "american": "−142",
+                "decimal": "1.70",
+                "fractional": "50/71"
             },
-            "trueOdds": 1.64935065,
+            "trueOdds": 1.70422536,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -1689,11 +1263,11 @@
             "marketId": "251859443",
             "label": "Over",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
             },
-            "trueOdds": 2,
+            "trueOdds": 2.05,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -1817,11 +1391,11 @@
             "marketId": "251977644",
             "label": "Over",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 2.05,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -1877,210 +1451,17 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620220#245284360_15L42133Q1-1244548659Q20",
-            "marketId": "251620220",
-            "label": "Under",
+            "id": "0QA252054851#247041612_13L42133Q1-568193998Q20",
+            "marketId": "252054851",
+            "label": "Over",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−154",
+                "decimal": "1.64",
+                "fractional": "50/77"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.64935065,
             "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35268",
-                    "name": "Matt Duchene",
-                    "type": "Player",
-                    "seoIdentifier": "Matt Duchene",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1.8
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620226#245284382_15L42133Q1-1244548659Q20",
-            "marketId": "251620226",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
-            },
-            "trueOdds": 2.05,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "62110",
-                    "name": "Mason Marchment",
-                    "type": "Player",
-                    "seoIdentifier": "Mason Marchment",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.1
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620251#245284427_15L42133Q1-1244548659Q20",
-            "marketId": "251620251",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+126",
-                "decimal": "2.26",
-                "fractional": "63/50"
-            },
-            "trueOdds": 2.26,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35756",
-                    "name": "Miro Heiskanen",
-                    "type": "Player",
-                    "seoIdentifier": "Miro Heiskanen",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.1
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620300#245284561_15L42133Q1-1244548659Q20",
-            "marketId": "251620300",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+110",
-                "decimal": "2.10",
-                "fractional": "11/10"
-            },
-            "trueOdds": 2.1,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35009",
-                    "name": "Jake Walman",
-                    "type": "Player",
-                    "seoIdentifier": "Jake Walman",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.4
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620366#245284736_15L42133Q1-1244548659Q20",
-            "marketId": "251620366",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+145",
-                "decimal": "2.45",
-                "fractional": "29/20"
-            },
-            "trueOdds": 2.45,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "34664",
-                    "name": "Darnell Nurse",
-                    "type": "Player",
-                    "seoIdentifier": "Darnell Nurse",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.5
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620385#245284797_15L42133Q1-1244548659Q20",
-            "marketId": "251620385",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+145",
-                "decimal": "2.45",
-                "fractional": "29/20"
-            },
-            "trueOdds": 2.45,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "604777",
-                    "name": "Wyatt Johnston",
-                    "type": "Player",
-                    "seoIdentifier": "Wyatt Johnston",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.4
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine",
-                "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620446#245284960_15L42133Q1-1244548659Q20",
-            "marketId": "251620446",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+126",
-                "decimal": "2.26",
-                "fractional": "63/50"
-            },
-            "trueOdds": 2.26,
-            "points": 1.5,
-            "outcomeType": "Under",
+            "outcomeType": "Over",
             "participants": [
                 {
                     "id": "35817",
@@ -2091,42 +1472,76 @@
                         "prefix": "Avg",
                         "value": 2.5
                     },
-                    "venueRole": "HomePlayer"
+                    "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 1502,
+            "sortOrder": 1500,
             "tags": [
-                "MainPointLine"
+                "MainPointLine",
+                "3rdFavorite"
             ],
             "main": true,
             "metadata": {}
         },
         {
-            "id": "0QA251620467#245285030_15L42133Q1-1244548659Q20",
-            "marketId": "251620467",
-            "label": "Under",
+            "id": "0QA252054871#247041669_13L42133Q1-568193998Q20",
+            "marketId": "252054871",
+            "label": "Over",
             "displayOdds": {
-                "american": "+120",
-                "decimal": "2.20",
-                "fractional": "6/5"
+                "american": "−175",
+                "decimal": "1.57",
+                "fractional": "4/7"
             },
-            "trueOdds": 2.2,
+            "trueOdds": 1.57142858,
             "points": 1.5,
-            "outcomeType": "Under",
+            "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "35750",
-                    "name": "Thomas Harley",
+                    "id": "604777",
+                    "name": "Wyatt Johnston",
                     "type": "Player",
-                    "seoIdentifier": "Thomas Harley",
+                    "seoIdentifier": "Wyatt Johnston",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 2.1
+                        "value": 2.4
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054911#247041784_13L42133Q1-568193998Q20",
+            "marketId": "252054911",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−168",
+                "decimal": "1.59",
+                "fractional": "25/42"
+            },
+            "trueOdds": 1.5952381,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35009",
+                    "name": "Jake Walman",
+                    "type": "Player",
+                    "seoIdentifier": "Jake Walman",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2.4
                     },
                     "venueRole": "HomePlayer"
                 }
             ],
-            "sortOrder": 1502,
+            "sortOrder": 1500,
             "tags": [
                 "MainPointLine"
             ],
@@ -2134,9 +1549,9 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620468#245285010_15L42133Q1-1244548659Q20",
-            "marketId": "251620468",
-            "label": "Under",
+            "id": "0QA252054922#247041812_13L42133Q1-568193998Q20",
+            "marketId": "252054922",
+            "label": "Over",
             "displayOdds": {
                 "american": "−115",
                 "decimal": "1.86",
@@ -2144,7 +1559,7 @@
             },
             "trueOdds": 1.86956522,
             "points": 1.5,
-            "outcomeType": "Under",
+            "outcomeType": "Over",
             "participants": [
                 {
                     "id": "35289",
@@ -2155,10 +1570,10 @@
                         "prefix": "Avg",
                         "value": 2
                     },
-                    "venueRole": "HomePlayer"
+                    "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 1502,
+            "sortOrder": 1500,
             "tags": [
                 "MainPointLine"
             ],
@@ -2166,17 +1581,17 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620483#245285063_15L42133Q1-1244548659Q20",
-            "marketId": "251620483",
-            "label": "Under",
+            "id": "0QA252054935#247041861_13L42133Q1-568193998Q20",
+            "marketId": "252054935",
+            "label": "Over",
             "displayOdds": {
-                "american": "+130",
-                "decimal": "2.30",
-                "fractional": "13/10"
+                "american": "−148",
+                "decimal": "1.67",
+                "fractional": "25/37"
             },
-            "trueOdds": 2.3,
+            "trueOdds": 1.67567568,
             "points": 1.5,
-            "outcomeType": "Under",
+            "outcomeType": "Over",
             "participants": [
                 {
                     "id": "35819",
@@ -2185,12 +1600,12 @@
                     "seoIdentifier": "Tyler Seguin",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 2
+                        "value": 1.9
                     },
-                    "venueRole": "HomePlayer"
+                    "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 1502,
+            "sortOrder": 1500,
             "tags": [
                 "MainPointLine"
             ],
@@ -2198,34 +1613,97 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620522#245285167_15L42133Q1-1244548659Q20",
-            "marketId": "251620522",
-            "label": "Under",
+            "id": "0QA252054944#247041879_13L42133Q1-568193998Q20",
+            "marketId": "252054944",
+            "label": "Over",
             "displayOdds": {
-                "american": "+140",
-                "decimal": "2.40",
-                "fractional": "7/5"
+                "american": "−148",
+                "decimal": "1.67",
+                "fractional": "25/37"
             },
-            "trueOdds": 2.4,
+            "trueOdds": 1.67567568,
             "points": 1.5,
-            "outcomeType": "Under",
+            "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "35759",
-                    "name": "Roope Hintz",
+                    "id": "35750",
+                    "name": "Thomas Harley",
                     "type": "Player",
-                    "seoIdentifier": "Roope Hintz",
+                    "seoIdentifier": "Thomas Harley",
                     "statistic": {
                         "prefix": "Avg",
                         "value": 2.1
                     },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054961#247041930_13L42133Q1-568193998Q20",
+            "marketId": "252054961",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−148",
+                "decimal": "1.67",
+                "fractional": "25/37"
+            },
+            "trueOdds": 1.67567568,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35756",
+                    "name": "Miro Heiskanen",
+                    "type": "Player",
+                    "seoIdentifier": "Miro Heiskanen",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2.1
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054966#247041945_13L42133Q1-568193998Q20",
+            "marketId": "252054966",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−198",
+                "decimal": "1.50",
+                "fractional": "50/99"
+            },
+            "trueOdds": 1.50505051,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "34664",
+                    "name": "Darnell Nurse",
+                    "type": "Player",
+                    "seoIdentifier": "Darnell Nurse",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2.4
+                    },
                     "venueRole": "HomePlayer"
                 }
             ],
-            "sortOrder": 1502,
+            "sortOrder": 1500,
             "tags": [
-                "MainPointLine",
-                "3rdFavorite"
+                "MainPointLine"
             ],
             "main": true,
             "metadata": {}
@@ -2267,11 +1745,11 @@
             "marketId": "251859368",
             "label": "Under",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.86956522,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -2299,11 +1777,11 @@
             "marketId": "251859378",
             "label": "Under",
             "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
             },
-            "trueOdds": 2.05,
+            "trueOdds": 2.1,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -2363,11 +1841,11 @@
             "marketId": "251859411",
             "label": "Under",
             "displayOdds": {
-                "american": "+135",
-                "decimal": "2.35",
-                "fractional": "27/20"
+                "american": "+130",
+                "decimal": "2.30",
+                "fractional": "13/10"
             },
-            "trueOdds": 2.35,
+            "trueOdds": 2.3,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -2395,11 +1873,11 @@
             "marketId": "251859415",
             "label": "Under",
             "displayOdds": {
-                "american": "+120",
-                "decimal": "2.20",
-                "fractional": "6/5"
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
             },
-            "trueOdds": 2.2,
+            "trueOdds": 2.1,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -2459,11 +1937,11 @@
             "marketId": "251859443",
             "label": "Under",
             "displayOdds": {
-                "american": "−130",
-                "decimal": "1.76",
-                "fractional": "10/13"
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
             },
-            "trueOdds": 1.76923077,
+            "trueOdds": 1.74074075,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -2587,11 +2065,11 @@
             "marketId": "251977644",
             "label": "Under",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.74074075,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -2647,64 +2125,31 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620269#245284486_13L42133Q11842131994Q20",
-            "marketId": "251620269",
-            "label": "Over",
+            "id": "0QA252054851#247041614_15L42133Q1-1244548659Q20",
+            "marketId": "252054851",
+            "label": "Under",
             "displayOdds": {
-                "american": "−142",
-                "decimal": "1.70",
-                "fractional": "50/71"
+                "american": "+120",
+                "decimal": "2.20",
+                "fractional": "6/5"
             },
-            "trueOdds": 1.70422536,
-            "points": 2.5,
-            "outcomeType": "Over",
+            "trueOdds": 2.2,
+            "points": 1.5,
+            "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "35512",
-                    "name": "Mikko Rantanen",
+                    "id": "35817",
+                    "name": "Jason Robertson",
                     "type": "Player",
-                    "seoIdentifier": "Mikko Rantanen",
+                    "seoIdentifier": "Jason Robertson",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 2.6
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 2500,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620306#245284576_13L42133Q11842131994Q20",
-            "marketId": "251620306",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
-            },
-            "trueOdds": 2.05,
-            "points": 2.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35205",
-                    "name": "Zach Hyman",
-                    "type": "Player",
-                    "seoIdentifier": "Zach Hyman",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.7
+                        "value": 2.5
                     },
                     "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 2500,
+            "sortOrder": 1502,
             "tags": [
                 "MainPointLine",
                 "3rdFavorite"
@@ -2713,31 +2158,64 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620321#245284621_13L42133Q11842131994Q20",
-            "marketId": "251620321",
-            "label": "Over",
+            "id": "0QA252054871#247041670_15L42133Q1-1244548659Q20",
+            "marketId": "252054871",
+            "label": "Under",
             "displayOdds": {
-                "american": "+120",
-                "decimal": "2.20",
-                "fractional": "6/5"
+                "american": "+135",
+                "decimal": "2.35",
+                "fractional": "27/20"
             },
-            "trueOdds": 2.2,
-            "points": 2.5,
-            "outcomeType": "Over",
+            "trueOdds": 2.35,
+            "points": 1.5,
+            "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "34770",
-                    "name": "Evander Kane",
+                    "id": "604777",
+                    "name": "Wyatt Johnston",
                     "type": "Player",
-                    "seoIdentifier": "Evander Kane",
+                    "seoIdentifier": "Wyatt Johnston",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 2.5
+                        "value": 2.4
                     },
                     "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 2500,
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054911#247041785_15L42133Q1-1244548659Q20",
+            "marketId": "252054911",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+130",
+                "decimal": "2.30",
+                "fractional": "13/10"
+            },
+            "trueOdds": 2.3,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35009",
+                    "name": "Jake Walman",
+                    "type": "Player",
+                    "seoIdentifier": "Jake Walman",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2.4
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1502,
             "tags": [
                 "MainPointLine"
             ],
@@ -2745,23 +2223,87 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620363#245284720_13L42133Q11842131994Q20",
-            "marketId": "251620363",
-            "label": "Over",
+            "id": "0QA252054922#247041813_15L42133Q1-1244548659Q20",
+            "marketId": "252054922",
+            "label": "Under",
             "displayOdds": {
-                "american": "+150",
-                "decimal": "2.50",
-                "fractional": "6/4"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 2.5,
-            "points": 2.5,
-            "outcomeType": "Over",
+            "trueOdds": 1.86956522,
+            "points": 1.5,
+            "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "34661",
-                    "name": "Ryan Nugent-Hopkins",
+                    "id": "35289",
+                    "name": "Mikael Granlund",
                     "type": "Player",
-                    "seoIdentifier": "Ryan Nugent-Hopkins",
+                    "seoIdentifier": "Mikael Granlund",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054935#247041862_15L42133Q1-1244548659Q20",
+            "marketId": "252054935",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+115",
+                "decimal": "2.15",
+                "fractional": "23/20"
+            },
+            "trueOdds": 2.15,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35819",
+                    "name": "Tyler Seguin",
+                    "type": "Player",
+                    "seoIdentifier": "Tyler Seguin",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 1.9
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054944#247041880_15L42133Q1-1244548659Q20",
+            "marketId": "252054944",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+115",
+                "decimal": "2.15",
+                "fractional": "23/20"
+            },
+            "trueOdds": 2.15,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35750",
+                    "name": "Thomas Harley",
+                    "type": "Player",
+                    "seoIdentifier": "Thomas Harley",
                     "statistic": {
                         "prefix": "Avg",
                         "value": 2.1
@@ -2769,7 +2311,7 @@
                     "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 2500,
+            "sortOrder": 1502,
             "tags": [
                 "MainPointLine"
             ],
@@ -2777,31 +2319,63 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620454#245284976_13L42133Q11842131994Q20",
-            "marketId": "251620454",
-            "label": "Over",
+            "id": "0QA252054961#247041931_15L42133Q1-1244548659Q20",
+            "marketId": "252054961",
+            "label": "Under",
             "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
+                "american": "+115",
+                "decimal": "2.15",
+                "fractional": "23/20"
             },
-            "trueOdds": 2.05,
-            "points": 2.5,
-            "outcomeType": "Over",
+            "trueOdds": 2.15,
+            "points": 1.5,
+            "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "35916",
-                    "name": "Evan Bouchard",
+                    "id": "35756",
+                    "name": "Miro Heiskanen",
                     "type": "Player",
-                    "seoIdentifier": "Evan Bouchard",
+                    "seoIdentifier": "Miro Heiskanen",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 2.8
+                        "value": 2.1
                     },
                     "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 2500,
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054966#247041946_15L42133Q1-1244548659Q20",
+            "marketId": "252054966",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+150",
+                "decimal": "2.50",
+                "fractional": "6/4"
+            },
+            "trueOdds": 2.5,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34664",
+                    "name": "Darnell Nurse",
+                    "type": "Player",
+                    "seoIdentifier": "Darnell Nurse",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2.4
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1502,
             "tags": [
                 "MainPointLine"
             ],
@@ -2813,11 +2387,11 @@
             "marketId": "251859374",
             "label": "Over",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 2,
             "points": 2.5,
             "outcomeType": "Over",
             "participants": [
@@ -2912,11 +2486,11 @@
             "marketId": "251859429",
             "label": "Over",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 2,
             "points": 2.5,
             "outcomeType": "Over",
             "participants": [
@@ -3007,83 +2581,17 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620269#245284487_15L42133Q1-1930559442Q20",
-            "marketId": "251620269",
-            "label": "Under",
+            "id": "0QA252054861#247041638_13L42133Q11842131994Q20",
+            "marketId": "252054861",
+            "label": "Over",
             "displayOdds": {
-                "american": "+110",
-                "decimal": "2.10",
-                "fractional": "11/10"
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
             },
-            "trueOdds": 2.1,
+            "trueOdds": 2.05,
             "points": 2.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35512",
-                    "name": "Mikko Rantanen",
-                    "type": "Player",
-                    "seoIdentifier": "Mikko Rantanen",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.6
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 2502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620306#245284577_15L42133Q1-1930559442Q20",
-            "marketId": "251620306",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
-            },
-            "trueOdds": 1.74074075,
-            "points": 2.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35205",
-                    "name": "Zach Hyman",
-                    "type": "Player",
-                    "seoIdentifier": "Zach Hyman",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.7
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 2502,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA251620321#245284622_15L42133Q1-1930559442Q20",
-            "marketId": "251620321",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−154",
-                "decimal": "1.64",
-                "fractional": "50/77"
-            },
-            "trueOdds": 1.64935065,
-            "points": 2.5,
-            "outcomeType": "Under",
+            "outcomeType": "Over",
             "participants": [
                 {
                     "id": "34770",
@@ -3094,10 +2602,10 @@
                         "prefix": "Avg",
                         "value": 2.5
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
-            "sortOrder": 2502,
+            "sortOrder": 2500,
             "tags": [
                 "MainPointLine"
             ],
@@ -3105,31 +2613,31 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620363#245284721_15L42133Q1-1930559442Q20",
-            "marketId": "251620363",
-            "label": "Under",
+            "id": "0QA252054885#247041712_13L42133Q11842131994Q20",
+            "marketId": "252054885",
+            "label": "Over",
             "displayOdds": {
-                "american": "−198",
-                "decimal": "1.50",
-                "fractional": "50/99"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 1.50505051,
+            "trueOdds": 2,
             "points": 2.5,
-            "outcomeType": "Under",
+            "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "34661",
-                    "name": "Ryan Nugent-Hopkins",
+                    "id": "35205",
+                    "name": "Zach Hyman",
                     "type": "Player",
-                    "seoIdentifier": "Ryan Nugent-Hopkins",
+                    "seoIdentifier": "Zach Hyman",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 2.1
+                        "value": 2.7
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
-            "sortOrder": 2502,
+            "sortOrder": 2500,
             "tags": [
                 "MainPointLine"
             ],
@@ -3137,17 +2645,17 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620454#245284977_15L42133Q1-1930559442Q20",
-            "marketId": "251620454",
-            "label": "Under",
+            "id": "0QA252054893#247041733_13L42133Q11842131994Q20",
+            "marketId": "252054893",
+            "label": "Over",
             "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.74074075,
+            "trueOdds": 1.95238096,
             "points": 2.5,
-            "outcomeType": "Under",
+            "outcomeType": "Over",
             "participants": [
                 {
                     "id": "35916",
@@ -3158,12 +2666,78 @@
                         "prefix": "Avg",
                         "value": 2.8
                     },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2500,
+            "tags": [
+                "MainPointLine",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054900#247041756_13L42133Q11842131994Q20",
+            "marketId": "252054900",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+150",
+                "decimal": "2.50",
+                "fractional": "6/4"
+            },
+            "trueOdds": 2.5,
+            "points": 2.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "34661",
+                    "name": "Ryan Nugent-Hopkins",
+                    "type": "Player",
+                    "seoIdentifier": "Ryan Nugent-Hopkins",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2.1
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054933#247041846_13L42133Q11842131994Q20",
+            "marketId": "252054933",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
+            },
+            "trueOdds": 1.8,
+            "points": 2.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35512",
+                    "name": "Mikko Rantanen",
+                    "type": "Player",
+                    "seoIdentifier": "Mikko Rantanen",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2.6
+                    },
                     "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 2502,
+            "sortOrder": 2500,
             "tags": [
-                "MainPointLine"
+                "MainPointLine",
+                "1stFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -3173,11 +2747,11 @@
             "marketId": "251859374",
             "label": "Under",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.76923077,
             "points": 2.5,
             "outcomeType": "Under",
             "participants": [
@@ -3272,11 +2846,11 @@
             "marketId": "251859429",
             "label": "Under",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.76923077,
             "points": 2.5,
             "outcomeType": "Under",
             "participants": [
@@ -3367,31 +2941,160 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620517#245285157_13L42133Q1-212353899Q20",
-            "marketId": "251620517",
-            "label": "Over",
+            "id": "0QA252054861#247041639_15L42133Q1-1930559442Q20",
+            "marketId": "252054861",
+            "label": "Under",
             "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
             },
-            "trueOdds": 2.05,
-            "points": 3.5,
-            "outcomeType": "Over",
+            "trueOdds": 1.74074075,
+            "points": 2.5,
+            "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "34652",
-                    "name": "Connor McDavid",
+                    "id": "34770",
+                    "name": "Evander Kane",
                     "type": "Player",
-                    "seoIdentifier": "Connor McDavid",
+                    "seoIdentifier": "Evander Kane",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 3
+                        "value": 2.5
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054885#247041713_15L42133Q1-1930559442Q20",
+            "marketId": "252054885",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
+            },
+            "trueOdds": 1.76923077,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35205",
+                    "name": "Zach Hyman",
+                    "type": "Player",
+                    "seoIdentifier": "Zach Hyman",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2.7
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054893#247041734_15L42133Q1-1930559442Q20",
+            "marketId": "252054893",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
+            },
+            "trueOdds": 1.8,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35916",
+                    "name": "Evan Bouchard",
+                    "type": "Player",
+                    "seoIdentifier": "Evan Bouchard",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2.8
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054900#247041757_15L42133Q1-1930559442Q20",
+            "marketId": "252054900",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−198",
+                "decimal": "1.50",
+                "fractional": "50/99"
+            },
+            "trueOdds": 1.50505051,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34661",
+                    "name": "Ryan Nugent-Hopkins",
+                    "type": "Player",
+                    "seoIdentifier": "Ryan Nugent-Hopkins",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2.1
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054933#247041847_15L42133Q1-1930559442Q20",
+            "marketId": "252054933",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
+            },
+            "trueOdds": 1.95238096,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35512",
+                    "name": "Mikko Rantanen",
+                    "type": "Player",
+                    "seoIdentifier": "Mikko Rantanen",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2.6
                     },
                     "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 3500,
+            "sortOrder": 2502,
             "tags": [
                 "MainPointLine",
                 "1stFavorite"
@@ -3400,8 +3103,8 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620537#245285201_13L42133Q1-212353899Q20",
-            "marketId": "251620537",
+            "id": "0QA252054921#247041816_13L42133Q1-212353899Q20",
+            "marketId": "252054921",
             "label": "Over",
             "displayOdds": {
                 "american": "+120",
@@ -3421,7 +3124,7 @@
                         "prefix": "Avg",
                         "value": 3.3
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 3500,
@@ -3433,17 +3136,17 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620517#245285158_15L42133Q1-1061989643Q20",
-            "marketId": "251620517",
-            "label": "Under",
+            "id": "0QA252054951#247041892_13L42133Q1-212353899Q20",
+            "marketId": "252054951",
+            "label": "Over",
             "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.74074075,
+            "trueOdds": 1.95238096,
             "points": 3.5,
-            "outcomeType": "Under",
+            "outcomeType": "Over",
             "participants": [
                 {
                     "id": "34652",
@@ -3452,12 +3155,12 @@
                     "seoIdentifier": "Connor McDavid",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 3
+                        "value": 3.1
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
-            "sortOrder": 3502,
+            "sortOrder": 3500,
             "tags": [
                 "MainPointLine",
                 "1stFavorite"
@@ -3466,8 +3169,8 @@
             "metadata": {}
         },
         {
-            "id": "0QA251620537#245285202_15L42133Q1-1061989643Q20",
-            "marketId": "251620537",
+            "id": "0QA252054921#247041817_15L42133Q1-1061989643Q20",
+            "marketId": "252054921",
             "label": "Under",
             "displayOdds": {
                 "american": "−154",
@@ -3487,13 +3190,46 @@
                         "prefix": "Avg",
                         "value": 3.3
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 3502,
             "tags": [
                 "MainPointLine",
                 "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252054951#247041893_15L42133Q1-1061989643Q20",
+            "marketId": "252054951",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
+            },
+            "trueOdds": 1.8,
+            "points": 3.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34652",
+                    "name": "Connor McDavid",
+                    "type": "Player",
+                    "seoIdentifier": "Connor McDavid",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 3.1
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 3502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -3559,6 +3295,11 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 1724,
+            "name": "Time on Ice",
+            "sortOrder": 14
         },
         {
             "id": 1679,
@@ -3628,14 +3369,6 @@
             "name": "Champion",
             "componentId": 29,
             "sortOrder": 4748,
-            "tags": []
-        },
-        {
-            "id": 17942,
-            "categoryId": 552,
-            "name": "Exact Result",
-            "componentId": 29,
-            "sortOrder": 17899,
             "tags": []
         },
         {
@@ -3994,6 +3727,14 @@
             "tags": []
         },
         {
+            "id": 16874,
+            "categoryId": 1724,
+            "name": "Player Time on Ice",
+            "componentId": 29,
+            "sortOrder": 16831,
+            "tags": []
+        },
+        {
             "id": 17003,
             "categoryId": 1190,
             "name": "Either Player Goalscorer",
@@ -4251,6 +3992,14 @@
             "tags": []
         },
         {
+            "id": 17810,
+            "categoryId": 1808,
+            "name": "Any Game 10+ Goals",
+            "componentId": 29,
+            "sortOrder": 17767,
+            "tags": []
+        },
+        {
             "id": 17809,
             "categoryId": 1808,
             "name": "Overtime Props",
@@ -4296,14 +4045,6 @@
             "name": "Series Points O/U",
             "componentId": 29,
             "sortOrder": 10,
-            "tags": []
-        },
-        {
-            "id": 17919,
-            "categoryId": 1807,
-            "name": "X+ Goals in Every Game of Series",
-            "componentId": 29,
-            "sortOrder": 4,
             "tags": []
         },
         {
@@ -4368,6 +4109,14 @@
             "name": "Conn Smythe Trophy",
             "componentId": 29,
             "sortOrder": 0,
+            "tags": []
+        },
+        {
+            "id": 17919,
+            "categoryId": 1807,
+            "name": "X+ Goals in Every Game of Series",
+            "componentId": 29,
+            "sortOrder": 4,
             "tags": []
         },
         {
