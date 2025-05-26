@@ -4,7 +4,7 @@
             "id": "8",
             "seoIdentifier": "Hockey",
             "name": "Hockey",
-            "sortOrder": 60
+            "sortOrder": 61
         }
     ],
     "leagues": [
@@ -180,9 +180,127 @@
             ],
             "correlatedId": "32341561|12423|2:55550",
             "dynamicMetadata": {}
+        },
+        {
+            "id": "252473373",
+            "eventId": "32341561",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Aaron Ekblad Blocks",
+            "subcategoryId": 16257,
+            "marketType": {
+                "id": "12423",
+                "betOfferTypeId": 0,
+                "name": "Player Blocks O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 3,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32341561|12423|2:55577",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "252473363",
+            "eventId": "32341561",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Brent Burns Blocks",
+            "subcategoryId": 16257,
+            "marketType": {
+                "id": "12423",
+                "betOfferTypeId": 0,
+                "name": "Player Blocks O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 4,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32341561|12423|2:55655",
+            "dynamicMetadata": {}
         }
     ],
     "selections": [
+        {
+            "id": "0QA252473363#248732146_13L42133Q1381166617Q20",
+            "marketId": "252473363",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
+            },
+            "trueOdds": 2.1,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "34715",
+                    "name": "Brent Burns",
+                    "type": "Player",
+                    "seoIdentifier": "Brent Burns",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 1.2
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252473373#248732175_13L42133Q1381166617Q20",
+            "marketId": "252473373",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "34755",
+                    "name": "Aaron Ekblad",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Ekblad",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 1.2
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
         {
             "id": "0QA252332947#248170419_13L42133Q1381166617Q20",
             "marketId": "252332947",
@@ -213,6 +331,74 @@
                 "MainPointLine",
                 "SGP",
                 "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252473363#248732147_15L42133Q1-1521954212Q20",
+            "marketId": "252473363",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−142",
+                "decimal": "1.70",
+                "fractional": "50/71"
+            },
+            "trueOdds": 1.70422536,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34715",
+                    "name": "Brent Burns",
+                    "type": "Player",
+                    "seoIdentifier": "Brent Burns",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 1.2
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252473373#248732176_15L42133Q1-1521954212Q20",
+            "marketId": "252473373",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34755",
+                    "name": "Aaron Ekblad",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Ekblad",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 1.2
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -380,6 +566,11 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 1724,
+            "name": "Time on Ice",
+            "sortOrder": 14
         },
         {
             "id": 1679,
@@ -702,6 +893,14 @@
             ]
         },
         {
+            "id": 16476,
+            "categoryId": 1189,
+            "name": "Shots on Goal Leader",
+            "componentId": 204,
+            "sortOrder": 4,
+            "tags": []
+        },
+        {
             "id": 16544,
             "categoryId": 1189,
             "name": "Shots on Goal",
@@ -796,6 +995,22 @@
             "name": "First Goal Exact",
             "componentId": 204,
             "sortOrder": 16631,
+            "tags": []
+        },
+        {
+            "id": 16874,
+            "categoryId": 1724,
+            "name": "Player Time on Ice",
+            "componentId": 29,
+            "sortOrder": 16831,
+            "tags": []
+        },
+        {
+            "id": 17003,
+            "categoryId": 1190,
+            "name": "Either Player Goalscorer",
+            "componentId": 29,
+            "sortOrder": 14455,
             "tags": []
         },
         {
@@ -1008,11 +1223,27 @@
             "tags": []
         },
         {
-            "id": 17434,
-            "categoryId": 592,
-            "name": "Conn Smythe Trophy",
+            "id": 17797,
+            "categoryId": 1807,
+            "name": "X+ Points in Every Game of Series",
             "componentId": 29,
-            "sortOrder": 0,
+            "sortOrder": 6,
+            "tags": []
+        },
+        {
+            "id": 17796,
+            "categoryId": 1807,
+            "name": "X+ SOG in Every Game of Series",
+            "componentId": 29,
+            "sortOrder": 5,
+            "tags": []
+        },
+        {
+            "id": 17795,
+            "categoryId": 1807,
+            "name": "X+ Goals in Series",
+            "componentId": 29,
+            "sortOrder": 3,
             "tags": []
         },
         {
@@ -1024,6 +1255,46 @@
             "tags": []
         },
         {
+            "id": 17810,
+            "categoryId": 1808,
+            "name": "Any Game 10+ Goals",
+            "componentId": 29,
+            "sortOrder": 17767,
+            "tags": []
+        },
+        {
+            "id": 17809,
+            "categoryId": 1808,
+            "name": "Overtime Props",
+            "componentId": 29,
+            "sortOrder": 17766,
+            "tags": []
+        },
+        {
+            "id": 17808,
+            "categoryId": 1808,
+            "name": "Hat Tricks",
+            "componentId": 29,
+            "sortOrder": 17765,
+            "tags": []
+        },
+        {
+            "id": 17813,
+            "categoryId": 1807,
+            "name": "OT Goal",
+            "componentId": 29,
+            "sortOrder": 12,
+            "tags": []
+        },
+        {
+            "id": 17798,
+            "categoryId": 1807,
+            "name": "Hat Trick in Any Game of Series",
+            "componentId": 29,
+            "sortOrder": 8,
+            "tags": []
+        },
+        {
             "id": 17793,
             "categoryId": 1807,
             "name": "Series Most Goals",
@@ -1032,11 +1303,43 @@
             "tags": []
         },
         {
-            "id": 17795,
+            "id": 17818,
             "categoryId": 1807,
-            "name": "X+ Goals in Series",
+            "name": "X+ Saves in Every Game",
             "componentId": 29,
-            "sortOrder": 3,
+            "sortOrder": 16,
+            "tags": []
+        },
+        {
+            "id": 17932,
+            "categoryId": 1807,
+            "name": "H2H Points",
+            "componentId": 29,
+            "sortOrder": 19,
+            "tags": []
+        },
+        {
+            "id": 17934,
+            "categoryId": 1807,
+            "name": "H2H Shots on Goal",
+            "componentId": 29,
+            "sortOrder": 21,
+            "tags": []
+        },
+        {
+            "id": 17946,
+            "categoryId": 1807,
+            "name": "X+ Points in any Game of Series",
+            "componentId": 29,
+            "sortOrder": 7,
+            "tags": []
+        },
+        {
+            "id": 17434,
+            "categoryId": 592,
+            "name": "Conn Smythe Trophy",
+            "componentId": 29,
+            "sortOrder": 0,
             "tags": []
         },
         {
