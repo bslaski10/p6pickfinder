@@ -1,7 +1,10 @@
 {
     "sports": [
         {
-            "id": "2"
+            "id": "2",
+            "seoIdentifier": "Basketball",
+            "name": "Basketball",
+            "sortOrder": 60
         }
     ],
     "leagues": [
@@ -40,9 +43,176 @@
             ]
         }
     ],
-    "events": [],
-    "markets": [],
-    "selections": [],
+    "events": [
+        {
+            "id": "32355535",
+            "seoIdentifier": "DAL Wings @ CHI Sky",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "DAL Wings @ CHI Sky",
+            "startEventDate": "2025-05-30T00:00:00.0000000Z",
+            "participants": [
+                {
+                    "id": "36134",
+                    "name": "CHI Sky",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "1605",
+                        "rosettaTeamId": "36134",
+                        "rosettaTeamName": "Sky",
+                        "shortName": "CHI"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Sky"
+                },
+                {
+                    "id": "36122",
+                    "name": "DAL Wings",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "1604",
+                        "rosettaTeamId": "36122",
+                        "rosettaTeamName": "Wings",
+                        "shortName": "DAL"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Wings"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "NOT_STARTED",
+            "eventScorecard": {
+                "scorecardComponentId": 1
+            },
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "56327947",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "56327947",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "56327947",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "MatchTracker",
+                "PrePack",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "676",
+                "numberOfParts": "4",
+                "secondsInOnePart": "600"
+            },
+            "sortOrder": 231840035,
+            "subscriptionKey": "league-events-94682"
+        }
+    ],
+    "markets": [
+        {
+            "id": "252937946",
+            "eventId": "32355535",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "Paige Bueckers Points + Rebounds + Assists O/U",
+            "subcategoryId": 5001,
+            "marketType": {
+                "id": "4025",
+                "betOfferTypeId": 0,
+                "name": "Points + Rebounds + Assists O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 1,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        }
+    ],
+    "selections": [
+        {
+            "id": "0QA252937946#250307176_13L94682Q1178528Q20",
+            "marketId": "252937946",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 26.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "890739",
+                    "name": "Paige Bueckers",
+                    "type": "Player",
+                    "seoIdentifier": "Paige Bueckers",
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 26500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA252937946#250307177_15L94682Q1178528Q20",
+            "marketId": "252937946",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 26.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "890739",
+                    "name": "Paige Bueckers",
+                    "type": "Player",
+                    "seoIdentifier": "Paige Bueckers",
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 26502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        }
+    ],
     "categories": [
         {
             "id": 487,
@@ -141,6 +311,14 @@
         }
     ],
     "subcategories": [
+        {
+            "id": 13417,
+            "categoryId": 1017,
+            "name": "To Make The Playoffs",
+            "componentId": 29,
+            "sortOrder": 9731,
+            "tags": []
+        },
         {
             "id": 14646,
             "categoryId": 1017,
@@ -450,14 +628,6 @@
             ]
         },
         {
-            "id": 16720,
-            "categoryId": 520,
-            "name": "Alt Total - X Half",
-            "componentId": 240,
-            "sortOrder": 10042,
-            "tags": []
-        },
-        {
             "id": 16732,
             "categoryId": 521,
             "name": "Correct Score",
@@ -466,22 +636,6 @@
             "tags": [
                 "Featured"
             ]
-        },
-        {
-            "id": 16822,
-            "categoryId": 522,
-            "name": "Alt Spread - 1st Quarter",
-            "componentId": 240,
-            "sortOrder": 4614,
-            "tags": []
-        },
-        {
-            "id": 16826,
-            "categoryId": 522,
-            "name": "Alt Total - 1st Quarter",
-            "componentId": 240,
-            "sortOrder": 4619,
-            "tags": []
         },
         {
             "id": 16839,
@@ -526,16 +680,6 @@
             "sortOrder": 4592,
             "tags": [
                 "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 4600,
-            "categoryId": 522,
-            "name": "1st Quarter",
-            "componentId": 210,
-            "sortOrder": 4595,
-            "tags": [
                 "SGP"
             ]
         },
@@ -657,6 +801,48 @@
             ]
         },
         {
+            "id": 13759,
+            "categoryId": 583,
+            "name": "Triple-Double",
+            "componentId": 204,
+            "sortOrder": 4987,
+            "tags": [
+                "Featured"
+            ]
+        },
+        {
+            "id": 16720,
+            "categoryId": 520,
+            "name": "Alt Total - X Half",
+            "componentId": 240,
+            "sortOrder": 10042,
+            "tags": []
+        },
+        {
+            "id": 16822,
+            "categoryId": 522,
+            "name": "Alt Spread - 1st Quarter",
+            "componentId": 240,
+            "sortOrder": 4614,
+            "tags": []
+        },
+        {
+            "id": 16826,
+            "categoryId": 522,
+            "name": "Alt Total - 1st Quarter",
+            "componentId": 240,
+            "sortOrder": 4619,
+            "tags": []
+        },
+        {
+            "id": 5001,
+            "categoryId": 583,
+            "name": "Pts + Reb + Ast O/U",
+            "componentId": 8,
+            "sortOrder": 5396,
+            "tags": []
+        },
+        {
             "id": 17836,
             "categoryId": 519,
             "name": "Commissioner's Cup",
@@ -673,11 +859,11 @@
             "tags": []
         },
         {
-            "id": 13417,
+            "id": 12155,
             "categoryId": 1017,
-            "name": "To Make The Playoffs",
+            "name": "To Win x+ Games",
             "componentId": 29,
-            "sortOrder": 9731,
+            "sortOrder": 9740,
             "tags": []
         }
     ],
