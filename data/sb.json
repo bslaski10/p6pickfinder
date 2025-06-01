@@ -1,7 +1,10 @@
 {
     "sports": [
         {
-            "id": "2"
+            "id": "2",
+            "seoIdentifier": "Basketball",
+            "name": "Basketball",
+            "sortOrder": 60
         }
     ],
     "leagues": [
@@ -42,9 +45,593 @@
             ]
         }
     ],
-    "events": [],
-    "markets": [],
-    "selections": [],
+    "events": [
+        {
+            "id": "32357927",
+            "seoIdentifier": "IND Pacers @ OKC Thunder",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "IND Pacers @ OKC Thunder",
+            "startEventDate": "2025-06-06T00:40:00.0000000Z",
+            "participants": [
+                {
+                    "id": "32942",
+                    "name": "OKC Thunder",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "305",
+                        "rosettaTeamId": "32942",
+                        "rosettaTeamName": "Thunder",
+                        "shortName": "OKC",
+                        "teamColor": "#007ac1"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Thunder"
+                },
+                {
+                    "id": "32922",
+                    "name": "IND Pacers",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "304",
+                        "rosettaTeamId": "32922",
+                        "rosettaTeamName": "Pacers",
+                        "shortName": "IND",
+                        "teamColor": "#002d62"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Pacers"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "NOT_STARTED",
+            "eventScorecard": {
+                "scorecardComponentId": 1
+            },
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "59796354",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "59796354",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "59796354",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "MatchTracker",
+                "PrePack",
+                "ProgressiveParlayEligible",
+                "ProgressiveParlayTeamEligible",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "29",
+                "numberOfParts": "4",
+                "secondsInOnePart": "720"
+            },
+            "sortOrder": 232852027,
+            "subscriptionKey": "league-events-42648"
+        }
+    ],
+    "markets": [
+        {
+            "id": "253072205",
+            "eventId": "32357927",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Chet Holmgren Steals + Blocks O/U",
+            "subcategoryId": 13781,
+            "marketType": {
+                "id": "12673",
+                "betOfferTypeId": 0,
+                "name": "Steals + Blocks O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 1,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32357927|12673|2:153763",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "253072073",
+            "eventId": "32357927",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Shai Gilgeous-Alexander Steals + Blocks O/U",
+            "subcategoryId": 13781,
+            "marketType": {
+                "id": "12673",
+                "betOfferTypeId": 0,
+                "name": "Steals + Blocks O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 2,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32357927|12673|2:55210",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "253072000",
+            "eventId": "32357927",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Jalen Williams Steals + Blocks O/U",
+            "subcategoryId": 13781,
+            "marketType": {
+                "id": "12673",
+                "betOfferTypeId": 0,
+                "name": "Steals + Blocks O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 3,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32357927|12673|2:128778",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "253072020",
+            "eventId": "32357927",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Cason Wallace Steals + Blocks O/U",
+            "subcategoryId": 13781,
+            "marketType": {
+                "id": "12673",
+                "betOfferTypeId": 0,
+                "name": "Steals + Blocks O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 4,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32357927|12673|2:158400",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "253071976",
+            "eventId": "32357927",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Isaiah Hartenstein Steals + Blocks O/U",
+            "subcategoryId": 13781,
+            "marketType": {
+                "id": "12673",
+                "betOfferTypeId": 0,
+                "name": "Steals + Blocks O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 5,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32357927|12673|2:101739",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "253072069",
+            "eventId": "32357927",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Luguentz Dort Steals + Blocks O/U",
+            "subcategoryId": 13781,
+            "marketType": {
+                "id": "12673",
+                "betOfferTypeId": 0,
+                "name": "Steals + Blocks O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 6,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32357927|12673|2:101128",
+            "dynamicMetadata": {}
+        }
+    ],
+    "selections": [
+        {
+            "id": "0QA253072000#250823812_13L42648Q1-531079473Q20",
+            "marketId": "253072000",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−188",
+                "decimal": "1.53",
+                "fractional": "25/47"
+            },
+            "trueOdds": 1.5319149,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "649561",
+                    "name": "Jalen Williams",
+                    "type": "Player",
+                    "seoIdentifier": "Jalen Williams",
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA253072020#250823801_13L42648Q1-531079473Q20",
+            "marketId": "253072020",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
+            },
+            "trueOdds": 1.76923077,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "713763",
+                    "name": "Cason Wallace",
+                    "type": "Player",
+                    "seoIdentifier": "Cason Wallace",
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA253072069#251157081_13L42648Q1-531079473Q20",
+            "marketId": "253072069",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+140",
+                "decimal": "2.40",
+                "fractional": "7/5"
+            },
+            "trueOdds": 2.4,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "33263",
+                    "name": "Luguentz Dort",
+                    "type": "Player",
+                    "seoIdentifier": "Luguentz Dort",
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA253071976#250823249_13L42648Q1-531079473Q20",
+            "marketId": "253071976",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+130",
+                "decimal": "2.30",
+                "fractional": "13/10"
+            },
+            "trueOdds": 2.3,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "33079",
+                    "name": "Isaiah Hartenstein",
+                    "type": "Player",
+                    "seoIdentifier": "Isaiah Hartenstein",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 1.8
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA253072000#250823833_15L42648Q1-1083950481Q20",
+            "marketId": "253072000",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+145",
+                "decimal": "2.45",
+                "fractional": "29/20"
+            },
+            "trueOdds": 2.45,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "649561",
+                    "name": "Jalen Williams",
+                    "type": "Player",
+                    "seoIdentifier": "Jalen Williams",
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA253072020#250823826_15L42648Q1-1083950481Q20",
+            "marketId": "253072020",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
+            },
+            "trueOdds": 2,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "713763",
+                    "name": "Cason Wallace",
+                    "type": "Player",
+                    "seoIdentifier": "Cason Wallace",
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA253072069#251157083_15L42648Q1-1083950481Q20",
+            "marketId": "253072069",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−180",
+                "decimal": "1.55",
+                "fractional": "5/9"
+            },
+            "trueOdds": 1.55555556,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "33263",
+                    "name": "Luguentz Dort",
+                    "type": "Player",
+                    "seoIdentifier": "Luguentz Dort",
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA253071976#250823250_15L42648Q1-1083950481Q20",
+            "marketId": "253071976",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−166",
+                "decimal": "1.60",
+                "fractional": "50/83"
+            },
+            "trueOdds": 1.60240964,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "33079",
+                    "name": "Isaiah Hartenstein",
+                    "type": "Player",
+                    "seoIdentifier": "Isaiah Hartenstein",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 1.8
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA253072073#251157085_13L42648Q1779889742Q20",
+            "marketId": "253072073",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+124",
+                "decimal": "2.24",
+                "fractional": "31/25"
+            },
+            "trueOdds": 2.24,
+            "points": 2.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "33258",
+                    "name": "Shai Gilgeous-Alexander",
+                    "type": "Player",
+                    "seoIdentifier": "Shai Gilgeous-Alexander",
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2500,
+            "tags": [
+                "MainPointLine",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA253072205#251159903_13L42648Q1779889742Q20",
+            "marketId": "253072205",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 2.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "649545",
+                    "name": "Chet Holmgren",
+                    "type": "Player",
+                    "seoIdentifier": "Chet Holmgren",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2.9
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA253072073#251157086_15L42648Q1-1212489465Q20",
+            "marketId": "253072073",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−160",
+                "decimal": "1.62",
+                "fractional": "5/8"
+            },
+            "trueOdds": 1.625,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "33258",
+                    "name": "Shai Gilgeous-Alexander",
+                    "type": "Player",
+                    "seoIdentifier": "Shai Gilgeous-Alexander",
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA253072205#251159904_15L42648Q1-1212489465Q20",
+            "marketId": "253072205",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "649545",
+                    "name": "Chet Holmgren",
+                    "type": "Player",
+                    "seoIdentifier": "Chet Holmgren",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 2.9
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        }
+    ],
     "categories": [
         {
             "id": 487,
@@ -144,6 +731,11 @@
             "id": 1320,
             "name": "Game Leaders",
             "sortOrder": 30
+        },
+        {
+            "id": 1280,
+            "name": "Player Specials",
+            "sortOrder": 31
         },
         {
             "id": 1206,
@@ -481,6 +1073,14 @@
             ]
         },
         {
+            "id": 13158,
+            "categoryId": 521,
+            "name": "Buzzer Beater",
+            "componentId": 29,
+            "sortOrder": 4613,
+            "tags": []
+        },
+        {
             "id": 13201,
             "categoryId": 487,
             "name": "Alternate Total",
@@ -551,6 +1151,14 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 13781,
+            "categoryId": 1293,
+            "name": "Steals + Blocks O/U",
+            "componentId": 8,
+            "sortOrder": 13743,
+            "tags": []
         },
         {
             "id": 13782,
@@ -642,6 +1250,38 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 15535,
+            "categoryId": 1320,
+            "name": "Scoring Leader - 1st Quarter",
+            "componentId": 204,
+            "sortOrder": 15502,
+            "tags": []
+        },
+        {
+            "id": 15543,
+            "categoryId": 1320,
+            "name": "Scoring Leader - 1st Half",
+            "componentId": 204,
+            "sortOrder": 15508,
+            "tags": []
+        },
+        {
+            "id": 15544,
+            "categoryId": 1320,
+            "name": "Threes Leader - 1st Half",
+            "componentId": 204,
+            "sortOrder": 15540,
+            "tags": []
+        },
+        {
+            "id": 15545,
+            "categoryId": 1320,
+            "name": "Threes Leader - 1st Quarter",
+            "componentId": 204,
+            "sortOrder": 15539,
+            "tags": []
         },
         {
             "id": 15548,
@@ -1399,6 +2039,14 @@
             "tags": []
         },
         {
+            "id": 17887,
+            "categoryId": 1280,
+            "name": "Free Throws Made",
+            "componentId": 29,
+            "sortOrder": 17948,
+            "tags": []
+        },
+        {
             "id": 4511,
             "categoryId": 487,
             "name": "Game",
@@ -1873,6 +2521,30 @@
             "name": "PPG",
             "componentId": 29,
             "sortOrder": 12903,
+            "tags": []
+        },
+        {
+            "id": 12940,
+            "categoryId": 1255,
+            "name": "RPG",
+            "componentId": 29,
+            "sortOrder": 12905,
+            "tags": []
+        },
+        {
+            "id": 12939,
+            "categoryId": 1255,
+            "name": "APG",
+            "componentId": 29,
+            "sortOrder": 12904,
+            "tags": []
+        },
+        {
+            "id": 17723,
+            "categoryId": 1255,
+            "name": "3s Made/G",
+            "componentId": 29,
+            "sortOrder": 17680,
             "tags": []
         }
     ],
