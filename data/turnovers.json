@@ -4,7 +4,7 @@
             "id": "2",
             "seoIdentifier": "Basketball",
             "name": "Basketball",
-            "sortOrder": 56
+            "sortOrder": 60
         }
     ],
     "leagues": [
@@ -47,42 +47,42 @@
     ],
     "events": [
         {
-            "id": "32355366",
-            "seoIdentifier": "NY Knicks @ IND Pacers",
+            "id": "32357927",
+            "seoIdentifier": "IND Pacers @ OKC Thunder",
             "sportId": "2",
             "leagueId": "42648",
-            "name": "NY Knicks @ IND Pacers",
-            "startEventDate": "2025-06-01T00:05:00.0000000Z",
+            "name": "IND Pacers @ OKC Thunder",
+            "startEventDate": "2025-06-06T00:40:00.0000000Z",
             "participants": [
                 {
-                    "id": "32922",
-                    "name": "IND Pacers",
+                    "id": "32942",
+                    "name": "OKC Thunder",
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "307",
+                        "retailRotNumber": "305",
+                        "rosettaTeamId": "32942",
+                        "rosettaTeamName": "Thunder",
+                        "shortName": "OKC",
+                        "teamColor": "#007ac1"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Thunder"
+                },
+                {
+                    "id": "32922",
+                    "name": "IND Pacers",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "304",
                         "rosettaTeamId": "32922",
                         "rosettaTeamName": "Pacers",
                         "shortName": "IND",
                         "teamColor": "#002d62"
                     },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Pacers"
-                },
-                {
-                    "id": "32940",
-                    "name": "NY Knicks",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "306",
-                        "rosettaTeamId": "32940",
-                        "rosettaTeamName": "Knicks",
-                        "shortName": "NY",
-                        "teamColor": "#006bb6"
-                    },
                     "sortOrder": 1,
-                    "seoIdentifier": "Knicks"
+                    "seoIdentifier": "Pacers"
                 }
             ],
             "eventParticipantType": "TwoTeam",
@@ -93,12 +93,12 @@
             "media": [
                 {
                     "providerName": "BetRadarStats",
-                    "providerEventId": "59796326",
+                    "providerEventId": "59796354",
                     "mediaType": "Stats"
                 },
                 {
                     "providerName": "BetRadarV3",
-                    "providerEventId": "59796326",
+                    "providerEventId": "59796354",
                     "mediaType": "MatchTracker",
                     "metadata": {
                         "betRadarCoverage": "3"
@@ -106,7 +106,7 @@
                 },
                 {
                     "providerName": "BetRadarV3",
-                    "providerEventId": "59796326",
+                    "providerEventId": "59796354",
                     "mediaType": "Scoreboard",
                     "metadata": {
                         "betRadarCoverage": "3"
@@ -130,17 +130,17 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "720"
             },
-            "sortOrder": 232128566,
+            "sortOrder": 232852027,
             "subscriptionKey": "league-events-42648"
         }
     ],
     "markets": [
         {
-            "id": "253161972",
-            "eventId": "32355366",
+            "id": "253072080",
+            "eventId": "32357927",
             "sportId": "2",
             "leagueId": "42648",
-            "name": "Jalen Brunson Turnovers O/U",
+            "name": "Tyrese Haliburton Turnovers O/U",
             "subcategoryId": 13782,
             "marketType": {
                 "id": "12665",
@@ -155,15 +155,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32355366|12665|2:58596",
+            "correlatedId": "32357927|12665|2:118630",
             "dynamicMetadata": {}
         },
         {
-            "id": "253161991",
-            "eventId": "32355366",
+            "id": "253071789",
+            "eventId": "32357927",
             "sportId": "2",
             "leagueId": "42648",
-            "name": "Karl-Anthony Towns Turnovers O/U",
+            "name": "Shai Gilgeous-Alexander Turnovers O/U",
             "subcategoryId": 13782,
             "marketType": {
                 "id": "12665",
@@ -178,15 +178,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32355366|12665|2:55191",
+            "correlatedId": "32357927|12665|2:55210",
             "dynamicMetadata": {}
         },
         {
-            "id": "253161904",
-            "eventId": "32355366",
+            "id": "253071782",
+            "eventId": "32357927",
             "sportId": "2",
             "leagueId": "42648",
-            "name": "Tyrese Haliburton Turnovers O/U",
+            "name": "Jalen Williams Turnovers O/U",
             "subcategoryId": 13782,
             "marketType": {
                 "id": "12665",
@@ -201,264 +201,32 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32355366|12665|2:118630",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "253161902",
-            "eventId": "32355366",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Mikal Bridges Turnovers O/U",
-            "subcategoryId": 13782,
-            "marketType": {
-                "id": "12665",
-                "betOfferTypeId": 0,
-                "name": "Turnovers O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 4,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32355366|12665|2:58646",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "253161970",
-            "eventId": "32355366",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Josh Hart Turnovers O/U",
-            "subcategoryId": 13782,
-            "marketType": {
-                "id": "12665",
-                "betOfferTypeId": 0,
-                "name": "Turnovers O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 5,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32355366|12665|2:55798",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "253161975",
-            "eventId": "32355366",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Andrew Nembhard Turnovers O/U",
-            "subcategoryId": 13782,
-            "marketType": {
-                "id": "12665",
-                "betOfferTypeId": 0,
-                "name": "Turnovers O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 6,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32355366|12665|2:148592",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "253161955",
-            "eventId": "32355366",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Pascal Siakam Turnovers O/U",
-            "subcategoryId": 13782,
-            "marketType": {
-                "id": "12665",
-                "betOfferTypeId": 0,
-                "name": "Turnovers O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 7,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32355366|12665|2:55221",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "253162031",
-            "eventId": "32355366",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "OG Anunoby Turnovers O/U",
-            "subcategoryId": 13782,
-            "marketType": {
-                "id": "12665",
-                "betOfferTypeId": 0,
-                "name": "Turnovers O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 8,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32355366|12665|2:55811",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "253161974",
-            "eventId": "32355366",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Myles Turner Turnovers O/U",
-            "subcategoryId": 13782,
-            "marketType": {
-                "id": "12665",
-                "betOfferTypeId": 0,
-                "name": "Turnovers O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 9,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32355366|12665|2:55161",
+            "correlatedId": "32357927|12665|2:128778",
             "dynamicMetadata": {}
         }
     ],
     "selections": [
         {
-            "id": "0QA253162031#251160465_13L42648Q1-337689192Q20",
-            "marketId": "253162031",
+            "id": "0QA253071782#250823568_13L42648Q1-337689192Q20",
+            "marketId": "253071782",
             "label": "Over",
             "displayOdds": {
-                "american": "+110",
-                "decimal": "2.10",
-                "fractional": "11/10"
+                "american": "−166",
+                "decimal": "1.60",
+                "fractional": "50/83"
             },
-            "trueOdds": 2.1,
+            "trueOdds": 1.60240964,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "33382",
-                    "name": "OG Anunoby",
+                    "id": "649561",
+                    "name": "Jalen Williams",
                     "type": "Player",
-                    "seoIdentifier": "OG Anunoby",
+                    "seoIdentifier": "Jalen Williams",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 1.5
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA253161902#251160742_13L42648Q1-337689192Q20",
-            "marketId": "253161902",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−130",
-                "decimal": "1.76",
-                "fractional": "10/13"
-            },
-            "trueOdds": 1.76923077,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33313",
-                    "name": "Mikal Bridges",
-                    "type": "Player",
-                    "seoIdentifier": "Mikal Bridges",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1.7
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA253161904#251160746_13L42648Q1-337689192Q20",
-            "marketId": "253161904",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−180",
-                "decimal": "1.55",
-                "fractional": "5/9"
-            },
-            "trueOdds": 1.55555556,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "488094",
-                    "name": "Tyrese Haliburton",
-                    "type": "Player",
-                    "seoIdentifier": "Tyrese Haliburton",
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA253161955#251160384_13L42648Q1-337689192Q20",
-            "marketId": "253161955",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
-            },
-            "trueOdds": 2.05,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33379",
-                    "name": "Pascal Siakam",
-                    "type": "Player",
-                    "seoIdentifier": "Pascal Siakam",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1.3
+                        "value": 2.1
                     },
                     "venueRole": "HomePlayer"
                 }
@@ -472,209 +240,26 @@
             "metadata": {}
         },
         {
-            "id": "0QA253161970#251160361_13L42648Q1-337689192Q20",
-            "marketId": "253161970",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
-            },
-            "trueOdds": 1.8,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33217",
-                    "name": "Josh Hart",
-                    "type": "Player",
-                    "seoIdentifier": "Josh Hart",
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA253161974#251160656_13L42648Q1-337689192Q20",
-            "marketId": "253161974",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+120",
-                "decimal": "2.20",
-                "fractional": "6/5"
-            },
-            "trueOdds": 2.2,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33089",
-                    "name": "Myles Turner",
-                    "type": "Player",
-                    "seoIdentifier": "Myles Turner",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1.7
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA253161975#251160385_13L42648Q1-337689192Q20",
-            "marketId": "253161975",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
-            },
-            "trueOdds": 2,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "36394",
-                    "name": "Andrew Nembhard",
-                    "type": "Player",
-                    "seoIdentifier": "Andrew Nembhard",
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA253162031#251160501_15L42648Q1-211815322Q20",
-            "marketId": "253162031",
+            "id": "0QA253071782#250823588_15L42648Q1-211815322Q20",
+            "marketId": "253071782",
             "label": "Under",
             "displayOdds": {
-                "american": "−140",
-                "decimal": "1.71",
-                "fractional": "5/7"
+                "american": "+130",
+                "decimal": "2.30",
+                "fractional": "13/10"
             },
-            "trueOdds": 1.71428572,
+            "trueOdds": 2.3,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "33382",
-                    "name": "OG Anunoby",
+                    "id": "649561",
+                    "name": "Jalen Williams",
                     "type": "Player",
-                    "seoIdentifier": "OG Anunoby",
+                    "seoIdentifier": "Jalen Williams",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 1.5
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA253161902#251160754_15L42648Q1-211815322Q20",
-            "marketId": "253161902",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
-            },
-            "trueOdds": 2,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33313",
-                    "name": "Mikal Bridges",
-                    "type": "Player",
-                    "seoIdentifier": "Mikal Bridges",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1.7
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA253161904#251160759_15L42648Q1-211815322Q20",
-            "marketId": "253161904",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+140",
-                "decimal": "2.40",
-                "fractional": "7/5"
-            },
-            "trueOdds": 2.4,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "488094",
-                    "name": "Tyrese Haliburton",
-                    "type": "Player",
-                    "seoIdentifier": "Tyrese Haliburton",
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA253161955#251160406_15L42648Q1-211815322Q20",
-            "marketId": "253161955",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
-            },
-            "trueOdds": 1.74074075,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33379",
-                    "name": "Pascal Siakam",
-                    "type": "Player",
-                    "seoIdentifier": "Pascal Siakam",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1.3
+                        "value": 2.1
                     },
                     "venueRole": "HomePlayer"
                 }
@@ -688,116 +273,23 @@
             "metadata": {}
         },
         {
-            "id": "0QA253161970#251160392_15L42648Q1-211815322Q20",
-            "marketId": "253161970",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
-            },
-            "trueOdds": 1.95238096,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33217",
-                    "name": "Josh Hart",
-                    "type": "Player",
-                    "seoIdentifier": "Josh Hart",
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA253161974#251160696_15L42648Q1-211815322Q20",
-            "marketId": "253161974",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−154",
-                "decimal": "1.64",
-                "fractional": "50/77"
-            },
-            "trueOdds": 1.64935065,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33089",
-                    "name": "Myles Turner",
-                    "type": "Player",
-                    "seoIdentifier": "Myles Turner",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1.7
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA253161975#251160407_15L42648Q1-211815322Q20",
-            "marketId": "253161975",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−130",
-                "decimal": "1.76",
-                "fractional": "10/13"
-            },
-            "trueOdds": 1.76923077,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "36394",
-                    "name": "Andrew Nembhard",
-                    "type": "Player",
-                    "seoIdentifier": "Andrew Nembhard",
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA253161972#251160383_13L42648Q1-1980489538Q20",
-            "marketId": "253161972",
+            "id": "0QA253072080#252654896_13L42648Q1-1980489538Q20",
+            "marketId": "253072080",
             "label": "Over",
             "displayOdds": {
-                "american": "−145",
-                "decimal": "1.68",
-                "fractional": "20/29"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 1.68965518,
+            "trueOdds": 2,
             "points": 2.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "33006",
-                    "name": "Jalen Brunson",
+                    "id": "488094",
+                    "name": "Tyrese Haliburton",
                     "type": "Player",
-                    "seoIdentifier": "Jalen Brunson",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.6
-                    },
+                    "seoIdentifier": "Tyrese Haliburton",
                     "venueRole": "AwayPlayer"
                 }
             ],
@@ -810,60 +302,52 @@
             "metadata": {}
         },
         {
-            "id": "0QA253161991#251160881_13L42648Q1-1980489538Q20",
-            "marketId": "253161991",
+            "id": "0QA253071789#251156879_13L42648Q1-1980489538Q20",
+            "marketId": "253071789",
             "label": "Over",
             "displayOdds": {
-                "american": "−140",
-                "decimal": "1.71",
-                "fractional": "5/7"
+                "american": "+145",
+                "decimal": "2.45",
+                "fractional": "29/20"
             },
-            "trueOdds": 1.71428572,
+            "trueOdds": 2.45,
             "points": 2.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "33194",
-                    "name": "Karl-Anthony Towns",
+                    "id": "33258",
+                    "name": "Shai Gilgeous-Alexander",
                     "type": "Player",
-                    "seoIdentifier": "Karl-Anthony Towns",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.6
-                    },
-                    "venueRole": "AwayPlayer"
+                    "seoIdentifier": "Shai Gilgeous-Alexander",
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 2500,
             "tags": [
                 "MainPointLine",
-                "2ndFavorite"
+                "1stFavorite"
             ],
             "main": true,
             "metadata": {}
         },
         {
-            "id": "0QA253161972#251160405_15L42648Q11614129447Q20",
-            "marketId": "253161972",
+            "id": "0QA253072080#252654897_15L42648Q11614129447Q20",
+            "marketId": "253072080",
             "label": "Under",
             "displayOdds": {
-                "american": "+114",
-                "decimal": "2.14",
-                "fractional": "57/50"
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
             },
-            "trueOdds": 2.14,
+            "trueOdds": 1.76923077,
             "points": 2.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "33006",
-                    "name": "Jalen Brunson",
+                    "id": "488094",
+                    "name": "Tyrese Haliburton",
                     "type": "Player",
-                    "seoIdentifier": "Jalen Brunson",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.6
-                    },
+                    "seoIdentifier": "Tyrese Haliburton",
                     "venueRole": "AwayPlayer"
                 }
             ],
@@ -876,34 +360,30 @@
             "metadata": {}
         },
         {
-            "id": "0QA253161991#251160888_15L42648Q11614129447Q20",
-            "marketId": "253161991",
+            "id": "0QA253071789#251156880_15L42648Q11614129447Q20",
+            "marketId": "253071789",
             "label": "Under",
             "displayOdds": {
-                "american": "+110",
-                "decimal": "2.10",
-                "fractional": "11/10"
+                "american": "−188",
+                "decimal": "1.53",
+                "fractional": "25/47"
             },
-            "trueOdds": 2.1,
+            "trueOdds": 1.5319149,
             "points": 2.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "33194",
-                    "name": "Karl-Anthony Towns",
+                    "id": "33258",
+                    "name": "Shai Gilgeous-Alexander",
                     "type": "Player",
-                    "seoIdentifier": "Karl-Anthony Towns",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 2.6
-                    },
-                    "venueRole": "AwayPlayer"
+                    "seoIdentifier": "Shai Gilgeous-Alexander",
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 2502,
             "tags": [
                 "MainPointLine",
-                "2ndFavorite"
+                "1stFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -919,39 +399,29 @@
             ]
         },
         {
-            "id": 519,
-            "name": "Team Futures",
-            "sortOrder": 1
-        },
-        {
             "id": 1264,
             "name": "Series Markets",
-            "sortOrder": 2
-        },
-        {
-            "id": 1819,
-            "name": "Finals",
-            "sortOrder": 3
+            "sortOrder": 1
         },
         {
             "id": 1255,
             "name": "Series Player Props",
-            "sortOrder": 5
+            "sortOrder": 4
         },
         {
             "id": 1661,
             "name": "Playoff Records",
-            "sortOrder": 10
+            "sortOrder": 9
         },
         {
             "id": 518,
             "name": "Awards",
-            "sortOrder": 11
+            "sortOrder": 10
         },
         {
             "id": 1215,
             "name": "Player Points",
-            "sortOrder": 20,
+            "sortOrder": 19,
             "tags": [
                 "SGP"
             ]
@@ -959,7 +429,7 @@
         {
             "id": 1218,
             "name": "Player Threes",
-            "sortOrder": 21,
+            "sortOrder": 20,
             "tags": [
                 "SGP"
             ]
@@ -967,7 +437,7 @@
         {
             "id": 1216,
             "name": "Player Rebounds",
-            "sortOrder": 22,
+            "sortOrder": 21,
             "tags": [
                 "SGP"
             ]
@@ -975,7 +445,7 @@
         {
             "id": 1217,
             "name": "Player Assists",
-            "sortOrder": 23,
+            "sortOrder": 22,
             "tags": [
                 "SGP"
             ]
@@ -983,7 +453,7 @@
         {
             "id": 583,
             "name": "Player Combos",
-            "sortOrder": 24,
+            "sortOrder": 23,
             "tags": [
                 "SGP"
             ]
@@ -991,7 +461,7 @@
         {
             "id": 1157,
             "name": "Quick Hits",
-            "sortOrder": 25,
+            "sortOrder": 24,
             "tags": [
                 "SGP"
             ]
@@ -999,7 +469,7 @@
         {
             "id": 1293,
             "name": "Player Defense",
-            "sortOrder": 28,
+            "sortOrder": 27,
             "tags": [
                 "SGP"
             ]
@@ -1007,34 +477,23 @@
         {
             "id": 1683,
             "name": "Combined Player Props",
-            "sortOrder": 29,
-            "tags": [
-                "SGP"
-            ]
+            "sortOrder": 28
         },
         {
             "id": 1684,
             "name": "Either Player Props",
-            "sortOrder": 30
+            "sortOrder": 29
         },
         {
             "id": 1320,
             "name": "Game Leaders",
-            "sortOrder": 31
-        },
-        {
-            "id": 1280,
-            "name": "Player Specials",
-            "sortOrder": 32,
-            "tags": [
-                "SGP"
-            ]
+            "sortOrder": 30
         },
         {
             "id": 1206,
             "name": "H2H Player Props",
             "categoryType": "H2H",
-            "sortOrder": 34,
+            "sortOrder": 33,
             "tags": [
                 "SGP"
             ]
@@ -1042,7 +501,7 @@
         {
             "id": 520,
             "name": "Halves",
-            "sortOrder": 38,
+            "sortOrder": 37,
             "tags": [
                 "SGP"
             ]
@@ -1050,20 +509,15 @@
         {
             "id": 522,
             "name": "Quarters",
-            "sortOrder": 39,
+            "sortOrder": 38,
             "tags": [
                 "SGP"
             ]
         },
         {
-            "id": 1682,
-            "name": "Game Threes",
-            "sortOrder": 40
-        },
-        {
             "id": 521,
             "name": "Game Props",
-            "sortOrder": 41,
+            "sortOrder": 40,
             "tags": [
                 "SGP"
             ]
@@ -1071,67 +525,24 @@
         {
             "id": 523,
             "name": "Team Props",
-            "sortOrder": 42,
+            "sortOrder": 41,
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 519,
+            "name": "Team Futures",
+            "sortOrder": 42
         }
     ],
     "subcategories": [
-        {
-            "id": 15507,
-            "categoryId": 1264,
-            "name": "Series Winner",
-            "componentId": 12,
-            "sortOrder": 1,
-            "tags": []
-        },
-        {
-            "id": 15282,
-            "categoryId": 1264,
-            "name": "Correct Score",
-            "componentId": 12,
-            "sortOrder": 13,
-            "tags": []
-        },
-        {
-            "id": 17684,
-            "categoryId": 1264,
-            "name": "Buzzer Beaters",
-            "componentId": 204,
-            "sortOrder": 24,
-            "tags": []
-        },
-        {
-            "id": 17687,
-            "categoryId": 1264,
-            "name": "Total Overtime Games",
-            "componentId": 30,
-            "sortOrder": 27,
-            "tags": []
-        },
-        {
-            "id": 12936,
-            "categoryId": 1255,
-            "name": "Threes Leader",
-            "componentId": 29,
-            "sortOrder": 12898,
-            "tags": []
-        },
         {
             "id": 7389,
             "categoryId": 518,
             "name": "Finals MVP",
             "componentId": 29,
             "sortOrder": 16399,
-            "tags": []
-        },
-        {
-            "id": 17514,
-            "categoryId": 518,
-            "name": "ECF MVP",
-            "componentId": 29,
-            "sortOrder": 17426,
             "tags": []
         },
         {
@@ -1331,22 +742,6 @@
             "tags": []
         },
         {
-            "id": 12242,
-            "categoryId": 520,
-            "name": "Spread / Total",
-            "componentId": 204,
-            "sortOrder": 6228,
-            "tags": []
-        },
-        {
-            "id": 12243,
-            "categoryId": 522,
-            "name": "Spread / Total",
-            "componentId": 204,
-            "sortOrder": 6222,
-            "tags": []
-        },
-        {
             "id": 12342,
             "categoryId": 522,
             "name": "Margin (3-Way)",
@@ -1430,50 +825,6 @@
             ]
         },
         {
-            "id": 12952,
-            "categoryId": 520,
-            "name": "Alt Team Totals",
-            "componentId": 29,
-            "sortOrder": 10897,
-            "tags": []
-        },
-        {
-            "id": 12953,
-            "categoryId": 522,
-            "name": "Alt Team Totals",
-            "componentId": 29,
-            "sortOrder": 6221,
-            "tags": []
-        },
-        {
-            "id": 13009,
-            "categoryId": 1215,
-            "name": "Race to X Points",
-            "componentId": 204,
-            "sortOrder": 12497,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 13010,
-            "categoryId": 1218,
-            "name": "Race to X Threes",
-            "componentId": 204,
-            "sortOrder": 12500,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 13158,
-            "categoryId": 521,
-            "name": "Buzzer Beater",
-            "componentId": 29,
-            "sortOrder": 4613,
-            "tags": []
-        },
-        {
             "id": 13201,
             "categoryId": 487,
             "name": "Alternate Total",
@@ -1544,14 +895,6 @@
             "tags": [
                 "SGP"
             ]
-        },
-        {
-            "id": 13781,
-            "categoryId": 1293,
-            "name": "Steals + Blocks O/U",
-            "componentId": 8,
-            "sortOrder": 13743,
-            "tags": []
         },
         {
             "id": 13782,
@@ -1643,38 +986,6 @@
             "tags": [
                 "SGP"
             ]
-        },
-        {
-            "id": 15535,
-            "categoryId": 1320,
-            "name": "Scoring Leader - 1st Quarter",
-            "componentId": 204,
-            "sortOrder": 15502,
-            "tags": []
-        },
-        {
-            "id": 15543,
-            "categoryId": 1320,
-            "name": "Scoring Leader - 1st Half",
-            "componentId": 204,
-            "sortOrder": 15508,
-            "tags": []
-        },
-        {
-            "id": 15544,
-            "categoryId": 1320,
-            "name": "Threes Leader - 1st Half",
-            "componentId": 204,
-            "sortOrder": 15540,
-            "tags": []
-        },
-        {
-            "id": 15545,
-            "categoryId": 1320,
-            "name": "Threes Leader - 1st Quarter",
-            "componentId": 204,
-            "sortOrder": 15539,
-            "tags": []
         },
         {
             "id": 15548,
@@ -1795,46 +1106,6 @@
             ]
         },
         {
-            "id": 16292,
-            "categoryId": 1682,
-            "name": "Total Threes",
-            "componentId": 29,
-            "sortOrder": 16250,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
-            "id": 16293,
-            "categoryId": 1682,
-            "name": "Team Total Threes",
-            "componentId": 29,
-            "sortOrder": 16249,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
-            "id": 16294,
-            "categoryId": 1682,
-            "name": "Threes in First 3 Min",
-            "componentId": 29,
-            "sortOrder": 16252,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
-            "id": 16296,
-            "categoryId": 1682,
-            "name": "Team Threes in First 3 Min",
-            "componentId": 29,
-            "sortOrder": 16251,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
             "id": 16305,
             "categoryId": 1157,
             "name": "1st Point",
@@ -1910,16 +1181,6 @@
             "componentId": 204,
             "sortOrder": 11447,
             "tags": []
-        },
-        {
-            "id": 16380,
-            "categoryId": 1683,
-            "name": "Combined Total Points",
-            "componentId": 29,
-            "sortOrder": 16337,
-            "tags": [
-                "SGP"
-            ]
         },
         {
             "id": 16381,
@@ -2016,24 +1277,6 @@
             "componentId": 29,
             "sortOrder": 16349,
             "tags": []
-        },
-        {
-            "id": 16463,
-            "categoryId": 1216,
-            "name": "Race to X Rebounds",
-            "componentId": 204,
-            "sortOrder": 12736,
-            "tags": []
-        },
-        {
-            "id": 16464,
-            "categoryId": 1217,
-            "name": "Race to X Assists",
-            "componentId": 204,
-            "sortOrder": 12916,
-            "tags": [
-                "SGP"
-            ]
         },
         {
             "id": 16471,
@@ -2168,16 +1411,6 @@
             "name": "Steals",
             "componentId": 331,
             "sortOrder": 13741,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 16512,
-            "categoryId": 1683,
-            "name": "Combined Player Threes",
-            "componentId": 29,
-            "sortOrder": 16338,
             "tags": [
                 "SGP"
             ]
@@ -2346,16 +1579,6 @@
             ]
         },
         {
-            "id": 16630,
-            "categoryId": 1280,
-            "name": "Any Player to Score X+ Points",
-            "componentId": 204,
-            "sortOrder": 16307,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
             "id": 16656,
             "categoryId": 1157,
             "name": "1st FG Made - Type",
@@ -2378,16 +1601,6 @@
             "componentId": 204,
             "sortOrder": 12328,
             "tags": []
-        },
-        {
-            "id": 16664,
-            "categoryId": 1280,
-            "name": "Any Player to Make X+ Threes",
-            "componentId": 204,
-            "sortOrder": 16309,
-            "tags": [
-                "SGP"
-            ]
         },
         {
             "id": 16698,
@@ -2528,129 +1741,6 @@
             "componentId": 255,
             "sortOrder": 13118,
             "tags": []
-        },
-        {
-            "id": 17695,
-            "categoryId": 1215,
-            "name": "Points - 1st 3 Mins",
-            "componentId": 331,
-            "sortOrder": 12453,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 17696,
-            "categoryId": 1217,
-            "name": "Assists 1st 3 Mins",
-            "componentId": 331,
-            "sortOrder": 12463,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 17697,
-            "categoryId": 1216,
-            "name": "Rebounds 1st 3 Mins",
-            "componentId": 331,
-            "sortOrder": 12456,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 17698,
-            "categoryId": 1683,
-            "name": "Combined Player Rebounds",
-            "componentId": 29,
-            "sortOrder": 16339,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17699,
-            "categoryId": 1683,
-            "name": "Combined Player Assists",
-            "componentId": 29,
-            "sortOrder": 16340,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17700,
-            "categoryId": 1280,
-            "name": "Any Player to Record X+ Rebounds",
-            "componentId": 204,
-            "sortOrder": 17658,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17701,
-            "categoryId": 1280,
-            "name": "Any Player to Record X+ Assists",
-            "componentId": 204,
-            "sortOrder": 17843,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17887,
-            "categoryId": 1280,
-            "name": "Free Throws Made",
-            "componentId": 29,
-            "sortOrder": 17948,
-            "tags": []
-        },
-        {
-            "id": 17959,
-            "categoryId": 1206,
-            "name": "H2H Combined Points",
-            "componentId": 204,
-            "sortOrder": 12146,
-            "tags": []
-        },
-        {
-            "id": 17960,
-            "categoryId": 1206,
-            "name": "H2H Combined Rebounds",
-            "componentId": 204,
-            "sortOrder": 12148,
-            "tags": []
-        },
-        {
-            "id": 17961,
-            "categoryId": 1206,
-            "name": "H2H Combined Assists",
-            "componentId": 204,
-            "sortOrder": 12277,
-            "tags": []
-        },
-        {
-            "id": 17962,
-            "categoryId": 1206,
-            "name": "H2H Combined Threes",
-            "componentId": 204,
-            "sortOrder": 12147,
-            "tags": []
-        },
-        {
-            "id": 17991,
-            "categoryId": 1280,
-            "name": "Player 3 Consecutive FGs Made",
-            "componentId": 29,
-            "sortOrder": 13269,
-            "tags": [
-                "Featured"
-            ]
         },
         {
             "id": 4511,
@@ -2930,43 +2020,27 @@
             "tags": []
         },
         {
-            "id": 17914,
-            "categoryId": 1819,
-            "name": "Series Winner",
-            "componentId": 29,
-            "sortOrder": 17871,
+            "id": 17927,
+            "categoryId": 1661,
+            "name": "Rebounds",
+            "componentId": 204,
+            "sortOrder": 17884,
             "tags": []
         },
         {
-            "id": 17915,
-            "categoryId": 1819,
-            "name": "Series Correct Score",
-            "componentId": 29,
-            "sortOrder": 17872,
+            "id": 17928,
+            "categoryId": 1661,
+            "name": "Assists",
+            "componentId": 204,
+            "sortOrder": 17885,
             "tags": []
         },
         {
-            "id": 17918,
-            "categoryId": 1819,
-            "name": "Series Spread",
-            "componentId": 214,
-            "sortOrder": 17875,
-            "tags": []
-        },
-        {
-            "id": 17917,
-            "categoryId": 1819,
-            "name": "Series Total Games",
-            "componentId": 29,
-            "sortOrder": 17874,
-            "tags": []
-        },
-        {
-            "id": 17916,
-            "categoryId": 1819,
-            "name": "Series Exact Games",
-            "componentId": 29,
-            "sortOrder": 17873,
+            "id": 17926,
+            "categoryId": 1661,
+            "name": "Threes",
+            "componentId": 204,
+            "sortOrder": 17883,
             "tags": []
         },
         {
@@ -2991,6 +2065,158 @@
             "name": "Playoff Specials",
             "componentId": 29,
             "sortOrder": 88,
+            "tags": []
+        },
+        {
+            "id": 15507,
+            "categoryId": 1264,
+            "name": "Series Winner",
+            "componentId": 12,
+            "sortOrder": 1,
+            "tags": []
+        },
+        {
+            "id": 15282,
+            "categoryId": 1264,
+            "name": "Correct Score",
+            "componentId": 12,
+            "sortOrder": 13,
+            "tags": []
+        },
+        {
+            "id": 15295,
+            "categoryId": 1264,
+            "name": "Series Spread",
+            "componentId": 214,
+            "sortOrder": 7,
+            "tags": []
+        },
+        {
+            "id": 13669,
+            "categoryId": 1264,
+            "name": "Total Games",
+            "componentId": 29,
+            "sortOrder": 9,
+            "tags": []
+        },
+        {
+            "id": 15283,
+            "categoryId": 1264,
+            "name": "Exact Games",
+            "componentId": 12,
+            "sortOrder": 15,
+            "tags": []
+        },
+        {
+            "id": 17684,
+            "categoryId": 1264,
+            "name": "Buzzer Beaters",
+            "componentId": 204,
+            "sortOrder": 24,
+            "tags": []
+        },
+        {
+            "id": 15284,
+            "categoryId": 1264,
+            "name": "Game X / Series Double",
+            "componentId": 204,
+            "sortOrder": 16,
+            "tags": []
+        },
+        {
+            "id": 17685,
+            "categoryId": 1264,
+            "name": "Comeback Series Win",
+            "componentId": 29,
+            "sortOrder": 25,
+            "tags": []
+        },
+        {
+            "id": 17688,
+            "categoryId": 1264,
+            "name": "Comeback Wins",
+            "componentId": 204,
+            "sortOrder": 28,
+            "tags": []
+        },
+        {
+            "id": 17687,
+            "categoryId": 1264,
+            "name": "Total Overtime Games",
+            "componentId": 30,
+            "sortOrder": 27,
+            "tags": []
+        },
+        {
+            "id": 17760,
+            "categoryId": 1264,
+            "name": "Correct Score After Game X",
+            "componentId": 29,
+            "sortOrder": 29,
+            "tags": []
+        },
+        {
+            "id": 17936,
+            "categoryId": 1264,
+            "name": "Undefeated at Home",
+            "componentId": 29,
+            "sortOrder": 30,
+            "tags": []
+        },
+        {
+            "id": 17937,
+            "categoryId": 1264,
+            "name": "Undefeated on Road",
+            "componentId": 29,
+            "sortOrder": 31,
+            "tags": []
+        },
+        {
+            "id": 13666,
+            "categoryId": 1264,
+            "name": "Exact Outcome",
+            "componentId": 204,
+            "sortOrder": 14,
+            "tags": []
+        },
+        {
+            "id": 12933,
+            "categoryId": 1255,
+            "name": "Points Leader",
+            "componentId": 29,
+            "sortOrder": 12897,
+            "tags": []
+        },
+        {
+            "id": 12934,
+            "categoryId": 1255,
+            "name": "Assists Leader",
+            "componentId": 29,
+            "sortOrder": 12900,
+            "tags": []
+        },
+        {
+            "id": 12935,
+            "categoryId": 1255,
+            "name": "Rebounds Leader",
+            "componentId": 29,
+            "sortOrder": 12899,
+            "tags": []
+        },
+        {
+            "id": 12936,
+            "categoryId": 1255,
+            "name": "Threes Leader",
+            "componentId": 29,
+            "sortOrder": 12898,
+            "tags": []
+        },
+        {
+            "id": 12938,
+            "categoryId": 1255,
+            "name": "PPG",
+            "componentId": 29,
+            "sortOrder": 12903,
             "tags": []
         }
     ],
