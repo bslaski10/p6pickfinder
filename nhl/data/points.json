@@ -776,11 +776,11 @@
             "marketId": "253210443",
             "label": "Over",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.86956522,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -821,6 +821,10 @@
                     "name": "Evan Rodrigues",
                     "type": "Player",
                     "seoIdentifier": "Evan Rodrigues",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.44
+                    },
                     "venueRole": "AwayPlayer"
                 }
             ],
@@ -1320,11 +1324,11 @@
             "marketId": "253210443",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.86956522,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -1365,6 +1369,10 @@
                     "name": "Evan Rodrigues",
                     "type": "Player",
                     "seoIdentifier": "Evan Rodrigues",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.44
+                    },
                     "venueRole": "AwayPlayer"
                 }
             ],
@@ -1949,6 +1957,11 @@
             "id": 904,
             "name": "NHL Draft",
             "sortOrder": 51
+        },
+        {
+            "id": 1832,
+            "name": "Free Agency",
+            "sortOrder": 76
         }
     ],
     "subcategories": [
@@ -2058,6 +2071,16 @@
             "componentId": 29,
             "sortOrder": 12993,
             "tags": []
+        },
+        {
+            "id": 13032,
+            "categoryId": 1259,
+            "name": "First to 5 Shots on Goal",
+            "componentId": 29,
+            "sortOrder": 12994,
+            "tags": [
+                "Featured"
+            ]
         },
         {
             "id": 13033,
@@ -2314,6 +2337,22 @@
             "tags": []
         },
         {
+            "id": 17559,
+            "categoryId": 549,
+            "name": "Exact Goals",
+            "componentId": 30,
+            "sortOrder": 6969,
+            "tags": []
+        },
+        {
+            "id": 17560,
+            "categoryId": 549,
+            "name": "Exact Team Goals",
+            "componentId": 203,
+            "sortOrder": 10967,
+            "tags": []
+        },
+        {
             "id": 17740,
             "categoryId": 1190,
             "name": "Goalscorer - 1st Period",
@@ -2332,6 +2371,70 @@
             "tags": [
                 "Featured"
             ]
+        },
+        {
+            "id": 18002,
+            "categoryId": 1189,
+            "name": "Shots on Goal - 1st Period",
+            "componentId": 331,
+            "sortOrder": 14,
+            "tags": []
+        },
+        {
+            "id": 18003,
+            "categoryId": 1189,
+            "name": "Shots on Goal - 2nd Period",
+            "componentId": 331,
+            "sortOrder": 15,
+            "tags": []
+        },
+        {
+            "id": 18004,
+            "categoryId": 1189,
+            "name": "Shots on Goal - 3rd Period",
+            "componentId": 331,
+            "sortOrder": 16,
+            "tags": []
+        },
+        {
+            "id": 18005,
+            "categoryId": 1676,
+            "name": "Assists - 1st Period",
+            "componentId": 331,
+            "sortOrder": 17962,
+            "tags": []
+        },
+        {
+            "id": 18008,
+            "categoryId": 1676,
+            "name": "Assists - 2nd Period",
+            "componentId": 331,
+            "sortOrder": 17965,
+            "tags": []
+        },
+        {
+            "id": 18009,
+            "categoryId": 1676,
+            "name": "Assists - 3rd Period",
+            "componentId": 331,
+            "sortOrder": 17966,
+            "tags": []
+        },
+        {
+            "id": 18010,
+            "categoryId": 1675,
+            "name": "Points - 1st Period",
+            "componentId": 331,
+            "sortOrder": 17967,
+            "tags": []
+        },
+        {
+            "id": 18011,
+            "categoryId": 1675,
+            "name": "Points - 2nd Period",
+            "componentId": 331,
+            "sortOrder": 17968,
+            "tags": []
         },
         {
             "id": 4525,
@@ -2475,11 +2578,27 @@
             "tags": []
         },
         {
+            "id": 15639,
+            "categoryId": 592,
+            "name": "Hart ",
+            "componentId": 29,
+            "sortOrder": 14,
+            "tags": []
+        },
+        {
             "id": 17434,
             "categoryId": 592,
             "name": "Conn Smythe Trophy",
             "componentId": 29,
             "sortOrder": 0,
+            "tags": []
+        },
+        {
+            "id": 18015,
+            "categoryId": 1832,
+            "name": "Player Next Team",
+            "componentId": 29,
+            "sortOrder": 17972,
             "tags": []
         },
         {
@@ -2507,11 +2626,35 @@
             "tags": []
         },
         {
+            "id": 17816,
+            "categoryId": 1807,
+            "name": "Combined Goals in Every Game",
+            "componentId": 29,
+            "sortOrder": 15,
+            "tags": []
+        },
+        {
+            "id": 17944,
+            "categoryId": 1807,
+            "name": "Series Most SOG",
+            "componentId": 29,
+            "sortOrder": 0,
+            "tags": []
+        },
+        {
             "id": 17796,
             "categoryId": 1807,
             "name": "X+ SOG in Every Game of Series",
             "componentId": 29,
             "sortOrder": 5,
+            "tags": []
+        },
+        {
+            "id": 17919,
+            "categoryId": 1807,
+            "name": "X+ Goals in Every Game of Series",
+            "componentId": 29,
+            "sortOrder": 4,
             "tags": []
         },
         {
@@ -2659,11 +2802,59 @@
             "tags": []
         },
         {
+            "id": 17799,
+            "categoryId": 1807,
+            "name": "Series Shots on Goal O/U",
+            "componentId": 29,
+            "sortOrder": 9,
+            "tags": []
+        },
+        {
             "id": 11508,
             "categoryId": 904,
             "name": "Pick Number",
             "componentId": 29,
             "sortOrder": 8537,
+            "tags": []
+        },
+        {
+            "id": 8545,
+            "categoryId": 904,
+            "name": "Draft Position",
+            "componentId": 29,
+            "sortOrder": 11472,
+            "tags": []
+        },
+        {
+            "id": 18017,
+            "categoryId": 904,
+            "name": "Drafted Top 10",
+            "componentId": 29,
+            "sortOrder": 17974,
+            "tags": []
+        },
+        {
+            "id": 18016,
+            "categoryId": 904,
+            "name": "Drafted Top 5",
+            "componentId": 29,
+            "sortOrder": 17973,
+            "tags": []
+        },
+        {
+            "id": 18018,
+            "categoryId": 904,
+            "name": "Drafted Round 1",
+            "componentId": 29,
+            "sortOrder": 17975,
+            "tags": []
+        },
+        {
+            "id": 11595,
+            "categoryId": 904,
+            "name": "Matchups",
+            "componentId": 29,
+            "sortOrder": 11558,
             "tags": []
         }
     ],
