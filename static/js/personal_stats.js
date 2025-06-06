@@ -233,7 +233,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const totalBets = filteredParlays.length;
         const amountBet = filteredParlays.reduce((sum, parlay) => sum + parlay.bet_amount, 0);
         const amountWon = filteredParlays.reduce((sum, parlay) => sum + parlay.total_pay, 0);
-    
+        
         // --- New: Calculate Leg Win% ---
         let totalLegs = 0;
         let totalLegWins = 0;
@@ -256,6 +256,17 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("amount-bet").innerText = `Amount Bet: $${amountBet.toFixed(2)}`;
         document.getElementById("amount-won").innerText = `Amount Won: $${amountWon.toFixed(2)}`;
     
+        // --- New: Insert ROI stat before leg win % ---
+let roi = (amountBet > 0) ? ((amountWon - amountBet) / amountBet) * 100 : 0;
+let roiStat = document.getElementById("roi-stat");
+if (!roiStat) {
+    roiStat = document.createElement("p");
+    roiStat.id = "roi-stat";
+    document.getElementById("stats").insertBefore(roiStat, document.getElementById("breakdown-stats"));
+}
+roiStat.innerHTML = `ROI: ${roi >= 0 ? '+' : ''}${roi.toFixed(2)}%`;
+
+
         // --- New: Insert Leg Win% stat after amount-won ---
         let legWinStat = document.getElementById("leg-win-stat");
         if (!legWinStat) {
@@ -263,8 +274,23 @@ document.addEventListener("DOMContentLoaded", function() {
             legWinStat.id = "leg-win-stat";
             document.getElementById("stats").insertBefore(legWinStat, document.getElementById("breakdown-stats"));
         }
-        legWinStat.innerHTML = `<strong>Leg Win % = ${legWinPercentage.toFixed(2)}%</strong>`;
+        legWinStat.innerHTML = `<strong>Individual Leg Win % = ${legWinPercentage.toFixed(2)}%</strong>`;
     
+        // --- New: Insert Parlay Win% stat below leg win % ---
+    let parlayWins = filteredParlays.filter(parlay => 
+        parlay.result.every(r => r === "win")
+    ).length;
+    let parlayWinPercentage = (filteredParlays.length > 0) ? (parlayWins / filteredParlays.length) * 100 : 0;
+
+    let parlayWinStat = document.getElementById("parlay-win-stat");
+    if (!parlayWinStat) {
+        parlayWinStat = document.createElement("p");
+        parlayWinStat.id = "parlay-win-stat";
+        document.getElementById("stats").insertBefore(parlayWinStat, document.getElementById("breakdown-stats"));
+    }
+    parlayWinStat.innerHTML = `Parlay Win % = ${parlayWinPercentage.toFixed(2)}%`;
+
+
         // --- Breakdown ---
         let breakdownDiv = document.getElementById("breakdown-stats");
         breakdownDiv.innerHTML = "";
@@ -285,7 +311,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
     
-
+    
     function getBreakdownHTML(parlays, legsCount) {
         let outcomes = {};
         for (let i = 0; i <= legsCount; i++) {

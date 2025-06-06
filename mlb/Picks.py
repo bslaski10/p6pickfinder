@@ -55,8 +55,8 @@ for pair in combinations(sorted_selections, 2):
     leg_probs = [get_implied_odds_value(int(normalize_minus_sign(sel.split(", ")[2]))) / 100 for sel in legs]
     combined_prob = leg_probs[0] * leg_probs[1]
 
-    implied_payout = 2.97
-    vig_payout = 2.7
+    implied_payout = 3.3
+    vig_payout = 3.0
 
     implied_edge = ((implied_payout * combined_prob) - 1) * 100
     vig_edge = ((vig_payout * combined_prob) - 1) * 100
