@@ -1,7 +1,10 @@
 {
     "sports": [
         {
-            "id": "2"
+            "id": "2",
+            "seoIdentifier": "Basketball",
+            "name": "Basketball",
+            "sortOrder": 61
         }
     ],
     "leagues": [
@@ -40,9 +43,176 @@
             ]
         }
     ],
-    "events": [],
-    "markets": [],
-    "selections": [],
+    "events": [
+        {
+            "id": "32369958",
+            "seoIdentifier": "LA Sparks @ DAL Wings",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "LA Sparks @ DAL Wings",
+            "startEventDate": "2025-06-07T01:30:00.0000000Z",
+            "participants": [
+                {
+                    "id": "36122",
+                    "name": "DAL Wings",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "617",
+                        "rosettaTeamId": "36122",
+                        "rosettaTeamName": "Wings",
+                        "shortName": "DAL"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Wings"
+                },
+                {
+                    "id": "36137",
+                    "name": "LA Sparks",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "616",
+                        "rosettaTeamId": "36137",
+                        "rosettaTeamName": "Sparks",
+                        "shortName": "LA"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Sparks"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "NOT_STARTED",
+            "eventScorecard": {
+                "scorecardComponentId": 1
+            },
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "56327981",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "56327981",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "56327981",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "MatchTracker",
+                "PrePack",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "676",
+                "numberOfParts": "4",
+                "secondsInOnePart": "600"
+            },
+            "sortOrder": 233001058,
+            "subscriptionKey": "league-events-94682"
+        }
+    ],
+    "markets": [
+        {
+            "id": "254504091",
+            "eventId": "32369958",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "Dearica Hamby Points + Rebounds + Assists O/U",
+            "subcategoryId": 5001,
+            "marketType": {
+                "id": "4025",
+                "betOfferTypeId": 0,
+                "name": "Points + Rebounds + Assists O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 1,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        }
+    ],
+    "selections": [
+        {
+            "id": "0QA254504091#256015338_13L94682Q1125028Q20",
+            "marketId": "254504091",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
+            },
+            "trueOdds": 1.95238096,
+            "points": 29.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "50837",
+                    "name": "Dearica Hamby",
+                    "type": "Player",
+                    "seoIdentifier": "Dearica Hamby",
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 29500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA254504091#256015339_15L94682Q1125028Q20",
+            "marketId": "254504091",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
+            },
+            "trueOdds": 1.8,
+            "points": 29.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "50837",
+                    "name": "Dearica Hamby",
+                    "type": "Player",
+                    "seoIdentifier": "Dearica Hamby",
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 29502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        }
+    ],
     "categories": [
         {
             "id": 487,
@@ -184,6 +354,78 @@
             ]
         },
         {
+            "id": 12213,
+            "categoryId": 487,
+            "name": "Quarter/Fulltime",
+            "componentId": 204,
+            "sortOrder": 12175,
+            "tags": []
+        },
+        {
+            "id": 12219,
+            "categoryId": 521,
+            "name": "Wire to Wire",
+            "componentId": 29,
+            "sortOrder": 10059,
+            "tags": []
+        },
+        {
+            "id": 12227,
+            "categoryId": 522,
+            "name": "Margin (Q1)",
+            "componentId": 202,
+            "sortOrder": 13163,
+            "tags": []
+        },
+        {
+            "id": 12230,
+            "categoryId": 522,
+            "name": "Margin - Exact (Q1)",
+            "componentId": 202,
+            "sortOrder": 13177,
+            "tags": []
+        },
+        {
+            "id": 12231,
+            "categoryId": 522,
+            "name": "Margin - Exact (Q2)",
+            "componentId": 202,
+            "sortOrder": 13180,
+            "tags": []
+        },
+        {
+            "id": 12232,
+            "categoryId": 522,
+            "name": "Margin - Exact (Q3)",
+            "componentId": 202,
+            "sortOrder": 13181,
+            "tags": []
+        },
+        {
+            "id": 12234,
+            "categoryId": 520,
+            "name": "Margin - Exact (1st Half)",
+            "componentId": 202,
+            "sortOrder": 15525,
+            "tags": []
+        },
+        {
+            "id": 12236,
+            "categoryId": 521,
+            "name": "End of Q3",
+            "componentId": 204,
+            "sortOrder": 14711,
+            "tags": []
+        },
+        {
+            "id": 12237,
+            "categoryId": 521,
+            "name": "Margin Parlays",
+            "componentId": 204,
+            "sortOrder": 15314,
+            "tags": []
+        },
+        {
             "id": 12238,
             "categoryId": 521,
             "name": "Winning Margin (Exact)",
@@ -215,16 +457,6 @@
             "name": "Rebounds O/U",
             "componentId": 8,
             "sortOrder": 12455,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 12495,
-            "categoryId": 1217,
-            "name": "Assists O/U",
-            "componentId": 8,
-            "sortOrder": 12458,
             "tags": [
                 "SGP"
             ]
@@ -359,6 +591,22 @@
             ]
         },
         {
+            "id": 16481,
+            "categoryId": 583,
+            "name": "Pts + Ast",
+            "componentId": 331,
+            "sortOrder": 5007,
+            "tags": []
+        },
+        {
+            "id": 16482,
+            "categoryId": 583,
+            "name": "Pts + Reb",
+            "componentId": 331,
+            "sortOrder": 4995,
+            "tags": []
+        },
+        {
             "id": 16483,
             "categoryId": 583,
             "name": "Pts + Reb + Ast",
@@ -401,6 +649,30 @@
             "name": "Alt Total - 1st Quarter",
             "componentId": 240,
             "sortOrder": 4619,
+            "tags": []
+        },
+        {
+            "id": 16839,
+            "categoryId": 521,
+            "name": "Correct Score (End Q1)",
+            "componentId": 255,
+            "sortOrder": 13116,
+            "tags": []
+        },
+        {
+            "id": 16840,
+            "categoryId": 521,
+            "name": "Correct Score (End Q2)",
+            "componentId": 255,
+            "sortOrder": 13117,
+            "tags": []
+        },
+        {
+            "id": 16841,
+            "categoryId": 521,
+            "name": "Correct Score (End Q3)",
+            "componentId": 255,
+            "sortOrder": 13118,
             "tags": []
         },
         {
@@ -485,16 +757,6 @@
             "tags": []
         },
         {
-            "id": 4734,
-            "categoryId": 521,
-            "name": "Race to X Points",
-            "componentId": 29,
-            "sortOrder": 4605,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
             "id": 5723,
             "categoryId": 521,
             "name": "Winning Margin",
@@ -553,107 +815,21 @@
             ]
         },
         {
-            "id": 12213,
-            "categoryId": 487,
-            "name": "Quarter/Fulltime",
-            "componentId": 204,
-            "sortOrder": 12175,
-            "tags": []
+            "id": 12495,
+            "categoryId": 1217,
+            "name": "Assists O/U",
+            "componentId": 8,
+            "sortOrder": 12458,
+            "tags": [
+                "SGP"
+            ]
         },
         {
-            "id": 12219,
-            "categoryId": 521,
-            "name": "Wire to Wire",
-            "componentId": 29,
-            "sortOrder": 10059,
-            "tags": []
-        },
-        {
-            "id": 12227,
-            "categoryId": 522,
-            "name": "Margin (Q1)",
-            "componentId": 202,
-            "sortOrder": 13163,
-            "tags": []
-        },
-        {
-            "id": 12230,
-            "categoryId": 522,
-            "name": "Margin - Exact (Q1)",
-            "componentId": 202,
-            "sortOrder": 13177,
-            "tags": []
-        },
-        {
-            "id": 12231,
-            "categoryId": 522,
-            "name": "Margin - Exact (Q2)",
-            "componentId": 202,
-            "sortOrder": 13180,
-            "tags": []
-        },
-        {
-            "id": 12232,
-            "categoryId": 522,
-            "name": "Margin - Exact (Q3)",
-            "componentId": 202,
-            "sortOrder": 13181,
-            "tags": []
-        },
-        {
-            "id": 12234,
-            "categoryId": 520,
-            "name": "Margin - Exact (1st Half)",
-            "componentId": 202,
-            "sortOrder": 15525,
-            "tags": []
-        },
-        {
-            "id": 12236,
-            "categoryId": 521,
-            "name": "End of Q3",
-            "componentId": 204,
-            "sortOrder": 14711,
-            "tags": []
-        },
-        {
-            "id": 12237,
-            "categoryId": 521,
-            "name": "Margin Parlays",
-            "componentId": 204,
-            "sortOrder": 15314,
-            "tags": []
-        },
-        {
-            "id": 16482,
+            "id": 5001,
             "categoryId": 583,
-            "name": "Pts + Reb",
-            "componentId": 331,
-            "sortOrder": 4995,
-            "tags": []
-        },
-        {
-            "id": 16839,
-            "categoryId": 521,
-            "name": "Correct Score (End Q1)",
-            "componentId": 255,
-            "sortOrder": 13116,
-            "tags": []
-        },
-        {
-            "id": 16840,
-            "categoryId": 521,
-            "name": "Correct Score (End Q2)",
-            "componentId": 255,
-            "sortOrder": 13117,
-            "tags": []
-        },
-        {
-            "id": 16841,
-            "categoryId": 521,
-            "name": "Correct Score (End Q3)",
-            "componentId": 255,
-            "sortOrder": 13118,
+            "name": "Pts + Reb + Ast O/U",
+            "componentId": 8,
+            "sortOrder": 5396,
             "tags": []
         },
         {
@@ -670,14 +846,6 @@
             "name": "Champion",
             "componentId": 29,
             "sortOrder": 4591,
-            "tags": []
-        },
-        {
-            "id": 12155,
-            "categoryId": 1017,
-            "name": "To Win x+ Games",
-            "componentId": 29,
-            "sortOrder": 9740,
             "tags": []
         }
     ],
