@@ -4,7 +4,7 @@
             "id": "8",
             "seoIdentifier": "Hockey",
             "name": "Hockey",
-            "sortOrder": 57
+            "sortOrder": 61
         }
     ],
     "leagues": [
@@ -45,42 +45,42 @@
     ],
     "events": [
         {
-            "id": "32376265",
-            "seoIdentifier": "FLA Panthers @ EDM Oilers",
+            "id": "32376318",
+            "seoIdentifier": "EDM Oilers @ FLA Panthers",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "FLA Panthers @ EDM Oilers",
-            "startEventDate": "2025-06-07T00:10:00.0000000Z",
+            "name": "EDM Oilers @ FLA Panthers",
+            "startEventDate": "2025-06-10T00:10:00.0000000Z",
             "participants": [
-                {
-                    "id": "35730",
-                    "name": "EDM Oilers",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "403",
-                        "rosettaTeamId": "35730",
-                        "rosettaTeamName": "Oilers",
-                        "shortName": "EDM",
-                        "teamColor": "#041e42"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Oilers"
-                },
                 {
                     "id": "35733",
                     "name": "FLA Panthers",
-                    "venueRole": "Away",
+                    "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "402",
+                        "retailRotNumber": "401",
                         "rosettaTeamId": "35733",
                         "rosettaTeamName": "Panthers",
                         "shortName": "FLA",
                         "teamColor": "#041e42"
                     },
-                    "sortOrder": 1,
+                    "sortOrder": 2,
                     "seoIdentifier": "Panthers"
+                },
+                {
+                    "id": "35730",
+                    "name": "EDM Oilers",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "400",
+                        "rosettaTeamId": "35730",
+                        "rosettaTeamName": "Oilers",
+                        "shortName": "EDM",
+                        "teamColor": "#041e42"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Oilers"
                 }
             ],
             "eventParticipantType": "TwoTeam",
@@ -91,12 +91,12 @@
             "media": [
                 {
                     "providerName": "BetRadarStats",
-                    "providerEventId": "59907380",
+                    "providerEventId": "59907384",
                     "mediaType": "Stats"
                 },
                 {
                     "providerName": "BetRadarV3",
-                    "providerEventId": "59907380",
+                    "providerEventId": "59907384",
                     "mediaType": "MatchTracker",
                     "metadata": {
                         "betRadarCoverage": "3"
@@ -104,7 +104,7 @@
                 },
                 {
                     "providerName": "BetRadarV3",
-                    "providerEventId": "59907380",
+                    "providerEventId": "59907384",
                     "mediaType": "Scoreboard",
                     "metadata": {
                         "betRadarCoverage": "3"
@@ -126,17 +126,17 @@
                 "numberOfParts": "3",
                 "secondsInOnePart": "1200"
             },
-            "sortOrder": 232993065,
+            "sortOrder": 233425018,
             "subscriptionKey": "league-events-42133"
         }
     ],
     "markets": [
         {
-            "id": "254324999",
-            "eventId": "32376265",
+            "id": "254759646",
+            "eventId": "32376318",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Sergei Bobrovsky Saves",
+            "name": "Stuart Skinner Saves",
             "subcategoryId": 16550,
             "marketType": {
                 "id": "13010",
@@ -151,16 +151,16 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376265|13010|2:58678",
+            "correlatedId": "32376318|13010|2:104988",
             "blurbId": "adf46aa9-994f-4db1-883d-6b8a690a26c9",
             "dynamicMetadata": {}
         },
         {
-            "id": "254325064",
-            "eventId": "32376265",
+            "id": "254759562",
+            "eventId": "32376318",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Stuart Skinner Saves",
+            "name": "Sergei Bobrovsky Saves",
             "subcategoryId": 16550,
             "marketType": {
                 "id": "13010",
@@ -175,30 +175,30 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376265|13010|2:104988",
+            "correlatedId": "32376318|13010|2:58678",
             "blurbId": "adf46aa9-994f-4db1-883d-6b8a690a26c9",
             "dynamicMetadata": {}
         }
     ],
     "selections": [
         {
-            "id": "0QA254325064#256707061_13L42133Q11249486328Q20",
-            "marketId": "254325064",
+            "id": "0QA254759562#256989916_13L42133Q11249486328Q20",
+            "marketId": "254759562",
             "label": "Over",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 2,
+            "trueOdds": 1.8,
             "points": 25.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "34693",
-                    "name": "Stuart Skinner",
+                    "id": "34728",
+                    "name": "Sergei Bobrovsky",
                     "type": "Player",
-                    "seoIdentifier": "Stuart Skinner",
+                    "seoIdentifier": "Sergei Bobrovsky",
                     "venueRole": "HomePlayer"
                 }
             ],
@@ -211,27 +211,27 @@
             "metadata": {}
         },
         {
-            "id": "0QA254324999#255849107_13L42133Q11249486328Q20",
-            "marketId": "254324999",
-            "label": "Over",
+            "id": "0QA254759562#256989917_15L42133Q12082792431Q20",
+            "marketId": "254759562",
+            "label": "Under",
             "displayOdds": {
-                "american": "−154",
-                "decimal": "1.64",
-                "fractional": "50/77"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.64935065,
+            "trueOdds": 1.95238096,
             "points": 25.5,
-            "outcomeType": "Over",
+            "outcomeType": "Under",
             "participants": [
                 {
                     "id": "34728",
                     "name": "Sergei Bobrovsky",
                     "type": "Player",
                     "seoIdentifier": "Sergei Bobrovsky",
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
-            "sortOrder": 25500,
+            "sortOrder": 25502,
             "tags": [
                 "MainPointLine",
                 "1stFavorite"
@@ -240,27 +240,27 @@
             "metadata": {}
         },
         {
-            "id": "0QA254325064#256707062_15L42133Q12082792431Q20",
-            "marketId": "254325064",
-            "label": "Under",
+            "id": "0QA254759646#256990150_13L42133Q11013361327Q20",
+            "marketId": "254759646",
+            "label": "Over",
             "displayOdds": {
                 "american": "−130",
                 "decimal": "1.76",
                 "fractional": "10/13"
             },
             "trueOdds": 1.76923077,
-            "points": 25.5,
-            "outcomeType": "Under",
+            "points": 26.5,
+            "outcomeType": "Over",
             "participants": [
                 {
                     "id": "34693",
                     "name": "Stuart Skinner",
                     "type": "Player",
                     "seoIdentifier": "Stuart Skinner",
-                    "venueRole": "HomePlayer"
+                    "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 25502,
+            "sortOrder": 26500,
             "tags": [
                 "MainPointLine",
                 "1stFavorite"
@@ -269,27 +269,27 @@
             "metadata": {}
         },
         {
-            "id": "0QA254324999#255849108_15L42133Q12082792431Q20",
-            "marketId": "254324999",
+            "id": "0QA254759646#256990151_15L42133Q1-888543477Q20",
+            "marketId": "254759646",
             "label": "Under",
             "displayOdds": {
-                "american": "+120",
-                "decimal": "2.20",
-                "fractional": "6/5"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 2.2,
-            "points": 25.5,
+            "trueOdds": 2,
+            "points": 26.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "34728",
-                    "name": "Sergei Bobrovsky",
+                    "id": "34693",
+                    "name": "Stuart Skinner",
                     "type": "Player",
-                    "seoIdentifier": "Sergei Bobrovsky",
+                    "seoIdentifier": "Stuart Skinner",
                     "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 25502,
+            "sortOrder": 26502,
             "tags": [
                 "MainPointLine",
                 "1stFavorite"
@@ -325,12 +325,12 @@
         {
             "id": 1259,
             "name": "Quick Hits",
-            "sortOrder": 11
+            "sortOrder": 13
         },
         {
             "id": 1190,
             "name": "Goalscorer",
-            "sortOrder": 12,
+            "sortOrder": 14,
             "tags": [
                 "SGP"
             ]
@@ -338,7 +338,7 @@
         {
             "id": 1189,
             "name": "Shots on Goal",
-            "sortOrder": 13,
+            "sortOrder": 15,
             "tags": [
                 "SGP"
             ]
@@ -346,7 +346,7 @@
         {
             "id": 1675,
             "name": "Points",
-            "sortOrder": 14,
+            "sortOrder": 16,
             "tags": [
                 "SGP"
             ]
@@ -354,20 +354,7 @@
         {
             "id": 1676,
             "name": "Assists",
-            "sortOrder": 15,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 1732,
-            "name": "Hits",
-            "sortOrder": 17
-        },
-        {
-            "id": 1679,
-            "name": "Blocks",
-            "sortOrder": 18,
+            "sortOrder": 17,
             "tags": [
                 "SGP"
             ]
@@ -375,12 +362,12 @@
         {
             "id": 1064,
             "name": "Goalie Props",
-            "sortOrder": 19
+            "sortOrder": 21
         },
         {
             "id": 548,
             "name": "Periods",
-            "sortOrder": 21,
+            "sortOrder": 23,
             "tags": [
                 "SGP"
             ]
@@ -388,7 +375,7 @@
         {
             "id": 1193,
             "name": "Team Totals",
-            "sortOrder": 24,
+            "sortOrder": 26,
             "tags": [
                 "SGP"
             ]
@@ -396,7 +383,7 @@
         {
             "id": 549,
             "name": "Game Props",
-            "sortOrder": 25,
+            "sortOrder": 27,
             "tags": [
                 "SGP"
             ]
@@ -404,7 +391,7 @@
         {
             "id": 547,
             "name": "Game Props (60 Min)",
-            "sortOrder": 26,
+            "sortOrder": 28,
             "tags": [
                 "SGP"
             ]
@@ -412,17 +399,17 @@
         {
             "id": 554,
             "name": "Game Parlays",
-            "sortOrder": 33
+            "sortOrder": 35
         },
         {
             "id": 592,
             "name": "Awards",
-            "sortOrder": 50
+            "sortOrder": 52
         },
         {
             "id": 904,
             "name": "NHL Draft",
-            "sortOrder": 51
+            "sortOrder": 53
         }
     ],
     "subcategories": [
@@ -647,14 +634,6 @@
             "tags": []
         },
         {
-            "id": 15407,
-            "categoryId": 1190,
-            "name": "OT Goalscorer",
-            "componentId": 204,
-            "sortOrder": 17696,
-            "tags": []
-        },
-        {
             "id": 16213,
             "categoryId": 1675,
             "name": "Points O/U",
@@ -673,24 +652,6 @@
             "tags": [
                 "Featured"
             ]
-        },
-        {
-            "id": 16257,
-            "categoryId": 1679,
-            "name": "Blocks O/U",
-            "componentId": 8,
-            "sortOrder": 16214,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 16476,
-            "categoryId": 1189,
-            "name": "Shots on Goal Leader",
-            "componentId": 204,
-            "sortOrder": 4,
-            "tags": []
         },
         {
             "id": 16544,
@@ -731,14 +692,6 @@
             "name": "Player Goal Milestones",
             "componentId": 331,
             "sortOrder": 15472,
-            "tags": []
-        },
-        {
-            "id": 16548,
-            "categoryId": 1679,
-            "name": "Blocks",
-            "componentId": 331,
-            "sortOrder": 16505,
             "tags": []
         },
         {
@@ -790,14 +743,6 @@
             "tags": []
         },
         {
-            "id": 17003,
-            "categoryId": 1190,
-            "name": "Either Player Goalscorer",
-            "componentId": 29,
-            "sortOrder": 14455,
-            "tags": []
-        },
-        {
             "id": 17236,
             "categoryId": 547,
             "name": "Race to X Goals",
@@ -832,14 +777,6 @@
             "tags": [
                 "Featured"
             ]
-        },
-        {
-            "id": 17990,
-            "categoryId": 1732,
-            "name": "Hits O/U",
-            "componentId": 29,
-            "sortOrder": 17947,
-            "tags": []
         },
         {
             "id": 18002,
@@ -1167,43 +1104,11 @@
             "tags": []
         },
         {
-            "id": 17809,
-            "categoryId": 1808,
-            "name": "Overtime Props",
-            "componentId": 29,
-            "sortOrder": 17766,
-            "tags": []
-        },
-        {
             "id": 17808,
             "categoryId": 1808,
             "name": "Hat Tricks",
             "componentId": 29,
             "sortOrder": 17765,
-            "tags": []
-        },
-        {
-            "id": 17813,
-            "categoryId": 1807,
-            "name": "OT Goal",
-            "componentId": 29,
-            "sortOrder": 12,
-            "tags": []
-        },
-        {
-            "id": 17798,
-            "categoryId": 1807,
-            "name": "Hat Trick in Any Game of Series",
-            "componentId": 29,
-            "sortOrder": 8,
-            "tags": []
-        },
-        {
-            "id": 17938,
-            "categoryId": 1808,
-            "name": "Series Total Goals",
-            "componentId": 29,
-            "sortOrder": 17895,
             "tags": []
         },
         {
@@ -1263,6 +1168,14 @@
             "tags": []
         },
         {
+            "id": 18028,
+            "categoryId": 1807,
+            "name": "H2H Saves",
+            "componentId": 29,
+            "sortOrder": 25,
+            "tags": []
+        },
+        {
             "id": 11508,
             "categoryId": 904,
             "name": "Pick Number",
@@ -1284,14 +1197,6 @@
             "name": "Drafted Top 10",
             "componentId": 29,
             "sortOrder": 17974,
-            "tags": []
-        },
-        {
-            "id": 18016,
-            "categoryId": 904,
-            "name": "Drafted Top 5",
-            "componentId": 29,
-            "sortOrder": 17973,
             "tags": []
         },
         {
