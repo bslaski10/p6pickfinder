@@ -4,7 +4,7 @@
             "id": "8",
             "seoIdentifier": "Hockey",
             "name": "Hockey",
-            "sortOrder": 61
+            "sortOrder": 63
         }
     ],
     "leagues": [
@@ -588,6 +588,30 @@
             "dynamicMetadata": {}
         },
         {
+            "id": "254844134",
+            "eventId": "32376318",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Nate Schmidt Assists",
+            "subcategoryId": 16215,
+            "marketType": {
+                "id": "12419",
+                "betOfferTypeId": 0,
+                "name": "Player Assists O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 20,
+            "tags": [
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32376318|12419|2:59236",
+            "dynamicMetadata": {}
+        },
+        {
             "id": "254759509",
             "eventId": "32376318",
             "sportId": "8",
@@ -600,7 +624,7 @@
                 "name": "Player Assists O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 20,
+            "sortOrder": 21,
             "tags": [
                 "Cashout",
                 "FeaturedSubcategory",
@@ -624,7 +648,7 @@
                 "name": "Player Assists O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 21,
+            "sortOrder": 22,
             "tags": [
                 "Cashout",
                 "FeaturedSubcategory",
@@ -648,7 +672,7 @@
                 "name": "Player Assists O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 22,
+            "sortOrder": 23,
             "tags": [
                 "Cashout",
                 "FeaturedSubcategory",
@@ -660,11 +684,11 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "254844185",
+            "id": "254844136",
             "eventId": "32376318",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Connor Brown Assists",
+            "name": "Niko Mikkola Assists",
             "subcategoryId": 16215,
             "marketType": {
                 "id": "12419",
@@ -672,7 +696,7 @@
                 "name": "Player Assists O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 23,
+            "sortOrder": 24,
             "tags": [
                 "Cashout",
                 "FeaturedSubcategory",
@@ -680,34 +704,66 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376318|12419|2:55634",
+            "correlatedId": "32376318|12419|2:101117",
             "dynamicMetadata": {}
         }
     ],
     "selections": [
         {
-            "id": "0QA254844185#257317264_13L42133Q1-2003561137Q20",
-            "marketId": "254844185",
+            "id": "0QA254844134#257317134_13L42133Q1-2003561137Q20",
+            "marketId": "254844134",
             "label": "Over",
             "displayOdds": {
-                "american": "+425",
-                "decimal": "5.25",
-                "fractional": "17/4"
+                "american": "+260",
+                "decimal": "3.60",
+                "fractional": "13/5"
             },
-            "trueOdds": 5.25,
+            "trueOdds": 3.6,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "35787",
-                    "name": "Connor Brown",
+                    "id": "35486",
+                    "name": "Nate Schmidt",
                     "type": "Player",
-                    "seoIdentifier": "Connor Brown",
+                    "seoIdentifier": "Nate Schmidt",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.22
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA254844136#257317138_13L42133Q1-2003561137Q20",
+            "marketId": "254844136",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+340",
+                "decimal": "4.40",
+                "fractional": "17/5"
+            },
+            "trueOdds": 4.4,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "34938",
+                    "name": "Niko Mikkola",
+                    "type": "Player",
+                    "seoIdentifier": "Niko Mikkola",
                     "statistic": {
                         "prefix": "Avg",
                         "value": 0.2
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 500,
@@ -1077,11 +1133,11 @@
             "marketId": "254759689",
             "label": "Over",
             "displayOdds": {
-                "american": "+250",
-                "decimal": "3.50",
-                "fractional": "5/2"
+                "american": "+230",
+                "decimal": "3.30",
+                "fractional": "23/10"
             },
-            "trueOdds": 3.5,
+            "trueOdds": 3.3,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -1395,28 +1451,60 @@
             "metadata": {}
         },
         {
-            "id": "0QA254844185#257317265_15L42133Q11021766805Q20",
-            "marketId": "254844185",
+            "id": "0QA254844134#257317135_15L42133Q11021766805Q20",
+            "marketId": "254844134",
             "label": "Under",
             "displayOdds": {
-                "american": "−675",
-                "decimal": "1.14",
-                "fractional": "4/27"
+                "american": "−370",
+                "decimal": "1.27",
+                "fractional": "10/37"
             },
-            "trueOdds": 1.14814815,
+            "trueOdds": 1.27027028,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "35787",
-                    "name": "Connor Brown",
+                    "id": "35486",
+                    "name": "Nate Schmidt",
                     "type": "Player",
-                    "seoIdentifier": "Connor Brown",
+                    "seoIdentifier": "Nate Schmidt",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.22
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA254844136#257317139_15L42133Q11021766805Q20",
+            "marketId": "254844136",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−500",
+                "decimal": "1.20",
+                "fractional": "1/5"
+            },
+            "trueOdds": 1.2,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34938",
+                    "name": "Niko Mikkola",
+                    "type": "Player",
+                    "seoIdentifier": "Niko Mikkola",
                     "statistic": {
                         "prefix": "Avg",
                         "value": 0.2
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 502,
@@ -1786,11 +1874,11 @@
             "marketId": "254759689",
             "label": "Under",
             "displayOdds": {
-                "american": "−350",
-                "decimal": "1.28",
-                "fractional": "2/7"
+                "american": "−320",
+                "decimal": "1.31",
+                "fractional": "5/16"
             },
-            "trueOdds": 1.28571429,
+            "trueOdds": 1.3125,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -2232,6 +2320,14 @@
             ]
         },
         {
+            "id": 1679,
+            "name": "Blocks",
+            "sortOrder": 20,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 1064,
             "name": "Goalie Props",
             "sortOrder": 21
@@ -2526,6 +2622,16 @@
             ]
         },
         {
+            "id": 16257,
+            "categoryId": 1679,
+            "name": "Blocks O/U",
+            "componentId": 8,
+            "sortOrder": 16214,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 16544,
             "categoryId": 1189,
             "name": "Shots on Goal",
@@ -2564,6 +2670,14 @@
             "name": "Player Goal Milestones",
             "componentId": 331,
             "sortOrder": 15472,
+            "tags": []
+        },
+        {
+            "id": 16548,
+            "categoryId": 1679,
+            "name": "Blocks",
+            "componentId": 331,
+            "sortOrder": 16505,
             "tags": []
         },
         {
@@ -3037,14 +3151,6 @@
             "name": "Series Shots on Goal O/U",
             "componentId": 29,
             "sortOrder": 9,
-            "tags": []
-        },
-        {
-            "id": 18028,
-            "categoryId": 1807,
-            "name": "H2H Saves",
-            "componentId": 29,
-            "sortOrder": 25,
             "tags": []
         },
         {
