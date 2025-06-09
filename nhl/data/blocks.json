@@ -4,7 +4,7 @@
             "id": "8",
             "seoIdentifier": "Hockey",
             "name": "Hockey",
-            "sortOrder": 63
+            "sortOrder": 57
         }
     ],
     "leagues": [
@@ -232,11 +232,11 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "254889666",
+            "id": "254889638",
             "eventId": "32376318",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Aaron Ekblad Blocks",
+            "name": "Brett Kulak Blocks",
             "subcategoryId": 16257,
             "marketType": {
                 "id": "12423",
@@ -253,15 +253,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376318|12423|2:55577",
+            "correlatedId": "32376318|12423|2:58858",
             "dynamicMetadata": {}
         },
         {
-            "id": "254889638",
+            "id": "254889666",
             "eventId": "32376318",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Brett Kulak Blocks",
+            "name": "Aaron Ekblad Blocks",
             "subcategoryId": 16257,
             "marketType": {
                 "id": "12423",
@@ -278,7 +278,7 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376318|12423|2:58858",
+            "correlatedId": "32376318|12423|2:55577",
             "dynamicMetadata": {}
         },
         {
@@ -522,11 +522,11 @@
             "marketId": "254889638",
             "label": "Over",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 1.83333334,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -824,11 +824,11 @@
             "marketId": "254889638",
             "label": "Under",
             "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.8,
+            "trueOdds": 1.90909091,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -1118,6 +1118,11 @@
             ]
         },
         {
+            "id": 1724,
+            "name": "Time on Ice",
+            "sortOrder": 18
+        },
+        {
             "id": 1679,
             "name": "Blocks",
             "sortOrder": 20,
@@ -1176,6 +1181,11 @@
             "id": 904,
             "name": "NHL Draft",
             "sortOrder": 53
+        },
+        {
+            "id": 1832,
+            "name": "Free Agency",
+            "sortOrder": 78
         }
     ],
     "subcategories": [
@@ -1400,6 +1410,14 @@
             "tags": []
         },
         {
+            "id": 15407,
+            "categoryId": 1190,
+            "name": "OT Goalscorer",
+            "componentId": 204,
+            "sortOrder": 17696,
+            "tags": []
+        },
+        {
             "id": 16213,
             "categoryId": 1675,
             "name": "Points O/U",
@@ -1428,6 +1446,14 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 16476,
+            "categoryId": 1189,
+            "name": "Shots on Goal Leader",
+            "componentId": 204,
+            "sortOrder": 4,
+            "tags": []
         },
         {
             "id": 16544,
@@ -1524,6 +1550,22 @@
             "name": "First Goal Exact",
             "componentId": 204,
             "sortOrder": 16631,
+            "tags": []
+        },
+        {
+            "id": 16874,
+            "categoryId": 1724,
+            "name": "Player Time on Ice",
+            "componentId": 29,
+            "sortOrder": 16831,
+            "tags": []
+        },
+        {
+            "id": 17003,
+            "categoryId": 1190,
+            "name": "Either Player Goalscorer",
+            "componentId": 29,
+            "sortOrder": 14455,
             "tags": []
         },
         {
@@ -1776,6 +1818,22 @@
             "tags": []
         },
         {
+            "id": 15642,
+            "categoryId": 592,
+            "name": "Vezina ",
+            "componentId": 29,
+            "sortOrder": 16,
+            "tags": []
+        },
+        {
+            "id": 15641,
+            "categoryId": 592,
+            "name": "Norris ",
+            "componentId": 29,
+            "sortOrder": 15,
+            "tags": []
+        },
+        {
             "id": 17434,
             "categoryId": 592,
             "name": "Conn Smythe Trophy",
@@ -1784,11 +1842,11 @@
             "tags": []
         },
         {
-            "id": 17803,
-            "categoryId": 1808,
-            "name": "Series Winner",
+            "id": 18015,
+            "categoryId": 1832,
+            "name": "Player Next Team",
             "componentId": 29,
-            "sortOrder": 17760,
+            "sortOrder": 17972,
             "tags": []
         },
         {
@@ -1805,6 +1863,14 @@
             "name": "Combined Goals in Every Game",
             "componentId": 29,
             "sortOrder": 15,
+            "tags": []
+        },
+        {
+            "id": 17944,
+            "categoryId": 1807,
+            "name": "Series Most SOG",
+            "componentId": 29,
+            "sortOrder": 0,
             "tags": []
         },
         {
@@ -1973,6 +2039,14 @@
             "name": "Drafted Top 10",
             "componentId": 29,
             "sortOrder": 17974,
+            "tags": []
+        },
+        {
+            "id": 18016,
+            "categoryId": 904,
+            "name": "Drafted Top 5",
+            "componentId": 29,
+            "sortOrder": 17973,
             "tags": []
         },
         {
