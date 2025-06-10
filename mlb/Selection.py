@@ -70,7 +70,7 @@ def process_category(category_name):
 # MLB stat categories to process
 mlb_stat_types = [
     'hits_runs_rbis', 
-    'hits', 
+#    'hits', 
     'tbs', 
     'singles', 
     'walks', 

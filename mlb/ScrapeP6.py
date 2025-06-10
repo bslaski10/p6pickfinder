@@ -24,7 +24,7 @@ def get_driver():
 # MLB-specific stat URLs and their labels
 urls = {
     "hits_runs_rbis": ("Hits + Runs + RBIs", "https://pick6.draftkings.com/?sport=MLB&stat=H%2BR%2BRBI"),
-    "hits": ("Hits", "https://pick6.draftkings.com/?sport=MLB&stat=H"),
+ #   "hits": ("Hits", "https://pick6.draftkings.com/?sport=MLB&stat=H"),
     "tbs": ("Total Bases", "https://pick6.draftkings.com/?sport=MLB&stat=Bases"),
     "singles": ("Singles", "https://pick6.draftkings.com/?sport=MLB&stat=1B"),
     "walks": ("Walks", "https://pick6.draftkings.com/?sport=MLB&stat=BB"),

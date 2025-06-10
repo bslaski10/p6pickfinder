@@ -6,7 +6,7 @@ import json
 # Define URLs for MLB stat types
 urls = {
     "hits_runs_rbis": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusnc/v1/leagues/84240/categories/743/subcategories/17406",
-    "hits": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusnc/v1/leagues/84240/categories/743/subcategories/6719",
+#    "hits": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusnc/v1/leagues/84240/categories/743/subcategories/6719",
     "tbs": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusnc/v1/leagues/84240/categories/743/subcategories/6607",
     "singles": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusnc/v1/leagues/84240/categories/743/subcategories/17409",
     "walks": "https://sportsbook-nash.draftkings.com/api/sportscontent/dkusnc/v1/leagues/84240/categories/743/subcategories/17411",

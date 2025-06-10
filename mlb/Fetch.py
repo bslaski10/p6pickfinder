@@ -105,7 +105,7 @@ def extract_stat_with_american_odds(input_file, output_file):
 # List of all MLB stat types to process.
 mlb_stat_types = [
     "hits_runs_rbis",
-    "hits",
+ #   "hits",
     "tbs",
     "singles",
     "walks",
