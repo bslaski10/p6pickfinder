@@ -540,11 +540,11 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "255262080",
+            "id": "255262182",
             "eventId": "32376319",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Jake Walman Assists",
+            "name": "Evander Kane Assists",
             "subcategoryId": 16215,
             "marketType": {
                 "id": "12419",
@@ -560,15 +560,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12419|2:105176",
+            "correlatedId": "32376319|12419|2:55652",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262182",
+            "id": "255262080",
             "eventId": "32376319",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Evander Kane Assists",
+            "name": "Jake Walman Assists",
             "subcategoryId": 16215,
             "marketType": {
                 "id": "12419",
@@ -584,7 +584,7 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12419|2:55652",
+            "correlatedId": "32376319|12419|2:105176",
             "dynamicMetadata": {}
         },
         {
@@ -1109,11 +1109,11 @@
             "marketId": "255262182",
             "label": "Over",
             "displayOdds": {
-                "american": "+250",
-                "decimal": "3.50",
-                "fractional": "5/2"
+                "american": "+230",
+                "decimal": "3.30",
+                "fractional": "23/10"
             },
-            "trueOdds": 3.5,
+            "trueOdds": 3.3,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -1270,11 +1270,11 @@
             "marketId": "255262315",
             "label": "Over",
             "displayOdds": {
-                "american": "+200",
-                "decimal": "3.00",
-                "fractional": "2/1"
+                "american": "+195",
+                "decimal": "2.95",
+                "fractional": "39/20"
             },
-            "trueOdds": 3,
+            "trueOdds": 2.95,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -1398,11 +1398,11 @@
             "marketId": "255428453",
             "label": "Over",
             "displayOdds": {
-                "american": "+300",
-                "decimal": "4.00",
-                "fractional": "3/1"
+                "american": "+310",
+                "decimal": "4.10",
+                "fractional": "31/10"
             },
-            "trueOdds": 4,
+            "trueOdds": 4.1,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -1946,11 +1946,11 @@
             "marketId": "255262182",
             "label": "Under",
             "displayOdds": {
-                "american": "−350",
-                "decimal": "1.28",
-                "fractional": "2/7"
+                "american": "−320",
+                "decimal": "1.31",
+                "fractional": "5/16"
             },
-            "trueOdds": 1.28571429,
+            "trueOdds": 1.3125,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -2107,11 +2107,11 @@
             "marketId": "255262315",
             "label": "Under",
             "displayOdds": {
-                "american": "−270",
+                "american": "−265",
                 "decimal": "1.37",
-                "fractional": "10/27"
+                "fractional": "20/53"
             },
-            "trueOdds": 1.37037038,
+            "trueOdds": 1.3773585,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -2235,11 +2235,11 @@
             "marketId": "255428453",
             "label": "Under",
             "displayOdds": {
-                "american": "−440",
-                "decimal": "1.22",
-                "fractional": "5/22"
+                "american": "−455",
+                "decimal": "1.21",
+                "fractional": "20/91"
             },
-            "trueOdds": 1.22727273,
+            "trueOdds": 1.21978022,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -2582,6 +2582,16 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 1724,
+            "name": "Time on Ice",
+            "sortOrder": 18
+        },
+        {
+            "id": 1732,
+            "name": "Hits",
+            "sortOrder": 19
         },
         {
             "id": 1679,
@@ -3014,6 +3024,22 @@
             "tags": []
         },
         {
+            "id": 16874,
+            "categoryId": 1724,
+            "name": "Player Time on Ice",
+            "componentId": 29,
+            "sortOrder": 16831,
+            "tags": []
+        },
+        {
+            "id": 17003,
+            "categoryId": 1190,
+            "name": "Either Player Goalscorer",
+            "componentId": 29,
+            "sortOrder": 14455,
+            "tags": []
+        },
+        {
             "id": 17236,
             "categoryId": 547,
             "name": "Race to X Goals",
@@ -3027,6 +3053,22 @@
             "name": "Power Play Points",
             "componentId": 29,
             "sortOrder": 17502,
+            "tags": []
+        },
+        {
+            "id": 17559,
+            "categoryId": 549,
+            "name": "Exact Goals",
+            "componentId": 30,
+            "sortOrder": 6969,
+            "tags": []
+        },
+        {
+            "id": 17560,
+            "categoryId": 549,
+            "name": "Exact Team Goals",
+            "componentId": 203,
+            "sortOrder": 10967,
             "tags": []
         },
         {
@@ -3048,6 +3090,14 @@
             "tags": [
                 "Featured"
             ]
+        },
+        {
+            "id": 17990,
+            "categoryId": 1732,
+            "name": "Hits O/U",
+            "componentId": 29,
+            "sortOrder": 17947,
+            "tags": []
         },
         {
             "id": 18002,
@@ -3428,6 +3478,14 @@
             "name": "Hat Tricks",
             "componentId": 29,
             "sortOrder": 17765,
+            "tags": []
+        },
+        {
+            "id": 17813,
+            "categoryId": 1807,
+            "name": "OT Goal",
+            "componentId": 29,
+            "sortOrder": 12,
             "tags": []
         },
         {
