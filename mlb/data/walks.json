@@ -405,32 +405,6 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "255232943",
-            "eventId": "32400266",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Zach Neto Walks O/U",
-            "subcategoryId": 17411,
-            "marketType": {
-                "id": "14039",
-                "betOfferTypeId": 0,
-                "name": "Walks (Batter) O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 11,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32400266|14039|2:161765",
-            "blurbId": "de97c0ea-3a62-4a97-a39d-1e4750d387c9",
-            "dynamicMetadata": {}
-        },
-        {
             "id": "255455049",
             "eventId": "32400266",
             "sportId": "7",
@@ -443,7 +417,7 @@
                 "name": "Walks (Batter) O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 12,
+            "sortOrder": 11,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -469,7 +443,7 @@
                 "name": "Walks (Batter) O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 13,
+            "sortOrder": 12,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -495,7 +469,7 @@
                 "name": "Walks (Batter) O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 14,
+            "sortOrder": 13,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -505,6 +479,32 @@
                 "PlayerProps"
             ],
             "correlatedId": "32400266|14039|2:199314",
+            "blurbId": "de97c0ea-3a62-4a97-a39d-1e4750d387c9",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "255232943",
+            "eventId": "32400266",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Zach Neto Walks O/U",
+            "subcategoryId": 17411,
+            "marketType": {
+                "id": "14039",
+                "betOfferTypeId": 0,
+                "name": "Walks (Batter) O/U"
+            },
+            "subscriptionKey": "league-events-84240",
+            "sortOrder": 14,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32400266|14039|2:161765",
             "blurbId": "de97c0ea-3a62-4a97-a39d-1e4750d387c9",
             "dynamicMetadata": {}
         },
@@ -1126,11 +1126,11 @@
             "marketId": "255232943",
             "label": "Over",
             "displayOdds": {
-                "american": "+160",
-                "decimal": "2.60",
-                "fractional": "8/5"
+                "american": "+215",
+                "decimal": "3.15",
+                "fractional": "43/20"
             },
-            "trueOdds": 2.6,
+            "trueOdds": 3.15,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -1676,11 +1676,11 @@
             "marketId": "255232943",
             "label": "Under",
             "displayOdds": {
-                "american": "−230",
-                "decimal": "1.43",
-                "fractional": "10/23"
+                "american": "−320",
+                "decimal": "1.31",
+                "fractional": "5/16"
             },
-            "trueOdds": 1.43478261,
+            "trueOdds": 1.3125,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -1729,11 +1729,6 @@
             "tags": [
                 "SGP"
             ]
-        },
-        {
-            "id": 1196,
-            "name": "Series Props",
-            "sortOrder": 4
         },
         {
             "id": 1782,
@@ -1901,22 +1896,6 @@
     ],
     "subcategories": [
         {
-            "id": 16298,
-            "categoryId": 1196,
-            "name": "Series Winner",
-            "componentId": 29,
-            "sortOrder": 12068,
-            "tags": []
-        },
-        {
-            "id": 17184,
-            "categoryId": 1765,
-            "name": "To Make The Playoffs Y/N",
-            "componentId": 29,
-            "sortOrder": 17141,
-            "tags": []
-        },
-        {
             "id": 17172,
             "categoryId": 1762,
             "name": "Winner",
@@ -1938,6 +1917,14 @@
             "name": "Specials",
             "componentId": 29,
             "sortOrder": 17132,
+            "tags": []
+        },
+        {
+            "id": 17184,
+            "categoryId": 1765,
+            "name": "To Make The Playoffs Y/N",
+            "componentId": 29,
+            "sortOrder": 17141,
             "tags": []
         },
         {
@@ -1994,50 +1981,6 @@
                 "Featured",
                 "Live"
             ]
-        },
-        {
-            "id": 12960,
-            "categoryId": 1256,
-            "name": "Strikeouts O/U",
-            "componentId": 8,
-            "sortOrder": 15436,
-            "tags": [
-                "Featured",
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 12961,
-            "categoryId": 1256,
-            "name": "Outs Recorded",
-            "componentId": 8,
-            "sortOrder": 17435,
-            "tags": []
-        },
-        {
-            "id": 12962,
-            "categoryId": 1256,
-            "name": "Hits Allowed O/U",
-            "componentId": 8,
-            "sortOrder": 17441,
-            "tags": []
-        },
-        {
-            "id": 12963,
-            "categoryId": 1256,
-            "name": "Walks Allowed O/U",
-            "componentId": 8,
-            "sortOrder": 17446,
-            "tags": []
-        },
-        {
-            "id": 12964,
-            "categoryId": 1256,
-            "name": "To Record a Win",
-            "componentId": 29,
-            "sortOrder": 17438,
-            "tags": []
         },
         {
             "id": 12968,
@@ -2195,14 +2138,6 @@
             ]
         },
         {
-            "id": 12997,
-            "categoryId": 758,
-            "name": "1st 5 Innings/Moneyline",
-            "componentId": 204,
-            "sortOrder": 12957,
-            "tags": []
-        },
-        {
             "id": 13168,
             "categoryId": 493,
             "name": "Alternate Run Line",
@@ -2236,39 +2171,6 @@
             ]
         },
         {
-            "id": 17443,
-            "categoryId": 723,
-            "name": "Runs - Listed Inning",
-            "componentId": 29,
-            "sortOrder": 17400,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 17444,
-            "categoryId": 723,
-            "name": "1st 3 Innings",
-            "componentId": 29,
-            "sortOrder": 17401,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 17445,
-            "categoryId": 723,
-            "name": "1st 5 Innings",
-            "componentId": 29,
-            "sortOrder": 17402,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
             "id": 17446,
             "categoryId": 723,
             "name": "1st 7 Innings",
@@ -2285,17 +2187,6 @@
             "name": "Inning of Last Run",
             "componentId": 29,
             "sortOrder": 17405,
-            "tags": [
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 17478,
-            "categoryId": 1256,
-            "name": "Hits Allowed",
-            "componentId": 331,
-            "sortOrder": 12921,
             "tags": [
                 "SGP",
                 "Live"
@@ -2326,18 +2217,6 @@
             ]
         },
         {
-            "id": 17481,
-            "categoryId": 1256,
-            "name": "Strikeouts",
-            "componentId": 331,
-            "sortOrder": 12920,
-            "tags": [
-                "Featured",
-                "SGP",
-                "Live"
-            ]
-        },
-        {
             "id": 17482,
             "categoryId": 985,
             "name": "Home Runs",
@@ -2357,17 +2236,6 @@
             "sortOrder": 9231,
             "tags": [
                 "Featured",
-                "SGP",
-                "Live"
-            ]
-        },
-        {
-            "id": 17484,
-            "categoryId": 1256,
-            "name": "Walks Allowed",
-            "componentId": 331,
-            "sortOrder": 12922,
-            "tags": [
                 "SGP",
                 "Live"
             ]
@@ -2593,6 +2461,117 @@
             "tags": []
         },
         {
+            "id": 17478,
+            "categoryId": 1256,
+            "name": "Hits Allowed",
+            "componentId": 331,
+            "sortOrder": 12921,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17481,
+            "categoryId": 1256,
+            "name": "Strikeouts",
+            "componentId": 331,
+            "sortOrder": 12920,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17484,
+            "categoryId": 1256,
+            "name": "Walks Allowed",
+            "componentId": 331,
+            "sortOrder": 12922,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17445,
+            "categoryId": 723,
+            "name": "1st 5 Innings",
+            "componentId": 29,
+            "sortOrder": 17402,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 15315,
+            "categoryId": 1581,
+            "name": "Live Specials",
+            "componentId": 29,
+            "sortOrder": 15236,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 12960,
+            "categoryId": 1256,
+            "name": "Strikeouts O/U",
+            "componentId": 8,
+            "sortOrder": 15436,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12961,
+            "categoryId": 1256,
+            "name": "Outs Recorded",
+            "componentId": 8,
+            "sortOrder": 17435,
+            "tags": []
+        },
+        {
+            "id": 12962,
+            "categoryId": 1256,
+            "name": "Hits Allowed O/U",
+            "componentId": 8,
+            "sortOrder": 17441,
+            "tags": []
+        },
+        {
+            "id": 12963,
+            "categoryId": 1256,
+            "name": "Walks Allowed O/U",
+            "componentId": 8,
+            "sortOrder": 17446,
+            "tags": []
+        },
+        {
+            "id": 12964,
+            "categoryId": 1256,
+            "name": "To Record a Win",
+            "componentId": 29,
+            "sortOrder": 17438,
+            "tags": []
+        },
+        {
+            "id": 17443,
+            "categoryId": 723,
+            "name": "Runs - Listed Inning",
+            "componentId": 29,
+            "sortOrder": 17400,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
             "id": 12972,
             "categoryId": 758,
             "name": "1st Scoring Play",
@@ -2615,13 +2594,21 @@
             ]
         },
         {
-            "id": 15315,
-            "categoryId": 1581,
-            "name": "Live Specials",
+            "id": 12997,
+            "categoryId": 758,
+            "name": "1st 5 Innings/Moneyline",
+            "componentId": 204,
+            "sortOrder": 12957,
+            "tags": []
+        },
+        {
+            "id": 17444,
+            "categoryId": 723,
+            "name": "1st 3 Innings",
             "componentId": 29,
-            "sortOrder": 15236,
+            "sortOrder": 17401,
             "tags": [
-                "Featured",
+                "SGP",
                 "Live"
             ]
         },
@@ -2875,8 +2862,7 @@
             "componentId": 8,
             "sortOrder": 1,
             "tags": [
-                "SGP",
-                "ProgressiveParlayEligible"
+                "SGP"
             ]
         },
         {
