@@ -4,7 +4,7 @@
             "id": "8",
             "seoIdentifier": "Hockey",
             "name": "Hockey",
-            "sortOrder": 62
+            "sortOrder": 60
         }
     ],
     "leagues": [
@@ -45,42 +45,46 @@
     ],
     "events": [
         {
-            "id": "32376319",
-            "seoIdentifier": "EDM Oilers @ FLA Panthers",
+            "id": "32376321",
+            "seoIdentifier": "FLA Panthers @ EDM Oilers",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "EDM Oilers @ FLA Panthers",
-            "startEventDate": "2025-06-13T00:10:00.0000000Z",
+            "name": "FLA Panthers @ EDM Oilers",
+            "startEventDate": "2025-06-15T00:10:00.0000000Z",
             "participants": [
-                {
-                    "id": "35733",
-                    "name": "FLA Panthers",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "403",
-                        "rosettaTeamId": "35733",
-                        "rosettaTeamName": "Panthers",
-                        "shortName": "FLA",
-                        "teamColor": "#041e42"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Panthers"
-                },
                 {
                     "id": "35730",
                     "name": "EDM Oilers",
-                    "venueRole": "Away",
+                    "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "402",
+                        "retailRotNumber": "401",
                         "rosettaTeamId": "35730",
                         "rosettaTeamName": "Oilers",
                         "shortName": "EDM",
                         "teamColor": "#041e42"
                     },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Oilers",
+                    "isNationalTeam": false,
+                    "countryCode": "ZZ"
+                },
+                {
+                    "id": "35733",
+                    "name": "FLA Panthers",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "400",
+                        "rosettaTeamId": "35733",
+                        "rosettaTeamName": "Panthers",
+                        "shortName": "FLA",
+                        "teamColor": "#041e42"
+                    },
                     "sortOrder": 1,
-                    "seoIdentifier": "Oilers"
+                    "seoIdentifier": "Panthers",
+                    "isNationalTeam": false,
+                    "countryCode": "ZZ"
                 }
             ],
             "eventParticipantType": "TwoTeam",
@@ -91,12 +95,12 @@
             "media": [
                 {
                     "providerName": "BetRadarStats",
-                    "providerEventId": "59907376",
+                    "providerEventId": "59907382",
                     "mediaType": "Stats"
                 },
                 {
                     "providerName": "BetRadarV3",
-                    "providerEventId": "59907376",
+                    "providerEventId": "59907382",
                     "mediaType": "MatchTracker",
                     "metadata": {
                         "betRadarCoverage": "3"
@@ -104,7 +108,7 @@
                 },
                 {
                     "providerName": "BetRadarV3",
-                    "providerEventId": "59907376",
+                    "providerEventId": "59907382",
                     "mediaType": "Scoreboard",
                     "metadata": {
                         "betRadarCoverage": "3"
@@ -126,14 +130,14 @@
                 "numberOfParts": "3",
                 "secondsInOnePart": "1200"
             },
-            "sortOrder": 233857019,
+            "sortOrder": 234145021,
             "subscriptionKey": "league-events-42133"
         }
     ],
     "markets": [
         {
-            "id": "255262058",
-            "eventId": "32376319",
+            "id": "255997612",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
             "name": "Connor McDavid Points",
@@ -152,12 +156,12 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55567",
+            "correlatedId": "32376321|12397|2:55567",
             "dynamicMetadata": {}
         },
         {
-            "id": "255261970",
-            "eventId": "32376319",
+            "id": "255997452",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
             "name": "Leon Draisaitl Points",
@@ -176,15 +180,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55568",
+            "correlatedId": "32376321|12397|2:55568",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262200",
-            "eventId": "32376319",
+            "id": "255997656",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Matthew Tkachuk Points",
+            "name": "Evan Bouchard Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -200,15 +204,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55526",
+            "correlatedId": "32376321|12397|2:102592",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262122",
-            "eventId": "32376319",
+            "id": "255997534",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Aleksander Barkov Points",
+            "name": "Matthew Tkachuk Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -224,15 +228,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55573",
+            "correlatedId": "32376321|12397|2:55526",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262073",
-            "eventId": "32376319",
+            "id": "255997498",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Sam Reinhart Points",
+            "name": "Aleksander Barkov Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -248,15 +252,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55520",
+            "correlatedId": "32376321|12397|2:55573",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262146",
-            "eventId": "32376319",
+            "id": "255997704",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Evan Bouchard Points",
+            "name": "Sam Reinhart Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -272,15 +276,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:102592",
+            "correlatedId": "32376321|12397|2:55520",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262143",
-            "eventId": "32376319",
+            "id": "255997675",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Carter Verhaeghe Points",
+            "name": "Ryan Nugent-Hopkins Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -296,12 +300,12 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:58876",
+            "correlatedId": "32376321|12397|2:55570",
             "dynamicMetadata": {}
         },
         {
-            "id": "255261998",
-            "eventId": "32376319",
+            "id": "255997619",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
             "name": "Sam Bennett Points",
@@ -320,15 +324,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:59128",
+            "correlatedId": "32376321|12397|2:59128",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262192",
-            "eventId": "32376319",
+            "id": "255997593",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Brad Marchand Points",
+            "name": "Carter Verhaeghe Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -344,15 +348,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55512",
+            "correlatedId": "32376321|12397|2:58876",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262289",
-            "eventId": "32376319",
+            "id": "255997671",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Ryan Nugent-Hopkins Points",
+            "name": "Brad Marchand Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -368,15 +372,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55570",
+            "correlatedId": "32376321|12397|2:55512",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262118",
-            "eventId": "32376319",
+            "id": "255997506",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Aaron Ekblad Points",
+            "name": "Evan Rodrigues Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -392,15 +396,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55577",
+            "correlatedId": "32376321|12397|2:58988",
             "dynamicMetadata": {}
         },
         {
-            "id": "255261989",
-            "eventId": "32376319",
+            "id": "255997668",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Evan Rodrigues Points",
+            "name": "Corey Perry Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -416,15 +420,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:58988",
+            "correlatedId": "32376321|12397|2:59042",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262318",
-            "eventId": "32376319",
+            "id": "255997434",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Anton Lundell Points",
+            "name": "Aaron Ekblad Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -440,15 +444,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:120319",
+            "correlatedId": "32376321|12397|2:55577",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262171",
-            "eventId": "32376319",
+            "id": "255997429",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Corey Perry Points",
+            "name": "Anton Lundell Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -464,15 +468,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:59042",
+            "correlatedId": "32376321|12397|2:120319",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262181",
-            "eventId": "32376319",
+            "id": "255997556",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Evander Kane Points",
+            "name": "Seth Jones Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -488,15 +492,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55652",
+            "correlatedId": "32376321|12397|2:55550",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262172",
-            "eventId": "32376319",
+            "id": "255997760",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Seth Jones Points",
+            "name": "Evander Kane Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -512,15 +516,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55550",
+            "correlatedId": "32376321|12397|2:55652",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262151",
-            "eventId": "32376319",
+            "id": "255997532",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Eetu Luostarinen Points",
+            "name": "Mattias Ekholm Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -536,15 +540,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:101175",
+            "correlatedId": "32376321|12397|2:55608",
             "dynamicMetadata": {}
         },
         {
-            "id": "255428101",
-            "eventId": "32376319",
+            "id": "256094557",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Kasperi Kapanen Points",
+            "name": "Connor Brown Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -560,15 +564,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55681",
+            "correlatedId": "32376321|12397|2:55634",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262208",
-            "eventId": "32376319",
+            "id": "256094607",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Mattias Ekholm Points",
+            "name": "Eetu Luostarinen Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -584,15 +588,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55608",
+            "correlatedId": "32376321|12397|2:101175",
             "dynamicMetadata": {}
         },
         {
-            "id": "255428194",
-            "eventId": "32376319",
+            "id": "256094564",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Connor Brown Points",
+            "name": "Kasperi Kapanen Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -608,12 +612,12 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55634",
+            "correlatedId": "32376321|12397|2:55681",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262079",
-            "eventId": "32376319",
+            "id": "255997637",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
             "name": "Jake Walman Points",
@@ -632,12 +636,12 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:105176",
+            "correlatedId": "32376321|12397|2:105176",
             "dynamicMetadata": {}
         },
         {
-            "id": "255429112",
-            "eventId": "32376319",
+            "id": "256094605",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
             "name": "Nate Schmidt Points",
@@ -656,15 +660,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:59236",
+            "correlatedId": "32376321|12397|2:59236",
             "dynamicMetadata": {}
         },
         {
-            "id": "255261982",
-            "eventId": "32376319",
+            "id": "256094497",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Gustav Forsling Points",
+            "name": "Adam Henrique Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -680,15 +684,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:101178",
+            "correlatedId": "32376321|12397|2:55504",
             "dynamicMetadata": {}
         },
         {
-            "id": "255883865",
-            "eventId": "32376319",
+            "id": "255997447",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Jeff Skinner Points",
+            "name": "Gustav Forsling Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -704,15 +708,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55517",
+            "correlatedId": "32376321|12397|2:101178",
             "dynamicMetadata": {}
         },
         {
-            "id": "255262183",
-            "eventId": "32376319",
+            "id": "256094561",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Darnell Nurse Points",
+            "name": "Jeff Skinner Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -728,15 +732,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:59162",
+            "correlatedId": "32376321|12397|2:55517",
             "dynamicMetadata": {}
         },
         {
-            "id": "255429116",
-            "eventId": "32376319",
+            "id": "255997695",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Niko Mikkola Points",
+            "name": "Darnell Nurse Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -752,15 +756,15 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:101117",
+            "correlatedId": "32376321|12397|2:59162",
             "dynamicMetadata": {}
         },
         {
-            "id": "255891567",
-            "eventId": "32376319",
+            "id": "256094597",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
-            "name": "Adam Henrique Points",
+            "name": "Niko Mikkola Points",
             "subcategoryId": 16213,
             "marketType": {
                 "id": "12397",
@@ -776,12 +780,12 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:55504",
+            "correlatedId": "32376321|12397|2:101117",
             "dynamicMetadata": {}
         },
         {
-            "id": "255428751",
-            "eventId": "32376319",
+            "id": "256094518",
+            "eventId": "32376321",
             "sportId": "8",
             "leagueId": "42133",
             "name": "Brett Kulak Points",
@@ -800,32 +804,32 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32376319|12397|2:58858",
+            "correlatedId": "32376321|12397|2:58858",
             "dynamicMetadata": {}
         }
     ],
     "selections": [
         {
-            "id": "0QA255261982#258894753_13L42133Q11680966517Q20",
-            "marketId": "255261982",
+            "id": "0QA256094497#261659192_13L42133Q11680966517Q20",
+            "marketId": "256094497",
             "label": "Over",
             "displayOdds": {
-                "american": "+220",
-                "decimal": "3.20",
-                "fractional": "11/5"
+                "american": "+230",
+                "decimal": "3.30",
+                "fractional": "23/10"
             },
-            "trueOdds": 3.2,
+            "trueOdds": 3.3,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "35142",
-                    "name": "Gustav Forsling",
+                    "id": "34564",
+                    "name": "Adam Henrique",
                     "type": "Player",
-                    "seoIdentifier": "Gustav Forsling",
+                    "seoIdentifier": "Adam Henrique",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 0.35
+                        "value": 0.34
                     },
                     "venueRole": "HomePlayer"
                 }
@@ -838,26 +842,26 @@
             "metadata": {}
         },
         {
-            "id": "0QA255261989#258894786_13L42133Q11680966517Q20",
-            "marketId": "255261989",
+            "id": "0QA256094518#261659238_13L42133Q11680966517Q20",
+            "marketId": "256094518",
             "label": "Over",
             "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
+                "american": "+300",
+                "decimal": "4.00",
+                "fractional": "3/1"
             },
-            "trueOdds": 1.95238096,
+            "trueOdds": 4,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "34949",
-                    "name": "Evan Rodrigues",
+                    "id": "35184",
+                    "name": "Brett Kulak",
                     "type": "Player",
-                    "seoIdentifier": "Evan Rodrigues",
+                    "seoIdentifier": "Brett Kulak",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 0.47
+                        "value": 0.29
                     },
                     "venueRole": "HomePlayer"
                 }
@@ -870,595 +874,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA255261998#258894807_13L42133Q11680966517Q20",
-            "marketId": "255261998",
+            "id": "0QA256094557#261659352_13L42133Q11680966517Q20",
+            "marketId": "256094557",
             "label": "Over",
             "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
+                "american": "+170",
+                "decimal": "2.70",
+                "fractional": "17/10"
             },
-            "trueOdds": 1.74074075,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "34995",
-                    "name": "Sam Bennett",
-                    "type": "Player",
-                    "seoIdentifier": "Sam Bennett",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.73
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262073#258894998_13L42133Q11680966517Q20",
-            "marketId": "255262073",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−188",
-                "decimal": "1.53",
-                "fractional": "25/47"
-            },
-            "trueOdds": 1.5319149,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "34943",
-                    "name": "Sam Reinhart",
-                    "type": "Player",
-                    "seoIdentifier": "Sam Reinhart",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.99
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262079#258895017_13L42133Q11680966517Q20",
-            "marketId": "255262079",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+190",
-                "decimal": "2.90",
-                "fractional": "19/10"
-            },
-            "trueOdds": 2.9,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35009",
-                    "name": "Jake Walman",
-                    "type": "Player",
-                    "seoIdentifier": "Jake Walman",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.57
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262118#258895143_13L42133Q11680966517Q20",
-            "marketId": "255262118",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
-            },
-            "trueOdds": 1.95238096,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "34755",
-                    "name": "Aaron Ekblad",
-                    "type": "Player",
-                    "seoIdentifier": "Aaron Ekblad",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.62
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262122#258895153_13L42133Q11680966517Q20",
-            "marketId": "255262122",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−198",
-                "decimal": "1.50",
-                "fractional": "50/99"
-            },
-            "trueOdds": 1.50505051,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "34722",
-                    "name": "Aleksander Barkov",
-                    "type": "Player",
-                    "seoIdentifier": "Aleksander Barkov",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine",
-                "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262143#258895222_13L42133Q11680966517Q20",
-            "marketId": "255262143",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−148",
-                "decimal": "1.67",
-                "fractional": "25/37"
-            },
-            "trueOdds": 1.67567568,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35143",
-                    "name": "Carter Verhaeghe",
-                    "type": "Player",
-                    "seoIdentifier": "Carter Verhaeghe",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.71
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262146#258895205_13L42133Q11680966517Q20",
-            "marketId": "255262146",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−168",
-                "decimal": "1.59",
-                "fractional": "25/42"
-            },
-            "trueOdds": 1.5952381,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35916",
-                    "name": "Evan Bouchard",
-                    "type": "Player",
-                    "seoIdentifier": "Evan Bouchard",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.88
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262151#258895237_13L42133Q11680966517Q20",
-            "marketId": "255262151",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+145",
-                "decimal": "2.45",
-                "fractional": "29/20"
-            },
-            "trueOdds": 2.45,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35174",
-                    "name": "Eetu Luostarinen",
-                    "type": "Player",
-                    "seoIdentifier": "Eetu Luostarinen",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.4
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262171#258895291_13L42133Q11680966517Q20",
-            "marketId": "255262171",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+115",
-                "decimal": "2.15",
-                "fractional": "23/20"
-            },
-            "trueOdds": 2.15,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35812",
-                    "name": "Corey Perry",
-                    "type": "Player",
-                    "seoIdentifier": "Corey Perry",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.43
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262172#258895277_13L42133Q11680966517Q20",
-            "marketId": "255262172",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+130",
-                "decimal": "2.30",
-                "fractional": "13/10"
-            },
-            "trueOdds": 2.3,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35593",
-                    "name": "Seth Jones",
-                    "type": "Player",
-                    "seoIdentifier": "Seth Jones",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.54
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262181#258895289_13L42133Q11680966517Q20",
-            "marketId": "255262181",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+120",
-                "decimal": "2.20",
-                "fractional": "6/5"
-            },
-            "trueOdds": 2.2,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "34770",
-                    "name": "Evander Kane",
-                    "type": "Player",
-                    "seoIdentifier": "Evander Kane",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.67
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262183#258895301_13L42133Q11680966517Q20",
-            "marketId": "255262183",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+260",
-                "decimal": "3.60",
-                "fractional": "13/5"
-            },
-            "trueOdds": 3.6,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "34664",
-                    "name": "Darnell Nurse",
-                    "type": "Player",
-                    "seoIdentifier": "Darnell Nurse",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.4
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262192#258895339_13L42133Q11680966517Q20",
-            "marketId": "255262192",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
-            },
-            "trueOdds": 1.83333334,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "34795",
-                    "name": "Brad Marchand",
-                    "type": "Player",
-                    "seoIdentifier": "Brad Marchand",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.74
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262200#258895408_13L42133Q11680966517Q20",
-            "marketId": "255262200",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−225",
-                "decimal": "1.44",
-                "fractional": "4/9"
-            },
-            "trueOdds": 1.44444445,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35097",
-                    "name": "Matthew Tkachuk",
-                    "type": "Player",
-                    "seoIdentifier": "Matthew Tkachuk",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1.04
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262208#258895399_13L42133Q11680966517Q20",
-            "marketId": "255262208",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+176",
-                "decimal": "2.76",
-                "fractional": "44/25"
-            },
-            "trueOdds": 2.76,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35271",
-                    "name": "Mattias Ekholm",
-                    "type": "Player",
-                    "seoIdentifier": "Mattias Ekholm",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.51
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262289#258895584_13L42133Q11680966517Q20",
-            "marketId": "255262289",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
-            },
-            "trueOdds": 1.83333334,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "34661",
-                    "name": "Ryan Nugent-Hopkins",
-                    "type": "Player",
-                    "seoIdentifier": "Ryan Nugent-Hopkins",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.69
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262318#258895652_13L42133Q11680966517Q20",
-            "marketId": "255262318",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+115",
-                "decimal": "2.15",
-                "fractional": "23/20"
-            },
-            "trueOdds": 2.15,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "572178",
-                    "name": "Anton Lundell",
-                    "type": "Player",
-                    "seoIdentifier": "Anton Lundell",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.6
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255428101#259386993_13L42133Q11680966517Q20",
-            "marketId": "255428101",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+176",
-                "decimal": "2.76",
-                "fractional": "44/25"
-            },
-            "trueOdds": 2.76,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35211",
-                    "name": "Kasperi Kapanen",
-                    "type": "Player",
-                    "seoIdentifier": "Kasperi Kapanen",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.25
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255428194#259387258_13L42133Q11680966517Q20",
-            "marketId": "255428194",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+180",
-                "decimal": "2.80",
-                "fractional": "9/5"
-            },
-            "trueOdds": 2.8,
+            "trueOdds": 2.7,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -1471,70 +895,6 @@
                         "prefix": "Avg",
                         "value": 0.38
                     },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255428751#259389007_13L42133Q11680966517Q20",
-            "marketId": "255428751",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+340",
-                "decimal": "4.40",
-                "fractional": "17/5"
-            },
-            "trueOdds": 4.4,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35184",
-                    "name": "Brett Kulak",
-                    "type": "Player",
-                    "seoIdentifier": "Brett Kulak",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.3
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255429112#259389960_13L42133Q11680966517Q20",
-            "marketId": "255429112",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+195",
-                "decimal": "2.95",
-                "fractional": "39/20"
-            },
-            "trueOdds": 2.95,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "35486",
-                    "name": "Nate Schmidt",
-                    "type": "Player",
-                    "seoIdentifier": "Nate Schmidt",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.31
-                    },
                     "venueRole": "HomePlayer"
                 }
             ],
@@ -1546,40 +906,8 @@
             "metadata": {}
         },
         {
-            "id": "0QA255429116#259389970_13L42133Q11680966517Q20",
-            "marketId": "255429116",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+260",
-                "decimal": "3.60",
-                "fractional": "13/5"
-            },
-            "trueOdds": 3.6,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "34938",
-                    "name": "Niko Mikkola",
-                    "type": "Player",
-                    "seoIdentifier": "Niko Mikkola",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.3
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255883865#260859980_13L42133Q11680966517Q20",
-            "marketId": "255883865",
+            "id": "0QA256094561#261659361_13L42133Q11680966517Q20",
+            "marketId": "256094561",
             "label": "Over",
             "displayOdds": {
                 "american": "+230",
@@ -1597,7 +925,71 @@
                     "seoIdentifier": "Jeff Skinner",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 0.42
+                        "value": 0.41
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA256094564#261659370_13L42133Q11680966517Q20",
+            "marketId": "256094564",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+170",
+                "decimal": "2.70",
+                "fractional": "17/10"
+            },
+            "trueOdds": 2.7,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35211",
+                    "name": "Kasperi Kapanen",
+                    "type": "Player",
+                    "seoIdentifier": "Kasperi Kapanen",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.26
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA256094597#261659465_13L42133Q11680966517Q20",
+            "marketId": "256094597",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+290",
+                "decimal": "3.90",
+                "fractional": "29/10"
+            },
+            "trueOdds": 3.9,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "34938",
+                    "name": "Niko Mikkola",
+                    "type": "Player",
+                    "seoIdentifier": "Niko Mikkola",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.29
                     },
                     "venueRole": "AwayPlayer"
                 }
@@ -1610,8 +1002,555 @@
             "metadata": {}
         },
         {
-            "id": "0QA255891567#260898158_13L42133Q11680966517Q20",
-            "marketId": "255891567",
+            "id": "0QA256094605#261659494_13L42133Q11680966517Q20",
+            "marketId": "256094605",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+200",
+                "decimal": "3.00",
+                "fractional": "2/1"
+            },
+            "trueOdds": 3,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35486",
+                    "name": "Nate Schmidt",
+                    "type": "Player",
+                    "seoIdentifier": "Nate Schmidt",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.31
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA256094607#261659502_13L42133Q11680966517Q20",
+            "marketId": "256094607",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+170",
+                "decimal": "2.70",
+                "fractional": "17/10"
+            },
+            "trueOdds": 2.7,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35174",
+                    "name": "Eetu Luostarinen",
+                    "type": "Player",
+                    "seoIdentifier": "Eetu Luostarinen",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.39
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997429#261327396_13L42133Q11680966517Q20",
+            "marketId": "255997429",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+126",
+                "decimal": "2.26",
+                "fractional": "63/50"
+            },
+            "trueOdds": 2.26,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "572178",
+                    "name": "Anton Lundell",
+                    "type": "Player",
+                    "seoIdentifier": "Anton Lundell",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.6
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997434#261327406_13L42133Q11680966517Q20",
+            "marketId": "255997434",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+115",
+                "decimal": "2.15",
+                "fractional": "23/20"
+            },
+            "trueOdds": 2.15,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "34755",
+                    "name": "Aaron Ekblad",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Ekblad",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.62
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997447#261327430_13L42133Q11680966517Q20",
+            "marketId": "255997447",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+230",
+                "decimal": "3.30",
+                "fractional": "23/10"
+            },
+            "trueOdds": 3.3,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35142",
+                    "name": "Gustav Forsling",
+                    "type": "Player",
+                    "seoIdentifier": "Gustav Forsling",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.35
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997498#261327568_13L42133Q11680966517Q20",
+            "marketId": "255997498",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−168",
+                "decimal": "1.59",
+                "fractional": "25/42"
+            },
+            "trueOdds": 1.5952381,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "34722",
+                    "name": "Aleksander Barkov",
+                    "type": "Player",
+                    "seoIdentifier": "Aleksander Barkov",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 1.01
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997506#261327589_13L42133Q11680966517Q20",
+            "marketId": "255997506",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
+            },
+            "trueOdds": 2.05,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "34949",
+                    "name": "Evan Rodrigues",
+                    "type": "Player",
+                    "seoIdentifier": "Evan Rodrigues",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.47
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997532#261327688_13L42133Q11680966517Q20",
+            "marketId": "255997532",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+160",
+                "decimal": "2.60",
+                "fractional": "8/5"
+            },
+            "trueOdds": 2.6,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35271",
+                    "name": "Mattias Ekholm",
+                    "type": "Player",
+                    "seoIdentifier": "Mattias Ekholm",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.53
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997534#261327685_13L42133Q11680966517Q20",
+            "marketId": "255997534",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−188",
+                "decimal": "1.53",
+                "fractional": "25/47"
+            },
+            "trueOdds": 1.5319149,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35097",
+                    "name": "Matthew Tkachuk",
+                    "type": "Player",
+                    "seoIdentifier": "Matthew Tkachuk",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 1.07
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997556#261327731_13L42133Q11680966517Q20",
+            "marketId": "255997556",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+135",
+                "decimal": "2.35",
+                "fractional": "27/20"
+            },
+            "trueOdds": 2.35,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35593",
+                    "name": "Seth Jones",
+                    "type": "Player",
+                    "seoIdentifier": "Seth Jones",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.54
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997593#261327838_13L42133Q11680966517Q20",
+            "marketId": "255997593",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
+            },
+            "trueOdds": 1.74074075,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35143",
+                    "name": "Carter Verhaeghe",
+                    "type": "Player",
+                    "seoIdentifier": "Carter Verhaeghe",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.72
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997619#261327915_13L42133Q11680966517Q20",
+            "marketId": "255997619",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−142",
+                "decimal": "1.70",
+                "fractional": "50/71"
+            },
+            "trueOdds": 1.70422536,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "34995",
+                    "name": "Sam Bennett",
+                    "type": "Player",
+                    "seoIdentifier": "Sam Bennett",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.73
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997637#261327975_13L42133Q11680966517Q20",
+            "marketId": "255997637",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+180",
+                "decimal": "2.80",
+                "fractional": "9/5"
+            },
+            "trueOdds": 2.8,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35009",
+                    "name": "Jake Walman",
+                    "type": "Player",
+                    "seoIdentifier": "Jake Walman",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.58
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997656#261328009_13L42133Q11680966517Q20",
+            "marketId": "255997656",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−188",
+                "decimal": "1.53",
+                "fractional": "25/47"
+            },
+            "trueOdds": 1.5319149,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35916",
+                    "name": "Evan Bouchard",
+                    "type": "Player",
+                    "seoIdentifier": "Evan Bouchard",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.87
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997668#261328058_13L42133Q11680966517Q20",
+            "marketId": "255997668",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
+            },
+            "trueOdds": 2.1,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "35812",
+                    "name": "Corey Perry",
+                    "type": "Player",
+                    "seoIdentifier": "Corey Perry",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.43
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997671#261328104_13L42133Q11680966517Q20",
+            "marketId": "255997671",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
+            },
+            "trueOdds": 1.95238096,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "34795",
+                    "name": "Brad Marchand",
+                    "type": "Player",
+                    "seoIdentifier": "Brad Marchand",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.73
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997675#261328078_13L42133Q11680966517Q20",
+            "marketId": "255997675",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−142",
+                "decimal": "1.70",
+                "fractional": "50/71"
+            },
+            "trueOdds": 1.70422536,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "34661",
+                    "name": "Ryan Nugent-Hopkins",
+                    "type": "Player",
+                    "seoIdentifier": "Ryan Nugent-Hopkins",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.7
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997695#261328133_13L42133Q11680966517Q20",
+            "marketId": "255997695",
             "label": "Over",
             "displayOdds": {
                 "american": "+270",
@@ -1623,15 +1562,15 @@
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "34564",
-                    "name": "Adam Henrique",
+                    "id": "34664",
+                    "name": "Darnell Nurse",
                     "type": "Player",
-                    "seoIdentifier": "Adam Henrique",
+                    "seoIdentifier": "Darnell Nurse",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 0.33
+                        "value": 0.42
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 500,
@@ -1642,113 +1581,17 @@
             "metadata": {}
         },
         {
-            "id": "0QA255261982#258894754_15L42133Q1764243529Q20",
-            "marketId": "255261982",
-            "label": "Under",
+            "id": "0QA255997704#261328151_13L42133Q11680966517Q20",
+            "marketId": "255997704",
+            "label": "Over",
             "displayOdds": {
-                "american": "−300",
-                "decimal": "1.33",
-                "fractional": "1/3"
+                "american": "−168",
+                "decimal": "1.59",
+                "fractional": "25/42"
             },
-            "trueOdds": 1.33333334,
+            "trueOdds": 1.5952381,
             "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35142",
-                    "name": "Gustav Forsling",
-                    "type": "Player",
-                    "seoIdentifier": "Gustav Forsling",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.35
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255261989#258894787_15L42133Q1764243529Q20",
-            "marketId": "255261989",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
-            },
-            "trueOdds": 1.8,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "34949",
-                    "name": "Evan Rodrigues",
-                    "type": "Player",
-                    "seoIdentifier": "Evan Rodrigues",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.47
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255261998#258894808_15L42133Q1764243529Q20",
-            "marketId": "255261998",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
-            },
-            "trueOdds": 2.05,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "34995",
-                    "name": "Sam Bennett",
-                    "type": "Player",
-                    "seoIdentifier": "Sam Bennett",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.73
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262073#258894999_15L42133Q1764243529Q20",
-            "marketId": "255262073",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+145",
-                "decimal": "2.45",
-                "fractional": "29/20"
-            },
-            "trueOdds": 2.45,
-            "points": 0.5,
-            "outcomeType": "Under",
+            "outcomeType": "Over",
             "participants": [
                 {
                     "id": "34943",
@@ -1757,12 +1600,12 @@
                     "seoIdentifier": "Sam Reinhart",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 0.99
+                        "value": 1.01
                     },
-                    "venueRole": "HomePlayer"
+                    "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 502,
+            "sortOrder": 500,
             "tags": [
                 "MainPointLine",
                 "3rdFavorite"
@@ -1771,73 +1614,9 @@
             "metadata": {}
         },
         {
-            "id": "0QA255262079#258895018_15L42133Q1764243529Q20",
-            "marketId": "255262079",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−255",
-                "decimal": "1.39",
-                "fractional": "20/51"
-            },
-            "trueOdds": 1.39215687,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35009",
-                    "name": "Jake Walman",
-                    "type": "Player",
-                    "seoIdentifier": "Jake Walman",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.57
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262118#258895144_15L42133Q1764243529Q20",
-            "marketId": "255262118",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−125",
-                "decimal": "1.80",
-                "fractional": "4/5"
-            },
-            "trueOdds": 1.8,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "34755",
-                    "name": "Aaron Ekblad",
-                    "type": "Player",
-                    "seoIdentifier": "Aaron Ekblad",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.62
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262122#258895154_15L42133Q1764243529Q20",
-            "marketId": "255262122",
-            "label": "Under",
+            "id": "0QA255997760#261328296_13L42133Q11680966517Q20",
+            "marketId": "255997760",
+            "label": "Over",
             "displayOdds": {
                 "american": "+150",
                 "decimal": "2.50",
@@ -1845,201 +1624,7 @@
             },
             "trueOdds": 2.5,
             "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "34722",
-                    "name": "Aleksander Barkov",
-                    "type": "Player",
-                    "seoIdentifier": "Aleksander Barkov",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine",
-                "2ndFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262143#258895223_15L42133Q1764243529Q20",
-            "marketId": "255262143",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+115",
-                "decimal": "2.15",
-                "fractional": "23/20"
-            },
-            "trueOdds": 2.15,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35143",
-                    "name": "Carter Verhaeghe",
-                    "type": "Player",
-                    "seoIdentifier": "Carter Verhaeghe",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.71
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262146#258895206_15L42133Q1764243529Q20",
-            "marketId": "255262146",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+130",
-                "decimal": "2.30",
-                "fractional": "13/10"
-            },
-            "trueOdds": 2.3,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35916",
-                    "name": "Evan Bouchard",
-                    "type": "Player",
-                    "seoIdentifier": "Evan Bouchard",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.88
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262151#258895238_15L42133Q1764243529Q20",
-            "marketId": "255262151",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−188",
-                "decimal": "1.53",
-                "fractional": "25/47"
-            },
-            "trueOdds": 1.5319149,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35174",
-                    "name": "Eetu Luostarinen",
-                    "type": "Player",
-                    "seoIdentifier": "Eetu Luostarinen",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.4
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262171#258895292_15L42133Q1764243529Q20",
-            "marketId": "255262171",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−148",
-                "decimal": "1.67",
-                "fractional": "25/37"
-            },
-            "trueOdds": 1.67567568,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35812",
-                    "name": "Corey Perry",
-                    "type": "Player",
-                    "seoIdentifier": "Corey Perry",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.43
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262172#258895279_15L42133Q1764243529Q20",
-            "marketId": "255262172",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−168",
-                "decimal": "1.59",
-                "fractional": "25/42"
-            },
-            "trueOdds": 1.5952381,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35593",
-                    "name": "Seth Jones",
-                    "type": "Player",
-                    "seoIdentifier": "Seth Jones",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.54
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262181#258895290_15L42133Q1764243529Q20",
-            "marketId": "255262181",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−154",
-                "decimal": "1.64",
-                "fractional": "50/77"
-            },
-            "trueOdds": 1.64935065,
-            "points": 0.5,
-            "outcomeType": "Under",
+            "outcomeType": "Over",
             "participants": [
                 {
                     "id": "34770",
@@ -2048,12 +1633,12 @@
                     "seoIdentifier": "Evander Kane",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 0.67
+                        "value": 0.63
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
-            "sortOrder": 502,
+            "sortOrder": 500,
             "tags": [
                 "MainPointLine"
             ],
@@ -2061,58 +1646,26 @@
             "metadata": {}
         },
         {
-            "id": "0QA255262183#258895302_15L42133Q1764243529Q20",
-            "marketId": "255262183",
+            "id": "0QA256094497#261659193_15L42133Q1764243529Q20",
+            "marketId": "256094497",
             "label": "Under",
             "displayOdds": {
-                "american": "−370",
-                "decimal": "1.27",
-                "fractional": "10/37"
+                "american": "−320",
+                "decimal": "1.31",
+                "fractional": "5/16"
             },
-            "trueOdds": 1.27027028,
+            "trueOdds": 1.3125,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "34664",
-                    "name": "Darnell Nurse",
+                    "id": "34564",
+                    "name": "Adam Henrique",
                     "type": "Player",
-                    "seoIdentifier": "Darnell Nurse",
+                    "seoIdentifier": "Adam Henrique",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 0.4
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262192#258895340_15L42133Q1764243529Q20",
-            "marketId": "255262192",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "34795",
-                    "name": "Brad Marchand",
-                    "type": "Player",
-                    "seoIdentifier": "Brad Marchand",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.74
+                        "value": 0.34
                     },
                     "venueRole": "HomePlayer"
                 }
@@ -2125,123 +1678,26 @@
             "metadata": {}
         },
         {
-            "id": "0QA255262200#258895409_15L42133Q1764243529Q20",
-            "marketId": "255262200",
+            "id": "0QA256094518#261659239_15L42133Q1764243529Q20",
+            "marketId": "256094518",
             "label": "Under",
             "displayOdds": {
-                "american": "+170",
-                "decimal": "2.70",
-                "fractional": "17/10"
+                "american": "−440",
+                "decimal": "1.22",
+                "fractional": "5/22"
             },
-            "trueOdds": 2.7,
+            "trueOdds": 1.22727273,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "35097",
-                    "name": "Matthew Tkachuk",
+                    "id": "35184",
+                    "name": "Brett Kulak",
                     "type": "Player",
-                    "seoIdentifier": "Matthew Tkachuk",
+                    "seoIdentifier": "Brett Kulak",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 1.04
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262208#258895400_15L42133Q1764243529Q20",
-            "marketId": "255262208",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−234",
-                "decimal": "1.42",
-                "fractional": "50/117"
-            },
-            "trueOdds": 1.42735043,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35271",
-                    "name": "Mattias Ekholm",
-                    "type": "Player",
-                    "seoIdentifier": "Mattias Ekholm",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.51
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262289#258895586_15L42133Q1764243529Q20",
-            "marketId": "255262289",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "34661",
-                    "name": "Ryan Nugent-Hopkins",
-                    "type": "Player",
-                    "seoIdentifier": "Ryan Nugent-Hopkins",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.69
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255262318#258895653_15L42133Q1764243529Q20",
-            "marketId": "255262318",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−148",
-                "decimal": "1.67",
-                "fractional": "25/37"
-            },
-            "trueOdds": 1.67567568,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "572178",
-                    "name": "Anton Lundell",
-                    "type": "Player",
-                    "seoIdentifier": "Anton Lundell",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.6
+                        "value": 0.29
                     },
                     "venueRole": "HomePlayer"
                 }
@@ -2254,47 +1710,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA255428101#259386994_15L42133Q1764243529Q20",
-            "marketId": "255428101",
+            "id": "0QA256094557#261659353_15L42133Q1764243529Q20",
+            "marketId": "256094557",
             "label": "Under",
             "displayOdds": {
-                "american": "−234",
-                "decimal": "1.42",
-                "fractional": "50/117"
+                "american": "−225",
+                "decimal": "1.44",
+                "fractional": "4/9"
             },
-            "trueOdds": 1.42735043,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35211",
-                    "name": "Kasperi Kapanen",
-                    "type": "Player",
-                    "seoIdentifier": "Kasperi Kapanen",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.25
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255428194#259387259_15L42133Q1764243529Q20",
-            "marketId": "255428194",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−240",
-                "decimal": "1.41",
-                "fractional": "5/12"
-            },
-            "trueOdds": 1.41666667,
+            "trueOdds": 1.44444445,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -2307,70 +1731,6 @@
                         "prefix": "Avg",
                         "value": 0.38
                     },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255428751#259389008_15L42133Q1764243529Q20",
-            "marketId": "255428751",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−500",
-                "decimal": "1.20",
-                "fractional": "1/5"
-            },
-            "trueOdds": 1.2,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35184",
-                    "name": "Brett Kulak",
-                    "type": "Player",
-                    "seoIdentifier": "Brett Kulak",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.3
-                    },
-                    "venueRole": "AwayPlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255429112#259389961_15L42133Q1764243529Q20",
-            "marketId": "255429112",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−265",
-                "decimal": "1.37",
-                "fractional": "20/53"
-            },
-            "trueOdds": 1.3773585,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "35486",
-                    "name": "Nate Schmidt",
-                    "type": "Player",
-                    "seoIdentifier": "Nate Schmidt",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.31
-                    },
                     "venueRole": "HomePlayer"
                 }
             ],
@@ -2382,40 +1742,8 @@
             "metadata": {}
         },
         {
-            "id": "0QA255429116#259389971_15L42133Q1764243529Q20",
-            "marketId": "255429116",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−370",
-                "decimal": "1.27",
-                "fractional": "10/37"
-            },
-            "trueOdds": 1.27027028,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "34938",
-                    "name": "Niko Mikkola",
-                    "type": "Player",
-                    "seoIdentifier": "Niko Mikkola",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 0.3
-                    },
-                    "venueRole": "HomePlayer"
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA255883865#260859981_15L42133Q1764243529Q20",
-            "marketId": "255883865",
+            "id": "0QA256094561#261659362_15L42133Q1764243529Q20",
+            "marketId": "256094561",
             "label": "Under",
             "displayOdds": {
                 "american": "−320",
@@ -2433,7 +1761,71 @@
                     "seoIdentifier": "Jeff Skinner",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 0.42
+                        "value": 0.41
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA256094564#261659371_15L42133Q1764243529Q20",
+            "marketId": "256094564",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−225",
+                "decimal": "1.44",
+                "fractional": "4/9"
+            },
+            "trueOdds": 1.44444445,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35211",
+                    "name": "Kasperi Kapanen",
+                    "type": "Player",
+                    "seoIdentifier": "Kasperi Kapanen",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.26
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA256094597#261659466_15L42133Q1764243529Q20",
+            "marketId": "256094597",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−420",
+                "decimal": "1.23",
+                "fractional": "5/21"
+            },
+            "trueOdds": 1.23809524,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34938",
+                    "name": "Niko Mikkola",
+                    "type": "Player",
+                    "seoIdentifier": "Niko Mikkola",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.29
                     },
                     "venueRole": "AwayPlayer"
                 }
@@ -2446,8 +1838,555 @@
             "metadata": {}
         },
         {
-            "id": "0QA255891567#260898159_15L42133Q1764243529Q20",
-            "marketId": "255891567",
+            "id": "0QA256094605#261659495_15L42133Q1764243529Q20",
+            "marketId": "256094605",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−270",
+                "decimal": "1.37",
+                "fractional": "10/27"
+            },
+            "trueOdds": 1.37037038,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35486",
+                    "name": "Nate Schmidt",
+                    "type": "Player",
+                    "seoIdentifier": "Nate Schmidt",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.31
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA256094607#261659503_15L42133Q1764243529Q20",
+            "marketId": "256094607",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−225",
+                "decimal": "1.44",
+                "fractional": "4/9"
+            },
+            "trueOdds": 1.44444445,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35174",
+                    "name": "Eetu Luostarinen",
+                    "type": "Player",
+                    "seoIdentifier": "Eetu Luostarinen",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.39
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997429#261327397_15L42133Q1764243529Q20",
+            "marketId": "255997429",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−162",
+                "decimal": "1.61",
+                "fractional": "50/81"
+            },
+            "trueOdds": 1.61728396,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "572178",
+                    "name": "Anton Lundell",
+                    "type": "Player",
+                    "seoIdentifier": "Anton Lundell",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.6
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997434#261327407_15L42133Q1764243529Q20",
+            "marketId": "255997434",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−148",
+                "decimal": "1.67",
+                "fractional": "25/37"
+            },
+            "trueOdds": 1.67567568,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34755",
+                    "name": "Aaron Ekblad",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Ekblad",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.62
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997447#261327431_15L42133Q1764243529Q20",
+            "marketId": "255997447",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−320",
+                "decimal": "1.31",
+                "fractional": "5/16"
+            },
+            "trueOdds": 1.3125,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35142",
+                    "name": "Gustav Forsling",
+                    "type": "Player",
+                    "seoIdentifier": "Gustav Forsling",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.35
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997498#261327569_15L42133Q1764243529Q20",
+            "marketId": "255997498",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+130",
+                "decimal": "2.30",
+                "fractional": "13/10"
+            },
+            "trueOdds": 2.3,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34722",
+                    "name": "Aleksander Barkov",
+                    "type": "Player",
+                    "seoIdentifier": "Aleksander Barkov",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 1.01
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997506#261327590_15L42133Q1764243529Q20",
+            "marketId": "255997506",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
+            },
+            "trueOdds": 1.74074075,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34949",
+                    "name": "Evan Rodrigues",
+                    "type": "Player",
+                    "seoIdentifier": "Evan Rodrigues",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.47
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997532#261327689_15L42133Q1764243529Q20",
+            "marketId": "255997532",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−212",
+                "decimal": "1.47",
+                "fractional": "25/53"
+            },
+            "trueOdds": 1.47169812,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35271",
+                    "name": "Mattias Ekholm",
+                    "type": "Player",
+                    "seoIdentifier": "Mattias Ekholm",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.53
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997534#261327686_15L42133Q1764243529Q20",
+            "marketId": "255997534",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+145",
+                "decimal": "2.45",
+                "fractional": "29/20"
+            },
+            "trueOdds": 2.45,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35097",
+                    "name": "Matthew Tkachuk",
+                    "type": "Player",
+                    "seoIdentifier": "Matthew Tkachuk",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 1.07
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997556#261327734_15L42133Q1764243529Q20",
+            "marketId": "255997556",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−175",
+                "decimal": "1.57",
+                "fractional": "4/7"
+            },
+            "trueOdds": 1.57142858,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35593",
+                    "name": "Seth Jones",
+                    "type": "Player",
+                    "seoIdentifier": "Seth Jones",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.54
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997593#261327839_15L42133Q1764243529Q20",
+            "marketId": "255997593",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
+            },
+            "trueOdds": 2.05,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35143",
+                    "name": "Carter Verhaeghe",
+                    "type": "Player",
+                    "seoIdentifier": "Carter Verhaeghe",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.72
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997619#261327916_15L42133Q1764243529Q20",
+            "marketId": "255997619",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
+            },
+            "trueOdds": 2.1,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34995",
+                    "name": "Sam Bennett",
+                    "type": "Player",
+                    "seoIdentifier": "Sam Bennett",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.73
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997637#261327976_15L42133Q1764243529Q20",
+            "marketId": "255997637",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−240",
+                "decimal": "1.41",
+                "fractional": "5/12"
+            },
+            "trueOdds": 1.41666667,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35009",
+                    "name": "Jake Walman",
+                    "type": "Player",
+                    "seoIdentifier": "Jake Walman",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.58
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997656#261328010_15L42133Q1764243529Q20",
+            "marketId": "255997656",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+145",
+                "decimal": "2.45",
+                "fractional": "29/20"
+            },
+            "trueOdds": 2.45,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35916",
+                    "name": "Evan Bouchard",
+                    "type": "Player",
+                    "seoIdentifier": "Evan Bouchard",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.87
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997668#261328062_15L42133Q1764243529Q20",
+            "marketId": "255997668",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−142",
+                "decimal": "1.70",
+                "fractional": "50/71"
+            },
+            "trueOdds": 1.70422536,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "35812",
+                    "name": "Corey Perry",
+                    "type": "Player",
+                    "seoIdentifier": "Corey Perry",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.43
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997671#261328105_15L42133Q1764243529Q20",
+            "marketId": "255997671",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
+            },
+            "trueOdds": 1.8,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34795",
+                    "name": "Brad Marchand",
+                    "type": "Player",
+                    "seoIdentifier": "Brad Marchand",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.73
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997675#261328081_15L42133Q1764243529Q20",
+            "marketId": "255997675",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
+            },
+            "trueOdds": 2.1,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34661",
+                    "name": "Ryan Nugent-Hopkins",
+                    "type": "Player",
+                    "seoIdentifier": "Ryan Nugent-Hopkins",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.7
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997695#261328135_15L42133Q1764243529Q20",
+            "marketId": "255997695",
             "label": "Under",
             "displayOdds": {
                 "american": "−385",
@@ -2459,15 +2398,15 @@
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "34564",
-                    "name": "Adam Henrique",
+                    "id": "34664",
+                    "name": "Darnell Nurse",
                     "type": "Player",
-                    "seoIdentifier": "Adam Henrique",
+                    "seoIdentifier": "Darnell Nurse",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 0.33
+                        "value": 0.42
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 502,
@@ -2478,15 +2417,80 @@
             "metadata": {}
         },
         {
-            "id": "0QA255261970#258894721_13L42133Q1-952865320Q20",
-            "marketId": "255261970",
+            "id": "0QA255997704#261328152_15L42133Q1764243529Q20",
+            "marketId": "255997704",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+130",
+                "decimal": "2.30",
+                "fractional": "13/10"
+            },
+            "trueOdds": 2.3,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34943",
+                    "name": "Sam Reinhart",
+                    "type": "Player",
+                    "seoIdentifier": "Sam Reinhart",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 1.01
+                    },
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997760#261328297_15L42133Q1764243529Q20",
+            "marketId": "255997760",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−198",
+                "decimal": "1.50",
+                "fractional": "50/99"
+            },
+            "trueOdds": 1.50505051,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "34770",
+                    "name": "Evander Kane",
+                    "type": "Player",
+                    "seoIdentifier": "Evander Kane",
+                    "statistic": {
+                        "prefix": "Avg",
+                        "value": 0.63
+                    },
+                    "venueRole": "HomePlayer"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255997452#261327446_13L42133Q1-952865320Q20",
+            "marketId": "255997452",
             "label": "Over",
             "displayOdds": {
-                "american": "+126",
-                "decimal": "2.26",
-                "fractional": "63/50"
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
             },
-            "trueOdds": 2.26,
+            "trueOdds": 2.1,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -2497,9 +2501,9 @@
                     "seoIdentifier": "Leon Draisaitl",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 1.5
+                        "value": 1.52
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 1500,
@@ -2511,15 +2515,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA255262058#258894957_13L42133Q1-952865320Q20",
-            "marketId": "255262058",
+            "id": "0QA255997612#261327876_13L42133Q1-952865320Q20",
+            "marketId": "255997612",
             "label": "Over",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.8,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -2532,7 +2536,7 @@
                         "prefix": "Avg",
                         "value": 1.51
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 1500,
@@ -2544,15 +2548,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA255261970#258894722_15L42133Q141536534Q20",
-            "marketId": "255261970",
+            "id": "0QA255997452#261327447_15L42133Q141536534Q20",
+            "marketId": "255997452",
             "label": "Under",
             "displayOdds": {
-                "american": "−162",
-                "decimal": "1.61",
-                "fractional": "50/81"
+                "american": "−142",
+                "decimal": "1.70",
+                "fractional": "50/71"
             },
-            "trueOdds": 1.61728396,
+            "trueOdds": 1.70422536,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -2563,9 +2567,9 @@
                     "seoIdentifier": "Leon Draisaitl",
                     "statistic": {
                         "prefix": "Avg",
-                        "value": 1.5
+                        "value": 1.52
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 1502,
@@ -2577,15 +2581,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA255262058#258894958_15L42133Q141536534Q20",
-            "marketId": "255262058",
+            "id": "0QA255997612#261327877_15L42133Q141536534Q20",
+            "marketId": "255997612",
             "label": "Under",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.95238096,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -2598,7 +2602,7 @@
                         "prefix": "Avg",
                         "value": 1.51
                     },
-                    "venueRole": "AwayPlayer"
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 1502,
@@ -2848,14 +2852,6 @@
             "tags": []
         },
         {
-            "id": 13031,
-            "categoryId": 1259,
-            "name": "Opening Faceoff Winner",
-            "componentId": 29,
-            "sortOrder": 12993,
-            "tags": []
-        },
-        {
             "id": 13032,
             "categoryId": 1259,
             "name": "First to 5 Shots on Goal",
@@ -2864,22 +2860,6 @@
             "tags": [
                 "Featured"
             ]
-        },
-        {
-            "id": 13033,
-            "categoryId": 1259,
-            "name": "First Shot on Goal",
-            "componentId": 29,
-            "sortOrder": 12995,
-            "tags": []
-        },
-        {
-            "id": 13034,
-            "categoryId": 1259,
-            "name": "First Power Play",
-            "componentId": 29,
-            "sortOrder": 13710,
-            "tags": []
         },
         {
             "id": 13189,
@@ -3072,46 +3052,6 @@
             "tags": []
         },
         {
-            "id": 16595,
-            "categoryId": 1259,
-            "name": "First Goal Strength",
-            "componentId": 29,
-            "sortOrder": 16553,
-            "tags": []
-        },
-        {
-            "id": 16597,
-            "categoryId": 1259,
-            "name": "First Team Goal Strength",
-            "componentId": 29,
-            "sortOrder": 16555,
-            "tags": []
-        },
-        {
-            "id": 16598,
-            "categoryId": 1259,
-            "name": "Team First Power Play",
-            "componentId": 29,
-            "sortOrder": 16556,
-            "tags": []
-        },
-        {
-            "id": 16599,
-            "categoryId": 1259,
-            "name": "Shots in 1st Two Minutes",
-            "componentId": 29,
-            "sortOrder": 16572,
-            "tags": []
-        },
-        {
-            "id": 16615,
-            "categoryId": 1259,
-            "name": "First Goal Exact",
-            "componentId": 204,
-            "sortOrder": 16631,
-            "tags": []
-        },
-        {
             "id": 16874,
             "categoryId": 1724,
             "name": "Player Time on Ice",
@@ -3141,22 +3081,6 @@
             "name": "Power Play Points",
             "componentId": 29,
             "sortOrder": 17502,
-            "tags": []
-        },
-        {
-            "id": 17559,
-            "categoryId": 549,
-            "name": "Exact Goals",
-            "componentId": 30,
-            "sortOrder": 6969,
-            "tags": []
-        },
-        {
-            "id": 17560,
-            "categoryId": 549,
-            "name": "Exact Team Goals",
-            "componentId": 203,
-            "sortOrder": 10967,
             "tags": []
         },
         {
@@ -3473,27 +3397,11 @@
             "tags": []
         },
         {
-            "id": 17944,
-            "categoryId": 1807,
-            "name": "Series Most SOG",
-            "componentId": 29,
-            "sortOrder": 0,
-            "tags": []
-        },
-        {
             "id": 17796,
             "categoryId": 1807,
             "name": "X+ SOG in Every Game of Series",
             "componentId": 29,
             "sortOrder": 5,
-            "tags": []
-        },
-        {
-            "id": 17919,
-            "categoryId": 1807,
-            "name": "X+ Goals in Every Game of Series",
-            "componentId": 29,
-            "sortOrder": 4,
             "tags": []
         },
         {
@@ -3569,27 +3477,19 @@
             "tags": []
         },
         {
-            "id": 17813,
-            "categoryId": 1807,
-            "name": "OT Goal",
-            "componentId": 29,
-            "sortOrder": 12,
-            "tags": []
-        },
-        {
-            "id": 17798,
-            "categoryId": 1807,
-            "name": "Hat Trick in Any Game of Series",
-            "componentId": 29,
-            "sortOrder": 8,
-            "tags": []
-        },
-        {
             "id": 17938,
             "categoryId": 1808,
             "name": "Series Total Goals",
             "componentId": 29,
             "sortOrder": 17895,
+            "tags": []
+        },
+        {
+            "id": 17946,
+            "categoryId": 1807,
+            "name": "X+ Points in any Game of Series",
+            "componentId": 29,
+            "sortOrder": 7,
             "tags": []
         },
         {
@@ -3697,6 +3597,10 @@
         },
         "lcc-event-": {
             "entity": "LiveContentCardEvent"
+        },
+        "cc-event-": {
+            "contentCardType": "All",
+            "entity": "ContentCardEvent"
         }
     }
 }
