@@ -4,7 +4,7 @@
             "id": "2",
             "seoIdentifier": "Basketball",
             "name": "Basketball",
-            "sortOrder": 60
+            "sortOrder": 59
         }
     ],
     "leagues": [
@@ -64,7 +64,9 @@
                         "shortName": "ATL"
                     },
                     "sortOrder": 2,
-                    "seoIdentifier": "Dream"
+                    "seoIdentifier": "Dream",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
                 },
                 {
                     "id": "36134",
@@ -78,7 +80,9 @@
                         "shortName": "CHI"
                     },
                     "sortOrder": 1,
-                    "seoIdentifier": "Sky"
+                    "seoIdentifier": "Sky",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
                 }
             ],
             "eventParticipantType": "TwoTeam",
@@ -281,7 +285,10 @@
         {
             "id": 522,
             "name": "Quarters",
-            "sortOrder": 27
+            "sortOrder": 27,
+            "tags": [
+                "SGP"
+            ]
         },
         {
             "id": 521,
@@ -472,6 +479,26 @@
             ]
         },
         {
+            "id": 13201,
+            "categoryId": 487,
+            "name": "Alternate Total",
+            "componentId": 240,
+            "sortOrder": 4603,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 13202,
+            "categoryId": 487,
+            "name": "Alternate Spread",
+            "componentId": 240,
+            "sortOrder": 4601,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 13732,
             "categoryId": 523,
             "name": "Both Team Total Points",
@@ -490,11 +517,27 @@
             ]
         },
         {
+            "id": 14741,
+            "categoryId": 1216,
+            "name": "Offensive Rebounds",
+            "componentId": 8,
+            "sortOrder": 16291,
+            "tags": []
+        },
+        {
             "id": 15358,
             "categoryId": 521,
             "name": "Largest Comeback",
             "componentId": 29,
             "sortOrder": 4611,
+            "tags": []
+        },
+        {
+            "id": 15599,
+            "categoryId": 520,
+            "name": "Alt Spread - X Half",
+            "componentId": 240,
+            "sortOrder": 8561,
             "tags": []
         },
         {
@@ -579,6 +622,14 @@
             ]
         },
         {
+            "id": 16720,
+            "categoryId": 520,
+            "name": "Alt Total - X Half",
+            "componentId": 240,
+            "sortOrder": 10042,
+            "tags": []
+        },
+        {
             "id": 16732,
             "categoryId": 521,
             "name": "Correct Score",
@@ -587,6 +638,22 @@
             "tags": [
                 "Featured"
             ]
+        },
+        {
+            "id": 16822,
+            "categoryId": 522,
+            "name": "Alt Spread - 1st Quarter",
+            "componentId": 240,
+            "sortOrder": 4614,
+            "tags": []
+        },
+        {
+            "id": 16826,
+            "categoryId": 522,
+            "name": "Alt Total - 1st Quarter",
+            "componentId": 240,
+            "sortOrder": 4619,
+            "tags": []
         },
         {
             "id": 16839,
@@ -630,6 +697,27 @@
             "sortOrder": 4506,
             "tags": [
                 "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 4598,
+            "categoryId": 520,
+            "name": "1st Half",
+            "componentId": 210,
+            "sortOrder": 4592,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 4600,
+            "categoryId": 522,
+            "name": "1st Quarter",
+            "componentId": 210,
+            "sortOrder": 4595,
+            "tags": [
                 "SGP"
             ]
         },
@@ -728,6 +816,16 @@
             "tags": []
         },
         {
+            "id": 12495,
+            "categoryId": 1217,
+            "name": "Assists O/U",
+            "componentId": 8,
+            "sortOrder": 12458,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 17836,
             "categoryId": 519,
             "name": "Commissioner's Cup",
@@ -752,6 +850,10 @@
         },
         "lcc-event-": {
             "entity": "LiveContentCardEvent"
+        },
+        "cc-event-": {
+            "contentCardType": "All",
+            "entity": "ContentCardEvent"
         }
     }
 }

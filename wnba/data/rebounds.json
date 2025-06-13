@@ -4,7 +4,7 @@
             "id": "2",
             "seoIdentifier": "Basketball",
             "name": "Basketball",
-            "sortOrder": 60
+            "sortOrder": 59
         }
     ],
     "leagues": [
@@ -64,7 +64,9 @@
                         "shortName": "ATL"
                     },
                     "sortOrder": 2,
-                    "seoIdentifier": "Dream"
+                    "seoIdentifier": "Dream",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
                 },
                 {
                     "id": "36134",
@@ -78,7 +80,9 @@
                         "shortName": "CHI"
                     },
                     "sortOrder": 1,
-                    "seoIdentifier": "Sky"
+                    "seoIdentifier": "Sky",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
                 }
             ],
             "eventParticipantType": "TwoTeam",
@@ -126,6 +130,93 @@
             },
             "sortOrder": 233997078,
             "subscriptionKey": "league-events-94682"
+        },
+        {
+            "id": "32409196",
+            "seoIdentifier": "DAL Wings @ LV Aces",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "DAL Wings @ LV Aces",
+            "startEventDate": "2025-06-14T02:00:00.0000000Z",
+            "participants": [
+                {
+                    "id": "36136",
+                    "name": "LV Aces",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "3111",
+                        "rosettaTeamId": "36136",
+                        "rosettaTeamName": "Aces",
+                        "shortName": "LV"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Aces",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                },
+                {
+                    "id": "36122",
+                    "name": "DAL Wings",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "3110",
+                        "rosettaTeamId": "36122",
+                        "rosettaTeamName": "Wings",
+                        "shortName": "DAL"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Wings",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "NOT_STARTED",
+            "eventScorecard": {
+                "scorecardComponentId": 1
+            },
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "56328009",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "56328009",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "56328009",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "MatchTracker",
+                "PrePack",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "676",
+                "numberOfParts": "4",
+                "secondsInOnePart": "600"
+            },
+            "sortOrder": 234012096,
+            "subscriptionKey": "league-events-94682"
         }
     ],
     "markets": [
@@ -154,11 +245,11 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "255765388",
+            "id": "255765376",
             "eventId": "32409178",
             "sportId": "2",
             "leagueId": "94682",
-            "name": "Kamilla Cardoso Rebounds O/U",
+            "name": "Brionna Jones Rebounds O/U",
             "subcategoryId": 12492,
             "marketType": {
                 "id": "3560",
@@ -178,11 +269,11 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "255765376",
+            "id": "255765388",
             "eventId": "32409178",
             "sportId": "2",
             "leagueId": "94682",
-            "name": "Brionna Jones Rebounds O/U",
+            "name": "Kamilla Cardoso Rebounds O/U",
             "subcategoryId": 12492,
             "marketType": {
                 "id": "3560",
@@ -238,6 +329,30 @@
                 "name": "Rebounds O/U"
             },
             "subscriptionKey": "league-events-94682",
+            "sortOrder": 6,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "255944777",
+            "eventId": "32409196",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "DiJonai Carrington Rebounds O/U",
+            "subcategoryId": 12492,
+            "marketType": {
+                "id": "3560",
+                "betOfferTypeId": 0,
+                "name": "Rebounds O/U"
+            },
+            "subscriptionKey": "league-events-94682",
             "sortOrder": 5,
             "tags": [
                 "SGP",
@@ -256,11 +371,11 @@
             "marketId": "255765375",
             "label": "Over",
             "displayOdds": {
-                "american": "+105",
-                "decimal": "2.05",
-                "fractional": "21/20"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 2.05,
+            "trueOdds": 1.95238096,
             "points": 5.5,
             "outcomeType": "Over",
             "participants": [
@@ -286,11 +401,11 @@
             "marketId": "255765377",
             "label": "Over",
             "displayOdds": {
-                "american": "+130",
-                "decimal": "2.30",
-                "fractional": "13/10"
+                "american": "+135",
+                "decimal": "2.35",
+                "fractional": "27/20"
             },
-            "trueOdds": 2.3,
+            "trueOdds": 2.35,
             "points": 5.5,
             "outcomeType": "Over",
             "participants": [
@@ -312,15 +427,45 @@
             "metadata": {}
         },
         {
+            "id": "0QA255944777#261137285_13L94682Q1125030Q20",
+            "marketId": "255944777",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+114",
+                "decimal": "2.14",
+                "fractional": "57/50"
+            },
+            "trueOdds": 2.14,
+            "points": 5.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "559013",
+                    "name": "DiJonai Carrington",
+                    "type": "Player",
+                    "seoIdentifier": "DiJonai Carrington",
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 5500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA255765375#260511170_15L94682Q1121743Q20",
             "marketId": "255765375",
             "label": "Under",
             "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.74074075,
+            "trueOdds": 1.8,
             "points": 5.5,
             "outcomeType": "Under",
             "participants": [
@@ -346,11 +491,11 @@
             "marketId": "255765377",
             "label": "Under",
             "displayOdds": {
-                "american": "−166",
-                "decimal": "1.60",
-                "fractional": "50/83"
+                "american": "−175",
+                "decimal": "1.57",
+                "fractional": "4/7"
             },
-            "trueOdds": 1.60240964,
+            "trueOdds": 1.57142858,
             "points": 5.5,
             "outcomeType": "Under",
             "participants": [
@@ -372,27 +517,27 @@
             "metadata": {}
         },
         {
-            "id": "0QA255765376#260511224_13L94682Q1154862Q20",
-            "marketId": "255765376",
-            "label": "Over",
+            "id": "0QA255944777#261137286_15L94682Q1125030Q20",
+            "marketId": "255944777",
+            "label": "Under",
             "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
+                "american": "−145",
+                "decimal": "1.68",
+                "fractional": "20/29"
             },
-            "trueOdds": 1.74074075,
-            "points": 6.5,
-            "outcomeType": "Over",
+            "trueOdds": 1.68965518,
+            "points": 5.5,
+            "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "50800",
-                    "name": "Brionna Jones",
+                    "id": "559013",
+                    "name": "DiJonai Carrington",
                     "type": "Player",
-                    "seoIdentifier": "Brionna Jones",
-                    "venueRole": "HomePlayer"
+                    "seoIdentifier": "DiJonai Carrington",
+                    "venueRole": "AwayPlayer"
                 }
             ],
-            "sortOrder": 6500,
+            "sortOrder": 5502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -402,9 +547,9 @@
             "metadata": {}
         },
         {
-            "id": "0QA255765376#260511225_15L94682Q1154862Q20",
-            "marketId": "255765376",
-            "label": "Under",
+            "id": "0QA255765388#261664430_13L94682Q1178529Q20",
+            "marketId": "255765388",
+            "label": "Over",
             "displayOdds": {
                 "american": "+105",
                 "decimal": "2.05",
@@ -412,28 +557,58 @@
             },
             "trueOdds": 2.05,
             "points": 6.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "786493",
+                    "name": "Kamilla Cardoso",
+                    "type": "Player",
+                    "seoIdentifier": "Kamilla Cardoso",
+                    "venueRole": "AwayPlayer"
+                }
+            ],
+            "sortOrder": 6500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA255765388#261664431_15L94682Q1178529Q20",
+            "marketId": "255765388",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
+            },
+            "trueOdds": 1.74074075,
+            "points": 6.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "50800",
-                    "name": "Brionna Jones",
+                    "id": "786493",
+                    "name": "Kamilla Cardoso",
                     "type": "Player",
-                    "seoIdentifier": "Brionna Jones",
-                    "venueRole": "HomePlayer"
+                    "seoIdentifier": "Kamilla Cardoso",
+                    "venueRole": "AwayPlayer"
                 }
             ],
             "sortOrder": 6502,
             "tags": [
                 "MainPointLine",
                 "SGP",
-                "1stFavorite"
+                "2ndFavorite"
             ],
             "main": true,
             "metadata": {}
         },
         {
-            "id": "0QA255765388#260511414_13L94682Q1178529Q20",
-            "marketId": "255765388",
+            "id": "0QA255765376#261197683_13L94682Q1154862Q20",
+            "marketId": "255765376",
             "label": "Over",
             "displayOdds": {
                 "american": "+120",
@@ -445,25 +620,25 @@
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "786493",
-                    "name": "Kamilla Cardoso",
+                    "id": "50800",
+                    "name": "Brionna Jones",
                     "type": "Player",
-                    "seoIdentifier": "Kamilla Cardoso",
-                    "venueRole": "AwayPlayer"
+                    "seoIdentifier": "Brionna Jones",
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 7500,
             "tags": [
                 "MainPointLine",
                 "SGP",
-                "2ndFavorite"
+                "1stFavorite"
             ],
             "main": true,
             "metadata": {}
         },
         {
-            "id": "0QA255765388#260511415_15L94682Q1178529Q20",
-            "marketId": "255765388",
+            "id": "0QA255765376#261197684_15L94682Q1154862Q20",
+            "marketId": "255765376",
             "label": "Under",
             "displayOdds": {
                 "american": "−154",
@@ -475,18 +650,18 @@
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "786493",
-                    "name": "Kamilla Cardoso",
+                    "id": "50800",
+                    "name": "Brionna Jones",
                     "type": "Player",
-                    "seoIdentifier": "Kamilla Cardoso",
-                    "venueRole": "AwayPlayer"
+                    "seoIdentifier": "Brionna Jones",
+                    "venueRole": "HomePlayer"
                 }
             ],
             "sortOrder": 7502,
             "tags": [
                 "MainPointLine",
                 "SGP",
-                "2ndFavorite"
+                "1stFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -496,11 +671,11 @@
             "marketId": "255765387",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 2.05,
             "points": 11.5,
             "outcomeType": "Over",
             "participants": [
@@ -526,11 +701,11 @@
             "marketId": "255765387",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.74074075,
             "points": 11.5,
             "outcomeType": "Under",
             "participants": [
@@ -617,7 +792,10 @@
         {
             "id": 522,
             "name": "Quarters",
-            "sortOrder": 27
+            "sortOrder": 27,
+            "tags": [
+                "SGP"
+            ]
         },
         {
             "id": 521,
@@ -808,6 +986,26 @@
             ]
         },
         {
+            "id": 13201,
+            "categoryId": 487,
+            "name": "Alternate Total",
+            "componentId": 240,
+            "sortOrder": 4603,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 13202,
+            "categoryId": 487,
+            "name": "Alternate Spread",
+            "componentId": 240,
+            "sortOrder": 4601,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 13732,
             "categoryId": 523,
             "name": "Both Team Total Points",
@@ -826,11 +1024,27 @@
             ]
         },
         {
+            "id": 14741,
+            "categoryId": 1216,
+            "name": "Offensive Rebounds",
+            "componentId": 8,
+            "sortOrder": 16291,
+            "tags": []
+        },
+        {
             "id": 15358,
             "categoryId": 521,
             "name": "Largest Comeback",
             "componentId": 29,
             "sortOrder": 4611,
+            "tags": []
+        },
+        {
+            "id": 15599,
+            "categoryId": 520,
+            "name": "Alt Spread - X Half",
+            "componentId": 240,
+            "sortOrder": 8561,
             "tags": []
         },
         {
@@ -915,6 +1129,14 @@
             ]
         },
         {
+            "id": 16720,
+            "categoryId": 520,
+            "name": "Alt Total - X Half",
+            "componentId": 240,
+            "sortOrder": 10042,
+            "tags": []
+        },
+        {
             "id": 16732,
             "categoryId": 521,
             "name": "Correct Score",
@@ -923,6 +1145,22 @@
             "tags": [
                 "Featured"
             ]
+        },
+        {
+            "id": 16822,
+            "categoryId": 522,
+            "name": "Alt Spread - 1st Quarter",
+            "componentId": 240,
+            "sortOrder": 4614,
+            "tags": []
+        },
+        {
+            "id": 16826,
+            "categoryId": 522,
+            "name": "Alt Total - 1st Quarter",
+            "componentId": 240,
+            "sortOrder": 4619,
+            "tags": []
         },
         {
             "id": 16839,
@@ -966,6 +1204,27 @@
             "sortOrder": 4506,
             "tags": [
                 "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 4598,
+            "categoryId": 520,
+            "name": "1st Half",
+            "componentId": 210,
+            "sortOrder": 4592,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 4600,
+            "categoryId": 522,
+            "name": "1st Quarter",
+            "componentId": 210,
+            "sortOrder": 4595,
+            "tags": [
                 "SGP"
             ]
         },
@@ -1064,6 +1323,16 @@
             "tags": []
         },
         {
+            "id": 12495,
+            "categoryId": 1217,
+            "name": "Assists O/U",
+            "componentId": 8,
+            "sortOrder": 12458,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 17836,
             "categoryId": 519,
             "name": "Commissioner's Cup",
@@ -1088,6 +1357,10 @@
         },
         "lcc-event-": {
             "entity": "LiveContentCardEvent"
+        },
+        "cc-event-": {
+            "contentCardType": "All",
+            "entity": "ContentCardEvent"
         }
     }
 }
