@@ -1,15 +1,13 @@
 // static/js/sport_select.js
 
-// Set default sport to NBA.
-window.currentSport = "nba";
+// Set default sport
+window.currentSport = "mlb";
 
 // Function to update the active button style
 function updateActiveButton(selectedSport) {
-  // Remove active class from all sport buttons
   document.querySelectorAll('.sport-btn').forEach(btn => {
     btn.classList.remove('active-sport');
   });
-  // Add active class to the selected sport button
   const activeBtn = document.querySelector(`.sport-btn[data-sport="${selectedSport}"]`);
   if (activeBtn) {
     activeBtn.classList.add('active-sport');
@@ -18,20 +16,22 @@ function updateActiveButton(selectedSport) {
 
 // Add event listeners to sport buttons
 document.querySelectorAll('.sport-btn').forEach(button => {
-  button.addEventListener('click', function() {
+  button.addEventListener('click', function () {
     const sport = this.getAttribute('data-sport');
-    window.currentSport = sport;  // Update global sport selection
+    window.currentSport = sport;
     updateActiveButton(sport);
-    
-    // Reload the picks specific to the selected sport
-    // Assumes loadInitialParlays in load_picks.js uses currentSport to fetch data.
+
     if (typeof loadInitialParlays === "function") {
       loadInitialParlays();
     }
   });
 });
 
-// Set initial active button on page load
-document.addEventListener("DOMContentLoaded", function() {
-  updateActiveButton(window.currentSport);
+// On page load, simulate a click on the MLB button
+document.addEventListener("DOMContentLoaded", function () {
+  const defaultSport = "mlb";
+  const defaultBtn = document.querySelector(`.sport-btn[data-sport="${defaultSport}"]`);
+  if (defaultBtn) {
+    defaultBtn.click(); // This triggers the event listener and loads the data
+  }
 });
