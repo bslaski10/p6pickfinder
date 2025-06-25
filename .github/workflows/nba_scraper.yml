@@ -1,38 +1,38 @@
-# name: Daily Scraper
+name: Daily Scraper
 
-# on:
-#   schedule:
-#     - cron: '20 22 * * 1-5'  # Mon–Fri at 6:30 PM ET
-#     - cron: '30 16 * * 6'    # Saturday 12:30 PM ET
-#     - cron: '30 21 * * 6'    # Saturday 5:30 PM ET
-#     - cron: '30 16 * * 0'    # Sunday 12:30 PM ET
-#     - cron: '30 21 * * 0'    # Sunday 5:30 PM ET
-#   workflow_dispatch:
+on:
+  schedule:
+    # - cron: '20 22 * * 1-5'  # Mon–Fri at 6:30 PM ET
+    # - cron: '30 16 * * 6'    # Saturday 12:30 PM ET
+    # - cron: '30 21 * * 6'    # Saturday 5:30 PM ET
+    # - cron: '30 16 * * 0'    # Sunday 12:30 PM ET
+    # - cron: '30 21 * * 0'    # Sunday 5:30 PM ET
+  workflow_dispatch:
 
-# jobs:
-#   run-scraper:
-#     runs-on: ubuntu-latest
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
 
-#     steps:
-#       - name: Checkout code
-#         uses: actions/checkout@v3
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-#       - name: Set up Python
-#         uses: actions/setup-python@v4
-#         with:
-#           python-version: '3.10'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-#       - name: Install dependencies
-#         run: |
-#           pip install -r requirements.txt
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
 
-#       - name: Run scraper script
-#         run: python Locks.py
+      - name: Run scraper script
+        run: python Locks.py
 
-#       - name: Commit & push updated data
-#         run: |
-#           git config user.name github-actions
-#           git config user.email github-actions@github.com
-#           git add .
-#           git commit -m "🔁 Auto-update by GitHub Action" || echo "No changes to commit"
-#           git push
+      - name: Commit & push updated data
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "🔁 Auto-update by GitHub Action" || echo "No changes to commit"
+          git push

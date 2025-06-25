@@ -1,32 +1,32 @@
-# name: NHL Daily Scraper
+name: NHL Daily Scraper
 
-# on:
-#   schedule:
-#     - cron: '40 22 * * *'  # 6:40 PM ET
-#   workflow_dispatch:
+on:
+  schedule:
+    # - cron: '40 22 * * *'  # 6:40 PM ET
+  workflow_dispatch:
 
-# jobs:
-#   run-nhl-locks:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Checkout repo
-#         uses: actions/checkout@v3
+jobs:
+  run-nhl-locks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-#       - name: Setup Python
-#         uses: actions/setup-python@v4
-#         with:
-#           python-version: '3.10'
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-#       - name: Install dependencies
-#         run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-#       - name: Run NHL Locks
-#         run: python nhl/Locks.py
+      - name: Run NHL Locks
+        run: python nhl/Locks.py
 
-#       - name: Commit & Push
-#         run: |
-#           git config user.name github-actions
-#           git config user.email github-actions@github.com
-#           git add .
-#           git commit -m "🔁 NHL Auto-update"
-#           git push
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "🔁 NHL Auto-update"
+          git push
