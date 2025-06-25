@@ -19,7 +19,9 @@
   
   <h1>
     Personal Stats
-    <button id="info-btn" class="info-btn" title="More Info">&#9432;</button>
+    <button id="info-btn" class="info-btn" title="More Info">
+      &#9432; <span class="btn-label">Info</span>
+    </button>
   </h1>
 
   <div id="info-box" class="info-box" style="display: none;">
@@ -58,6 +60,9 @@
     
     <div class="created-parlay">
       <h2>Profit/Loss Graph</h2>
+      <p id="range-label" style="margin-top: -10px; margin-bottom: 10px; font-style: italic; text-align: center;">
+        Start: 2/27/25 &nbsp;&nbsp; Last update: 6/6/25
+      </p>
       <canvas id="profitChart"></canvas>
       <div id="stats" style="margin-top: 20px;">
         <p id="total-profit"><strong>Total Profit: $0.00</strong></p>
