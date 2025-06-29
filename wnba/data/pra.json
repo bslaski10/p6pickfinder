@@ -4,7 +4,7 @@
             "id": "2",
             "seoIdentifier": "Basketball",
             "name": "Basketball",
-            "sortOrder": 60
+            "sortOrder": 58
         }
     ],
     "leagues": [
@@ -22,7 +22,10 @@
                 "SgpDynamicOdds",
                 "Stats",
                 "YourBetEligible",
+                "LivePrePack",
                 "Featured",
+                "HasLiveEvents",
+                "LiveFeaturedSubcategory",
                 "FavoriteableFromPage"
             ],
             "isTeamSwap": true,
@@ -186,11 +189,11 @@
             "marketId": "256999888",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 2,
             "points": 35.5,
             "outcomeType": "Over",
             "participants": [
@@ -215,11 +218,11 @@
             "marketId": "256999888",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.76923077,
             "points": 35.5,
             "outcomeType": "Under",
             "participants": [
@@ -304,7 +307,8 @@
             "name": "Game Lines",
             "sortOrder": 0,
             "tags": [
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -353,11 +357,31 @@
             ]
         },
         {
+            "id": 1686,
+            "name": "Live Player Points",
+            "sortOrder": 18,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 1688,
+            "name": "Live Player Rebounds",
+            "sortOrder": 20
+        },
+        {
+            "id": 1566,
+            "name": "Live Specials",
+            "sortOrder": 25
+        },
+        {
             "id": 520,
             "name": "Halves",
             "sortOrder": 27,
             "tags": [
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -365,7 +389,8 @@
             "name": "Quarters",
             "sortOrder": 28,
             "tags": [
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -373,7 +398,8 @@
             "name": "Game Props",
             "sortOrder": 30,
             "tags": [
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -381,7 +407,8 @@
             "name": "Team Props",
             "sortOrder": 31,
             "tags": [
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -635,7 +662,8 @@
             "sortOrder": 4506,
             "tags": [
                 "Featured",
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -657,12 +685,15 @@
             "tags": []
         },
         {
-            "id": 10932,
-            "categoryId": 520,
-            "name": "Winning Margin - Listed Half",
-            "componentId": 203,
-            "sortOrder": 10898,
-            "tags": []
+            "id": 11471,
+            "categoryId": 522,
+            "name": "Moneyline (3-Way)",
+            "componentId": 30,
+            "sortOrder": 10031,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
         },
         {
             "id": 12188,
@@ -673,6 +704,392 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 12267,
+            "categoryId": 520,
+            "name": "Alt Spread (1st Half)",
+            "componentId": 12,
+            "sortOrder": 12196,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12268,
+            "categoryId": 520,
+            "name": "Alt Total (1st Half)",
+            "componentId": 12,
+            "sortOrder": 12197,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12269,
+            "categoryId": 522,
+            "name": "Alt Total (Q2)",
+            "componentId": 12,
+            "sortOrder": 13186,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12270,
+            "categoryId": 522,
+            "name": "Alt Spread (Q2)",
+            "componentId": 12,
+            "sortOrder": 13187,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12271,
+            "categoryId": 487,
+            "name": "3-Way Moneyline",
+            "componentId": 11,
+            "sortOrder": 12177,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 13201,
+            "categoryId": 487,
+            "name": "Alternate Total",
+            "componentId": 240,
+            "sortOrder": 4603,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 13202,
+            "categoryId": 487,
+            "name": "Alternate Spread",
+            "componentId": 240,
+            "sortOrder": 4601,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 13218,
+            "categoryId": 520,
+            "name": "1H Exact",
+            "componentId": 202,
+            "sortOrder": 4607,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 13219,
+            "categoryId": 521,
+            "name": "Exact Margin",
+            "componentId": 202,
+            "sortOrder": 5155,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 13220,
+            "categoryId": 522,
+            "name": "End of 3Q Exact",
+            "componentId": 202,
+            "sortOrder": 15528,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 13222,
+            "categoryId": 522,
+            "name": "End of 3Q Margin",
+            "componentId": 203,
+            "sortOrder": 15557,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 13224,
+            "categoryId": 522,
+            "name": "2Q Exact",
+            "componentId": 202,
+            "sortOrder": 7862,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 15314,
+            "categoryId": 1566,
+            "name": "Player Milestones",
+            "componentId": 204,
+            "sortOrder": 15253,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 16761,
+            "categoryId": 1686,
+            "name": "Points",
+            "componentId": 331,
+            "sortOrder": 16377,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 16763,
+            "categoryId": 1688,
+            "name": "Rebounds",
+            "componentId": 331,
+            "sortOrder": 16379,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 18151,
+            "categoryId": 1566,
+            "name": "Player Combo Specials",
+            "componentId": 204,
+            "sortOrder": 18108,
+            "tags": []
+        },
+        {
+            "id": 4598,
+            "categoryId": 520,
+            "name": "1st Half",
+            "componentId": 210,
+            "sortOrder": 4592,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 4601,
+            "categoryId": 522,
+            "name": "2nd Quarter",
+            "componentId": 210,
+            "sortOrder": 4596,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 4602,
+            "categoryId": 522,
+            "name": "3rd Quarter",
+            "componentId": 210,
+            "sortOrder": 4597,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 4603,
+            "categoryId": 522,
+            "name": "4th Quarter",
+            "componentId": 210,
+            "sortOrder": 4598,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 4604,
+            "categoryId": 520,
+            "name": "1st Half - 3 Way",
+            "componentId": 11,
+            "sortOrder": 12912,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 4609,
+            "categoryId": 523,
+            "name": "Team Totals",
+            "componentId": 29,
+            "sortOrder": 4604,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 4611,
+            "categoryId": 521,
+            "name": "Total Odd/Even",
+            "componentId": 12,
+            "sortOrder": 15536,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 4612,
+            "categoryId": 520,
+            "name": "Odd/Even",
+            "componentId": 29,
+            "sortOrder": 12235,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 4616,
+            "categoryId": 521,
+            "name": "Winning Margin - 7 Way",
+            "componentId": 12,
+            "sortOrder": 5718,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 5723,
+            "categoryId": 521,
+            "name": "Winning Margin",
+            "componentId": 202,
+            "sortOrder": 4929,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 5724,
+            "categoryId": 521,
+            "name": "Winning Margin - 12 Way",
+            "componentId": 202,
+            "sortOrder": 5795,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 5725,
+            "categoryId": 523,
+            "name": "Team Total Odd/Even",
+            "componentId": 202,
+            "sortOrder": 14142,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 5868,
+            "categoryId": 521,
+            "name": "Winning Margin - 3 Way",
+            "componentId": 202,
+            "sortOrder": 5717,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 6228,
+            "categoryId": 522,
+            "name": "Odd/Even",
+            "componentId": 29,
+            "sortOrder": 10113,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 6230,
+            "categoryId": 520,
+            "name": "Team Totals - 1st Half",
+            "componentId": 29,
+            "sortOrder": 4594,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 6231,
+            "categoryId": 522,
+            "name": "Team Totals - Quarters",
+            "componentId": 29,
+            "sortOrder": 10036,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 8568,
+            "categoryId": 522,
+            "name": "Team Odd/Even",
+            "componentId": 203,
+            "sortOrder": 11390,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 8569,
+            "categoryId": 520,
+            "name": "Team Odd/Even",
+            "componentId": 203,
+            "sortOrder": 13159,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 10932,
+            "categoryId": 520,
+            "name": "Winning Margin - Listed Half",
+            "componentId": 203,
+            "sortOrder": 10898,
+            "tags": []
         },
         {
             "id": 12213,
@@ -747,26 +1164,6 @@
             "tags": []
         },
         {
-            "id": 13201,
-            "categoryId": 487,
-            "name": "Alternate Total",
-            "componentId": 240,
-            "sortOrder": 4603,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 13202,
-            "categoryId": 487,
-            "name": "Alternate Spread",
-            "componentId": 240,
-            "sortOrder": 4601,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
             "id": 14648,
             "categoryId": 520,
             "name": "Team Totals - 2nd Half",
@@ -810,27 +1207,6 @@
             "tags": []
         },
         {
-            "id": 18032,
-            "categoryId": 521,
-            "name": "To go to OT",
-            "componentId": 29,
-            "sortOrder": 17989,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 4598,
-            "categoryId": 520,
-            "name": "1st Half",
-            "componentId": 210,
-            "sortOrder": 4592,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
             "id": 4600,
             "categoryId": 522,
             "name": "1st Quarter",
@@ -841,98 +1217,11 @@
             ]
         },
         {
-            "id": 4609,
-            "categoryId": 523,
-            "name": "Team Totals",
+            "id": 18032,
+            "categoryId": 521,
+            "name": "To go to OT",
             "componentId": 29,
-            "sortOrder": 4604,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 4611,
-            "categoryId": 521,
-            "name": "Total Odd/Even",
-            "componentId": 12,
-            "sortOrder": 15536,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 4612,
-            "categoryId": 520,
-            "name": "Odd/Even",
-            "componentId": 29,
-            "sortOrder": 12235,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 4616,
-            "categoryId": 521,
-            "name": "Winning Margin - 7 Way",
-            "componentId": 12,
-            "sortOrder": 5718,
-            "tags": []
-        },
-        {
-            "id": 5723,
-            "categoryId": 521,
-            "name": "Winning Margin",
-            "componentId": 202,
-            "sortOrder": 4929,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 5724,
-            "categoryId": 521,
-            "name": "Winning Margin - 12 Way",
-            "componentId": 202,
-            "sortOrder": 5795,
-            "tags": []
-        },
-        {
-            "id": 5725,
-            "categoryId": 523,
-            "name": "Team Total Odd/Even",
-            "componentId": 202,
-            "sortOrder": 14142,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 5868,
-            "categoryId": 521,
-            "name": "Winning Margin - 3 Way",
-            "componentId": 202,
-            "sortOrder": 5717,
-            "tags": []
-        },
-        {
-            "id": 6230,
-            "categoryId": 520,
-            "name": "Team Totals - 1st Half",
-            "componentId": 29,
-            "sortOrder": 4594,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 6231,
-            "categoryId": 522,
-            "name": "Team Totals - Quarters",
-            "componentId": 29,
-            "sortOrder": 10036,
+            "sortOrder": 17989,
             "tags": [
                 "SGP"
             ]
@@ -943,14 +1232,6 @@
             "name": "Champion",
             "componentId": 29,
             "sortOrder": 4591,
-            "tags": []
-        },
-        {
-            "id": 12155,
-            "categoryId": 1017,
-            "name": "To Win x+ Games",
-            "componentId": 29,
-            "sortOrder": 9740,
             "tags": []
         }
     ],
