@@ -4,7 +4,7 @@
             "id": "7",
             "seoIdentifier": "Baseball",
             "name": "Baseball",
-            "sortOrder": 56
+            "sortOrder": 60
         }
     ],
     "leagues": [
@@ -331,11 +331,6 @@
     ],
     "categories": [
         {
-            "id": 897,
-            "name": "Home Run Derby",
-            "sortOrder": 0
-        },
-        {
             "id": 493,
             "name": "Game Lines",
             "sortOrder": 1,
@@ -441,10 +436,7 @@
         {
             "id": 1671,
             "name": "Game Totals",
-            "sortOrder": 20,
-            "tags": [
-                "SGP"
-            ]
+            "sortOrder": 20
         },
         {
             "id": 1133,
@@ -452,9 +444,39 @@
             "sortOrder": 21
         },
         {
+            "id": 1798,
+            "name": "Player Specials",
+            "sortOrder": 27
+        },
+        {
             "id": 1741,
             "name": "Home Runs",
             "sortOrder": 29
+        },
+        {
+            "id": 1028,
+            "name": "Strikeouts",
+            "sortOrder": 30
+        },
+        {
+            "id": 1742,
+            "name": "Stolen Bases",
+            "sortOrder": 31
+        },
+        {
+            "id": 1767,
+            "name": "Hits",
+            "sortOrder": 32
+        },
+        {
+            "id": 1768,
+            "name": "Runs/RBIs",
+            "sortOrder": 33
+        },
+        {
+            "id": 1769,
+            "name": "Wins",
+            "sortOrder": 34
         },
         {
             "id": 1804,
@@ -518,6 +540,14 @@
             "tags": []
         },
         {
+            "id": 17193,
+            "categoryId": 1766,
+            "name": "Wins O/U",
+            "componentId": 29,
+            "sortOrder": 17150,
+            "tags": []
+        },
+        {
             "id": 17185,
             "categoryId": 1765,
             "name": "Stage of Elimination",
@@ -531,6 +561,14 @@
             "name": "Finishing Position",
             "componentId": 29,
             "sortOrder": 17235,
+            "tags": []
+        },
+        {
+            "id": 17195,
+            "categoryId": 1766,
+            "name": "Regular Season Wins Bands",
+            "componentId": 29,
+            "sortOrder": 17152,
             "tags": []
         },
         {
@@ -619,6 +657,14 @@
             "name": "Specials",
             "componentId": 29,
             "sortOrder": 17132,
+            "tags": []
+        },
+        {
+            "id": 17278,
+            "categoryId": 1764,
+            "name": "Playoff Divisions",
+            "componentId": 204,
+            "sortOrder": 17248,
             "tags": []
         },
         {
@@ -894,9 +940,7 @@
             "name": "1st 7 Innings",
             "componentId": 29,
             "sortOrder": 15587,
-            "tags": [
-                "SGP"
-            ]
+            "tags": []
         },
         {
             "id": 15893,
@@ -935,40 +979,6 @@
             "tags": [
                 "SGP"
             ]
-        },
-        {
-            "id": 16216,
-            "categoryId": 1671,
-            "name": "Home Runs",
-            "componentId": 29,
-            "sortOrder": 1,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 16223,
-            "categoryId": 1671,
-            "name": "Extra Base Hits",
-            "componentId": 29,
-            "sortOrder": 16,
-            "tags": []
-        },
-        {
-            "id": 16266,
-            "categoryId": 1674,
-            "name": "Extra Base Hits",
-            "componentId": 29,
-            "sortOrder": 18,
-            "tags": []
-        },
-        {
-            "id": 16269,
-            "categoryId": 1674,
-            "name": "Double Plays",
-            "componentId": 29,
-            "sortOrder": 20,
-            "tags": []
         },
         {
             "id": 17319,
@@ -1130,14 +1140,52 @@
             ]
         },
         {
-            "id": 17470,
-            "categoryId": 1671,
-            "name": "Double Plays",
+            "id": 17763,
+            "categoryId": 1782,
+            "name": "Either Player Singles",
             "componentId": 29,
-            "sortOrder": 18,
-            "tags": [
-                "SGP"
-            ]
+            "sortOrder": 17720,
+            "tags": []
+        },
+        {
+            "id": 17765,
+            "categoryId": 1782,
+            "name": "Either Player Doubles",
+            "componentId": 29,
+            "sortOrder": 17722,
+            "tags": []
+        },
+        {
+            "id": 17767,
+            "categoryId": 1782,
+            "name": "Either Player RBIs",
+            "componentId": 29,
+            "sortOrder": 17724,
+            "tags": []
+        },
+        {
+            "id": 17768,
+            "categoryId": 1781,
+            "name": "Combined Singles",
+            "componentId": 29,
+            "sortOrder": 17725,
+            "tags": []
+        },
+        {
+            "id": 17769,
+            "categoryId": 1781,
+            "name": "Combined Doubles",
+            "componentId": 29,
+            "sortOrder": 17726,
+            "tags": []
+        },
+        {
+            "id": 17771,
+            "categoryId": 1781,
+            "name": "Combined RBIs",
+            "componentId": 29,
+            "sortOrder": 17728,
+            "tags": []
         },
         {
             "id": 17843,
@@ -1155,6 +1203,36 @@
             "name": "Runs",
             "componentId": 331,
             "sortOrder": 8,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17845,
+            "categoryId": 743,
+            "name": "Singles",
+            "componentId": 331,
+            "sortOrder": 10,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17846,
+            "categoryId": 743,
+            "name": "Doubles",
+            "componentId": 331,
+            "sortOrder": 11,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17847,
+            "categoryId": 743,
+            "name": "Triples",
+            "componentId": 331,
+            "sortOrder": 12,
             "tags": [
                 "SGP"
             ]
@@ -1220,9 +1298,7 @@
             "name": "Race to X Runs",
             "componentId": 30,
             "sortOrder": 6415,
-            "tags": [
-                "SGP"
-            ]
+            "tags": []
         },
         {
             "id": 6694,
@@ -1248,108 +1324,6 @@
             "name": "Cy Young Award",
             "componentId": 29,
             "sortOrder": 6087,
-            "tags": []
-        },
-        {
-            "id": 15711,
-            "categoryId": 897,
-            "name": "Winner",
-            "componentId": 29,
-            "sortOrder": 8478,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
-            "id": 11626,
-            "categoryId": 897,
-            "name": "Finalists",
-            "componentId": 204,
-            "sortOrder": 8515,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
-            "id": 15731,
-            "categoryId": 897,
-            "name": "Semi Finals",
-            "componentId": 29,
-            "sortOrder": 11582,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
-            "id": 18185,
-            "categoryId": 897,
-            "name": "Exact Result",
-            "componentId": 204,
-            "sortOrder": 18150,
-            "tags": []
-        },
-        {
-            "id": 15712,
-            "categoryId": 897,
-            "name": "Totals",
-            "componentId": 29,
-            "sortOrder": 8519,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
-            "id": 15715,
-            "categoryId": 897,
-            "name": "Exit Velocity",
-            "componentId": 29,
-            "sortOrder": 11584,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
-            "id": 15714,
-            "categoryId": 897,
-            "name": "Distance",
-            "componentId": 29,
-            "sortOrder": 11583,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
-            "id": 15716,
-            "categoryId": 897,
-            "name": "AL v NL",
-            "componentId": 29,
-            "sortOrder": 11585,
-            "tags": []
-        },
-        {
-            "id": 15717,
-            "categoryId": 897,
-            "name": "Round 1",
-            "componentId": 29,
-            "sortOrder": 8520,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
-            "id": 18192,
-            "categoryId": 897,
-            "name": "R1 H2H Most",
-            "componentId": 29,
-            "sortOrder": 8538,
-            "tags": []
-        },
-        {
-            "id": 18193,
-            "categoryId": 897,
-            "name": "R1 H2H Longest",
-            "componentId": 29,
-            "sortOrder": 8554,
             "tags": []
         },
         {
@@ -1401,19 +1375,131 @@
             "tags": []
         },
         {
-            "id": 17278,
-            "categoryId": 1764,
-            "name": "Playoff Divisions",
-            "componentId": 204,
-            "sortOrder": 17248,
-            "tags": []
-        },
-        {
             "id": 17201,
             "categoryId": 1741,
             "name": "HR Leader",
             "componentId": 29,
             "sortOrder": 16977,
+            "tags": []
+        },
+        {
+            "id": 17208,
+            "categoryId": 1028,
+            "name": "Strikeouts Leader",
+            "componentId": 29,
+            "sortOrder": 16987,
+            "tags": []
+        },
+        {
+            "id": 17025,
+            "categoryId": 1741,
+            "name": "40+ HR",
+            "componentId": 29,
+            "sortOrder": 16983,
+            "tags": []
+        },
+        {
+            "id": 17026,
+            "categoryId": 1741,
+            "name": "45+ HR",
+            "componentId": 29,
+            "sortOrder": 16984,
+            "tags": []
+        },
+        {
+            "id": 17027,
+            "categoryId": 1741,
+            "name": "50+ HR",
+            "componentId": 29,
+            "sortOrder": 16985,
+            "tags": []
+        },
+        {
+            "id": 17028,
+            "categoryId": 1741,
+            "name": "55+ HR",
+            "componentId": 29,
+            "sortOrder": 16986,
+            "tags": []
+        },
+        {
+            "id": 17029,
+            "categoryId": 1741,
+            "name": "60+ HR",
+            "componentId": 29,
+            "sortOrder": 17158,
+            "tags": []
+        },
+        {
+            "id": 17202,
+            "categoryId": 1767,
+            "name": "Hits Leaders",
+            "componentId": 29,
+            "sortOrder": 17159,
+            "tags": []
+        },
+        {
+            "id": 17206,
+            "categoryId": 1768,
+            "name": "RBIs Leader",
+            "componentId": 29,
+            "sortOrder": 17163,
+            "tags": []
+        },
+        {
+            "id": 17205,
+            "categoryId": 1768,
+            "name": "Runs Leader",
+            "componentId": 29,
+            "sortOrder": 17162,
+            "tags": []
+        },
+        {
+            "id": 17207,
+            "categoryId": 1742,
+            "name": "Stolen Bases Leader",
+            "componentId": 29,
+            "sortOrder": 17002,
+            "tags": []
+        },
+        {
+            "id": 17209,
+            "categoryId": 1769,
+            "name": "Wins Leader",
+            "componentId": 29,
+            "sortOrder": 17166,
+            "tags": []
+        },
+        {
+            "id": 17252,
+            "categoryId": 1767,
+            "name": "180+ Hits",
+            "componentId": 29,
+            "sortOrder": 17210,
+            "tags": []
+        },
+        {
+            "id": 17253,
+            "categoryId": 1767,
+            "name": "190+ Hits",
+            "componentId": 29,
+            "sortOrder": 17211,
+            "tags": []
+        },
+        {
+            "id": 17254,
+            "categoryId": 1767,
+            "name": "200+ Hits",
+            "componentId": 29,
+            "sortOrder": 17212,
+            "tags": []
+        },
+        {
+            "id": 18136,
+            "categoryId": 1798,
+            "name": "Home Runs",
+            "componentId": 29,
+            "sortOrder": 0,
             "tags": []
         },
         {
@@ -1454,6 +1540,14 @@
             "name": "To Win X+ Games",
             "componentId": 29,
             "sortOrder": 17151,
+            "tags": []
+        },
+        {
+            "id": 17196,
+            "categoryId": 1766,
+            "name": "100+ Specials",
+            "componentId": 29,
+            "sortOrder": 17154,
             "tags": []
         }
     ],
