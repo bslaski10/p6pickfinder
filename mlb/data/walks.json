@@ -47,6 +47,16 @@
             "sortOrder": 1
         },
         {
+            "id": 743,
+            "name": "Batter Props",
+            "sortOrder": 3
+        },
+        {
+            "id": 1650,
+            "name": "1st of Game",
+            "sortOrder": 13
+        },
+        {
             "id": 1798,
             "name": "Player Specials",
             "sortOrder": 27
@@ -271,6 +281,14 @@
             "tags": []
         },
         {
+            "id": 17408,
+            "categoryId": 743,
+            "name": "Stolen Bases O/U",
+            "componentId": 8,
+            "sortOrder": 9,
+            "tags": []
+        },
+        {
             "id": 4519,
             "categoryId": 493,
             "name": "Game",
@@ -279,6 +297,22 @@
             "tags": [
                 "Featured"
             ]
+        },
+        {
+            "id": 15973,
+            "categoryId": 1650,
+            "name": "1st Strikeout Thrown",
+            "componentId": 204,
+            "sortOrder": 8,
+            "tags": []
+        },
+        {
+            "id": 15974,
+            "categoryId": 1650,
+            "name": "1st Earned Run Allowed",
+            "componentId": 204,
+            "sortOrder": 10,
+            "tags": []
         },
         {
             "id": 12562,
@@ -382,6 +416,46 @@
             "name": "60+ HR",
             "componentId": 29,
             "sortOrder": 17158,
+            "tags": []
+        },
+        {
+            "id": 17040,
+            "categoryId": 1028,
+            "name": "200+ K",
+            "componentId": 29,
+            "sortOrder": 16998,
+            "tags": []
+        },
+        {
+            "id": 17041,
+            "categoryId": 1028,
+            "name": "210+ K",
+            "componentId": 29,
+            "sortOrder": 16999,
+            "tags": []
+        },
+        {
+            "id": 17042,
+            "categoryId": 1028,
+            "name": "220+ K",
+            "componentId": 29,
+            "sortOrder": 17000,
+            "tags": []
+        },
+        {
+            "id": 17043,
+            "categoryId": 1028,
+            "name": "230+ K",
+            "componentId": 29,
+            "sortOrder": 17001,
+            "tags": []
+        },
+        {
+            "id": 17044,
+            "categoryId": 1028,
+            "name": "240+ K",
+            "componentId": 29,
+            "sortOrder": 17165,
             "tags": []
         },
         {
@@ -509,7 +583,7 @@
         "league-events-84240": {
             "entity": "events",
             "query": "$filter=leagueId eq '84240' and clientMetadata/Subcategories/any(s: s/Id eq '17411')&$orderBy=startEventDate asc",
-            "includeMarkets": "$filter=tags/all(t: t ne 'SportcastBetBuilder') and clientMetadata/subCategoryId eq '17411' and clientMetadata/categoryId eq '743'"
+            "includeMarkets": "$filter=tags/all(t: t ne 'SportcastBetBuilder') and clientMetadata/subCategoryId eq '17411'"
         },
         "lcc-event-": {
             "entity": "LiveContentCardEvent"
