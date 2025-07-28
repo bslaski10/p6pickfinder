@@ -70,6 +70,11 @@
             ]
         },
         {
+            "id": 1196,
+            "name": "Series Props",
+            "sortOrder": 7
+        },
+        {
             "id": 1782,
             "name": "Either Player Props",
             "sortOrder": 9,
@@ -159,50 +164,63 @@
         {
             "id": 735,
             "name": "Daily Specials",
+            "sortOrder": 22
+        },
+        {
+            "id": 1853,
+            "name": "Weekly Specials",
             "sortOrder": 23
+        },
+        {
+            "id": 1246,
+            "name": "Monthly Specials",
+            "sortOrder": 24
         },
         {
             "id": 1798,
             "name": "Player Specials",
-            "sortOrder": 28
-        },
-        {
-            "id": 1804,
-            "name": "July Specials",
-            "sortOrder": 38
+            "sortOrder": 30
         },
         {
             "id": 1774,
             "name": "Champion",
-            "sortOrder": 39
+            "sortOrder": 40
         },
         {
             "id": 1762,
             "name": "Leagues",
-            "sortOrder": 40
+            "sortOrder": 41
         },
         {
             "id": 1764,
             "name": "Divisions",
-            "sortOrder": 41
+            "sortOrder": 42
         },
         {
             "id": 1765,
             "name": "Playoffs/Seeds",
-            "sortOrder": 42
+            "sortOrder": 43
         },
         {
             "id": 1766,
             "name": "Team Wins",
-            "sortOrder": 43
+            "sortOrder": 44
         },
         {
             "id": 684,
             "name": "Awards",
-            "sortOrder": 67
+            "sortOrder": 68
         }
     ],
     "subcategories": [
+        {
+            "id": 16298,
+            "categoryId": 1196,
+            "name": "Series Winner",
+            "componentId": 29,
+            "sortOrder": 12068,
+            "tags": []
+        },
         {
             "id": 7332,
             "categoryId": 684,
@@ -813,16 +831,6 @@
             ]
         },
         {
-            "id": 16222,
-            "categoryId": 1671,
-            "name": "Triples",
-            "componentId": 29,
-            "sortOrder": 14,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
             "id": 16223,
             "categoryId": 1671,
             "name": "Extra Base Hits",
@@ -862,14 +870,6 @@
             "name": "Doubles",
             "componentId": 29,
             "sortOrder": 14,
-            "tags": []
-        },
-        {
-            "id": 16265,
-            "categoryId": 1674,
-            "name": "Triples",
-            "componentId": 29,
-            "sortOrder": 16,
             "tags": []
         },
         {
@@ -1565,16 +1565,6 @@
             ]
         },
         {
-            "id": 9884,
-            "categoryId": 1031,
-            "name": "To Record a Win",
-            "componentId": 8,
-            "sortOrder": 6,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
             "id": 9886,
             "categoryId": 1031,
             "name": "Hits Allowed O/U",
@@ -1595,6 +1585,34 @@
             ]
         },
         {
+            "id": 16222,
+            "categoryId": 1671,
+            "name": "Triples",
+            "componentId": 29,
+            "sortOrder": 14,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16265,
+            "categoryId": 1674,
+            "name": "Triples",
+            "componentId": 29,
+            "sortOrder": 16,
+            "tags": []
+        },
+        {
+            "id": 9884,
+            "categoryId": 1031,
+            "name": "To Record a Win",
+            "componentId": 8,
+            "sortOrder": 6,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 12562,
             "categoryId": 684,
             "name": "Cy Young Award",
@@ -1603,27 +1621,35 @@
             "tags": []
         },
         {
-            "id": 17749,
-            "categoryId": 1804,
+            "id": 18255,
+            "categoryId": 1853,
+            "name": "Wins",
+            "componentId": 29,
+            "sortOrder": 18212,
+            "tags": []
+        },
+        {
+            "id": 12817,
+            "categoryId": 1246,
             "name": "Most Wins",
             "componentId": 29,
-            "sortOrder": 17706,
+            "sortOrder": 12777,
             "tags": []
         },
         {
-            "id": 17752,
-            "categoryId": 1804,
+            "id": 18300,
+            "categoryId": 1246,
             "name": "Division Most Wins",
             "componentId": 29,
-            "sortOrder": 17709,
+            "sortOrder": 18257,
             "tags": []
         },
         {
-            "id": 17756,
-            "categoryId": 1804,
+            "id": 18301,
+            "categoryId": 1246,
             "name": "Any Team X+ Wins",
             "componentId": 29,
-            "sortOrder": 17951,
+            "sortOrder": 18258,
             "tags": []
         },
         {
@@ -1643,11 +1669,43 @@
             "tags": []
         },
         {
+            "id": 18136,
+            "categoryId": 1798,
+            "name": "Home Runs",
+            "componentId": 29,
+            "sortOrder": 0,
+            "tags": []
+        },
+        {
             "id": 7329,
             "categoryId": 735,
             "name": "Daily Specials",
             "componentId": 29,
             "sortOrder": 6614,
+            "tags": []
+        },
+        {
+            "id": 17535,
+            "categoryId": 735,
+            "name": "Daily Team Specials",
+            "componentId": 29,
+            "sortOrder": 6529,
+            "tags": []
+        },
+        {
+            "id": 17536,
+            "categoryId": 735,
+            "name": "Daily Game Specials",
+            "componentId": 29,
+            "sortOrder": 6528,
+            "tags": []
+        },
+        {
+            "id": 11511,
+            "categoryId": 735,
+            "name": "No Hitter",
+            "componentId": 29,
+            "sortOrder": 9930,
             "tags": []
         },
         {
