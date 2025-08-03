@@ -14,6 +14,7 @@
                 "FeaturedSubcategory",
                 "Flashbet",
                 "LiveBoxScore",
+                "LivePrePack",
                 "MatchTracker",
                 "SGP",
                 "Scoreboard",
@@ -174,9 +175,23 @@
             "sortOrder": 21
         },
         {
+            "id": 1246,
+            "name": "Monthly Specials",
+            "sortOrder": 24
+        },
+        {
             "id": 985,
             "name": "Live Batter Props",
             "sortOrder": 26,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 1256,
+            "name": "Live Pitcher Props",
+            "sortOrder": 27,
             "tags": [
                 "SGP",
                 "Live"
@@ -201,6 +216,11 @@
             ]
         },
         {
+            "id": 1798,
+            "name": "Player Specials",
+            "sortOrder": 30
+        },
+        {
             "id": 1774,
             "name": "Champion",
             "sortOrder": 40
@@ -221,19 +241,14 @@
             "sortOrder": 43
         },
         {
-            "id": 1581,
-            "name": "Live Specials",
-            "sortOrder": 47
+            "id": 1766,
+            "name": "Team Wins",
+            "sortOrder": 44
         },
         {
             "id": 684,
             "name": "Awards",
             "sortOrder": 68
-        },
-        {
-            "id": 1131,
-            "name": "DK Specials",
-            "sortOrder": 105
         }
     ],
     "subcategories": [
@@ -251,6 +266,14 @@
             "name": "Rookie of the Year",
             "componentId": 29,
             "sortOrder": 12524,
+            "tags": []
+        },
+        {
+            "id": 17184,
+            "categoryId": 1765,
+            "name": "To Make The Playoffs Y/N",
+            "componentId": 29,
+            "sortOrder": 17141,
             "tags": []
         },
         {
@@ -275,6 +298,22 @@
             "name": "Specials",
             "componentId": 29,
             "sortOrder": 17132,
+            "tags": []
+        },
+        {
+            "id": 18300,
+            "categoryId": 1246,
+            "name": "Division Most Wins",
+            "componentId": 29,
+            "sortOrder": 18257,
+            "tags": []
+        },
+        {
+            "id": 18319,
+            "categoryId": 1246,
+            "name": "Player Stat Combos",
+            "componentId": 29,
+            "sortOrder": 18282,
             "tags": []
         },
         {
@@ -310,6 +349,25 @@
             "tags": [
                 "Featured",
                 "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12150,
+            "categoryId": 985,
+            "name": "Batter Walks",
+            "componentId": 8,
+            "sortOrder": 9475,
+            "tags": []
+        },
+        {
+            "id": 12152,
+            "categoryId": 985,
+            "name": "Hits + Runs + RBIs",
+            "componentId": 8,
+            "sortOrder": 9234,
+            "tags": [
+                "Featured",
                 "Live"
             ]
         },
@@ -422,8 +480,8 @@
             "sortOrder": 6715,
             "tags": [
                 "Featured",
-                "Live",
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -448,6 +506,14 @@
                 "MicroMarket",
                 "Live"
             ]
+        },
+        {
+            "id": 12995,
+            "categoryId": 758,
+            "name": "Race to X Runs",
+            "componentId": 29,
+            "sortOrder": 12955,
+            "tags": []
         },
         {
             "id": 12996,
@@ -483,11 +549,66 @@
             ]
         },
         {
+            "id": 15924,
+            "categoryId": 758,
+            "name": "Run Line Xth Inning",
+            "componentId": 29,
+            "sortOrder": 15881,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17443,
+            "categoryId": 723,
+            "name": "Runs - Listed Inning",
+            "componentId": 29,
+            "sortOrder": 17400,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17445,
+            "categoryId": 723,
+            "name": "1st 5 Innings",
+            "componentId": 29,
+            "sortOrder": 17402,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17446,
+            "categoryId": 723,
+            "name": "1st 7 Innings",
+            "componentId": 29,
+            "sortOrder": 17403,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
             "id": 17448,
             "categoryId": 723,
             "name": "Inning of Last Run",
             "componentId": 29,
             "sortOrder": 17405,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17478,
+            "categoryId": 1256,
+            "name": "Hits Allowed",
+            "componentId": 331,
+            "sortOrder": 12921,
             "tags": [
                 "SGP",
                 "Live"
@@ -511,6 +632,18 @@
             "name": "Total Bases",
             "componentId": 331,
             "sortOrder": 9232,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17481,
+            "categoryId": 1256,
+            "name": "Strikeouts",
+            "componentId": 331,
+            "sortOrder": 12920,
             "tags": [
                 "Featured",
                 "SGP",
@@ -542,6 +675,17 @@
             ]
         },
         {
+            "id": 17484,
+            "categoryId": 1256,
+            "name": "Walks Allowed",
+            "componentId": 331,
+            "sortOrder": 12922,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
             "id": 17493,
             "categoryId": 723,
             "name": "Inning (3-Way)",
@@ -558,7 +702,10 @@
             "name": "Total Runs - Listed Inning",
             "componentId": 29,
             "sortOrder": 17451,
-            "tags": []
+            "tags": [
+                "SGP",
+                "Live"
+            ]
         },
         {
             "id": 17495,
@@ -625,6 +772,14 @@
             ]
         },
         {
+            "id": 18191,
+            "categoryId": 723,
+            "name": "Tiebreaker",
+            "componentId": 29,
+            "sortOrder": 18148,
+            "tags": []
+        },
+        {
             "id": 4519,
             "categoryId": 493,
             "name": "Game",
@@ -656,64 +811,171 @@
             ]
         },
         {
-            "id": 12152,
+            "id": 9502,
             "categoryId": 985,
-            "name": "Hits + Runs + RBIs",
+            "name": "Hits O/U",
             "componentId": 8,
-            "sortOrder": 9234,
+            "sortOrder": 9502,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 9503,
+            "categoryId": 985,
+            "name": "Singles",
+            "componentId": 8,
+            "sortOrder": 17442,
             "tags": [
                 "Featured",
                 "Live"
             ]
         },
         {
-            "id": 12995,
-            "categoryId": 758,
-            "name": "Race to X Runs",
-            "componentId": 29,
-            "sortOrder": 12955,
+            "id": 9504,
+            "categoryId": 985,
+            "name": "Doubles",
+            "componentId": 8,
+            "sortOrder": 17443,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 9505,
+            "categoryId": 985,
+            "name": "RBIs O/U",
+            "componentId": 8,
+            "sortOrder": 12112,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 9506,
+            "categoryId": 985,
+            "name": "Total Bases O/U",
+            "componentId": 8,
+            "sortOrder": 9503,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 9507,
+            "categoryId": 985,
+            "name": "Runs Scored",
+            "componentId": 8,
+            "sortOrder": 9500,
             "tags": []
         },
         {
-            "id": 15924,
+            "id": 9508,
+            "categoryId": 985,
+            "name": "Stolen Bases",
+            "componentId": 8,
+            "sortOrder": 17430,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
+        },
+        {
+            "id": 9537,
+            "categoryId": 985,
+            "name": "Triples",
+            "componentId": 8,
+            "sortOrder": 17444,
+            "tags": []
+        },
+        {
+            "id": 12960,
+            "categoryId": 1256,
+            "name": "Strikeouts O/U",
+            "componentId": 8,
+            "sortOrder": 15436,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12961,
+            "categoryId": 1256,
+            "name": "Outs Recorded",
+            "componentId": 8,
+            "sortOrder": 17435,
+            "tags": []
+        },
+        {
+            "id": 12962,
+            "categoryId": 1256,
+            "name": "Hits Allowed O/U",
+            "componentId": 8,
+            "sortOrder": 17441,
+            "tags": []
+        },
+        {
+            "id": 12963,
+            "categoryId": 1256,
+            "name": "Walks Allowed O/U",
+            "componentId": 8,
+            "sortOrder": 17446,
+            "tags": []
+        },
+        {
+            "id": 12964,
+            "categoryId": 1256,
+            "name": "To Record a Win",
+            "componentId": 29,
+            "sortOrder": 17438,
+            "tags": []
+        },
+        {
+            "id": 12972,
             "categoryId": 758,
-            "name": "Run Line Xth Inning",
+            "name": "1st Scoring Play",
             "componentId": 29,
-            "sortOrder": 15881,
+            "sortOrder": 6718,
             "tags": [
                 "SGP",
                 "Live"
             ]
         },
         {
-            "id": 17446,
-            "categoryId": 723,
-            "name": "1st 7 Innings",
+            "id": 12973,
+            "categoryId": 758,
+            "name": "To Score First & Win",
             "componentId": 29,
-            "sortOrder": 17403,
+            "sortOrder": 6719,
             "tags": [
                 "SGP",
                 "Live"
             ]
         },
         {
-            "id": 18210,
-            "categoryId": 1581,
-            "name": "Either Team to Hit a Home Run",
+            "id": 12997,
+            "categoryId": 758,
+            "name": "1st 5 Innings/Moneyline",
             "componentId": 204,
-            "sortOrder": 15236,
-            "tags": [
-                "Featured",
-                "Live"
-            ]
+            "sortOrder": 12957,
+            "tags": []
         },
         {
-            "id": 18191,
+            "id": 17444,
             "categoryId": 723,
-            "name": "Tiebreaker",
+            "name": "1st 3 Innings",
             "componentId": 29,
-            "sortOrder": 18148,
-            "tags": []
+            "sortOrder": 17401,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
         },
         {
             "id": 11024,
@@ -735,14 +997,6 @@
             "tags": [
                 "SGP"
             ]
-        },
-        {
-            "id": 11037,
-            "categoryId": 1131,
-            "name": "DK Specials",
-            "componentId": 29,
-            "sortOrder": 11310,
-            "tags": []
         },
         {
             "id": 11043,
@@ -967,6 +1221,14 @@
             ]
         },
         {
+            "id": 15418,
+            "categoryId": 1024,
+            "name": "Walks",
+            "componentId": 29,
+            "sortOrder": 10990,
+            "tags": []
+        },
+        {
             "id": 15628,
             "categoryId": 1626,
             "name": "1st 5 Innings",
@@ -1081,12 +1343,14 @@
             "tags": []
         },
         {
-            "id": 16164,
-            "categoryId": 1031,
-            "name": "Race to Strikeouts",
-            "componentId": 204,
-            "sortOrder": 2,
-            "tags": []
+            "id": 16208,
+            "categoryId": 1674,
+            "name": "Alternate Total Runs",
+            "componentId": 240,
+            "sortOrder": 1,
+            "tags": [
+                "SGP"
+            ]
         },
         {
             "id": 16209,
@@ -1109,62 +1373,12 @@
             ]
         },
         {
-            "id": 16217,
-            "categoryId": 1671,
-            "name": "Strikeouts",
-            "componentId": 29,
-            "sortOrder": 6,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 16218,
-            "categoryId": 1671,
-            "name": "Total Bases",
-            "componentId": 29,
-            "sortOrder": 4,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
             "id": 16219,
             "categoryId": 1671,
             "name": "Walks",
             "componentId": 29,
             "sortOrder": 8,
             "tags": []
-        },
-        {
-            "id": 16220,
-            "categoryId": 1671,
-            "name": "Singles",
-            "componentId": 29,
-            "sortOrder": 10,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 16221,
-            "categoryId": 1671,
-            "name": "Doubles",
-            "componentId": 29,
-            "sortOrder": 12,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 16222,
-            "categoryId": 1671,
-            "name": "Triples",
-            "componentId": 29,
-            "sortOrder": 14,
-            "tags": [
-                "SGP"
-            ]
         },
         {
             "id": 16223,
@@ -1498,71 +1712,11 @@
             ]
         },
         {
-            "id": 17466,
-            "categoryId": 1781,
-            "name": "Combined Strikeouts",
-            "componentId": 29,
-            "sortOrder": 17423,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17467,
-            "categoryId": 1781,
-            "name": "Combined Hits Allowed",
-            "componentId": 29,
-            "sortOrder": 17424,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17468,
-            "categoryId": 1781,
-            "name": "Combined Walks Allowed",
-            "componentId": 29,
-            "sortOrder": 17425,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
             "id": 17470,
             "categoryId": 1671,
             "name": "Double Plays",
             "componentId": 29,
             "sortOrder": 18,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17509,
-            "categoryId": 1782,
-            "name": "Either Pitcher Strikeouts",
-            "componentId": 29,
-            "sortOrder": 17467,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17510,
-            "categoryId": 1782,
-            "name": "Either Pitcher Hits Allowed",
-            "componentId": 29,
-            "sortOrder": 17468,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17511,
-            "categoryId": 1782,
-            "name": "Either Pitcher Walks",
-            "componentId": 29,
-            "sortOrder": 17469,
             "tags": [
                 "SGP"
             ]
@@ -1882,14 +2036,6 @@
             ]
         },
         {
-            "id": 9884,
-            "categoryId": 1031,
-            "name": "To Record a Win",
-            "componentId": 8,
-            "sortOrder": 6,
-            "tags": []
-        },
-        {
             "id": 9886,
             "categoryId": 1031,
             "name": "Hits Allowed O/U",
@@ -1910,22 +2056,154 @@
             ]
         },
         {
-            "id": 15418,
-            "categoryId": 1024,
-            "name": "Walks",
-            "componentId": 29,
-            "sortOrder": 10990,
+            "id": 16164,
+            "categoryId": 1031,
+            "name": "Race to Strikeouts",
+            "componentId": 204,
+            "sortOrder": 2,
             "tags": []
         },
         {
-            "id": 16208,
-            "categoryId": 1674,
-            "name": "Alternate Total Runs",
-            "componentId": 240,
-            "sortOrder": 1,
+            "id": 16217,
+            "categoryId": 1671,
+            "name": "Strikeouts",
+            "componentId": 29,
+            "sortOrder": 6,
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 16218,
+            "categoryId": 1671,
+            "name": "Total Bases",
+            "componentId": 29,
+            "sortOrder": 4,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16220,
+            "categoryId": 1671,
+            "name": "Singles",
+            "componentId": 29,
+            "sortOrder": 10,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16221,
+            "categoryId": 1671,
+            "name": "Doubles",
+            "componentId": 29,
+            "sortOrder": 12,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16222,
+            "categoryId": 1671,
+            "name": "Triples",
+            "componentId": 29,
+            "sortOrder": 14,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17466,
+            "categoryId": 1781,
+            "name": "Combined Strikeouts",
+            "componentId": 29,
+            "sortOrder": 17423,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17467,
+            "categoryId": 1781,
+            "name": "Combined Hits Allowed",
+            "componentId": 29,
+            "sortOrder": 17424,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17468,
+            "categoryId": 1781,
+            "name": "Combined Walks Allowed",
+            "componentId": 29,
+            "sortOrder": 17425,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17509,
+            "categoryId": 1782,
+            "name": "Either Pitcher Strikeouts",
+            "componentId": 29,
+            "sortOrder": 17467,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17510,
+            "categoryId": 1782,
+            "name": "Either Pitcher Hits Allowed",
+            "componentId": 29,
+            "sortOrder": 17468,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17511,
+            "categoryId": 1782,
+            "name": "Either Pitcher Walks",
+            "componentId": 29,
+            "sortOrder": 17469,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 9884,
+            "categoryId": 1031,
+            "name": "To Record a Win",
+            "componentId": 8,
+            "sortOrder": 6,
+            "tags": []
+        },
+        {
+            "id": 15889,
+            "categoryId": 1650,
+            "name": "1st Hit",
+            "componentId": 204,
+            "sortOrder": 3,
+            "tags": []
+        },
+        {
+            "id": 15891,
+            "categoryId": 1650,
+            "name": "1st Double",
+            "componentId": 204,
+            "sortOrder": 6,
+            "tags": []
+        },
+        {
+            "id": 17505,
+            "categoryId": 1650,
+            "name": "1st Batter to Strikeout",
+            "componentId": 204,
+            "sortOrder": 9,
+            "tags": []
         },
         {
             "id": 12562,
@@ -1936,19 +2214,19 @@
             "tags": []
         },
         {
-            "id": 17184,
-            "categoryId": 1765,
-            "name": "To Make The Playoffs Y/N",
-            "componentId": 29,
-            "sortOrder": 17141,
-            "tags": []
-        },
-        {
             "id": 17290,
             "categoryId": 1764,
             "name": "Winner",
             "componentId": 29,
             "sortOrder": 17134,
+            "tags": []
+        },
+        {
+            "id": 18136,
+            "categoryId": 1798,
+            "name": "Home Runs",
+            "componentId": 29,
+            "sortOrder": 0,
             "tags": []
         },
         {
@@ -1965,6 +2243,14 @@
             "name": "Specials",
             "componentId": 29,
             "sortOrder": 17238,
+            "tags": []
+        },
+        {
+            "id": 17194,
+            "categoryId": 1766,
+            "name": "To Win X+ Games",
+            "componentId": 29,
+            "sortOrder": 17151,
             "tags": []
         }
     ],
