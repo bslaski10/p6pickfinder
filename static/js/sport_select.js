@@ -1,7 +1,7 @@
 // static/js/sport_select.js
 
 // Set default sport
-window.currentSport = "mlb";
+window.currentSport = "nfl";
 
 // Function to update the active button style
 function updateActiveButton(selectedSport) {
@@ -27,9 +27,9 @@ document.querySelectorAll('.sport-btn').forEach(button => {
   });
 });
 
-// On page load, simulate a click on the MLB button
+// On page load, simulate a click on the NFL button
 document.addEventListener("DOMContentLoaded", function () {
-  const defaultSport = "mlb";
+  const defaultSport = "nfl";
   const defaultBtn = document.querySelector(`.sport-btn[data-sport="${defaultSport}"]`);
   if (defaultBtn) {
     defaultBtn.click(); // This triggers the event listener and loads the data

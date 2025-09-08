@@ -50,6 +50,7 @@
       </div>
       <div class="filter-buttons">
         <button id="filter-sport-all">All Sports</button>
+        <button id="filter-nfl">NFL</button>
         <button id="filter-nba">NBA</button>
         <button id="filter-mlb">MLB</button>
         <button id="filter-nhl">NHL</button>
@@ -61,7 +62,7 @@
     <div class="created-parlay">
       <h2>Profit/Loss Graph</h2>
       <p id="range-label" style="margin-top: -10px; margin-bottom: 10px; font-style: italic; text-align: center;">
-        Start: 2/27/25 &nbsp;&nbsp; Last update: 7/11/25
+        Start: 2/27/25 &nbsp;&nbsp; Last update: 9/8/25
       </p>
       <canvas id="profitChart"></canvas>
       <div id="stats" style="margin-top: 20px;">
@@ -136,7 +137,10 @@
         <label>Sport:</label>
         <div>
           <label style="display:inline; margin-right:10px;">
-            <input type="radio" name="sport" value="nba" checked> NBA
+            <input type="radio" name="sport" value="nfl" checked> NFL
+          </label>
+          <label style="display:inline; margin-right:10px;">
+            <input type="radio" name="sport" value="nba"> NBA
           </label>
           <label style="display:inline; margin-right:10px;">
             <input type="radio" name="sport" value="mlb"> MLB

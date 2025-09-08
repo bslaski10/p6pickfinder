@@ -3,8 +3,8 @@
 // Function to load initial parlays from picks.json when the page loads
 async function loadInitialParlays() {
     try {
-        // Use the global currentSport (defaults to "nba")
-        const sport = window.currentSport || "nba";
+        // Use the global currentSport (defaults to "nfl")
+        const sport = window.currentSport || "nfl";
         const response = await fetch(`/get_picks?sport=${sport}`); // Append sport as query parameter
         const data = await response.json();
 

@@ -34,12 +34,13 @@
     </p>
   </div>
 
-  <!-- New sport selection buttons -->
+  <!-- Sport selection buttons (NFL first) -->
   <div class="sport-buttons">
-    <button class="sport-btn" data-sport="nba">NBA</button>
-    <button class="sport-btn" data-sport="mlb">MLB</button>
-    <button class="sport-btn" data-sport="nhl">NHL</button>
-    <button class="sport-btn" data-sport="wnba">WNBA</button>
+    <button id="nflBtn" class="sport-btn" data-sport="nfl">NFL</button>
+    <button id="nbaBtn" class="sport-btn" data-sport="nba">NBA</button>
+    <button id="mlbBtn" class="sport-btn" data-sport="mlb">MLB</button>
+    <button id="nhlBtn" class="sport-btn" data-sport="nhl">NHL</button>
+    <button id="wnbaBtn" class="sport-btn" data-sport="wnba">WNBA</button>
   </div>
   
   <div class="parlay-container">
@@ -68,5 +69,13 @@
   <script src="{{ url_for('static', filename='js/info.js') }}"></script>
   <!-- Include the shared sport selection script -->
   <script src="{{ url_for('static', filename='js/sport_select.js') }}"></script>
+
+  <!-- Auto-select NFL on page load -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const nflBtn = document.getElementById('nflBtn');
+      if (nflBtn) nflBtn.click(); // trigger the existing sport selection logic
+    });
+  </script>
 </body>
 </html>

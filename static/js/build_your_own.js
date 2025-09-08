@@ -8,7 +8,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const maxSelections = 3;
   let createdParlay = [];
   let availablePicks = [];
-  let currentSport = "nba"; // default
+  let currentSport = "nfl"; // default
+
+  // Base payout multipliers by sport and parlay size
+  // (Feel free to adjust if your book rules differ)
+  const BASE_PAYOUTS = {
+    2: { nfl: 3.3, nba: 3.3, mlb: 3.3, nhl: 3.3, wnba: 2.75 },
+    3: { nfl: 6.6, nba: 5.5, mlb: 6.6, nhl: 6.6, wnba: 4.4 }
+  };
 
   function fetchSelections(sport) {
     fetch(`/get_selections?sport=${sport}`)
@@ -33,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Initial fetch
+  // Initial fetch (NFL)
   fetchSelections(currentSport);
 
   // Search filtering
@@ -43,9 +50,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function renderAvailablePicks() {
     availablePicksList.innerHTML = "";
-    const query = searchBar.value.toLowerCase();
+    const query = (searchBar.value || "").toLowerCase();
     availablePicks.forEach(selection => {
-      if (selection.toLowerCase().includes(query)) {
+      if (String(selection).toLowerCase().includes(query)) {
         const selectionDiv = document.createElement("div");
         selectionDiv.className = "selection-box";
 
@@ -82,8 +89,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function extractOdds(selection) {
-    const parts = selection.split(", ");
-    return parseInt(parts[2]); // e.g., -145
+    const parts = String(selection).split(", ");
+    // Expected format: "Name, over/under X Stat, -145, matchup, time"
+    // Odds at index 2
+    return parseInt(parts[2], 10);
   }
 
   function calculateImpliedProbability(odds) {
@@ -93,12 +102,13 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       rawProb = 100 / (odds + 100);
     }
-    return rawProb / 1.0698; // Apply 6.98% vig adjustment at leg level
+    // Apply 6.98% vig at leg level
+    return rawProb / 1.0698;
   }
 
   function calculateParlayImpliedOdds() {
     if (createdParlay.length === 0) return null;
-    let combinedProbability = createdParlay
+    const combinedProbability = createdParlay
       .map(extractOdds)
       .map(calculateImpliedProbability)
       .reduce((acc, prob) => acc * prob, 1);
@@ -131,33 +141,24 @@ document.addEventListener("DOMContentLoaded", function () {
   function updateBoostEdgeInfo() {
     boostEdgeInfo.innerHTML = "";
     const oddsData = calculateParlayImpliedOdds();
-    if (oddsData) {
-      const impliedPercentage = oddsData.impliedProbability * 100;
-      let innerHTML = `<p><strong>Implied Odds:</strong> ${impliedPercentage.toFixed(2)}%</p>`;
-      const boost = parseFloat(boostBar.value) || 0;
+    if (!oddsData) return;
 
-      let basePayout;
+    const impliedPercentage = oddsData.impliedProbability * 100;
+    let innerHTML = `<p><strong>Implied Odds:</strong> ${impliedPercentage.toFixed(2)}%</p>`;
 
-      // Determine base payout by sport and parlay length
-      if (createdParlay.length === 2) {
-        if (currentSport === "nba") basePayout = 3.3;
-        else if (currentSport === "mlb") basePayout = 2.97;
-        else if (currentSport === "nhl") basePayout = 3.3;
-        else if (currentSport === "wnba") basePayout = 2.75;
-      } else if (createdParlay.length === 3) {
-        if (currentSport === "nba") basePayout = 5.5;
-        else if (currentSport === "mlb") basePayout = 5.5;
-        else if (currentSport === "nhl") basePayout = 4.4;
-        else if (currentSport === "wnba") basePayout = 4.4;
-      }
+    const boost = parseFloat(boostBar.value) || 0;
+    const legs = createdParlay.length;
 
-      if (basePayout) {
-        const payout = basePayout + (basePayout * boost / 100);
-        const edge = (payout * oddsData.impliedProbability - 1) * 100;
-        innerHTML += `<p><strong>Edge:</strong> ${edge.toFixed(2)}%</p>`;
-      }
+    // Determine base payout by sport and parlay length via table
+    const sportTable = BASE_PAYOUTS[legs];
+    const basePayout = sportTable ? sportTable[currentSport] : undefined;
 
-      boostEdgeInfo.innerHTML = innerHTML;
+    if (basePayout) {
+      const payout = basePayout + (basePayout * boost / 100);
+      const edge = (payout * oddsData.impliedProbability - 1) * 100;
+      innerHTML += `<p><strong>Edge:</strong> ${edge.toFixed(2)}%</p>`;
     }
+
+    boostEdgeInfo.innerHTML = innerHTML;
   }
 });
