@@ -21,6 +21,10 @@ def build_your_own():
 def personal_stats():
     return render_template('personal_stats.html')
 
+@app.route('/free-75')
+def free_75():
+    return render_template('free75.html')
+
 @app.route('/get_locks')
 def get_locks():
     sport = request.args.get('sport', 'nba').lower()
