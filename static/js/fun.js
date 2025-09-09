@@ -24,4 +24,8 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("square5").addEventListener("click", function() {
     window.location.href = "/personal-stats"; // Redirect to Personal Stats page
   });
+  
+  document.getElementById("square6").addEventListener("click", function() {
+    window.location.href = "/free-75"; // Redirect to Free 75 page
+  });
 });
