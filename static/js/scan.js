@@ -16,7 +16,7 @@ async function scanLocks() {
   
     try {
       // Pass the sport parameter to /get_locks as well.
-      const sport = window.currentSport || "nba";
+      const sport = window.currentSport || "nfl";
       const response = await fetch(`/get_locks?sport=${sport}`);
       const data = await response.json();
       

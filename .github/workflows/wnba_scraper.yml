@@ -3,8 +3,8 @@ name: WNBA Daily Scraper
 on:
   schedule:
     - cron: '30 22 * * *'    # Every day at 6:30 PM ET
-    - cron: '30 16 * * 6'    # Saturday at 12:30 PM ET
-    - cron: '30 16 * * 0'    # Sunday at 12:30 PM ET
+    - cron: '30 14 * * 6'    # Saturday at 12:30 PM ET
+    - cron: '30 14 * * 0'    # Sunday at 10:30 PM ET
   workflow_dispatch:
 
 jobs:

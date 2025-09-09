@@ -1,19 +1,13 @@
-name: MLB Daily Scraper
+name: NFL Daily Scraper
 
 on:
   schedule:
-    - cron: '40 21 * * 1'   # Monday 5:40 PM ET
-    - cron: '30 21 * * 2'  # Tuesday 5:30 PM ET
-    - cron: '30 16 * * 3'  # Wednesday 12:30 PM ET
-    - cron: '0 22 * * 3'   # Wednesday 6:00 PM ET
-    - cron: '30 16 * * 4'  # Thursday 12:30 PM ET
-    - cron: '0 22 * * 4'   # Thursday 6:00 PM ET
-    - cron: '0 22 * * 5'   # Friday 6:00 PM ET
-    - cron: '15 16 * * 6'  # Saturday 12:00 PM ET
-    - cron: '0 22 * * 6'   # Saturday 6:00 PM ET
-    - cron: '30 16 * * 0'  # Sunday 12:30 PM ET
+    - cron: '15 22 * * 4'  # Thursday 6:15 PM ET
+    - cron: '45 15 * * 0'  # Sunday 11:45 AM ET
+    - cron: '45 18 * * 0'  # Sunday 2:45 PM ET
+    - cron: '15 22 * * 0'  # Sunday 6:15 PM ET
+    - cron: '15 22 * * 1'  # Monday 6:15 PM ET
   workflow_dispatch:
-
 
 jobs:
   run-scraper:
@@ -33,7 +27,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run scraper script
-        run: python mlb/Locks.py
+        run: python nfl/Locks.py
 
       - name: Commit & push updated data
         run: |
@@ -42,4 +36,3 @@ jobs:
           git add .
           git commit -m "🔁 Auto-update by GitHub Action" || echo "No changes to commit"
           git push
-
