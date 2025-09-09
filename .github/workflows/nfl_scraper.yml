@@ -2,11 +2,12 @@ name: NFL Daily Scraper
 
 on:
   schedule:
-    - cron: '15 22 * * 4'  # Thursday 6:15 PM ET
-    - cron: '45 15 * * 0'  # Sunday 11:45 AM ET
-    - cron: '45 18 * * 0'  # Sunday 2:45 PM ET
-    - cron: '15 22 * * 0'  # Sunday 6:15 PM ET
-    - cron: '15 22 * * 1'  # Monday 6:15 PM ET
+  - cron: '22 22 * * 4'   # Thursday 6:15 PM ET
+  - cron: '45 15 * * 0'   # Sunday 11:45 AM ET
+  - cron: '45 18 * * 0'   # Sunday 2:45 PM ET
+  - cron: '22 22 * * 0'   # Sunday 6:15 PM ET
+  - cron: '22 22 * * 1'   # Monday 6:15 PM ET
+
   workflow_dispatch:
 
 jobs:
