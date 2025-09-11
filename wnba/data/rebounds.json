@@ -58,46 +58,6 @@
             "sortOrder": 3
         },
         {
-            "id": 1215,
-            "name": "Player Points",
-            "sortOrder": 5,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 1218,
-            "name": "Player Threes",
-            "sortOrder": 6,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 1216,
-            "name": "Player Rebounds",
-            "sortOrder": 7,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 1217,
-            "name": "Player Assists",
-            "sortOrder": 8,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 583,
-            "name": "Player Combos",
-            "sortOrder": 9,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
             "id": 1206,
             "name": "H2H Player Props",
             "sortOrder": 17
@@ -294,16 +254,6 @@
             "tags": []
         },
         {
-            "id": 13762,
-            "categoryId": 583,
-            "name": "Double-Double",
-            "componentId": 204,
-            "sortOrder": 4986,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
             "id": 14648,
             "categoryId": 520,
             "name": "Team Totals - 2nd Half",
@@ -321,87 +271,6 @@
             "componentId": 240,
             "sortOrder": 8561,
             "tags": []
-        },
-        {
-            "id": 16305,
-            "categoryId": 1157,
-            "name": "1st Point",
-            "componentId": 204,
-            "sortOrder": 11444,
-            "tags": [
-                "Featured"
-            ]
-        },
-        {
-            "id": 16477,
-            "categoryId": 1215,
-            "name": "Points",
-            "componentId": 331,
-            "sortOrder": 12450,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 16478,
-            "categoryId": 1217,
-            "name": "Assists",
-            "componentId": 331,
-            "sortOrder": 12457,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 16479,
-            "categoryId": 1216,
-            "name": "Rebounds",
-            "componentId": 331,
-            "sortOrder": 12454,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 16480,
-            "categoryId": 1218,
-            "name": "Threes",
-            "componentId": 331,
-            "sortOrder": 12459,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 16481,
-            "categoryId": 583,
-            "name": "Pts + Ast",
-            "componentId": 331,
-            "sortOrder": 5007,
-            "tags": []
-        },
-        {
-            "id": 16482,
-            "categoryId": 583,
-            "name": "Pts + Reb",
-            "componentId": 331,
-            "sortOrder": 4995,
-            "tags": []
-        },
-        {
-            "id": 16483,
-            "categoryId": 583,
-            "name": "Pts + Reb + Ast",
-            "componentId": 331,
-            "sortOrder": 4927,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
         },
         {
             "id": 16720,
@@ -619,6 +488,16 @@
             "tags": []
         },
         {
+            "id": 16305,
+            "categoryId": 1157,
+            "name": "1st Point",
+            "componentId": 204,
+            "sortOrder": 11444,
+            "tags": [
+                "Featured"
+            ]
+        },
+        {
             "id": 18082,
             "categoryId": 1264,
             "name": "Series Winner",
@@ -689,29 +568,13 @@
             "componentId": 29,
             "sortOrder": 4591,
             "tags": []
-        },
-        {
-            "id": 5721,
-            "categoryId": 519,
-            "name": "Finalists",
-            "componentId": 204,
-            "sortOrder": 9759,
-            "tags": []
-        },
-        {
-            "id": 16101,
-            "categoryId": 519,
-            "name": "Exact Result",
-            "componentId": 204,
-            "sortOrder": 16248,
-            "tags": []
         }
     ],
     "subscriptionPartials": {
         "league-events-94682": {
             "entity": "events",
             "query": "$filter=leagueId eq '94682' and clientMetadata/Subcategories/any(s: s/Id eq '12492')&$orderBy=startEventDate asc",
-            "includeMarkets": "$filter=tags/all(t: t ne 'SportcastBetBuilder') and clientMetadata/subCategoryId eq '12492'"
+            "includeMarkets": "$filter=tags/all(t: t ne 'SportcastBetBuilder') and clientMetadata/subCategoryId eq '12492' and clientMetadata/categoryId eq '1216'"
         },
         "lcc-event-": {
             "entity": "LiveContentCardEvent"
