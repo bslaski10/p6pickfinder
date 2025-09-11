@@ -204,7 +204,7 @@ def serve_nba_time():
 def serve_sport_time(sport):
     try:
         # Only allow known sports
-        if sport not in ['mlb', 'nhl', 'wnba']:
+        if sport not in ['mlb', 'nhl', 'wnba', 'nfl']:
             return jsonify({"error": "Invalid sport"}), 400
 
         return send_from_directory(sport, 'time.json')
