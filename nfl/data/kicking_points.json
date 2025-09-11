@@ -110,7 +110,7 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 246961594,
-            "subscriptionKey": "events-12103771-58307720"
+            "subscriptionKey": "events-4703073-34738323"
         }
     ],
     "markets": [
@@ -130,7 +130,7 @@
                 "betOfferTypeId": 0,
                 "name": "Kicking Points O/U"
             },
-            "subscriptionKey": "events-12103771-58307720",
+            "subscriptionKey": "events-4703073-34738323",
             "sortOrder": 1,
             "tags": [
                 "YourBetEligible",
@@ -158,7 +158,7 @@
                 "betOfferTypeId": 0,
                 "name": "Kicking Points O/U"
             },
-            "subscriptionKey": "events-12103771-58307720",
+            "subscriptionKey": "events-4703073-34738323",
             "sortOrder": 2,
             "tags": [
                 "YourBetEligible",
@@ -243,11 +243,11 @@
             "marketId": "270135109",
             "label": "Over",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "−104",
+                "decimal": "1.96",
+                "fractional": "25/26"
             },
-            "trueOdds": 2,
+            "trueOdds": 1.96153847,
             "points": 7.5,
             "outcomeType": "Over",
             "participants": [
@@ -276,11 +276,11 @@
             "marketId": "270135109",
             "label": "Under",
             "displayOdds": {
-                "american": "−127",
-                "decimal": "1.78",
-                "fractional": "100/127"
+                "american": "−123",
+                "decimal": "1.81",
+                "fractional": "100/123"
             },
-            "trueOdds": 1.78740158,
+            "trueOdds": 1.81300814,
             "points": 7.5,
             "outcomeType": "Under",
             "participants": [
@@ -306,7 +306,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-12103771-58307720": {
+        "events-4703073-34738323": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '17062')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '17062' AND tags/all(t: t ne 'SportcastBetBuilder')"
