@@ -31,11 +31,11 @@ urls = {
     "completions": ("Completions", "https://pick6.draftkings.com/?stat=COMP"),
     "passing_attempts": ("Passing Attempts", "https://pick6.draftkings.com/?stat=ATT"),
     "rushing_attempts": ("Rush Attempts", "https://pick6.draftkings.com/?stat=RuAtt"),
-    "interceptions": ("Interceptions", "https://pick6.draftkings.com/?stat=INT"),
+    "interceptions": ("Interceptions Thrown", "https://pick6.draftkings.com/?stat=INT"),
     "kicking_points": ("Kicking Points", "https://pick6.draftkings.com/?stat=KPTS"),
-    "tackles": ("Tackles", "https://pick6.draftkings.com/?stat=Tkl"),
+    "tackles": ("Solo Tackles", "https://pick6.draftkings.com/?stat=Tkl"),
     "tackles+assists": ("Tackles + Assists", "https://pick6.draftkings.com/?stat=TCK+%2B+AST"),
-    "field_goals": ("Field Goals", "<put-url-here>"),
+    "field_goals": ("Field Goals Made", "<put-url-here>"),
 }
 
 
