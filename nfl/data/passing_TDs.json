@@ -333,7 +333,7 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 247530029,
-            "subscriptionKey": "events-8633855-63078125"
+            "subscriptionKey": "events-19930008-22719270"
         },
         {
             "id": "32225762",
@@ -647,7 +647,7 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 247548062,
-            "subscriptionKey": "events-8633855-63078125"
+            "subscriptionKey": "events-19930008-22719270"
         }
     ],
     "markets": [
@@ -667,7 +667,7 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Touchdowns O/U"
             },
-            "subscriptionKey": "events-8633855-63078125",
+            "subscriptionKey": "events-19930008-22719270",
             "sortOrder": 1,
             "tags": [
                 "SGP",
@@ -678,35 +678,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "32225762|12809|2:61449",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "275101530",
-            "eventId": "32225762",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Geno Smith Passing Touchdowns O/U",
-            "subcategoryId": "9525",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "12809",
-                "betOfferTypeId": 0,
-                "name": "Passing Touchdowns O/U"
-            },
-            "subscriptionKey": "events-8633855-63078125",
-            "sortOrder": 2,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225762|12809|2:100881",
             "dynamicMetadata": {}
         },
         {
@@ -725,8 +696,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Touchdowns O/U"
             },
-            "subscriptionKey": "events-8633855-63078125",
-            "sortOrder": 3,
+            "subscriptionKey": "events-19930008-22719270",
+            "sortOrder": 2,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -736,6 +707,35 @@
                 "PlayerProps"
             ],
             "correlatedId": "32225629|12809|2:54908",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "275101530",
+            "eventId": "32225762",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Geno Smith Passing Touchdowns O/U",
+            "subcategoryId": "9525",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "12809",
+                "betOfferTypeId": 0,
+                "name": "Passing Touchdowns O/U"
+            },
+            "subscriptionKey": "events-19930008-22719270",
+            "sortOrder": 3,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225762|12809|2:100881",
             "dynamicMetadata": {}
         },
         {
@@ -754,7 +754,7 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Touchdowns O/U"
             },
-            "subscriptionKey": "events-8633855-63078125",
+            "subscriptionKey": "events-19930008-22719270",
             "sortOrder": 4,
             "tags": [
                 "SGP",
@@ -900,11 +900,11 @@
             "marketId": "275101530",
             "label": "Over",
             "displayOdds": {
-                "american": "+101",
-                "decimal": "2.01",
-                "fractional": "101/100"
+                "american": "+104",
+                "decimal": "2.04",
+                "fractional": "26/25"
             },
-            "trueOdds": 2.01,
+            "trueOdds": 2.04,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -934,11 +934,11 @@
             "marketId": "275101530",
             "label": "Under",
             "displayOdds": {
-                "american": "−128",
-                "decimal": "1.78",
-                "fractional": "25/32"
+                "american": "−133",
+                "decimal": "1.75",
+                "fractional": "100/133"
             },
-            "trueOdds": 1.78125,
+            "trueOdds": 1.7518797,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -1031,7 +1031,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-8633855-63078125": {
+        "events-19930008-22719270": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '9525')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '9525' AND tags/all(t: t ne 'SportcastBetBuilder')"
