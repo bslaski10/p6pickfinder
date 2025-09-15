@@ -32,13 +32,13 @@ def calculate_parlay_odds(odds_list):
         parlay_american = (total_decimal - 1) * 100
     return round(parlay_american)
 
-# New helper function: Get numeric implied odds as a float (percentage value with 6.98% vig applied)
+# New helper function: Get numeric implied odds as a float (percentage value with 5.66% vig applied)
 def get_implied_odds_value(american_odds):
     if american_odds > 0:
         raw_prob = 100 / (american_odds + 100)
     else:
         raw_prob = abs(american_odds) / (abs(american_odds) + 100)
-    return (raw_prob / 1.0698) * 100
+    return (raw_prob / 1.0566) * 100
 
 # Sort the selections by their numeric odds (lowest odds first)
 sorted_selections = sorted(selections, key=lambda x: int(normalize_minus_sign(x.split(", ")[2])))
