@@ -333,7 +333,7 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 247530029,
-            "subscriptionKey": "events-64007588-7184412"
+            "subscriptionKey": "events-58085022-29146199"
         },
         {
             "id": "32225762",
@@ -647,7 +647,7 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 247548062,
-            "subscriptionKey": "events-64007588-7184412"
+            "subscriptionKey": "events-58085022-29146199"
         }
     ],
     "markets": [
@@ -667,7 +667,7 @@
                 "betOfferTypeId": 0,
                 "name": "Kicking Points O/U"
             },
-            "subscriptionKey": "events-64007588-7184412",
+            "subscriptionKey": "events-58085022-29146199",
             "sortOrder": 1,
             "tags": [
                 "YourBetEligible",
@@ -695,7 +695,7 @@
                 "betOfferTypeId": 0,
                 "name": "Kicking Points O/U"
             },
-            "subscriptionKey": "events-64007588-7184412",
+            "subscriptionKey": "events-58085022-29146199",
             "sortOrder": 2,
             "tags": [
                 "YourBetEligible",
@@ -705,34 +705,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "32225629|13689|2:60557",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "275098720",
-            "eventId": "32225762",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Daniel Carlson Kicking Points O/U",
-            "subcategoryId": "17062",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13689",
-                "betOfferTypeId": 0,
-                "name": "Kicking Points O/U"
-            },
-            "subscriptionKey": "events-64007588-7184412",
-            "sortOrder": 3,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225762|13689|2:61013",
             "dynamicMetadata": {}
         },
         {
@@ -751,8 +723,8 @@
                 "betOfferTypeId": 0,
                 "name": "Kicking Points O/U"
             },
-            "subscriptionKey": "events-64007588-7184412",
-            "sortOrder": 4,
+            "subscriptionKey": "events-58085022-29146199",
+            "sortOrder": 3,
             "tags": [
                 "YourBetEligible",
                 "Cashout",
@@ -762,6 +734,34 @@
             ],
             "correlatedId": "32225629|13689|2:60592",
             "dynamicMetadata": {}
+        },
+        {
+            "id": "275098720",
+            "eventId": "32225762",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Daniel Carlson Kicking Points O/U",
+            "subcategoryId": "17062",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "13689",
+                "betOfferTypeId": 0,
+                "name": "Kicking Points O/U"
+            },
+            "subscriptionKey": "events-58085022-29146199",
+            "sortOrder": 4,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225762|13689|2:61013",
+            "dynamicMetadata": {}
         }
     ],
     "selections": [
@@ -770,11 +770,11 @@
             "marketId": "275102104",
             "label": "Over",
             "displayOdds": {
-                "american": "−108",
-                "decimal": "1.92",
-                "fractional": "25/27"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.92592593,
+            "trueOdds": 1.8,
             "points": 6.5,
             "outcomeType": "Over",
             "participants": [
@@ -803,11 +803,11 @@
             "marketId": "275102104",
             "label": "Under",
             "displayOdds": {
-                "american": "−118",
-                "decimal": "1.84",
-                "fractional": "50/59"
+                "american": "−102",
+                "decimal": "1.98",
+                "fractional": "50/51"
             },
-            "trueOdds": 1.84745763,
+            "trueOdds": 1.98039216,
             "points": 6.5,
             "outcomeType": "Under",
             "participants": [
@@ -902,11 +902,11 @@
             "marketId": "275098720",
             "label": "Over",
             "displayOdds": {
-                "american": "−117",
-                "decimal": "1.85",
-                "fractional": "100/117"
+                "american": "−116",
+                "decimal": "1.86",
+                "fractional": "25/29"
             },
-            "trueOdds": 1.85470086,
+            "trueOdds": 1.86206897,
             "points": 6.5,
             "outcomeType": "Over",
             "participants": [
@@ -935,11 +935,11 @@
             "marketId": "275098720",
             "label": "Under",
             "displayOdds": {
-                "american": "−109",
-                "decimal": "1.91",
-                "fractional": "100/109"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.9174312,
+            "trueOdds": 1.90909091,
             "points": 6.5,
             "outcomeType": "Under",
             "participants": [
@@ -1031,7 +1031,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-64007588-7184412": {
+        "events-58085022-29146199": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '17062')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '17062' AND tags/all(t: t ne 'SportcastBetBuilder')"
