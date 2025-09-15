@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
       rawProb = 100 / (odds + 100);
     }
     // Apply 6.98% vig at leg level
-    return rawProb / 1.0698;
+    return rawProb / 1.0566;
   }
 
   function calculateParlayImpliedOdds() {
