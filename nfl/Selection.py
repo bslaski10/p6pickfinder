@@ -21,8 +21,84 @@ def convert_to_est(utc_time_str: str) -> str:
         print(f"[Time Parse Error] '{utc_time_str}' → {e}")
         return ""
 
-_SUFFIXES = {"Jr", "Jr.", "Sr", "Sr.", "II", "III", "IV", "V"}
+# --- Name normalization helpers (ignore Jr/Sr/etc) ---
 
+_SUFFIXES = {"jr", "jr.", "sr", "sr.", "ii", "iii", "iv", "v"}
+
+def _strip_punct(s: str) -> str:
+    # remove periods/commas/apostrophes; normalize spaces
+    return " ".join(
+        s.replace(".", " ")
+         .replace(",", " ")
+         .replace("’", "")
+         .replace("'", "")
+         .split()
+    )
+
+def _split_first_last(name: str):
+    """
+    Returns (first, last_block) from a name string after punctuation cleanup.
+    Accepts 'First Last' and 'Last First' when a comma existed originally.
+    """
+    raw = name.strip()
+    if "," in raw:
+        # Preserve info about comma positioning before we strip punctuation
+        parts = [p for p in raw.split(",") if p.strip()]
+        if len(parts) >= 2:
+            last_raw = parts[0].strip()
+            first_raw = parts[1].strip()
+            cleaned = _strip_punct(f"{first_raw} {last_raw}")
+            toks = cleaned.split()
+            if len(toks) >= 2:
+                return toks[0], " ".join(toks[1:])
+    # Default path: assume 'First ... Last'
+    cleaned = _strip_punct(raw)
+    toks = cleaned.split()
+    if not toks:
+        return "", ""
+    if len(toks) == 1:
+        return toks[0], ""
+    return toks[0], " ".join(toks[1:])
+
+def _drop_suffixes(first: str, last_block: str):
+    # Remove any suffix tokens at the end of last_block
+    if not last_block:
+        return first, last_block
+    toks = last_block.split()
+    while toks and toks[-1].lower() in _SUFFIXES:
+        toks.pop()
+    return first, " ".join(toks)
+
+def _name_variants_ignore_suffixes(full_name: str):
+    """
+    Given any name string, produce a set of normalized keys that IGNORE suffixes,
+    compare in lowercase, and allow 'First Last' and 'F Last' matches.
+    """
+    if not full_name:
+        return set()
+    # Keep a copy to detect comma style before stripping
+    first, last_block = _split_first_last(full_name)
+    first, last_block = _drop_suffixes(first, last_block)
+
+    # If no last name, still provide the single token
+    variants = set()
+    if not first and not last_block:
+        return variants
+
+    def norm(s: str) -> str:
+        # remove periods/commas/apostrophes (already handled) just lowercase + collapse spaces
+        return " ".join(s.split()).lower()
+
+    if last_block:
+        variants.add(norm(f"{first} {last_block}"))          # "First Last"
+        variants.add(norm(f"{first[:1]} {last_block}"))      # "F Last"
+        variants.add(norm(f"{first[:1]}. {last_block}"))     # "F. Last"
+    else:
+        variants.add(norm(first))
+
+    return variants
+
+# Backward compatible helper you had (kept, but now unused by matching)
 def full_to_initial_last(full_name: str) -> str:
     if not full_name:
         return ""
@@ -32,13 +108,17 @@ def full_to_initial_last(full_name: str) -> str:
         return ""
     first = parts[0]
     tail = parts[1:]
-    while tail and tail[-1] in _SUFFIXES:
+    # drop suffixes from tail
+    while tail and tail[-1].rstrip(".").lower() in _SUFFIXES:
         tail.pop()
     last_block = " ".join(tail).strip() or first
     return f"{first[0]}." + f" {last_block}"
 
 def normalize_name_key(s: str) -> str:
-    return " ".join(s.replace(".", "").split()).lower()
+    # Keep for simple cases; our main matching uses _name_variants_ignore_suffixes
+    return " ".join(_strip_punct(s).split()).lower()
+
+# --- Core processing ---
 
 def process_category(category_name: str):
     lines_file = f'nfl/lines/{category_name}_lines.json'
@@ -54,45 +134,55 @@ def process_category(category_name: str):
     with open(options_file, 'r') as file:
         options_data = json.load(file)
 
+    # Build a set of ALL normalized variants from options (ignoring suffixes)
+    options_norm = set()
     if isinstance(options_data, list):
-        options_norm = set(normalize_name_key(x) for x in options_data if isinstance(x, str))
+        for x in options_data:
+            if isinstance(x, str):
+                options_norm |= _name_variants_ignore_suffixes(x)
+            elif x is not None:
+                options_norm |= _name_variants_ignore_suffixes(str(x))
     else:
+        # dict or other iterable – best effort
         try:
-            options_norm = set(normalize_name_key(str(x)) for x in options_data)
+            for x in options_data:
+                options_norm |= _name_variants_ignore_suffixes(str(x))
         except Exception:
-            options_norm = set()
+            pass
 
     selections = []
 
     for player in lines_data:
-        full_name = player.get('name', '').strip()
+        full_name = (player.get('name') or '').strip()
         if not full_name:
             continue
 
-        cand_full = normalize_name_key(full_name)
-        cand_init_last = normalize_name_key(full_to_initial_last(full_name))
+        player_keys = _name_variants_ignore_suffixes(full_name)
 
-        if (cand_full in options_norm) or (cand_init_last in options_norm):
-            over_amer = normalize_minus_sign(str(player['over']['american']))
-            under_amer = normalize_minus_sign(str(player['under']['american']))
-            try:
-                over_odds = int(over_amer)
-                under_odds = int(under_amer)
-            except ValueError:
-                continue
+        # Match if ANY variant intersects with options set
+        if not player_keys or player_keys.isdisjoint(options_norm):
+            continue
 
-            if over_odds < under_odds:
-                selected_type = 'over'
-                selected_odds = over_amer
-            else:
-                selected_type = 'under'
-                selected_odds = under_amer
+        over_amer = normalize_minus_sign(str(player['over']['american']))
+        under_amer = normalize_minus_sign(str(player['under']['american']))
+        try:
+            over_odds = int(over_amer)
+            under_odds = int(under_amer)
+        except ValueError:
+            continue
 
-            selected_line = f"{player['line']} {category_name.replace('_', ' ').capitalize()}"
-            matchup = player.get('matchup', 'N/A')
-            game_time = convert_to_est(player.get('gameTime', ''))
-            selection_str = f"{full_name}, {selected_type} {selected_line}, {normalize_minus_sign(selected_odds)}, {matchup}, {game_time}"
-            selections.append((selected_odds, selection_str))
+        if over_odds < under_odds:
+            selected_type = 'over'
+            selected_odds = over_amer
+        else:
+            selected_type = 'under'
+            selected_odds = under_amer
+
+        selected_line = f"{player['line']} {category_name.replace('_', ' ').capitalize()}"
+        matchup = player.get('matchup', 'N/A')
+        game_time = convert_to_est(player.get('gameTime', ''))
+        selection_str = f"{full_name}, {selected_type} {selected_line}, {normalize_minus_sign(selected_odds)}, {matchup}, {game_time}"
+        selections.append((selected_odds, selection_str))
 
     selections.sort(key=lambda x: int(normalize_minus_sign(str(x[0]))))
     return [selection[1] for selection in selections]
