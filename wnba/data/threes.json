@@ -93,27 +93,6 @@
             "media": [
                 {
                     "providerName": "BetRadarStats",
-                    "providerEventId": "63874573",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "63874573",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "2"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "63874573",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "2"
-                    }
-                },
-                {
-                    "providerName": "BetRadarStats",
                     "providerEventId": "63874591",
                     "mediaType": "Stats"
                 },
@@ -350,7 +329,7 @@
                 "name": "Three Pointers Made O/U"
             },
             "subscriptionKey": "league-events-94682",
-            "sortOrder": 8,
+            "sortOrder": 9,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -434,6 +413,30 @@
             "dynamicMetadata": {}
         },
         {
+            "id": "278021555",
+            "eventId": "32822636",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "Napheesa Collier Three Pointers Made O/U",
+            "subcategoryId": 12497,
+            "marketType": {
+                "id": "5390",
+                "betOfferTypeId": 0,
+                "name": "Three Pointers Made O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 8,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        },
+        {
             "id": "278021553",
             "eventId": "32822636",
             "sportId": "2",
@@ -446,7 +449,7 @@
                 "name": "Three Pointers Made O/U"
             },
             "subscriptionKey": "league-events-94682",
-            "sortOrder": 9,
+            "sortOrder": 10,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -601,6 +604,37 @@
                     "name": "Courtney Williams",
                     "type": "Player",
                     "seoIdentifier": "Courtney Williams",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA278021555#346721186_13L94682Q1162432Q20",
+            "marketId": "278021555",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+154",
+                "decimal": "2.54",
+                "fractional": "77/50"
+            },
+            "trueOdds": 2.54,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "50871",
+                    "name": "Napheesa Collier",
+                    "type": "Player",
+                    "seoIdentifier": "Napheesa Collier",
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
@@ -818,6 +852,37 @@
                     "name": "Courtney Williams",
                     "type": "Player",
                     "seoIdentifier": "Courtney Williams",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA278021555#346721187_15L94682Q1162432Q20",
+            "marketId": "278021555",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−200",
+                "decimal": "1.50",
+                "fractional": "1/2"
+            },
+            "trueOdds": 1.5,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "50871",
+                    "name": "Napheesa Collier",
+                    "type": "Player",
+                    "seoIdentifier": "Napheesa Collier",
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
@@ -1073,9 +1138,22 @@
             ]
         },
         {
+            "id": 1206,
+            "name": "H2H Player Props",
+            "sortOrder": 17
+        },
+        {
             "id": 520,
             "name": "Halves",
             "sortOrder": 27,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 522,
+            "name": "Quarters",
+            "sortOrder": 28,
             "tags": [
                 "SGP"
             ]
@@ -1170,11 +1248,85 @@
             "tags": []
         },
         {
+            "id": 10932,
+            "categoryId": 520,
+            "name": "Winning Margin - Listed Half",
+            "componentId": 203,
+            "sortOrder": 10898,
+            "tags": []
+        },
+        {
+            "id": 12188,
+            "categoryId": 487,
+            "name": "Halftime/Fulltime",
+            "componentId": 204,
+            "sortOrder": 10284,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 12213,
+            "categoryId": 487,
+            "name": "Quarter/Fulltime",
+            "componentId": 204,
+            "sortOrder": 12175,
+            "tags": []
+        },
+        {
             "id": 12219,
             "categoryId": 521,
             "name": "Wire to Wire",
             "componentId": 29,
             "sortOrder": 10059,
+            "tags": []
+        },
+        {
+            "id": 12227,
+            "categoryId": 522,
+            "name": "Margin (Q1)",
+            "componentId": 202,
+            "sortOrder": 13163,
+            "tags": []
+        },
+        {
+            "id": 12230,
+            "categoryId": 522,
+            "name": "Margin - Exact (Q1)",
+            "componentId": 202,
+            "sortOrder": 13177,
+            "tags": []
+        },
+        {
+            "id": 12231,
+            "categoryId": 522,
+            "name": "Margin - Exact (Q2)",
+            "componentId": 202,
+            "sortOrder": 13180,
+            "tags": []
+        },
+        {
+            "id": 12232,
+            "categoryId": 522,
+            "name": "Margin - Exact (Q3)",
+            "componentId": 202,
+            "sortOrder": 13181,
+            "tags": []
+        },
+        {
+            "id": 12234,
+            "categoryId": 520,
+            "name": "Margin - Exact (1st Half)",
+            "componentId": 202,
+            "sortOrder": 15525,
+            "tags": []
+        },
+        {
+            "id": 12236,
+            "categoryId": 521,
+            "name": "End of Q3",
+            "componentId": 204,
+            "sortOrder": 14711,
             "tags": []
         },
         {
@@ -1191,6 +1343,14 @@
             "name": "Winning Margin (Exact)",
             "componentId": 202,
             "sortOrder": 15315,
+            "tags": []
+        },
+        {
+            "id": 12342,
+            "categoryId": 522,
+            "name": "Margin (3-Way)",
+            "componentId": 203,
+            "sortOrder": 10029,
             "tags": []
         },
         {
@@ -1270,6 +1430,41 @@
             "tags": [
                 "Featured"
             ]
+        },
+        {
+            "id": 14648,
+            "categoryId": 520,
+            "name": "Team Totals - 2nd Half",
+            "componentId": 29,
+            "sortOrder": 4599,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 15599,
+            "categoryId": 520,
+            "name": "Alt Spread - X Half",
+            "componentId": 240,
+            "sortOrder": 8561,
+            "tags": []
+        },
+        {
+            "id": 15614,
+            "categoryId": 1206,
+            "name": "H2H Points",
+            "componentId": 204,
+            "sortOrder": 14743,
+            "tags": []
+        },
+        {
+            "id": 15615,
+            "categoryId": 1206,
+            "name": "H2H Rebounds",
+            "componentId": 204,
+            "sortOrder": 14745,
+            "tags": []
         },
         {
             "id": 16305,
@@ -1353,6 +1548,14 @@
             ]
         },
         {
+            "id": 16720,
+            "categoryId": 520,
+            "name": "Alt Total - X Half",
+            "componentId": 240,
+            "sortOrder": 10042,
+            "tags": []
+        },
+        {
             "id": 16732,
             "categoryId": 521,
             "name": "Correct Score",
@@ -1361,6 +1564,22 @@
             "tags": [
                 "Featured"
             ]
+        },
+        {
+            "id": 16822,
+            "categoryId": 522,
+            "name": "Alt Spread - 1st Quarter",
+            "componentId": 240,
+            "sortOrder": 4614,
+            "tags": []
+        },
+        {
+            "id": 16826,
+            "categoryId": 522,
+            "name": "Alt Total - 1st Quarter",
+            "componentId": 240,
+            "sortOrder": 4619,
+            "tags": []
         },
         {
             "id": 16839,
@@ -1427,6 +1646,42 @@
             ]
         },
         {
+            "id": 4600,
+            "categoryId": 522,
+            "name": "1st Quarter",
+            "componentId": 210,
+            "sortOrder": 4595,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 4601,
+            "categoryId": 522,
+            "name": "2nd Quarter",
+            "componentId": 210,
+            "sortOrder": 4596,
+            "tags": []
+        },
+        {
+            "id": 4602,
+            "categoryId": 522,
+            "name": "3rd Quarter",
+            "componentId": 210,
+            "sortOrder": 4597,
+            "tags": []
+        },
+        {
+            "id": 4603,
+            "categoryId": 522,
+            "name": "4th Quarter",
+            "componentId": 210,
+            "sortOrder": 4598,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 4609,
             "categoryId": 523,
             "name": "Team Totals",
@@ -1443,6 +1698,16 @@
             "name": "Total Odd/Even",
             "componentId": 12,
             "sortOrder": 15536,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 4612,
+            "categoryId": 520,
+            "name": "Odd/Even",
+            "componentId": 29,
+            "sortOrder": 12235,
             "tags": [
                 "SGP"
             ]
@@ -1501,6 +1766,27 @@
             "componentId": 202,
             "sortOrder": 5717,
             "tags": []
+        },
+        {
+            "id": 6230,
+            "categoryId": 520,
+            "name": "Team Totals - 1st Half",
+            "componentId": 29,
+            "sortOrder": 4594,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 6231,
+            "categoryId": 522,
+            "name": "Team Totals - Quarters",
+            "componentId": 29,
+            "sortOrder": 10036,
+            "tags": [
+                "SGP"
+            ]
         },
         {
             "id": 17726,

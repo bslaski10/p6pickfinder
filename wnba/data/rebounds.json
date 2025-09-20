@@ -93,27 +93,6 @@
             "media": [
                 {
                     "providerName": "BetRadarStats",
-                    "providerEventId": "63874573",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "63874573",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "2"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "63874573",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "2"
-                    }
-                },
-                {
-                    "providerName": "BetRadarStats",
                     "providerEventId": "63874591",
                     "mediaType": "Stats"
                 },
@@ -506,6 +485,30 @@
             "dynamicMetadata": {}
         },
         {
+            "id": "278021635",
+            "eventId": "32822636",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "Kahleah Copper Rebounds O/U",
+            "subcategoryId": 12492,
+            "marketType": {
+                "id": "3560",
+                "betOfferTypeId": 0,
+                "name": "Rebounds O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 12,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        },
+        {
             "id": "278021544",
             "eventId": "32822636",
             "sportId": "2",
@@ -518,7 +521,7 @@
                 "name": "Rebounds O/U"
             },
             "subscriptionKey": "league-events-94682",
-            "sortOrder": 12,
+            "sortOrder": 13,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -562,6 +565,37 @@
             "metadata": {}
         },
         {
+            "id": "0QA278021635#346720482_13L94682Q1154856Q20",
+            "marketId": "278021635",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−166",
+                "decimal": "1.60",
+                "fractional": "50/83"
+            },
+            "trueOdds": 1.60240964,
+            "points": 2.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "50783",
+                    "name": "Kahleah Copper",
+                    "type": "Player",
+                    "seoIdentifier": "Kahleah Copper",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 2500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA278021544#346201466_15L94682Q1162433Q20",
             "marketId": "278021544",
             "label": "Under",
@@ -587,6 +621,37 @@
             "tags": [
                 "MainPointLine",
                 "SGP"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA278021635#346720483_15L94682Q1154856Q20",
+            "marketId": "278021635",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+130",
+                "decimal": "2.30",
+                "fractional": "13/10"
+            },
+            "trueOdds": 2.3,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "50783",
+                    "name": "Kahleah Copper",
+                    "type": "Player",
+                    "seoIdentifier": "Kahleah Copper",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -1216,11 +1281,11 @@
             "marketId": "277806753",
             "label": "Over",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "+114",
+                "decimal": "2.14",
+                "fractional": "57/50"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 2.14,
             "points": 10.5,
             "outcomeType": "Over",
             "participants": [
@@ -1247,11 +1312,11 @@
             "marketId": "277806753",
             "label": "Under",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−145",
+                "decimal": "1.68",
+                "fractional": "20/29"
             },
-            "trueOdds": 1.83333334,
+            "trueOdds": 1.68965518,
             "points": 10.5,
             "outcomeType": "Under",
             "participants": [
@@ -1329,9 +1394,22 @@
             ]
         },
         {
+            "id": 1206,
+            "name": "H2H Player Props",
+            "sortOrder": 17
+        },
+        {
             "id": 520,
             "name": "Halves",
             "sortOrder": 27,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 522,
+            "name": "Quarters",
+            "sortOrder": 28,
             "tags": [
                 "SGP"
             ]
@@ -1426,11 +1504,85 @@
             "tags": []
         },
         {
+            "id": 10932,
+            "categoryId": 520,
+            "name": "Winning Margin - Listed Half",
+            "componentId": 203,
+            "sortOrder": 10898,
+            "tags": []
+        },
+        {
+            "id": 12188,
+            "categoryId": 487,
+            "name": "Halftime/Fulltime",
+            "componentId": 204,
+            "sortOrder": 10284,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 12213,
+            "categoryId": 487,
+            "name": "Quarter/Fulltime",
+            "componentId": 204,
+            "sortOrder": 12175,
+            "tags": []
+        },
+        {
             "id": 12219,
             "categoryId": 521,
             "name": "Wire to Wire",
             "componentId": 29,
             "sortOrder": 10059,
+            "tags": []
+        },
+        {
+            "id": 12227,
+            "categoryId": 522,
+            "name": "Margin (Q1)",
+            "componentId": 202,
+            "sortOrder": 13163,
+            "tags": []
+        },
+        {
+            "id": 12230,
+            "categoryId": 522,
+            "name": "Margin - Exact (Q1)",
+            "componentId": 202,
+            "sortOrder": 13177,
+            "tags": []
+        },
+        {
+            "id": 12231,
+            "categoryId": 522,
+            "name": "Margin - Exact (Q2)",
+            "componentId": 202,
+            "sortOrder": 13180,
+            "tags": []
+        },
+        {
+            "id": 12232,
+            "categoryId": 522,
+            "name": "Margin - Exact (Q3)",
+            "componentId": 202,
+            "sortOrder": 13181,
+            "tags": []
+        },
+        {
+            "id": 12234,
+            "categoryId": 520,
+            "name": "Margin - Exact (1st Half)",
+            "componentId": 202,
+            "sortOrder": 15525,
+            "tags": []
+        },
+        {
+            "id": 12236,
+            "categoryId": 521,
+            "name": "End of Q3",
+            "componentId": 204,
+            "sortOrder": 14711,
             "tags": []
         },
         {
@@ -1447,6 +1599,14 @@
             "name": "Winning Margin (Exact)",
             "componentId": 202,
             "sortOrder": 15315,
+            "tags": []
+        },
+        {
+            "id": 12342,
+            "categoryId": 522,
+            "name": "Margin (3-Way)",
+            "componentId": 203,
+            "sortOrder": 10029,
             "tags": []
         },
         {
@@ -1526,6 +1686,41 @@
             "tags": [
                 "Featured"
             ]
+        },
+        {
+            "id": 14648,
+            "categoryId": 520,
+            "name": "Team Totals - 2nd Half",
+            "componentId": 29,
+            "sortOrder": 4599,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 15599,
+            "categoryId": 520,
+            "name": "Alt Spread - X Half",
+            "componentId": 240,
+            "sortOrder": 8561,
+            "tags": []
+        },
+        {
+            "id": 15614,
+            "categoryId": 1206,
+            "name": "H2H Points",
+            "componentId": 204,
+            "sortOrder": 14743,
+            "tags": []
+        },
+        {
+            "id": 15615,
+            "categoryId": 1206,
+            "name": "H2H Rebounds",
+            "componentId": 204,
+            "sortOrder": 14745,
+            "tags": []
         },
         {
             "id": 16305,
@@ -1609,6 +1804,14 @@
             ]
         },
         {
+            "id": 16720,
+            "categoryId": 520,
+            "name": "Alt Total - X Half",
+            "componentId": 240,
+            "sortOrder": 10042,
+            "tags": []
+        },
+        {
             "id": 16732,
             "categoryId": 521,
             "name": "Correct Score",
@@ -1617,6 +1820,22 @@
             "tags": [
                 "Featured"
             ]
+        },
+        {
+            "id": 16822,
+            "categoryId": 522,
+            "name": "Alt Spread - 1st Quarter",
+            "componentId": 240,
+            "sortOrder": 4614,
+            "tags": []
+        },
+        {
+            "id": 16826,
+            "categoryId": 522,
+            "name": "Alt Total - 1st Quarter",
+            "componentId": 240,
+            "sortOrder": 4619,
+            "tags": []
         },
         {
             "id": 16839,
@@ -1683,6 +1902,42 @@
             ]
         },
         {
+            "id": 4600,
+            "categoryId": 522,
+            "name": "1st Quarter",
+            "componentId": 210,
+            "sortOrder": 4595,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 4601,
+            "categoryId": 522,
+            "name": "2nd Quarter",
+            "componentId": 210,
+            "sortOrder": 4596,
+            "tags": []
+        },
+        {
+            "id": 4602,
+            "categoryId": 522,
+            "name": "3rd Quarter",
+            "componentId": 210,
+            "sortOrder": 4597,
+            "tags": []
+        },
+        {
+            "id": 4603,
+            "categoryId": 522,
+            "name": "4th Quarter",
+            "componentId": 210,
+            "sortOrder": 4598,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 4609,
             "categoryId": 523,
             "name": "Team Totals",
@@ -1699,6 +1954,16 @@
             "name": "Total Odd/Even",
             "componentId": 12,
             "sortOrder": 15536,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 4612,
+            "categoryId": 520,
+            "name": "Odd/Even",
+            "componentId": 29,
+            "sortOrder": 12235,
             "tags": [
                 "SGP"
             ]
@@ -1757,6 +2022,27 @@
             "componentId": 202,
             "sortOrder": 5717,
             "tags": []
+        },
+        {
+            "id": 6230,
+            "categoryId": 520,
+            "name": "Team Totals - 1st Half",
+            "componentId": 29,
+            "sortOrder": 4594,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 6231,
+            "categoryId": 522,
+            "name": "Team Totals - Quarters",
+            "componentId": 29,
+            "sortOrder": 10036,
+            "tags": [
+                "SGP"
+            ]
         },
         {
             "id": 17726,
