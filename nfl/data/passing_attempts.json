@@ -22,12 +22,169 @@
     ],
     "events": [
         {
+            "id": "32225603",
+            "seoIdentifier": "NY Jets @ TB Buccaneers",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "NY Jets @ TB Buccaneers",
+            "startEventDate": "2025-09-21T17:02:33.0000000Z",
+            "participants": [
+                {
+                    "id": "18474",
+                    "name": "TB Buccaneers",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "rosettaTeamId": "18474",
+                        "rosettaTeamName": "Buccaneers",
+                        "shortName": "TB",
+                        "teamColor": "#d50a0a"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Buccaneers",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                },
+                {
+                    "id": "18441",
+                    "name": "NY Jets",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "rosettaTeamId": "18441",
+                        "rosettaTeamName": "Jets",
+                        "shortName": "NYJ",
+                        "teamColor": "#125740"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Jets",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "Halftime",
+                "gameTime": 900
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "20",
+                    "awayScore": "6"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "3",
+                        "awayScore": "3",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "17",
+                        "awayScore": "3",
+                        "name": "Q2"
+                    },
+                    {
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "1",
+                    "currentDriveYardsToGo": "10",
+                    "currentGameState": "-1",
+                    "currentYardLine": "65",
+                    "inPossession": "away",
+                    "kickOffTeam1stHalf": "home",
+                    "kickOffTeam2ndHalf": "away"
+                }
+            },
+            "media": [
+                {
+                    "providerName": "BetGenius",
+                    "providerEventId": "12282066",
+                    "mediaType": "LiveStreaming",
+                    "metadata": {
+                        "BetGeniusDash": "Akamai",
+                        "BetGeniusHls": "Akamai",
+                        "BetGeniusLiveStreamId": "704ca8df"
+                    },
+                    "allowedDmas": [
+                        "532",
+                        "514",
+                        "523",
+                        "571",
+                        "592",
+                        "533",
+                        "561",
+                        "528",
+                        "501",
+                        "534",
+                        "656",
+                        "530",
+                        "539",
+                        "526",
+                        "548"
+                    ]
+                },
+                {
+                    "providerName": "Simplebet",
+                    "providerEventId": "48ae2baf-80e1-42f8-b141-191ce1c7e323",
+                    "mediaType": "MatchTracker"
+                },
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "60575049",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "60575049",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "60575049",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
+                "LiveStreaming",
+                "MatchTracker",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "40",
+                "numberOfParts": "4",
+                "secondsInOnePart": "900"
+            },
+            "sortOrder": 248358203,
+            "subscriptionKey": "events-33821581-59132434"
+        },
+        {
             "id": "32225539",
             "seoIdentifier": "GB Packers @ CLE Browns",
             "sportId": "3",
             "leagueId": "88808",
             "name": "GB Packers @ CLE Browns",
-            "startEventDate": "2025-09-21T17:00:00.0000000Z",
+            "startEventDate": "2025-09-21T17:02:30.0000000Z",
             "participants": [
                 {
                     "id": "18325",
@@ -35,7 +192,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "123",
                         "rosettaTeamId": "18325",
                         "rosettaTeamName": "Browns",
                         "shortName": "CLE",
@@ -52,7 +208,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "122",
                         "rosettaTeamId": "18357",
                         "rosettaTeamName": "Packers",
                         "shortName": "GB",
@@ -65,7 +220,48 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "3rd Quarter",
+                "gameTime": 328,
+                "isClockRunning": true
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "0",
+                    "awayScore": "3"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "0",
+                        "awayScore": "0",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "0",
+                        "awayScore": "3",
+                        "name": "Q2"
+                    },
+                    {
+                        "homeScore": "0",
+                        "awayScore": "0",
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "2",
+                    "currentDriveYardsToGo": "8",
+                    "currentGameState": "0",
+                    "currentYardLine": "20",
+                    "inPossession": "away",
+                    "kickOffTeam1stHalf": "away",
+                    "kickOffTeam2ndHalf": "home"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -172,9 +368,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -186,8 +384,544 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 248358001,
-            "subscriptionKey": "events-12530425-54823048"
+            "sortOrder": 248358239,
+            "subscriptionKey": "events-33821581-59132434"
+        },
+        {
+            "id": "32225747",
+            "seoIdentifier": "PIT Steelers @ NE Patriots",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "PIT Steelers @ NE Patriots",
+            "startEventDate": "2025-09-21T17:02:29.0000000Z",
+            "participants": [
+                {
+                    "id": "18415",
+                    "name": "NE Patriots",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "rosettaTeamId": "18415",
+                        "rosettaTeamName": "Patriots",
+                        "shortName": "NE",
+                        "teamColor": "#002244"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Patriots",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                },
+                {
+                    "id": "18456",
+                    "name": "PIT Steelers",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "rosettaTeamId": "18456",
+                        "rosettaTeamName": "Steelers",
+                        "shortName": "PIT",
+                        "teamColor": "#ffb612"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Steelers",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "3rd Quarter",
+                "gameTime": 684
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "7",
+                    "awayScore": "14"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "0",
+                        "awayScore": "7",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "7",
+                        "awayScore": "7",
+                        "name": "Q2"
+                    },
+                    {
+                        "homeScore": "0",
+                        "awayScore": "0",
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "1",
+                    "currentDriveYardsToGo": "10",
+                    "currentGameState": "0",
+                    "currentYardLine": "54",
+                    "inPossession": "home",
+                    "kickOffTeam1stHalf": "away",
+                    "kickOffTeam2ndHalf": "home"
+                }
+            },
+            "media": [
+                {
+                    "providerName": "BetGenius",
+                    "providerEventId": "12282064",
+                    "mediaType": "LiveStreaming",
+                    "metadata": {
+                        "BetGeniusDash": "Akamai",
+                        "BetGeniusHls": "Akamai",
+                        "BetGeniusLiveStreamId": "704ca8df"
+                    },
+                    "allowedDmas": [
+                        "532",
+                        "520",
+                        "512",
+                        "537",
+                        "502",
+                        "630",
+                        "559",
+                        "506",
+                        "514",
+                        "523",
+                        "519",
+                        "564",
+                        "584",
+                        "868",
+                        "598",
+                        "546",
+                        "522",
+                        "606",
+                        "565",
+                        "516",
+                        "802",
+                        "571",
+                        "518",
+                        "545",
+                        "567",
+                        "566",
+                        "569",
+                        "533",
+                        "574",
+                        "503",
+                        "528",
+                        "828",
+                        "698",
+                        "570",
+                        "501",
+                        "544",
+                        "597",
+                        "508",
+                        "500",
+                        "552",
+                        "521",
+                        "560",
+                        "556",
+                        "573",
+                        "538",
+                        "862",
+                        "576",
+                        "807",
+                        "543",
+                        "555",
+                        "526",
+                        "549",
+                        "548",
+                        "554",
+                        "577",
+                        "550",
+                        "536",
+                        "744"
+                    ]
+                },
+                {
+                    "providerName": "Simplebet",
+                    "providerEventId": "4edbd22e-3cf9-49d9-8e43-753378e47926",
+                    "mediaType": "MatchTracker"
+                },
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "60575021",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "60575021",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "60575021",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
+                "LiveStreaming",
+                "MatchTracker",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "40",
+                "numberOfParts": "4",
+                "secondsInOnePart": "900"
+            },
+            "sortOrder": 248358247,
+            "subscriptionKey": "events-33821581-59132434"
+        },
+        {
+            "id": "32225559",
+            "seoIdentifier": "LV Raiders @ WAS Commanders",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "LV Raiders @ WAS Commanders",
+            "startEventDate": "2025-09-21T17:02:46.0000000Z",
+            "participants": [
+                {
+                    "id": "18480",
+                    "name": "WAS Commanders",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "rosettaTeamId": "18480",
+                        "rosettaTeamName": "Commanders",
+                        "shortName": "WAS",
+                        "teamColor": "#5a1414"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Commanders",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                },
+                {
+                    "id": "18388",
+                    "name": "LV Raiders",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "rosettaTeamId": "18388",
+                        "rosettaTeamName": "Raiders",
+                        "shortName": "LV",
+                        "teamColor": "#000000"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Raiders",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "3rd Quarter",
+                "gameTime": 763
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "20",
+                    "awayScore": "10"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "7",
+                        "awayScore": "3",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "13",
+                        "awayScore": "7",
+                        "name": "Q2"
+                    },
+                    {
+                        "homeScore": "0",
+                        "awayScore": "0",
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "1",
+                    "currentDriveYardsToGo": "10",
+                    "currentGameState": "0",
+                    "currentYardLine": "79",
+                    "inPossession": "home",
+                    "kickOffTeam1stHalf": "away",
+                    "kickOffTeam2ndHalf": "home"
+                }
+            },
+            "media": [
+                {
+                    "providerName": "BetGenius",
+                    "providerEventId": "12282068",
+                    "mediaType": "LiveStreaming",
+                    "metadata": {
+                        "BetGeniusDash": "Akamai",
+                        "BetGeniusHls": "Akamai",
+                        "BetGeniusLiveStreamId": "704ca8df"
+                    },
+                    "allowedDmas": [
+                        "512",
+                        "716",
+                        "559",
+                        "757",
+                        "584",
+                        "868",
+                        "598",
+                        "802",
+                        "866",
+                        "569",
+                        "839",
+                        "828",
+                        "622",
+                        "544",
+                        "811",
+                        "556",
+                        "573",
+                        "862",
+                        "807",
+                        "531",
+                        "760",
+                        "511"
+                    ]
+                },
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "60574977",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "60574977",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "60574977",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "Simplebet",
+                    "providerEventId": "dededa78-1763-487c-8392-293c4b3ec7e6",
+                    "mediaType": "MatchTracker"
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
+                "LiveStreaming",
+                "MatchTracker",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "40",
+                "numberOfParts": "4",
+                "secondsInOnePart": "900"
+            },
+            "sortOrder": 248358259,
+            "subscriptionKey": "events-33821581-59132434"
+        },
+        {
+            "id": "32225661",
+            "seoIdentifier": "HOU Texans @ JAX Jaguars",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "HOU Texans @ JAX Jaguars",
+            "startEventDate": "2025-09-21T17:02:24.0000000Z",
+            "participants": [
+                {
+                    "id": "18489",
+                    "name": "JAX Jaguars",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "rosettaTeamId": "18489",
+                        "rosettaTeamName": "Jaguars",
+                        "shortName": "JAX",
+                        "teamColor": "#101820"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Jaguars",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                },
+                {
+                    "id": "18500",
+                    "name": "HOU Texans",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "rosettaTeamId": "18500",
+                        "rosettaTeamName": "Texans",
+                        "shortName": "HOU",
+                        "teamColor": "#03202f"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Texans",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "3rd Quarter",
+                "gameTime": 864,
+                "isClockRunning": true
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "7",
+                    "awayScore": "3"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "7",
+                        "awayScore": "0",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "0",
+                        "awayScore": "3",
+                        "name": "Q2"
+                    },
+                    {
+                        "homeScore": "0",
+                        "awayScore": "0",
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "2",
+                    "currentDriveYardsToGo": "3",
+                    "currentGameState": "0",
+                    "currentYardLine": "73",
+                    "inPossession": "home",
+                    "kickOffTeam1stHalf": "home",
+                    "kickOffTeam2ndHalf": "away"
+                }
+            },
+            "media": [
+                {
+                    "providerName": "BetGenius",
+                    "providerEventId": "12282062",
+                    "mediaType": "LiveStreaming",
+                    "metadata": {
+                        "BetGeniusDash": "Akamai",
+                        "BetGeniusHls": "Akamai",
+                        "BetGeniusLiveStreamId": "704ca8df"
+                    },
+                    "allowedDmas": [
+                        "662",
+                        "525",
+                        "634",
+                        "635",
+                        "692",
+                        "600",
+                        "592",
+                        "636",
+                        "618",
+                        "561",
+                        "749",
+                        "651",
+                        "633",
+                        "534",
+                        "656",
+                        "661",
+                        "641",
+                        "507",
+                        "530",
+                        "709",
+                        "626",
+                        "625",
+                        "627"
+                    ]
+                },
+                {
+                    "providerName": "Simplebet",
+                    "providerEventId": "1d5b6f4e-1864-4a94-96ef-5ccbed5f9b9d",
+                    "mediaType": "MatchTracker"
+                },
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "60574867",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "60574867",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "60574867",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
+                "LiveStreaming",
+                "MatchTracker",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "40",
+                "numberOfParts": "4",
+                "secondsInOnePart": "900"
+            },
+            "sortOrder": 248358261,
+            "subscriptionKey": "events-33821581-59132434"
         },
         {
             "id": "32225672",
@@ -195,7 +929,7 @@
             "sportId": "3",
             "leagueId": "88808",
             "name": "LA Rams @ PHI Eagles",
-            "startEventDate": "2025-09-21T17:00:00.0000000Z",
+            "startEventDate": "2025-09-21T17:02:56.0000000Z",
             "participants": [
                 {
                     "id": "18448",
@@ -203,7 +937,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "163",
                         "rosettaTeamId": "18448",
                         "rosettaTeamName": "Eagles",
                         "shortName": "PHI",
@@ -220,7 +953,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "162",
                         "rosettaTeamId": "18397",
                         "rosettaTeamName": "Rams",
                         "shortName": "LAR",
@@ -233,7 +965,48 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "3rd Quarter",
+                "gameTime": 698
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "14",
+                    "awayScore": "26"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "7",
+                        "awayScore": "10",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "0",
+                        "awayScore": "9",
+                        "name": "Q2"
+                    },
+                    {
+                        "homeScore": "7",
+                        "awayScore": "7",
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "1",
+                    "currentDriveYardsToGo": "10",
+                    "currentGameState": "0",
+                    "currentYardLine": "70",
+                    "inPossession": "away",
+                    "kickOffTeam1stHalf": "home",
+                    "kickOffTeam2ndHalf": "away",
+                    "kickOffTeamOT": "away"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -361,9 +1134,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -375,8 +1150,168 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 248358003,
-            "subscriptionKey": "events-12530425-54823048"
+            "sortOrder": 248358272,
+            "subscriptionKey": "events-33821581-59132434"
+        },
+        {
+            "id": "32225587",
+            "seoIdentifier": "IND Colts @ TEN Titans",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "IND Colts @ TEN Titans",
+            "startEventDate": "2025-09-21T17:02:53.0000000Z",
+            "participants": [
+                {
+                    "id": "18366",
+                    "name": "TEN Titans",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "rosettaTeamId": "18366",
+                        "rosettaTeamName": "Titans",
+                        "shortName": "TEN",
+                        "teamColor": "#0c2340"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Titans",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                },
+                {
+                    "id": "18372",
+                    "name": "IND Colts",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "rosettaTeamId": "18372",
+                        "rosettaTeamName": "Colts",
+                        "shortName": "IND",
+                        "teamColor": "#002c5f"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Colts",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "3rd Quarter",
+                "gameTime": 668
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "6",
+                    "awayScore": "27"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "3",
+                        "awayScore": "17",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "3",
+                        "awayScore": "3",
+                        "name": "Q2"
+                    },
+                    {
+                        "homeScore": "0",
+                        "awayScore": "7",
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "2",
+                    "currentDriveYardsToGo": "9",
+                    "currentGameState": "-1",
+                    "currentYardLine": "65",
+                    "inPossession": "away",
+                    "kickOffTeam1stHalf": "away",
+                    "kickOffTeam2ndHalf": "home"
+                }
+            },
+            "media": [
+                {
+                    "providerName": "BetGenius",
+                    "providerEventId": "12282067",
+                    "mediaType": "LiveStreaming",
+                    "metadata": {
+                        "BetGeniusDash": "Akamai",
+                        "BetGeniusHls": "Akamai",
+                        "BetGeniusLiveStreamId": "704ca8df"
+                    },
+                    "allowedDmas": [
+                        "736",
+                        "648",
+                        "575",
+                        "649",
+                        "509",
+                        "691",
+                        "527",
+                        "639",
+                        "557",
+                        "582",
+                        "640",
+                        "659",
+                        "632",
+                        "588",
+                        "581",
+                        "531"
+                    ]
+                },
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "60574997",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "60574997",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "60574997",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "Simplebet",
+                    "providerEventId": "d78950f1-e3c5-4955-99d3-5e2653d7dc12",
+                    "mediaType": "MatchTracker"
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
+                "LiveStreaming",
+                "MatchTracker",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "40",
+                "numberOfParts": "4",
+                "secondsInOnePart": "900"
+            },
+            "sortOrder": 248358287,
+            "subscriptionKey": "events-33821581-59132434"
         },
         {
             "id": "32225512",
@@ -384,7 +1319,7 @@
             "sportId": "3",
             "leagueId": "88808",
             "name": "ATL Falcons @ CAR Panthers",
-            "startEventDate": "2025-09-21T17:00:00.0000000Z",
+            "startEventDate": "2025-09-21T17:03:31.0000000Z",
             "participants": [
                 {
                     "id": "18484",
@@ -392,7 +1327,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "113",
                         "rosettaTeamId": "18484",
                         "rosettaTeamName": "Panthers",
                         "shortName": "CAR",
@@ -409,7 +1343,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "112",
                         "rosettaTeamId": "18297",
                         "rosettaTeamName": "Falcons",
                         "shortName": "ATL",
@@ -422,7 +1355,48 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "3rd Quarter",
+                "gameTime": 642,
+                "isClockRunning": true
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "17",
+                    "awayScore": "0"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "7",
+                        "awayScore": "0",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "3",
+                        "awayScore": "0",
+                        "name": "Q2"
+                    },
+                    {
+                        "homeScore": "7",
+                        "awayScore": "0",
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "1",
+                    "currentDriveYardsToGo": "10",
+                    "currentGameState": "0",
+                    "currentYardLine": "63",
+                    "inPossession": "away",
+                    "kickOffTeam1stHalf": "home",
+                    "kickOffTeam2ndHalf": "away"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -488,9 +1462,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -502,416 +1478,8 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 248358004,
-            "subscriptionKey": "events-12530425-54823048"
-        },
-        {
-            "id": "32225587",
-            "seoIdentifier": "IND Colts @ TEN Titans",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "IND Colts @ TEN Titans",
-            "startEventDate": "2025-09-21T17:00:00.0000000Z",
-            "participants": [
-                {
-                    "id": "18366",
-                    "name": "TEN Titans",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "135",
-                        "rosettaTeamId": "18366",
-                        "rosettaTeamName": "Titans",
-                        "shortName": "TEN",
-                        "teamColor": "#0c2340"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Titans",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                },
-                {
-                    "id": "18372",
-                    "name": "IND Colts",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "134",
-                        "rosettaTeamId": "18372",
-                        "rosettaTeamName": "Colts",
-                        "shortName": "IND",
-                        "teamColor": "#002c5f"
-                    },
-                    "sortOrder": 1,
-                    "seoIdentifier": "Colts",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "media": [
-                {
-                    "providerName": "BetGenius",
-                    "providerEventId": "12282067",
-                    "mediaType": "LiveStreaming",
-                    "metadata": {
-                        "BetGeniusDash": "Akamai",
-                        "BetGeniusHls": "Akamai",
-                        "BetGeniusLiveStreamId": "704ca8df"
-                    },
-                    "allowedDmas": [
-                        "736",
-                        "648",
-                        "575",
-                        "649",
-                        "509",
-                        "691",
-                        "527",
-                        "639",
-                        "557",
-                        "582",
-                        "640",
-                        "659",
-                        "632",
-                        "588",
-                        "581",
-                        "531"
-                    ]
-                },
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "60574997",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "60574997",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "60574997",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "Simplebet",
-                    "providerEventId": "d78950f1-e3c5-4955-99d3-5e2653d7dc12",
-                    "mediaType": "MatchTracker"
-                }
-            ],
-            "tags": [
-                "FeaturedSubcategory",
-                "LiveStreaming",
-                "MatchTracker",
-                "PrePack",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "40",
-                "numberOfParts": "4",
-                "secondsInOnePart": "900"
-            },
-            "sortOrder": 248358005,
-            "subscriptionKey": "events-12530425-54823048"
-        },
-        {
-            "id": "32225559",
-            "seoIdentifier": "LV Raiders @ WAS Commanders",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "LV Raiders @ WAS Commanders",
-            "startEventDate": "2025-09-21T17:00:00.0000000Z",
-            "participants": [
-                {
-                    "id": "18480",
-                    "name": "WAS Commanders",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "127",
-                        "rosettaTeamId": "18480",
-                        "rosettaTeamName": "Commanders",
-                        "shortName": "WAS",
-                        "teamColor": "#5a1414"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Commanders",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                },
-                {
-                    "id": "18388",
-                    "name": "LV Raiders",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "126",
-                        "rosettaTeamId": "18388",
-                        "rosettaTeamName": "Raiders",
-                        "shortName": "LV",
-                        "teamColor": "#000000"
-                    },
-                    "sortOrder": 1,
-                    "seoIdentifier": "Raiders",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "media": [
-                {
-                    "providerName": "BetGenius",
-                    "providerEventId": "12282068",
-                    "mediaType": "LiveStreaming",
-                    "metadata": {
-                        "BetGeniusDash": "Akamai",
-                        "BetGeniusHls": "Akamai",
-                        "BetGeniusLiveStreamId": "704ca8df"
-                    },
-                    "allowedDmas": [
-                        "512",
-                        "716",
-                        "559",
-                        "757",
-                        "584",
-                        "868",
-                        "598",
-                        "802",
-                        "866",
-                        "569",
-                        "839",
-                        "828",
-                        "622",
-                        "544",
-                        "811",
-                        "556",
-                        "573",
-                        "862",
-                        "807",
-                        "531",
-                        "760",
-                        "511"
-                    ]
-                },
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "60574977",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "60574977",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "60574977",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "Simplebet",
-                    "providerEventId": "dededa78-1763-487c-8392-293c4b3ec7e6",
-                    "mediaType": "MatchTracker"
-                }
-            ],
-            "tags": [
-                "FeaturedSubcategory",
-                "LiveStreaming",
-                "MatchTracker",
-                "PrePack",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "40",
-                "numberOfParts": "4",
-                "secondsInOnePart": "900"
-            },
-            "sortOrder": 248358006,
-            "subscriptionKey": "events-12530425-54823048"
-        },
-        {
-            "id": "32225747",
-            "seoIdentifier": "PIT Steelers @ NE Patriots",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "PIT Steelers @ NE Patriots",
-            "startEventDate": "2025-09-21T17:00:00.0000000Z",
-            "participants": [
-                {
-                    "id": "18415",
-                    "name": "NE Patriots",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "185",
-                        "rosettaTeamId": "18415",
-                        "rosettaTeamName": "Patriots",
-                        "shortName": "NE",
-                        "teamColor": "#002244"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Patriots",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                },
-                {
-                    "id": "18456",
-                    "name": "PIT Steelers",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "184",
-                        "rosettaTeamId": "18456",
-                        "rosettaTeamName": "Steelers",
-                        "shortName": "PIT",
-                        "teamColor": "#ffb612"
-                    },
-                    "sortOrder": 1,
-                    "seoIdentifier": "Steelers",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "media": [
-                {
-                    "providerName": "BetGenius",
-                    "providerEventId": "12282064",
-                    "mediaType": "LiveStreaming",
-                    "metadata": {
-                        "BetGeniusDash": "Akamai",
-                        "BetGeniusHls": "Akamai",
-                        "BetGeniusLiveStreamId": "704ca8df"
-                    },
-                    "allowedDmas": [
-                        "532",
-                        "520",
-                        "512",
-                        "537",
-                        "502",
-                        "630",
-                        "559",
-                        "506",
-                        "514",
-                        "523",
-                        "519",
-                        "564",
-                        "584",
-                        "868",
-                        "598",
-                        "546",
-                        "522",
-                        "606",
-                        "565",
-                        "516",
-                        "802",
-                        "571",
-                        "518",
-                        "545",
-                        "567",
-                        "566",
-                        "569",
-                        "533",
-                        "574",
-                        "503",
-                        "528",
-                        "828",
-                        "698",
-                        "570",
-                        "501",
-                        "544",
-                        "597",
-                        "508",
-                        "500",
-                        "552",
-                        "521",
-                        "560",
-                        "556",
-                        "573",
-                        "538",
-                        "862",
-                        "576",
-                        "807",
-                        "543",
-                        "555",
-                        "526",
-                        "549",
-                        "548",
-                        "554",
-                        "577",
-                        "550",
-                        "536",
-                        "744"
-                    ]
-                },
-                {
-                    "providerName": "Simplebet",
-                    "providerEventId": "4edbd22e-3cf9-49d9-8e43-753378e47926",
-                    "mediaType": "MatchTracker"
-                },
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "60575021",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "60575021",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "60575021",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                }
-            ],
-            "tags": [
-                "FeaturedSubcategory",
-                "LiveStreaming",
-                "MatchTracker",
-                "PrePack",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "40",
-                "numberOfParts": "4",
-                "secondsInOnePart": "900"
-            },
-            "sortOrder": 248358007,
-            "subscriptionKey": "events-12530425-54823048"
+            "sortOrder": 248358312,
+            "subscriptionKey": "events-33821581-59132434"
         },
         {
             "id": "32225776",
@@ -919,7 +1487,7 @@
             "sportId": "3",
             "leagueId": "88808",
             "name": "CIN Bengals @ MIN Vikings",
-            "startEventDate": "2025-09-21T17:00:00.0000000Z",
+            "startEventDate": "2025-09-21T17:03:32.0000000Z",
             "participants": [
                 {
                     "id": "18409",
@@ -927,7 +1495,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "193",
                         "rosettaTeamId": "18409",
                         "rosettaTeamName": "Vikings",
                         "shortName": "MIN",
@@ -944,7 +1511,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "192",
                         "rosettaTeamId": "18320",
                         "rosettaTeamName": "Bengals",
                         "shortName": "CIN",
@@ -957,7 +1523,45 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "Halftime",
+                "gameTime": 900
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "34",
+                    "awayScore": "3"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "14",
+                        "awayScore": "0",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "20",
+                        "awayScore": "3",
+                        "name": "Q2"
+                    },
+                    {
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "4",
+                    "currentDriveYardsToGo": "7",
+                    "currentGameState": "-1",
+                    "currentYardLine": "65",
+                    "inPossession": "home",
+                    "kickOffTeam1stHalf": "away",
+                    "kickOffTeam2ndHalf": "home"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -1054,9 +1658,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -1068,254 +1674,8 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 248358008,
-            "subscriptionKey": "events-12530425-54823048"
-        },
-        {
-            "id": "32225661",
-            "seoIdentifier": "HOU Texans @ JAX Jaguars",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "HOU Texans @ JAX Jaguars",
-            "startEventDate": "2025-09-21T17:00:00.0000000Z",
-            "participants": [
-                {
-                    "id": "18489",
-                    "name": "JAX Jaguars",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "159",
-                        "rosettaTeamId": "18489",
-                        "rosettaTeamName": "Jaguars",
-                        "shortName": "JAX",
-                        "teamColor": "#101820"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Jaguars",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                },
-                {
-                    "id": "18500",
-                    "name": "HOU Texans",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "158",
-                        "rosettaTeamId": "18500",
-                        "rosettaTeamName": "Texans",
-                        "shortName": "HOU",
-                        "teamColor": "#03202f"
-                    },
-                    "sortOrder": 1,
-                    "seoIdentifier": "Texans",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "media": [
-                {
-                    "providerName": "BetGenius",
-                    "providerEventId": "12282062",
-                    "mediaType": "LiveStreaming",
-                    "metadata": {
-                        "BetGeniusDash": "Akamai",
-                        "BetGeniusHls": "Akamai",
-                        "BetGeniusLiveStreamId": "704ca8df"
-                    },
-                    "allowedDmas": [
-                        "662",
-                        "525",
-                        "634",
-                        "635",
-                        "692",
-                        "600",
-                        "592",
-                        "636",
-                        "618",
-                        "561",
-                        "749",
-                        "651",
-                        "633",
-                        "534",
-                        "656",
-                        "661",
-                        "641",
-                        "507",
-                        "530",
-                        "709",
-                        "626",
-                        "625",
-                        "627"
-                    ]
-                },
-                {
-                    "providerName": "Simplebet",
-                    "providerEventId": "1d5b6f4e-1864-4a94-96ef-5ccbed5f9b9d",
-                    "mediaType": "MatchTracker"
-                },
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "60574867",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "60574867",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "60574867",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                }
-            ],
-            "tags": [
-                "FeaturedSubcategory",
-                "LiveStreaming",
-                "MatchTracker",
-                "PrePack",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "40",
-                "numberOfParts": "4",
-                "secondsInOnePart": "900"
-            },
-            "sortOrder": 248358009,
-            "subscriptionKey": "events-12530425-54823048"
-        },
-        {
-            "id": "32225603",
-            "seoIdentifier": "NY Jets @ TB Buccaneers",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "NY Jets @ TB Buccaneers",
-            "startEventDate": "2025-09-21T17:03:00.0000000Z",
-            "participants": [
-                {
-                    "id": "18474",
-                    "name": "TB Buccaneers",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "143",
-                        "rosettaTeamId": "18474",
-                        "rosettaTeamName": "Buccaneers",
-                        "shortName": "TB",
-                        "teamColor": "#d50a0a"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Buccaneers",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                },
-                {
-                    "id": "18441",
-                    "name": "NY Jets",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "142",
-                        "rosettaTeamId": "18441",
-                        "rosettaTeamName": "Jets",
-                        "shortName": "NYJ",
-                        "teamColor": "#125740"
-                    },
-                    "sortOrder": 1,
-                    "seoIdentifier": "Jets",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "media": [
-                {
-                    "providerName": "BetGenius",
-                    "providerEventId": "12282066",
-                    "mediaType": "LiveStreaming",
-                    "metadata": {
-                        "BetGeniusDash": "Akamai",
-                        "BetGeniusHls": "Akamai",
-                        "BetGeniusLiveStreamId": "704ca8df"
-                    },
-                    "allowedDmas": [
-                        "532",
-                        "514",
-                        "523",
-                        "571",
-                        "592",
-                        "533",
-                        "561",
-                        "528",
-                        "501",
-                        "534",
-                        "656",
-                        "530",
-                        "539",
-                        "526",
-                        "548"
-                    ]
-                },
-                {
-                    "providerName": "Simplebet",
-                    "providerEventId": "48ae2baf-80e1-42f8-b141-191ce1c7e323",
-                    "mediaType": "MatchTracker"
-                },
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "60575049",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "60575049",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "60575049",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                }
-            ],
-            "tags": [
-                "FeaturedSubcategory",
-                "LiveStreaming",
-                "MatchTracker",
-                "PrePack",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "40",
-                "numberOfParts": "4",
-                "secondsInOnePart": "900"
-            },
-            "sortOrder": 248358302,
-            "subscriptionKey": "events-12530425-54823048"
+            "sortOrder": 248358376,
+            "subscriptionKey": "events-33821581-59132434"
         },
         {
             "id": "32225633",
@@ -1443,8 +1803,8 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 248376510,
-            "subscriptionKey": "events-12530425-54823048"
+            "sortOrder": 248376501,
+            "subscriptionKey": "events-33821581-59132434"
         },
         {
             "id": "32225709",
@@ -1580,8 +1940,8 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 248376511,
-            "subscriptionKey": "events-12530425-54823048"
+            "sortOrder": 248376502,
+            "subscriptionKey": "events-33821581-59132434"
         },
         {
             "id": "32225519",
@@ -1871,8 +2231,8 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 248378512,
-            "subscriptionKey": "events-12530425-54823048"
+            "sortOrder": 248378503,
+            "subscriptionKey": "events-33821581-59132434"
         },
         {
             "id": "32225618",
@@ -1997,8 +2357,8 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 248378513,
-            "subscriptionKey": "events-12530425-54823048"
+            "sortOrder": 248378504,
+            "subscriptionKey": "events-33821581-59132434"
         },
         {
             "id": "32225701",
@@ -2312,7 +2672,7 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 248402001,
-            "subscriptionKey": "events-12530425-54823048"
+            "subscriptionKey": "events-33821581-59132434"
         },
         {
             "id": "32225483",
@@ -2626,27 +2986,27 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 248545583,
-            "subscriptionKey": "events-12530425-54823048"
+            "subscriptionKey": "events-33821581-59132434"
         }
     ],
     "markets": [
         {
-            "id": "276759671",
-            "eventId": "32225539",
+            "id": "278381558",
+            "eventId": "32225512",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "Joe Flacco Passing Attempts O/U",
+            "name": "Michael Penix Jr. Passing Attempts O/U",
             "subcategoryId": "9517",
             "componentMapping": {
                 "primary": 8,
                 "fallback": 0
             },
             "marketType": {
-                "id": "13682",
+                "id": "6823",
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
+            "subscriptionKey": "events-33821581-59132434",
             "sortOrder": 1,
             "tags": [
                 "SGP",
@@ -2656,26 +3016,37 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225539|13682|2:61451",
-            "dynamicMetadata": {}
+            "correlatedId": "32225512|6823|2:123688",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 23
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         },
         {
-            "id": "276769984",
-            "eventId": "32225559",
+            "id": "278381828",
+            "eventId": "32225747",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "Geno Smith Passing Attempts O/U",
+            "name": "Drake Maye Passing Attempts O/U",
             "subcategoryId": "9517",
             "componentMapping": {
                 "primary": 8,
                 "fallback": 0
             },
             "marketType": {
-                "id": "13682",
+                "id": "6823",
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
+            "subscriptionKey": "events-33821581-59132434",
             "sortOrder": 2,
             "tags": [
                 "SGP",
@@ -2685,8 +3056,139 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225559|13682|2:100881",
-            "dynamicMetadata": {}
+            "correlatedId": "32225747|6823|2:145955",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 22
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
+        },
+        {
+            "id": "278381229",
+            "eventId": "32225661",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Trevor Lawrence Passing Attempts O/U",
+            "subcategoryId": "9517",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6823",
+                "betOfferTypeId": 0,
+                "name": "Passing Attempts O/U"
+            },
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 3,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225661|6823|2:122715",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 22
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
+        },
+        {
+            "id": "278381646",
+            "eventId": "32225776",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Jake Browning Passing Attempts O/U",
+            "subcategoryId": "9517",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6823",
+                "betOfferTypeId": 0,
+                "name": "Passing Attempts O/U"
+            },
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 4,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225776|6823|2:59725",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 17
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
+        },
+        {
+            "id": "278381320",
+            "eventId": "32225661",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "C.J. Stroud Passing Attempts O/U",
+            "subcategoryId": "9517",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6823",
+                "betOfferTypeId": 0,
+                "name": "Passing Attempts O/U"
+            },
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 5,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225661|6823|2:148296",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 20
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         },
         {
             "id": "276779076",
@@ -2704,8 +3206,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 3,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 6,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -2733,8 +3235,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 4,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 7,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -2745,6 +3247,46 @@
             ],
             "correlatedId": "32225483|13682|2:54982",
             "dynamicMetadata": {}
+        },
+        {
+            "id": "278381446",
+            "eventId": "32225587",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Cameron Ward Passing Attempts O/U",
+            "subcategoryId": "9517",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6823",
+                "betOfferTypeId": 0,
+                "name": "Passing Attempts O/U"
+            },
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 8,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225587|6823|2:156152",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 18
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         },
         {
             "id": "276779679",
@@ -2762,8 +3304,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 5,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 9,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -2773,64 +3315,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "32225701|13682|2:54965",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "276757645",
-            "eventId": "32225747",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Aaron Rodgers Passing Attempts O/U",
-            "subcategoryId": "9517",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13682",
-                "betOfferTypeId": 0,
-                "name": "Passing Attempts O/U"
-            },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 6,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225747|13682|2:54935",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "276766114",
-            "eventId": "32225672",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Matthew Stafford Passing Attempts O/U",
-            "subcategoryId": "9517",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13682",
-                "betOfferTypeId": 0,
-                "name": "Passing Attempts O/U"
-            },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 7,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225672|13682|2:54928",
             "dynamicMetadata": {}
         },
         {
@@ -2849,8 +3333,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 8,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 10,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -2878,8 +3362,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 9,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 11,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -2889,35 +3373,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "32225633|13682|2:123643",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "276752226",
-            "eventId": "32225512",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Bryce Young Passing Attempts O/U",
-            "subcategoryId": "9517",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13682",
-                "betOfferTypeId": 0,
-                "name": "Passing Attempts O/U"
-            },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 10,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225512|13682|2:123911",
             "dynamicMetadata": {}
         },
         {
@@ -2936,8 +3391,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 11,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 12,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -2965,36 +3420,7 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 12,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225709|13682|2:61449",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "276757891",
-            "eventId": "32225747",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Drake Maye Passing Attempts O/U",
-            "subcategoryId": "9517",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13682",
-                "betOfferTypeId": 0,
-                "name": "Passing Attempts O/U"
-            },
-            "subscriptionKey": "events-12530425-54823048",
+            "subscriptionKey": "events-33821581-59132434",
             "sortOrder": 13,
             "tags": [
                 "SGP",
@@ -3004,7 +3430,7 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225747|13682|2:145955",
+            "correlatedId": "32225709|13682|2:61449",
             "dynamicMetadata": {}
         },
         {
@@ -3023,7 +3449,7 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
+            "subscriptionKey": "events-33821581-59132434",
             "sortOrder": 14,
             "tags": [
                 "SGP",
@@ -3037,22 +3463,22 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "276790709",
-            "eventId": "32225776",
+            "id": "278381250",
+            "eventId": "32225603",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "Jake Browning Passing Attempts O/U",
+            "name": "Tyrod Taylor Passing Attempts O/U",
             "subcategoryId": "9517",
             "componentMapping": {
                 "primary": 8,
                 "fallback": 0
             },
             "marketType": {
-                "id": "13682",
+                "id": "6823",
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
+            "subscriptionKey": "events-33821581-59132434",
             "sortOrder": 15,
             "tags": [
                 "SGP",
@@ -3062,37 +3488,19 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225776|13682|2:59725",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "276753799",
-            "eventId": "32225661",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Trevor Lawrence Passing Attempts O/U",
-            "subcategoryId": "9517",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
+            "correlatedId": "32225603|6823|2:60801",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 16
+                    }
+                ]
             },
-            "marketType": {
-                "id": "13682",
-                "betOfferTypeId": 0,
-                "name": "Passing Attempts O/U"
-            },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 16,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225661|13682|2:122715",
-            "dynamicMetadata": {}
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         },
         {
             "id": "276785579",
@@ -3110,8 +3518,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 17,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 16,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -3121,35 +3529,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "32225618|13682|2:100616",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "276789972",
-            "eventId": "32225603",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Baker Mayfield Passing Attempts O/U",
-            "subcategoryId": "9517",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13682",
-                "betOfferTypeId": 0,
-                "name": "Passing Attempts O/U"
-            },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 18,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225603|13682|2:54908",
             "dynamicMetadata": {}
         },
         {
@@ -3168,8 +3547,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 19,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 17,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -3182,23 +3561,23 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "276753750",
-            "eventId": "32225661",
+            "id": "278381404",
+            "eventId": "32225539",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "C.J. Stroud Passing Attempts O/U",
+            "name": "Joe Flacco Passing Attempts O/U",
             "subcategoryId": "9517",
             "componentMapping": {
                 "primary": 8,
                 "fallback": 0
             },
             "marketType": {
-                "id": "13682",
+                "id": "6823",
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 20,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 18,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -3207,27 +3586,38 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225661|13682|2:148296",
-            "dynamicMetadata": {}
+            "correlatedId": "32225539|6823|2:61451",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 17
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         },
         {
-            "id": "276772515",
-            "eventId": "32225587",
+            "id": "278381773",
+            "eventId": "32225559",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "Cameron Ward Passing Attempts O/U",
+            "name": "Geno Smith Passing Attempts O/U",
             "subcategoryId": "9517",
             "componentMapping": {
                 "primary": 8,
                 "fallback": 0
             },
             "marketType": {
-                "id": "13682",
+                "id": "6823",
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 21,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 19,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -3236,37 +3626,19 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225587|13682|2:156152",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "277288601",
-            "eventId": "32225776",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Carson Wentz Passing Attempts O/U",
-            "subcategoryId": "9517",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
+            "correlatedId": "32225559|6823|2:100881",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 11
+                    }
+                ]
             },
-            "marketType": {
-                "id": "13682",
-                "betOfferTypeId": 0,
-                "name": "Passing Attempts O/U"
-            },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 22,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225776|13682|2:55040",
-            "dynamicMetadata": {}
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         },
         {
             "id": "276776656",
@@ -3284,8 +3656,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 23,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 20,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -3298,23 +3670,23 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "276772422",
-            "eventId": "32225587",
+            "id": "278381163",
+            "eventId": "32225672",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "Daniel Jones Passing Attempts O/U",
+            "name": "Matthew Stafford Passing Attempts O/U",
             "subcategoryId": "9517",
             "componentMapping": {
                 "primary": 8,
                 "fallback": 0
             },
             "marketType": {
-                "id": "13682",
+                "id": "6823",
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 24,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 21,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -3323,95 +3695,19 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225587|13682|2:55020",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "276752132",
-            "eventId": "32225512",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Michael Penix Jr. Passing Attempts O/U",
-            "subcategoryId": "9517",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
+            "correlatedId": "32225672|6823|2:54928",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 18
+                    }
+                ]
             },
-            "marketType": {
-                "id": "13682",
-                "betOfferTypeId": 0,
-                "name": "Passing Attempts O/U"
-            },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 25,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225512|13682|2:123688",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "277613230",
-            "eventId": "32225559",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Marcus Mariota Passing Attempts O/U",
-            "subcategoryId": "9517",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13682",
-                "betOfferTypeId": 0,
-                "name": "Passing Attempts O/U"
-            },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 26,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225559|13682|2:55077",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "276759490",
-            "eventId": "32225539",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Jordan Love Passing Attempts O/U",
-            "subcategoryId": "9517",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13682",
-                "betOfferTypeId": 0,
-                "name": "Passing Attempts O/U"
-            },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 27,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225539|13682|2:100947",
-            "dynamicMetadata": {}
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         },
         {
             "id": "276781756",
@@ -3429,8 +3725,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 28,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 22,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -3443,23 +3739,23 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "277515131",
-            "eventId": "32225603",
+            "id": "278381496",
+            "eventId": "32225587",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "Tyrod Taylor Passing Attempts O/U",
+            "name": "Daniel Jones Passing Attempts O/U",
             "subcategoryId": "9517",
             "componentMapping": {
                 "primary": 8,
                 "fallback": 0
             },
             "marketType": {
-                "id": "13682",
+                "id": "6823",
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
-            "sortOrder": 29,
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 23,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -3468,11 +3764,22 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225603|13682|2:60801",
-            "dynamicMetadata": {}
+            "correlatedId": "32225587|6823|2:55020",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 20
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         },
         {
-            "id": "276766162",
+            "id": "278381162",
             "eventId": "32225672",
             "sportId": "3",
             "leagueId": "88808",
@@ -3483,11 +3790,250 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13682",
+                "id": "6823",
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-12530425-54823048",
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 24,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225672|6823|2:99830",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 12
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
+        },
+        {
+            "id": "278381807",
+            "eventId": "32225747",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Aaron Rodgers Passing Attempts O/U",
+            "subcategoryId": "9517",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6823",
+                "betOfferTypeId": 0,
+                "name": "Passing Attempts O/U"
+            },
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 25,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225747|6823|2:54935",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 14
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
+        },
+        {
+            "id": "278381302",
+            "eventId": "32225603",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Baker Mayfield Passing Attempts O/U",
+            "subcategoryId": "9517",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6823",
+                "betOfferTypeId": 0,
+                "name": "Passing Attempts O/U"
+            },
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 26,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225603|6823|2:54908",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 14
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
+        },
+        {
+            "id": "278381600",
+            "eventId": "32225512",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bryce Young Passing Attempts O/U",
+            "subcategoryId": "9517",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6823",
+                "betOfferTypeId": 0,
+                "name": "Passing Attempts O/U"
+            },
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 27,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225512|6823|2:123911",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 16
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
+        },
+        {
+            "id": "278381338",
+            "eventId": "32225539",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Jordan Love Passing Attempts O/U",
+            "subcategoryId": "9517",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6823",
+                "betOfferTypeId": 0,
+                "name": "Passing Attempts O/U"
+            },
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 28,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225539|6823|2:100947",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 16
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
+        },
+        {
+            "id": "278381780",
+            "eventId": "32225559",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Marcus Mariota Passing Attempts O/U",
+            "subcategoryId": "9517",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6823",
+                "betOfferTypeId": 0,
+                "name": "Passing Attempts O/U"
+            },
+            "subscriptionKey": "events-33821581-59132434",
+            "sortOrder": 29,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225559|6823|2:55077",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 13
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
+        },
+        {
+            "id": "278381581",
+            "eventId": "32225776",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Carson Wentz Passing Attempts O/U",
+            "subcategoryId": "9517",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6823",
+                "betOfferTypeId": 0,
+                "name": "Passing Attempts O/U"
+            },
+            "subscriptionKey": "events-33821581-59132434",
             "sortOrder": 30,
             "tags": [
                 "SGP",
@@ -3497,22 +4043,153 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225672|13682|2:99830",
-            "dynamicMetadata": {}
+            "correlatedId": "32225776|6823|2:55040",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 14
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         }
     ],
     "selections": [
         {
-            "id": "0QA276759490#342936113_13L88808Q1-1089228658Q20",
-            "marketId": "276759490",
+            "id": "0QA278381250#347806652_13L88808Q1-978634147Q20",
+            "marketId": "278381250",
             "label": "Over",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.83333334,
-            "points": 28.5,
+            "trueOdds": 1.8,
+            "points": 32.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19340",
+                    "name": "Tyrod Taylor",
+                    "type": "Player",
+                    "seoIdentifier": "Tyrod Taylor",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 32500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381250#347806653_13L88808Q1-938019364Q20",
+            "marketId": "278381250",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
+            },
+            "trueOdds": 1.95238096,
+            "points": 32.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19340",
+                    "name": "Tyrod Taylor",
+                    "type": "Player",
+                    "seoIdentifier": "Tyrod Taylor",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 32502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381302#347806657_13L88808Q1-93764652Q20",
+            "marketId": "278381302",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−140",
+                "decimal": "1.71",
+                "fractional": "5/7"
+            },
+            "trueOdds": 1.71428572,
+            "points": 25.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "14690",
+                    "name": "Baker Mayfield",
+                    "type": "Player",
+                    "seoIdentifier": "Baker Mayfield",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 25500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381302#347806659_13L88808Q1-381135988Q20",
+            "marketId": "278381302",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
+            },
+            "trueOdds": 2.1,
+            "points": 25.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "14690",
+                    "name": "Baker Mayfield",
+                    "type": "Player",
+                    "seoIdentifier": "Baker Mayfield",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 25502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381338#347807303_13L88808Q1-953083396Q20",
+            "marketId": "278381338",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
+            },
+            "trueOdds": 1.76923077,
+            "points": 24.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -3520,15 +4197,11 @@
                     "name": "Jordan Love",
                     "type": "Player",
                     "seoIdentifier": "Jordan Love",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 26.5
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 28500,
+            "sortOrder": 24500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -3537,416 +4210,8 @@
             "metadata": {}
         },
         {
-            "id": "0QA276759490#342936114_13L88808Q1-2129707827Q20",
-            "marketId": "276759490",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−106",
-                "decimal": "1.94",
-                "fractional": "50/53"
-            },
-            "trueOdds": 1.94339623,
-            "points": 28.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "470097",
-                    "name": "Jordan Love",
-                    "type": "Player",
-                    "seoIdentifier": "Jordan Love",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 26.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 28502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276759671#340906049_13L88808Q1-654125726Q20",
-            "marketId": "276759671",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−108",
-                "decimal": "1.92",
-                "fractional": "25/27"
-            },
-            "trueOdds": 1.92592593,
-            "points": 36.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "18625",
-                    "name": "Joe Flacco",
-                    "type": "Player",
-                    "seoIdentifier": "Joe Flacco",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 45
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 36500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276759671#340906050_13L88808Q1968815042Q20",
-            "marketId": "276759671",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−118",
-                "decimal": "1.84",
-                "fractional": "50/59"
-            },
-            "trueOdds": 1.84745763,
-            "points": 36.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "18625",
-                    "name": "Joe Flacco",
-                    "type": "Player",
-                    "seoIdentifier": "Joe Flacco",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 45
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 36502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276766114#340926910_13L88808Q11367437921Q20",
-            "marketId": "276766114",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
-            },
-            "trueOdds": 1.83333334,
-            "points": 33.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "19432",
-                    "name": "Matthew Stafford",
-                    "type": "Player",
-                    "seoIdentifier": "Matthew Stafford",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 31
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 33500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276766114#340926911_13L88808Q1291074885Q20",
-            "marketId": "276766114",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−106",
-                "decimal": "1.94",
-                "fractional": "50/53"
-            },
-            "trueOdds": 1.94339623,
-            "points": 33.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "19432",
-                    "name": "Matthew Stafford",
-                    "type": "Player",
-                    "seoIdentifier": "Matthew Stafford",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 31
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 33502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276766162#342973750_13L88808Q11324578814Q20",
-            "marketId": "276766162",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+101",
-                "decimal": "2.01",
-                "fractional": "101/100"
-            },
-            "trueOdds": 2.01,
-            "points": 27.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "479300",
-                    "name": "Jalen Hurts",
-                    "type": "Player",
-                    "seoIdentifier": "Jalen Hurts",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 22.5
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 27500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276766162#342973751_13L88808Q1153544536Q20",
-            "marketId": "276766162",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−129",
-                "decimal": "1.77",
-                "fractional": "100/129"
-            },
-            "trueOdds": 1.7751938,
-            "points": 27.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "479300",
-                    "name": "Jalen Hurts",
-                    "type": "Player",
-                    "seoIdentifier": "Jalen Hurts",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 22.5
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 27502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276752132#343822702_13L88808Q11767639397Q20",
-            "marketId": "276752132",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−126",
-                "decimal": "1.79",
-                "fractional": "50/63"
-            },
-            "trueOdds": 1.7936508,
-            "points": 29.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "787659",
-                    "name": "Michael Penix Jr.",
-                    "type": "Player",
-                    "seoIdentifier": "Michael Penix Jr.",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 31.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 29500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276752132#343822703_13L88808Q11629932963Q20",
-            "marketId": "276752132",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−101",
-                "decimal": "1.99",
-                "fractional": "100/101"
-            },
-            "trueOdds": 1.99009901,
-            "points": 29.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "787659",
-                    "name": "Michael Penix Jr.",
-                    "type": "Player",
-                    "seoIdentifier": "Michael Penix Jr.",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 31.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 29502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276752226#340886283_13L88808Q11367437921Q20",
-            "marketId": "276752226",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−106",
-                "decimal": "1.94",
-                "fractional": "50/53"
-            },
-            "trueOdds": 1.94339623,
-            "points": 33.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "693109",
-                    "name": "Bryce Young",
-                    "type": "Player",
-                    "seoIdentifier": "Bryce Young",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 45
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 33500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276752226#340886284_13L88808Q1291074885Q20",
-            "marketId": "276752226",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−121",
-                "decimal": "1.82",
-                "fractional": "100/121"
-            },
-            "trueOdds": 1.82644629,
-            "points": 33.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "693109",
-                    "name": "Bryce Young",
-                    "type": "Player",
-                    "seoIdentifier": "Bryce Young",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 45
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 33502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276772422#343744648_13L88808Q11767639397Q20",
-            "marketId": "276772422",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−128",
-                "decimal": "1.78",
-                "fractional": "25/32"
-            },
-            "trueOdds": 1.78125,
-            "points": 29.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "19174",
-                    "name": "Daniel Jones",
-                    "type": "Player",
-                    "seoIdentifier": "Daniel Jones",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 31.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 29500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276772422#343744649_13L88808Q11629932963Q20",
-            "marketId": "276772422",
+            "id": "0QA278381338#347807305_13L88808Q1-1507269083Q20",
+            "marketId": "278381338",
             "label": "Under",
             "displayOdds": {
                 "american": "+100",
@@ -3954,23 +4219,19 @@
                 "fractional": "1/1"
             },
             "trueOdds": 2,
-            "points": 29.5,
+            "points": 24.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "19174",
-                    "name": "Daniel Jones",
+                    "id": "470097",
+                    "name": "Jordan Love",
                     "type": "Player",
-                    "seoIdentifier": "Daniel Jones",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 31.5
-                    },
+                    "seoIdentifier": "Jordan Love",
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 29502,
+            "sortOrder": 24502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -3979,27 +4240,23 @@
             "metadata": {}
         },
         {
-            "id": "0QA276772515#343017674_13L88808Q1-986815955Q20",
-            "marketId": "276772515",
+            "id": "0QA278381404#347770185_13L88808Q1-1105562311Q20",
+            "marketId": "278381404",
             "label": "Over",
             "displayOdds": {
-                "american": "−106",
-                "decimal": "1.94",
-                "fractional": "50/53"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.94339623,
+            "trueOdds": 1.90909091,
             "points": 31.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "874253",
-                    "name": "Cameron Ward",
+                    "id": "18625",
+                    "name": "Joe Flacco",
                     "type": "Player",
-                    "seoIdentifier": "Cam Ward",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 30.5
-                    },
+                    "seoIdentifier": "Joe Flacco",
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
@@ -4013,27 +4270,23 @@
             "metadata": {}
         },
         {
-            "id": "0QA276772515#343017675_13L88808Q1-614028549Q20",
-            "marketId": "276772515",
+            "id": "0QA278381404#347770187_13L88808Q1-280900665Q20",
+            "marketId": "278381404",
             "label": "Under",
             "displayOdds": {
-                "american": "−121",
-                "decimal": "1.82",
-                "fractional": "100/121"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.82644629,
+            "trueOdds": 1.83333334,
             "points": 31.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "874253",
-                    "name": "Cameron Ward",
+                    "id": "18625",
+                    "name": "Joe Flacco",
                     "type": "Player",
-                    "seoIdentifier": "Cam Ward",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 30.5
-                    },
+                    "seoIdentifier": "Joe Flacco",
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
@@ -4047,152 +4300,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA277613230#345791396_13L88808Q11767639397Q20",
-            "marketId": "277613230",
+            "id": "0QA278381807#347792986_13L88808Q11699340531Q20",
+            "marketId": "278381807",
             "label": "Over",
             "displayOdds": {
-                "american": "−114",
-                "decimal": "1.87",
-                "fractional": "50/57"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.87719299,
-            "points": 29.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "19960",
-                    "name": "Marcus Mariota",
-                    "type": "Player",
-                    "seoIdentifier": "Marcus Mariota",
-                    "statistic": {
-                        "prefix": "Last Season Avg",
-                        "value": 7.3
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 29500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA277613230#345791397_13L88808Q11629932963Q20",
-            "marketId": "277613230",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−112",
-                "decimal": "1.89",
-                "fractional": "25/28"
-            },
-            "trueOdds": 1.89285715,
-            "points": 29.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "19960",
-                    "name": "Marcus Mariota",
-                    "type": "Player",
-                    "seoIdentifier": "Marcus Mariota",
-                    "statistic": {
-                        "prefix": "Last Season Avg",
-                        "value": 7.3
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 29502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276769984#340942984_13L88808Q1-1083900177Q20",
-            "marketId": "276769984",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−116",
-                "decimal": "1.86",
-                "fractional": "25/29"
-            },
-            "trueOdds": 1.86206897,
-            "points": 35.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "19982",
-                    "name": "Geno Smith",
-                    "type": "Player",
-                    "seoIdentifier": "Geno Smith",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 38.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 35500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276769984#340942985_13L88808Q11389438358Q20",
-            "marketId": "276769984",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
-            "points": 35.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "19982",
-                    "name": "Geno Smith",
-                    "type": "Player",
-                    "seoIdentifier": "Geno Smith",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 38.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 35502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276757645#340894052_13L88808Q11367437921Q20",
-            "marketId": "276757645",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−127",
-                "decimal": "1.78",
-                "fractional": "100/127"
-            },
-            "trueOdds": 1.78740158,
-            "points": 33.5,
+            "trueOdds": 1.8,
+            "points": 26.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -4200,15 +4317,11 @@
                     "name": "Aaron Rodgers",
                     "type": "Player",
                     "seoIdentifier": "Aaron Rodgers",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 31.5
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 33500,
+            "sortOrder": 26500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -4217,16 +4330,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA276757645#340894104_13L88808Q1291074885Q20",
-            "marketId": "276757645",
+            "id": "0QA278381807#347792987_13L88808Q1-1222231944Q20",
+            "marketId": "278381807",
             "label": "Under",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 2,
-            "points": 33.5,
+            "trueOdds": 1.95238096,
+            "points": 26.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -4234,15 +4347,11 @@
                     "name": "Aaron Rodgers",
                     "type": "Player",
                     "seoIdentifier": "Aaron Rodgers",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 31.5
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 33502,
+            "sortOrder": 26502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -4251,76 +4360,8 @@
             "metadata": {}
         },
         {
-            "id": "0QA276757891#340894811_13L88808Q11367437921Q20",
-            "marketId": "276757891",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−101",
-                "decimal": "1.99",
-                "fractional": "100/101"
-            },
-            "trueOdds": 1.99009901,
-            "points": 33.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "779819",
-                    "name": "Drake Maye",
-                    "type": "Player",
-                    "seoIdentifier": "Drake Maye",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 34.5
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 33500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276757891#340894850_13L88808Q1291074885Q20",
-            "marketId": "276757891",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−126",
-                "decimal": "1.79",
-                "fractional": "50/63"
-            },
-            "trueOdds": 1.7936508,
-            "points": 33.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "779819",
-                    "name": "Drake Maye",
-                    "type": "Player",
-                    "seoIdentifier": "Drake Maye",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 34.5
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 33502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA277288601#343165771_13L88808Q1-1779018863Q20",
-            "marketId": "277288601",
+            "id": "0QA278381828#347795514_13L88808Q1-666516499Q20",
+            "marketId": "278381828",
             "label": "Over",
             "displayOdds": {
                 "american": "−120",
@@ -4328,19 +4369,75 @@
                 "fractional": "5/6"
             },
             "trueOdds": 1.83333334,
+            "points": 38.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "779819",
+                    "name": "Drake Maye",
+                    "type": "Player",
+                    "seoIdentifier": "Drake Maye",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 38500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381828#347795516_13L88808Q1-180579286Q20",
+            "marketId": "278381828",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 38.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "779819",
+                    "name": "Drake Maye",
+                    "type": "Player",
+                    "seoIdentifier": "Drake Maye",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 38502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381773#347784009_13L88808Q1-38564358Q20",
+            "marketId": "278381773",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
+            },
+            "trueOdds": 1.95238096,
             "points": 30.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "17519",
-                    "name": "Carson Wentz",
+                    "id": "19982",
+                    "name": "Geno Smith",
                     "type": "Player",
-                    "seoIdentifier": "Carson Wentz",
-                    "statistic": {
-                        "prefix": "Last Season Avg",
-                        "value": 6.3
-                    },
-                    "venueRole": "HomePlayer",
+                    "seoIdentifier": "Geno Smith",
+                    "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
@@ -4353,28 +4450,24 @@
             "metadata": {}
         },
         {
-            "id": "0QA277288601#343165772_13L88808Q1-1879748411Q20",
-            "marketId": "277288601",
+            "id": "0QA278381773#347784010_13L88808Q1-1519914795Q20",
+            "marketId": "278381773",
             "label": "Under",
             "displayOdds": {
-                "american": "−106",
-                "decimal": "1.94",
-                "fractional": "50/53"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.94339623,
+            "trueOdds": 1.8,
             "points": 30.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "17519",
-                    "name": "Carson Wentz",
+                    "id": "19982",
+                    "name": "Geno Smith",
                     "type": "Player",
-                    "seoIdentifier": "Carson Wentz",
-                    "statistic": {
-                        "prefix": "Last Season Avg",
-                        "value": 6.3
-                    },
-                    "venueRole": "HomePlayer",
+                    "seoIdentifier": "Geno Smith",
+                    "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
@@ -4387,32 +4480,28 @@
             "metadata": {}
         },
         {
-            "id": "0QA276790709#343164860_13L88808Q1858555913Q20",
-            "marketId": "276790709",
+            "id": "0QA278381780#347798183_13L88808Q1-953083396Q20",
+            "marketId": "278381780",
             "label": "Over",
             "displayOdds": {
-                "american": "−126",
-                "decimal": "1.79",
-                "fractional": "50/63"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.7936508,
-            "points": 32.5,
+            "trueOdds": 1.95238096,
+            "points": 24.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "17039",
-                    "name": "Jake Browning",
+                    "id": "19960",
+                    "name": "Marcus Mariota",
                     "type": "Player",
-                    "seoIdentifier": "Jake Browning",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 32
-                    },
-                    "venueRole": "AwayPlayer",
+                    "seoIdentifier": "Marcus Mariota",
+                    "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 32500,
+            "sortOrder": 24500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -4421,118 +4510,46 @@
             "metadata": {}
         },
         {
-            "id": "0QA276790709#343164861_13L88808Q12114476987Q20",
-            "marketId": "276790709",
+            "id": "0QA278381780#347798184_13L88808Q1-1507269083Q20",
+            "marketId": "278381780",
             "label": "Under",
             "displayOdds": {
-                "american": "−101",
-                "decimal": "1.99",
-                "fractional": "100/101"
-            },
-            "trueOdds": 1.99009901,
-            "points": 32.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "17039",
-                    "name": "Jake Browning",
-                    "type": "Player",
-                    "seoIdentifier": "Jake Browning",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 32
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 32502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276753750#343839485_13L88808Q1-986815955Q20",
-            "marketId": "276753750",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−117",
-                "decimal": "1.85",
-                "fractional": "100/117"
-            },
-            "trueOdds": 1.85470086,
-            "points": 31.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "694427",
-                    "name": "C.J. Stroud",
-                    "type": "Player",
-                    "seoIdentifier": "C.J. Stroud",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 25.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 31500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276753750#343839486_13L88808Q1-614028549Q20",
-            "marketId": "276753750",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−109",
-                "decimal": "1.91",
-                "fractional": "100/109"
-            },
-            "trueOdds": 1.9174312,
-            "points": 31.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "694427",
-                    "name": "C.J. Stroud",
-                    "type": "Player",
-                    "seoIdentifier": "C.J. Stroud",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 25.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 31502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA276753799#342970299_13L88808Q1858555913Q20",
-            "marketId": "276753799",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−124",
+                "american": "−125",
                 "decimal": "1.80",
-                "fractional": "25/31"
+                "fractional": "4/5"
             },
-            "trueOdds": 1.80645162,
-            "points": 32.5,
+            "trueOdds": 1.8,
+            "points": 24.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19960",
+                    "name": "Marcus Mariota",
+                    "type": "Player",
+                    "seoIdentifier": "Marcus Mariota",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 24502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381229#347762093_13L88808Q1-56501792Q20",
+            "marketId": "278381229",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 37.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -4540,15 +4557,11 @@
                     "name": "Trevor Lawrence",
                     "type": "Player",
                     "seoIdentifier": "Trevor Lawrence",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 36.5
-                    },
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 32500,
+            "sortOrder": 37500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -4557,16 +4570,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA276753799#342970300_13L88808Q12114476987Q20",
-            "marketId": "276753799",
+            "id": "0QA278381229#347762094_13L88808Q163822336Q20",
+            "marketId": "278381229",
             "label": "Under",
             "displayOdds": {
-                "american": "−103",
-                "decimal": "1.97",
-                "fractional": "100/103"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.97087379,
-            "points": 32.5,
+            "trueOdds": 1.86956522,
+            "points": 37.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -4574,15 +4587,11 @@
                     "name": "Trevor Lawrence",
                     "type": "Player",
                     "seoIdentifier": "Trevor Lawrence",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 36.5
-                    },
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 32502,
+            "sortOrder": 37502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -4591,27 +4600,263 @@
             "metadata": {}
         },
         {
-            "id": "0QA277515131#344837556_13L88808Q11324578814Q20",
-            "marketId": "277515131",
+            "id": "0QA278381320#347770154_13L88808Q1-638795559Q20",
+            "marketId": "278381320",
             "label": "Over",
             "displayOdds": {
-                "american": "−127",
-                "decimal": "1.78",
-                "fractional": "100/127"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.78740158,
+            "trueOdds": 1.95238096,
+            "points": 36.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "694427",
+                    "name": "C.J. Stroud",
+                    "type": "Player",
+                    "seoIdentifier": "C.J. Stroud",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 36500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381320#347770156_13L88808Q1-1879399750Q20",
+            "marketId": "278381320",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
+            },
+            "trueOdds": 1.8,
+            "points": 36.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "694427",
+                    "name": "C.J. Stroud",
+                    "type": "Player",
+                    "seoIdentifier": "C.J. Stroud",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 36502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381162#347758202_13L88808Q1-561915062Q20",
+            "marketId": "278381162",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
             "points": 27.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "19340",
-                    "name": "Tyrod Taylor",
+                    "id": "479300",
+                    "name": "Jalen Hurts",
                     "type": "Player",
-                    "seoIdentifier": "Tyrod Taylor",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 11
-                    },
+                    "seoIdentifier": "Jalen Hurts",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 27500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381162#347758203_13L88808Q1-1241924634Q20",
+            "marketId": "278381162",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 27.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "479300",
+                    "name": "Jalen Hurts",
+                    "type": "Player",
+                    "seoIdentifier": "Jalen Hurts",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 27502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381163#347769452_13L88808Q1-838650880Q20",
+            "marketId": "278381163",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
+            },
+            "trueOdds": 2,
+            "points": 29.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19432",
+                    "name": "Matthew Stafford",
+                    "type": "Player",
+                    "seoIdentifier": "Matthew Stafford",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 29500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381163#347769456_13L88808Q1133773725Q20",
+            "marketId": "278381163",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
+            },
+            "trueOdds": 1.76923077,
+            "points": 29.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19432",
+                    "name": "Matthew Stafford",
+                    "type": "Player",
+                    "seoIdentifier": "Matthew Stafford",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 29502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381446#347738062_13L88808Q1-1947038282Q20",
+            "marketId": "278381446",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 34.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "874253",
+                    "name": "Cameron Ward",
+                    "type": "Player",
+                    "seoIdentifier": "Cam Ward",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 34500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381446#347738063_13L88808Q1-533851357Q20",
+            "marketId": "278381446",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 34.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "874253",
+                    "name": "Cameron Ward",
+                    "type": "Player",
+                    "seoIdentifier": "Cam Ward",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 34502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381496#347733445_13L88808Q1-561915062Q20",
+            "marketId": "278381496",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
+            },
+            "trueOdds": 1.8,
+            "points": 27.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19174",
+                    "name": "Daniel Jones",
+                    "type": "Player",
+                    "seoIdentifier": "Daniel Jones",
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
@@ -4625,27 +4870,23 @@
             "metadata": {}
         },
         {
-            "id": "0QA277515131#344837557_13L88808Q1153544536Q20",
-            "marketId": "277515131",
+            "id": "0QA278381496#347733447_13L88808Q1-1241924634Q20",
+            "marketId": "278381496",
             "label": "Under",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 2,
+            "trueOdds": 1.95238096,
             "points": 27.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "19340",
-                    "name": "Tyrod Taylor",
+                    "id": "19174",
+                    "name": "Daniel Jones",
                     "type": "Player",
-                    "seoIdentifier": "Tyrod Taylor",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 11
-                    },
+                    "seoIdentifier": "Daniel Jones",
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
@@ -4659,32 +4900,28 @@
             "metadata": {}
         },
         {
-            "id": "0QA276789972#341024055_13L88808Q1858555913Q20",
-            "marketId": "276789972",
+            "id": "0QA278381558#347821568_13L88808Q1200231516Q20",
+            "marketId": "278381558",
             "label": "Over",
             "displayOdds": {
-                "american": "+101",
-                "decimal": "2.01",
-                "fractional": "101/100"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 2.01,
-            "points": 32.5,
+            "trueOdds": 2,
+            "points": 43.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "14690",
-                    "name": "Baker Mayfield",
+                    "id": "787659",
+                    "name": "Michael Penix Jr.",
                     "type": "Player",
-                    "seoIdentifier": "Baker Mayfield",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 35
-                    },
-                    "venueRole": "HomePlayer",
+                    "seoIdentifier": "Michael Penix Jr.",
+                    "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 32500,
+            "sortOrder": 43500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -4693,32 +4930,206 @@
             "metadata": {}
         },
         {
-            "id": "0QA276789972#341024070_13L88808Q12114476987Q20",
-            "marketId": "276789972",
+            "id": "0QA278381558#347821573_13L88808Q1166834573Q20",
+            "marketId": "278381558",
             "label": "Under",
             "displayOdds": {
-                "american": "−128",
-                "decimal": "1.78",
-                "fractional": "25/32"
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
             },
-            "trueOdds": 1.78125,
-            "points": 32.5,
+            "trueOdds": 1.76923077,
+            "points": 43.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "14690",
-                    "name": "Baker Mayfield",
+                    "id": "787659",
+                    "name": "Michael Penix Jr.",
                     "type": "Player",
-                    "seoIdentifier": "Baker Mayfield",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 35
-                    },
+                    "seoIdentifier": "Michael Penix Jr.",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 43502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381600#347815841_13L88808Q1-93764652Q20",
+            "marketId": "278381600",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+114",
+                "decimal": "2.14",
+                "fractional": "57/50"
+            },
+            "trueOdds": 2.14,
+            "points": 25.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "693109",
+                    "name": "Bryce Young",
+                    "type": "Player",
+                    "seoIdentifier": "Bryce Young",
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 32502,
+            "sortOrder": 25500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381600#347815842_13L88808Q1-381135988Q20",
+            "marketId": "278381600",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−145",
+                "decimal": "1.68",
+                "fractional": "20/29"
+            },
+            "trueOdds": 1.68965518,
+            "points": 25.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "693109",
+                    "name": "Bryce Young",
+                    "type": "Player",
+                    "seoIdentifier": "Bryce Young",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 25502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381581#347790755_13L88808Q1-907171138Q20",
+            "marketId": "278381581",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 21.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "17519",
+                    "name": "Carson Wentz",
+                    "type": "Player",
+                    "seoIdentifier": "Carson Wentz",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 21500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381581#347790757_13L88808Q1-1305183336Q20",
+            "marketId": "278381581",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 21.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "17519",
+                    "name": "Carson Wentz",
+                    "type": "Player",
+                    "seoIdentifier": "Carson Wentz",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 21502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381646#347739757_13L88808Q1-56501792Q20",
+            "marketId": "278381646",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
+            },
+            "trueOdds": 2,
+            "points": 37.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "17039",
+                    "name": "Jake Browning",
+                    "type": "Player",
+                    "seoIdentifier": "Jake Browning",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 37500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA278381646#347739758_13L88808Q163822336Q20",
+            "marketId": "278381646",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
+            },
+            "trueOdds": 1.76923077,
+            "points": 37.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "17039",
+                    "name": "Jake Browning",
+                    "type": "Player",
+                    "seoIdentifier": "Jake Browning",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 37502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -5544,7 +5955,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-12530425-54823048": {
+        "events-33821581-59132434": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '9517')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '9517' AND tags/all(t: t ne 'SportcastBetBuilder')"
