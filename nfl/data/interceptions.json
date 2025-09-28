@@ -333,7 +333,7 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 249410047,
-            "subscriptionKey": "events-46919814-9861921"
+            "subscriptionKey": "events-8556109-21608035"
         },
         {
             "id": "32225775",
@@ -647,7 +647,7 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 249547575,
-            "subscriptionKey": "events-46919814-9861921"
+            "subscriptionKey": "events-8556109-21608035"
         },
         {
             "id": "32225561",
@@ -961,39 +961,10 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 249553561,
-            "subscriptionKey": "events-46919814-9861921"
+            "subscriptionKey": "events-8556109-21608035"
         }
     ],
     "markets": [
-        {
-            "id": "278437619",
-            "eventId": "32225547",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Jordan Love Interceptions Thrown O/U",
-            "subcategoryId": "15937",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13678",
-                "betOfferTypeId": 0,
-                "name": "Interceptions Thrown O/U"
-            },
-            "subscriptionKey": "events-46919814-9861921",
-            "sortOrder": 1,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225547|13678|2:100947",
-            "dynamicMetadata": {}
-        },
         {
             "id": "278439863",
             "eventId": "32225775",
@@ -1010,8 +981,8 @@
                 "betOfferTypeId": 0,
                 "name": "Interceptions Thrown O/U"
             },
-            "subscriptionKey": "events-46919814-9861921",
-            "sortOrder": 2,
+            "subscriptionKey": "events-8556109-21608035",
+            "sortOrder": 1,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1021,6 +992,35 @@
                 "PlayerProps"
             ],
             "correlatedId": "32225775|13678|2:100627",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "278437619",
+            "eventId": "32225547",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Jordan Love Interceptions Thrown O/U",
+            "subcategoryId": "15937",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "13678",
+                "betOfferTypeId": 0,
+                "name": "Interceptions Thrown O/U"
+            },
+            "subscriptionKey": "events-8556109-21608035",
+            "sortOrder": 2,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225547|13678|2:100947",
             "dynamicMetadata": {}
         },
         {
@@ -1039,7 +1039,7 @@
                 "betOfferTypeId": 0,
                 "name": "Interceptions Thrown O/U"
             },
-            "subscriptionKey": "events-46919814-9861921",
+            "subscriptionKey": "events-8556109-21608035",
             "sortOrder": 3,
             "tags": [
                 "SGP",
@@ -1068,7 +1068,7 @@
                 "betOfferTypeId": 0,
                 "name": "Interceptions Thrown O/U"
             },
-            "subscriptionKey": "events-46919814-9861921",
+            "subscriptionKey": "events-8556109-21608035",
             "sortOrder": 4,
             "tags": [
                 "SGP",
@@ -1097,7 +1097,7 @@
                 "betOfferTypeId": 0,
                 "name": "Interceptions Thrown O/U"
             },
-            "subscriptionKey": "events-46919814-9861921",
+            "subscriptionKey": "events-8556109-21608035",
             "sortOrder": 5,
             "tags": [
                 "SGP",
@@ -1126,7 +1126,7 @@
                 "betOfferTypeId": 0,
                 "name": "Interceptions Thrown O/U"
             },
-            "subscriptionKey": "events-46919814-9861921",
+            "subscriptionKey": "events-8556109-21608035",
             "sortOrder": 6,
             "tags": [
                 "SGP",
@@ -1214,11 +1214,11 @@
             "marketId": "278437619",
             "label": "Over",
             "displayOdds": {
-                "american": "+121",
-                "decimal": "2.21",
-                "fractional": "121/100"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 2.21,
+            "trueOdds": 2,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -1248,11 +1248,11 @@
             "marketId": "278437619",
             "label": "Under",
             "displayOdds": {
-                "american": "−155",
-                "decimal": "1.64",
-                "fractional": "20/31"
+                "american": "−127",
+                "decimal": "1.78",
+                "fractional": "100/127"
             },
-            "trueOdds": 1.6451613,
+            "trueOdds": 1.78740158,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -1543,7 +1543,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-46919814-9861921": {
+        "events-8556109-21608035": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '15937')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '15937' AND tags/all(t: t ne 'SportcastBetBuilder')"
