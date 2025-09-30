@@ -4,7 +4,7 @@
             "id": "7",
             "seoIdentifier": "Baseball",
             "name": "Baseball",
-            "sortOrder": 60
+            "sortOrder": 57
         }
     ],
     "leagues": [
@@ -23,7 +23,11 @@
                 "SgpDynamicOdds",
                 "Stats",
                 "YourBetEligible",
+                "LiveBoxScore",
+                "LivePrePack",
                 "Featured",
+                "HasLiveEvents",
+                "LiveFeaturedSubcategory",
                 "FavoriteableFromPage"
             ],
             "isTeamSwap": true,
@@ -45,99 +49,6 @@
         }
     ],
     "events": [
-        {
-            "id": "32860695",
-            "seoIdentifier": "DET Tigers @ CLE Guardians",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "DET Tigers @ CLE Guardians",
-            "startEventDate": "2025-09-30T17:08:00.0000000Z",
-            "participants": [
-                {
-                    "id": "29913",
-                    "name": "CLE Guardians",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "201",
-                        "rosettaTeamId": "29913",
-                        "rosettaTeamName": "Guardians",
-                        "shortName": "CLE",
-                        "startingPitcherPlayerId": "163181",
-                        "teamColor": "#00385d",
-                        "startingPitcherPlayerName": "Gavin Williams"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "Guardians",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                },
-                {
-                    "id": "29871",
-                    "name": "DET Tigers",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "200",
-                        "rosettaTeamId": "29871",
-                        "rosettaTeamName": "Tigers",
-                        "shortName": "DET",
-                        "startingPitcherPlayerId": "105950",
-                        "teamColor": "#0c2340",
-                        "startingPitcherPlayerName": "Tarik Skubal"
-                    },
-                    "sortOrder": 1,
-                    "seoIdentifier": "Tigers",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "eventScorecard": {
-                "scorecardComponentId": 1
-            },
-            "media": [
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "64113541",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "64113541",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "64113541",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                }
-            ],
-            "tags": [
-                "FeaturedSubcategory",
-                "Flashbet",
-                "MatchTracker",
-                "PrePack",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "233",
-                "numberOfParts": "9"
-            },
-            "sortOrder": 249654895,
-            "subscriptionKey": "league-events-84240"
-        },
         {
             "id": "32860685",
             "seoIdentifier": "SD Padres @ CHI Cubs",
@@ -228,7 +139,7 @@
                 "masterLeagueId": "233",
                 "numberOfParts": "9"
             },
-            "sortOrder": 249666802,
+            "sortOrder": 249666885,
             "subscriptionKey": "league-events-84240"
         },
         {
@@ -321,7 +232,7 @@
                 "masterLeagueId": "233",
                 "numberOfParts": "9"
             },
-            "sortOrder": 249684801,
+            "sortOrder": 249684884,
             "subscriptionKey": "league-events-84240"
         },
         {
@@ -420,58 +331,6 @@
     ],
     "markets": [
         {
-            "id": "280211809",
-            "eventId": "32860695",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Tarik Skubal Outs O/U",
-            "subcategoryId": 17413,
-            "marketType": {
-                "id": "14033",
-                "betOfferTypeId": 0,
-                "name": "Outs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 1,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32860695|14033|2:105950",
-            "blurbId": "ddcb2af0-8dd5-4b45-bc97-2b7413c2cc2f",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "280259298",
-            "eventId": "32860695",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Gavin Williams Outs O/U",
-            "subcategoryId": 17413,
-            "marketType": {
-                "id": "14033",
-                "betOfferTypeId": 0,
-                "name": "Outs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 8,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32860695|14033|2:163181",
-            "blurbId": "ddcb2af0-8dd5-4b45-bc97-2b7413c2cc2f",
-            "dynamicMetadata": {}
-        },
-        {
             "id": "280204903",
             "eventId": "32860685",
             "sportId": "7",
@@ -484,7 +343,7 @@
                 "name": "Outs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 6,
+            "sortOrder": 5,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -510,7 +369,7 @@
                 "name": "Outs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 7,
+            "sortOrder": 6,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -520,6 +379,32 @@
                 "PlayerProps"
             ],
             "correlatedId": "32860685|14033|2:108435",
+            "blurbId": "ddcb2af0-8dd5-4b45-bc97-2b7413c2cc2f",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "280217552",
+            "eventId": "32860784",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Max Fried Outs O/U",
+            "subcategoryId": 17413,
+            "marketType": {
+                "id": "14033",
+                "betOfferTypeId": 0,
+                "name": "Outs O/U"
+            },
+            "subscriptionKey": "league-events-84240",
+            "sortOrder": 1,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32860784|14033|2:109082",
             "blurbId": "ddcb2af0-8dd5-4b45-bc97-2b7413c2cc2f",
             "dynamicMetadata": {}
         },
@@ -550,32 +435,6 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "280217552",
-            "eventId": "32860784",
-            "sportId": "7",
-            "leagueId": "84240",
-            "name": "Max Fried Outs O/U",
-            "subcategoryId": 17413,
-            "marketType": {
-                "id": "14033",
-                "betOfferTypeId": 0,
-                "name": "Outs O/U"
-            },
-            "subscriptionKey": "league-events-84240",
-            "sortOrder": 3,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32860784|14033|2:109082",
-            "blurbId": "ddcb2af0-8dd5-4b45-bc97-2b7413c2cc2f",
-            "dynamicMetadata": {}
-        },
-        {
             "id": "280363689",
             "eventId": "32860598",
             "sportId": "7",
@@ -588,7 +447,7 @@
                 "name": "Outs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 4,
+            "sortOrder": 3,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -614,7 +473,7 @@
                 "name": "Outs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 5,
+            "sortOrder": 4,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -630,50 +489,15 @@
     ],
     "selections": [
         {
-            "id": "0QA280259298#355742200_13L84240Q1-103249841Q20",
-            "marketId": "280259298",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−143",
-                "decimal": "1.69",
-                "fractional": "100/143"
-            },
-            "trueOdds": 1.6993007,
-            "points": 14.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "581852",
-                    "name": "Gavin Williams",
-                    "type": "Player",
-                    "seoIdentifier": "Gavin Williams",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 503
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 14500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA280204903#355511649_13L84240Q1-103249841Q20",
             "marketId": "280204903",
             "label": "Over",
             "displayOdds": {
-                "american": "−186",
-                "decimal": "1.53",
-                "fractional": "50/93"
+                "american": "−165",
+                "decimal": "1.60",
+                "fractional": "20/33"
             },
-            "trueOdds": 1.53763441,
+            "trueOdds": 1.60606061,
             "points": 14.5,
             "outcomeType": "Over",
             "participants": [
@@ -704,11 +528,11 @@
             "marketId": "280403531",
             "label": "Over",
             "displayOdds": {
-                "american": "−183",
-                "decimal": "1.54",
-                "fractional": "100/183"
+                "american": "−163",
+                "decimal": "1.61",
+                "fractional": "100/163"
             },
-            "trueOdds": 1.54644809,
+            "trueOdds": 1.61349694,
             "points": 14.5,
             "outcomeType": "Over",
             "participants": [
@@ -728,40 +552,6 @@
             "sortOrder": 14500,
             "tags": [
                 "MainPointLine",
-                "SGP"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA280259298#355742201_13L84240Q1-109153427Q20",
-            "marketId": "280259298",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+108",
-                "decimal": "2.08",
-                "fractional": "27/25"
-            },
-            "trueOdds": 2.08,
-            "points": 14.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "581852",
-                    "name": "Gavin Williams",
-                    "type": "Player",
-                    "seoIdentifier": "Gavin Williams",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 503
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 14502,
-            "tags": [
-                "MainPointLine",
                 "SGP",
                 "1stFavorite"
             ],
@@ -773,11 +563,11 @@
             "marketId": "280204903",
             "label": "Under",
             "displayOdds": {
-                "american": "+139",
-                "decimal": "2.39",
-                "fractional": "139/100"
+                "american": "+124",
+                "decimal": "2.24",
+                "fractional": "31/25"
             },
-            "trueOdds": 2.39,
+            "trueOdds": 2.24,
             "points": 14.5,
             "outcomeType": "Under",
             "participants": [
@@ -808,11 +598,11 @@
             "marketId": "280403531",
             "label": "Under",
             "displayOdds": {
-                "american": "+137",
-                "decimal": "2.37",
-                "fractional": "137/100"
+                "american": "+123",
+                "decimal": "2.23",
+                "fractional": "123/100"
             },
-            "trueOdds": 2.37,
+            "trueOdds": 2.23,
             "points": 14.5,
             "outcomeType": "Under",
             "participants": [
@@ -832,7 +622,8 @@
             "sortOrder": 14502,
             "tags": [
                 "MainPointLine",
-                "SGP"
+                "SGP",
+                "1stFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -842,11 +633,11 @@
             "marketId": "280380621",
             "label": "Over",
             "displayOdds": {
-                "american": "+114",
-                "decimal": "2.14",
-                "fractional": "57/50"
+                "american": "−102",
+                "decimal": "1.98",
+                "fractional": "50/51"
             },
-            "trueOdds": 2.14,
+            "trueOdds": 1.98039216,
             "points": 15.5,
             "outcomeType": "Over",
             "participants": [
@@ -877,11 +668,11 @@
             "marketId": "280380621",
             "label": "Under",
             "displayOdds": {
-                "american": "−152",
-                "decimal": "1.65",
-                "fractional": "25/38"
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
             },
-            "trueOdds": 1.65789474,
+            "trueOdds": 1.76923077,
             "points": 15.5,
             "outcomeType": "Under",
             "participants": [
@@ -908,15 +699,85 @@
             "metadata": {}
         },
         {
+            "id": "0QA280363689#356301366_13L84240Q1-836351828Q20",
+            "marketId": "280363689",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+121",
+                "decimal": "2.21",
+                "fractional": "121/100"
+            },
+            "trueOdds": 2.21,
+            "points": 16.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "111765",
+                    "name": "Hunter Greene",
+                    "type": "Player",
+                    "seoIdentifier": "Hunter Greene",
+                    "statistic": {
+                        "prefix": "Total",
+                        "value": 323
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 16500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA280363689#356301367_13L84240Q11389096596Q20",
+            "marketId": "280363689",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−162",
+                "decimal": "1.61",
+                "fractional": "50/81"
+            },
+            "trueOdds": 1.61728396,
+            "points": 16.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "111765",
+                    "name": "Hunter Greene",
+                    "type": "Player",
+                    "seoIdentifier": "Hunter Greene",
+                    "statistic": {
+                        "prefix": "Total",
+                        "value": 323
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 16502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA280213284#355543192_13L84240Q11396272182Q20",
             "marketId": "280213284",
             "label": "Over",
             "displayOdds": {
-                "american": "−153",
-                "decimal": "1.65",
-                "fractional": "100/153"
+                "american": "−140",
+                "decimal": "1.71",
+                "fractional": "5/7"
             },
-            "trueOdds": 1.65359478,
+            "trueOdds": 1.71428572,
             "points": 17.5,
             "outcomeType": "Over",
             "participants": [
@@ -947,11 +808,11 @@
             "marketId": "280217552",
             "label": "Over",
             "displayOdds": {
-                "american": "−128",
-                "decimal": "1.78",
-                "fractional": "25/32"
+                "american": "−148",
+                "decimal": "1.67",
+                "fractional": "25/37"
             },
-            "trueOdds": 1.78125,
+            "trueOdds": 1.67567568,
             "points": 17.5,
             "outcomeType": "Over",
             "participants": [
@@ -978,50 +839,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA280363689#356269744_13L84240Q11396272182Q20",
-            "marketId": "280363689",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−126",
-                "decimal": "1.79",
-                "fractional": "50/63"
-            },
-            "trueOdds": 1.7936508,
-            "points": 17.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "111765",
-                    "name": "Hunter Greene",
-                    "type": "Player",
-                    "seoIdentifier": "Hunter Greene",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 323
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 17500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA280213284#355543193_13L84240Q1-398308759Q20",
             "marketId": "280213284",
             "label": "Under",
             "displayOdds": {
-                "american": "+115",
-                "decimal": "2.15",
-                "fractional": "23/20"
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
             },
-            "trueOdds": 2.15,
+            "trueOdds": 2.05,
             "points": 17.5,
             "outcomeType": "Under",
             "participants": [
@@ -1052,11 +878,11 @@
             "marketId": "280217552",
             "label": "Under",
             "displayOdds": {
-                "american": "−103",
-                "decimal": "1.97",
-                "fractional": "100/103"
+                "american": "+112",
+                "decimal": "2.12",
+                "fractional": "28/25"
             },
-            "trueOdds": 1.97087379,
+            "trueOdds": 2.12,
             "points": 17.5,
             "outcomeType": "Under",
             "participants": [
@@ -1081,111 +907,6 @@
             ],
             "main": true,
             "metadata": {}
-        },
-        {
-            "id": "0QA280363689#356269745_13L84240Q1-398308759Q20",
-            "marketId": "280363689",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−105",
-                "decimal": "1.95",
-                "fractional": "20/21"
-            },
-            "trueOdds": 1.95238096,
-            "points": 17.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "111765",
-                    "name": "Hunter Greene",
-                    "type": "Player",
-                    "seoIdentifier": "Hunter Greene",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 323
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 17502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA280211809#355536927_13L84240Q1723086317Q20",
-            "marketId": "280211809",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+151",
-                "decimal": "2.51",
-                "fractional": "151/100"
-            },
-            "trueOdds": 2.51,
-            "points": 18.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "459787",
-                    "name": "Tarik Skubal",
-                    "type": "Player",
-                    "seoIdentifier": "Tarik Skubal",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 586
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 18500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA280211809#355536929_13L84240Q11309810766Q20",
-            "marketId": "280211809",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−203",
-                "decimal": "1.49",
-                "fractional": "100/203"
-            },
-            "trueOdds": 1.49261084,
-            "points": 18.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "459787",
-                    "name": "Tarik Skubal",
-                    "type": "Player",
-                    "seoIdentifier": "Tarik Skubal",
-                    "statistic": {
-                        "prefix": "Total",
-                        "value": 586
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 18502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
         }
     ],
     "categories": [
@@ -1194,7 +915,8 @@
             "name": "Game Lines",
             "sortOrder": 1,
             "tags": [
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -1245,7 +967,11 @@
         {
             "id": 988,
             "name": "Plate Appearance",
-            "sortOrder": 13
+            "sortOrder": 13,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
         },
         {
             "id": 1650,
@@ -1269,6 +995,15 @@
             "sortOrder": 16,
             "tags": [
                 "SGP"
+            ]
+        },
+        {
+            "id": 760,
+            "name": "Half Inning Props",
+            "sortOrder": 17,
+            "tags": [
+                "MicroMarket",
+                "Live"
             ]
         },
         {
@@ -1309,6 +1044,42 @@
             "sortOrder": 22
         },
         {
+            "id": 985,
+            "name": "Live Batter Props",
+            "sortOrder": 27,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 1256,
+            "name": "Live Pitcher Props",
+            "sortOrder": 28,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 758,
+            "name": "Live Game Props",
+            "sortOrder": 29,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 723,
+            "name": "Live Inning Props",
+            "sortOrder": 30,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
             "id": 1774,
             "name": "Champion",
             "sortOrder": 41
@@ -1319,14 +1090,14 @@
             "sortOrder": 42
         },
         {
-            "id": 1672,
-            "name": "Playoff Leaders",
-            "sortOrder": 63
+            "id": 1581,
+            "name": "Live Specials",
+            "sortOrder": 48
         },
         {
-            "id": 763,
-            "name": "World Series",
-            "sortOrder": 67
+            "id": 1576,
+            "name": "Series Leader",
+            "sortOrder": 59
         },
         {
             "id": 684,
@@ -1337,11 +1108,6 @@
             "id": 1663,
             "name": "Season Specials",
             "sortOrder": 77
-        },
-        {
-            "id": 1131,
-            "name": "DK Specials",
-            "sortOrder": 106
         },
         {
             "id": 1891,
@@ -1359,38 +1125,6 @@
             "tags": []
         },
         {
-            "id": 17173,
-            "categoryId": 1762,
-            "name": "Exact Result",
-            "componentId": 204,
-            "sortOrder": 17130,
-            "tags": []
-        },
-        {
-            "id": 17174,
-            "categoryId": 1762,
-            "name": "To Reach LCS",
-            "componentId": 29,
-            "sortOrder": 17131,
-            "tags": []
-        },
-        {
-            "id": 17175,
-            "categoryId": 1762,
-            "name": "Specials",
-            "componentId": 29,
-            "sortOrder": 17132,
-            "tags": []
-        },
-        {
-            "id": 11037,
-            "categoryId": 1131,
-            "name": "DK Specials",
-            "componentId": 29,
-            "sortOrder": 11310,
-            "tags": []
-        },
-        {
             "id": 11024,
             "categoryId": 1024,
             "name": "1st Inning Runs",
@@ -1398,6 +1132,16 @@
             "sortOrder": 9802,
             "tags": [
                 "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 11036,
+            "categoryId": 729,
+            "name": "Inning Runs",
+            "componentId": 29,
+            "sortOrder": 6663,
+            "tags": [
                 "SGP"
             ]
         },
@@ -1428,13 +1172,71 @@
             "tags": []
         },
         {
+            "id": 11052,
+            "categoryId": 1133,
+            "name": "2nd Inning",
+            "componentId": 202,
+            "sortOrder": 11022,
+            "tags": []
+        },
+        {
+            "id": 11053,
+            "categoryId": 1133,
+            "name": "3rd Inning",
+            "componentId": 202,
+            "sortOrder": 11023,
+            "tags": []
+        },
+        {
+            "id": 11054,
+            "categoryId": 1133,
+            "name": "4th Inning",
+            "componentId": 202,
+            "sortOrder": 11024,
+            "tags": []
+        },
+        {
+            "id": 11055,
+            "categoryId": 1133,
+            "name": "5th Inning",
+            "componentId": 202,
+            "sortOrder": 11343,
+            "tags": []
+        },
+        {
+            "id": 11056,
+            "categoryId": 1133,
+            "name": "6th Inning",
+            "componentId": 202,
+            "sortOrder": 13698,
+            "tags": []
+        },
+        {
+            "id": 11057,
+            "categoryId": 1133,
+            "name": "7th Inning",
+            "componentId": 202,
+            "sortOrder": 13703,
+            "tags": []
+        },
+        {
+            "id": 11058,
+            "categoryId": 1133,
+            "name": "8th Inning",
+            "componentId": 202,
+            "sortOrder": 13704,
+            "tags": []
+        },
+        {
             "id": 11196,
             "categoryId": 988,
             "name": "Plate Appearance (Exact)",
             "componentId": 29,
             "sortOrder": 9562,
             "tags": [
-                "Featured"
+                "Featured",
+                "MicroMarket",
+                "Live"
             ]
         },
         {
@@ -1451,6 +1253,14 @@
             "name": "1st Inning",
             "componentId": 202,
             "sortOrder": 11021,
+            "tags": []
+        },
+        {
+            "id": 12134,
+            "categoryId": 724,
+            "name": "Team Cycle",
+            "componentId": 29,
+            "sortOrder": 6473,
             "tags": []
         },
         {
@@ -1502,7 +1312,8 @@
             "componentId": 240,
             "sortOrder": 6421,
             "tags": [
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -1512,7 +1323,8 @@
             "componentId": 240,
             "sortOrder": 6423,
             "tags": [
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -1526,6 +1338,16 @@
             ]
         },
         {
+            "id": 13739,
+            "categoryId": 729,
+            "name": "Inning Run Line",
+            "componentId": 29,
+            "sortOrder": 6713,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 13740,
             "categoryId": 1024,
             "name": "1st Inning Result",
@@ -1534,6 +1356,48 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 13741,
+            "categoryId": 729,
+            "name": "Inning Result",
+            "componentId": 30,
+            "sortOrder": 6712,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 13742,
+            "categoryId": 729,
+            "name": "Innings Props",
+            "componentId": 30,
+            "sortOrder": 13702,
+            "tags": []
+        },
+        {
+            "id": 13743,
+            "categoryId": 1133,
+            "name": "Correct Score - 1st 5",
+            "componentId": 203,
+            "sortOrder": 11019,
+            "tags": []
+        },
+        {
+            "id": 13744,
+            "categoryId": 1133,
+            "name": "Correct Score - 1st 7",
+            "componentId": 203,
+            "sortOrder": 11020,
+            "tags": []
+        },
+        {
+            "id": 13745,
+            "categoryId": 1133,
+            "name": "Correct Score - 1st 3",
+            "componentId": 203,
+            "sortOrder": 11018,
+            "tags": []
         },
         {
             "id": 15219,
@@ -1551,6 +1415,46 @@
             "name": "Strikeouts Thrown O/U",
             "componentId": 8,
             "sortOrder": 1,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 15418,
+            "categoryId": 1024,
+            "name": "Walks",
+            "componentId": 29,
+            "sortOrder": 10990,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 15628,
+            "categoryId": 1626,
+            "name": "1st 5 Innings",
+            "componentId": 29,
+            "sortOrder": 15585,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 15629,
+            "categoryId": 1626,
+            "name": "1st 3 Innings",
+            "componentId": 29,
+            "sortOrder": 15586,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 15630,
+            "categoryId": 1626,
+            "name": "1st 7 Innings",
+            "componentId": 29,
+            "sortOrder": 15587,
             "tags": [
                 "SGP"
             ]
@@ -1590,6 +1494,16 @@
             "tags": []
         },
         {
+            "id": 15972,
+            "categoryId": 1650,
+            "name": "1st Run - Team",
+            "componentId": 29,
+            "sortOrder": 0,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 15973,
             "categoryId": 1650,
             "name": "1st Strikeout Thrown",
@@ -1612,6 +1526,16 @@
             "componentId": 204,
             "sortOrder": 16,
             "tags": []
+        },
+        {
+            "id": 16208,
+            "categoryId": 1674,
+            "name": "Alternate Total Runs",
+            "componentId": 240,
+            "sortOrder": 1,
+            "tags": [
+                "SGP"
+            ]
         },
         {
             "id": 16209,
@@ -1851,6 +1775,14 @@
             ]
         },
         {
+            "id": 17336,
+            "categoryId": 1133,
+            "name": "9th Inning",
+            "componentId": 202,
+            "sortOrder": 17293,
+            "tags": []
+        },
+        {
             "id": 17406,
             "categoryId": 743,
             "name": "Hits + Runs + RBIs O/U",
@@ -1926,6 +1858,172 @@
             "name": "Outs Recorded O/U",
             "componentId": 8,
             "sortOrder": 4,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17416,
+            "categoryId": 1626,
+            "name": "Winning Margin - 1st 5",
+            "componentId": 203,
+            "sortOrder": 17373,
+            "tags": []
+        },
+        {
+            "id": 17417,
+            "categoryId": 1626,
+            "name": "Winning Margin - 1st 3",
+            "componentId": 203,
+            "sortOrder": 17374,
+            "tags": []
+        },
+        {
+            "id": 17418,
+            "categoryId": 1626,
+            "name": "Winning Margin - 1st 7",
+            "componentId": 203,
+            "sortOrder": 17375,
+            "tags": []
+        },
+        {
+            "id": 17457,
+            "categoryId": 1782,
+            "name": "Either Player Home Run",
+            "componentId": 29,
+            "sortOrder": 17415,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 17458,
+            "categoryId": 1782,
+            "name": "Either Player Hits",
+            "componentId": 29,
+            "sortOrder": 17416,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17459,
+            "categoryId": 1782,
+            "name": "Either Player Total Bases",
+            "componentId": 29,
+            "sortOrder": 17417,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17463,
+            "categoryId": 1781,
+            "name": "Combined Home Runs",
+            "componentId": 29,
+            "sortOrder": 17420,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 17464,
+            "categoryId": 1781,
+            "name": "Combined Hits",
+            "componentId": 29,
+            "sortOrder": 17421,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17465,
+            "categoryId": 1781,
+            "name": "Combined Total Bases",
+            "componentId": 29,
+            "sortOrder": 17422,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17763,
+            "categoryId": 1782,
+            "name": "Either Player Singles",
+            "componentId": 29,
+            "sortOrder": 17720,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17764,
+            "categoryId": 1782,
+            "name": "Either Player Stolen Bases",
+            "componentId": 29,
+            "sortOrder": 17721,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17765,
+            "categoryId": 1782,
+            "name": "Either Player Doubles",
+            "componentId": 29,
+            "sortOrder": 17722,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17767,
+            "categoryId": 1782,
+            "name": "Either Player RBIs",
+            "componentId": 29,
+            "sortOrder": 17724,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17768,
+            "categoryId": 1781,
+            "name": "Combined Singles",
+            "componentId": 29,
+            "sortOrder": 17725,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17769,
+            "categoryId": 1781,
+            "name": "Combined Doubles",
+            "componentId": 29,
+            "sortOrder": 17726,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17771,
+            "categoryId": 1781,
+            "name": "Combined RBIs",
+            "componentId": 29,
+            "sortOrder": 17728,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17772,
+            "categoryId": 1781,
+            "name": "Combined Stolen Bases",
+            "componentId": 29,
+            "sortOrder": 17729,
             "tags": [
                 "SGP"
             ]
@@ -2011,6 +2109,60 @@
             ]
         },
         {
+            "id": 17963,
+            "categoryId": 1250,
+            "name": "H2H Hits",
+            "componentId": 204,
+            "sortOrder": 1,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17964,
+            "categoryId": 1250,
+            "name": "H2H Total Bases",
+            "componentId": 204,
+            "sortOrder": 2,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17965,
+            "categoryId": 1250,
+            "name": "H2H Strikeouts",
+            "componentId": 204,
+            "sortOrder": 3,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17966,
+            "categoryId": 1250,
+            "name": "H2H Walks Allowed",
+            "componentId": 204,
+            "sortOrder": 4,
+            "tags": []
+        },
+        {
+            "id": 17967,
+            "categoryId": 1250,
+            "name": "H2H Home Runs",
+            "componentId": 204,
+            "sortOrder": 0,
+            "tags": []
+        },
+        {
+            "id": 18089,
+            "categoryId": 724,
+            "name": "Highest Scoring Period",
+            "componentId": 29,
+            "sortOrder": 18046,
+            "tags": []
+        },
+        {
             "id": 18139,
             "categoryId": 1674,
             "name": "Total Hits",
@@ -2094,7 +2246,8 @@
             "sortOrder": 4514,
             "tags": [
                 "Featured",
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -2136,6 +2289,14 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 6618,
+            "categoryId": 493,
+            "name": "Listed Pitcher",
+            "componentId": 29,
+            "sortOrder": 6483,
+            "tags": []
         },
         {
             "id": 6686,
@@ -2186,6 +2347,22 @@
             ]
         },
         {
+            "id": 9836,
+            "categoryId": 1024,
+            "name": "Top of the 1st",
+            "componentId": 29,
+            "sortOrder": 9803,
+            "tags": []
+        },
+        {
+            "id": 9837,
+            "categoryId": 1024,
+            "name": "Bottom of the 1st",
+            "componentId": 29,
+            "sortOrder": 9805,
+            "tags": []
+        },
+        {
             "id": 9884,
             "categoryId": 1031,
             "name": "To Record a Win",
@@ -2214,384 +2391,528 @@
             ]
         },
         {
-            "id": 17457,
-            "categoryId": 1782,
-            "name": "Either Player Home Run",
-            "componentId": 29,
-            "sortOrder": 17415,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 17458,
-            "categoryId": 1782,
-            "name": "Either Player Hits",
-            "componentId": 29,
-            "sortOrder": 17416,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17459,
-            "categoryId": 1782,
-            "name": "Either Player Total Bases",
-            "componentId": 29,
-            "sortOrder": 17417,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17463,
-            "categoryId": 1781,
-            "name": "Combined Home Runs",
-            "componentId": 29,
-            "sortOrder": 17420,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
-            "id": 17464,
-            "categoryId": 1781,
-            "name": "Combined Hits",
-            "componentId": 29,
-            "sortOrder": 17421,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17465,
-            "categoryId": 1781,
-            "name": "Combined Total Bases",
-            "componentId": 29,
-            "sortOrder": 17422,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17763,
-            "categoryId": 1782,
-            "name": "Either Player Singles",
-            "componentId": 29,
-            "sortOrder": 17720,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17764,
-            "categoryId": 1782,
-            "name": "Either Player Stolen Bases",
-            "componentId": 29,
-            "sortOrder": 17721,
-            "tags": []
-        },
-        {
-            "id": 17765,
-            "categoryId": 1782,
-            "name": "Either Player Doubles",
-            "componentId": 29,
-            "sortOrder": 17722,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17767,
-            "categoryId": 1782,
-            "name": "Either Player RBIs",
-            "componentId": 29,
-            "sortOrder": 17724,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17768,
-            "categoryId": 1781,
-            "name": "Combined Singles",
-            "componentId": 29,
-            "sortOrder": 17725,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17769,
-            "categoryId": 1781,
-            "name": "Combined Doubles",
-            "componentId": 29,
-            "sortOrder": 17726,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17771,
-            "categoryId": 1781,
-            "name": "Combined RBIs",
-            "componentId": 29,
-            "sortOrder": 17728,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17772,
-            "categoryId": 1781,
-            "name": "Combined Stolen Bases",
-            "componentId": 29,
-            "sortOrder": 17729,
-            "tags": []
-        },
-        {
-            "id": 11036,
-            "categoryId": 729,
-            "name": "Inning Runs",
-            "componentId": 29,
-            "sortOrder": 6663,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 11052,
-            "categoryId": 1133,
-            "name": "2nd Inning",
-            "componentId": 202,
-            "sortOrder": 11022,
-            "tags": []
-        },
-        {
-            "id": 11053,
-            "categoryId": 1133,
-            "name": "3rd Inning",
-            "componentId": 202,
-            "sortOrder": 11023,
-            "tags": []
-        },
-        {
-            "id": 11054,
-            "categoryId": 1133,
-            "name": "4th Inning",
-            "componentId": 202,
-            "sortOrder": 11024,
-            "tags": []
-        },
-        {
-            "id": 11055,
-            "categoryId": 1133,
-            "name": "5th Inning",
-            "componentId": 202,
-            "sortOrder": 11343,
-            "tags": []
-        },
-        {
-            "id": 11056,
-            "categoryId": 1133,
-            "name": "6th Inning",
-            "componentId": 202,
-            "sortOrder": 13698,
-            "tags": []
-        },
-        {
-            "id": 11057,
-            "categoryId": 1133,
-            "name": "7th Inning",
-            "componentId": 202,
-            "sortOrder": 13703,
-            "tags": []
-        },
-        {
-            "id": 11058,
-            "categoryId": 1133,
-            "name": "8th Inning",
-            "componentId": 202,
-            "sortOrder": 13704,
-            "tags": []
-        },
-        {
-            "id": 13739,
-            "categoryId": 729,
-            "name": "Inning Run Line",
-            "componentId": 29,
-            "sortOrder": 6713,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 13741,
-            "categoryId": 729,
-            "name": "Inning Result",
-            "componentId": 30,
-            "sortOrder": 6712,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 13742,
-            "categoryId": 729,
-            "name": "Innings Props",
-            "componentId": 30,
-            "sortOrder": 13702,
-            "tags": []
-        },
-        {
-            "id": 13743,
-            "categoryId": 1133,
-            "name": "Correct Score - 1st 5",
-            "componentId": 203,
-            "sortOrder": 11019,
-            "tags": []
-        },
-        {
-            "id": 13744,
-            "categoryId": 1133,
-            "name": "Correct Score - 1st 7",
-            "componentId": 203,
-            "sortOrder": 11020,
-            "tags": []
-        },
-        {
-            "id": 13745,
-            "categoryId": 1133,
-            "name": "Correct Score - 1st 3",
-            "componentId": 203,
-            "sortOrder": 11018,
-            "tags": []
-        },
-        {
-            "id": 15628,
-            "categoryId": 1626,
-            "name": "1st 5 Innings",
-            "componentId": 29,
-            "sortOrder": 15585,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 15629,
-            "categoryId": 1626,
-            "name": "1st 3 Innings",
-            "componentId": 29,
-            "sortOrder": 15586,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 15630,
-            "categoryId": 1626,
-            "name": "1st 7 Innings",
-            "componentId": 29,
-            "sortOrder": 15587,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 15972,
+            "id": 15889,
             "categoryId": 1650,
-            "name": "1st Run - Team",
-            "componentId": 29,
-            "sortOrder": 0,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17336,
-            "categoryId": 1133,
-            "name": "9th Inning",
-            "componentId": 202,
-            "sortOrder": 17293,
-            "tags": []
-        },
-        {
-            "id": 17416,
-            "categoryId": 1626,
-            "name": "Winning Margin - 1st 5",
-            "componentId": 203,
-            "sortOrder": 17373,
-            "tags": []
-        },
-        {
-            "id": 17417,
-            "categoryId": 1626,
-            "name": "Winning Margin - 1st 3",
-            "componentId": 203,
-            "sortOrder": 17374,
-            "tags": []
-        },
-        {
-            "id": 17418,
-            "categoryId": 1626,
-            "name": "Winning Margin - 1st 7",
-            "componentId": 203,
-            "sortOrder": 17375,
-            "tags": []
-        },
-        {
-            "id": 17963,
-            "categoryId": 1250,
-            "name": "H2H Hits",
-            "componentId": 204,
-            "sortOrder": 1,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17964,
-            "categoryId": 1250,
-            "name": "H2H Total Bases",
-            "componentId": 204,
-            "sortOrder": 2,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17965,
-            "categoryId": 1250,
-            "name": "H2H Strikeouts",
+            "name": "1st Hit",
             "componentId": 204,
             "sortOrder": 3,
             "tags": []
         },
         {
-            "id": 17966,
-            "categoryId": 1250,
-            "name": "H2H Walks Allowed",
+            "id": 15891,
+            "categoryId": 1650,
+            "name": "1st Double",
+            "componentId": 204,
+            "sortOrder": 6,
+            "tags": []
+        },
+        {
+            "id": 15969,
+            "categoryId": 1650,
+            "name": "1st Home Run",
+            "componentId": 8,
+            "sortOrder": 2,
+            "tags": []
+        },
+        {
+            "id": 15970,
+            "categoryId": 1650,
+            "name": "1st RBI",
             "componentId": 204,
             "sortOrder": 4,
             "tags": []
         },
         {
-            "id": 17967,
-            "categoryId": 1250,
-            "name": "H2H Home Runs",
+            "id": 15971,
+            "categoryId": 1650,
+            "name": "1st Run",
             "componentId": 204,
-            "sortOrder": 0,
+            "sortOrder": 5,
             "tags": []
         },
         {
-            "id": 6618,
-            "categoryId": 493,
-            "name": "Listed Pitcher",
-            "componentId": 29,
-            "sortOrder": 6483,
+            "id": 17505,
+            "categoryId": 1650,
+            "name": "1st Batter to Strikeout",
+            "componentId": 204,
+            "sortOrder": 9,
             "tags": []
+        },
+        {
+            "id": 11079,
+            "categoryId": 988,
+            "name": "Plate Appearance (On Base)",
+            "componentId": 29,
+            "sortOrder": 11044,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 11204,
+            "categoryId": 988,
+            "name": "Pitch Count",
+            "componentId": 29,
+            "sortOrder": 17685,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12968,
+            "categoryId": 758,
+            "name": "Correct Score",
+            "componentId": 202,
+            "sortOrder": 6804,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12969,
+            "categoryId": 758,
+            "name": "Both Teams to Score X",
+            "componentId": 29,
+            "sortOrder": 6716,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12970,
+            "categoryId": 758,
+            "name": "To Bat in Bottom of 9th",
+            "componentId": 29,
+            "sortOrder": 6759,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12974,
+            "categoryId": 758,
+            "name": "To Score Last & Win",
+            "componentId": 29,
+            "sortOrder": 6758,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12975,
+            "categoryId": 760,
+            "name": "Strikeouts",
+            "componentId": 29,
+            "sortOrder": 12942,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12976,
+            "categoryId": 760,
+            "name": "Pitches Thrown",
+            "componentId": 29,
+            "sortOrder": 12939,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12977,
+            "categoryId": 760,
+            "name": "Home Run - Listed Inning",
+            "componentId": 29,
+            "sortOrder": 12937,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12978,
+            "categoryId": 760,
+            "name": "Runs - Listed Inning",
+            "componentId": 29,
+            "sortOrder": 6764,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12979,
+            "categoryId": 760,
+            "name": "Batters to the Plate",
+            "componentId": 29,
+            "sortOrder": 12938,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12980,
+            "categoryId": 758,
+            "name": "Team Total Runs",
+            "componentId": 29,
+            "sortOrder": 6715,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12981,
+            "categoryId": 758,
+            "name": "Winning Margin",
+            "componentId": 202,
+            "sortOrder": 6805,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 12982,
+            "categoryId": 760,
+            "name": "Hits - Listed Innings",
+            "componentId": 29,
+            "sortOrder": 12936,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 12995,
+            "categoryId": 758,
+            "name": "Race to X Runs",
+            "componentId": 29,
+            "sortOrder": 12955,
+            "tags": []
+        },
+        {
+            "id": 12996,
+            "categoryId": 758,
+            "name": "Team Total Odd/Even",
+            "componentId": 202,
+            "sortOrder": 12956,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 15924,
+            "categoryId": 758,
+            "name": "Run Line Xth Inning",
+            "componentId": 29,
+            "sortOrder": 15881,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17446,
+            "categoryId": 723,
+            "name": "1st 7 Innings",
+            "componentId": 29,
+            "sortOrder": 17403,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17448,
+            "categoryId": 723,
+            "name": "Inning of Last Run",
+            "componentId": 29,
+            "sortOrder": 17405,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17478,
+            "categoryId": 1256,
+            "name": "Hits Allowed",
+            "componentId": 331,
+            "sortOrder": 12921,
+            "tags": []
+        },
+        {
+            "id": 17479,
+            "categoryId": 985,
+            "name": "RBIs",
+            "componentId": 331,
+            "sortOrder": 9233,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17480,
+            "categoryId": 985,
+            "name": "Total Bases",
+            "componentId": 331,
+            "sortOrder": 9232,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17481,
+            "categoryId": 1256,
+            "name": "Strikeouts",
+            "componentId": 331,
+            "sortOrder": 12920,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17482,
+            "categoryId": 985,
+            "name": "Home Runs",
+            "componentId": 331,
+            "sortOrder": 9230,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17483,
+            "categoryId": 985,
+            "name": "Hits",
+            "componentId": 331,
+            "sortOrder": 9231,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17484,
+            "categoryId": 1256,
+            "name": "Walks Allowed",
+            "componentId": 331,
+            "sortOrder": 12922,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17485,
+            "categoryId": 985,
+            "name": "Singles",
+            "componentId": 331,
+            "sortOrder": 9238,
+            "tags": []
+        },
+        {
+            "id": 17486,
+            "categoryId": 985,
+            "name": "Doubles",
+            "componentId": 331,
+            "sortOrder": 9239,
+            "tags": []
+        },
+        {
+            "id": 17487,
+            "categoryId": 985,
+            "name": "Triples",
+            "componentId": 331,
+            "sortOrder": 9240,
+            "tags": []
+        },
+        {
+            "id": 17488,
+            "categoryId": 985,
+            "name": "Runs",
+            "componentId": 331,
+            "sortOrder": 9235,
+            "tags": []
+        },
+        {
+            "id": 17489,
+            "categoryId": 1256,
+            "name": "Outs Recorded",
+            "componentId": 331,
+            "sortOrder": 12923,
+            "tags": []
+        },
+        {
+            "id": 17490,
+            "categoryId": 985,
+            "name": "Batter Strikeouts",
+            "componentId": 331,
+            "sortOrder": 9241,
+            "tags": []
+        },
+        {
+            "id": 17491,
+            "categoryId": 1256,
+            "name": "Earned Runs Allowed",
+            "componentId": 331,
+            "sortOrder": 12924,
+            "tags": []
+        },
+        {
+            "id": 17493,
+            "categoryId": 723,
+            "name": "Inning (3-Way)",
+            "componentId": 30,
+            "sortOrder": 17450,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17494,
+            "categoryId": 723,
+            "name": "Total Runs - Listed Inning",
+            "componentId": 29,
+            "sortOrder": 17451,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17495,
+            "categoryId": 988,
+            "name": "Plate Appearance (3-Way)",
+            "componentId": 29,
+            "sortOrder": 17452,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 17496,
+            "categoryId": 723,
+            "name": "Run Line Xth Inning",
+            "componentId": 29,
+            "sortOrder": 17453,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17497,
+            "categoryId": 723,
+            "name": "Correct Score Xth Inning",
+            "componentId": 30,
+            "sortOrder": 17454,
+            "tags": []
+        },
+        {
+            "id": 17499,
+            "categoryId": 758,
+            "name": "Team to Win Most Innings",
+            "componentId": 29,
+            "sortOrder": 17456,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17500,
+            "categoryId": 758,
+            "name": "Team With Highest Scoring Inning",
+            "componentId": 29,
+            "sortOrder": 17457,
+            "tags": [
+                "SGP",
+                "Live"
+            ]
+        },
+        {
+            "id": 17728,
+            "categoryId": 988,
+            "name": "Pitch by Pitch",
+            "componentId": 30,
+            "sortOrder": 9266,
+            "tags": [
+                "Featured",
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 17948,
+            "categoryId": 723,
+            "name": "Extra Innings",
+            "componentId": 29,
+            "sortOrder": 17905,
+            "tags": []
+        },
+        {
+            "id": 18328,
+            "categoryId": 1581,
+            "name": "Combined Strikeouts",
+            "componentId": 29,
+            "sortOrder": 18285,
+            "tags": []
+        },
+        {
+            "id": 18329,
+            "categoryId": 1581,
+            "name": "Combined Home Runs",
+            "componentId": 29,
+            "sortOrder": 18286,
+            "tags": []
+        },
+        {
+            "id": 18418,
+            "categoryId": 1581,
+            "name": "Combined Hits",
+            "componentId": 29,
+            "sortOrder": 18375,
+            "tags": []
+        },
+        {
+            "id": 6724,
+            "categoryId": 758,
+            "name": "Next Run",
+            "componentId": 29,
+            "sortOrder": 6717,
+            "tags": [
+                "Featured",
+                "Live"
+            ]
         },
         {
             "id": 16298,
@@ -2658,35 +2979,35 @@
             "tags": []
         },
         {
-            "id": 17387,
-            "categoryId": 1196,
+            "id": 16166,
+            "categoryId": 1576,
             "name": "Most SBs - Series",
             "componentId": 29,
-            "sortOrder": 17358,
+            "sortOrder": 16123,
             "tags": []
         },
         {
-            "id": 12112,
-            "categoryId": 1196,
+            "id": 15627,
+            "categoryId": 1576,
             "name": "Most HRs - Series",
             "componentId": 29,
-            "sortOrder": 12070,
+            "sortOrder": 15584,
             "tags": []
         },
         {
-            "id": 12113,
-            "categoryId": 1196,
+            "id": 16059,
+            "categoryId": 1576,
             "name": "Most Hits - Series",
             "componentId": 29,
-            "sortOrder": 16274,
+            "sortOrder": 15662,
             "tags": []
         },
         {
-            "id": 17386,
-            "categoryId": 1196,
+            "id": 16165,
+            "categoryId": 1576,
             "name": "Most RBIs - Series",
             "componentId": 29,
-            "sortOrder": 17348,
+            "sortOrder": 16122,
             "tags": []
         },
         {
@@ -2698,19 +3019,11 @@
             "tags": []
         },
         {
-            "id": 18693,
-            "categoryId": 1891,
+            "id": 18721,
+            "categoryId": 1576,
             "name": "Series Stolen Bases",
             "componentId": 29,
-            "sortOrder": 18650,
-            "tags": []
-        },
-        {
-            "id": 16100,
-            "categoryId": 1663,
-            "name": "October Specials",
-            "componentId": 29,
-            "sortOrder": 16076,
+            "sortOrder": 18678,
             "tags": []
         },
         {
@@ -2722,22 +3035,6 @@
             "tags": []
         },
         {
-            "id": 17171,
-            "categoryId": 763,
-            "name": "Specials",
-            "componentId": 29,
-            "sortOrder": 17128,
-            "tags": []
-        },
-        {
-            "id": 13730,
-            "categoryId": 684,
-            "name": "ALCS MVP",
-            "componentId": 29,
-            "sortOrder": 13693,
-            "tags": []
-        },
-        {
             "id": 13729,
             "categoryId": 684,
             "name": "NLCS MVP",
@@ -2746,59 +3043,11 @@
             "tags": []
         },
         {
-            "id": 13733,
-            "categoryId": 684,
-            "name": "World Series MVP",
-            "componentId": 29,
-            "sortOrder": 14227,
-            "tags": []
-        },
-        {
-            "id": 18678,
-            "categoryId": 1672,
-            "name": "Most Home Runs",
-            "componentId": 29,
-            "sortOrder": 18635,
-            "tags": []
-        },
-        {
-            "id": 18677,
-            "categoryId": 1672,
-            "name": "Most Strikeouts",
-            "componentId": 29,
-            "sortOrder": 18634,
-            "tags": []
-        },
-        {
             "id": 16123,
             "categoryId": 1663,
             "name": "Team To Progress",
             "componentId": 30,
             "sortOrder": 16055,
-            "tags": []
-        },
-        {
-            "id": 16211,
-            "categoryId": 1672,
-            "name": "Most Hits",
-            "componentId": 29,
-            "sortOrder": 16168,
-            "tags": []
-        },
-        {
-            "id": 18717,
-            "categoryId": 1672,
-            "name": "Most Stolen Bases",
-            "componentId": 29,
-            "sortOrder": 18674,
-            "tags": []
-        },
-        {
-            "id": 18716,
-            "categoryId": 1672,
-            "name": "Most RBIs",
-            "componentId": 29,
-            "sortOrder": 18673,
             "tags": []
         },
         {
@@ -2818,19 +3067,27 @@
             "tags": []
         },
         {
-            "id": 17281,
-            "categoryId": 1774,
-            "name": "Specials",
-            "componentId": 29,
-            "sortOrder": 17238,
+            "id": 17173,
+            "categoryId": 1762,
+            "name": "Exact Result",
+            "componentId": 204,
+            "sortOrder": 17130,
             "tags": []
         },
         {
-            "id": 17280,
-            "categoryId": 1774,
-            "name": "Exact Forecast",
-            "componentId": 204,
-            "sortOrder": 17237,
+            "id": 17174,
+            "categoryId": 1762,
+            "name": "To Reach LCS",
+            "componentId": 29,
+            "sortOrder": 17131,
+            "tags": []
+        },
+        {
+            "id": 17175,
+            "categoryId": 1762,
+            "name": "Specials",
+            "componentId": 29,
+            "sortOrder": 17132,
             "tags": []
         },
         {
