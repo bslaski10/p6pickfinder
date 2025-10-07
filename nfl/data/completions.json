@@ -27,7 +27,7 @@
             "sportId": "3",
             "leagueId": "88808",
             "name": "KC Chiefs @ JAX Jaguars",
-            "startEventDate": "2025-10-07T00:15:00.0000000Z",
+            "startEventDate": "2025-10-07T00:15:52.0000000Z",
             "participants": [
                 {
                     "id": "18489",
@@ -35,7 +35,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "113",
                         "rosettaTeamId": "18489",
                         "rosettaTeamName": "Jaguars",
                         "shortName": "JAX",
@@ -52,7 +51,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "112",
                         "rosettaTeamId": "18379",
                         "rosettaTeamName": "Chiefs",
                         "shortName": "KC",
@@ -65,7 +63,45 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "Halftime",
+                "gameTime": 900
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "7",
+                    "awayScore": "14"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "0",
+                        "awayScore": "7",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "7",
+                        "awayScore": "7",
+                        "name": "Q2"
+                    },
+                    {
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "2",
+                    "currentDriveYardsToGo": "7",
+                    "currentGameState": "-1",
+                    "currentYardLine": "65",
+                    "inPossession": "home",
+                    "kickOffTeam1stHalf": "away",
+                    "kickOffTeam2ndHalf": "home"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -318,9 +354,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -333,12 +371,12 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 250561567,
-            "subscriptionKey": "events-14264551-16283446"
+            "subscriptionKey": "events-39198334-35035942"
         }
     ],
     "markets": [
         {
-            "id": "280221047",
+            "id": "281953658",
             "eventId": "32225667",
             "sportId": "3",
             "leagueId": "88808",
@@ -349,11 +387,11 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13685",
+                "id": "6828",
                 "betOfferTypeId": 0,
                 "name": "Passing Completions O/U"
             },
-            "subscriptionKey": "events-14264551-16283446",
+            "subscriptionKey": "events-39198334-35035942",
             "sortOrder": 1,
             "tags": [
                 "SGP",
@@ -363,11 +401,22 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225667|13685|2:54965",
-            "dynamicMetadata": {}
+            "correlatedId": "32225667|6828|2:54965",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 14
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         },
         {
-            "id": "280220890",
+            "id": "281953622",
             "eventId": "32225667",
             "sportId": "3",
             "leagueId": "88808",
@@ -378,11 +427,11 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13685",
+                "id": "6828",
                 "betOfferTypeId": 0,
                 "name": "Passing Completions O/U"
             },
-            "subscriptionKey": "events-14264551-16283446",
+            "subscriptionKey": "events-39198334-35035942",
             "sortOrder": 2,
             "tags": [
                 "SGP",
@@ -392,21 +441,32 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225667|13685|2:122715",
-            "dynamicMetadata": {}
+            "correlatedId": "32225667|6828|2:122715",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 9
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         }
     ],
     "selections": [
         {
-            "id": "0QA280220890#355576876_13L88808Q11817943715Q20",
-            "marketId": "280220890",
+            "id": "0QA281953622#362843431_13L88808Q1-56303144Q20",
+            "marketId": "281953622",
             "label": "Over",
             "displayOdds": {
-                "american": "−129",
-                "decimal": "1.77",
-                "fractional": "100/129"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.7751938,
+            "trueOdds": 1.8,
             "points": 20.5,
             "outcomeType": "Over",
             "participants": [
@@ -428,15 +488,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA280220890#355576935_13L88808Q1167019687Q20",
-            "marketId": "280220890",
+            "id": "0QA281953622#362843433_13L88808Q1-244685484Q20",
+            "marketId": "281953622",
             "label": "Under",
             "displayOdds": {
-                "american": "+101",
-                "decimal": "2.01",
-                "fractional": "101/100"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 2.01,
+            "trueOdds": 1.95238096,
             "points": 20.5,
             "outcomeType": "Under",
             "participants": [
@@ -458,16 +518,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA280221047#357498392_13L88808Q1-1070674311Q20",
-            "marketId": "280221047",
+            "id": "0QA281953658#362846499_13L88808Q1-125413452Q20",
+            "marketId": "281953658",
             "label": "Over",
             "displayOdds": {
-                "american": "−118",
-                "decimal": "1.84",
-                "fractional": "50/59"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 1.84745763,
-            "points": 23.5,
+            "trueOdds": 1.95238096,
+            "points": 25.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -479,7 +539,7 @@
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 23500,
+            "sortOrder": 25500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -488,16 +548,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA280221047#357498393_13L88808Q1-1339975206Q20",
-            "marketId": "280221047",
+            "id": "0QA281953658#362846505_13L88808Q1-1600320480Q20",
+            "marketId": "281953658",
             "label": "Under",
             "displayOdds": {
-                "american": "−108",
-                "decimal": "1.92",
-                "fractional": "25/27"
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
             },
-            "trueOdds": 1.92592593,
-            "points": 23.5,
+            "trueOdds": 1.8,
+            "points": 25.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -509,7 +569,7 @@
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 23502,
+            "sortOrder": 25502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -519,7 +579,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-14264551-16283446": {
+        "events-39198334-35035942": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '9522')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '9522' AND tags/all(t: t ne 'SportcastBetBuilder')"

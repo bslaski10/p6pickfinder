@@ -27,7 +27,7 @@
             "sportId": "3",
             "leagueId": "88808",
             "name": "KC Chiefs @ JAX Jaguars",
-            "startEventDate": "2025-10-07T00:15:00.0000000Z",
+            "startEventDate": "2025-10-07T00:15:52.0000000Z",
             "participants": [
                 {
                     "id": "18489",
@@ -35,7 +35,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "113",
                         "rosettaTeamId": "18489",
                         "rosettaTeamName": "Jaguars",
                         "shortName": "JAX",
@@ -52,7 +51,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "112",
                         "rosettaTeamId": "18379",
                         "rosettaTeamName": "Chiefs",
                         "shortName": "KC",
@@ -65,7 +63,45 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "Halftime",
+                "gameTime": 900
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "7",
+                    "awayScore": "14"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "0",
+                        "awayScore": "7",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "7",
+                        "awayScore": "7",
+                        "name": "Q2"
+                    },
+                    {
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "2",
+                    "currentDriveYardsToGo": "7",
+                    "currentGameState": "-1",
+                    "currentYardLine": "65",
+                    "inPossession": "home",
+                    "kickOffTeam1stHalf": "away",
+                    "kickOffTeam2ndHalf": "home"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -318,9 +354,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -333,12 +371,12 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 250561567,
-            "subscriptionKey": "events-50211636-34927646"
+            "subscriptionKey": "events-15772102-28052112"
         }
     ],
     "markets": [
         {
-            "id": "280220889",
+            "id": "281953680",
             "eventId": "32225667",
             "sportId": "3",
             "leagueId": "88808",
@@ -349,108 +387,36 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13677",
+                "id": "6824",
                 "betOfferTypeId": 0,
                 "name": "Rushing Attempts O/U"
             },
-            "subscriptionKey": "events-50211636-34927646",
+            "subscriptionKey": "events-15772102-28052112",
             "sortOrder": 1,
             "tags": [
+                "SGP",
                 "YourBetEligible",
                 "Cashout",
                 "IgnoreSortOrderOnPush",
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225667|13677|2:122853",
-            "dynamicMetadata": {}
+            "correlatedId": "32225667|6824|2:122853",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 8
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballRushing"
+            }
         },
         {
-            "id": "280220945",
-            "eventId": "32225667",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Kareem Hunt Rushing Attempts O/U",
-            "subcategoryId": "9518",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13677",
-                "betOfferTypeId": 0,
-                "name": "Rushing Attempts O/U"
-            },
-            "subscriptionKey": "events-50211636-34927646",
-            "sortOrder": 2,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225667|13677|2:55856",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "280220875",
-            "eventId": "32225667",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Isiah Pacheco Rushing Attempts O/U",
-            "subcategoryId": "9518",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13677",
-                "betOfferTypeId": 0,
-                "name": "Rushing Attempts O/U"
-            },
-            "subscriptionKey": "events-50211636-34927646",
-            "sortOrder": 3,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225667|13677|2:155086",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "280220784",
-            "eventId": "32225667",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Patrick Mahomes Rushing Attempts O/U",
-            "subcategoryId": "9518",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13677",
-                "betOfferTypeId": 0,
-                "name": "Rushing Attempts O/U"
-            },
-            "subscriptionKey": "events-50211636-34927646",
-            "sortOrder": 4,
-            "tags": [
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225667|13677|2:54965",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "280220984",
+            "id": "281953626",
             "eventId": "32225667",
             "sportId": "3",
             "leagueId": "88808",
@@ -461,101 +427,247 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13677",
+                "id": "6824",
                 "betOfferTypeId": 0,
                 "name": "Rushing Attempts O/U"
             },
-            "subscriptionKey": "events-50211636-34927646",
-            "sortOrder": 5,
+            "subscriptionKey": "events-15772102-28052112",
+            "sortOrder": 2,
             "tags": [
+                "SGP",
                 "YourBetEligible",
                 "Cashout",
                 "IgnoreSortOrderOnPush",
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225667|13677|2:122715",
-            "dynamicMetadata": {}
+            "correlatedId": "32225667|6824|2:122715",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 6
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballRushing"
+            }
+        },
+        {
+            "id": "281953642",
+            "eventId": "32225667",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Kareem Hunt Rushing Attempts O/U",
+            "subcategoryId": "9518",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6824",
+                "betOfferTypeId": 0,
+                "name": "Rushing Attempts O/U"
+            },
+            "subscriptionKey": "events-15772102-28052112",
+            "sortOrder": 3,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225667|6824|2:55856",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 2
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballRushing"
+            }
+        },
+        {
+            "id": "281953624",
+            "eventId": "32225667",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Isiah Pacheco Rushing Attempts O/U",
+            "subcategoryId": "9518",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6824",
+                "betOfferTypeId": 0,
+                "name": "Rushing Attempts O/U"
+            },
+            "subscriptionKey": "events-15772102-28052112",
+            "sortOrder": 4,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225667|6824|2:155086",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 1
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballRushing"
+            }
+        },
+        {
+            "id": "281953625",
+            "eventId": "32225667",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bhayshul Tuten Rushing Attempts O/U",
+            "subcategoryId": "9518",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6824",
+                "betOfferTypeId": 0,
+                "name": "Rushing Attempts O/U"
+            },
+            "subscriptionKey": "events-15772102-28052112",
+            "sortOrder": 5,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225667|6824|2:173048",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 2
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballRushing"
+            }
+        },
+        {
+            "id": "281953666",
+            "eventId": "32225667",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Patrick Mahomes Rushing Attempts O/U",
+            "subcategoryId": "9518",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6824",
+                "betOfferTypeId": 0,
+                "name": "Rushing Attempts O/U"
+            },
+            "subscriptionKey": "events-15772102-28052112",
+            "sortOrder": 6,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225667|6824|2:54965",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 1
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballRushing"
+            }
+        },
+        {
+            "id": "281953691",
+            "eventId": "32225667",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Brashard Smith Rushing Attempts O/U",
+            "subcategoryId": "9518",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6824",
+                "betOfferTypeId": 0,
+                "name": "Rushing Attempts O/U"
+            },
+            "subscriptionKey": "events-15772102-28052112",
+            "sortOrder": 7,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225667|6824|2:138733",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 1
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballRushing"
+            }
         }
     ],
     "selections": [
         {
-            "id": "0QA280220784#355578057_13L88808Q1-1027069961Q20",
-            "marketId": "280220784",
+            "id": "0QA281953624#362860151_13L88808Q11000046296Q20",
+            "marketId": "281953624",
             "label": "Over",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "−140",
+                "decimal": "1.71",
+                "fractional": "5/7"
             },
-            "trueOdds": 1.90909091,
-            "points": 4.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "11644",
-                    "name": "Patrick Mahomes",
-                    "type": "Player",
-                    "seoIdentifier": "Patrick Mahomes",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 5.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 4500,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA280220784#355578058_13L88808Q1-1771157304Q20",
-            "marketId": "280220784",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−116",
-                "decimal": "1.86",
-                "fractional": "25/29"
-            },
-            "trueOdds": 1.86206897,
-            "points": 4.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "11644",
-                    "name": "Patrick Mahomes",
-                    "type": "Player",
-                    "seoIdentifier": "Patrick Mahomes",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 5.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 4502,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA280220875#357499551_13L88808Q1-1708186680Q20",
-            "marketId": "280220875",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−116",
-                "decimal": "1.86",
-                "fractional": "25/29"
-            },
-            "trueOdds": 1.86206897,
-            "points": 7.5,
+            "trueOdds": 1.71428572,
+            "points": 5.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -563,32 +675,29 @@
                     "name": "Isiah Pacheco",
                     "type": "Player",
                     "seoIdentifier": "Isiah Pacheco",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 8
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 7500,
+            "sortOrder": 5500,
             "tags": [
                 "MainPointLine",
+                "SGP",
                 "2ndFavorite"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA280220875#357499552_13L88808Q11112291099Q20",
-            "marketId": "280220875",
+            "id": "0QA281953624#362860153_13L88808Q11216229789Q20",
+            "marketId": "281953624",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
             },
-            "trueOdds": 1.90909091,
-            "points": 7.5,
+            "trueOdds": 2.1,
+            "points": 5.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -596,175 +705,36 @@
                     "name": "Isiah Pacheco",
                     "type": "Player",
                     "seoIdentifier": "Isiah Pacheco",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 8
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 7502,
+            "sortOrder": 5502,
             "tags": [
                 "MainPointLine",
+                "SGP",
                 "2ndFavorite"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA280220889#355576487_13L88808Q1727442926Q20",
-            "marketId": "280220889",
+            "id": "0QA281953625#362849675_13L88808Q11991040848Q20",
+            "marketId": "281953625",
             "label": "Over",
             "displayOdds": {
-                "american": "−126",
-                "decimal": "1.79",
-                "fractional": "50/63"
+                "american": "−188",
+                "decimal": "1.53",
+                "fractional": "25/47"
             },
-            "trueOdds": 1.7936508,
-            "points": 14.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "553669",
-                    "name": "Travis Etienne Jr.",
-                    "type": "Player",
-                    "seoIdentifier": "Travis Etienne Jr.",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 16.2
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 14500,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA280220889#355576595_13L88808Q11811966740Q20",
-            "marketId": "280220889",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−101",
-                "decimal": "1.99",
-                "fractional": "100/101"
-            },
-            "trueOdds": 1.99009901,
-            "points": 14.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "553669",
-                    "name": "Travis Etienne Jr.",
-                    "type": "Player",
-                    "seoIdentifier": "Travis Etienne Jr.",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 16.2
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 14502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA280220945#357499416_13L88808Q1-652517235Q20",
-            "marketId": "280220945",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−104",
-                "decimal": "1.96",
-                "fractional": "25/26"
-            },
-            "trueOdds": 1.96153847,
-            "points": 8.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "14583",
-                    "name": "Kareem Hunt",
-                    "type": "Player",
-                    "seoIdentifier": "Kareem Hunt",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 9
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 8500,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA280220945#357499418_13L88808Q11423213048Q20",
-            "marketId": "280220945",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−122",
-                "decimal": "1.81",
-                "fractional": "50/61"
-            },
-            "trueOdds": 1.81967214,
-            "points": 8.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "14583",
-                    "name": "Kareem Hunt",
-                    "type": "Player",
-                    "seoIdentifier": "Kareem Hunt",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 9
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 8502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA280220984#355576798_13L88808Q11908348221Q20",
-            "marketId": "280220984",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
+            "trueOdds": 1.5319149,
             "points": 3.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "542787",
-                    "name": "Trevor Lawrence",
+                    "id": "886072",
+                    "name": "Bhayshul Tuten",
                     "type": "Player",
-                    "seoIdentifier": "Trevor Lawrence",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 3.8
-                    },
+                    "seoIdentifier": "Bhayshul Tuten",
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
@@ -772,32 +742,29 @@
             "sortOrder": 3500,
             "tags": [
                 "MainPointLine",
+                "SGP",
                 "3rdFavorite"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA280220984#355576863_13L88808Q1-390376055Q20",
-            "marketId": "280220984",
+            "id": "0QA281953625#362849676_13L88808Q137124275Q20",
+            "marketId": "281953625",
             "label": "Under",
             "displayOdds": {
-                "american": "−116",
-                "decimal": "1.86",
-                "fractional": "25/29"
+                "american": "+145",
+                "decimal": "2.45",
+                "fractional": "29/20"
             },
-            "trueOdds": 1.86206897,
+            "trueOdds": 2.45,
             "points": 3.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "542787",
-                    "name": "Trevor Lawrence",
+                    "id": "886072",
+                    "name": "Bhayshul Tuten",
                     "type": "Player",
-                    "seoIdentifier": "Trevor Lawrence",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 3.8
-                    },
+                    "seoIdentifier": "Bhayshul Tuten",
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
@@ -805,13 +772,312 @@
             "sortOrder": 3502,
             "tags": [
                 "MainPointLine",
+                "SGP",
                 "3rdFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA281953626#362857840_13L88808Q11631861657Q20",
+            "marketId": "281953626",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−160",
+                "decimal": "1.62",
+                "fractional": "5/8"
+            },
+            "trueOdds": 1.625,
+            "points": 7.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "542787",
+                    "name": "Trevor Lawrence",
+                    "type": "Player",
+                    "seoIdentifier": "Trevor Lawrence",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 7500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA281953626#362857842_13L88808Q1-358689206Q20",
+            "marketId": "281953626",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+124",
+                "decimal": "2.24",
+                "fractional": "31/25"
+            },
+            "trueOdds": 2.24,
+            "points": 7.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "542787",
+                    "name": "Trevor Lawrence",
+                    "type": "Player",
+                    "seoIdentifier": "Trevor Lawrence",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 7502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA281953642#362847890_13L88808Q11631861657Q20",
+            "marketId": "281953642",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
+            },
+            "trueOdds": 2.05,
+            "points": 7.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "14583",
+                    "name": "Kareem Hunt",
+                    "type": "Player",
+                    "seoIdentifier": "Kareem Hunt",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 7500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA281953642#362847891_13L88808Q1-358689206Q20",
+            "marketId": "281953642",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
+            },
+            "trueOdds": 1.74074075,
+            "points": 7.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "14583",
+                    "name": "Kareem Hunt",
+                    "type": "Player",
+                    "seoIdentifier": "Kareem Hunt",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 7502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA281953666#362848032_13L88808Q11991040848Q20",
+            "marketId": "281953666",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−160",
+                "decimal": "1.62",
+                "fractional": "5/8"
+            },
+            "trueOdds": 1.625,
+            "points": 3.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "11644",
+                    "name": "Patrick Mahomes",
+                    "type": "Player",
+                    "seoIdentifier": "Patrick Mahomes",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 3500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA281953666#362848034_13L88808Q137124275Q20",
+            "marketId": "281953666",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+124",
+                "decimal": "2.24",
+                "fractional": "31/25"
+            },
+            "trueOdds": 2.24,
+            "points": 3.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "11644",
+                    "name": "Patrick Mahomes",
+                    "type": "Player",
+                    "seoIdentifier": "Patrick Mahomes",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 3502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA281953680#362849032_13L88808Q1457313614Q20",
+            "marketId": "281953680",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
+            },
+            "trueOdds": 1.74074075,
+            "points": 13.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "553669",
+                    "name": "Travis Etienne Jr.",
+                    "type": "Player",
+                    "seoIdentifier": "Travis Etienne Jr.",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 13500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA281953680#362849034_13L88808Q12014253711Q20",
+            "marketId": "281953680",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
+            },
+            "trueOdds": 2.05,
+            "points": 13.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "553669",
+                    "name": "Travis Etienne Jr.",
+                    "type": "Player",
+                    "seoIdentifier": "Travis Etienne Jr.",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 13502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA281953691#362848041_13L88808Q1-354933963Q20",
+            "marketId": "281953691",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−140",
+                "decimal": "1.71",
+                "fractional": "5/7"
+            },
+            "trueOdds": 1.71428572,
+            "points": 2.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "886067",
+                    "name": "Brashard Smith",
+                    "type": "Player",
+                    "seoIdentifier": "Brashard Smith",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 2500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA281953691#362848042_13L88808Q1-971352276Q20",
+            "marketId": "281953691",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
+            },
+            "trueOdds": 2.1,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "886067",
+                    "name": "Brashard Smith",
+                    "type": "Player",
+                    "seoIdentifier": "Brashard Smith",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine",
+                "SGP"
             ],
             "metadata": {}
         }
     ],
     "subscriptionPartials": {
-        "events-50211636-34927646": {
+        "events-15772102-28052112": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '9518')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '9518' AND tags/all(t: t ne 'SportcastBetBuilder')"

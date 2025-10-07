@@ -27,7 +27,7 @@
             "sportId": "3",
             "leagueId": "88808",
             "name": "KC Chiefs @ JAX Jaguars",
-            "startEventDate": "2025-10-07T00:15:00.0000000Z",
+            "startEventDate": "2025-10-07T00:15:52.0000000Z",
             "participants": [
                 {
                     "id": "18489",
@@ -35,7 +35,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "113",
                         "rosettaTeamId": "18489",
                         "rosettaTeamName": "Jaguars",
                         "shortName": "JAX",
@@ -52,7 +51,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "112",
                         "rosettaTeamId": "18379",
                         "rosettaTeamName": "Chiefs",
                         "shortName": "KC",
@@ -65,7 +63,45 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "Halftime",
+                "gameTime": 900
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "7",
+                    "awayScore": "14"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "0",
+                        "awayScore": "7",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "7",
+                        "awayScore": "7",
+                        "name": "Q2"
+                    },
+                    {
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "2",
+                    "currentDriveYardsToGo": "7",
+                    "currentGameState": "-1",
+                    "currentYardLine": "65",
+                    "inPossession": "home",
+                    "kickOffTeam1stHalf": "away",
+                    "kickOffTeam2ndHalf": "home"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -318,9 +354,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -333,12 +371,12 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 250561567,
-            "subscriptionKey": "events-38242264-32707831"
+            "subscriptionKey": "events-9618875-2316531"
         }
     ],
     "markets": [
         {
-            "id": "280221060",
+            "id": "281953619",
             "eventId": "32225667",
             "sportId": "3",
             "leagueId": "88808",
@@ -349,11 +387,11 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13689",
+                "id": "6826",
                 "betOfferTypeId": 0,
                 "name": "Kicking Points O/U"
             },
-            "subscriptionKey": "events-38242264-32707831",
+            "subscriptionKey": "events-9618875-2316531",
             "sortOrder": 1,
             "tags": [
                 "YourBetEligible",
@@ -362,11 +400,22 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225667|13689|2:60727",
-            "dynamicMetadata": {}
+            "correlatedId": "32225667|6826|2:60727",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 2
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballKicking"
+            }
         },
         {
-            "id": "280221005",
+            "id": "281953694",
             "eventId": "32225667",
             "sportId": "3",
             "leagueId": "88808",
@@ -377,11 +426,11 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13689",
+                "id": "6826",
                 "betOfferTypeId": 0,
                 "name": "Kicking Points O/U"
             },
-            "subscriptionKey": "events-38242264-32707831",
+            "subscriptionKey": "events-9618875-2316531",
             "sortOrder": 2,
             "tags": [
                 "YourBetEligible",
@@ -390,88 +439,33 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225667|13689|2:138438",
-            "dynamicMetadata": {}
+            "correlatedId": "32225667|6826|2:138438",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 1
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballKicking"
+            }
         }
     ],
     "selections": [
         {
-            "id": "0QA280221005#355577506_13L88808Q1-2071415105Q20",
-            "marketId": "280221005",
+            "id": "0QA281953619#362848029_13L88808Q1-176182762Q20",
+            "marketId": "281953619",
             "label": "Over",
             "displayOdds": {
-                "american": "−107",
-                "decimal": "1.93",
-                "fractional": "100/107"
+                "american": "+124",
+                "decimal": "2.24",
+                "fractional": "31/25"
             },
-            "trueOdds": 1.93457944,
-            "points": 7.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "787974",
-                    "name": "Cam Little",
-                    "type": "Player",
-                    "seoIdentifier": "Cam Little",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 9
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 7500,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA280221005#355577531_13L88808Q1862408369Q20",
-            "marketId": "280221005",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−119",
-                "decimal": "1.84",
-                "fractional": "100/119"
-            },
-            "trueOdds": 1.84033614,
-            "points": 7.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "787974",
-                    "name": "Cam Little",
-                    "type": "Player",
-                    "seoIdentifier": "Cam Little",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 9
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 7502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA280221060#357498398_13L88808Q1504507690Q20",
-            "marketId": "280221060",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+107",
-                "decimal": "2.07",
-                "fractional": "107/100"
-            },
-            "trueOdds": 2.07,
-            "points": 8.5,
+            "trueOdds": 2.24,
+            "points": 6.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -479,15 +473,11 @@
                     "name": "Harrison Butker",
                     "type": "Player",
                     "seoIdentifier": "Harrison Butker",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 9.2
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 8500,
+            "sortOrder": 6500,
             "tags": [
                 "MainPointLine",
                 "1stFavorite"
@@ -495,16 +485,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA280221060#357498399_13L88808Q1-73993080Q20",
-            "marketId": "280221060",
+            "id": "0QA281953619#362848030_13L88808Q1-1703546441Q20",
+            "marketId": "281953619",
             "label": "Under",
             "displayOdds": {
-                "american": "−137",
-                "decimal": "1.72",
-                "fractional": "100/137"
+                "american": "−160",
+                "decimal": "1.62",
+                "fractional": "5/8"
             },
-            "trueOdds": 1.72992701,
-            "points": 8.5,
+            "trueOdds": 1.625,
+            "points": 6.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -512,15 +502,69 @@
                     "name": "Harrison Butker",
                     "type": "Player",
                     "seoIdentifier": "Harrison Butker",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 9.2
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 8502,
+            "sortOrder": 6502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA281953694#362855787_13L88808Q1946728549Q20",
+            "marketId": "281953694",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−140",
+                "decimal": "1.71",
+                "fractional": "5/7"
+            },
+            "trueOdds": 1.71428572,
+            "points": 3.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "787974",
+                    "name": "Cam Little",
+                    "type": "Player",
+                    "seoIdentifier": "Cam Little",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 3500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA281953694#362855788_13L88808Q1742173411Q20",
+            "marketId": "281953694",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
+            },
+            "trueOdds": 2.1,
+            "points": 3.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "787974",
+                    "name": "Cam Little",
+                    "type": "Player",
+                    "seoIdentifier": "Cam Little",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 3502,
             "tags": [
                 "MainPointLine",
                 "1stFavorite"
@@ -529,7 +573,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-38242264-32707831": {
+        "events-9618875-2316531": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '17062')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '17062' AND tags/all(t: t ne 'SportcastBetBuilder')"

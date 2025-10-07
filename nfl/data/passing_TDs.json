@@ -27,7 +27,7 @@
             "sportId": "3",
             "leagueId": "88808",
             "name": "KC Chiefs @ JAX Jaguars",
-            "startEventDate": "2025-10-07T00:15:00.0000000Z",
+            "startEventDate": "2025-10-07T00:15:52.0000000Z",
             "participants": [
                 {
                     "id": "18489",
@@ -35,7 +35,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "113",
                         "rosettaTeamId": "18489",
                         "rosettaTeamName": "Jaguars",
                         "shortName": "JAX",
@@ -52,7 +51,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "112",
                         "rosettaTeamId": "18379",
                         "rosettaTeamName": "Chiefs",
                         "shortName": "KC",
@@ -65,7 +63,45 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "Halftime",
+                "gameTime": 900
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "7",
+                    "awayScore": "14"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "0",
+                        "awayScore": "7",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "7",
+                        "awayScore": "7",
+                        "name": "Q2"
+                    },
+                    {
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "2",
+                    "currentDriveYardsToGo": "7",
+                    "currentGameState": "-1",
+                    "currentYardLine": "65",
+                    "inPossession": "home",
+                    "kickOffTeam1stHalf": "away",
+                    "kickOffTeam2ndHalf": "home"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -318,9 +354,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -333,12 +371,12 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 250561567,
-            "subscriptionKey": "events-45660221-42284981"
+            "subscriptionKey": "events-33947340-24287422"
         }
     ],
     "markets": [
         {
-            "id": "280220240",
+            "id": "281953659",
             "eventId": "32225667",
             "sportId": "3",
             "leagueId": "88808",
@@ -349,25 +387,34 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "12809",
+                "id": "6809",
                 "betOfferTypeId": 0,
                 "name": "Passing Touchdowns O/U"
             },
-            "subscriptionKey": "events-45660221-42284981",
+            "subscriptionKey": "events-33947340-24287422",
             "sortOrder": 1,
             "tags": [
-                "SGP",
-                "YourBetEligible",
                 "Cashout",
                 "IgnoreSortOrderOnPush",
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225667|12809|2:54965",
-            "dynamicMetadata": {}
+            "correlatedId": "32225667|6809|2:54965",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 1
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         },
         {
-            "id": "280220239",
+            "id": "281953693",
             "eventId": "32225667",
             "sportId": "3",
             "leagueId": "88808",
@@ -378,82 +425,82 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "12809",
+                "id": "6809",
                 "betOfferTypeId": 0,
                 "name": "Passing Touchdowns O/U"
             },
-            "subscriptionKey": "events-45660221-42284981",
+            "subscriptionKey": "events-33947340-24287422",
             "sortOrder": 2,
             "tags": [
-                "SGP",
-                "YourBetEligible",
                 "Cashout",
                 "IgnoreSortOrderOnPush",
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225667|12809|2:122715",
-            "dynamicMetadata": {}
+            "correlatedId": "32225667|6809|2:122715",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 1
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         }
     ],
     "selections": [
         {
-            "id": "0QA280220239#355575024_13L88808Q1-23661583Q20",
-            "marketId": "280220239",
+            "id": "0QA281953659#362843463_13L88808Q1694519990Q20",
+            "marketId": "281953659",
             "label": "Over",
             "displayOdds": {
-                "american": "+121",
-                "decimal": "2.21",
-                "fractional": "121/100"
+                "american": "−175",
+                "decimal": "1.57",
+                "fractional": "4/7"
             },
-            "trueOdds": 2.21,
+            "trueOdds": 1.57142858,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "542787",
-                    "name": "Trevor Lawrence",
+                    "id": "11644",
+                    "name": "Patrick Mahomes",
                     "type": "Player",
-                    "seoIdentifier": "Trevor Lawrence",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1.2
-                    },
-                    "venueRole": "HomePlayer",
+                    "seoIdentifier": "Patrick Mahomes",
+                    "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
             "sortOrder": 1500,
             "tags": [
                 "MainPointLine",
-                "SGP",
                 "1stFavorite"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA280220239#355575026_13L88808Q1-1720642580Q20",
-            "marketId": "280220239",
+            "id": "0QA281953659#362843469_13L88808Q11866004086Q20",
+            "marketId": "281953659",
             "label": "Under",
             "displayOdds": {
-                "american": "−155",
-                "decimal": "1.64",
-                "fractional": "20/31"
+                "american": "+130",
+                "decimal": "2.30",
+                "fractional": "13/10"
             },
-            "trueOdds": 1.6451613,
+            "trueOdds": 2.3,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "542787",
-                    "name": "Trevor Lawrence",
+                    "id": "11644",
+                    "name": "Patrick Mahomes",
                     "type": "Player",
-                    "seoIdentifier": "Trevor Lawrence",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1.2
-                    },
-                    "venueRole": "HomePlayer",
+                    "seoIdentifier": "Patrick Mahomes",
+                    "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
@@ -465,62 +512,53 @@
             "metadata": {}
         },
         {
-            "id": "0QA280220240#355575070_13L88808Q1-23661583Q20",
-            "marketId": "280220240",
+            "id": "0QA281953693#362843394_13L88808Q1694519990Q20",
+            "marketId": "281953693",
             "label": "Over",
             "displayOdds": {
-                "american": "−157",
-                "decimal": "1.63",
-                "fractional": "100/157"
+                "american": "−175",
+                "decimal": "1.57",
+                "fractional": "4/7"
             },
-            "trueOdds": 1.63694268,
+            "trueOdds": 1.57142858,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "11644",
-                    "name": "Patrick Mahomes",
+                    "id": "542787",
+                    "name": "Trevor Lawrence",
                     "type": "Player",
-                    "seoIdentifier": "Patrick Mahomes",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1.8
-                    },
-                    "venueRole": "AwayPlayer",
+                    "seoIdentifier": "Trevor Lawrence",
+                    "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
             "sortOrder": 1500,
             "tags": [
                 "MainPointLine",
-                "SGP",
                 "1stFavorite"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA280220240#355575072_13L88808Q1-1720642580Q20",
-            "marketId": "280220240",
+            "id": "0QA281953693#362843395_13L88808Q11866004086Q20",
+            "marketId": "281953693",
             "label": "Under",
             "displayOdds": {
-                "american": "+123",
-                "decimal": "2.23",
-                "fractional": "123/100"
+                "american": "+125",
+                "decimal": "2.25",
+                "fractional": "5/4"
             },
-            "trueOdds": 2.23,
+            "trueOdds": 2.25,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "11644",
-                    "name": "Patrick Mahomes",
+                    "id": "542787",
+                    "name": "Trevor Lawrence",
                     "type": "Player",
-                    "seoIdentifier": "Patrick Mahomes",
-                    "statistic": {
-                        "prefix": "Avg",
-                        "value": 1.8
-                    },
-                    "venueRole": "AwayPlayer",
+                    "seoIdentifier": "Trevor Lawrence",
+                    "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
@@ -533,7 +571,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-45660221-42284981": {
+        "events-33947340-24287422": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '9525')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '9525' AND tags/all(t: t ne 'SportcastBetBuilder')"
