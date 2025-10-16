@@ -82,7 +82,9 @@
                         "rosettaTeamId": "29847",
                         "rosettaTeamName": "Brewers",
                         "shortName": "MIL",
-                        "teamColor": "#ffc52f"
+                        "startingPitcherPlayerId": "106518",
+                        "teamColor": "#ffc52f",
+                        "startingPitcherPlayerName": "Aaron Ashby"
                     },
                     "sortOrder": 1,
                     "seoIdentifier": "Brewers",
@@ -316,11 +318,11 @@
             "marketId": "283697949",
             "label": "Over",
             "displayOdds": {
-                "american": "−131",
-                "decimal": "1.76",
-                "fractional": "100/131"
+                "american": "−141",
+                "decimal": "1.70",
+                "fractional": "100/141"
             },
-            "trueOdds": 1.76335878,
+            "trueOdds": 1.70921986,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -351,11 +353,11 @@
             "marketId": "283925833",
             "label": "Over",
             "displayOdds": {
-                "american": "+122",
-                "decimal": "2.22",
-                "fractional": "61/50"
+                "american": "+124",
+                "decimal": "2.24",
+                "fractional": "31/25"
             },
-            "trueOdds": 2.22,
+            "trueOdds": 2.24,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -386,11 +388,11 @@
             "marketId": "283925852",
             "label": "Over",
             "displayOdds": {
-                "american": "+164",
-                "decimal": "2.64",
-                "fractional": "41/25"
+                "american": "+144",
+                "decimal": "2.44",
+                "fractional": "36/25"
             },
-            "trueOdds": 2.64,
+            "trueOdds": 2.44,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -421,11 +423,11 @@
             "marketId": "283697949",
             "label": "Under",
             "displayOdds": {
-                "american": "−101",
-                "decimal": "1.99",
-                "fractional": "100/101"
+                "american": "+106",
+                "decimal": "2.06",
+                "fractional": "53/50"
             },
-            "trueOdds": 1.99009901,
+            "trueOdds": 2.06,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -456,11 +458,11 @@
             "marketId": "283925833",
             "label": "Under",
             "displayOdds": {
-                "american": "−163",
-                "decimal": "1.61",
-                "fractional": "100/163"
+                "american": "−165",
+                "decimal": "1.60",
+                "fractional": "20/33"
             },
-            "trueOdds": 1.61349694,
+            "trueOdds": 1.60606061,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -491,11 +493,11 @@
             "marketId": "283925852",
             "label": "Under",
             "displayOdds": {
-                "american": "−221",
-                "decimal": "1.45",
-                "fractional": "100/221"
+                "american": "−193",
+                "decimal": "1.51",
+                "fractional": "100/193"
             },
-            "trueOdds": 1.45248869,
+            "trueOdds": 1.51813472,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -1130,6 +1132,22 @@
             "tags": []
         },
         {
+            "id": 15889,
+            "categoryId": 1650,
+            "name": "1st Hit",
+            "componentId": 204,
+            "sortOrder": 3,
+            "tags": []
+        },
+        {
+            "id": 15891,
+            "categoryId": 1650,
+            "name": "1st Double",
+            "componentId": 204,
+            "sortOrder": 6,
+            "tags": []
+        },
+        {
             "id": 15892,
             "categoryId": 1650,
             "name": "1st Home Run Type",
@@ -1148,14 +1166,28 @@
             "tags": []
         },
         {
-            "id": 15972,
+            "id": 15969,
             "categoryId": 1650,
-            "name": "1st Run - Team",
-            "componentId": 29,
-            "sortOrder": 0,
-            "tags": [
-                "SGP"
-            ]
+            "name": "1st Home Run",
+            "componentId": 8,
+            "sortOrder": 2,
+            "tags": []
+        },
+        {
+            "id": 15970,
+            "categoryId": 1650,
+            "name": "1st RBI",
+            "componentId": 204,
+            "sortOrder": 4,
+            "tags": []
+        },
+        {
+            "id": 15971,
+            "categoryId": 1650,
+            "name": "1st Run",
+            "componentId": 204,
+            "sortOrder": 5,
+            "tags": []
         },
         {
             "id": 15973,
@@ -1603,6 +1635,14 @@
             ]
         },
         {
+            "id": 17505,
+            "categoryId": 1650,
+            "name": "1st Batter to Strikeout",
+            "componentId": 204,
+            "sortOrder": 9,
+            "tags": []
+        },
+        {
             "id": 17763,
             "categoryId": 1782,
             "name": "Either Player Singles",
@@ -1911,6 +1951,16 @@
             ]
         },
         {
+            "id": 18726,
+            "categoryId": 743,
+            "name": "Stolen Bases",
+            "componentId": 331,
+            "sortOrder": 7,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 4519,
             "categoryId": 493,
             "name": "Game",
@@ -2057,6 +2107,16 @@
             "name": "Grand Slam",
             "componentId": 29,
             "sortOrder": 6476,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 15972,
+            "categoryId": 1650,
+            "name": "1st Run - Team",
+            "componentId": 29,
+            "sortOrder": 0,
             "tags": [
                 "SGP"
             ]
