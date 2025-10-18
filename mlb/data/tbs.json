@@ -4,7 +4,7 @@
             "id": "7",
             "seoIdentifier": "Baseball",
             "name": "Baseball",
-            "sortOrder": 60
+            "sortOrder": 61
         }
     ],
     "leagues": [
@@ -15,6 +15,7 @@
             "sortOrder": 4855,
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
                 "MatchTracker",
                 "PrePack",
                 "SGP",
@@ -81,7 +82,9 @@
                         "rosettaTeamId": "29815",
                         "rosettaTeamName": "Mariners",
                         "shortName": "SEA",
-                        "teamColor": "#0c2c56"
+                        "startingPitcherPlayerId": "106794",
+                        "teamColor": "#0c2c56",
+                        "startingPitcherPlayerName": "Logan Gilbert"
                     },
                     "sortOrder": 1,
                     "seoIdentifier": "Mariners",
@@ -119,6 +122,7 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
                 "MatchTracker",
                 "PrePack",
                 "SGP",
@@ -137,6 +141,58 @@
     ],
     "markets": [
         {
+            "id": "284357998",
+            "eventId": "32940131",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Vladimir Guerrero Jr. Total Bases O/U",
+            "subcategoryId": 6607,
+            "marketType": {
+                "id": "14031",
+                "betOfferTypeId": 0,
+                "name": "Total Bases O/U"
+            },
+            "subscriptionKey": "league-events-84240",
+            "sortOrder": 1,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32940131|14031|2:108706",
+            "blurbId": "91a5a7bc-6849-48db-9863-d33e6c88f2b1",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "284360141",
+            "eventId": "32940131",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "George Springer Total Bases O/U",
+            "subcategoryId": 6607,
+            "marketType": {
+                "id": "14031",
+                "betOfferTypeId": 0,
+                "name": "Total Bases O/U"
+            },
+            "subscriptionKey": "league-events-84240",
+            "sortOrder": 2,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32940131|14031|2:119153",
+            "blurbId": "91a5a7bc-6849-48db-9863-d33e6c88f2b1",
+            "dynamicMetadata": {}
+        },
+        {
             "id": "284359639",
             "eventId": "32940131",
             "sportId": "7",
@@ -149,7 +205,7 @@
                 "name": "Total Bases O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 1,
+            "sortOrder": 3,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -175,7 +231,7 @@
                 "name": "Total Bases O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 2,
+            "sortOrder": 4,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -187,19 +243,115 @@
             "correlatedId": "32940131|14031|2:151675",
             "blurbId": "91a5a7bc-6849-48db-9863-d33e6c88f2b1",
             "dynamicMetadata": {}
+        },
+        {
+            "id": "284358143",
+            "eventId": "32940131",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Alejandro Kirk Total Bases O/U",
+            "subcategoryId": 6607,
+            "marketType": {
+                "id": "14031",
+                "betOfferTypeId": 0,
+                "name": "Total Bases O/U"
+            },
+            "subscriptionKey": "league-events-84240",
+            "sortOrder": 5,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32940131|14031|2:106164",
+            "blurbId": "91a5a7bc-6849-48db-9863-d33e6c88f2b1",
+            "dynamicMetadata": {}
         }
     ],
     "selections": [
+        {
+            "id": "0QA284357998#372494647_13L84240Q1-44994196Q20",
+            "marketId": "284357998",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−119",
+                "decimal": "1.84",
+                "fractional": "100/119"
+            },
+            "trueOdds": 1.84033614,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "31987",
+                    "name": "Vladimir Guerrero Jr.",
+                    "type": "Player",
+                    "seoIdentifier": "Vladimir Guerrero Jr.",
+                    "statistic": {
+                        "prefix": "TB",
+                        "value": 309
+                    },
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA284358143#372494749_13L84240Q1-44994196Q20",
+            "marketId": "284358143",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+128",
+                "decimal": "2.28",
+                "fractional": "32/25"
+            },
+            "trueOdds": 2.28,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "459932",
+                    "name": "Alejandro Kirk",
+                    "type": "Player",
+                    "seoIdentifier": "Alejandro Kirk",
+                    "statistic": {
+                        "prefix": "TB",
+                        "value": 208
+                    },
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
         {
             "id": "0QA284358152#372495307_13L84240Q1-44994196Q20",
             "marketId": "284358152",
             "label": "Over",
             "displayOdds": {
-                "american": "+127",
-                "decimal": "2.27",
-                "fractional": "127/100"
+                "american": "+122",
+                "decimal": "2.22",
+                "fractional": "61/50"
             },
-            "trueOdds": 2.27,
+            "trueOdds": 2.22,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -230,11 +382,11 @@
             "marketId": "284359639",
             "label": "Over",
             "displayOdds": {
-                "american": "+123",
-                "decimal": "2.23",
-                "fractional": "123/100"
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
             },
-            "trueOdds": 2.23,
+            "trueOdds": 2.1,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -261,15 +413,120 @@
             "metadata": {}
         },
         {
+            "id": "0QA284360141#372500920_13L84240Q1-44994196Q20",
+            "marketId": "284360141",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+101",
+                "decimal": "2.01",
+                "fractional": "101/100"
+            },
+            "trueOdds": 2.01,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "31975",
+                    "name": "George Springer",
+                    "type": "Player",
+                    "seoIdentifier": "George Springer",
+                    "statistic": {
+                        "prefix": "TB",
+                        "value": 301
+                    },
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA284357998#372494662_13L84240Q146447124Q20",
+            "marketId": "284357998",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−111",
+                "decimal": "1.90",
+                "fractional": "100/111"
+            },
+            "trueOdds": 1.90090091,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "31987",
+                    "name": "Vladimir Guerrero Jr.",
+                    "type": "Player",
+                    "seoIdentifier": "Vladimir Guerrero Jr.",
+                    "statistic": {
+                        "prefix": "TB",
+                        "value": 309
+                    },
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA284358143#372494772_13L84240Q146447124Q20",
+            "marketId": "284358143",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−171",
+                "decimal": "1.58",
+                "fractional": "100/171"
+            },
+            "trueOdds": 1.58479533,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "459932",
+                    "name": "Alejandro Kirk",
+                    "type": "Player",
+                    "seoIdentifier": "Alejandro Kirk",
+                    "statistic": {
+                        "prefix": "TB",
+                        "value": 208
+                    },
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA284358152#372495336_13L84240Q146447124Q20",
             "marketId": "284358152",
             "label": "Under",
             "displayOdds": {
-                "american": "−169",
-                "decimal": "1.59",
-                "fractional": "100/169"
+                "american": "−163",
+                "decimal": "1.61",
+                "fractional": "100/163"
             },
-            "trueOdds": 1.59171598,
+            "trueOdds": 1.61349694,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -300,11 +557,11 @@
             "marketId": "284359639",
             "label": "Under",
             "displayOdds": {
-                "american": "−164",
-                "decimal": "1.60",
-                "fractional": "25/41"
+                "american": "−147",
+                "decimal": "1.68",
+                "fractional": "100/147"
             },
-            "trueOdds": 1.6097561,
+            "trueOdds": 1.68027211,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -326,6 +583,41 @@
                 "MainPointLine",
                 "SGP",
                 "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA284360141#372500921_13L84240Q146447124Q20",
+            "marketId": "284360141",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
+            },
+            "trueOdds": 1.74074075,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "31975",
+                    "name": "George Springer",
+                    "type": "Player",
+                    "seoIdentifier": "George Springer",
+                    "statistic": {
+                        "prefix": "TB",
+                        "value": 301
+                    },
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
             ],
             "main": true,
             "metadata": {}
@@ -381,6 +673,11 @@
             "id": 1250,
             "name": "H2H Player Props",
             "sortOrder": 12
+        },
+        {
+            "id": 988,
+            "name": "Plate Appearance",
+            "sortOrder": 13
         },
         {
             "id": 1650,
@@ -601,11 +898,61 @@
             "tags": []
         },
         {
+            "id": 11196,
+            "categoryId": 988,
+            "name": "Plate Appearance (Exact)",
+            "componentId": 29,
+            "sortOrder": 9562,
+            "tags": [
+                "Featured"
+            ]
+        },
+        {
+            "id": 11214,
+            "categoryId": 1024,
+            "name": "Hits",
+            "componentId": 29,
+            "sortOrder": 9806,
+            "tags": []
+        },
+        {
             "id": 11378,
             "categoryId": 1133,
             "name": "1st Inning",
             "componentId": 202,
             "sortOrder": 11021,
+            "tags": []
+        },
+        {
+            "id": 12855,
+            "categoryId": 1024,
+            "name": "Strikeouts",
+            "componentId": 29,
+            "sortOrder": 10989,
+            "tags": []
+        },
+        {
+            "id": 12856,
+            "categoryId": 1024,
+            "name": "Batters to the Plate",
+            "componentId": 29,
+            "sortOrder": 11178,
+            "tags": []
+        },
+        {
+            "id": 12857,
+            "categoryId": 1024,
+            "name": "Pitches Thrown",
+            "componentId": 29,
+            "sortOrder": 11004,
+            "tags": []
+        },
+        {
+            "id": 12858,
+            "categoryId": 1024,
+            "name": "Scoring",
+            "componentId": 29,
+            "sortOrder": 9891,
             "tags": []
         },
         {
@@ -817,6 +1164,22 @@
             ]
         },
         {
+            "id": 15973,
+            "categoryId": 1650,
+            "name": "1st Strikeout Thrown",
+            "componentId": 204,
+            "sortOrder": 8,
+            "tags": []
+        },
+        {
+            "id": 15974,
+            "categoryId": 1650,
+            "name": "1st Earned Run Allowed",
+            "componentId": 204,
+            "sortOrder": 10,
+            "tags": []
+        },
+        {
             "id": 16208,
             "categoryId": 1674,
             "name": "Alternate Total Runs",
@@ -842,6 +1205,64 @@
             "name": "Home Runs",
             "componentId": 29,
             "sortOrder": 1,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16217,
+            "categoryId": 1671,
+            "name": "Strikeouts",
+            "componentId": 29,
+            "sortOrder": 6,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16218,
+            "categoryId": 1671,
+            "name": "Total Bases",
+            "componentId": 29,
+            "sortOrder": 4,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16219,
+            "categoryId": 1671,
+            "name": "Walks",
+            "componentId": 29,
+            "sortOrder": 8,
+            "tags": []
+        },
+        {
+            "id": 16220,
+            "categoryId": 1671,
+            "name": "Singles",
+            "componentId": 29,
+            "sortOrder": 10,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16221,
+            "categoryId": 1671,
+            "name": "Doubles",
+            "componentId": 29,
+            "sortOrder": 12,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16222,
+            "categoryId": 1671,
+            "name": "Triples",
+            "componentId": 29,
+            "sortOrder": 14,
             "tags": [
                 "SGP"
             ]
@@ -1330,6 +1751,22 @@
             ]
         },
         {
+            "id": 17963,
+            "categoryId": 1250,
+            "name": "H2H Hits",
+            "componentId": 204,
+            "sortOrder": 1,
+            "tags": []
+        },
+        {
+            "id": 17964,
+            "categoryId": 1250,
+            "name": "H2H Total Bases",
+            "componentId": 204,
+            "sortOrder": 2,
+            "tags": []
+        },
+        {
             "id": 17967,
             "categoryId": 1250,
             "name": "H2H Home Runs",
@@ -1403,6 +1840,14 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 6618,
+            "categoryId": 493,
+            "name": "Listed Pitcher",
+            "componentId": 29,
+            "sortOrder": 6483,
+            "tags": []
         },
         {
             "id": 6686,

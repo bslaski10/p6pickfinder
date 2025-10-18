@@ -4,7 +4,7 @@
             "id": "7",
             "seoIdentifier": "Baseball",
             "name": "Baseball",
-            "sortOrder": 60
+            "sortOrder": 61
         }
     ],
     "leagues": [
@@ -15,6 +15,7 @@
             "sortOrder": 4855,
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
                 "MatchTracker",
                 "PrePack",
                 "SGP",
@@ -81,7 +82,9 @@
                         "rosettaTeamId": "29815",
                         "rosettaTeamName": "Mariners",
                         "shortName": "SEA",
-                        "teamColor": "#0c2c56"
+                        "startingPitcherPlayerId": "106794",
+                        "teamColor": "#0c2c56",
+                        "startingPitcherPlayerName": "Logan Gilbert"
                     },
                     "sortOrder": 1,
                     "seoIdentifier": "Mariners",
@@ -119,6 +122,7 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
                 "MatchTracker",
                 "PrePack",
                 "SGP",
@@ -137,6 +141,32 @@
     ],
     "markets": [
         {
+            "id": "284526604",
+            "eventId": "32940131",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Logan Gilbert Outs O/U",
+            "subcategoryId": 17413,
+            "marketType": {
+                "id": "14033",
+                "betOfferTypeId": 0,
+                "name": "Outs O/U"
+            },
+            "subscriptionKey": "league-events-84240",
+            "sortOrder": 1,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32940131|14033|2:106794",
+            "blurbId": "ddcb2af0-8dd5-4b45-bc97-2b7413c2cc2f",
+            "dynamicMetadata": {}
+        },
+        {
             "id": "284358227",
             "eventId": "32940131",
             "sportId": "7",
@@ -149,7 +179,7 @@
                 "name": "Outs O/U"
             },
             "subscriptionKey": "league-events-84240",
-            "sortOrder": 1,
+            "sortOrder": 2,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -233,6 +263,76 @@
             ],
             "main": true,
             "metadata": {}
+        },
+        {
+            "id": "0QA284526604#373245114_13L84240Q1-103249841Q20",
+            "marketId": "284526604",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−170",
+                "decimal": "1.58",
+                "fractional": "10/17"
+            },
+            "trueOdds": 1.5882353,
+            "points": 14.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "111248",
+                    "name": "Logan Gilbert",
+                    "type": "Player",
+                    "seoIdentifier": "Logan Gilbert",
+                    "statistic": {
+                        "prefix": "O",
+                        "value": 426
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 14500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA284526604#373245115_13L84240Q1-109153427Q20",
+            "marketId": "284526604",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+128",
+                "decimal": "2.28",
+                "fractional": "32/25"
+            },
+            "trueOdds": 2.28,
+            "points": 14.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "111248",
+                    "name": "Logan Gilbert",
+                    "type": "Player",
+                    "seoIdentifier": "Logan Gilbert",
+                    "statistic": {
+                        "prefix": "O",
+                        "value": 426
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 14502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
         }
     ],
     "categories": [
@@ -285,6 +385,11 @@
             "id": 1250,
             "name": "H2H Player Props",
             "sortOrder": 12
+        },
+        {
+            "id": 988,
+            "name": "Plate Appearance",
+            "sortOrder": 13
         },
         {
             "id": 1650,
@@ -505,11 +610,61 @@
             "tags": []
         },
         {
+            "id": 11196,
+            "categoryId": 988,
+            "name": "Plate Appearance (Exact)",
+            "componentId": 29,
+            "sortOrder": 9562,
+            "tags": [
+                "Featured"
+            ]
+        },
+        {
+            "id": 11214,
+            "categoryId": 1024,
+            "name": "Hits",
+            "componentId": 29,
+            "sortOrder": 9806,
+            "tags": []
+        },
+        {
             "id": 11378,
             "categoryId": 1133,
             "name": "1st Inning",
             "componentId": 202,
             "sortOrder": 11021,
+            "tags": []
+        },
+        {
+            "id": 12855,
+            "categoryId": 1024,
+            "name": "Strikeouts",
+            "componentId": 29,
+            "sortOrder": 10989,
+            "tags": []
+        },
+        {
+            "id": 12856,
+            "categoryId": 1024,
+            "name": "Batters to the Plate",
+            "componentId": 29,
+            "sortOrder": 11178,
+            "tags": []
+        },
+        {
+            "id": 12857,
+            "categoryId": 1024,
+            "name": "Pitches Thrown",
+            "componentId": 29,
+            "sortOrder": 11004,
+            "tags": []
+        },
+        {
+            "id": 12858,
+            "categoryId": 1024,
+            "name": "Scoring",
+            "componentId": 29,
+            "sortOrder": 9891,
             "tags": []
         },
         {
@@ -721,6 +876,22 @@
             ]
         },
         {
+            "id": 15973,
+            "categoryId": 1650,
+            "name": "1st Strikeout Thrown",
+            "componentId": 204,
+            "sortOrder": 8,
+            "tags": []
+        },
+        {
+            "id": 15974,
+            "categoryId": 1650,
+            "name": "1st Earned Run Allowed",
+            "componentId": 204,
+            "sortOrder": 10,
+            "tags": []
+        },
+        {
             "id": 16208,
             "categoryId": 1674,
             "name": "Alternate Total Runs",
@@ -746,6 +917,64 @@
             "name": "Home Runs",
             "componentId": 29,
             "sortOrder": 1,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16217,
+            "categoryId": 1671,
+            "name": "Strikeouts",
+            "componentId": 29,
+            "sortOrder": 6,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16218,
+            "categoryId": 1671,
+            "name": "Total Bases",
+            "componentId": 29,
+            "sortOrder": 4,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16219,
+            "categoryId": 1671,
+            "name": "Walks",
+            "componentId": 29,
+            "sortOrder": 8,
+            "tags": []
+        },
+        {
+            "id": 16220,
+            "categoryId": 1671,
+            "name": "Singles",
+            "componentId": 29,
+            "sortOrder": 10,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16221,
+            "categoryId": 1671,
+            "name": "Doubles",
+            "componentId": 29,
+            "sortOrder": 12,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16222,
+            "categoryId": 1671,
+            "name": "Triples",
+            "componentId": 29,
+            "sortOrder": 14,
             "tags": [
                 "SGP"
             ]
@@ -1234,6 +1463,22 @@
             ]
         },
         {
+            "id": 17963,
+            "categoryId": 1250,
+            "name": "H2H Hits",
+            "componentId": 204,
+            "sortOrder": 1,
+            "tags": []
+        },
+        {
+            "id": 17964,
+            "categoryId": 1250,
+            "name": "H2H Total Bases",
+            "componentId": 204,
+            "sortOrder": 2,
+            "tags": []
+        },
+        {
             "id": 17967,
             "categoryId": 1250,
             "name": "H2H Home Runs",
@@ -1307,6 +1552,14 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 6618,
+            "categoryId": 493,
+            "name": "Listed Pitcher",
+            "componentId": 29,
+            "sortOrder": 6483,
+            "tags": []
         },
         {
             "id": 6686,
