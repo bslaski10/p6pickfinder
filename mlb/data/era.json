@@ -4,7 +4,7 @@
             "id": "7",
             "seoIdentifier": "Baseball",
             "name": "Baseball",
-            "sortOrder": 62
+            "sortOrder": 61
         }
     ],
     "leagues": [
@@ -199,11 +199,11 @@
             "marketId": "285274061",
             "label": "Over",
             "displayOdds": {
-                "american": "−142",
-                "decimal": "1.70",
-                "fractional": "50/71"
+                "american": "−145",
+                "decimal": "1.68",
+                "fractional": "20/29"
             },
-            "trueOdds": 1.70422536,
+            "trueOdds": 1.68965518,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -230,15 +230,50 @@
             "metadata": {}
         },
         {
+            "id": "0QA285781274#378464934_13L84240Q1-2048456888Q20",
+            "marketId": "285781274",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−158",
+                "decimal": "1.63",
+                "fractional": "50/79"
+            },
+            "trueOdds": 1.6329114,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "806152",
+                    "name": "Trey Yesavage",
+                    "type": "Player",
+                    "seoIdentifier": "Trey Yesavage",
+                    "statistic": {
+                        "prefix": "ERA",
+                        "value": 3.72
+                    },
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA285274061#376433977_13L84240Q1506232Q20",
             "marketId": "285274061",
             "label": "Under",
             "displayOdds": {
-                "american": "+107",
-                "decimal": "2.07",
-                "fractional": "107/100"
+                "american": "+109",
+                "decimal": "2.09",
+                "fractional": "109/100"
             },
-            "trueOdds": 2.07,
+            "trueOdds": 2.09,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -265,51 +300,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA285781274#378529495_13L84240Q1-339433858Q20",
-            "marketId": "285781274",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+111",
-                "decimal": "2.11",
-                "fractional": "111/100"
-            },
-            "trueOdds": 2.11,
-            "points": 2.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "806152",
-                    "name": "Trey Yesavage",
-                    "type": "Player",
-                    "seoIdentifier": "Trey Yesavage",
-                    "statistic": {
-                        "prefix": "ERA",
-                        "value": 3.72
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 2500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA285781274#378529496_13L84240Q1-902439595Q20",
+            "id": "0QA285781274#378464935_13L84240Q1506232Q20",
             "marketId": "285781274",
             "label": "Under",
             "displayOdds": {
-                "american": "−147",
-                "decimal": "1.68",
-                "fractional": "100/147"
+                "american": "+119",
+                "decimal": "2.19",
+                "fractional": "119/100"
             },
-            "trueOdds": 1.68027211,
-            "points": 2.5,
+            "trueOdds": 2.19,
+            "points": 1.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -325,7 +325,7 @@
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 2502,
+            "sortOrder": 1502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -377,6 +377,14 @@
             "id": 1781,
             "name": "Combined Player Props",
             "sortOrder": 11,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 1250,
+            "name": "H2H Player Props",
+            "sortOrder": 12,
             "tags": [
                 "SGP"
             ]
@@ -628,14 +636,6 @@
             "tags": []
         },
         {
-            "id": 12857,
-            "categoryId": 1024,
-            "name": "Pitches Thrown",
-            "componentId": 29,
-            "sortOrder": 11004,
-            "tags": []
-        },
-        {
             "id": 12858,
             "categoryId": 1024,
             "name": "Scoring",
@@ -834,6 +834,22 @@
             "tags": []
         },
         {
+            "id": 15889,
+            "categoryId": 1650,
+            "name": "1st Hit",
+            "componentId": 204,
+            "sortOrder": 3,
+            "tags": []
+        },
+        {
+            "id": 15891,
+            "categoryId": 1650,
+            "name": "1st Double",
+            "componentId": 204,
+            "sortOrder": 6,
+            "tags": []
+        },
+        {
             "id": 15892,
             "categoryId": 1650,
             "name": "1st Home Run Type",
@@ -849,6 +865,30 @@
             "name": "1st Scoring Play",
             "componentId": 29,
             "sortOrder": 11,
+            "tags": []
+        },
+        {
+            "id": 15969,
+            "categoryId": 1650,
+            "name": "1st Home Run",
+            "componentId": 8,
+            "sortOrder": 2,
+            "tags": []
+        },
+        {
+            "id": 15970,
+            "categoryId": 1650,
+            "name": "1st RBI",
+            "componentId": 204,
+            "sortOrder": 4,
+            "tags": []
+        },
+        {
+            "id": 15971,
+            "categoryId": 1650,
+            "name": "1st Run",
+            "componentId": 204,
+            "sortOrder": 5,
             "tags": []
         },
         {
@@ -1307,6 +1347,14 @@
             ]
         },
         {
+            "id": 17505,
+            "categoryId": 1650,
+            "name": "1st Batter to Strikeout",
+            "componentId": 204,
+            "sortOrder": 9,
+            "tags": []
+        },
+        {
             "id": 17763,
             "categoryId": 1782,
             "name": "Either Player Singles",
@@ -1487,6 +1535,50 @@
             ]
         },
         {
+            "id": 17963,
+            "categoryId": 1250,
+            "name": "H2H Hits",
+            "componentId": 204,
+            "sortOrder": 1,
+            "tags": []
+        },
+        {
+            "id": 17964,
+            "categoryId": 1250,
+            "name": "H2H Total Bases",
+            "componentId": 204,
+            "sortOrder": 2,
+            "tags": []
+        },
+        {
+            "id": 17965,
+            "categoryId": 1250,
+            "name": "H2H Strikeouts",
+            "componentId": 204,
+            "sortOrder": 3,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17966,
+            "categoryId": 1250,
+            "name": "H2H Walks Allowed",
+            "componentId": 204,
+            "sortOrder": 4,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 17967,
+            "categoryId": 1250,
+            "name": "H2H Home Runs",
+            "componentId": 204,
+            "sortOrder": 0,
+            "tags": []
+        },
+        {
             "id": 18089,
             "categoryId": 724,
             "name": "Highest Scoring Period",
@@ -1509,6 +1601,66 @@
             "componentId": 29,
             "sortOrder": 2,
             "tags": []
+        },
+        {
+            "id": 18455,
+            "categoryId": 1031,
+            "name": "Either Pitcher Strikeouts",
+            "componentId": 29,
+            "sortOrder": 2,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 18457,
+            "categoryId": 1031,
+            "name": "Either Pitcher Hits Allowed",
+            "componentId": 29,
+            "sortOrder": 7,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 18458,
+            "categoryId": 1031,
+            "name": "Combined Strikeouts",
+            "componentId": 29,
+            "sortOrder": 3,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 18459,
+            "categoryId": 1031,
+            "name": "Combined Hits Allowed",
+            "componentId": 29,
+            "sortOrder": 8,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 18460,
+            "categoryId": 1031,
+            "name": "Combined Walks Allowed",
+            "componentId": 29,
+            "sortOrder": 12,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 18461,
+            "categoryId": 1031,
+            "name": "Either Pitcher Walks Allowed",
+            "componentId": 29,
+            "sortOrder": 11,
+            "tags": [
+                "SGP"
+            ]
         },
         {
             "id": 18726,
@@ -1570,6 +1722,14 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 6618,
+            "categoryId": 493,
+            "name": "Listed Pitcher",
+            "componentId": 29,
+            "sortOrder": 6483,
+            "tags": []
         },
         {
             "id": 6686,
