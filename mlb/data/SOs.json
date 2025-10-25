@@ -4,7 +4,7 @@
             "id": "7",
             "seoIdentifier": "Baseball",
             "name": "Baseball",
-            "sortOrder": 61
+            "sortOrder": 57
         }
     ],
     "leagues": [
@@ -46,12 +46,12 @@
     ],
     "events": [
         {
-            "id": "32990077",
+            "id": "32995247",
             "seoIdentifier": "LA Dodgers @ TOR Blue Jays",
             "sportId": "7",
             "leagueId": "84240",
             "name": "LA Dodgers @ TOR Blue Jays",
-            "startEventDate": "2025-10-25T00:00:00.0000000Z",
+            "startEventDate": "2025-10-26T00:00:00.0000000Z",
             "participants": [
                 {
                     "id": "29868",
@@ -63,9 +63,9 @@
                         "rosettaTeamId": "29868",
                         "rosettaTeamName": "Blue Jays",
                         "shortName": "TOR",
-                        "startingPitcherPlayerId": "222700",
+                        "startingPitcherPlayerId": "109288",
                         "teamColor": "#134a8e",
-                        "startingPitcherPlayerName": "Trey Yesavage"
+                        "startingPitcherPlayerName": "Kevin Gausman"
                     },
                     "sortOrder": 2,
                     "seoIdentifier": "Blue Jays",
@@ -82,9 +82,9 @@
                         "rosettaTeamId": "29931",
                         "rosettaTeamName": "Dodgers",
                         "shortName": "LAD",
-                        "startingPitcherPlayerId": "108144",
+                        "startingPitcherPlayerId": "178159",
                         "teamColor": "#005a9c",
-                        "startingPitcherPlayerName": "Blake Snell"
+                        "startingPitcherPlayerName": "Yoshinobu Yamamoto"
                     },
                     "sortOrder": 1,
                     "seoIdentifier": "Dodgers",
@@ -100,12 +100,12 @@
             "media": [
                 {
                     "providerName": "BetRadarStats",
-                    "providerEventId": "64158631",
+                    "providerEventId": "64158623",
                     "mediaType": "Stats"
                 },
                 {
                     "providerName": "BetRadarV3",
-                    "providerEventId": "64158631",
+                    "providerEventId": "64158623",
                     "mediaType": "MatchTracker",
                     "metadata": {
                         "betRadarCoverage": "3"
@@ -113,7 +113,7 @@
                 },
                 {
                     "providerName": "BetRadarV3",
-                    "providerEventId": "64158631",
+                    "providerEventId": "64158623",
                     "mediaType": "Scoreboard",
                     "metadata": {
                         "betRadarCoverage": "3"
@@ -135,17 +135,17 @@
                 "masterLeagueId": "233",
                 "numberOfParts": "9"
             },
-            "sortOrder": 253152077,
+            "sortOrder": 253296047,
             "subscriptionKey": "league-events-84240"
         }
     ],
     "markets": [
         {
-            "id": "285274058",
-            "eventId": "32990077",
+            "id": "286120337",
+            "eventId": "32995247",
             "sportId": "7",
             "leagueId": "84240",
-            "name": "Blake Snell Strikeouts Thrown O/U",
+            "name": "Yoshinobu Yamamoto Strikeouts Thrown O/U",
             "subcategoryId": 15221,
             "marketType": {
                 "id": "14018",
@@ -162,16 +162,16 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32990077|14018|2:108144",
+            "correlatedId": "32995247|14018|2:178159",
             "blurbId": "1e8a44cd-9634-465e-b149-c015c9dae341",
             "dynamicMetadata": {}
         },
         {
-            "id": "285781271",
-            "eventId": "32990077",
+            "id": "286120464",
+            "eventId": "32995247",
             "sportId": "7",
             "leagueId": "84240",
-            "name": "Trey Yesavage Strikeouts Thrown O/U",
+            "name": "Kevin Gausman Strikeouts Thrown O/U",
             "subcategoryId": 15221,
             "marketType": {
                 "id": "14018",
@@ -188,33 +188,68 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32990077|14018|2:222700",
+            "correlatedId": "32995247|14018|2:109288",
             "blurbId": "1e8a44cd-9634-465e-b149-c015c9dae341",
             "dynamicMetadata": {}
         }
     ],
     "selections": [
         {
-            "id": "0QA285781271#378464928_13L84240Q1-2091356037Q20",
-            "marketId": "285781271",
+            "id": "0QA286120337#380164355_13L84240Q1-2091356037Q20",
+            "marketId": "286120337",
             "label": "Over",
             "displayOdds": {
-                "american": "+108",
-                "decimal": "2.08",
-                "fractional": "27/25"
+                "american": "−142",
+                "decimal": "1.70",
+                "fractional": "50/71"
             },
-            "trueOdds": 2.08,
+            "trueOdds": 1.70422536,
             "points": 5.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "806152",
-                    "name": "Trey Yesavage",
+                    "id": "495129",
+                    "name": "Yoshinobu Yamamoto",
                     "type": "Player",
-                    "seoIdentifier": "Trey Yesavage",
+                    "seoIdentifier": "Yoshinobu Yamamoto",
                     "statistic": {
                         "prefix": "K",
-                        "value": 38
+                        "value": 219
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 5500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA286120464#380062877_13L84240Q1-2091356037Q20",
+            "marketId": "286120464",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+115",
+                "decimal": "2.15",
+                "fractional": "23/20"
+            },
+            "trueOdds": 2.15,
+            "points": 5.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "32428",
+                    "name": "Kevin Gausman",
+                    "type": "Player",
+                    "seoIdentifier": "Kevin Gausman",
+                    "statistic": {
+                        "prefix": "K",
+                        "value": 201
                     },
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
@@ -230,28 +265,28 @@
             "metadata": {}
         },
         {
-            "id": "0QA285781271#378464929_13L84240Q1848900156Q20",
-            "marketId": "285781271",
+            "id": "0QA286120337#380164356_13L84240Q1848900156Q20",
+            "marketId": "286120337",
             "label": "Under",
             "displayOdds": {
-                "american": "−138",
-                "decimal": "1.72",
-                "fractional": "50/69"
+                "american": "+112",
+                "decimal": "2.12",
+                "fractional": "28/25"
             },
-            "trueOdds": 1.72463769,
+            "trueOdds": 2.12,
             "points": 5.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "806152",
-                    "name": "Trey Yesavage",
+                    "id": "495129",
+                    "name": "Yoshinobu Yamamoto",
                     "type": "Player",
-                    "seoIdentifier": "Trey Yesavage",
+                    "seoIdentifier": "Yoshinobu Yamamoto",
                     "statistic": {
                         "prefix": "K",
-                        "value": 38
+                        "value": 219
                     },
-                    "venueRole": "HomePlayer",
+                    "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
@@ -265,67 +300,32 @@
             "metadata": {}
         },
         {
-            "id": "0QA285274058#376433968_13L84240Q1504748706Q20",
-            "marketId": "285274058",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−103",
-                "decimal": "1.97",
-                "fractional": "100/103"
-            },
-            "trueOdds": 1.97087379,
-            "points": 6.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "31694",
-                    "name": "Blake Snell",
-                    "type": "Player",
-                    "seoIdentifier": "Blake Snell",
-                    "statistic": {
-                        "prefix": "K",
-                        "value": 100
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 6500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA285274058#376433969_13L84240Q1-46364625Q20",
-            "marketId": "285274058",
+            "id": "0QA286120464#380062959_13L84240Q1848900156Q20",
+            "marketId": "286120464",
             "label": "Under",
             "displayOdds": {
-                "american": "−123",
-                "decimal": "1.81",
-                "fractional": "100/123"
+                "american": "−146",
+                "decimal": "1.68",
+                "fractional": "50/73"
             },
-            "trueOdds": 1.81300814,
-            "points": 6.5,
+            "trueOdds": 1.68493151,
+            "points": 5.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "31694",
-                    "name": "Blake Snell",
+                    "id": "32428",
+                    "name": "Kevin Gausman",
                     "type": "Player",
-                    "seoIdentifier": "Blake Snell",
+                    "seoIdentifier": "Kevin Gausman",
                     "statistic": {
                         "prefix": "K",
-                        "value": 100
+                        "value": 201
                     },
-                    "venueRole": "AwayPlayer",
+                    "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 6502,
+            "sortOrder": 5502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -636,6 +636,14 @@
             "tags": []
         },
         {
+            "id": 12857,
+            "categoryId": 1024,
+            "name": "Pitches Thrown",
+            "componentId": 29,
+            "sortOrder": 11004,
+            "tags": []
+        },
+        {
             "id": 12858,
             "categoryId": 1024,
             "name": "Scoring",
@@ -834,22 +842,6 @@
             "tags": []
         },
         {
-            "id": 15889,
-            "categoryId": 1650,
-            "name": "1st Hit",
-            "componentId": 204,
-            "sortOrder": 3,
-            "tags": []
-        },
-        {
-            "id": 15891,
-            "categoryId": 1650,
-            "name": "1st Double",
-            "componentId": 204,
-            "sortOrder": 6,
-            "tags": []
-        },
-        {
             "id": 15892,
             "categoryId": 1650,
             "name": "1st Home Run Type",
@@ -865,30 +857,6 @@
             "name": "1st Scoring Play",
             "componentId": 29,
             "sortOrder": 11,
-            "tags": []
-        },
-        {
-            "id": 15969,
-            "categoryId": 1650,
-            "name": "1st Home Run",
-            "componentId": 8,
-            "sortOrder": 2,
-            "tags": []
-        },
-        {
-            "id": 15970,
-            "categoryId": 1650,
-            "name": "1st RBI",
-            "componentId": 204,
-            "sortOrder": 4,
-            "tags": []
-        },
-        {
-            "id": 15971,
-            "categoryId": 1650,
-            "name": "1st Run",
-            "componentId": 204,
-            "sortOrder": 5,
             "tags": []
         },
         {
@@ -1347,29 +1315,11 @@
             ]
         },
         {
-            "id": 17505,
-            "categoryId": 1650,
-            "name": "1st Batter to Strikeout",
-            "componentId": 204,
-            "sortOrder": 9,
-            "tags": []
-        },
-        {
             "id": 17763,
             "categoryId": 1782,
             "name": "Either Player Singles",
             "componentId": 29,
             "sortOrder": 17720,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17764,
-            "categoryId": 1782,
-            "name": "Either Player Stolen Bases",
-            "componentId": 29,
-            "sortOrder": 17721,
             "tags": [
                 "SGP"
             ]
@@ -1440,16 +1390,6 @@
             "name": "Combined RBIs",
             "componentId": 29,
             "sortOrder": 17728,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 17772,
-            "categoryId": 1781,
-            "name": "Combined Stolen Bases",
-            "componentId": 29,
-            "sortOrder": 17729,
             "tags": [
                 "SGP"
             ]
@@ -1880,14 +1820,6 @@
             "tags": []
         },
         {
-            "id": 16301,
-            "categoryId": 1196,
-            "name": "Game / Series Double",
-            "componentId": 29,
-            "sortOrder": 16256,
-            "tags": []
-        },
-        {
             "id": 16320,
             "categoryId": 1196,
             "name": "Series Correct Score",
@@ -1933,14 +1865,6 @@
             "name": "Series HRs",
             "componentId": 29,
             "sortOrder": 18636,
-            "tags": []
-        },
-        {
-            "id": 16303,
-            "categoryId": 1196,
-            "name": "Series Props",
-            "componentId": 29,
-            "sortOrder": 16259,
             "tags": []
         },
         {
