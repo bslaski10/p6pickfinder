@@ -27,7 +27,7 @@
             "sportId": "3",
             "leagueId": "88808",
             "name": "WAS Commanders @ KC Chiefs",
-            "startEventDate": "2025-10-28T00:15:00.0000000Z",
+            "startEventDate": "2025-10-28T00:16:03.0000000Z",
             "participants": [
                 {
                     "id": "18379",
@@ -35,7 +35,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "149",
                         "rosettaTeamId": "18379",
                         "rosettaTeamName": "Chiefs",
                         "shortName": "KC",
@@ -52,7 +51,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "148",
                         "rosettaTeamId": "18480",
                         "rosettaTeamName": "Commanders",
                         "shortName": "WAS",
@@ -65,7 +63,45 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "Halftime",
+                "gameTime": 900
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "7",
+                    "awayScore": "7"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "0",
+                        "awayScore": "0",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "7",
+                        "awayScore": "7",
+                        "name": "Q2"
+                    },
+                    {
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "3",
+                    "currentDriveYardsToGo": "10",
+                    "currentGameState": "-1",
+                    "currentYardLine": "65",
+                    "inPossession": "away",
+                    "kickOffTeam1stHalf": "home",
+                    "kickOffTeam2ndHalf": "away"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -318,9 +354,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -332,8 +370,8 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 253585592,
-            "subscriptionKey": "events-12641597-44349207"
+            "sortOrder": 253585692,
+            "subscriptionKey": "events-757898-29243048"
         },
         {
             "id": "32225777",
@@ -424,7 +462,7 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 254017577,
-            "subscriptionKey": "events-12641597-44349207"
+            "subscriptionKey": "events-757898-29243048"
         }
     ],
     "markets": [
@@ -444,7 +482,7 @@
                 "betOfferTypeId": 0,
                 "name": "Rushing Yards O/U"
             },
-            "subscriptionKey": "events-12641597-44349207",
+            "subscriptionKey": "events-757898-29243048",
             "sortOrder": 1,
             "tags": [
                 "SGP",
@@ -473,7 +511,7 @@
                 "betOfferTypeId": 0,
                 "name": "Rushing Yards O/U"
             },
-            "subscriptionKey": "events-12641597-44349207",
+            "subscriptionKey": "events-757898-29243048",
             "sortOrder": 2,
             "tags": [
                 "SGP",
@@ -487,7 +525,47 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "284764076",
+            "id": "286820251",
+            "eventId": "32225692",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Patrick Mahomes Rushing Yards O/U",
+            "subcategoryId": "9514",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6820",
+                "betOfferTypeId": 0,
+                "name": "Rushing Yards O/U"
+            },
+            "subscriptionKey": "events-757898-29243048",
+            "sortOrder": 3,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225692|6820|2:54965",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 31
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballRushing"
+            }
+        },
+        {
+            "id": "286820281",
             "eventId": "32225692",
             "sportId": "3",
             "leagueId": "88808",
@@ -498,12 +576,12 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13675",
+                "id": "6820",
                 "betOfferTypeId": 0,
                 "name": "Rushing Yards O/U"
             },
-            "subscriptionKey": "events-12641597-44349207",
-            "sortOrder": 3,
+            "subscriptionKey": "events-757898-29243048",
+            "sortOrder": 4,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -512,11 +590,62 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225692|13675|2:155086",
-            "dynamicMetadata": {}
+            "correlatedId": "32225692|6820|2:155086",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 17
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballRushing"
+            }
         },
         {
-            "id": "284764219",
+            "id": "286820261",
+            "eventId": "32225692",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Marcus Mariota Rushing Yards O/U",
+            "subcategoryId": "9514",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6820",
+                "betOfferTypeId": 0,
+                "name": "Rushing Yards O/U"
+            },
+            "subscriptionKey": "events-757898-29243048",
+            "sortOrder": 5,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225692|6820|2:55077",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 22
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballRushing"
+            }
+        },
+        {
+            "id": "286820312",
             "eventId": "32225692",
             "sportId": "3",
             "leagueId": "88808",
@@ -527,12 +656,12 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13675",
+                "id": "6820",
                 "betOfferTypeId": 0,
                 "name": "Rushing Yards O/U"
             },
-            "subscriptionKey": "events-12641597-44349207",
-            "sortOrder": 4,
+            "subscriptionKey": "events-757898-29243048",
+            "sortOrder": 6,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -541,8 +670,19 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225692|13675|2:166610",
-            "dynamicMetadata": {}
+            "correlatedId": "32225692|6820|2:166610",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 18
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballRushing"
+            }
         },
         {
             "id": "286526925",
@@ -560,8 +700,8 @@
                 "betOfferTypeId": 0,
                 "name": "Rushing Yards O/U"
             },
-            "subscriptionKey": "events-12641597-44349207",
-            "sortOrder": 5,
+            "subscriptionKey": "events-757898-29243048",
+            "sortOrder": 7,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -574,36 +714,7 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "284764034",
-            "eventId": "32225692",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Marcus Mariota Rushing Yards O/U",
-            "subcategoryId": "9514",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13675",
-                "betOfferTypeId": 0,
-                "name": "Rushing Yards O/U"
-            },
-            "subscriptionKey": "events-12641597-44349207",
-            "sortOrder": 6,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225692|13675|2:55077",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "284763981",
+            "id": "286820264",
             "eventId": "32225692",
             "sportId": "3",
             "leagueId": "88808",
@@ -614,40 +725,11 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13675",
+                "id": "6820",
                 "betOfferTypeId": 0,
                 "name": "Rushing Yards O/U"
             },
-            "subscriptionKey": "events-12641597-44349207",
-            "sortOrder": 7,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225692|13675|2:55856",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "284764182",
-            "eventId": "32225692",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Patrick Mahomes Rushing Yards O/U",
-            "subcategoryId": "9514",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13675",
-                "betOfferTypeId": 0,
-                "name": "Rushing Yards O/U"
-            },
-            "subscriptionKey": "events-12641597-44349207",
+            "subscriptionKey": "events-757898-29243048",
             "sortOrder": 8,
             "tags": [
                 "SGP",
@@ -657,8 +739,19 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225692|13675|2:54965",
-            "dynamicMetadata": {}
+            "correlatedId": "32225692|6820|2:55856",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 11
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballRushing"
+            }
         },
         {
             "id": "286527121",
@@ -676,7 +769,7 @@
                 "betOfferTypeId": 0,
                 "name": "Rushing Yards O/U"
             },
-            "subscriptionKey": "events-12641597-44349207",
+            "subscriptionKey": "events-757898-29243048",
             "sortOrder": 9,
             "tags": [
                 "SGP",
@@ -690,62 +783,43 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "284763998",
+            "id": "286820307",
             "eventId": "32225692",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "Deebo Samuel Rushing Yards O/U",
+            "name": "Brashard Smith Rushing Yards O/U",
             "subcategoryId": "9514",
             "componentMapping": {
                 "primary": 8,
                 "fallback": 0
             },
             "marketType": {
-                "id": "13675",
+                "id": "6820",
                 "betOfferTypeId": 0,
                 "name": "Rushing Yards O/U"
             },
-            "subscriptionKey": "events-12641597-44349207",
+            "subscriptionKey": "events-757898-29243048",
             "sortOrder": 10,
             "tags": [
-                "SGP",
                 "YourBetEligible",
                 "Cashout",
                 "IgnoreSortOrderOnPush",
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225692|13675|2:55061",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "284764293",
-            "eventId": "32225692",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Xavier Worthy Rushing Yards O/U",
-            "subcategoryId": "9514",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
+            "correlatedId": "32225692|6820|2:138733",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 4
+                    }
+                ]
             },
-            "marketType": {
-                "id": "13675",
-                "betOfferTypeId": 0,
-                "name": "Rushing Yards O/U"
-            },
-            "subscriptionKey": "events-12641597-44349207",
-            "sortOrder": 11,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225692|13675|2:126006",
-            "dynamicMetadata": {}
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballRushing"
+            }
         },
         {
             "id": "286527255",
@@ -763,8 +837,8 @@
                 "betOfferTypeId": 0,
                 "name": "Rushing Yards O/U"
             },
-            "subscriptionKey": "events-12641597-44349207",
-            "sortOrder": 12,
+            "subscriptionKey": "events-757898-29243048",
+            "sortOrder": 11,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -779,142 +853,8 @@
     ],
     "selections": [
         {
-            "id": "0QA284763981#377284048_13L88808Q1224673408Q20",
-            "marketId": "284763981",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−117",
-                "decimal": "1.85",
-                "fractional": "100/117"
-            },
-            "trueOdds": 1.85470086,
-            "points": 21.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "14583",
-                    "name": "Kareem Hunt",
-                    "type": "Player",
-                    "seoIdentifier": "Kareem Hunt",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 29.3
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 21500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "2ndFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284763981#377284050_13L88808Q1-119150529Q20",
-            "marketId": "284763981",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−107",
-                "decimal": "1.93",
-                "fractional": "100/107"
-            },
-            "trueOdds": 1.93457944,
-            "points": 21.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "14583",
-                    "name": "Kareem Hunt",
-                    "type": "Player",
-                    "seoIdentifier": "Kareem Hunt",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 29.3
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 21502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "2ndFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284763998#380304463_13L88808Q11686403854Q20",
-            "marketId": "284763998",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−118",
-                "decimal": "1.84",
-                "fractional": "50/59"
-            },
-            "trueOdds": 1.84745763,
-            "points": 5.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "19664",
-                    "name": "Deebo Samuel",
-                    "type": "Player",
-                    "seoIdentifier": "Deebo Samuel Sr.",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 7.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 5500,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284763998#380304464_13L88808Q1-2028794858Q20",
-            "marketId": "284763998",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−107",
-                "decimal": "1.93",
-                "fractional": "100/107"
-            },
-            "trueOdds": 1.93457944,
-            "points": 5.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "19664",
-                    "name": "Deebo Samuel",
-                    "type": "Player",
-                    "seoIdentifier": "Deebo Samuel Sr.",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 7.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 5502,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284764034#378567090_13L88808Q1-1134387392Q20",
-            "marketId": "284764034",
+            "id": "0QA286820251#383488603_13L88808Q1472026780Q20",
+            "marketId": "286820251",
             "label": "Over",
             "displayOdds": {
                 "american": "−115",
@@ -922,91 +862,19 @@
                 "fractional": "20/23"
             },
             "trueOdds": 1.86956522,
-            "points": 28.5,
+            "points": 43.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "19960",
-                    "name": "Marcus Mariota",
+                    "id": "11644",
+                    "name": "Patrick Mahomes",
                     "type": "Player",
-                    "seoIdentifier": "Marcus Mariota",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 31.3
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 28500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "2ndFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284764034#378567091_13L88808Q1-1052011453Q20",
-            "marketId": "284764034",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−109",
-                "decimal": "1.91",
-                "fractional": "100/109"
-            },
-            "trueOdds": 1.9174312,
-            "points": 28.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "19960",
-                    "name": "Marcus Mariota",
-                    "type": "Player",
-                    "seoIdentifier": "Marcus Mariota",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 31.3
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 28502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "2ndFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284764076#377261112_13L88808Q1-839293709Q20",
-            "marketId": "284764076",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−111",
-                "decimal": "1.90",
-                "fractional": "100/111"
-            },
-            "trueOdds": 1.90090091,
-            "points": 51.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "641144",
-                    "name": "Isiah Pacheco",
-                    "type": "Player",
-                    "seoIdentifier": "Isiah Pacheco",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 38.7
-                    },
+                    "seoIdentifier": "Patrick Mahomes",
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 51500,
+            "sortOrder": 43500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -1015,320 +883,410 @@
             "metadata": {}
         },
         {
-            "id": "0QA284764076#377261113_13L88808Q130194624Q20",
-            "marketId": "284764076",
+            "id": "0QA286820251#383488607_13L88808Q1439713103Q20",
+            "marketId": "286820251",
             "label": "Under",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 43.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "11644",
+                    "name": "Patrick Mahomes",
+                    "type": "Player",
+                    "seoIdentifier": "Patrick Mahomes",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 43502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820261#383405802_13L88808Q1-1660513855Q20",
+            "marketId": "286820261",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 39.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19960",
+                    "name": "Marcus Mariota",
+                    "type": "Player",
+                    "seoIdentifier": "Marcus Mariota",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 39500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820261#383405803_13L88808Q1680536138Q20",
+            "marketId": "286820261",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 39.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19960",
+                    "name": "Marcus Mariota",
+                    "type": "Player",
+                    "seoIdentifier": "Marcus Mariota",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 39502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820264#383397261_13L88808Q1-1805501271Q20",
+            "marketId": "286820264",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 22.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "14583",
+                    "name": "Kareem Hunt",
+                    "type": "Player",
+                    "seoIdentifier": "Kareem Hunt",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 22500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820264#383397264_13L88808Q1-1497790313Q20",
+            "marketId": "286820264",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 22.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "14583",
+                    "name": "Kareem Hunt",
+                    "type": "Player",
+                    "seoIdentifier": "Kareem Hunt",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 22502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820281#383399287_13L88808Q1-445020392Q20",
+            "marketId": "286820281",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 41.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "641144",
+                    "name": "Isiah Pacheco",
+                    "type": "Player",
+                    "seoIdentifier": "Isiah Pacheco",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 41500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820281#383399288_13L88808Q1-1710125116Q20",
+            "marketId": "286820281",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 41.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "641144",
+                    "name": "Isiah Pacheco",
+                    "type": "Player",
+                    "seoIdentifier": "Isiah Pacheco",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 41502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820307#383383679_13L88808Q11356703071Q20",
+            "marketId": "286820307",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 7.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "886067",
+                    "name": "Brashard Smith",
+                    "type": "Player",
+                    "seoIdentifier": "Brashard Smith",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 7500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820307#383383681_13L88808Q11142884077Q20",
+            "marketId": "286820307",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 7.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "886067",
+                    "name": "Brashard Smith",
+                    "type": "Player",
+                    "seoIdentifier": "Brashard Smith",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 7502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820312#383465714_13L88808Q1-1039975939Q20",
+            "marketId": "286820312",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 38.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "886187",
+                    "name": "Jacory Croskey-Merritt",
+                    "type": "Player",
+                    "seoIdentifier": "Jacory Croskey-Merritt",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 38500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820312#383465716_13L88808Q12031799544Q20",
+            "marketId": "286820312",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 38.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "886187",
+                    "name": "Jacory Croskey-Merritt",
+                    "type": "Player",
+                    "seoIdentifier": "Jacory Croskey-Merritt",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 38502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286526925#383108884_13L88808Q1659496718Q20",
+            "marketId": "286526925",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 36.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "17173",
+                    "name": "Lamar Jackson",
+                    "type": "Player",
+                    "seoIdentifier": "Lamar Jackson",
+                    "statistic": {
+                        "prefix": "YDS/G",
+                        "value": 41.5
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 36500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286526925#383108887_13L88808Q11326323497Q20",
+            "marketId": "286526925",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−114",
+                "decimal": "1.87",
+                "fractional": "50/57"
+            },
+            "trueOdds": 1.87719299,
+            "points": 36.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "17173",
+                    "name": "Lamar Jackson",
+                    "type": "Player",
+                    "seoIdentifier": "Lamar Jackson",
+                    "statistic": {
+                        "prefix": "YDS/G",
+                        "value": 41.5
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 36502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286526996#383474047_13L88808Q1-1792686024Q20",
+            "marketId": "286526996",
+            "label": "Over",
             "displayOdds": {
                 "american": "−113",
                 "decimal": "1.88",
                 "fractional": "100/113"
             },
             "trueOdds": 1.88495576,
-            "points": 51.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "641144",
-                    "name": "Isiah Pacheco",
-                    "type": "Player",
-                    "seoIdentifier": "Isiah Pacheco",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 38.7
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 51502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284764182#377251987_13L88808Q1224673408Q20",
-            "marketId": "284764182",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−112",
-                "decimal": "1.89",
-                "fractional": "25/28"
-            },
-            "trueOdds": 1.89285715,
-            "points": 21.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "11644",
-                    "name": "Patrick Mahomes",
-                    "type": "Player",
-                    "seoIdentifier": "Patrick Mahomes",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 35.7
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 21500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "3rdFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284764182#377251988_13L88808Q1-119150529Q20",
-            "marketId": "284764182",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−112",
-                "decimal": "1.89",
-                "fractional": "25/28"
-            },
-            "trueOdds": 1.89285715,
-            "points": 21.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "11644",
-                    "name": "Patrick Mahomes",
-                    "type": "Player",
-                    "seoIdentifier": "Patrick Mahomes",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 35.7
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 21502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "3rdFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284764219#378462875_13L88808Q1-197017626Q20",
-            "marketId": "284764219",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−112",
-                "decimal": "1.89",
-                "fractional": "25/28"
-            },
-            "trueOdds": 1.89285715,
-            "points": 49.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "886187",
-                    "name": "Jacory Croskey-Merritt",
-                    "type": "Player",
-                    "seoIdentifier": "Jacory Croskey-Merritt",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 53.9
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 49500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284764219#378462876_13L88808Q1-1850307987Q20",
-            "marketId": "284764219",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−112",
-                "decimal": "1.89",
-                "fractional": "25/28"
-            },
-            "trueOdds": 1.89285715,
-            "points": 49.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "886187",
-                    "name": "Jacory Croskey-Merritt",
-                    "type": "Player",
-                    "seoIdentifier": "Jacory Croskey-Merritt",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 53.9
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 49502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284764293#374250074_13L88808Q1-1033395550Q20",
-            "marketId": "284764293",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−109",
-                "decimal": "1.91",
-                "fractional": "100/109"
-            },
-            "trueOdds": 1.9174312,
-            "points": 4.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "780227",
-                    "name": "Xavier Worthy",
-                    "type": "Player",
-                    "seoIdentifier": "Xavier Worthy",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 13.2
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 4500,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284764293#374250088_13L88808Q1-997123795Q20",
-            "marketId": "284764293",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
-            },
-            "trueOdds": 1.86956522,
-            "points": 4.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "780227",
-                    "name": "Xavier Worthy",
-                    "type": "Player",
-                    "seoIdentifier": "Xavier Worthy",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 13.2
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 4502,
-            "tags": [
-                "MainPointLine",
-                "SGP"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA286526925#383113879_13L88808Q1-1723433615Q20",
-            "marketId": "286526925",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−114",
-                "decimal": "1.87",
-                "fractional": "50/57"
-            },
-            "trueOdds": 1.87719299,
-            "points": 35.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "17173",
-                    "name": "Lamar Jackson",
-                    "type": "Player",
-                    "seoIdentifier": "Lamar Jackson",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 41.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 35500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "2ndFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA286526925#383113880_13L88808Q1-1676783752Q20",
-            "marketId": "286526925",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
-            },
-            "trueOdds": 1.90909091,
-            "points": 35.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "17173",
-                    "name": "Lamar Jackson",
-                    "type": "Player",
-                    "seoIdentifier": "Lamar Jackson",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 41.5
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 35502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "2ndFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA286526996#383145835_13L88808Q1420024775Q20",
-            "marketId": "286526996",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−114",
-                "decimal": "1.87",
-                "fractional": "50/57"
-            },
-            "trueOdds": 1.87719299,
-            "points": 87.5,
+            "points": 89.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -1344,7 +1302,7 @@
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 87500,
+            "sortOrder": 89500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -1353,16 +1311,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA286526996#383145836_13L88808Q1-608517120Q20",
+            "id": "0QA286526996#383474048_13L88808Q1-627883314Q20",
             "marketId": "286526996",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
+                "american": "−111",
                 "decimal": "1.90",
-                "fractional": "10/11"
+                "fractional": "100/111"
             },
-            "trueOdds": 1.90909091,
-            "points": 87.5,
+            "trueOdds": 1.90090091,
+            "points": 89.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -1378,7 +1336,7 @@
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 87502,
+            "sortOrder": 89502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -1391,11 +1349,11 @@
             "marketId": "286527121",
             "label": "Over",
             "displayOdds": {
-                "american": "−109",
-                "decimal": "1.91",
-                "fractional": "100/109"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.9174312,
+            "trueOdds": 1.90909091,
             "points": 17.5,
             "outcomeType": "Over",
             "participants": [
@@ -1425,11 +1383,11 @@
             "marketId": "286527121",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−114",
+                "decimal": "1.87",
+                "fractional": "50/57"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.87719299,
             "points": 17.5,
             "outcomeType": "Under",
             "participants": [
@@ -1459,11 +1417,11 @@
             "marketId": "286527125",
             "label": "Over",
             "displayOdds": {
-                "american": "−111",
+                "american": "−110",
                 "decimal": "1.90",
-                "fractional": "100/111"
+                "fractional": "10/11"
             },
-            "trueOdds": 1.90090091,
+            "trueOdds": 1.90909091,
             "points": 62.5,
             "outcomeType": "Over",
             "participants": [
@@ -1493,11 +1451,11 @@
             "marketId": "286527125",
             "label": "Under",
             "displayOdds": {
-                "american": "−113",
-                "decimal": "1.88",
-                "fractional": "100/113"
+                "american": "−114",
+                "decimal": "1.87",
+                "fractional": "50/57"
             },
-            "trueOdds": 1.88495576,
+            "trueOdds": 1.87719299,
             "points": 62.5,
             "outcomeType": "Under",
             "participants": [
@@ -1590,7 +1548,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-12641597-44349207": {
+        "events-757898-29243048": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '9514')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '9514' AND tags/all(t: t ne 'SportcastBetBuilder')"

@@ -27,7 +27,7 @@
             "sportId": "3",
             "leagueId": "88808",
             "name": "WAS Commanders @ KC Chiefs",
-            "startEventDate": "2025-10-28T00:15:00.0000000Z",
+            "startEventDate": "2025-10-28T00:16:03.0000000Z",
             "participants": [
                 {
                     "id": "18379",
@@ -35,7 +35,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "149",
                         "rosettaTeamId": "18379",
                         "rosettaTeamName": "Chiefs",
                         "shortName": "KC",
@@ -52,7 +51,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "148",
                         "rosettaTeamId": "18480",
                         "rosettaTeamName": "Commanders",
                         "shortName": "WAS",
@@ -65,7 +63,45 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "Halftime",
+                "gameTime": 900
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "7",
+                    "awayScore": "7"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "0",
+                        "awayScore": "0",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "7",
+                        "awayScore": "7",
+                        "name": "Q2"
+                    },
+                    {
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "3",
+                    "currentDriveYardsToGo": "10",
+                    "currentGameState": "-1",
+                    "currentYardLine": "65",
+                    "inPossession": "away",
+                    "kickOffTeam1stHalf": "home",
+                    "kickOffTeam2ndHalf": "away"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -318,9 +354,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -332,13 +370,13 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 253585592,
-            "subscriptionKey": "events-24462334-14292775"
+            "sortOrder": 253585692,
+            "subscriptionKey": "events-12774136-3511075"
         }
     ],
     "markets": [
         {
-            "id": "284764278",
+            "id": "286820237",
             "eventId": "32225692",
             "sportId": "3",
             "leagueId": "88808",
@@ -349,11 +387,11 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13689",
+                "id": "6826",
                 "betOfferTypeId": 0,
                 "name": "Kicking Points O/U"
             },
-            "subscriptionKey": "events-24462334-14292775",
+            "subscriptionKey": "events-12774136-3511075",
             "sortOrder": 1,
             "tags": [
                 "YourBetEligible",
@@ -362,11 +400,22 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225692|13689|2:60727",
-            "dynamicMetadata": {}
+            "correlatedId": "32225692|6826|2:60727",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 1
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballKicking"
+            }
         },
         {
-            "id": "286802294",
+            "id": "286820280",
             "eventId": "32225692",
             "sportId": "3",
             "leagueId": "88808",
@@ -377,11 +426,11 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13689",
+                "id": "6826",
                 "betOfferTypeId": 0,
                 "name": "Kicking Points O/U"
             },
-            "subscriptionKey": "events-24462334-14292775",
+            "subscriptionKey": "events-12774136-3511075",
             "sortOrder": 2,
             "tags": [
                 "YourBetEligible",
@@ -390,80 +439,25 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225692|13689|2:110954",
-            "dynamicMetadata": {}
+            "correlatedId": "32225692|6826|2:110954",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 1
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballKicking"
+            }
         }
     ],
     "selections": [
         {
-            "id": "0QA284764278#374250311_13L88808Q1504507690Q20",
-            "marketId": "284764278",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−117",
-                "decimal": "1.85",
-                "fractional": "100/117"
-            },
-            "trueOdds": 1.85470086,
-            "points": 8.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "11342",
-                    "name": "Harrison Butker",
-                    "type": "Player",
-                    "seoIdentifier": "Harrison Butker",
-                    "statistic": {
-                        "prefix": "KPTS/G",
-                        "value": 7.7
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 8500,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284764278#374250330_13L88808Q1-73993080Q20",
-            "marketId": "284764278",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−109",
-                "decimal": "1.91",
-                "fractional": "100/109"
-            },
-            "trueOdds": 1.9174312,
-            "points": 8.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "11342",
-                    "name": "Harrison Butker",
-                    "type": "Player",
-                    "seoIdentifier": "Harrison Butker",
-                    "statistic": {
-                        "prefix": "KPTS/G",
-                        "value": 7.7
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 8502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA286802294#383285261_13L88808Q1-128448604Q20",
-            "marketId": "286802294",
+            "id": "0QA286820237#383430221_13L88808Q1-1070097958Q20",
+            "marketId": "286820237",
             "label": "Over",
             "displayOdds": {
                 "american": "+105",
@@ -471,23 +465,19 @@
                 "fractional": "21/20"
             },
             "trueOdds": 2.05,
-            "points": 6.5,
+            "points": 5.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "18978",
-                    "name": "Matthew Wright",
+                    "id": "11342",
+                    "name": "Harrison Butker",
                     "type": "Player",
-                    "seoIdentifier": "Matthew Wright",
-                    "statistic": {
-                        "prefix": "KPTS/G",
-                        "value": 4
-                    },
-                    "venueRole": "AwayPlayer",
+                    "seoIdentifier": "Harrison Butker",
+                    "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 6500,
+            "sortOrder": 5500,
             "tags": [
                 "MainPointLine",
                 "1stFavorite"
@@ -495,16 +485,74 @@
             "metadata": {}
         },
         {
-            "id": "0QA286802294#383285262_13L88808Q1308914389Q20",
-            "marketId": "286802294",
+            "id": "0QA286820237#383430222_13L88808Q1-418142163Q20",
+            "marketId": "286820237",
             "label": "Under",
             "displayOdds": {
-                "american": "−134",
+                "american": "−135",
                 "decimal": "1.74",
-                "fractional": "50/67"
+                "fractional": "20/27"
             },
-            "trueOdds": 1.74626866,
-            "points": 6.5,
+            "trueOdds": 1.74074075,
+            "points": 5.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "11342",
+                    "name": "Harrison Butker",
+                    "type": "Player",
+                    "seoIdentifier": "Harrison Butker",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 5502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820280#383451033_13L88808Q1946728549Q20",
+            "marketId": "286820280",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−154",
+                "decimal": "1.64",
+                "fractional": "50/77"
+            },
+            "trueOdds": 1.64935065,
+            "points": 3.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "18978",
+                    "name": "Matthew Wright",
+                    "type": "Player",
+                    "seoIdentifier": "Matthew Wright",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 3500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820280#383451035_13L88808Q1742173411Q20",
+            "marketId": "286820280",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+120",
+                "decimal": "2.20",
+                "fractional": "6/5"
+            },
+            "trueOdds": 2.2,
+            "points": 3.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -512,15 +560,11 @@
                     "name": "Matthew Wright",
                     "type": "Player",
                     "seoIdentifier": "Matthew Wright",
-                    "statistic": {
-                        "prefix": "KPTS/G",
-                        "value": 4
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 6502,
+            "sortOrder": 3502,
             "tags": [
                 "MainPointLine",
                 "1stFavorite"
@@ -529,7 +573,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-24462334-14292775": {
+        "events-12774136-3511075": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '17062')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '17062' AND tags/all(t: t ne 'SportcastBetBuilder')"

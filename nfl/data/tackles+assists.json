@@ -27,7 +27,7 @@
             "sportId": "3",
             "leagueId": "88808",
             "name": "WAS Commanders @ KC Chiefs",
-            "startEventDate": "2025-10-28T00:15:00.0000000Z",
+            "startEventDate": "2025-10-28T00:16:03.0000000Z",
             "participants": [
                 {
                     "id": "18379",
@@ -35,7 +35,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "149",
                         "rosettaTeamId": "18379",
                         "rosettaTeamName": "Chiefs",
                         "shortName": "KC",
@@ -52,7 +51,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "148",
                         "rosettaTeamId": "18480",
                         "rosettaTeamName": "Commanders",
                         "shortName": "WAS",
@@ -65,7 +63,45 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "Halftime",
+                "gameTime": 900
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "7",
+                    "awayScore": "7"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "0",
+                        "awayScore": "0",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "7",
+                        "awayScore": "7",
+                        "name": "Q2"
+                    },
+                    {
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "3",
+                    "currentDriveYardsToGo": "10",
+                    "currentGameState": "-1",
+                    "currentYardLine": "65",
+                    "inPossession": "away",
+                    "kickOffTeam1stHalf": "home",
+                    "kickOffTeam2ndHalf": "away"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -318,9 +354,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -332,13 +370,93 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 253585592,
-            "subscriptionKey": "events-64130327-17017587"
+            "sortOrder": 253585692,
+            "subscriptionKey": "events-36496811-55127965"
         }
     ],
     "markets": [
         {
-            "id": "284763975",
+            "id": "286820315",
+            "eventId": "32225692",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Chamarri Conner Tackles + Assists O/U",
+            "subcategoryId": "18537",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6827",
+                "betOfferTypeId": 0,
+                "name": "Tackles + Assists O/U"
+            },
+            "subscriptionKey": "events-36496811-55127965",
+            "sortOrder": 1,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225692|6827|2:140276",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 9
+                    }
+                ]
+            },
+            "blurbId": "2dc6c5e3-60b5-4f9a-9217-523a1d7d6c7c",
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballDefensive"
+            }
+        },
+        {
+            "id": "286820304",
+            "eventId": "32225692",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Jartavius Martin Tackles + Assists O/U",
+            "subcategoryId": "18537",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6827",
+                "betOfferTypeId": 0,
+                "name": "Tackles + Assists O/U"
+            },
+            "subscriptionKey": "events-36496811-55127965",
+            "sortOrder": 2,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225692|6827|2:141506",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 6
+                    }
+                ]
+            },
+            "blurbId": "2dc6c5e3-60b5-4f9a-9217-523a1d7d6c7c",
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballDefensive"
+            }
+        },
+        {
+            "id": "286820227",
             "eventId": "32225692",
             "sportId": "3",
             "leagueId": "88808",
@@ -349,26 +467,36 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13681",
+                "id": "6827",
                 "betOfferTypeId": 0,
                 "name": "Tackles + Assists O/U"
             },
-            "subscriptionKey": "events-64130327-17017587",
-            "sortOrder": 1,
+            "subscriptionKey": "events-36496811-55127965",
+            "sortOrder": 3,
             "tags": [
-                "SGP",
                 "YourBetEligible",
                 "Cashout",
                 "IgnoreSortOrderOnPush",
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225692|13681|2:60081",
-            "blurbId": "66f5a6a2-69a7-4b0b-a12e-6d20ab2d2e02",
-            "dynamicMetadata": {}
+            "correlatedId": "32225692|6827|2:60081",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 4
+                    }
+                ]
+            },
+            "blurbId": "2dc6c5e3-60b5-4f9a-9217-523a1d7d6c7c",
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballDefensive"
+            }
         },
         {
-            "id": "284764053",
+            "id": "286820294",
             "eventId": "32225692",
             "sportId": "3",
             "leagueId": "88808",
@@ -379,86 +507,116 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13681",
+                "id": "6827",
                 "betOfferTypeId": 0,
                 "name": "Tackles + Assists O/U"
             },
-            "subscriptionKey": "events-64130327-17017587",
-            "sortOrder": 2,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225692|13681|2:122982",
-            "blurbId": "66f5a6a2-69a7-4b0b-a12e-6d20ab2d2e02",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "284764171",
-            "eventId": "32225692",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Frankie Luvu Tackles + Assists O/U",
-            "subcategoryId": "18537",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13681",
-                "betOfferTypeId": 0,
-                "name": "Tackles + Assists O/U"
-            },
-            "subscriptionKey": "events-64130327-17017587",
-            "sortOrder": 3,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225692|13681|2:60950",
-            "blurbId": "66f5a6a2-69a7-4b0b-a12e-6d20ab2d2e02",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "284764252",
-            "eventId": "32225692",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Mike Sainristil Tackles + Assists O/U",
-            "subcategoryId": "18537",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13681",
-                "betOfferTypeId": 0,
-                "name": "Tackles + Assists O/U"
-            },
-            "subscriptionKey": "events-64130327-17017587",
+            "subscriptionKey": "events-36496811-55127965",
             "sortOrder": 4,
             "tags": [
-                "SGP",
                 "YourBetEligible",
                 "Cashout",
                 "IgnoreSortOrderOnPush",
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225692|13681|2:134912",
-            "blurbId": "66f5a6a2-69a7-4b0b-a12e-6d20ab2d2e02",
-            "dynamicMetadata": {}
+            "correlatedId": "32225692|6827|2:122982",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 3
+                    }
+                ]
+            },
+            "blurbId": "2dc6c5e3-60b5-4f9a-9217-523a1d7d6c7c",
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballDefensive"
+            }
         },
         {
-            "id": "284764196",
+            "id": "286820314",
+            "eventId": "32225692",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Leo Chenal Tackles + Assists O/U",
+            "subcategoryId": "18537",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6827",
+                "betOfferTypeId": 0,
+                "name": "Tackles + Assists O/U"
+            },
+            "subscriptionKey": "events-36496811-55127965",
+            "sortOrder": 5,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225692|6827|2:147187",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 4
+                    }
+                ]
+            },
+            "blurbId": "2dc6c5e3-60b5-4f9a-9217-523a1d7d6c7c",
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballDefensive"
+            }
+        },
+        {
+            "id": "286820309",
+            "eventId": "32225692",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Jaylen Watson Tackles + Assists O/U",
+            "subcategoryId": "18537",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6827",
+                "betOfferTypeId": 0,
+                "name": "Tackles + Assists O/U"
+            },
+            "subscriptionKey": "events-36496811-55127965",
+            "sortOrder": 6,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225692|6827|2:143397",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 3
+                    }
+                ]
+            },
+            "blurbId": "2dc6c5e3-60b5-4f9a-9217-523a1d7d6c7c",
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballDefensive"
+            }
+        },
+        {
+            "id": "286820252",
             "eventId": "32225692",
             "sportId": "3",
             "leagueId": "88808",
@@ -469,195 +627,240 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13681",
+                "id": "6827",
                 "betOfferTypeId": 0,
                 "name": "Tackles + Assists O/U"
             },
-            "subscriptionKey": "events-64130327-17017587",
-            "sortOrder": 5,
+            "subscriptionKey": "events-36496811-55127965",
+            "sortOrder": 7,
             "tags": [
-                "SGP",
                 "YourBetEligible",
                 "Cashout",
                 "IgnoreSortOrderOnPush",
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225692|13681|2:143087",
-            "blurbId": "66f5a6a2-69a7-4b0b-a12e-6d20ab2d2e02",
-            "dynamicMetadata": {}
+            "correlatedId": "32225692|6827|2:143087",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 2
+                    }
+                ]
+            },
+            "blurbId": "2dc6c5e3-60b5-4f9a-9217-523a1d7d6c7c",
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballDefensive"
+            }
         },
         {
-            "id": "284764296",
+            "id": "286820284",
             "eventId": "32225692",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "Bryan Cook Tackles + Assists O/U",
+            "name": "Frankie Luvu Tackles + Assists O/U",
             "subcategoryId": "18537",
             "componentMapping": {
                 "primary": 8,
                 "fallback": 0
             },
             "marketType": {
-                "id": "13681",
+                "id": "6827",
                 "betOfferTypeId": 0,
                 "name": "Tackles + Assists O/U"
             },
-            "subscriptionKey": "events-64130327-17017587",
-            "sortOrder": 6,
+            "subscriptionKey": "events-36496811-55127965",
+            "sortOrder": 8,
             "tags": [
-                "SGP",
                 "YourBetEligible",
                 "Cashout",
                 "IgnoreSortOrderOnPush",
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225692|13681|2:147383",
-            "blurbId": "66f5a6a2-69a7-4b0b-a12e-6d20ab2d2e02",
-            "dynamicMetadata": {}
+            "correlatedId": "32225692|6827|2:60950",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 1
+                    }
+                ]
+            },
+            "blurbId": "2dc6c5e3-60b5-4f9a-9217-523a1d7d6c7c",
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballDefensive"
+            }
+        },
+        {
+            "id": "286825281",
+            "eventId": "32225692",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bryan Cook Tackles + Assists O/U",
+            "isSuspended": true,
+            "subcategoryId": "18537",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6827",
+                "betOfferTypeId": 0,
+                "name": "Tackles + Assists O/U"
+            },
+            "subscriptionKey": "events-36496811-55127965",
+            "sortOrder": 9,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225692|6827|2:147383",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 1
+                    }
+                ]
+            },
+            "blurbId": "2dc6c5e3-60b5-4f9a-9217-523a1d7d6c7c",
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballDefensive"
+            }
+        },
+        {
+            "id": "286820228",
+            "eventId": "32225692",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Marshon Lattimore Tackles + Assists O/U",
+            "subcategoryId": "18537",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6827",
+                "betOfferTypeId": 0,
+                "name": "Tackles + Assists O/U"
+            },
+            "subscriptionKey": "events-36496811-55127965",
+            "sortOrder": 10,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225692|6827|2:59812",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 0
+                    }
+                ]
+            },
+            "blurbId": "2dc6c5e3-60b5-4f9a-9217-523a1d7d6c7c",
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballDefensive"
+            }
+        },
+        {
+            "id": "286820305",
+            "eventId": "32225692",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Trey Amos Tackles + Assists O/U",
+            "subcategoryId": "18537",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6827",
+                "betOfferTypeId": 0,
+                "name": "Tackles + Assists O/U"
+            },
+            "subscriptionKey": "events-36496811-55127965",
+            "sortOrder": 11,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225692|6827|2:134544",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 0
+                    }
+                ]
+            },
+            "blurbId": "2dc6c5e3-60b5-4f9a-9217-523a1d7d6c7c",
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballDefensive"
+            }
+        },
+        {
+            "id": "286820293",
+            "eventId": "32225692",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Daron Payne Tackles + Assists O/U",
+            "subcategoryId": "18537",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6827",
+                "betOfferTypeId": 0,
+                "name": "Tackles + Assists O/U"
+            },
+            "subscriptionKey": "events-36496811-55127965",
+            "sortOrder": 12,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225692|6827|2:112799",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 0
+                    }
+                ]
+            },
+            "blurbId": "2dc6c5e3-60b5-4f9a-9217-523a1d7d6c7c",
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballDefensive"
+            }
         }
     ],
     "selections": [
         {
-            "id": "0QA284763975#377263819_13L88808Q1-531465463Q20",
-            "marketId": "284763975",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−101",
-                "decimal": "1.99",
-                "fractional": "100/101"
-            },
-            "trueOdds": 1.99009901,
-            "points": 9.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "20042",
-                    "name": "Bobby Wagner",
-                    "type": "Player",
-                    "seoIdentifier": "Bobby Wagner",
-                    "statistic": {
-                        "prefix": "TCK+AST/G",
-                        "value": 10.4
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 9500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284763975#377263820_13L88808Q1-1557623522Q20",
-            "marketId": "284763975",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−128",
-                "decimal": "1.78",
-                "fractional": "25/32"
-            },
-            "trueOdds": 1.78125,
-            "points": 9.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "20042",
-                    "name": "Bobby Wagner",
-                    "type": "Player",
-                    "seoIdentifier": "Bobby Wagner",
-                    "statistic": {
-                        "prefix": "TCK+AST/G",
-                        "value": 10.4
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 9502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284764053#380971128_13L88808Q11306753571Q20",
-            "marketId": "284764053",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−129",
-                "decimal": "1.77",
-                "fractional": "100/129"
-            },
-            "trueOdds": 1.7751938,
-            "points": 7.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "560615",
-                    "name": "Nick Bolton",
-                    "type": "Player",
-                    "seoIdentifier": "Nick Bolton",
-                    "statistic": {
-                        "prefix": "TCK+AST/G",
-                        "value": 7.9
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 7500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284764053#380971129_13L88808Q11643520819Q20",
-            "marketId": "284764053",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−101",
-                "decimal": "1.99",
-                "fractional": "100/101"
-            },
-            "trueOdds": 1.99009901,
-            "points": 7.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "560615",
-                    "name": "Nick Bolton",
-                    "type": "Player",
-                    "seoIdentifier": "Nick Bolton",
-                    "statistic": {
-                        "prefix": "TCK+AST/G",
-                        "value": 7.9
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 7502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA284764171#381238327_13L88808Q11987266471Q20",
-            "marketId": "284764171",
+            "id": "0QA286820227#383377651_13L88808Q11676629289Q20",
+            "marketId": "286820227",
             "label": "Over",
             "displayOdds": {
                 "american": "−145",
@@ -665,74 +868,120 @@
                 "fractional": "20/29"
             },
             "trueOdds": 1.68965518,
-            "points": 5.5,
+            "points": 8.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "19597",
-                    "name": "Frankie Luvu",
+                    "id": "20042",
+                    "name": "Bobby Wagner",
                     "type": "Player",
-                    "seoIdentifier": "Frankie Luvu",
-                    "statistic": {
-                        "prefix": "TCK+AST/G",
-                        "value": 5.7
-                    },
+                    "seoIdentifier": "Bobby Wagner",
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 5500,
+            "sortOrder": 8500,
             "tags": [
                 "MainPointLine",
-                "SGP",
-                "3rdFavorite"
+                "2ndFavorite"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA284764171#381238328_13L88808Q1-1448479154Q20",
-            "marketId": "284764171",
+            "id": "0QA286820227#383377655_13L88808Q1220507725Q20",
+            "marketId": "286820227",
             "label": "Under",
             "displayOdds": {
-                "american": "+112",
-                "decimal": "2.12",
-                "fractional": "28/25"
+                "american": "+114",
+                "decimal": "2.14",
+                "fractional": "57/50"
             },
-            "trueOdds": 2.12,
-            "points": 5.5,
+            "trueOdds": 2.14,
+            "points": 8.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "19597",
-                    "name": "Frankie Luvu",
+                    "id": "20042",
+                    "name": "Bobby Wagner",
                     "type": "Player",
-                    "seoIdentifier": "Frankie Luvu",
-                    "statistic": {
-                        "prefix": "TCK+AST/G",
-                        "value": 5.7
-                    },
+                    "seoIdentifier": "Bobby Wagner",
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 5502,
+            "sortOrder": 8502,
             "tags": [
                 "MainPointLine",
-                "SGP",
-                "3rdFavorite"
+                "2ndFavorite"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA284764196#374249780_13L88808Q1640989391Q20",
-            "marketId": "284764196",
+            "id": "0QA286820228#383455141_13L88808Q1-1799176517Q20",
+            "marketId": "286820228",
             "label": "Over",
             "displayOdds": {
-                "american": "−160",
-                "decimal": "1.62",
-                "fractional": "5/8"
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
             },
-            "trueOdds": 1.625,
+            "trueOdds": 2,
+            "points": 2.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "18620",
+                    "name": "Marshon Lattimore",
+                    "type": "Player",
+                    "seoIdentifier": "Marshon Lattimore",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 2500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820228#383455142_13L88808Q1-1377533558Q20",
+            "marketId": "286820228",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
+            },
+            "trueOdds": 1.76923077,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "18620",
+                    "name": "Marshon Lattimore",
+                    "type": "Player",
+                    "seoIdentifier": "Marshon Lattimore",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820252#383367787_13L88808Q11855233081Q20",
+            "marketId": "286820252",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
+            },
+            "trueOdds": 2.1,
             "points": 4.5,
             "outcomeType": "Over",
             "participants": [
@@ -741,31 +990,26 @@
                     "name": "Trent McDuffie",
                     "type": "Player",
                     "seoIdentifier": "Trent McDuffie",
-                    "statistic": {
-                        "prefix": "TCK+AST/G",
-                        "value": 4.6
-                    },
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
             "sortOrder": 4500,
             "tags": [
-                "MainPointLine",
-                "SGP"
+                "MainPointLine"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA284764196#374249868_13L88808Q1-525524077Q20",
-            "marketId": "284764196",
+            "id": "0QA286820252#383367788_13L88808Q1786808660Q20",
+            "marketId": "286820252",
             "label": "Under",
             "displayOdds": {
-                "american": "+123",
-                "decimal": "2.23",
-                "fractional": "123/100"
+                "american": "−140",
+                "decimal": "1.71",
+                "fractional": "5/7"
             },
-            "trueOdds": 2.23,
+            "trueOdds": 1.71428572,
             "points": 4.5,
             "outcomeType": "Under",
             "participants": [
@@ -774,57 +1018,105 @@
                     "name": "Trent McDuffie",
                     "type": "Player",
                     "seoIdentifier": "Trent McDuffie",
-                    "statistic": {
-                        "prefix": "TCK+AST/G",
-                        "value": 4.6
-                    },
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
             "sortOrder": 4502,
             "tags": [
-                "MainPointLine",
-                "SGP"
+                "MainPointLine"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA284764252#381236538_13L88808Q11987266471Q20",
-            "marketId": "284764252",
+            "id": "0QA286820284#383454536_13L88808Q11855233081Q20",
+            "marketId": "286820284",
             "label": "Over",
             "displayOdds": {
-                "american": "−104",
-                "decimal": "1.96",
-                "fractional": "25/26"
+                "american": "+140",
+                "decimal": "2.40",
+                "fractional": "7/5"
             },
-            "trueOdds": 1.96153847,
-            "points": 5.5,
+            "trueOdds": 2.4,
+            "points": 4.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "787817",
-                    "name": "Mike Sainristil",
+                    "id": "19597",
+                    "name": "Frankie Luvu",
                     "type": "Player",
-                    "seoIdentifier": "Mike Sainristil",
-                    "statistic": {
-                        "prefix": "TCK+AST/G",
-                        "value": 5
-                    },
+                    "seoIdentifier": "Frankie Luvu",
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 5500,
+            "sortOrder": 4500,
             "tags": [
                 "MainPointLine",
-                "SGP"
+                "3rdFavorite"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA284764252#381236541_13L88808Q1-1448479154Q20",
-            "marketId": "284764252",
+            "id": "0QA286820284#383454537_13L88808Q1786808660Q20",
+            "marketId": "286820284",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−180",
+                "decimal": "1.55",
+                "fractional": "5/9"
+            },
+            "trueOdds": 1.55555556,
+            "points": 4.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19597",
+                    "name": "Frankie Luvu",
+                    "type": "Player",
+                    "seoIdentifier": "Frankie Luvu",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 4502,
+            "tags": [
+                "MainPointLine",
+                "3rdFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820293#383430225_13L88808Q1-1027263980Q20",
+            "marketId": "286820293",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
+            },
+            "trueOdds": 1.95238096,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "20288",
+                    "name": "Daron Payne",
+                    "type": "Player",
+                    "seoIdentifier": "Daron Payne",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820293#383430226_13L88808Q1-1560407438Q20",
+            "marketId": "286820293",
             "label": "Under",
             "displayOdds": {
                 "american": "−125",
@@ -832,39 +1124,378 @@
                 "fractional": "4/5"
             },
             "trueOdds": 1.8,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "20288",
+                    "name": "Daron Payne",
+                    "type": "Player",
+                    "seoIdentifier": "Daron Payne",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820294#383454175_13L88808Q1-876210138Q20",
+            "marketId": "286820294",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−140",
+                "decimal": "1.71",
+                "fractional": "5/7"
+            },
+            "trueOdds": 1.71428572,
+            "points": 6.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "560615",
+                    "name": "Nick Bolton",
+                    "type": "Player",
+                    "seoIdentifier": "Nick Bolton",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 6500,
+            "tags": [
+                "MainPointLine",
+                "2ndFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820294#383454177_13L88808Q1164810618Q20",
+            "marketId": "286820294",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
+            },
+            "trueOdds": 2.1,
+            "points": 6.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "560615",
+                    "name": "Nick Bolton",
+                    "type": "Player",
+                    "seoIdentifier": "Nick Bolton",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 6502,
+            "tags": [
+                "MainPointLine",
+                "2ndFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820304#383488605_13L88808Q11676629289Q20",
+            "marketId": "286820304",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−175",
+                "decimal": "1.57",
+                "fractional": "4/7"
+            },
+            "trueOdds": 1.57142858,
+            "points": 8.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "706524",
+                    "name": "Jartavius Martin",
+                    "type": "Player",
+                    "seoIdentifier": "Quan Martin",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 8500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820304#383488608_13L88808Q1220507725Q20",
+            "marketId": "286820304",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+135",
+                "decimal": "2.35",
+                "fractional": "27/20"
+            },
+            "trueOdds": 2.35,
+            "points": 8.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "706524",
+                    "name": "Jartavius Martin",
+                    "type": "Player",
+                    "seoIdentifier": "Quan Martin",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 8502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820305#383455147_13L88808Q1-1799176517Q20",
+            "marketId": "286820305",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
+            },
+            "trueOdds": 2,
+            "points": 2.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "892769",
+                    "name": "Trey Amos",
+                    "type": "Player",
+                    "seoIdentifier": "Trey Amos",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 2500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820305#383455148_13L88808Q1-1377533558Q20",
+            "marketId": "286820305",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
+            },
+            "trueOdds": 1.76923077,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "892769",
+                    "name": "Trey Amos",
+                    "type": "Player",
+                    "seoIdentifier": "Trey Amos",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820309#383411383_13L88808Q1-530401261Q20",
+            "marketId": "286820309",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+145",
+                "decimal": "2.45",
+                "fractional": "29/20"
+            },
+            "trueOdds": 2.45,
+            "points": 5.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "641136",
+                    "name": "Jaylen Watson",
+                    "type": "Player",
+                    "seoIdentifier": "Jaylen Watson",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 5500,
+            "tags": [
+                "MainPointLine"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820309#383411384_13L88808Q1-2026537879Q20",
+            "marketId": "286820309",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−188",
+                "decimal": "1.53",
+                "fractional": "25/47"
+            },
+            "trueOdds": 1.5319149,
             "points": 5.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "787817",
-                    "name": "Mike Sainristil",
+                    "id": "641136",
+                    "name": "Jaylen Watson",
                     "type": "Player",
-                    "seoIdentifier": "Mike Sainristil",
-                    "statistic": {
-                        "prefix": "TCK+AST/G",
-                        "value": 5
-                    },
-                    "venueRole": "AwayPlayer",
+                    "seoIdentifier": "Jaylen Watson",
+                    "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
             "sortOrder": 5502,
             "tags": [
-                "MainPointLine",
-                "SGP"
+                "MainPointLine"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA284764296#383299415_13L88808Q11438945839Q20",
-            "marketId": "284764296",
+            "id": "0QA286820314#383389400_13L88808Q1-876210138Q20",
+            "marketId": "286820314",
             "label": "Over",
             "displayOdds": {
-                "american": "−133",
-                "decimal": "1.75",
-                "fractional": "100/133"
+                "american": "+140",
+                "decimal": "2.40",
+                "fractional": "7/5"
             },
-            "trueOdds": 1.7518797,
+            "trueOdds": 2.4,
+            "points": 6.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "640929",
+                    "name": "Leo Chenal",
+                    "type": "Player",
+                    "seoIdentifier": "Leo Chenal",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 6500,
+            "tags": [
+                "MainPointLine",
+                "3rdFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820314#383389401_13L88808Q1164810618Q20",
+            "marketId": "286820314",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−180",
+                "decimal": "1.55",
+                "fractional": "5/9"
+            },
+            "trueOdds": 1.55555556,
+            "points": 6.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "640929",
+                    "name": "Leo Chenal",
+                    "type": "Player",
+                    "seoIdentifier": "Leo Chenal",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 6502,
+            "tags": [
+                "MainPointLine",
+                "3rdFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820315#383449072_13L88808Q11086788081Q20",
+            "marketId": "286820315",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−145",
+                "decimal": "1.68",
+                "fractional": "20/29"
+            },
+            "trueOdds": 1.68965518,
+            "points": 11.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "706592",
+                    "name": "Chamarri Conner",
+                    "type": "Player",
+                    "seoIdentifier": "Chamarri Conner",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 11500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286820315#383449074_13L88808Q1386864939Q20",
+            "marketId": "286820315",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+114",
+                "decimal": "2.14",
+                "fractional": "57/50"
+            },
+            "trueOdds": 2.14,
+            "points": 11.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "706592",
+                    "name": "Chamarri Conner",
+                    "type": "Player",
+                    "seoIdentifier": "Chamarri Conner",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 11502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286825281#383464487_13L88808Q1-46226536Q20",
+            "marketId": "286825281",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
+            },
+            "trueOdds": 2.05,
             "points": 3.5,
             "outcomeType": "Over",
             "participants": [
@@ -873,31 +1504,26 @@
                     "name": "Bryan Cook",
                     "type": "Player",
                     "seoIdentifier": "Bryan Cook",
-                    "statistic": {
-                        "prefix": "TCK+AST/G",
-                        "value": 3.6
-                    },
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
             "sortOrder": 3500,
             "tags": [
-                "MainPointLine",
-                "SGP"
+                "MainPointLine"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA284764296#383299416_13L88808Q1-380780196Q20",
-            "marketId": "284764296",
+            "id": "0QA286825281#383464488_13L88808Q1-160260576Q20",
+            "marketId": "286825281",
             "label": "Under",
             "displayOdds": {
-                "american": "+103",
-                "decimal": "2.03",
-                "fractional": "103/100"
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
             },
-            "trueOdds": 2.03,
+            "trueOdds": 1.74074075,
             "points": 3.5,
             "outcomeType": "Under",
             "participants": [
@@ -906,24 +1532,19 @@
                     "name": "Bryan Cook",
                     "type": "Player",
                     "seoIdentifier": "Bryan Cook",
-                    "statistic": {
-                        "prefix": "TCK+AST/G",
-                        "value": 3.6
-                    },
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
             "sortOrder": 3502,
             "tags": [
-                "MainPointLine",
-                "SGP"
+                "MainPointLine"
             ],
             "metadata": {}
         }
     ],
     "subscriptionPartials": {
-        "events-64130327-17017587": {
+        "events-36496811-55127965": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '18537')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '18537' AND tags/all(t: t ne 'SportcastBetBuilder')"

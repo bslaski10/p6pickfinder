@@ -27,7 +27,7 @@
             "sportId": "3",
             "leagueId": "88808",
             "name": "WAS Commanders @ KC Chiefs",
-            "startEventDate": "2025-10-28T00:15:00.0000000Z",
+            "startEventDate": "2025-10-28T00:16:03.0000000Z",
             "participants": [
                 {
                     "id": "18379",
@@ -35,7 +35,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "149",
                         "rosettaTeamId": "18379",
                         "rosettaTeamName": "Chiefs",
                         "shortName": "KC",
@@ -52,7 +51,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "148",
                         "rosettaTeamId": "18480",
                         "rosettaTeamName": "Commanders",
                         "shortName": "WAS",
@@ -65,7 +63,45 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "Halftime",
+                "gameTime": 900
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "7",
+                    "awayScore": "7"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "0",
+                        "awayScore": "0",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "7",
+                        "awayScore": "7",
+                        "name": "Q2"
+                    },
+                    {
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "3",
+                    "currentDriveYardsToGo": "10",
+                    "currentGameState": "-1",
+                    "currentYardLine": "65",
+                    "inPossession": "away",
+                    "kickOffTeam1stHalf": "home",
+                    "kickOffTeam2ndHalf": "away"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -318,9 +354,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -332,8 +370,8 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 253585592,
-            "subscriptionKey": "events-26557286-11549124"
+            "sortOrder": 253585692,
+            "subscriptionKey": "events-9579091-43460803"
         },
         {
             "id": "32225777",
@@ -424,39 +462,10 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 254017577,
-            "subscriptionKey": "events-26557286-11549124"
+            "subscriptionKey": "events-9579091-43460803"
         }
     ],
     "markets": [
-        {
-            "id": "284764272",
-            "eventId": "32225692",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Patrick Mahomes Passing Attempts O/U",
-            "subcategoryId": "9517",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13682",
-                "betOfferTypeId": 0,
-                "name": "Passing Attempts O/U"
-            },
-            "subscriptionKey": "events-26557286-11549124",
-            "sortOrder": 1,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "32225692|13682|2:54965",
-            "dynamicMetadata": {}
-        },
         {
             "id": "286527180",
             "eventId": "32225777",
@@ -473,8 +482,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-26557286-11549124",
-            "sortOrder": 2,
+            "subscriptionKey": "events-9579091-43460803",
+            "sortOrder": 1,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -487,7 +496,47 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "285509066",
+            "id": "286820271",
+            "eventId": "32225692",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Patrick Mahomes Passing Attempts O/U",
+            "subcategoryId": "9517",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "6823",
+                "betOfferTypeId": 0,
+                "name": "Passing Attempts O/U"
+            },
+            "subscriptionKey": "events-9579091-43460803",
+            "sortOrder": 2,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225692|6823|2:54965",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 15
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
+        },
+        {
+            "id": "286820256",
             "eventId": "32225692",
             "sportId": "3",
             "leagueId": "88808",
@@ -498,11 +547,11 @@
                 "fallback": 0
             },
             "marketType": {
-                "id": "13682",
+                "id": "6823",
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-26557286-11549124",
+            "subscriptionKey": "events-9579091-43460803",
             "sortOrder": 3,
             "tags": [
                 "SGP",
@@ -512,8 +561,19 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225692|13682|2:55077",
-            "dynamicMetadata": {}
+            "correlatedId": "32225692|6823|2:55077",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 17
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         },
         {
             "id": "286527001",
@@ -531,7 +591,7 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Attempts O/U"
             },
-            "subscriptionKey": "events-26557286-11549124",
+            "subscriptionKey": "events-9579091-43460803",
             "sortOrder": 4,
             "tags": [
                 "SGP",
@@ -547,16 +607,16 @@
     ],
     "selections": [
         {
-            "id": "0QA285509066#378577660_13L88808Q1-1779018863Q20",
-            "marketId": "285509066",
+            "id": "0QA286820256#383451155_13L88808Q1-1105562311Q20",
+            "marketId": "286820256",
             "label": "Over",
             "displayOdds": {
-                "american": "−109",
-                "decimal": "1.91",
-                "fractional": "100/109"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.9174312,
-            "points": 30.5,
+            "trueOdds": 1.90909091,
+            "points": 31.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -564,15 +624,11 @@
                     "name": "Marcus Mariota",
                     "type": "Player",
                     "seoIdentifier": "Marcus Mariota",
-                    "statistic": {
-                        "prefix": "ATT/G",
-                        "value": 19.3
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 30500,
+            "sortOrder": 31500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -581,16 +637,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA285509066#378577661_13L88808Q1-1879748411Q20",
-            "marketId": "285509066",
+            "id": "0QA286820256#383451156_13L88808Q1-280900665Q20",
+            "marketId": "286820256",
             "label": "Under",
             "displayOdds": {
-                "american": "−117",
-                "decimal": "1.85",
-                "fractional": "100/117"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.85470086,
-            "points": 30.5,
+            "trueOdds": 1.83333334,
+            "points": 31.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -598,15 +654,11 @@
                     "name": "Marcus Mariota",
                     "type": "Player",
                     "seoIdentifier": "Marcus Mariota",
-                    "statistic": {
-                        "prefix": "ATT/G",
-                        "value": 19.3
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 30502,
+            "sortOrder": 31502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -615,16 +667,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA284764272#377230973_13L88808Q1-965658130Q20",
-            "marketId": "284764272",
+            "id": "0QA286820271#383395207_13L88808Q1-978634147Q20",
+            "marketId": "286820271",
             "label": "Over",
             "displayOdds": {
-                "american": "−109",
-                "decimal": "1.91",
-                "fractional": "100/109"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.9174312,
-            "points": 34.5,
+            "trueOdds": 1.90909091,
+            "points": 32.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -632,15 +684,11 @@
                     "name": "Patrick Mahomes",
                     "type": "Player",
                     "seoIdentifier": "Patrick Mahomes",
-                    "statistic": {
-                        "prefix": "ATT/G",
-                        "value": 35.4
-                    },
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 34500,
+            "sortOrder": 32500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -649,16 +697,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA284764272#377230974_13L88808Q11079931452Q20",
-            "marketId": "284764272",
+            "id": "0QA286820271#383395211_13L88808Q1-938019364Q20",
+            "marketId": "286820271",
             "label": "Under",
             "displayOdds": {
-                "american": "−117",
-                "decimal": "1.85",
-                "fractional": "100/117"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.85470086,
-            "points": 34.5,
+            "trueOdds": 1.83333334,
+            "points": 32.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -666,15 +714,11 @@
                     "name": "Patrick Mahomes",
                     "type": "Player",
                     "seoIdentifier": "Patrick Mahomes",
-                    "statistic": {
-                        "prefix": "ATT/G",
-                        "value": 35.4
-                    },
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 34502,
+            "sortOrder": 32502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -687,11 +731,11 @@
             "marketId": "286527001",
             "label": "Over",
             "displayOdds": {
-                "american": "−108",
-                "decimal": "1.92",
-                "fractional": "25/27"
+                "american": "−103",
+                "decimal": "1.97",
+                "fractional": "100/103"
             },
-            "trueOdds": 1.92592593,
+            "trueOdds": 1.97087379,
             "points": 28.5,
             "outcomeType": "Over",
             "participants": [
@@ -721,11 +765,11 @@
             "marketId": "286527001",
             "label": "Under",
             "displayOdds": {
-                "american": "−118",
-                "decimal": "1.84",
-                "fractional": "50/59"
+                "american": "−124",
+                "decimal": "1.80",
+                "fractional": "25/31"
             },
-            "trueOdds": 1.84745763,
+            "trueOdds": 1.80645162,
             "points": 28.5,
             "outcomeType": "Under",
             "participants": [
@@ -820,7 +864,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-26557286-11549124": {
+        "events-9579091-43460803": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '9517')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '9517' AND tags/all(t: t ne 'SportcastBetBuilder')"
