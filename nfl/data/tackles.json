@@ -22,44 +22,44 @@
     ],
     "events": [
         {
-            "id": "32225570",
-            "seoIdentifier": "SEA Seahawks @ WAS Commanders",
+            "id": "32225549",
+            "seoIdentifier": "ARI Cardinals @ DAL Cowboys",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "SEA Seahawks @ WAS Commanders",
-            "startEventDate": "2025-11-03T01:20:00.0000000Z",
+            "name": "ARI Cardinals @ DAL Cowboys",
+            "startEventDate": "2025-11-04T01:15:00.0000000Z",
             "participants": [
                 {
-                    "id": "18480",
-                    "name": "WAS Commanders",
+                    "id": "18336",
+                    "name": "DAL Cowboys",
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "153",
-                        "rosettaTeamId": "18480",
-                        "rosettaTeamName": "Commanders",
-                        "shortName": "WAS",
-                        "teamColor": "#5a1414"
+                        "retailRotNumber": "141",
+                        "rosettaTeamId": "18336",
+                        "rosettaTeamName": "Cowboys",
+                        "shortName": "DAL",
+                        "teamColor": "#003594"
                     },
                     "sortOrder": 2,
-                    "seoIdentifier": "Commanders",
+                    "seoIdentifier": "Cowboys",
                     "isNationalTeam": false,
                     "countryCode": "US"
                 },
                 {
-                    "id": "18471",
-                    "name": "SEA Seahawks",
+                    "id": "18454",
+                    "name": "ARI Cardinals",
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "152",
-                        "rosettaTeamId": "18471",
-                        "rosettaTeamName": "Seahawks",
-                        "shortName": "SEA",
-                        "teamColor": "#002244"
+                        "retailRotNumber": "140",
+                        "rosettaTeamId": "18454",
+                        "rosettaTeamName": "Cardinals",
+                        "shortName": "ARI",
+                        "teamColor": "#97233f"
                     },
                     "sortOrder": 1,
-                    "seoIdentifier": "Seahawks",
+                    "seoIdentifier": "Cardinals",
                     "isNationalTeam": false,
                     "countryCode": "US"
                 }
@@ -69,7 +69,7 @@
             "media": [
                 {
                     "providerName": "BetGenius",
-                    "providerEventId": "12282247",
+                    "providerEventId": "12282248",
                     "mediaType": "LiveStreaming",
                     "metadata": {
                         "BetGeniusDash": "Akamai",
@@ -290,13 +290,18 @@
                     ]
                 },
                 {
+                    "providerName": "Simplebet",
+                    "providerEventId": "4d1667e2-63de-4930-a99d-6dc16ede4431",
+                    "mediaType": "MatchTracker"
+                },
+                {
                     "providerName": "BetRadarStats",
-                    "providerEventId": "60575195",
+                    "providerEventId": "60575183",
                     "mediaType": "Stats"
                 },
                 {
                     "providerName": "BetRadarV3",
-                    "providerEventId": "60575195",
+                    "providerEventId": "60575183",
                     "mediaType": "MatchTracker",
                     "metadata": {
                         "betRadarCoverage": "3"
@@ -304,16 +309,11 @@
                 },
                 {
                     "providerName": "BetRadarV3",
-                    "providerEventId": "60575195",
+                    "providerEventId": "60575183",
                     "mediaType": "Scoreboard",
                     "metadata": {
                         "betRadarCoverage": "3"
                     }
-                },
-                {
-                    "providerName": "Simplebet",
-                    "providerEventId": "bb6577a5-8115-4828-963c-428f63808f28",
-                    "mediaType": "MatchTracker"
                 }
             ],
             "tags": [
@@ -332,17 +332,17 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 254456070,
-            "subscriptionKey": "events-20361377-65984266"
+            "sortOrder": 254599549,
+            "subscriptionKey": "events-44989454-49060576"
         }
     ],
     "markets": [
         {
-            "id": "286553719",
-            "eventId": "32225570",
+            "id": "286548125",
+            "eventId": "32225549",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "Frankie Luvu Tackles O/U",
+            "name": "Kenneth Murray Tackles O/U",
             "subcategoryId": "18539",
             "componentMapping": {
                 "primary": 8,
@@ -353,7 +353,7 @@
                 "betOfferTypeId": 0,
                 "name": "Tackles O/U"
             },
-            "subscriptionKey": "events-20361377-65984266",
+            "subscriptionKey": "events-44989454-49060576",
             "sortOrder": 1,
             "tags": [
                 "YourBetEligible",
@@ -362,79 +362,457 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "32225570|13687|2:60950",
+            "correlatedId": "32225549|13687|2:113587",
+            "blurbId": "d917765d-8a8d-4981-a689-c8bfb86cc0e5",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "286548141",
+            "eventId": "32225549",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Mack Wilson Tackles O/U",
+            "subcategoryId": "18539",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "13687",
+                "betOfferTypeId": 0,
+                "name": "Tackles O/U"
+            },
+            "subscriptionKey": "events-44989454-49060576",
+            "sortOrder": 2,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225549|13687|2:60408",
+            "blurbId": "d917765d-8a8d-4981-a689-c8bfb86cc0e5",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "286548124",
+            "eventId": "32225549",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Budda Baker Tackles O/U",
+            "subcategoryId": "18539",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "13687",
+                "betOfferTypeId": 0,
+                "name": "Tackles O/U"
+            },
+            "subscriptionKey": "events-44989454-49060576",
+            "sortOrder": 3,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225549|13687|2:59264",
+            "blurbId": "d917765d-8a8d-4981-a689-c8bfb86cc0e5",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "286548126",
+            "eventId": "32225549",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Jalen Thompson Tackles O/U",
+            "subcategoryId": "18539",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "13687",
+                "betOfferTypeId": 0,
+                "name": "Tackles O/U"
+            },
+            "subscriptionKey": "events-44989454-49060576",
+            "sortOrder": 4,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225549|13687|2:59273",
+            "blurbId": "d917765d-8a8d-4981-a689-c8bfb86cc0e5",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "286548014",
+            "eventId": "32225549",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "DaRon Bland Tackles O/U",
+            "subcategoryId": "18539",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "13687",
+                "betOfferTypeId": 0,
+                "name": "Tackles O/U"
+            },
+            "subscriptionKey": "events-44989454-49060576",
+            "sortOrder": 5,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "32225549|13687|2:133727",
             "blurbId": "d917765d-8a8d-4981-a689-c8bfb86cc0e5",
             "dynamicMetadata": {}
         }
     ],
     "selections": [
         {
-            "id": "0QA286553719#388886803_13L88808Q1383535549Q20",
-            "marketId": "286553719",
+            "id": "0QA286548014#382951561_13L88808Q1-862046153Q20",
+            "marketId": "286548014",
             "label": "Over",
             "displayOdds": {
-                "american": "−108",
-                "decimal": "1.92",
-                "fractional": "25/27"
+                "american": "−154",
+                "decimal": "1.64",
+                "fractional": "50/77"
             },
-            "trueOdds": 1.92592593,
-            "points": 2.5,
+            "trueOdds": 1.64935065,
+            "points": 3.5,
             "outcomeType": "Over",
             "participants": [
                 {
-                    "id": "19597",
-                    "name": "Frankie Luvu",
+                    "id": "641065",
+                    "name": "DaRon Bland",
                     "type": "Player",
-                    "seoIdentifier": "Frankie Luvu",
+                    "seoIdentifier": "DaRon Bland",
                     "statistic": {
                         "prefix": "TCKPG",
-                        "value": 2.8
+                        "value": 3.7
                     },
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 2500,
+            "sortOrder": 3500,
+            "tags": [
+                "MainPointLine",
+                "3rdFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286548014#382951562_13L88808Q1-1234571808Q20",
+            "marketId": "286548014",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+119",
+                "decimal": "2.19",
+                "fractional": "119/100"
+            },
+            "trueOdds": 2.19,
+            "points": 3.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "641065",
+                    "name": "DaRon Bland",
+                    "type": "Player",
+                    "seoIdentifier": "DaRon Bland",
+                    "statistic": {
+                        "prefix": "TCKPG",
+                        "value": 3.7
+                    },
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 3502,
+            "tags": [
+                "MainPointLine",
+                "3rdFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286548124#390601177_13L88808Q1-1302256359Q20",
+            "marketId": "286548124",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+117",
+                "decimal": "2.17",
+                "fractional": "117/100"
+            },
+            "trueOdds": 2.17,
+            "points": 4.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "17561",
+                    "name": "Budda Baker",
+                    "type": "Player",
+                    "seoIdentifier": "Budda Baker",
+                    "statistic": {
+                        "prefix": "TCKPG",
+                        "value": 3.3
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 4500,
             "tags": [
                 "MainPointLine"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA286553719#388886804_13L88808Q1801814857Q20",
-            "marketId": "286553719",
+            "id": "0QA286548124#390601179_13L88808Q1-1620814556Q20",
+            "marketId": "286548124",
             "label": "Under",
             "displayOdds": {
-                "american": "−120",
-                "decimal": "1.83",
-                "fractional": "5/6"
+                "american": "−152",
+                "decimal": "1.65",
+                "fractional": "25/38"
             },
-            "trueOdds": 1.83333334,
-            "points": 2.5,
+            "trueOdds": 1.65789474,
+            "points": 4.5,
             "outcomeType": "Under",
             "participants": [
                 {
-                    "id": "19597",
-                    "name": "Frankie Luvu",
+                    "id": "17561",
+                    "name": "Budda Baker",
                     "type": "Player",
-                    "seoIdentifier": "Frankie Luvu",
+                    "seoIdentifier": "Budda Baker",
                     "statistic": {
                         "prefix": "TCKPG",
-                        "value": 2.8
+                        "value": 3.3
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 4502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286548125#390603606_13L88808Q1-1302256359Q20",
+            "marketId": "286548125",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−118",
+                "decimal": "1.84",
+                "fractional": "50/59"
+            },
+            "trueOdds": 1.84745763,
+            "points": 4.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "477512",
+                    "name": "Kenneth Murray",
+                    "type": "Player",
+                    "seoIdentifier": "Kenneth Murray Jr.",
+                    "statistic": {
+                        "prefix": "TCKPG",
+                        "value": 3.9
                     },
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 2502,
+            "sortOrder": 4500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286548125#390603607_13L88808Q1-1620814556Q20",
+            "marketId": "286548125",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 4.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "477512",
+                    "name": "Kenneth Murray",
+                    "type": "Player",
+                    "seoIdentifier": "Kenneth Murray Jr.",
+                    "statistic": {
+                        "prefix": "TCKPG",
+                        "value": 3.9
+                    },
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 4502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286548126#381943236_13L88808Q1-1302256359Q20",
+            "marketId": "286548126",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+124",
+                "decimal": "2.24",
+                "fractional": "31/25"
+            },
+            "trueOdds": 2.24,
+            "points": 4.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "18205",
+                    "name": "Jalen Thompson",
+                    "type": "Player",
+                    "seoIdentifier": "Jalen Thompson",
+                    "statistic": {
+                        "prefix": "TCKPG",
+                        "value": 3.9
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 4500,
             "tags": [
                 "MainPointLine"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286548126#381943240_13L88808Q1-1620814556Q20",
+            "marketId": "286548126",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−161",
+                "decimal": "1.62",
+                "fractional": "100/161"
+            },
+            "trueOdds": 1.62111802,
+            "points": 4.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "18205",
+                    "name": "Jalen Thompson",
+                    "type": "Player",
+                    "seoIdentifier": "Jalen Thompson",
+                    "statistic": {
+                        "prefix": "TCKPG",
+                        "value": 3.9
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 4502,
+            "tags": [
+                "MainPointLine"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286548141#381943077_13L88808Q1-1302256359Q20",
+            "marketId": "286548141",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+113",
+                "decimal": "2.13",
+                "fractional": "113/100"
+            },
+            "trueOdds": 2.13,
+            "points": 4.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "14974",
+                    "name": "Mack Wilson",
+                    "type": "Player",
+                    "seoIdentifier": "Mack Wilson Sr.",
+                    "statistic": {
+                        "prefix": "TCKPG",
+                        "value": 4.4
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 4500,
+            "tags": [
+                "MainPointLine",
+                "3rdFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA286548141#381943129_13L88808Q1-1620814556Q20",
+            "marketId": "286548141",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−146",
+                "decimal": "1.68",
+                "fractional": "50/73"
+            },
+            "trueOdds": 1.68493151,
+            "points": 4.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "14974",
+                    "name": "Mack Wilson",
+                    "type": "Player",
+                    "seoIdentifier": "Mack Wilson Sr.",
+                    "statistic": {
+                        "prefix": "TCKPG",
+                        "value": 4.4
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 4502,
+            "tags": [
+                "MainPointLine",
+                "3rdFavorite"
             ],
             "metadata": {}
         }
     ],
     "subscriptionPartials": {
-        "events-20361377-65984266": {
+        "events-44989454-49060576": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '18539')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '18539' AND tags/all(t: t ne 'SportcastBetBuilder')"
