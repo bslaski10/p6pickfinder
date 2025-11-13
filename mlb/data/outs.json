@@ -89,14 +89,17 @@
         "league-events-84240": {
             "entity": "events",
             "query": "$filter=leagueId eq '84240' and clientMetadata/Subcategories/any(s: s/Id eq '17413')&$orderBy=startEventDate asc",
-            "includeMarkets": "$filter=tags/all(t: t ne 'SportcastBetBuilder') and clientMetadata/subCategoryId eq '17413' and clientMetadata/categoryId eq '1031'"
+            "includeMarkets": "$filter=tags/all(t: t ne 'SportcastBetBuilder') and clientMetadata/subCategoryId eq '17413' and clientMetadata/categoryId eq '1031'",
+            "locale": "en"
         },
         "lcc-event-": {
-            "entity": "LiveContentCardEvent"
+            "entity": "LiveContentCardEvent",
+            "locale": "en"
         },
         "cc-event-": {
             "contentCardType": "All",
-            "entity": "ContentCardEvent"
+            "entity": "ContentCardEvent",
+            "locale": "en"
         }
     }
 }
