@@ -78,8 +78,8 @@ for triplet in combinations(sorted_selections, 3):
     leg_probs = [get_implied_odds_value(int(normalize_minus_sign(sel.split(", ")[2]))) / 100 for sel in legs]
     combined_prob = leg_probs[0] * leg_probs[1] * leg_probs[2]
 
-    implied_payout = 5.5
-    vig_payout = 5
+    implied_payout = 6.6
+    vig_payout = 6
 
     implied_edge = ((implied_payout * combined_prob) - 1) * 100
     vig_edge = ((vig_payout * combined_prob) - 1) * 100

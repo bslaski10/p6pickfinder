@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // (Feel free to adjust if your book rules differ)
   const BASE_PAYOUTS = {
     2: { nfl: 3.3, nba: 3.3, mlb: 3.3, nhl: 3.3, wnba: 2.75 },
-    3: { nfl: 6.6, nba: 5.5, mlb: 6.6, nhl: 6.6, wnba: 4.4 }
+    3: { nfl: 6.6, nba: 6.6, mlb: 6.6, nhl: 6.6, wnba: 4.4 }
   };
 
   function fetchSelections(sport) {
