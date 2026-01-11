@@ -27,7 +27,7 @@
             "sportId": "3",
             "leagueId": "88808",
             "name": "BUF Bills @ JAX Jaguars",
-            "startEventDate": "2026-01-11T18:00:00.0000000Z",
+            "startEventDate": "2026-01-11T18:02:35.0000000Z",
             "participants": [
                 {
                     "id": "18489",
@@ -35,7 +35,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "109",
                         "rosettaTeamId": "18489",
                         "rosettaTeamName": "Jaguars",
                         "shortName": "JAX",
@@ -52,7 +51,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "108",
                         "rosettaTeamId": "18302",
                         "rosettaTeamName": "Bills",
                         "shortName": "BUF",
@@ -65,7 +63,46 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "2nd Quarter",
+                "gameTime": 478,
+                "isClockRunning": true
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "7",
+                    "awayScore": "3"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "0",
+                        "awayScore": "3",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "7",
+                        "awayScore": "0",
+                        "name": "Q2"
+                    },
+                    {
+                        "name": "Q3"
+                    },
+                    {
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "2",
+                    "currentDriveYardsToGo": "10",
+                    "currentGameState": "0",
+                    "currentYardLine": "44",
+                    "inPossession": "away",
+                    "kickOffTeam1stHalf": "away",
+                    "kickOffTeam2ndHalf": "home"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -317,9 +354,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -331,8 +370,8 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 211932058,
-            "subscriptionKey": "events-47540046-47439887"
+            "sortOrder": 211932258,
+            "subscriptionKey": "events-40861049-59681896"
         },
         {
             "id": "33383584",
@@ -459,6 +498,7 @@
                         "670",
                         "509",
                         "592",
+                        "798",
                         "773",
                         "563",
                         "755",
@@ -645,7 +685,7 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 211953084,
-            "subscriptionKey": "events-47540046-47439887"
+            "subscriptionKey": "events-40861049-59681896"
         },
         {
             "id": "33383589",
@@ -959,7 +999,7 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 211974089,
-            "subscriptionKey": "events-47540046-47439887"
+            "subscriptionKey": "events-40861049-59681896"
         },
         {
             "id": "33383668",
@@ -1273,10 +1313,50 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 212118068,
-            "subscriptionKey": "events-47540046-47439887"
+            "subscriptionKey": "events-40861049-59681896"
         }
     ],
     "markets": [
+        {
+            "id": "302437335",
+            "eventId": "33383658",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Trevor Lawrence Passing Touchdowns O/U",
+            "subcategoryId": "9525",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "15621",
+                "betOfferTypeId": 0,
+                "name": "Passing Touchdowns O/U"
+            },
+            "subscriptionKey": "events-40861049-59681896",
+            "sortOrder": 1,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "33383658|15621|2:122715",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 1
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
+        },
         {
             "id": "300856403",
             "eventId": "33383589",
@@ -1293,36 +1373,7 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Touchdowns O/U"
             },
-            "subscriptionKey": "events-47540046-47439887",
-            "sortOrder": 1,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "33383589|12809|2:145955",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "300869547",
-            "eventId": "33383658",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Trevor Lawrence Passing Touchdowns O/U",
-            "subcategoryId": "9525",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "12809",
-                "betOfferTypeId": 0,
-                "name": "Passing Touchdowns O/U"
-            },
-            "subscriptionKey": "events-47540046-47439887",
+            "subscriptionKey": "events-40861049-59681896",
             "sortOrder": 2,
             "tags": [
                 "SGP",
@@ -1332,36 +1383,7 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "33383658|12809|2:122715",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "300868825",
-            "eventId": "33383584",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Jalen Hurts Passing Touchdowns O/U",
-            "subcategoryId": "9525",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "12809",
-                "betOfferTypeId": 0,
-                "name": "Passing Touchdowns O/U"
-            },
-            "subscriptionKey": "events-47540046-47439887",
-            "sortOrder": 3,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "33383584|12809|2:99830",
+            "correlatedId": "33383589|12809|2:145955",
             "dynamicMetadata": {}
         },
         {
@@ -1380,8 +1402,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Touchdowns O/U"
             },
-            "subscriptionKey": "events-47540046-47439887",
-            "sortOrder": 4,
+            "subscriptionKey": "events-40861049-59681896",
+            "sortOrder": 3,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1394,11 +1416,11 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "300869736",
-            "eventId": "33383658",
+            "id": "300868825",
+            "eventId": "33383584",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "Josh Allen Passing Touchdowns O/U",
+            "name": "Jalen Hurts Passing Touchdowns O/U",
             "subcategoryId": "9525",
             "componentMapping": {
                 "primary": 8,
@@ -1409,8 +1431,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Touchdowns O/U"
             },
-            "subscriptionKey": "events-47540046-47439887",
-            "sortOrder": 5,
+            "subscriptionKey": "events-40861049-59681896",
+            "sortOrder": 4,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1419,7 +1441,7 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "33383658|12809|2:55094",
+            "correlatedId": "33383584|12809|2:99830",
             "dynamicMetadata": {}
         },
         {
@@ -1438,8 +1460,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Touchdowns O/U"
             },
-            "subscriptionKey": "events-47540046-47439887",
-            "sortOrder": 6,
+            "subscriptionKey": "events-40861049-59681896",
+            "sortOrder": 5,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1467,8 +1489,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Touchdowns O/U"
             },
-            "subscriptionKey": "events-47540046-47439887",
-            "sortOrder": 7,
+            "subscriptionKey": "events-40861049-59681896",
+            "sortOrder": 6,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1479,6 +1501,46 @@
             ],
             "correlatedId": "33383584|12809|2:123619",
             "dynamicMetadata": {}
+        },
+        {
+            "id": "302437368",
+            "eventId": "33383658",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Josh Allen Passing Touchdowns O/U",
+            "subcategoryId": "9525",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "15621",
+                "betOfferTypeId": 0,
+                "name": "Passing Touchdowns O/U"
+            },
+            "subscriptionKey": "events-40861049-59681896",
+            "sortOrder": 7,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "33383658|15621|2:55094",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 0
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         },
         {
             "id": "300903281",
@@ -1496,7 +1558,7 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Touchdowns O/U"
             },
-            "subscriptionKey": "events-47540046-47439887",
+            "subscriptionKey": "events-40861049-59681896",
             "sortOrder": 8,
             "tags": [
                 "SGP",
@@ -1512,15 +1574,15 @@
     ],
     "selections": [
         {
-            "id": "0QA300869547#453010047_13L88808Q1-23661583Q20",
-            "marketId": "300869547",
+            "id": "0QA302437335#460296924_13L88808Q1-887001236Q20",
+            "marketId": "302437335",
             "label": "Over",
             "displayOdds": {
-                "american": "−109",
-                "decimal": "1.91",
-                "fractional": "100/109"
+                "american": "−255",
+                "decimal": "1.39",
+                "fractional": "20/51"
             },
-            "trueOdds": 1.9174312,
+            "trueOdds": 1.39215687,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -1529,10 +1591,6 @@
                     "name": "Trevor Lawrence",
                     "type": "Player",
                     "seoIdentifier": "Trevor Lawrence",
-                    "statistic": {
-                        "prefix": "TD/G",
-                        "value": 1.7
-                    },
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
@@ -1546,15 +1604,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA300869547#453010048_13L88808Q1-1720642580Q20",
-            "marketId": "300869547",
+            "id": "0QA302437335#460296928_15L88808Q1-1120911764Q20",
+            "marketId": "302437335",
             "label": "Under",
             "displayOdds": {
-                "american": "−117",
-                "decimal": "1.85",
-                "fractional": "100/117"
+                "american": "+185",
+                "decimal": "2.85",
+                "fractional": "37/20"
             },
-            "trueOdds": 1.85470086,
+            "trueOdds": 2.85,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -1563,10 +1621,6 @@
                     "name": "Trevor Lawrence",
                     "type": "Player",
                     "seoIdentifier": "Trevor Lawrence",
-                    "statistic": {
-                        "prefix": "TD/G",
-                        "value": 1.7
-                    },
                     "venueRole": "HomePlayer",
                     "isNationalTeam": false
                 }
@@ -1574,20 +1628,21 @@
             "sortOrder": 1502,
             "tags": [
                 "MainPointLine",
+                "SGP",
                 "1stFavorite"
             ],
             "metadata": {}
         },
         {
-            "id": "0QA300869736#453010210_13L88808Q1-23661583Q20",
-            "marketId": "300869736",
+            "id": "0QA302437368#460296966_13L88808Q1-887001236Q20",
+            "marketId": "302437368",
             "label": "Over",
             "displayOdds": {
-                "american": "+104",
-                "decimal": "2.04",
-                "fractional": "26/25"
+                "american": "+145",
+                "decimal": "2.45",
+                "fractional": "29/20"
             },
-            "trueOdds": 2.04,
+            "trueOdds": 2.45,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -1596,10 +1651,6 @@
                     "name": "Josh Allen",
                     "type": "Player",
                     "seoIdentifier": "Josh Allen",
-                    "statistic": {
-                        "prefix": "TD/G",
-                        "value": 1.5
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
@@ -1613,15 +1664,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA300869736#453010220_13L88808Q1-1720642580Q20",
-            "marketId": "300869736",
+            "id": "0QA302437368#460296980_15L88808Q1-1120911764Q20",
+            "marketId": "302437368",
             "label": "Under",
             "displayOdds": {
-                "american": "−132",
-                "decimal": "1.75",
-                "fractional": "25/33"
+                "american": "−195",
+                "decimal": "1.51",
+                "fractional": "20/39"
             },
-            "trueOdds": 1.75757576,
+            "trueOdds": 1.51282052,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -1630,10 +1681,6 @@
                     "name": "Josh Allen",
                     "type": "Player",
                     "seoIdentifier": "Josh Allen",
-                    "statistic": {
-                        "prefix": "TD/G",
-                        "value": 1.5
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
@@ -1641,6 +1688,7 @@
             "sortOrder": 1502,
             "tags": [
                 "MainPointLine",
+                "SGP",
                 "1stFavorite"
             ],
             "metadata": {}
@@ -1650,11 +1698,11 @@
             "marketId": "300868624",
             "label": "Over",
             "displayOdds": {
-                "american": "+157",
-                "decimal": "2.57",
-                "fractional": "157/100"
+                "american": "+139",
+                "decimal": "2.39",
+                "fractional": "139/100"
             },
-            "trueOdds": 2.57,
+            "trueOdds": 2.39,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -1684,11 +1732,11 @@
             "marketId": "300868624",
             "label": "Under",
             "displayOdds": {
-                "american": "−204",
-                "decimal": "1.49",
-                "fractional": "25/51"
+                "american": "−179",
+                "decimal": "1.55",
+                "fractional": "100/179"
             },
-            "trueOdds": 1.49019608,
+            "trueOdds": 1.55865922,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -1717,11 +1765,11 @@
             "marketId": "300868825",
             "label": "Over",
             "displayOdds": {
-                "american": "−104",
-                "decimal": "1.96",
-                "fractional": "25/26"
+                "american": "−101",
+                "decimal": "1.99",
+                "fractional": "100/101"
             },
-            "trueOdds": 1.96153847,
+            "trueOdds": 1.99009901,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -1751,11 +1799,11 @@
             "marketId": "300868825",
             "label": "Under",
             "displayOdds": {
-                "american": "−123",
-                "decimal": "1.81",
-                "fractional": "100/123"
+                "american": "−127",
+                "decimal": "1.78",
+                "fractional": "100/127"
             },
-            "trueOdds": 1.81300814,
+            "trueOdds": 1.78740158,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -1918,11 +1966,11 @@
             "marketId": "300903281",
             "label": "Over",
             "displayOdds": {
-                "american": "+170",
-                "decimal": "2.70",
-                "fractional": "17/10"
+                "american": "+180",
+                "decimal": "2.80",
+                "fractional": "9/5"
             },
-            "trueOdds": 2.7,
+            "trueOdds": 2.8,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -1952,11 +2000,11 @@
             "marketId": "300903281",
             "label": "Under",
             "displayOdds": {
-                "american": "−220",
-                "decimal": "1.45",
-                "fractional": "5/11"
+                "american": "−233",
+                "decimal": "1.42",
+                "fractional": "100/233"
             },
-            "trueOdds": 1.45454546,
+            "trueOdds": 1.42918455,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -1985,11 +2033,11 @@
             "marketId": "300903372",
             "label": "Over",
             "displayOdds": {
-                "american": "+119",
-                "decimal": "2.19",
-                "fractional": "119/100"
+                "american": "+122",
+                "decimal": "2.22",
+                "fractional": "61/50"
             },
-            "trueOdds": 2.19,
+            "trueOdds": 2.22,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -2019,11 +2067,11 @@
             "marketId": "300903372",
             "label": "Under",
             "displayOdds": {
-                "american": "−152",
-                "decimal": "1.65",
-                "fractional": "25/38"
+                "american": "−157",
+                "decimal": "1.63",
+                "fractional": "100/157"
             },
-            "trueOdds": 1.65789474,
+            "trueOdds": 1.63694268,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -2049,7 +2097,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-47540046-47439887": {
+        "events-40861049-59681896": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '9525')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '9525' AND tags/all(t: t ne 'SportcastBetBuilder')",
