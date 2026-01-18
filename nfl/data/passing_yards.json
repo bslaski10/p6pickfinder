@@ -27,7 +27,7 @@
             "sportId": "3",
             "leagueId": "88808",
             "name": "HOU Texans @ NE Patriots",
-            "startEventDate": "2026-01-18T20:00:00.0000000Z",
+            "startEventDate": "2026-01-18T20:03:03.0000000Z",
             "participants": [
                 {
                     "id": "18415",
@@ -35,7 +35,6 @@
                     "venueRole": "Home",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "101",
                         "rosettaTeamId": "18415",
                         "rosettaTeamName": "Patriots",
                         "shortName": "NE",
@@ -52,7 +51,6 @@
                     "venueRole": "Away",
                     "type": "Team",
                     "metadata": {
-                        "retailRotNumber": "100",
                         "rosettaTeamId": "18500",
                         "rosettaTeamName": "Texans",
                         "shortName": "HOU",
@@ -65,7 +63,50 @@
                 }
             ],
             "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
+            "status": "STARTED",
+            "liveGameState": {
+                "period": "4th Quarter",
+                "gameTime": 858
+            },
+            "eventScore": {
+                "mainScore": {
+                    "homeScore": "21",
+                    "awayScore": "16"
+                },
+                "gamePartScores": [
+                    {
+                        "homeScore": "7",
+                        "awayScore": "3",
+                        "name": "Q1"
+                    },
+                    {
+                        "homeScore": "14",
+                        "awayScore": "7",
+                        "name": "Q2"
+                    },
+                    {
+                        "homeScore": "0",
+                        "awayScore": "6",
+                        "name": "Q3"
+                    },
+                    {
+                        "homeScore": "0",
+                        "awayScore": "0",
+                        "name": "Q4"
+                    }
+                ],
+                "extraPartScores": [],
+                "metadata": {
+                    "currentDownNumber": "1",
+                    "currentDriveYardsToGo": "10",
+                    "currentGameState": "0",
+                    "currentYardLine": "41",
+                    "inPossession": "home",
+                    "kickOffTeam1stHalf": "away",
+                    "kickOffTeam2ndHalf": "home",
+                    "kickOffTeamOT": "away"
+                }
+            },
             "media": [
                 {
                     "providerName": "BetGenius",
@@ -318,9 +359,11 @@
             ],
             "tags": [
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
+                "LivePrePack",
                 "LiveStreaming",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
@@ -332,8 +375,8 @@
                 "numberOfParts": "4",
                 "secondsInOnePart": "900"
             },
-            "sortOrder": 212952052,
-            "subscriptionKey": "events-50975515-57554578"
+            "sortOrder": 212952352,
+            "subscriptionKey": "events-28408527-19664502"
         },
         {
             "id": "33411764",
@@ -647,7 +690,7 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 212973064,
-            "subscriptionKey": "events-50975515-57554578"
+            "subscriptionKey": "events-28408527-19664502"
         }
     ],
     "markets": [
@@ -667,7 +710,7 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Yards O/U"
             },
-            "subscriptionKey": "events-50975515-57554578",
+            "subscriptionKey": "events-28408527-19664502",
             "sortOrder": 1,
             "tags": [
                 "SGP",
@@ -681,22 +724,22 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "302722996",
+            "id": "304220541",
             "eventId": "33452752",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "Drake Maye Passing Yards O/U",
+            "name": "C.J. Stroud Passing Yards O/U",
             "subcategoryId": "9524",
             "componentMapping": {
                 "primary": 8,
                 "fallback": 0
             },
             "marketType": {
-                "id": "13552",
+                "id": "15617",
                 "betOfferTypeId": 0,
                 "name": "Passing Yards O/U"
             },
-            "subscriptionKey": "events-50975515-57554578",
+            "subscriptionKey": "events-28408527-19664502",
             "sortOrder": 2,
             "tags": [
                 "SGP",
@@ -706,8 +749,19 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "33452752|13552|2:145955",
-            "dynamicMetadata": {}
+            "correlatedId": "33452752|15617|2:148296",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 178
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         },
         {
             "id": "302471226",
@@ -725,7 +779,7 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Yards O/U"
             },
-            "subscriptionKey": "events-50975515-57554578",
+            "subscriptionKey": "events-28408527-19664502",
             "sortOrder": 3,
             "tags": [
                 "SGP",
@@ -739,22 +793,22 @@
             "dynamicMetadata": {}
         },
         {
-            "id": "302723534",
+            "id": "304220659",
             "eventId": "33452752",
             "sportId": "3",
             "leagueId": "88808",
-            "name": "C.J. Stroud Passing Yards O/U",
+            "name": "Drake Maye Passing Yards O/U",
             "subcategoryId": "9524",
             "componentMapping": {
                 "primary": 8,
                 "fallback": 0
             },
             "marketType": {
-                "id": "13552",
+                "id": "15617",
                 "betOfferTypeId": 0,
                 "name": "Passing Yards O/U"
             },
-            "subscriptionKey": "events-50975515-57554578",
+            "subscriptionKey": "events-28408527-19664502",
             "sortOrder": 4,
             "tags": [
                 "SGP",
@@ -764,90 +818,33 @@
                 "MicroMarketDelayRemoval",
                 "PlayerProps"
             ],
-            "correlatedId": "33452752|13552|2:148296",
-            "dynamicMetadata": {}
+            "correlatedId": "33452752|15617|2:145955",
+            "statistics": {
+                "live": [
+                    {
+                        "type": "MarketStat",
+                        "prefix": "Current",
+                        "value": 133
+                    }
+                ]
+            },
+            "dynamicMetadata": {
+                "boxScoreStatType": "FootballPassing"
+            }
         }
     ],
     "selections": [
         {
-            "id": "0QA302722996#461987009_13L88808Q1-1943477089Q20",
-            "marketId": "302722996",
+            "id": "0QA304220541#468479403_13L88808Q1-208182093Q20",
+            "marketId": "304220541",
             "label": "Over",
             "displayOdds": {
-                "american": "−113",
-                "decimal": "1.88",
-                "fractional": "100/113"
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
             },
-            "trueOdds": 1.88495576,
-            "points": 221.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "779819",
-                    "name": "Drake Maye",
-                    "type": "Player",
-                    "seoIdentifier": "Drake Maye",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 259
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 221500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA302722996#461987010_13L88808Q1-704273721Q20",
-            "marketId": "302722996",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−111",
-                "decimal": "1.90",
-                "fractional": "100/111"
-            },
-            "trueOdds": 1.90090091,
-            "points": 221.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "779819",
-                    "name": "Drake Maye",
-                    "type": "Player",
-                    "seoIdentifier": "Drake Maye",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 259
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false
-                }
-            ],
-            "sortOrder": 221502,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite"
-            ],
-            "metadata": {}
-        },
-        {
-            "id": "0QA302723534#463798299_13L88808Q1213084707Q20",
-            "marketId": "302723534",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−113",
-                "decimal": "1.88",
-                "fractional": "100/113"
-            },
-            "trueOdds": 1.88495576,
-            "points": 210.5,
+            "trueOdds": 1.86956522,
+            "points": 250.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -855,15 +852,11 @@
                     "name": "C.J. Stroud",
                     "type": "Player",
                     "seoIdentifier": "C.J. Stroud",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 219.4
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 210500,
+            "sortOrder": 250500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -872,16 +865,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA302723534#463798300_13L88808Q11397450584Q20",
-            "marketId": "302723534",
+            "id": "0QA304220541#468479404_15L88808Q11239791731Q20",
+            "marketId": "304220541",
             "label": "Under",
             "displayOdds": {
-                "american": "−111",
-                "decimal": "1.90",
-                "fractional": "100/111"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.90090091,
-            "points": 210.5,
+            "trueOdds": 1.83333334,
+            "points": 250.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -889,15 +882,11 @@
                     "name": "C.J. Stroud",
                     "type": "Player",
                     "seoIdentifier": "C.J. Stroud",
-                    "statistic": {
-                        "prefix": "YDS/G",
-                        "value": 219.4
-                    },
                     "venueRole": "AwayPlayer",
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 210502,
+            "sortOrder": 250502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -906,16 +895,76 @@
             "metadata": {}
         },
         {
-            "id": "0QA302471135#460568173_13L88808Q1-977446223Q20",
+            "id": "0QA304220659#468595369_13L88808Q1-1527820579Q20",
+            "marketId": "304220659",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 172.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "779819",
+                    "name": "Drake Maye",
+                    "type": "Player",
+                    "seoIdentifier": "Drake Maye",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 172500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA304220659#468595370_15L88808Q1-787318075Q20",
+            "marketId": "304220659",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 172.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "779819",
+                    "name": "Drake Maye",
+                    "type": "Player",
+                    "seoIdentifier": "Drake Maye",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 172502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "0QA302471135#462634586_13L88808Q1515607173Q20",
             "marketId": "302471135",
             "label": "Over",
             "displayOdds": {
-                "american": "−112",
-                "decimal": "1.89",
-                "fractional": "25/28"
+                "american": "−111",
+                "decimal": "1.90",
+                "fractional": "100/111"
             },
-            "trueOdds": 1.89285715,
-            "points": 265.5,
+            "trueOdds": 1.90090091,
+            "points": 266.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -931,7 +980,7 @@
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 265500,
+            "sortOrder": 266500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -940,16 +989,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA302471135#460568174_13L88808Q1-1356932539Q20",
+            "id": "0QA302471135#462634587_13L88808Q1-1783391392Q20",
             "marketId": "302471135",
             "label": "Under",
             "displayOdds": {
-                "american": "−112",
-                "decimal": "1.89",
-                "fractional": "25/28"
+                "american": "−113",
+                "decimal": "1.88",
+                "fractional": "100/113"
             },
-            "trueOdds": 1.89285715,
-            "points": 265.5,
+            "trueOdds": 1.88495576,
+            "points": 266.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -965,7 +1014,7 @@
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 265502,
+            "sortOrder": 266502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -974,16 +1023,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA302471226#468246506_13L88808Q1-85728713Q20",
+            "id": "0QA302471226#464642804_13L88808Q178673225Q20",
             "marketId": "302471226",
             "label": "Over",
             "displayOdds": {
-                "american": "−113",
-                "decimal": "1.88",
-                "fractional": "100/113"
+                "american": "−111",
+                "decimal": "1.90",
+                "fractional": "100/111"
             },
-            "trueOdds": 1.88495576,
-            "points": 214.5,
+            "trueOdds": 1.90090091,
+            "points": 215.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -999,7 +1048,7 @@
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 214500,
+            "sortOrder": 215500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -1008,16 +1057,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA302471226#468246507_13L88808Q1-672048293Q20",
+            "id": "0QA302471226#464642805_13L88808Q11978393459Q20",
             "marketId": "302471226",
             "label": "Under",
             "displayOdds": {
-                "american": "−111",
-                "decimal": "1.90",
-                "fractional": "100/111"
+                "american": "−113",
+                "decimal": "1.88",
+                "fractional": "100/113"
             },
-            "trueOdds": 1.90090091,
-            "points": 214.5,
+            "trueOdds": 1.88495576,
+            "points": 215.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -1033,7 +1082,7 @@
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 214502,
+            "sortOrder": 215502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -1043,7 +1092,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-50975515-57554578": {
+        "events-28408527-19664502": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '9524')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '9524' AND tags/all(t: t ne 'SportcastBetBuilder')",
