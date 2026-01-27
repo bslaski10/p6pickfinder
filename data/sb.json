@@ -137,6 +137,96 @@
             "subscriptionKey": "league-events-42648"
         },
         {
+            "id": "33525837",
+            "seoIdentifier": "NO Pelicans @ OKC Thunder",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "NO Pelicans @ OKC Thunder",
+            "startEventDate": "2026-01-28T01:00:00.0000000Z",
+            "participants": [
+                {
+                    "id": "32942",
+                    "name": "OKC Thunder",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "317",
+                        "rosettaTeamId": "32942",
+                        "rosettaTeamName": "Thunder",
+                        "shortName": "OKC",
+                        "teamColor": "#007ac1"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Thunder",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                },
+                {
+                    "id": "32938",
+                    "name": "NO Pelicans",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "316",
+                        "rosettaTeamId": "32938",
+                        "rosettaTeamName": "Pelicans",
+                        "shortName": "NO",
+                        "teamColor": "#0c2340"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Pelicans",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "NOT_STARTED",
+            "eventScorecard": {
+                "scorecardComponentId": 1
+            },
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "62926107",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "62926107",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "62926107",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "Broadcast_NBALeaguePass",
+                "FeaturedSubcategory",
+                "MatchTracker",
+                "PrePack",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "29",
+                "numberOfParts": "4",
+                "secondsInOnePart": "720"
+            },
+            "sortOrder": 214278001,
+            "subscriptionKey": "league-events-42648"
+        },
+        {
             "id": "33525839",
             "seoIdentifier": "DET Pistons @ DEN Nuggets",
             "sportId": "2",
@@ -241,7 +331,7 @@
                 "name": "Steals + Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 1,
+            "sortOrder": 2,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -275,6 +365,29 @@
             "dynamicMetadata": {}
         },
         {
+            "id": "306054865",
+            "eventId": "33525837",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Derik Queen Steals + Blocks O/U",
+            "subcategoryId": 13781,
+            "marketType": {
+                "id": "12673",
+                "betOfferTypeId": 0,
+                "name": "Steals + Blocks O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 4,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "33525837|12673|2:196025",
+            "dynamicMetadata": {}
+        },
+        {
             "id": "306052320",
             "eventId": "33525839",
             "sportId": "2",
@@ -287,7 +400,7 @@
                 "name": "Steals + Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 2,
+            "sortOrder": 1,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -304,11 +417,11 @@
             "marketId": "306050600",
             "label": "Over",
             "displayOdds": {
-                "american": "−200",
+                "american": "−197",
                 "decimal": "1.50",
-                "fractional": "1/2"
+                "fractional": "100/197"
             },
-            "trueOdds": 1.5,
+            "trueOdds": 1.50761422,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -334,15 +447,49 @@
             "metadata": {}
         },
         {
+            "id": "0QA306054865#477260013_13L42648Q1-531079473Q20",
+            "marketId": "306054865",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−124",
+                "decimal": "1.80",
+                "fractional": "25/31"
+            },
+            "trueOdds": 1.80645162,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "905562",
+                    "name": "Derik Queen",
+                    "type": "Player",
+                    "seoIdentifier": "Derik Queen",
+                    "statistic": {
+                        "prefix": "S+B/G",
+                        "value": 1.9
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA306050600#477240438_15L42648Q1-1083950481Q20",
             "marketId": "306050600",
             "label": "Under",
             "displayOdds": {
-                "american": "+149",
-                "decimal": "2.49",
-                "fractional": "149/100"
+                "american": "+147",
+                "decimal": "2.47",
+                "fractional": "147/100"
             },
-            "trueOdds": 2.49,
+            "trueOdds": 2.47,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -368,15 +515,49 @@
             "metadata": {}
         },
         {
+            "id": "0QA306054865#477260121_15L42648Q1-1083950481Q20",
+            "marketId": "306054865",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−107",
+                "decimal": "1.93",
+                "fractional": "100/107"
+            },
+            "trueOdds": 1.93457944,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "905562",
+                    "name": "Derik Queen",
+                    "type": "Player",
+                    "seoIdentifier": "Derik Queen",
+                    "statistic": {
+                        "prefix": "S+B/G",
+                        "value": 1.9
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA306050664#477732158_13L42648Q1779889742Q20",
             "marketId": "306050664",
             "label": "Over",
             "displayOdds": {
-                "american": "+101",
-                "decimal": "2.01",
-                "fractional": "101/100"
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
             },
-            "trueOdds": 2.01,
+            "trueOdds": 2.05,
             "points": 2.5,
             "outcomeType": "Over",
             "participants": [
@@ -406,11 +587,11 @@
             "marketId": "306052320",
             "label": "Over",
             "displayOdds": {
-                "american": "+102",
-                "decimal": "2.02",
-                "fractional": "51/50"
+                "american": "−121",
+                "decimal": "1.82",
+                "fractional": "100/121"
             },
-            "trueOdds": 2.02,
+            "trueOdds": 1.82644629,
             "points": 2.5,
             "outcomeType": "Over",
             "participants": [
@@ -440,11 +621,11 @@
             "marketId": "306050664",
             "label": "Under",
             "displayOdds": {
-                "american": "−134",
-                "decimal": "1.74",
-                "fractional": "50/67"
+                "american": "−139",
+                "decimal": "1.71",
+                "fractional": "100/139"
             },
-            "trueOdds": 1.74626866,
+            "trueOdds": 1.71942447,
             "points": 2.5,
             "outcomeType": "Under",
             "participants": [
@@ -474,11 +655,11 @@
             "marketId": "306052320",
             "label": "Under",
             "displayOdds": {
-                "american": "−135",
-                "decimal": "1.74",
-                "fractional": "20/27"
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
             },
-            "trueOdds": 1.74074075,
+            "trueOdds": 1.90909091,
             "points": 2.5,
             "outcomeType": "Under",
             "participants": [
@@ -1883,6 +2064,24 @@
             ]
         },
         {
+            "id": 16824,
+            "categoryId": 522,
+            "name": "Alternate Spread - Q3",
+            "componentId": 240,
+            "sortOrder": 8624,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16825,
+            "categoryId": 522,
+            "name": "Alternate Spread - Q4",
+            "componentId": 240,
+            "sortOrder": 10030,
+            "tags": []
+        },
+        {
             "id": 16826,
             "categoryId": 522,
             "name": "Alternate Total - Q1",
@@ -1899,6 +2098,26 @@
             "name": "Alternate Total - Q2",
             "componentId": 240,
             "sortOrder": 7862,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16828,
+            "categoryId": 522,
+            "name": "Alternate Total - Q3",
+            "componentId": 240,
+            "sortOrder": 9972,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16829,
+            "categoryId": 522,
+            "name": "Alternate Total -  Q4",
+            "componentId": 240,
+            "sortOrder": 10031,
             "tags": [
                 "SGP"
             ]
@@ -2195,6 +2414,17 @@
             ]
         },
         {
+            "id": 4599,
+            "categoryId": 520,
+            "name": "2nd Half",
+            "componentId": 210,
+            "sortOrder": 4593,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
             "id": 4600,
             "categoryId": 522,
             "name": "1st Quarter",
@@ -2211,6 +2441,26 @@
             "name": "2nd Quarter",
             "componentId": 210,
             "sortOrder": 6226,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 4602,
+            "categoryId": 522,
+            "name": "3rd Quarter",
+            "componentId": 210,
+            "sortOrder": 8560,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 4603,
+            "categoryId": 522,
+            "name": "4th Quarter",
+            "componentId": 210,
+            "sortOrder": 10029,
             "tags": [
                 "SGP"
             ]
@@ -2337,7 +2587,8 @@
             "componentId": 29,
             "sortOrder": 4594,
             "tags": [
-                "Featured"
+                "Featured",
+                "SGP"
             ]
         },
         {
@@ -2423,6 +2674,26 @@
             "componentId": 8,
             "sortOrder": 13743,
             "tags": []
+        },
+        {
+            "id": 19030,
+            "categoryId": 1157,
+            "name": "1st Block",
+            "componentId": 29,
+            "sortOrder": 18987,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 19031,
+            "categoryId": 1157,
+            "name": "1st Steal",
+            "componentId": 29,
+            "sortOrder": 18988,
+            "tags": [
+                "SGP"
+            ]
         },
         {
             "id": 17960,
