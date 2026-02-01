@@ -4,7 +4,7 @@
             "id": "3",
             "seoIdentifier": "football",
             "name": "Football",
-            "sortOrder": 59
+            "sortOrder": 62
         }
     ],
     "leagues": [
@@ -39,7 +39,7 @@
                         "rosettaTeamId": "18415",
                         "rosettaTeamName": "Patriots",
                         "shortName": "NE",
-                        "teamColor": "#002244"
+                        "teamColor": "#C60C30"
                     },
                     "sortOrder": 2,
                     "seoIdentifier": "Patriots",
@@ -67,6 +67,11 @@
             "eventParticipantType": "TwoTeam",
             "status": "NOT_STARTED",
             "media": [
+                {
+                    "providerName": "Simplebet",
+                    "providerEventId": "483dc886-a33f-47ac-aad8-9b30d0f83447",
+                    "mediaType": "MatchTracker"
+                },
                 {
                     "providerName": "BetRadarStats",
                     "providerEventId": "67426020",
@@ -105,7 +110,7 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 215997086,
-            "subscriptionKey": "events-61159564-56075952"
+            "subscriptionKey": "events-18091304-46382908"
         }
     ],
     "markets": [
@@ -125,7 +130,7 @@
                 "betOfferTypeId": 0,
                 "name": "Kicking Points O/U"
             },
-            "subscriptionKey": "events-61159564-56075952",
+            "subscriptionKey": "events-18091304-46382908",
             "sortOrder": 1,
             "tags": [
                 "YourBetEligible",
@@ -153,7 +158,7 @@
                 "betOfferTypeId": 0,
                 "name": "Kicking Points O/U"
             },
-            "subscriptionKey": "events-61159564-56075952",
+            "subscriptionKey": "events-18091304-46382908",
             "sortOrder": 2,
             "tags": [
                 "YourBetEligible",
@@ -172,11 +177,11 @@
             "marketId": "305610851",
             "label": "Over",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
             },
-            "trueOdds": 2,
+            "trueOdds": 1.95238096,
             "points": 8.5,
             "outcomeType": "Over",
             "participants": [
@@ -205,11 +210,11 @@
             "marketId": "305610851",
             "label": "Under",
             "displayOdds": {
-                "american": "−128",
-                "decimal": "1.78",
-                "fractional": "25/32"
+                "american": "−122",
+                "decimal": "1.81",
+                "fractional": "50/61"
             },
-            "trueOdds": 1.78125,
+            "trueOdds": 1.81967214,
             "points": 8.5,
             "outcomeType": "Under",
             "participants": [
@@ -238,11 +243,11 @@
             "marketId": "305610921",
             "label": "Over",
             "displayOdds": {
-                "american": "−116",
-                "decimal": "1.86",
-                "fractional": "25/29"
+                "american": "−133",
+                "decimal": "1.75",
+                "fractional": "100/133"
             },
-            "trueOdds": 1.86206897,
+            "trueOdds": 1.7518797,
             "points": 6.5,
             "outcomeType": "Over",
             "participants": [
@@ -271,11 +276,11 @@
             "marketId": "305610921",
             "label": "Under",
             "displayOdds": {
-                "american": "−110",
-                "decimal": "1.90",
-                "fractional": "10/11"
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
             },
-            "trueOdds": 1.90909091,
+            "trueOdds": 2.05,
             "points": 6.5,
             "outcomeType": "Under",
             "participants": [
@@ -301,7 +306,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-61159564-56075952": {
+        "events-18091304-46382908": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '17062')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '17062' AND tags/all(t: t ne 'SportcastBetBuilder')",
