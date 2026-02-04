@@ -137,6 +137,96 @@
             "subscriptionKey": "league-events-42648"
         },
         {
+            "id": "33574053",
+            "seoIdentifier": "BOS Celtics @ HOU Rockets",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "BOS Celtics @ HOU Rockets",
+            "startEventDate": "2026-02-05T01:00:00.0000000Z",
+            "participants": [
+                {
+                    "id": "32919",
+                    "name": "HOU Rockets",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "313",
+                        "rosettaTeamId": "32919",
+                        "rosettaTeamName": "Rockets",
+                        "shortName": "HOU",
+                        "teamColor": "#ce1141"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Rockets",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                },
+                {
+                    "id": "32898",
+                    "name": "BOS Celtics",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "312",
+                        "rosettaTeamId": "32898",
+                        "rosettaTeamName": "Celtics",
+                        "shortName": "BOS",
+                        "teamColor": "#007a33"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Celtics",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "NOT_STARTED",
+            "eventScorecard": {
+                "scorecardComponentId": 1
+            },
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "62924399",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "62924399",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "62924399",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "Broadcast_NBALeaguePass",
+                "FeaturedSubcategory",
+                "MatchTracker",
+                "PrePack",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "29",
+                "numberOfParts": "4",
+                "secondsInOnePart": "720"
+            },
+            "sortOrder": 215430001,
+            "subscriptionKey": "league-events-42648"
+        },
+        {
             "id": "33574055",
             "seoIdentifier": "OKC Thunder @ SA Spurs",
             "sportId": "2",
@@ -264,7 +354,7 @@
                 "name": "Steals + Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 3,
+            "sortOrder": 4,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -287,7 +377,7 @@
                 "name": "Steals + Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 4,
+            "sortOrder": 5,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -295,6 +385,29 @@
                 "PlayerProps"
             ],
             "correlatedId": "33574052|12673|2:117160",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "307990674",
+            "eventId": "33574053",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Derrick White Steals + Blocks O/U",
+            "subcategoryId": 13781,
+            "marketType": {
+                "id": "12673",
+                "betOfferTypeId": 0,
+                "name": "Steals + Blocks O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 3,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "33574053|12673|2:55220",
             "dynamicMetadata": {}
         },
         {
@@ -463,11 +576,11 @@
             "marketId": "307987693",
             "label": "Over",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−111",
+                "decimal": "1.90",
+                "fractional": "100/111"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.90090091,
             "points": 2.5,
             "outcomeType": "Over",
             "participants": [
@@ -493,15 +606,49 @@
             "metadata": {}
         },
         {
+            "id": "0QA307990674#486104456_13L42648Q1779889742Q20",
+            "marketId": "307990674",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−104",
+                "decimal": "1.96",
+                "fractional": "25/26"
+            },
+            "trueOdds": 1.96153847,
+            "points": 2.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "33364",
+                    "name": "Derrick White",
+                    "type": "Player",
+                    "seoIdentifier": "Derrick White",
+                    "statistic": {
+                        "prefix": "S+B/G",
+                        "value": 2.7
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 2500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA307987693#486084645_15L42648Q1-1212489465Q20",
             "marketId": "307987693",
             "label": "Under",
             "displayOdds": {
-                "american": "−115",
-                "decimal": "1.86",
-                "fractional": "20/23"
+                "american": "−119",
+                "decimal": "1.84",
+                "fractional": "100/119"
             },
-            "trueOdds": 1.86956522,
+            "trueOdds": 1.84033614,
             "points": 2.5,
             "outcomeType": "Under",
             "participants": [
@@ -527,15 +674,49 @@
             "metadata": {}
         },
         {
+            "id": "0QA307990674#486104472_15L42648Q1-1212489465Q20",
+            "marketId": "307990674",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−128",
+                "decimal": "1.78",
+                "fractional": "25/32"
+            },
+            "trueOdds": 1.78125,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "33364",
+                    "name": "Derrick White",
+                    "type": "Player",
+                    "seoIdentifier": "Derrick White",
+                    "statistic": {
+                        "prefix": "S+B/G",
+                        "value": 2.7
+                    },
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
             "id": "0QA308022937#486293650_13L42648Q11667862290Q20",
             "marketId": "308022937",
             "label": "Over",
             "displayOdds": {
-                "american": "−118",
-                "decimal": "1.84",
-                "fractional": "50/59"
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
             },
-            "trueOdds": 1.84745763,
+            "trueOdds": 1.83333334,
             "points": 3.5,
             "outcomeType": "Over",
             "participants": [
@@ -565,11 +746,11 @@
             "marketId": "308022937",
             "label": "Under",
             "displayOdds": {
-                "american": "−113",
-                "decimal": "1.88",
-                "fractional": "100/113"
+                "american": "−111",
+                "decimal": "1.90",
+                "fractional": "100/111"
             },
-            "trueOdds": 1.88495576,
+            "trueOdds": 1.90090091,
             "points": 3.5,
             "outcomeType": "Under",
             "participants": [
@@ -829,22 +1010,6 @@
             "name": "6th Player",
             "componentId": 29,
             "sortOrder": 17472,
-            "tags": []
-        },
-        {
-            "id": 17514,
-            "categoryId": 518,
-            "name": "ECF MVP",
-            "componentId": 29,
-            "sortOrder": 17426,
-            "tags": []
-        },
-        {
-            "id": 17515,
-            "categoryId": 518,
-            "name": "WCF MVP",
-            "componentId": 29,
-            "sortOrder": 17471,
             "tags": []
         },
         {
@@ -1212,6 +1377,16 @@
             ]
         },
         {
+            "id": 13508,
+            "categoryId": 1293,
+            "name": "Steals O/U",
+            "componentId": 8,
+            "sortOrder": 13744,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 13759,
             "categoryId": 583,
             "name": "Triple-Double",
@@ -1230,6 +1405,16 @@
             "sortOrder": 4986,
             "tags": [
                 "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 13780,
+            "categoryId": 1293,
+            "name": "Blocks O/U",
+            "componentId": 8,
+            "sortOrder": 14556,
+            "tags": [
                 "SGP"
             ]
         },
@@ -1457,6 +1642,14 @@
             "tags": []
         },
         {
+            "id": 16385,
+            "categoryId": 1683,
+            "name": "Both Player Steals",
+            "componentId": 29,
+            "sortOrder": 16469,
+            "tags": []
+        },
+        {
             "id": 16387,
             "categoryId": 1684,
             "name": "Either Player Points",
@@ -1486,6 +1679,14 @@
             "name": "Either Player Threes",
             "componentId": 29,
             "sortOrder": 16347,
+            "tags": []
+        },
+        {
+            "id": 16391,
+            "categoryId": 1684,
+            "name": "Either Player Steals",
+            "componentId": 29,
+            "sortOrder": 16348,
             "tags": []
         },
         {
@@ -1821,14 +2022,6 @@
             "tags": [
                 "SGP"
             ]
-        },
-        {
-            "id": 16698,
-            "categoryId": 1157,
-            "name": "1st Dunk Scorer",
-            "componentId": 204,
-            "sortOrder": 12326,
-            "tags": []
         },
         {
             "id": 16720,
@@ -2430,26 +2623,6 @@
             ]
         },
         {
-            "id": 13508,
-            "categoryId": 1293,
-            "name": "Steals O/U",
-            "componentId": 8,
-            "sortOrder": 13744,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
-            "id": 13780,
-            "categoryId": 1293,
-            "name": "Blocks O/U",
-            "componentId": 8,
-            "sortOrder": 14556,
-            "tags": [
-                "SGP"
-            ]
-        },
-        {
             "id": 13781,
             "categoryId": 1293,
             "name": "Steals + Blocks O/U",
@@ -2468,27 +2641,11 @@
             ]
         },
         {
-            "id": 16385,
-            "categoryId": 1683,
-            "name": "Both Player Steals",
-            "componentId": 29,
-            "sortOrder": 16469,
-            "tags": []
-        },
-        {
             "id": 16386,
             "categoryId": 1683,
             "name": "Both Player Blocks",
             "componentId": 29,
             "sortOrder": 17655,
-            "tags": []
-        },
-        {
-            "id": 16391,
-            "categoryId": 1684,
-            "name": "Either Player Steals",
-            "componentId": 29,
-            "sortOrder": 16348,
             "tags": []
         },
         {
@@ -2498,6 +2655,34 @@
             "componentId": 29,
             "sortOrder": 16349,
             "tags": []
+        },
+        {
+            "id": 16698,
+            "categoryId": 1157,
+            "name": "1st Dunk Scorer",
+            "componentId": 204,
+            "sortOrder": 12326,
+            "tags": []
+        },
+        {
+            "id": 19030,
+            "categoryId": 1157,
+            "name": "1st Block",
+            "componentId": 29,
+            "sortOrder": 18987,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 19031,
+            "categoryId": 1157,
+            "name": "1st Steal",
+            "componentId": 29,
+            "sortOrder": 18988,
+            "tags": [
+                "SGP"
+            ]
         },
         {
             "id": 10503,
@@ -2537,6 +2722,14 @@
             "name": "Conference Winner",
             "componentId": 29,
             "sortOrder": 7505,
+            "tags": []
+        },
+        {
+            "id": 18707,
+            "categoryId": 1895,
+            "name": "To Make Play In",
+            "componentId": 29,
+            "sortOrder": 18664,
             "tags": []
         },
         {
@@ -2585,14 +2778,6 @@
             "name": "Longest Win Streak",
             "componentId": 29,
             "sortOrder": 18647,
-            "tags": []
-        },
-        {
-            "id": 18707,
-            "categoryId": 1895,
-            "name": "To Make Play In",
-            "componentId": 29,
-            "sortOrder": 18664,
             "tags": []
         }
     ],
