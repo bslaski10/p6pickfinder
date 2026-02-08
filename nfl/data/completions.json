@@ -333,39 +333,10 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 215997086,
-            "subscriptionKey": "events-44227917-52086634"
+            "subscriptionKey": "events-6307085-63345999"
         }
     ],
     "markets": [
-        {
-            "id": "305611420",
-            "eventId": "33488086",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Sam Darnold Passing Completions O/U",
-            "subcategoryId": "9522",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13685",
-                "betOfferTypeId": 0,
-                "name": "Passing Completions O/U"
-            },
-            "subscriptionKey": "events-44227917-52086634",
-            "sortOrder": 1,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "33488086|13685|2:55027",
-            "dynamicMetadata": {}
-        },
         {
             "id": "305611196",
             "eventId": "33488086",
@@ -382,8 +353,8 @@
                 "betOfferTypeId": 0,
                 "name": "Passing Completions O/U"
             },
-            "subscriptionKey": "events-44227917-52086634",
-            "sortOrder": 2,
+            "subscriptionKey": "events-6307085-63345999",
+            "sortOrder": 1,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -394,20 +365,49 @@
             ],
             "correlatedId": "33488086|13685|2:145955",
             "dynamicMetadata": {}
+        },
+        {
+            "id": "305611420",
+            "eventId": "33488086",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Sam Darnold Passing Completions O/U",
+            "subcategoryId": "9522",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "13685",
+                "betOfferTypeId": 0,
+                "name": "Passing Completions O/U"
+            },
+            "subscriptionKey": "events-6307085-63345999",
+            "sortOrder": 2,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "33488086|13685|2:55027",
+            "dynamicMetadata": {}
         }
     ],
     "selections": [
         {
-            "id": "0QA305611196#475023885_13L88808Q11989889011Q20",
+            "id": "0QA305611196#474998577_13L88808Q11817943715Q20",
             "marketId": "305611196",
             "label": "Over",
             "displayOdds": {
-                "american": "−127",
-                "decimal": "1.78",
-                "fractional": "100/127"
+                "american": "+102",
+                "decimal": "2.02",
+                "fractional": "51/50"
             },
-            "trueOdds": 1.78740158,
-            "points": 19.5,
+            "trueOdds": 2.02,
+            "points": 20.5,
             "outcomeType": "Over",
             "participants": [
                 {
@@ -419,7 +419,7 @@
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 19500,
+            "sortOrder": 20500,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -428,16 +428,16 @@
             "metadata": {}
         },
         {
-            "id": "0QA305611196#475023886_13L88808Q1-788053285Q20",
+            "id": "0QA305611196#474998635_13L88808Q1167019687Q20",
             "marketId": "305611196",
             "label": "Under",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
             },
-            "trueOdds": 2,
-            "points": 19.5,
+            "trueOdds": 1.76923077,
+            "points": 20.5,
             "outcomeType": "Under",
             "participants": [
                 {
@@ -449,7 +449,7 @@
                     "isNationalTeam": false
                 }
             ],
-            "sortOrder": 19502,
+            "sortOrder": 20502,
             "tags": [
                 "MainPointLine",
                 "SGP",
@@ -462,11 +462,11 @@
             "marketId": "305611420",
             "label": "Over",
             "displayOdds": {
-                "american": "+106",
-                "decimal": "2.06",
-                "fractional": "53/50"
+                "american": "+108",
+                "decimal": "2.08",
+                "fractional": "27/25"
             },
-            "trueOdds": 2.06,
+            "trueOdds": 2.08,
             "points": 20.5,
             "outcomeType": "Over",
             "participants": [
@@ -492,11 +492,11 @@
             "marketId": "305611420",
             "label": "Under",
             "displayOdds": {
-                "american": "−136",
-                "decimal": "1.73",
-                "fractional": "25/34"
+                "american": "−138",
+                "decimal": "1.72",
+                "fractional": "50/69"
             },
-            "trueOdds": 1.73529412,
+            "trueOdds": 1.72463769,
             "points": 20.5,
             "outcomeType": "Under",
             "participants": [
@@ -519,7 +519,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-44227917-52086634": {
+        "events-6307085-63345999": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '9522')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '9522' AND tags/all(t: t ne 'SportcastBetBuilder')",
