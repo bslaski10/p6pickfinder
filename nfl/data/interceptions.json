@@ -4,7 +4,7 @@
             "id": "3",
             "seoIdentifier": "football",
             "name": "Football",
-            "sortOrder": 64
+            "sortOrder": 56
         }
     ],
     "leagues": [
@@ -333,39 +333,10 @@
                 "secondsInOnePart": "900"
             },
             "sortOrder": 215997086,
-            "subscriptionKey": "events-5975212-66168346"
+            "subscriptionKey": "events-57087346-32665126"
         }
     ],
     "markets": [
-        {
-            "id": "305611745",
-            "eventId": "33488086",
-            "sportId": "3",
-            "leagueId": "88808",
-            "name": "Sam Darnold Interceptions Thrown O/U",
-            "subcategoryId": "15937",
-            "componentMapping": {
-                "primary": 8,
-                "fallback": 0
-            },
-            "marketType": {
-                "id": "13678",
-                "betOfferTypeId": 0,
-                "name": "Interceptions Thrown O/U"
-            },
-            "subscriptionKey": "events-5975212-66168346",
-            "sortOrder": 1,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "PlayerProps"
-            ],
-            "correlatedId": "33488086|13678|2:55027",
-            "dynamicMetadata": {}
-        },
         {
             "id": "305611537",
             "eventId": "33488086",
@@ -382,8 +353,8 @@
                 "betOfferTypeId": 0,
                 "name": "Interceptions Thrown O/U"
             },
-            "subscriptionKey": "events-5975212-66168346",
-            "sortOrder": 2,
+            "subscriptionKey": "events-57087346-32665126",
+            "sortOrder": 1,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -394,6 +365,35 @@
             ],
             "correlatedId": "33488086|13678|2:145955",
             "dynamicMetadata": {}
+        },
+        {
+            "id": "305611745",
+            "eventId": "33488086",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Sam Darnold Interceptions Thrown O/U",
+            "subcategoryId": "15937",
+            "componentMapping": {
+                "primary": 8,
+                "fallback": 0
+            },
+            "marketType": {
+                "id": "13678",
+                "betOfferTypeId": 0,
+                "name": "Interceptions Thrown O/U"
+            },
+            "subscriptionKey": "events-57087346-32665126",
+            "sortOrder": 2,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "33488086|13678|2:55027",
+            "dynamicMetadata": {}
         }
     ],
     "selections": [
@@ -402,11 +402,11 @@
             "marketId": "305611537",
             "label": "Over",
             "displayOdds": {
-                "american": "−127",
-                "decimal": "1.78",
-                "fractional": "100/127"
+                "american": "−130",
+                "decimal": "1.76",
+                "fractional": "10/13"
             },
-            "trueOdds": 1.78740158,
+            "trueOdds": 1.76923077,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -436,11 +436,11 @@
             "marketId": "305611537",
             "label": "Under",
             "displayOdds": {
-                "american": "+100",
-                "decimal": "2.00",
-                "fractional": "1/1"
+                "american": "+102",
+                "decimal": "2.02",
+                "fractional": "51/50"
             },
-            "trueOdds": 2,
+            "trueOdds": 2.02,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -470,11 +470,11 @@
             "marketId": "305611745",
             "label": "Over",
             "displayOdds": {
-                "american": "−126",
-                "decimal": "1.79",
-                "fractional": "50/63"
+                "american": "−134",
+                "decimal": "1.74",
+                "fractional": "50/67"
             },
-            "trueOdds": 1.7936508,
+            "trueOdds": 1.74626866,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -504,11 +504,11 @@
             "marketId": "305611745",
             "label": "Under",
             "displayOdds": {
-                "american": "−101",
-                "decimal": "1.99",
-                "fractional": "100/101"
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
             },
-            "trueOdds": 1.99009901,
+            "trueOdds": 2.05,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -535,7 +535,7 @@
         }
     ],
     "subscriptionPartials": {
-        "events-5975212-66168346": {
+        "events-57087346-32665126": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '15937')",
             "includeMarkets": "$filter=clientMetadata/subCategoryId eq '15937' AND tags/all(t: t ne 'SportcastBetBuilder')",
