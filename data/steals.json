@@ -9,13 +9,37 @@
             "id": "42648",
             "name": "NBA",
             "sportId": "2",
-            "sortOrder": 4858,
+            "sortOrder": 4875,
             "tags": [
+                "Broadcast_NBALeaguePass",
+                "FeaturedSubcategory",
+                "MatchTracker",
+                "PrePack",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible",
+                "Broadcast_Prime",
                 "Featured",
                 "FavoriteableFromPage"
             ],
             "isTeamSwap": true,
-            "featured": true
+            "featured": true,
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "mediaType": "MatchTracker"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "mediaType": "Scoreboard"
+                }
+            ]
         }
     ],
     "events": [],
@@ -23,9 +47,121 @@
     "selections": [],
     "categories": [
         {
+            "id": 487,
+            "name": "Game Lines",
+            "sortOrder": 487,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 1284,
+            "name": "NBA Cup",
+            "sortOrder": 519
+        },
+        {
+            "id": 1157,
+            "name": "Quick Hits",
+            "sortOrder": 521,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 1215,
+            "name": "Player Points",
+            "sortOrder": 523,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 1218,
+            "name": "Player Threes",
+            "sortOrder": 583,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 1216,
+            "name": "Player Rebounds",
+            "sortOrder": 584,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 1217,
+            "name": "Player Assists",
+            "sortOrder": 593,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 583,
+            "name": "Player Combos",
+            "sortOrder": 675,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 1683,
+            "name": "Combined Player Props",
+            "sortOrder": 704
+        },
+        {
+            "id": 1684,
+            "name": "Either Player Props",
+            "sortOrder": 707
+        },
+        {
             "id": 1280,
             "name": "Player Specials",
             "sortOrder": 764
+        },
+        {
+            "id": 1206,
+            "name": "H2H Player Props",
+            "categoryType": "H2H",
+            "sortOrder": 833,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 520,
+            "name": "Halves",
+            "sortOrder": 998,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 522,
+            "name": "Quarters",
+            "sortOrder": 1000,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 521,
+            "name": "Game Props",
+            "sortOrder": 1002,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 523,
+            "name": "Team Props",
+            "sortOrder": 1003,
+            "tags": [
+                "SGP"
+            ]
         },
         {
             "id": 519,
@@ -201,6 +337,549 @@
             "tags": []
         },
         {
+            "id": 10254,
+            "categoryId": 521,
+            "name": "Largest Lead",
+            "componentId": 29,
+            "sortOrder": 4612,
+            "tags": []
+        },
+        {
+            "id": 12219,
+            "categoryId": 521,
+            "name": "Wire to Wire",
+            "componentId": 29,
+            "sortOrder": 10059,
+            "tags": []
+        },
+        {
+            "id": 12237,
+            "categoryId": 521,
+            "name": "Margin Parlays",
+            "componentId": 204,
+            "sortOrder": 15314,
+            "tags": []
+        },
+        {
+            "id": 12241,
+            "categoryId": 522,
+            "name": "Margin Parlays",
+            "componentId": 204,
+            "sortOrder": 10038,
+            "tags": []
+        },
+        {
+            "id": 12488,
+            "categoryId": 1215,
+            "name": "Points O/U",
+            "componentId": 8,
+            "sortOrder": 12452,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 12492,
+            "categoryId": 1216,
+            "name": "Rebounds O/U",
+            "componentId": 8,
+            "sortOrder": 12455,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 12495,
+            "categoryId": 1217,
+            "name": "Assists O/U",
+            "componentId": 8,
+            "sortOrder": 12458,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 12497,
+            "categoryId": 1218,
+            "name": "Threes O/U",
+            "componentId": 8,
+            "sortOrder": 12477,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 13762,
+            "categoryId": 583,
+            "name": "Double-Double",
+            "componentId": 204,
+            "sortOrder": 4986,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 15358,
+            "categoryId": 521,
+            "name": "Largest Comeback",
+            "componentId": 29,
+            "sortOrder": 4611,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 15608,
+            "categoryId": 520,
+            "name": "Spread - Both Halves",
+            "componentId": 29,
+            "sortOrder": 12196,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 15609,
+            "categoryId": 520,
+            "name": "Team Totals Odd/Even - Both Halves",
+            "componentId": 29,
+            "sortOrder": 13157,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 15610,
+            "categoryId": 522,
+            "name": "Team Totals Odd/Even - All Quarters",
+            "componentId": 29,
+            "sortOrder": 10039,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 15611,
+            "categoryId": 522,
+            "name": "Spread - All Quarters",
+            "componentId": 29,
+            "sortOrder": 5911,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16305,
+            "categoryId": 1157,
+            "name": "1st Point",
+            "componentId": 204,
+            "sortOrder": 11444,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16312,
+            "categoryId": 1206,
+            "name": "Points",
+            "componentId": 310,
+            "sortOrder": 16353,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16313,
+            "categoryId": 1206,
+            "name": "Rebounds",
+            "componentId": 310,
+            "sortOrder": 16354,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16314,
+            "categoryId": 1206,
+            "name": "Assists",
+            "componentId": 310,
+            "sortOrder": 16355,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16315,
+            "categoryId": 1206,
+            "name": "Threes",
+            "componentId": 310,
+            "sortOrder": 16356,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16324,
+            "categoryId": 1157,
+            "name": "1st Scorer - Exact",
+            "componentId": 204,
+            "sortOrder": 11451,
+            "tags": []
+        },
+        {
+            "id": 16381,
+            "categoryId": 1683,
+            "name": "Both Player Points",
+            "componentId": 29,
+            "sortOrder": 16341,
+            "tags": []
+        },
+        {
+            "id": 16382,
+            "categoryId": 1683,
+            "name": "Both Player Threes",
+            "componentId": 29,
+            "sortOrder": 16468,
+            "tags": []
+        },
+        {
+            "id": 16383,
+            "categoryId": 1683,
+            "name": "Both Player Rebounds",
+            "componentId": 29,
+            "sortOrder": 16342,
+            "tags": []
+        },
+        {
+            "id": 16384,
+            "categoryId": 1683,
+            "name": "Both Player Assists",
+            "componentId": 29,
+            "sortOrder": 16343,
+            "tags": []
+        },
+        {
+            "id": 16387,
+            "categoryId": 1684,
+            "name": "Either Player Points",
+            "componentId": 29,
+            "sortOrder": 16344,
+            "tags": []
+        },
+        {
+            "id": 16388,
+            "categoryId": 1684,
+            "name": "Either Player Rebounds",
+            "componentId": 29,
+            "sortOrder": 16345,
+            "tags": []
+        },
+        {
+            "id": 16389,
+            "categoryId": 1684,
+            "name": "Either Player Assists",
+            "componentId": 29,
+            "sortOrder": 16346,
+            "tags": []
+        },
+        {
+            "id": 16390,
+            "categoryId": 1684,
+            "name": "Either Player Threes",
+            "componentId": 29,
+            "sortOrder": 16347,
+            "tags": []
+        },
+        {
+            "id": 16477,
+            "categoryId": 1215,
+            "name": "Points",
+            "componentId": 331,
+            "sortOrder": 12450,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16478,
+            "categoryId": 1217,
+            "name": "Assists",
+            "componentId": 331,
+            "sortOrder": 12457,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16479,
+            "categoryId": 1216,
+            "name": "Rebounds",
+            "componentId": 331,
+            "sortOrder": 12454,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16480,
+            "categoryId": 1218,
+            "name": "Threes",
+            "componentId": 331,
+            "sortOrder": 12459,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16481,
+            "categoryId": 583,
+            "name": "Pts + Ast",
+            "componentId": 331,
+            "sortOrder": 5007,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16482,
+            "categoryId": 583,
+            "name": "Pts + Reb",
+            "componentId": 331,
+            "sortOrder": 4995,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16483,
+            "categoryId": 583,
+            "name": "Pts + Reb + Ast",
+            "componentId": 331,
+            "sortOrder": 4927,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16555,
+            "categoryId": 520,
+            "name": "Team to Win Both Halves",
+            "componentId": 29,
+            "sortOrder": 10033,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16559,
+            "categoryId": 522,
+            "name": "Last Team to Score - All Quarters",
+            "componentId": 12,
+            "sortOrder": 6225,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16563,
+            "categoryId": 520,
+            "name": "Race to X Points - Both Halves",
+            "componentId": 29,
+            "sortOrder": 10898,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16564,
+            "categoryId": 520,
+            "name": "Race to X Points - 1st Half",
+            "componentId": 29,
+            "sortOrder": 10042,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16565,
+            "categoryId": 520,
+            "name": "Race to X Points - 2nd Half",
+            "componentId": 29,
+            "sortOrder": 10897,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16566,
+            "categoryId": 522,
+            "name": "Race to X Points - All Quarters",
+            "componentId": 29,
+            "sortOrder": 4621,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16726,
+            "categoryId": 523,
+            "name": "Alt Team Totals",
+            "componentId": 240,
+            "sortOrder": 16683,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16727,
+            "categoryId": 523,
+            "name": "Both Team Total Points",
+            "componentId": 240,
+            "sortOrder": 16684,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 18790,
+            "categoryId": 520,
+            "name": "Last Team to Score - Both Halves",
+            "componentId": 29,
+            "sortOrder": 12204,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 18794,
+            "categoryId": 522,
+            "name": "Winning Margin - All Quarters",
+            "componentId": 203,
+            "sortOrder": 5912,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 18795,
+            "categoryId": 522,
+            "name": "Team To Win All Quarters",
+            "componentId": 29,
+            "sortOrder": 4619,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 18834,
+            "categoryId": 520,
+            "name": "Winning Margin - Both Halves",
+            "componentId": 202,
+            "sortOrder": 12234,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 4511,
+            "categoryId": 487,
+            "name": "Game",
+            "componentId": 210,
+            "sortOrder": 4506,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 5001,
+            "categoryId": 583,
+            "name": "Pts + Reb + Ast O/U",
+            "componentId": 8,
+            "sortOrder": 5396,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 9973,
+            "categoryId": 583,
+            "name": "Pts + Ast O/U",
+            "componentId": 8,
+            "sortOrder": 5708,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 9974,
+            "categoryId": 583,
+            "name": "Ast + Reb O/U",
+            "componentId": 8,
+            "sortOrder": 5074,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 9976,
+            "categoryId": 583,
+            "name": "Pts + Reb O/U",
+            "componentId": 8,
+            "sortOrder": 5397,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 13759,
+            "categoryId": 583,
+            "name": "Triple-Double",
+            "componentId": 204,
+            "sortOrder": 4987,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 19027,
+            "categoryId": 1157,
+            "name": "1st Assist",
+            "componentId": 29,
+            "sortOrder": 18984,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 19028,
+            "categoryId": 1157,
+            "name": "1st Rebound",
+            "componentId": 29,
+            "sortOrder": 18985,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 19029,
+            "categoryId": 1157,
+            "name": "1st Made Three",
+            "componentId": 29,
+            "sortOrder": 18986,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 10503,
             "categoryId": 519,
             "name": "Winner Specials",
@@ -222,6 +901,14 @@
             "name": "Milestone Specials",
             "componentId": 204,
             "sortOrder": 18866,
+            "tags": []
+        },
+        {
+            "id": 18845,
+            "categoryId": 1284,
+            "name": "To Reach Round",
+            "componentId": 29,
+            "sortOrder": 18802,
             "tags": []
         },
         {
