@@ -53,6 +53,46 @@
             ]
         },
         {
+            "id": 1215,
+            "name": "Player Points",
+            "sortOrder": 523,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 1218,
+            "name": "Player Threes",
+            "sortOrder": 583,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 1216,
+            "name": "Player Rebounds",
+            "sortOrder": 584,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 1217,
+            "name": "Player Assists",
+            "sortOrder": 593,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 583,
+            "name": "Player Combos",
+            "sortOrder": 675,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 520,
             "name": "Halves",
             "sortOrder": 998,
@@ -90,9 +130,22 @@
             "sortOrder": 1027
         },
         {
+            "id": 1264,
+            "name": "Series Markets",
+            "sortOrder": 1029
+        },
+        {
             "id": 518,
             "name": "Awards",
             "sortOrder": 1120
+        },
+        {
+            "id": 1241,
+            "name": "Player Props",
+            "sortOrder": 1569,
+            "tags": [
+                "SGP"
+            ]
         },
         {
             "id": 1894,
@@ -371,6 +424,91 @@
             ]
         },
         {
+            "id": 16477,
+            "categoryId": 1215,
+            "name": "Points",
+            "componentId": 331,
+            "sortOrder": 12450,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16478,
+            "categoryId": 1217,
+            "name": "Assists",
+            "componentId": 331,
+            "sortOrder": 12457,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16479,
+            "categoryId": 1216,
+            "name": "Rebounds",
+            "componentId": 331,
+            "sortOrder": 12454,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16480,
+            "categoryId": 1218,
+            "name": "Threes",
+            "componentId": 331,
+            "sortOrder": 12459,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16481,
+            "categoryId": 583,
+            "name": "Pts + Ast",
+            "componentId": 331,
+            "sortOrder": 5007,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16482,
+            "categoryId": 583,
+            "name": "Pts + Reb",
+            "componentId": 331,
+            "sortOrder": 4995,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16483,
+            "categoryId": 583,
+            "name": "Pts + Reb + Ast",
+            "componentId": 331,
+            "sortOrder": 4927,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 19560,
+            "categoryId": 1241,
+            "name": "Reb + Ast",
+            "componentId": 331,
+            "sortOrder": 19517,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
             "id": 10503,
             "categoryId": 519,
             "name": "Winner Specials",
@@ -384,6 +522,14 @@
             "name": "Play-In Performance",
             "componentId": 204,
             "sortOrder": 16489,
+            "tags": []
+        },
+        {
+            "id": 17685,
+            "categoryId": 1264,
+            "name": "Comeback Series Win",
+            "componentId": 29,
+            "sortOrder": 17644,
             "tags": []
         },
         {
@@ -415,7 +561,7 @@
         "league-events-42648": {
             "entity": "events",
             "query": "$filter=leagueId eq '42648' and clientMetadata/Subcategories/any(s: s/Id eq '12497')&$orderBy=startEventDate asc",
-            "includeMarkets": "$filter=tags/all(t: t ne 'SportcastBetBuilder') and clientMetadata/subCategoryId eq '12497' and clientMetadata/categoryId eq '1218'",
+            "includeMarkets": "$filter=tags/all(t: t ne 'SportcastBetBuilder') and clientMetadata/subCategoryId eq '12497'",
             "locale": "en"
         },
         "lcc-event-": {
