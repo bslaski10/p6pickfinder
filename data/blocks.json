@@ -17,16 +17,20 @@
                 "OSB",
                 "Broadcast_ABC",
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
                 "Stats",
                 "YourBetEligible",
                 "Broadcast_NBCPeacock",
+                "PrePack",
                 "Broadcast_Prime",
                 "Featured",
+                "HasLiveEvents",
+                "LiveFeaturedSubcategory",
                 "FavoriteableFromPage"
             ],
             "isTeamSwap": true,
@@ -48,97 +52,6 @@
         }
     ],
     "events": [
-        {
-            "id": "34121947",
-            "seoIdentifier": "NY Knicks @ PHI 76ers",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "NY Knicks @ PHI 76ers",
-            "startEventDate": "2026-05-10T19:40:00.0000000Z",
-            "participants": [
-                {
-                    "id": "32947",
-                    "name": "PHI 76ers",
-                    "venueRole": "Home",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "301",
-                        "rosettaTeamId": "32947",
-                        "rosettaTeamName": "76ers",
-                        "shortName": "PHI",
-                        "teamColor": "#006bb6"
-                    },
-                    "sortOrder": 2,
-                    "seoIdentifier": "76ers",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                },
-                {
-                    "id": "32940",
-                    "name": "NY Knicks",
-                    "venueRole": "Away",
-                    "type": "Team",
-                    "metadata": {
-                        "retailRotNumber": "300",
-                        "rosettaTeamId": "32940",
-                        "rosettaTeamName": "Knicks",
-                        "shortName": "NY",
-                        "teamColor": "#006bb6"
-                    },
-                    "sortOrder": 1,
-                    "seoIdentifier": "Knicks",
-                    "isNationalTeam": false,
-                    "countryCode": "US"
-                }
-            ],
-            "eventParticipantType": "TwoTeam",
-            "status": "NOT_STARTED",
-            "eventScorecard": {
-                "scorecardComponentId": 1
-            },
-            "media": [
-                {
-                    "providerName": "BetRadarStats",
-                    "providerEventId": "70504980",
-                    "mediaType": "Stats"
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "70504980",
-                    "mediaType": "MatchTracker",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                },
-                {
-                    "providerName": "BetRadarV3",
-                    "providerEventId": "70504980",
-                    "mediaType": "Scoreboard",
-                    "metadata": {
-                        "betRadarCoverage": "3"
-                    }
-                }
-            ],
-            "tags": [
-                "Broadcast_ABC",
-                "FeaturedSubcategory",
-                "MatchTracker",
-                "OSB",
-                "PrePack",
-                "SGP",
-                "Scoreboard",
-                "SgpDynamicOdds",
-                "Stats",
-                "YourBetEligible"
-            ],
-            "metadata": {
-                "masterLeagueId": "29",
-                "numberOfParts": "4",
-                "secondsInOnePart": "720"
-            },
-            "sortOrder": 229078047,
-            "subscriptionKey": "league-events-42648"
-        },
         {
             "id": "34121970",
             "seoIdentifier": "SA Spurs @ MIN Timberwolves",
@@ -415,266 +328,6 @@
     ],
     "markets": [
         {
-            "id": "332987066",
-            "eventId": "34121947",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Joel Embiid Blocks O/U",
-            "subcategoryId": 13780,
-            "marketType": {
-                "id": "12666",
-                "betOfferTypeId": 0,
-                "name": "Blocks O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 6,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "OSB",
-                "PlayerProps"
-            ],
-            "correlatedId": "34121947|12666|2:55227",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "332987008",
-            "eventId": "34121947",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Mitchell Robinson Blocks O/U",
-            "subcategoryId": 13780,
-            "marketType": {
-                "id": "12666",
-                "betOfferTypeId": 0,
-                "name": "Blocks O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 7,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "OSB",
-                "PlayerProps"
-            ],
-            "correlatedId": "34121947|12666|2:101125",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "332986469",
-            "eventId": "34121947",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Karl-Anthony Towns Blocks O/U",
-            "subcategoryId": 13780,
-            "marketType": {
-                "id": "12666",
-                "betOfferTypeId": 0,
-                "name": "Blocks O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 11,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "OSB",
-                "PlayerProps"
-            ],
-            "correlatedId": "34121947|12666|2:55191",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "332986707",
-            "eventId": "34121947",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Mikal Bridges Blocks O/U",
-            "subcategoryId": 13780,
-            "marketType": {
-                "id": "12666",
-                "betOfferTypeId": 0,
-                "name": "Blocks O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 14,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "OSB",
-                "PlayerProps"
-            ],
-            "correlatedId": "34121947|12666|2:58646",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "332986714",
-            "eventId": "34121947",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Tyrese Maxey Blocks O/U",
-            "subcategoryId": 13780,
-            "marketType": {
-                "id": "12666",
-                "betOfferTypeId": 0,
-                "name": "Blocks O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 16,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "OSB",
-                "PlayerProps"
-            ],
-            "correlatedId": "34121947|12666|2:101151",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "332986720",
-            "eventId": "34121947",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "VJ Edgecombe Blocks O/U",
-            "subcategoryId": 13780,
-            "marketType": {
-                "id": "12666",
-                "betOfferTypeId": 0,
-                "name": "Blocks O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 20,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "OSB",
-                "PlayerProps"
-            ],
-            "correlatedId": "34121947|12666|2:181120",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "332987126",
-            "eventId": "34121947",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Kelly Oubre Jr. Blocks O/U",
-            "subcategoryId": 13780,
-            "marketType": {
-                "id": "12666",
-                "betOfferTypeId": 0,
-                "name": "Blocks O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 21,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "OSB",
-                "PlayerProps"
-            ],
-            "correlatedId": "34121947|12666|2:55234",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "332986363",
-            "eventId": "34121947",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Paul George Blocks O/U",
-            "subcategoryId": 13780,
-            "marketType": {
-                "id": "12666",
-                "betOfferTypeId": 0,
-                "name": "Blocks O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 23,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "OSB",
-                "PlayerProps"
-            ],
-            "correlatedId": "34121947|12666|2:55166",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "332986492",
-            "eventId": "34121947",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Josh Hart Blocks O/U",
-            "subcategoryId": 13780,
-            "marketType": {
-                "id": "12666",
-                "betOfferTypeId": 0,
-                "name": "Blocks O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 27,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "OSB",
-                "PlayerProps"
-            ],
-            "correlatedId": "34121947|12666|2:55798",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "332987046",
-            "eventId": "34121947",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Jalen Brunson Blocks O/U",
-            "subcategoryId": 13780,
-            "marketType": {
-                "id": "12666",
-                "betOfferTypeId": 0,
-                "name": "Blocks O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 32,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "OSB",
-                "PlayerProps"
-            ],
-            "correlatedId": "34121947|12666|2:58596",
-            "dynamicMetadata": {}
-        },
-        {
             "id": "333010974",
             "eventId": "34121970",
             "sportId": "2",
@@ -739,7 +392,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 8,
+            "sortOrder": 6,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -765,7 +418,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 9,
+            "sortOrder": 7,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -791,7 +444,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 12,
+            "sortOrder": 9,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -817,7 +470,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 19,
+            "sortOrder": 13,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -843,7 +496,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 24,
+            "sortOrder": 16,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -869,7 +522,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 26,
+            "sortOrder": 18,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -895,7 +548,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 28,
+            "sortOrder": 19,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -906,32 +559,6 @@
                 "PlayerProps"
             ],
             "correlatedId": "34121970|12666|2:55201",
-            "dynamicMetadata": {}
-        },
-        {
-            "id": "333011453",
-            "eventId": "34121970",
-            "sportId": "2",
-            "leagueId": "42648",
-            "name": "Stephon Castle Blocks O/U",
-            "subcategoryId": 13780,
-            "marketType": {
-                "id": "12666",
-                "betOfferTypeId": 0,
-                "name": "Blocks O/U"
-            },
-            "subscriptionKey": "league-events-42648",
-            "sortOrder": 29,
-            "tags": [
-                "SGP",
-                "YourBetEligible",
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "OSB",
-                "PlayerProps"
-            ],
-            "correlatedId": "34121970|12666|2:177616",
             "dynamicMetadata": {}
         },
         {
@@ -947,7 +574,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 30,
+            "sortOrder": 20,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -958,6 +585,32 @@
                 "PlayerProps"
             ],
             "correlatedId": "34121970|12666|2:55241",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "333011453",
+            "eventId": "34121970",
+            "sportId": "2",
+            "leagueId": "42648",
+            "name": "Stephon Castle Blocks O/U",
+            "subcategoryId": 13780,
+            "marketType": {
+                "id": "12666",
+                "betOfferTypeId": 0,
+                "name": "Blocks O/U"
+            },
+            "subscriptionKey": "league-events-42648",
+            "sortOrder": 21,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "OSB",
+                "PlayerProps"
+            ],
+            "correlatedId": "34121970|12666|2:177616",
             "dynamicMetadata": {}
         },
         {
@@ -1051,7 +704,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 10,
+            "sortOrder": 8,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1077,7 +730,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 13,
+            "sortOrder": 10,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1103,7 +756,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 15,
+            "sortOrder": 11,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1129,7 +782,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 17,
+            "sortOrder": 12,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1155,7 +808,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 18,
+            "sortOrder": 14,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1181,7 +834,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 22,
+            "sortOrder": 15,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1207,7 +860,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 25,
+            "sortOrder": 17,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1233,7 +886,7 @@
                 "name": "Blocks O/U"
             },
             "subscriptionKey": "league-events-42648",
-            "sortOrder": 31,
+            "sortOrder": 22,
             "tags": [
                 "SGP",
                 "YourBetEligible",
@@ -1248,353 +901,6 @@
         }
     ],
     "selections": [
-        {
-            "id": "0QA332986363#594312392_13L42648Q1558907120Q20",
-            "marketId": "332986363",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+119",
-                "decimal": "2.19",
-                "fractional": "119/100"
-            },
-            "trueOdds": 2.19,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33100",
-                    "name": "Paul George",
-                    "type": "Player",
-                    "seoIdentifier": "Paul George",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.4
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "55166"
-                    }
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332986469#594312528_13L42648Q1558907120Q20",
-            "marketId": "332986469",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−183",
-                "decimal": "1.54",
-                "fractional": "100/183"
-            },
-            "trueOdds": 1.54644809,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33194",
-                    "name": "Karl-Anthony Towns",
-                    "type": "Player",
-                    "seoIdentifier": "Karl-Anthony Towns",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.6
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "55191"
-                    }
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "2ndFavorite",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332986492#594312711_13L42648Q1558907120Q20",
-            "marketId": "332986492",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+236",
-                "decimal": "3.36",
-                "fractional": "59/25"
-            },
-            "trueOdds": 3.36,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33217",
-                    "name": "Josh Hart",
-                    "type": "Player",
-                    "seoIdentifier": "Josh Hart",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.2
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "55798"
-                    }
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332986707#594312944_13L42648Q1558907120Q20",
-            "marketId": "332986707",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−138",
-                "decimal": "1.72",
-                "fractional": "50/69"
-            },
-            "trueOdds": 1.72463769,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33313",
-                    "name": "Mikal Bridges",
-                    "type": "Player",
-                    "seoIdentifier": "Mikal Bridges",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.7
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "58646"
-                    }
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "3rdFavorite",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332986714#594313484_13L42648Q1558907120Q20",
-            "marketId": "332986714",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−101",
-                "decimal": "1.99",
-                "fractional": "100/101"
-            },
-            "trueOdds": 1.99009901,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "527230",
-                    "name": "Tyrese Maxey",
-                    "type": "Player",
-                    "seoIdentifier": "Tyrese Maxey",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.7
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "101151"
-                    }
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "2ndFavorite",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332986720#594313131_13L42648Q1558907120Q20",
-            "marketId": "332986720",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+112",
-                "decimal": "2.12",
-                "fractional": "28/25"
-            },
-            "trueOdds": 2.12,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "905552",
-                    "name": "VJ Edgecombe",
-                    "type": "Player",
-                    "seoIdentifier": "VJ Edgecombe",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.5
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "181120"
-                    }
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "3rdFavorite",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332987008#594321983_13L42648Q1558907120Q20",
-            "marketId": "332987008",
-            "label": "Over",
-            "displayOdds": {
-                "american": "−211",
-                "decimal": "1.47",
-                "fractional": "100/211"
-            },
-            "trueOdds": 1.47393365,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33242",
-                    "name": "Mitchell Robinson",
-                    "type": "Player",
-                    "seoIdentifier": "Mitchell Robinson",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 1.1
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "101125"
-                    }
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332987046#594314279_13L42648Q1558907120Q20",
-            "marketId": "332987046",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+413",
-                "decimal": "5.13",
-                "fractional": "413/100"
-            },
-            "trueOdds": 5.13,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33006",
-                    "name": "Jalen Brunson",
-                    "type": "Player",
-                    "seoIdentifier": "Jalen Brunson",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.1
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "58596"
-                    }
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332987126#594313733_13L42648Q1558907120Q20",
-            "marketId": "332987126",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+113",
-                "decimal": "2.13",
-                "fractional": "113/100"
-            },
-            "trueOdds": 2.13,
-            "points": 0.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33310",
-                    "name": "Kelly Oubre Jr.",
-                    "type": "Player",
-                    "seoIdentifier": "Kelly Oubre Jr.",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.5
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "55234"
-                    }
-                }
-            ],
-            "sortOrder": 500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
         {
             "id": "0QA333010738#594410034_13L42648Q1558907120Q20",
             "marketId": "333010738",
@@ -1639,11 +945,11 @@
             "marketId": "333010885",
             "label": "Over",
             "displayOdds": {
-                "american": "+109",
-                "decimal": "2.09",
-                "fractional": "109/100"
+                "american": "+106",
+                "decimal": "2.06",
+                "fractional": "53/50"
             },
-            "trueOdds": 2.09,
+            "trueOdds": 2.06,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -1678,11 +984,11 @@
             "marketId": "333010886",
             "label": "Over",
             "displayOdds": {
-                "american": "+240",
-                "decimal": "3.40",
-                "fractional": "12/5"
+                "american": "+233",
+                "decimal": "3.33",
+                "fractional": "233/100"
             },
-            "trueOdds": 3.4,
+            "trueOdds": 3.33,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -1716,11 +1022,11 @@
             "marketId": "333010892",
             "label": "Over",
             "displayOdds": {
-                "american": "+154",
-                "decimal": "2.54",
-                "fractional": "77/50"
+                "american": "+149",
+                "decimal": "2.49",
+                "fractional": "149/100"
             },
-            "trueOdds": 2.54,
+            "trueOdds": 2.49,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -1755,11 +1061,11 @@
             "marketId": "333010904",
             "label": "Over",
             "displayOdds": {
-                "american": "+267",
-                "decimal": "3.67",
-                "fractional": "267/100"
+                "american": "+257",
+                "decimal": "3.57",
+                "fractional": "257/100"
             },
-            "trueOdds": 3.67,
+            "trueOdds": 3.57,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -1870,11 +1176,11 @@
             "marketId": "333011364",
             "label": "Over",
             "displayOdds": {
-                "american": "−167",
-                "decimal": "1.59",
-                "fractional": "100/167"
+                "american": "−172",
+                "decimal": "1.58",
+                "fractional": "25/43"
             },
-            "trueOdds": 1.5988024,
+            "trueOdds": 1.58139535,
             "points": 0.5,
             "outcomeType": "Over",
             "participants": [
@@ -2251,344 +1557,6 @@
             "metadata": {}
         },
         {
-            "id": "0QA332986363#594312397_15L42648Q1846831995Q20",
-            "marketId": "332986363",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−159",
-                "decimal": "1.62",
-                "fractional": "100/159"
-            },
-            "trueOdds": 1.62893082,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33100",
-                    "name": "Paul George",
-                    "type": "Player",
-                    "seoIdentifier": "Paul George",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.4
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "55166"
-                    }
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332986469#594312544_15L42648Q1846831995Q20",
-            "marketId": "332986469",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+137",
-                "decimal": "2.37",
-                "fractional": "137/100"
-            },
-            "trueOdds": 2.37,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33194",
-                    "name": "Karl-Anthony Towns",
-                    "type": "Player",
-                    "seoIdentifier": "Karl-Anthony Towns",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.6
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "55191"
-                    }
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine",
-                "2ndFavorite",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332986492#594312734_15L42648Q1846831995Q20",
-            "marketId": "332986492",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−326",
-                "decimal": "1.30",
-                "fractional": "50/163"
-            },
-            "trueOdds": 1.30674847,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33217",
-                    "name": "Josh Hart",
-                    "type": "Player",
-                    "seoIdentifier": "Josh Hart",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.2
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "55798"
-                    }
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332986707#594312983_15L42648Q1846831995Q20",
-            "marketId": "332986707",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+104",
-                "decimal": "2.04",
-                "fractional": "26/25"
-            },
-            "trueOdds": 2.04,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33313",
-                    "name": "Mikal Bridges",
-                    "type": "Player",
-                    "seoIdentifier": "Mikal Bridges",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.7
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "58646"
-                    }
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332986714#594313612_15L42648Q1846831995Q20",
-            "marketId": "332986714",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−131",
-                "decimal": "1.76",
-                "fractional": "100/131"
-            },
-            "trueOdds": 1.76335878,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "527230",
-                    "name": "Tyrese Maxey",
-                    "type": "Player",
-                    "seoIdentifier": "Tyrese Maxey",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.7
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "101151"
-                    }
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine",
-                "2ndFavorite",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332986720#594313210_15L42648Q1846831995Q20",
-            "marketId": "332986720",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−149",
-                "decimal": "1.67",
-                "fractional": "100/149"
-            },
-            "trueOdds": 1.67114094,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "905552",
-                    "name": "VJ Edgecombe",
-                    "type": "Player",
-                    "seoIdentifier": "VJ Edgecombe",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.5
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "181120"
-                    }
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine",
-                "3rdFavorite",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332987008#594321984_15L42648Q1846831995Q20",
-            "marketId": "332987008",
-            "label": "Under",
-            "displayOdds": {
-                "american": "+157",
-                "decimal": "2.57",
-                "fractional": "157/100"
-            },
-            "trueOdds": 2.57,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33242",
-                    "name": "Mitchell Robinson",
-                    "type": "Player",
-                    "seoIdentifier": "Mitchell Robinson",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 1.1
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "101125"
-                    }
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332987046#594314362_15L42648Q1846831995Q20",
-            "marketId": "332987046",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−610",
-                "decimal": "1.16",
-                "fractional": "10/61"
-            },
-            "trueOdds": 1.16393443,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33006",
-                    "name": "Jalen Brunson",
-                    "type": "Player",
-                    "seoIdentifier": "Jalen Brunson",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.1
-                    },
-                    "venueRole": "AwayPlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "58596"
-                    }
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
-            "id": "0QA332987126#594313865_15L42648Q1846831995Q20",
-            "marketId": "332987126",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−151",
-                "decimal": "1.66",
-                "fractional": "100/151"
-            },
-            "trueOdds": 1.66225166,
-            "points": 0.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33310",
-                    "name": "Kelly Oubre Jr.",
-                    "type": "Player",
-                    "seoIdentifier": "Kelly Oubre Jr.",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 0.5
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "55234"
-                    }
-                }
-            ],
-            "sortOrder": 502,
-            "tags": [
-                "MainPointLine",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA333010738#594410036_15L42648Q1846831995Q20",
             "marketId": "333010738",
             "label": "Under",
@@ -2631,11 +1599,11 @@
             "marketId": "333010885",
             "label": "Under",
             "displayOdds": {
-                "american": "−145",
-                "decimal": "1.68",
-                "fractional": "20/29"
+                "american": "−140",
+                "decimal": "1.71",
+                "fractional": "5/7"
             },
-            "trueOdds": 1.68965518,
+            "trueOdds": 1.71428572,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -2669,11 +1637,11 @@
             "marketId": "333010886",
             "label": "Under",
             "displayOdds": {
-                "american": "−332",
-                "decimal": "1.30",
-                "fractional": "25/83"
+                "american": "−321",
+                "decimal": "1.31",
+                "fractional": "100/321"
             },
-            "trueOdds": 1.30120482,
+            "trueOdds": 1.31152648,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -2706,11 +1674,11 @@
             "marketId": "333010892",
             "label": "Under",
             "displayOdds": {
-                "american": "−207",
-                "decimal": "1.48",
-                "fractional": "100/207"
+                "american": "−200",
+                "decimal": "1.50",
+                "fractional": "1/2"
             },
-            "trueOdds": 1.48309179,
+            "trueOdds": 1.5,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -2744,11 +1712,11 @@
             "marketId": "333010904",
             "label": "Under",
             "displayOdds": {
-                "american": "−372",
-                "decimal": "1.26",
-                "fractional": "25/93"
+                "american": "−357",
+                "decimal": "1.28",
+                "fractional": "100/357"
             },
-            "trueOdds": 1.26881721,
+            "trueOdds": 1.28011205,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -2856,11 +1824,11 @@
             "marketId": "333011364",
             "label": "Under",
             "displayOdds": {
-                "american": "+125",
-                "decimal": "2.25",
-                "fractional": "5/4"
+                "american": "+129",
+                "decimal": "2.29",
+                "fractional": "129/100"
             },
-            "trueOdds": 2.25,
+            "trueOdds": 2.29,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -2893,11 +1861,11 @@
             "marketId": "333011453",
             "label": "Under",
             "displayOdds": {
-                "american": "−369",
+                "american": "−370",
                 "decimal": "1.27",
-                "fractional": "100/369"
+                "fractional": "10/37"
             },
-            "trueOdds": 1.27100272,
+            "trueOdds": 1.27027028,
             "points": 0.5,
             "outcomeType": "Under",
             "participants": [
@@ -3227,54 +2195,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA332987066#594314239_13L42648Q136927167Q20",
-            "marketId": "332987066",
-            "label": "Over",
-            "displayOdds": {
-                "american": "+155",
-                "decimal": "2.55",
-                "fractional": "31/20"
-            },
-            "trueOdds": 2.55,
-            "points": 1.5,
-            "outcomeType": "Over",
-            "participants": [
-                {
-                    "id": "33292",
-                    "name": "Joel Embiid",
-                    "type": "Player",
-                    "seoIdentifier": "Joel Embiid",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 1.2
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "55227"
-                    }
-                }
-            ],
-            "sortOrder": 1500,
-            "tags": [
-                "MainPointLine",
-                "SGP",
-                "1stFavorite",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA333010755#594410021_13L42648Q136927167Q20",
             "marketId": "333010755",
             "label": "Over",
             "displayOdds": {
-                "american": "+126",
-                "decimal": "2.26",
-                "fractional": "63/50"
+                "american": "+122",
+                "decimal": "2.22",
+                "fractional": "61/50"
             },
-            "trueOdds": 2.26,
+            "trueOdds": 2.22,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -3309,11 +2238,11 @@
             "marketId": "333172478",
             "label": "Over",
             "displayOdds": {
-                "american": "−123",
-                "decimal": "1.81",
-                "fractional": "100/123"
+                "american": "−117",
+                "decimal": "1.85",
+                "fractional": "100/117"
             },
-            "trueOdds": 1.81300814,
+            "trueOdds": 1.85470086,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -3348,11 +2277,11 @@
             "marketId": "333172759",
             "label": "Over",
             "displayOdds": {
-                "american": "+136",
-                "decimal": "2.36",
-                "fractional": "34/25"
+                "american": "+135",
+                "decimal": "2.35",
+                "fractional": "27/20"
             },
-            "trueOdds": 2.36,
+            "trueOdds": 2.35,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -3422,53 +2351,15 @@
             "metadata": {}
         },
         {
-            "id": "0QA332987066#594314315_15L42648Q1346312705Q20",
-            "marketId": "332987066",
-            "label": "Under",
-            "displayOdds": {
-                "american": "−208",
-                "decimal": "1.48",
-                "fractional": "25/52"
-            },
-            "trueOdds": 1.48076924,
-            "points": 1.5,
-            "outcomeType": "Under",
-            "participants": [
-                {
-                    "id": "33292",
-                    "name": "Joel Embiid",
-                    "type": "Player",
-                    "seoIdentifier": "Joel Embiid",
-                    "statistic": {
-                        "prefix": "BLKPG",
-                        "value": 1.2
-                    },
-                    "venueRole": "HomePlayer",
-                    "isNationalTeam": false,
-                    "metadata": {
-                        "sdid": "55227"
-                    }
-                }
-            ],
-            "sortOrder": 1502,
-            "tags": [
-                "MainPointLine",
-                "1stFavorite",
-                "OSB"
-            ],
-            "main": true,
-            "metadata": {}
-        },
-        {
             "id": "0QA333010755#594410024_15L42648Q1346312705Q20",
             "marketId": "333010755",
             "label": "Under",
             "displayOdds": {
-                "american": "−168",
-                "decimal": "1.59",
-                "fractional": "25/42"
+                "american": "−162",
+                "decimal": "1.61",
+                "fractional": "50/81"
             },
-            "trueOdds": 1.5952381,
+            "trueOdds": 1.61728396,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -3502,11 +2393,11 @@
             "marketId": "333172478",
             "label": "Under",
             "displayOdds": {
-                "american": "−108",
-                "decimal": "1.92",
-                "fractional": "25/27"
+                "american": "−113",
+                "decimal": "1.88",
+                "fractional": "100/113"
             },
-            "trueOdds": 1.92592593,
+            "trueOdds": 1.88495576,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -3540,11 +2431,11 @@
             "marketId": "333172759",
             "label": "Under",
             "displayOdds": {
-                "american": "−182",
-                "decimal": "1.54",
-                "fractional": "50/91"
+                "american": "−181",
+                "decimal": "1.55",
+                "fractional": "100/181"
             },
-            "trueOdds": 1.54945055,
+            "trueOdds": 1.55248619,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -3616,11 +2507,11 @@
             "marketId": "333010974",
             "label": "Over",
             "displayOdds": {
-                "american": "−165",
-                "decimal": "1.60",
-                "fractional": "20/33"
+                "american": "−159",
+                "decimal": "1.62",
+                "fractional": "100/159"
             },
-            "trueOdds": 1.60606061,
+            "trueOdds": 1.62893082,
             "points": 3.5,
             "outcomeType": "Over",
             "participants": [
@@ -3655,11 +2546,11 @@
             "marketId": "333010974",
             "label": "Under",
             "displayOdds": {
-                "american": "+124",
-                "decimal": "2.24",
-                "fractional": "31/25"
+                "american": "+119",
+                "decimal": "2.19",
+                "fractional": "119/100"
             },
-            "trueOdds": 2.24,
+            "trueOdds": 2.19,
             "points": 3.5,
             "outcomeType": "Under",
             "participants": [
@@ -3695,7 +2586,8 @@
             "name": "Game Lines",
             "sortOrder": 487,
             "tags": [
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -3709,6 +2601,16 @@
             "sortOrder": 521,
             "tags": [
                 "SGP"
+            ]
+        },
+        {
+            "id": 697,
+            "name": "Flash Props",
+            "sortOrder": 522,
+            "tags": [
+                "MicroMarket",
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -3855,19 +2757,9 @@
             ]
         },
         {
-            "id": 1771,
-            "name": "Specials",
-            "sortOrder": 1767
-        },
-        {
             "id": 1921,
             "name": "Player Prop Specials",
             "sortOrder": 1902
-        },
-        {
-            "id": 1933,
-            "name": "1st Round Props",
-            "sortOrder": 1914
         }
     ],
     "subcategories": [
@@ -3920,28 +2812,62 @@
             "tags": []
         },
         {
-            "id": 12813,
-            "categoryId": 519,
-            "name": "Exact Round Elimination",
+            "id": 10749,
+            "categoryId": 697,
+            "name": "Next Field Goal - Type",
             "componentId": 29,
-            "sortOrder": 10915,
-            "tags": []
+            "sortOrder": 5986,
+            "tags": [
+                "MicroMarket",
+                "SGP",
+                "Live"
+            ]
         },
         {
-            "id": 19614,
-            "categoryId": 519,
-            "name": "Sweep Specials",
-            "componentId": 204,
-            "sortOrder": 19571,
-            "tags": []
+            "id": 10750,
+            "categoryId": 697,
+            "name": "Next Field Goal",
+            "componentId": 29,
+            "sortOrder": 5984,
+            "tags": [
+                "MicroMarket",
+                "SGP",
+                "Live"
+            ]
         },
         {
-            "id": 19627,
-            "categoryId": 519,
-            "name": "Team O/U ",
+            "id": 12254,
+            "categoryId": 697,
+            "name": "Next Field Goal - Player",
             "componentId": 29,
-            "sortOrder": 19584,
-            "tags": []
+            "sortOrder": 6148,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 15089,
+            "categoryId": 697,
+            "name": "Next Field Goal - Attempt",
+            "componentId": 29,
+            "sortOrder": 6147,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 4511,
+            "categoryId": 487,
+            "name": "Game",
+            "componentId": 210,
+            "sortOrder": 4506,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
         },
         {
             "id": 10093,
@@ -5454,17 +4380,6 @@
             ]
         },
         {
-            "id": 4511,
-            "categoryId": 487,
-            "name": "Game",
-            "componentId": 210,
-            "sortOrder": 4506,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
             "id": 4598,
             "categoryId": 520,
             "name": "1st Half",
@@ -5704,22 +4619,6 @@
             ]
         },
         {
-            "id": 10503,
-            "categoryId": 519,
-            "name": "Winner Specials",
-            "componentId": 29,
-            "sortOrder": 10937,
-            "tags": []
-        },
-        {
-            "id": 7503,
-            "categoryId": 519,
-            "name": "Seed to Win",
-            "componentId": 29,
-            "sortOrder": 9902,
-            "tags": []
-        },
-        {
             "id": 13665,
             "categoryId": 1264,
             "name": "Series Spread",
@@ -5824,70 +4723,6 @@
             "tags": []
         },
         {
-            "id": 12990,
-            "categoryId": 519,
-            "name": "Playoff Specials",
-            "componentId": 29,
-            "sortOrder": 10974,
-            "tags": []
-        },
-        {
-            "id": 18024,
-            "categoryId": 1264,
-            "name": "Road Wins",
-            "componentId": 29,
-            "sortOrder": 17984,
-            "tags": []
-        },
-        {
-            "id": 17721,
-            "categoryId": 519,
-            "name": "Advance Further",
-            "componentId": 29,
-            "sortOrder": 10830,
-            "tags": []
-        },
-        {
-            "id": 19721,
-            "categoryId": 1771,
-            "name": "Player Combined Stats",
-            "componentId": 29,
-            "sortOrder": 19678,
-            "tags": []
-        },
-        {
-            "id": 19653,
-            "categoryId": 1933,
-            "name": "Rebounds Leader",
-            "componentId": 29,
-            "sortOrder": 19610,
-            "tags": []
-        },
-        {
-            "id": 19654,
-            "categoryId": 1933,
-            "name": "Assists Leader",
-            "componentId": 29,
-            "sortOrder": 19611,
-            "tags": []
-        },
-        {
-            "id": 19652,
-            "categoryId": 1933,
-            "name": "Threes Leader",
-            "componentId": 29,
-            "sortOrder": 19609,
-            "tags": []
-        },
-        {
-            "id": 19651,
-            "categoryId": 1933,
-            "name": "Points Leaders",
-            "componentId": 29,
-            "sortOrder": 19608,
-            "tags": []
-        },
-        {
             "id": 17936,
             "categoryId": 1264,
             "name": "Undefeated at Home",
@@ -5944,35 +4779,11 @@
             "tags": []
         },
         {
-            "id": 12935,
-            "categoryId": 1255,
-            "name": "Rebounds Leader",
-            "componentId": 29,
-            "sortOrder": 12899,
-            "tags": []
-        },
-        {
-            "id": 12934,
-            "categoryId": 1255,
-            "name": "Assists Leader",
-            "componentId": 29,
-            "sortOrder": 12900,
-            "tags": []
-        },
-        {
             "id": 10700,
             "categoryId": 519,
             "name": "Champion",
             "componentId": 29,
             "sortOrder": 4591,
-            "tags": []
-        },
-        {
-            "id": 18680,
-            "categoryId": 519,
-            "name": "Finals Exact Result",
-            "componentId": 204,
-            "sortOrder": 18637,
             "tags": []
         }
     ],

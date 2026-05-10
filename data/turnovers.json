@@ -14,16 +14,20 @@
                 "OSB",
                 "Broadcast_ABC",
                 "FeaturedSubcategory",
+                "Flashbet",
+                "LiveBoxScore",
                 "MatchTracker",
-                "PrePack",
                 "SGP",
                 "Scoreboard",
                 "SgpDynamicOdds",
                 "Stats",
                 "YourBetEligible",
                 "Broadcast_NBCPeacock",
+                "PrePack",
                 "Broadcast_Prime",
                 "Featured",
+                "HasLiveEvents",
+                "LiveFeaturedSubcategory",
                 "FavoriteableFromPage"
             ],
             "isTeamSwap": true,
@@ -53,7 +57,8 @@
             "name": "Game Lines",
             "sortOrder": 487,
             "tags": [
-                "SGP"
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -67,6 +72,16 @@
             "sortOrder": 521,
             "tags": [
                 "SGP"
+            ]
+        },
+        {
+            "id": 697,
+            "name": "Flash Props",
+            "sortOrder": 522,
+            "tags": [
+                "MicroMarket",
+                "SGP",
+                "Live"
             ]
         },
         {
@@ -213,19 +228,9 @@
             ]
         },
         {
-            "id": 1771,
-            "name": "Specials",
-            "sortOrder": 1767
-        },
-        {
             "id": 1921,
             "name": "Player Prop Specials",
             "sortOrder": 1902
-        },
-        {
-            "id": 1933,
-            "name": "1st Round Props",
-            "sortOrder": 1914
         }
     ],
     "subcategories": [
@@ -278,28 +283,62 @@
             "tags": []
         },
         {
-            "id": 12813,
-            "categoryId": 519,
-            "name": "Exact Round Elimination",
+            "id": 10749,
+            "categoryId": 697,
+            "name": "Next Field Goal - Type",
             "componentId": 29,
-            "sortOrder": 10915,
-            "tags": []
+            "sortOrder": 5986,
+            "tags": [
+                "MicroMarket",
+                "SGP",
+                "Live"
+            ]
         },
         {
-            "id": 19614,
-            "categoryId": 519,
-            "name": "Sweep Specials",
-            "componentId": 204,
-            "sortOrder": 19571,
-            "tags": []
+            "id": 10750,
+            "categoryId": 697,
+            "name": "Next Field Goal",
+            "componentId": 29,
+            "sortOrder": 5984,
+            "tags": [
+                "MicroMarket",
+                "SGP",
+                "Live"
+            ]
         },
         {
-            "id": 19627,
-            "categoryId": 519,
-            "name": "Team O/U ",
+            "id": 12254,
+            "categoryId": 697,
+            "name": "Next Field Goal - Player",
             "componentId": 29,
-            "sortOrder": 19584,
-            "tags": []
+            "sortOrder": 6148,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 15089,
+            "categoryId": 697,
+            "name": "Next Field Goal - Attempt",
+            "componentId": 29,
+            "sortOrder": 6147,
+            "tags": [
+                "MicroMarket",
+                "Live"
+            ]
+        },
+        {
+            "id": 4511,
+            "categoryId": 487,
+            "name": "Game",
+            "componentId": 210,
+            "sortOrder": 4506,
+            "tags": [
+                "Featured",
+                "SGP",
+                "Live"
+            ]
         },
         {
             "id": 10093,
@@ -1812,17 +1851,6 @@
             ]
         },
         {
-            "id": 4511,
-            "categoryId": 487,
-            "name": "Game",
-            "componentId": 210,
-            "sortOrder": 4506,
-            "tags": [
-                "Featured",
-                "SGP"
-            ]
-        },
-        {
             "id": 4598,
             "categoryId": 520,
             "name": "1st Half",
@@ -2062,22 +2090,6 @@
             ]
         },
         {
-            "id": 10503,
-            "categoryId": 519,
-            "name": "Winner Specials",
-            "componentId": 29,
-            "sortOrder": 10937,
-            "tags": []
-        },
-        {
-            "id": 7503,
-            "categoryId": 519,
-            "name": "Seed to Win",
-            "componentId": 29,
-            "sortOrder": 9902,
-            "tags": []
-        },
-        {
             "id": 13665,
             "categoryId": 1264,
             "name": "Series Spread",
@@ -2182,70 +2194,6 @@
             "tags": []
         },
         {
-            "id": 12990,
-            "categoryId": 519,
-            "name": "Playoff Specials",
-            "componentId": 29,
-            "sortOrder": 10974,
-            "tags": []
-        },
-        {
-            "id": 18024,
-            "categoryId": 1264,
-            "name": "Road Wins",
-            "componentId": 29,
-            "sortOrder": 17984,
-            "tags": []
-        },
-        {
-            "id": 17721,
-            "categoryId": 519,
-            "name": "Advance Further",
-            "componentId": 29,
-            "sortOrder": 10830,
-            "tags": []
-        },
-        {
-            "id": 19721,
-            "categoryId": 1771,
-            "name": "Player Combined Stats",
-            "componentId": 29,
-            "sortOrder": 19678,
-            "tags": []
-        },
-        {
-            "id": 19653,
-            "categoryId": 1933,
-            "name": "Rebounds Leader",
-            "componentId": 29,
-            "sortOrder": 19610,
-            "tags": []
-        },
-        {
-            "id": 19654,
-            "categoryId": 1933,
-            "name": "Assists Leader",
-            "componentId": 29,
-            "sortOrder": 19611,
-            "tags": []
-        },
-        {
-            "id": 19652,
-            "categoryId": 1933,
-            "name": "Threes Leader",
-            "componentId": 29,
-            "sortOrder": 19609,
-            "tags": []
-        },
-        {
-            "id": 19651,
-            "categoryId": 1933,
-            "name": "Points Leaders",
-            "componentId": 29,
-            "sortOrder": 19608,
-            "tags": []
-        },
-        {
             "id": 17936,
             "categoryId": 1264,
             "name": "Undefeated at Home",
@@ -2302,35 +2250,11 @@
             "tags": []
         },
         {
-            "id": 12935,
-            "categoryId": 1255,
-            "name": "Rebounds Leader",
-            "componentId": 29,
-            "sortOrder": 12899,
-            "tags": []
-        },
-        {
-            "id": 12934,
-            "categoryId": 1255,
-            "name": "Assists Leader",
-            "componentId": 29,
-            "sortOrder": 12900,
-            "tags": []
-        },
-        {
             "id": 10700,
             "categoryId": 519,
             "name": "Champion",
             "componentId": 29,
             "sortOrder": 4591,
-            "tags": []
-        },
-        {
-            "id": 18680,
-            "categoryId": 519,
-            "name": "Finals Exact Result",
-            "componentId": 204,
-            "sortOrder": 18637,
             "tags": []
         }
     ],
