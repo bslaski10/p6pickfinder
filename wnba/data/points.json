@@ -1,7 +1,10 @@
 {
     "sports": [
         {
-            "id": "2"
+            "id": "2",
+            "seoIdentifier": "Basketball",
+            "name": "Basketball",
+            "sortOrder": 59
         }
     ],
     "leagues": [
@@ -9,24 +12,937 @@
             "id": "94682",
             "name": "WNBA",
             "sportId": "2",
-            "sortOrder": 9426,
+            "sortOrder": 4875,
             "tags": [
+                "OSB",
+                "FeaturedSubcategory",
+                "MatchTracker",
+                "PrePack",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible",
+                "Featured",
                 "FavoriteableFromPage"
             ],
-            "isTeamSwap": true
+            "isTeamSwap": true,
+            "featured": true,
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "mediaType": "MatchTracker"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "mediaType": "Scoreboard"
+                }
+            ]
         }
     ],
-    "events": [],
-    "markets": [],
-    "selections": [],
+    "events": [
+        {
+            "id": "34144246",
+            "seoIdentifier": "LV Aces @ ATL Dream",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "LV Aces @ ATL Dream",
+            "startEventDate": "2026-05-17T17:30:00.0000000Z",
+            "participants": [
+                {
+                    "id": "36121",
+                    "name": "ATL Dream",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "687",
+                        "rosettaTeamId": "36121",
+                        "rosettaTeamName": "Dream",
+                        "shortName": "ATL"
+                    },
+                    "sortOrder": 2,
+                    "seoIdentifier": "Dream",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                },
+                {
+                    "id": "36136",
+                    "name": "LV Aces",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "686",
+                        "rosettaTeamId": "36136",
+                        "rosettaTeamName": "Aces",
+                        "shortName": "LV"
+                    },
+                    "sortOrder": 1,
+                    "seoIdentifier": "Aces",
+                    "isNationalTeam": false,
+                    "countryCode": "US"
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "NOT_STARTED",
+            "eventScorecard": {
+                "scorecardComponentId": 1
+            },
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "68096088",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "68096088",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "68096088",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "MatchTracker",
+                "OSB",
+                "PrePack",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible"
+            ],
+            "metadata": {
+                "masterLeagueId": "676",
+                "numberOfParts": "4",
+                "secondsInOnePart": "600"
+            },
+            "sortOrder": 230073046,
+            "subscriptionKey": "league-events-94682"
+        }
+    ],
+    "markets": [
+        {
+            "id": "335053077",
+            "eventId": "34144246",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "A'ja Wilson Points O/U",
+            "subcategoryId": 12488,
+            "marketType": {
+                "id": "3559",
+                "betOfferTypeId": 0,
+                "name": "Points O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 1,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "OSB",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "335051673",
+            "eventId": "34144246",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "Allisha Gray Points O/U",
+            "subcategoryId": 12488,
+            "marketType": {
+                "id": "3559",
+                "betOfferTypeId": 0,
+                "name": "Points O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 2,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "OSB",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "335052520",
+            "eventId": "34144246",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "Rhyne Howard Points O/U",
+            "subcategoryId": 12488,
+            "marketType": {
+                "id": "3559",
+                "betOfferTypeId": 0,
+                "name": "Points O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 3,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "OSB",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "335054420",
+            "eventId": "34144246",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "Jackie Young Points O/U",
+            "subcategoryId": 12488,
+            "marketType": {
+                "id": "3559",
+                "betOfferTypeId": 0,
+                "name": "Points O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 4,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "OSB",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "335054359",
+            "eventId": "34144246",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "Chennedy Carter Points O/U",
+            "subcategoryId": 12488,
+            "marketType": {
+                "id": "3559",
+                "betOfferTypeId": 0,
+                "name": "Points O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 5,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "OSB",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "335051952",
+            "eventId": "34144246",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "Angel Reese Points O/U",
+            "subcategoryId": 12488,
+            "marketType": {
+                "id": "3559",
+                "betOfferTypeId": 0,
+                "name": "Points O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 6,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "OSB",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "335054119",
+            "eventId": "34144246",
+            "sportId": "2",
+            "leagueId": "94682",
+            "name": "Chelsea Gray Points O/U",
+            "subcategoryId": 12488,
+            "marketType": {
+                "id": "3559",
+                "betOfferTypeId": 0,
+                "name": "Points O/U"
+            },
+            "subscriptionKey": "league-events-94682",
+            "sortOrder": 7,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "OSB",
+                "PlayerProps"
+            ],
+            "dynamicMetadata": {}
+        }
+    ],
+    "selections": [
+        {
+            "id": "0QA335054119#2153723012_13L94682Q1154858Q20",
+            "marketId": "335054119",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 10.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "50851",
+                    "name": "Chelsea Gray",
+                    "type": "Player",
+                    "seoIdentifier": "Chelsea Gray",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "154858"
+                    }
+                }
+            ],
+            "sortOrder": 10500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA335054119#2153723013_15L94682Q1154858Q20",
+            "marketId": "335054119",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 10.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "50851",
+                    "name": "Chelsea Gray",
+                    "type": "Player",
+                    "seoIdentifier": "Chelsea Gray",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "154858"
+                    }
+                }
+            ],
+            "sortOrder": 10502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA335051952#2153722477_13L94682Q1161026Q20",
+            "marketId": "335051952",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 12.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "786492",
+                    "name": "Angel Reese",
+                    "type": "Player",
+                    "seoIdentifier": "Angel Reese",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "161026"
+                    }
+                }
+            ],
+            "sortOrder": 12500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA335051952#2153722478_15L94682Q1161026Q20",
+            "marketId": "335051952",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 12.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "786492",
+                    "name": "Angel Reese",
+                    "type": "Player",
+                    "seoIdentifier": "Angel Reese",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "161026"
+                    }
+                }
+            ],
+            "sortOrder": 12502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA335054359#2153723423_13L94682Q1179976Q20",
+            "marketId": "335054359",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−105",
+                "decimal": "1.95",
+                "fractional": "20/21"
+            },
+            "trueOdds": 1.95238096,
+            "points": 15.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "485136",
+                    "name": "Chennedy Carter",
+                    "type": "Player",
+                    "seoIdentifier": "Chennedy Carter",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "179976"
+                    }
+                }
+            ],
+            "sortOrder": 15500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA335054420#2153723521_13L94682Q1125024Q20",
+            "marketId": "335054420",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 15.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "50842",
+                    "name": "Jackie Young",
+                    "type": "Player",
+                    "seoIdentifier": "Jackie Young",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "125024"
+                    }
+                }
+            ],
+            "sortOrder": 15500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA335054359#2153723424_15L94682Q1179976Q20",
+            "marketId": "335054359",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−125",
+                "decimal": "1.80",
+                "fractional": "4/5"
+            },
+            "trueOdds": 1.8,
+            "points": 15.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "485136",
+                    "name": "Chennedy Carter",
+                    "type": "Player",
+                    "seoIdentifier": "Chennedy Carter",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "179976"
+                    }
+                }
+            ],
+            "sortOrder": 15502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "3rdFavorite",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA335054420#2153723522_15L94682Q1125024Q20",
+            "marketId": "335054420",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 15.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "50842",
+                    "name": "Jackie Young",
+                    "type": "Player",
+                    "seoIdentifier": "Jackie Young",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "125024"
+                    }
+                }
+            ],
+            "sortOrder": 15502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA335052520#2153723740_13L94682Q1162434Q20",
+            "marketId": "335052520",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 17.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "639191",
+                    "name": "Rhyne Howard",
+                    "type": "Player",
+                    "seoIdentifier": "Rhyne Howard",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "162434"
+                    }
+                }
+            ],
+            "sortOrder": 17500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA335052520#2153723741_15L94682Q1162434Q20",
+            "marketId": "335052520",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 17.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "639191",
+                    "name": "Rhyne Howard",
+                    "type": "Player",
+                    "seoIdentifier": "Rhyne Howard",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "162434"
+                    }
+                }
+            ],
+            "sortOrder": 17502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "2ndFavorite",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA335051673#2153722269_13L94682Q1162436Q20",
+            "marketId": "335051673",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 18.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "50809",
+                    "name": "Allisha Gray",
+                    "type": "Player",
+                    "seoIdentifier": "Allisha Gray",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "162436"
+                    }
+                }
+            ],
+            "sortOrder": 18500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA335051673#2153722270_15L94682Q1162436Q20",
+            "marketId": "335051673",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 18.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "50809",
+                    "name": "Allisha Gray",
+                    "type": "Player",
+                    "seoIdentifier": "Allisha Gray",
+                    "venueRole": "HomePlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "162436"
+                    }
+                }
+            ],
+            "sortOrder": 18502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA335053077#2153722018_13L94682Q1154857Q20",
+            "marketId": "335053077",
+            "label": "Over",
+            "displayOdds": {
+                "american": "−120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 23.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "50839",
+                    "name": "A'ja Wilson",
+                    "type": "Player",
+                    "seoIdentifier": "A'ja Wilson",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "154857"
+                    }
+                }
+            ],
+            "sortOrder": 23500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        },
+        {
+            "id": "0QA335053077#2153722019_15L94682Q1154857Q20",
+            "marketId": "335053077",
+            "label": "Under",
+            "displayOdds": {
+                "american": "−110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 23.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "50839",
+                    "name": "A'ja Wilson",
+                    "type": "Player",
+                    "seoIdentifier": "A'ja Wilson",
+                    "venueRole": "AwayPlayer",
+                    "isNationalTeam": false,
+                    "metadata": {
+                        "sdid": "154857"
+                    }
+                }
+            ],
+            "sortOrder": 23502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite",
+                "OSB"
+            ],
+            "main": true,
+            "metadata": {}
+        }
+    ],
     "categories": [
+        {
+            "id": 487,
+            "name": "Game Lines",
+            "sortOrder": 487,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 1215,
+            "name": "Player Points",
+            "sortOrder": 523,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 521,
+            "name": "Game Props",
+            "sortOrder": 1002
+        },
+        {
+            "id": 523,
+            "name": "Team Props",
+            "sortOrder": 1003
+        },
         {
             "id": 519,
             "name": "Team Futures",
-            "sortOrder": 36
+            "sortOrder": 1027
+        },
+        {
+            "id": 1017,
+            "name": "Wins/Playoffs",
+            "sortOrder": 1070
+        },
+        {
+            "id": 1894,
+            "name": "Playoffs",
+            "sortOrder": 1875
         }
     ],
     "subcategories": [
+        {
+            "id": 17836,
+            "categoryId": 519,
+            "name": "Commissioner's Cup",
+            "componentId": 29,
+            "sortOrder": 17793,
+            "tags": []
+        },
+        {
+            "id": 18692,
+            "categoryId": 1894,
+            "name": "To Make the Playoffs",
+            "componentId": 29,
+            "sortOrder": 18649,
+            "tags": []
+        },
+        {
+            "id": 14646,
+            "categoryId": 1017,
+            "name": "Regular Season Wins",
+            "componentId": 29,
+            "sortOrder": 9742,
+            "tags": []
+        },
+        {
+            "id": 10254,
+            "categoryId": 521,
+            "name": "Largest Lead",
+            "componentId": 29,
+            "sortOrder": 4612,
+            "tags": []
+        },
+        {
+            "id": 12219,
+            "categoryId": 521,
+            "name": "Wire to Wire",
+            "componentId": 29,
+            "sortOrder": 10059,
+            "tags": []
+        },
+        {
+            "id": 12237,
+            "categoryId": 521,
+            "name": "Margin Parlays",
+            "componentId": 204,
+            "sortOrder": 15314,
+            "tags": []
+        },
+        {
+            "id": 12488,
+            "categoryId": 1215,
+            "name": "Points O/U",
+            "componentId": 8,
+            "sortOrder": 12452,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": 16477,
+            "categoryId": 1215,
+            "name": "Points",
+            "componentId": 331,
+            "sortOrder": 12450,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 16727,
+            "categoryId": 523,
+            "name": "Both Team Total Points",
+            "componentId": 240,
+            "sortOrder": 16684,
+            "tags": []
+        },
+        {
+            "id": 4511,
+            "categoryId": 487,
+            "name": "Game",
+            "componentId": 210,
+            "sortOrder": 4506,
+            "tags": [
+                "Featured",
+                "SGP"
+            ]
+        },
+        {
+            "id": 4734,
+            "categoryId": 521,
+            "name": "Race to X Points",
+            "componentId": 29,
+            "sortOrder": 4605,
+            "tags": [
+                "Featured"
+            ]
+        },
         {
             "id": 10700,
             "categoryId": 519,
@@ -34,23 +950,92 @@
             "componentId": 29,
             "sortOrder": 4591,
             "tags": []
+        },
+        {
+            "id": 17404,
+            "categoryId": 519,
+            "name": "To Make Specific Round",
+            "componentId": 29,
+            "sortOrder": 17398,
+            "tags": []
+        },
+        {
+            "id": 18694,
+            "categoryId": 1894,
+            "name": "#1 Seed",
+            "componentId": 29,
+            "sortOrder": 18651,
+            "tags": []
+        },
+        {
+            "id": 18696,
+            "categoryId": 1894,
+            "name": "#2 Seed",
+            "componentId": 29,
+            "sortOrder": 18653,
+            "tags": []
+        },
+        {
+            "id": 18697,
+            "categoryId": 1894,
+            "name": "#3 Seed",
+            "componentId": 29,
+            "sortOrder": 18654,
+            "tags": []
+        },
+        {
+            "id": 18698,
+            "categoryId": 1894,
+            "name": "#4 Seed",
+            "componentId": 29,
+            "sortOrder": 18655,
+            "tags": []
+        },
+        {
+            "id": 18700,
+            "categoryId": 1894,
+            "name": "#5 Seed",
+            "componentId": 29,
+            "sortOrder": 18657,
+            "tags": []
+        },
+        {
+            "id": 18701,
+            "categoryId": 1894,
+            "name": "#6 Seed",
+            "componentId": 29,
+            "sortOrder": 18658,
+            "tags": []
+        },
+        {
+            "id": 18702,
+            "categoryId": 1894,
+            "name": "#7 Seed",
+            "componentId": 29,
+            "sortOrder": 18659,
+            "tags": []
+        },
+        {
+            "id": 18703,
+            "categoryId": 1894,
+            "name": "#8 Seed",
+            "componentId": 29,
+            "sortOrder": 18660,
+            "tags": []
         }
     ],
     "subscriptionPartials": {
         "league-events-94682": {
             "entity": "events",
             "query": "$filter=leagueId eq '94682' and clientMetadata/Subcategories/any(s: s/Id eq '12488')&$orderBy=startEventDate asc",
-            "includeMarkets": "$filter=tags/all(t: t ne 'SportcastBetBuilder') and clientMetadata/subCategoryId eq '12488' and clientMetadata/categoryId eq '1215'",
-            "locale": "en"
+            "includeMarkets": "$filter=tags/all(t: t ne 'SportcastBetBuilder') and clientMetadata/subCategoryId eq '12488'"
         },
         "lcc-event-": {
-            "entity": "LiveContentCardEvent",
-            "locale": "en"
+            "entity": "LiveContentCardEvent"
         },
         "cc-event-": {
             "contentCardType": "All",
-            "entity": "ContentCardEvent",
-            "locale": "en"
+            "entity": "ContentCardEvent"
         }
     }
 }
