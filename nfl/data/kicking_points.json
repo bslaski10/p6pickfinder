@@ -5,10 +5,10 @@
     "markets": [],
     "selections": [],
     "subscriptionPartials": {
-        "events-685306695": {
+        "events--432334147": {
             "entity": "events",
             "query": "$filter=leagueId eq '88808' AND clientMetadata/Subcategories/any(s: s/Id eq '17062') and tags/any(t: t eq 'OSB')",
-            "includeMarkets": "$filter=clientMetadata/subCategoryId eq '17062' AND tags/all(t: t ne 'SportcastBetBuilder')",
+            "includeMarkets": "$filter=clientMetadata/subCategoryId eq '17062' AND tags/all(t: t ne 'SportcastBetBuilder') and tags/any(t: t eq 'OSB')",
             "locale": "en"
         }
     }
