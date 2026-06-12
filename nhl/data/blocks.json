@@ -51,7 +51,7 @@
             "sportId": "8",
             "leagueId": "42133",
             "name": "VGK Golden Knights @ CAR Hurricanes",
-            "startEventDate": "2026-06-12T00:10:00.0000000Z",
+            "startEventDate": "2026-06-12T00:20:00.0000000Z",
             "participants": [
                 {
                     "id": "35712",
@@ -132,35 +132,11 @@
                 "numberOfParts": "3",
                 "secondsInOnePart": "1200"
             },
-            "sortOrder": 233713091,
+            "sortOrder": 233714091,
             "subscriptionKey": "league-events-42133"
         }
     ],
     "markets": [
-        {
-            "id": "341572419",
-            "eventId": "34263691",
-            "sportId": "8",
-            "leagueId": "42133",
-            "name": "Noah Hanifin Blocks O/U",
-            "subcategoryId": 16257,
-            "marketType": {
-                "id": "12423",
-                "betOfferTypeId": 0,
-                "name": "Player Blocks O/U"
-            },
-            "subscriptionKey": "league-events-42133",
-            "sortOrder": 1,
-            "tags": [
-                "Cashout",
-                "IgnoreSortOrderOnPush",
-                "MicroMarketDelayRemoval",
-                "OSB",
-                "PlayerProps"
-            ],
-            "correlatedId": "34263691|12423|2:59140",
-            "dynamicMetadata": {}
-        },
         {
             "id": "341572466",
             "eventId": "34263691",
@@ -174,7 +150,7 @@
                 "name": "Player Blocks O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 2,
+            "sortOrder": 1,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -198,7 +174,7 @@
                 "name": "Player Blocks O/U"
             },
             "subscriptionKey": "league-events-42133",
-            "sortOrder": 3,
+            "sortOrder": 2,
             "tags": [
                 "Cashout",
                 "IgnoreSortOrderOnPush",
@@ -207,6 +183,30 @@
                 "PlayerProps"
             ],
             "correlatedId": "34263691|12423|2:59234",
+            "dynamicMetadata": {}
+        },
+        {
+            "id": "341572419",
+            "eventId": "34263691",
+            "sportId": "8",
+            "leagueId": "42133",
+            "name": "Noah Hanifin Blocks O/U",
+            "subcategoryId": 16257,
+            "marketType": {
+                "id": "12423",
+                "betOfferTypeId": 0,
+                "name": "Player Blocks O/U"
+            },
+            "subscriptionKey": "league-events-42133",
+            "sortOrder": 3,
+            "tags": [
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "OSB",
+                "PlayerProps"
+            ],
+            "correlatedId": "34263691|12423|2:59140",
             "dynamicMetadata": {}
         },
         {
@@ -558,11 +558,11 @@
             "marketId": "341796308",
             "label": "Over",
             "displayOdds": {
-                "american": "−145",
-                "decimal": "1.68",
-                "fractional": "20/29"
+                "american": "−135",
+                "decimal": "1.74",
+                "fractional": "20/27"
             },
-            "trueOdds": 1.68965518,
+            "trueOdds": 1.74074075,
             "points": 1.5,
             "outcomeType": "Over",
             "participants": [
@@ -795,11 +795,11 @@
             "marketId": "341796308",
             "label": "Under",
             "displayOdds": {
-                "american": "+114",
-                "decimal": "2.14",
-                "fractional": "57/50"
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
             },
-            "trueOdds": 2.14,
+            "trueOdds": 2.05,
             "points": 1.5,
             "outcomeType": "Under",
             "participants": [
@@ -834,11 +834,11 @@
             "marketId": "341572419",
             "label": "Over",
             "displayOdds": {
-                "american": "+120",
-                "decimal": "2.20",
-                "fractional": "6/5"
+                "american": "+124",
+                "decimal": "2.24",
+                "fractional": "31/25"
             },
-            "trueOdds": 2.2,
+            "trueOdds": 2.24,
             "points": 2.5,
             "outcomeType": "Over",
             "participants": [
@@ -863,7 +863,7 @@
             "sortOrder": 2500,
             "tags": [
                 "MainPointLine",
-                "1stFavorite",
+                "2ndFavorite",
                 "OSB"
             ],
             "main": true,
@@ -903,7 +903,7 @@
             "sortOrder": 2500,
             "tags": [
                 "MainPointLine",
-                "2ndFavorite",
+                "1stFavorite",
                 "OSB"
             ],
             "main": true,
@@ -954,11 +954,11 @@
             "marketId": "341572419",
             "label": "Under",
             "displayOdds": {
-                "american": "−154",
-                "decimal": "1.64",
-                "fractional": "50/77"
+                "american": "−160",
+                "decimal": "1.62",
+                "fractional": "5/8"
             },
-            "trueOdds": 1.64935065,
+            "trueOdds": 1.625,
             "points": 2.5,
             "outcomeType": "Under",
             "participants": [
@@ -983,7 +983,7 @@
             "sortOrder": 2502,
             "tags": [
                 "MainPointLine",
-                "1stFavorite",
+                "2ndFavorite",
                 "OSB"
             ],
             "main": true,
@@ -1023,7 +1023,7 @@
             "sortOrder": 2502,
             "tags": [
                 "MainPointLine",
-                "2ndFavorite",
+                "1stFavorite",
                 "OSB"
             ],
             "main": true,
@@ -1285,6 +1285,40 @@
             "tags": []
         },
         {
+            "id": 13031,
+            "categoryId": 1259,
+            "name": "Opening Faceoff Winner",
+            "componentId": 29,
+            "sortOrder": 12993,
+            "tags": []
+        },
+        {
+            "id": 13032,
+            "categoryId": 1259,
+            "name": "First to 5 Shots on Goal",
+            "componentId": 29,
+            "sortOrder": 12994,
+            "tags": [
+                "Featured"
+            ]
+        },
+        {
+            "id": 13033,
+            "categoryId": 1259,
+            "name": "First Shot on Goal",
+            "componentId": 29,
+            "sortOrder": 12995,
+            "tags": []
+        },
+        {
+            "id": 13034,
+            "categoryId": 1259,
+            "name": "First Power Play",
+            "componentId": 29,
+            "sortOrder": 13710,
+            "tags": []
+        },
+        {
             "id": 13189,
             "categoryId": 496,
             "name": "Alternate Puck Line",
@@ -1457,6 +1491,46 @@
             ]
         },
         {
+            "id": 16595,
+            "categoryId": 1259,
+            "name": "First Goal Strength",
+            "componentId": 29,
+            "sortOrder": 16553,
+            "tags": []
+        },
+        {
+            "id": 16597,
+            "categoryId": 1259,
+            "name": "First Team Goal Strength",
+            "componentId": 29,
+            "sortOrder": 16555,
+            "tags": []
+        },
+        {
+            "id": 16598,
+            "categoryId": 1259,
+            "name": "Team First Power Play",
+            "componentId": 29,
+            "sortOrder": 16556,
+            "tags": []
+        },
+        {
+            "id": 16599,
+            "categoryId": 1259,
+            "name": "Shots in 1st Two Minutes",
+            "componentId": 29,
+            "sortOrder": 16572,
+            "tags": []
+        },
+        {
+            "id": 16615,
+            "categoryId": 1259,
+            "name": "First Goal Exact",
+            "componentId": 204,
+            "sortOrder": 16631,
+            "tags": []
+        },
+        {
             "id": 16716,
             "categoryId": 1193,
             "name": "Team Total Goals",
@@ -1592,6 +1666,14 @@
             "tags": [
                 "SGP"
             ]
+        },
+        {
+            "id": 18073,
+            "categoryId": 1259,
+            "name": "Player First Shot on Goal",
+            "componentId": 29,
+            "sortOrder": 18030,
+            "tags": []
         },
         {
             "id": 18750,
